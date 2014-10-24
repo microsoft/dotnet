@@ -3,7 +3,7 @@
 This repository is the starting point to learn about [.NET open source projects](https://github.com/Microsoft?query=dotnet) on GitHub. 
 
 ## What are these Projects?
-These projects, in aggregate, contain the source code for Microsoft's .NET Core product, which provides the base runtime and framework of ASP.NET Core 5. Each one of the projects includes the source for one of the [.NET NuGet packages](http://www.nuget.org/profiles/dotnetframework) that is part of .NET Core 5.       
+These [projects](https://github.com/Microsoft?query=dotnet) will, in aggregate, contain all of the source code for Microsoft's .NET Core product, which provides the base runtime and framework of ASP.NET Core 5. Each one of the projects includes the source for one of the [.NET NuGet packages](http://www.nuget.org/profiles/dotnetframework) that is part of .NET Core 5. We are in the process of making all of .NET Core 5 available as open source on GitHub, however, most of it is still coming..      
 
 ## Contributing
 
@@ -19,5 +19,4 @@ All projects are have been contributed to the [.NET Foundation](http://www.dotne
 
 ## Feedback
 
-Check out the [Contributing Guide](CONTRIBUTING.md) to see the best places to
-log issues and start discussions.
+Check out the [Contributing Guide](CONTRIBUTING.md) to see the best places to log issues and start discussions.

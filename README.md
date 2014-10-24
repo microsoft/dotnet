@@ -1,13 +1,18 @@
 # .NET Home
 
-This repository is the starting point to learn about [.NET open source projects](https://github.com/Microsoft?query=dotnet) on GitHub. 
+The .NET Home repository is the starting point to engage in and learn about [.NET open source projects](https://github.com/Microsoft?query=dotnet) on GitHub. You read the more detailed [Introduction to .NET Open Source](http://blogs.msdn.com/dotnet) on the .NET blog.
 
 ## What are these Projects?
-These [projects](https://github.com/Microsoft?query=dotnet) will, in aggregate, contain all of the source code for Microsoft's .NET Core product, which provides the base runtime and framework of ASP.NET Core 5. Each one of the projects includes the source for one of the [.NET NuGet packages](http://www.nuget.org/profiles/dotnetframework) that is part of .NET Core 5. We are in the process of making all of .NET Core 5 available as open source on GitHub, however, most of it is still coming..      
+
+These [projects](https://github.com/Microsoft?query=dotnet) will contain the source code for Microsoft's .NET Core  5 product. Each one of these projects contains the source for a [.NET NuGet package](http://www.nuget.org/profiles/dotnetframework) that is part of .NET Core 5. A few higher-level libraries (ex: [SIMD](http://github.com/microsoft/dotnet-simd)) are available now, and the rest will be added in the coming months. 
+
+## What are ASP.NET Core 5 and .NET Core 5?
+ 
+[ASP.NET Core 5](https://github.com/aspnet/home) is a new version of ASP.NET that runs on Windows, Linux and Mac. .NET Core 5 provides the cross-platform runtime and framework for ASP.NET Core 5. ASP.NET Core 5 and .NET Core 5 are open source on GitHub. 
 
 ## Contributing
 
-All projects (gladly) accept PRs and other contributions. See [Contributing Guide](CONTRIBUTING.md).
+All projects (gladly) accept PRs and other contributions. See the [Contributing Guide](CONTRIBUTING.md).
 
 ## License
 

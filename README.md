@@ -1,16 +1,21 @@
 # .NET Home
 
-The repository is the starting point for people to learn about the .NET open
-source projects.
+This repository is the starting point to learn about [.NET open source projects](https://github.com/Microsoft?query=dotnet) on GitHub. 
+
+## What are these Projects?
+These projects, in aggregate, contain the source code for Microsoft's .NET Core product, which provides the base runtime and framework of ASP.NET Core 5. Each one of the projects includes the source for one of the [.NET NuGet packages](http://www.nuget.org/profiles/dotnetframework) that is part of .NET Core 5.       
 
 ## Contributing
 
-See [Contributing Guide](CONTRIBUTING.md).
+All projects (gladly) accept PRs and other contributions. See [Contributing Guide](CONTRIBUTING.md).
 
 ## License
 
-All [.NET projects](https://github.com/Microsoft?query=dotnet) are licensed
-under the [MIT License](LICENSE).
+All projects are licensed under the [MIT License](LICENSE) for code. Some projects license documentation and other forms of content under [Creative Comments Attribution 4.0](http://creativecommons.org/licenses/by/4.0/).
+
+## .NET Foundation
+
+All projects are have been contributed to the [.NET Foundation](http://www.dotnetfoundation.org/projects) as the [.NET Core 5 project](http://www.dotnetfoundation.org/prjaspnetvnext.aspx). 
 
 ## Feedback
 

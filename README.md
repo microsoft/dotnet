@@ -45,8 +45,7 @@ open source .NET community projects on GitHub and Codeplex, including the
 ASP.NET Core 5 is a new cross-platform version of ASP.NET that is designed for
 the cloud. It uses the .NET Core 5 runtime and framework, which runs on Windows,
 Linux and Mac. [ASP.NET Core 5](https://github.com/aspnet/home) and
-[.NET Core 5 libraries](https://github.com/Microsoft?query=dotnet) are open
-source on GitHub. At present, only a few [.NET Core 5 libraries](https://github.com/Microsoft?query=dotnet)
-(ex: [SIMD](http://github.com/microsoft/dotnet-simd)) have been posted on
-GitHub. The rest of the libraries including the base runtime will be added in
-the coming months.
+[.NET Core 5 libraries](https://github.com/Microsoft/dotnet-corefx) are open
+source on GitHub. At present, only a few libraries are available on GitHub. The
+rest of the libraries, including the base runtime, will be added in the coming
+months.

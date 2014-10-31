@@ -33,7 +33,7 @@ more generally in the [.NET Foundation forums](http://www.dotnetfoundation.org/)
 There are several open source .NET projects from Microsoft on GitHub, including
 [ASP.NET 5](https://github.com/aspnet/home), [EntityFramework](https://github.com/aspnet/EntityFramework)and [.NET Core 5](https://github.com/Microsoft/dotnet-corefx). Each one of these projects maps to one or more [.NET NuGet package](http://blogs.msdn.com/b/dotnet/p/nugetpackages.aspx) that are published on [NuGet.org](http://nuget.org/).
 
-There are other .NET projects from Microsoft on CodePlex, such as [Rosyln](https://roslyn.codeplex.com).
+There are other .NET projects from Microsoft on CodePlex, such as [.NET Compiler Platform ("Roslyn")](https://roslyn.codeplex.com).
 
 They are also many great open source .NET community projects, including the [Mono Project](https://github.com/mono/) and [JSON.NET](http://json.codeplex.com/).
 

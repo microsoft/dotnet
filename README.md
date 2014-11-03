@@ -31,7 +31,7 @@ more generally in the [.NET Foundation forums](http://www.dotnetfoundation.org/)
 ## Finding .NET Open Source Projects
 
 There are several open source .NET projects from Microsoft on GitHub, including
-[ASP.NET 5](https://github.com/aspnet/home), [EntityFramework](https://github.com/aspnet/EntityFramework)and [.NET Core 5](https://github.com/Microsoft/dotnet-corefx). Each one of these projects maps to one or more [.NET NuGet package](http://blogs.msdn.com/b/dotnet/p/nugetpackages.aspx) that are published on [NuGet.org](http://nuget.org/).
+[ASP.NET 5](https://github.com/aspnet/home), [EntityFramework](https://github.com/aspnet/EntityFramework) and [.NET Core 5](https://github.com/Microsoft/dotnet-corefx). Each one of these projects maps to one or more [.NET NuGet package](http://blogs.msdn.com/b/dotnet/p/nugetpackages.aspx) that are published on [NuGet.org](http://nuget.org/).
 
 There are other .NET projects from Microsoft on CodePlex, such as [.NET Compiler Platform ("Roslyn")](https://roslyn.codeplex.com).
 
@@ -47,6 +47,6 @@ An important collaboration opportunity is making .NET Core NuGet packages (produ
 ## Learning about ASP.NET Core 5 and .NET Core 5
 
 ASP.NET Core 5 is a new cross-platform version of ASP.NET that is designed for
-the cloud, and runs on Windows, Linux and Mac. It uses the .NET Core 5 runtime and framework for running on Windows. It currently uses Mono for Linux and Mac support but will move to .NET Core 5 for those platforms when they are supported. 
+the cloud, and runs on Windows, Linux and Mac. It uses the .NET Core 5 runtime and framework for running on Windows. It currently uses Mono for Linux and Mac support but will move to .NET Core 5 for those platforms when they are supported.
 
 [ASP.NET Core 5](https://github.com/aspnet/home) and [.NET Core 5 libraries](https://github.com/Microsoft/dotnet-corefx) are open source on GitHub. At present, only a few libraries are available on GitHub. The rest of the libraries, including the base runtime, will be added in the coming months.

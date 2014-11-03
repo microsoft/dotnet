@@ -46,12 +46,18 @@ They are also many great open source .NET community projects, such as:
 * [Mono Project](https://github.com/mono/)
 * [JSON.NET](http://json.codeplex.com/)
 
+
+## Understanding the Relationship between .NET Core and the .NET Framework
+
+.NET Core and the .NET Framework (for the most part) have a subset-superset relationship. .NET Core is named as "Core" since it contains the core features from the .NET Framework, for both the runtime and framework libraries. For example, .NET Core and the .NET Framework share the GC, the JIT and types such as String and List<T>. We'll continue improving these components for both .NET Core and .NET Framework.
+
+.NET Core was created so that .NET could be open source, cross platform and be used in more resource-constrained environments. We have also published [.NET Reference Source](http://sourceof.net), so that the community can port the features .NET Frameworks that you care about.
+
 ## Understanding the Relationship between .NET Core and Mono
 
 Mono is an important part of the .NET ecosystem, particularly for client scenarios (ex: Xamarin). We will look for ways to collaborate with Mono developers and encourage them to take our code to improve Mono. We will also look for opportunities to improve .NET Core with MIT-licensed Mono code.
 
 An important collaboration opportunity is making .NET Core NuGet packages (produced from this code) work on Mono. The SIMD NuGet package is a perfect example.
-
 
 ## Learning about ASP.NET Core 5 and .NET Core 5
 

@@ -51,7 +51,7 @@ They are also many great open source .NET community projects, such as:
 
 .NET Core and the .NET Framework (for the most part) have a subset-superset relationship. .NET Core is named as "Core" since it contains the core features from the .NET Framework, for both the runtime and framework libraries. For example, .NET Core and the .NET Framework share the GC, the JIT and types such as String and List<T>. We'll continue improving these components for both .NET Core and .NET Framework.
 
-.NET Core was created so that .NET could be open source, cross platform and be used in more resource-constrained environments. We have also published [.NET Reference Source](http://sourceof.net), so that the community can port the features .NET Frameworks that you care about.
+.NET Core was created so that .NET could be open source, cross platform and be used in more resource-constrained environments. We have also published [.NET Reference Source](http://sourceof.net), so that you and the community can port additional .NET Framework features to .NET Core.
 
 ## Understanding the Relationship between .NET Core and Mono
 

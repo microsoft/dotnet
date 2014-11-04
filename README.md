@@ -45,6 +45,9 @@ They are also many great open source .NET community projects, such as:
 
 * [Mono Project](https://github.com/mono/)
 * [JSON.NET](http://json.codeplex.com/)
+* [MVVM Cross](https://github.com/MvvmCross/MvvmCross)
+* [MVVM Light Toolkit](http://www.mvvmlight.net)
+* [Glimpse](http://getglimpse.com)
 
 ## Understanding the Relationship between .NET Core and Mono
 

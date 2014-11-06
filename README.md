@@ -1,13 +1,13 @@
 # .NET Home
 
 The dotnet repository is the starting point to engage in and learn about .NET
-open source projects from Microsoft and part of the .NET Foundation. You can
+open source projects from Microsoft and the .NET Foundation. You can
 read the more detailed [Introduction to .NET Open Source](http://blogs.msdn.com/dotnet)
 on the .NET blog.
 
 ## License
 
-All .NET open source projects are licensed under either the [MIT](LICENSE) or
+These .NET open source projects typically use either the [MIT](LICENSE) or
 [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) licenses for code. Some
 projects license documentation and other forms of content under
 [Creative Commons Attribution 4.0](http://creativecommons.org/licenses/by/4.0/).
@@ -17,16 +17,14 @@ See specific projects to understand the license used.
 
 All projects have been contributed to the [.NET Foundation](http://www.dotnetfoundation.org/projects). There are two main .NET Foundation projects for Microsoft open source projects:
 [ASP.NET Core 5 project](http://www.dotnetfoundation.org/prjaspnetvnext.aspx)
-and the [.NET Core 5 project](http://www.dotnetfoundation.org/prjaspnetvnext.aspx).
+and the [.NET Core 5 project](https://github.com/microsoft/dotnet-corefx).
 
 ## How to Engage, Contribute and Provide Feedback
 
 All projects (gladly) accept PRs and other contributions. To contribute to
 ASP.NET 5 or EntityFramework, see [the ASP.NET Contributing Guide](https://github.com/aspnet/Home/blob/master/CONTRIBUTING.md). To contribute to .NET Core 5, see the [.NET Core Contributing Guide](CONTRIBUTING.md).
 
-You are also encouraged to start a discussion by filing an issue or creating a
-gist. See the contributing guides for more details. You can discuss .NET OSS
-more generally in the [.NET Foundation forums](http://www.dotnetfoundation.org/).
+You are also encouraged to start a discussion by posting on the [.NET Foundation Forums](http://forums.dotnetfoundation.org/) or filing an issue in the corresponding GitHub project. See the contributing guides for more details.
 
 ## Finding .NET Open Source Projects
 
@@ -38,7 +36,7 @@ CodePlex:
 * [.NET Core 5](https://github.com/Microsoft/dotnet-corefx)
 * [.NET Compiler Platform ("Roslyn")](https://roslyn.codeplex.com)
 
-Each one of these projects maps to one or more [.NET NuGet package](http://blogs.msdn.com/b/dotnet/p/nugetpackages.aspx)
+Each one of these projects maps to one or more [.NET NuGet packages](http://blogs.msdn.com/b/dotnet/p/nugetpackages.aspx)
 that are published on [NuGet.org](http://nuget.org/).
 
 They are also many great open source .NET community projects, such as:
@@ -52,9 +50,9 @@ They are also many great open source .NET community projects, such as:
 
 ## Understanding the Relationship between .NET Core and the .NET Framework
 
-.NET Core and the .NET Framework (for the most part) have a subset-superset relationship. .NET Core is named as "Core" since it contains the core features from the .NET Framework, for both the runtime and framework libraries. For example, .NET Core and the .NET Framework share the GC, the JIT and types such as String and List<T>. We'll continue improving these components for both .NET Core and .NET Framework.
+.NET Core and the .NET Framework have (for the most part) a subset-superset relationship. .NET Core is named "Core" since we couldn't think of a better name and because it contains the core features from the .NET Framework, for both the runtime and framework libraries. For example, .NET Core and the .NET Framework share the GC, the JIT and types such as String and List<T>. We'll continue improving these components for both .NET Core and .NET Framework.
 
-.NET Core was created so that .NET could be open source, cross platform and be used in more resource-constrained environments. We have also published [.NET Reference Source](http://sourceof.net), so that you and the community can port additional .NET Framework features to .NET Core.
+.NET Core was created so that .NET could be open source, cross platform and be used in more resource-constrained environments. We have also published [.NET Reference Source](http://sourceof.net) under the MIT license, so that you and the community can port additional .NET Framework features to .NET Core.
 
 ## Understanding the Relationship between .NET Core and Mono
 

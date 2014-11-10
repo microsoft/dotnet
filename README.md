@@ -67,4 +67,4 @@ An important collaboration opportunity is making .NET Core NuGet packages (produ
 ASP.NET 5 is a new cross-platform version of ASP.NET that is designed for
 the cloud, and runs on Windows, Linux and Mac. It uses the .NET Framework to run on Windows, and can also run on .NET Core 5 for greater deployment flexibility on Windows. It currently uses Mono for Linux and Mac support but will move to .NET Core 5 for those platforms when they are supported.
 
-[ASP.NET Core 5](https://github.com/aspnet/home) and [.NET Core 5 libraries](https://github.com/dotnet/corefx) are open source on GitHub. At present, only a few .NET Core 5 libraries are available on GitHub. The rest of the libraries, including the base runtime, will be added in the coming months.
+[ASP.NET](https://github.com/aspnet/home) and [.NET Core 5 libraries](https://github.com/dotnet/corefx) are open source on GitHub. At present, only a few .NET Core 5 libraries are available on GitHub. The rest of the libraries, including the base runtime, will be added in the coming months.

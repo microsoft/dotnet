@@ -12,7 +12,7 @@ CodePlex:
 
 * [ASP.NET 5](https://github.com/aspnet/home)
 * [EntityFramework](https://github.com/aspnet/EntityFramework)
-* [.NET Core 5](https://github.com/Microsoft/dotnet-corefx)
+* [.NET Core 5](https://github.com/dotnet/corefx)
 * [.NET Compiler Platform ("Roslyn")](https://roslyn.codeplex.com)
 
 Each one of these projects maps to one or more [.NET NuGet packages](http://blogs.msdn.com/b/dotnet/p/nugetpackages.aspx)
@@ -21,7 +21,7 @@ that are published on [NuGet.org](http://nuget.org/).
 They are also many great open source .NET community projects, such as:
 
 * [Mono Project](https://github.com/mono/)
-* [JSON.NET](http://json.codeplex.com/)
+* [JSON.NET](http://json.net/)
 * [MVVM Cross](https://github.com/MvvmCross/MvvmCross)
 * [MVVM Light Toolkit](http://www.mvvmlight.net)
 * [Glimpse](http://getglimpse.com)
@@ -51,7 +51,7 @@ See specific projects to understand the license used.
 
 .NET Core and the .NET Framework have (for the most part) a subset-superset relationship. .NET Core is named "Core" since it contains the core features from the .NET Framework, for both the runtime and framework libraries. For example, .NET Core and the .NET Framework share the GC, the JIT and types such as String and List<T>. We'll continue improving these components for both .NET Core and .NET Framework.
 
-.NET Core was created so that .NET could be open source, cross platform and be used in more resource-constrained environments. We have also published [.NET Reference Source](http://sourceof.net) under the MIT license, so that you and the community can port additional .NET Framework features to .NET Core.
+.NET Core was created so that .NET could be open source, cross platform and be used in more resource-constrained environments. We have also published [.NET Reference Source](https://github.com/Microsoft/referencesource) under the MIT license, so that you and the community can port additional .NET Framework features to .NET Core.
 
 ## Understanding the Relationship between .NET Core and Mono
 

@@ -25,6 +25,7 @@ They are also many great open source .NET community projects, such as:
 * [MVVM Cross](https://github.com/MvvmCross/MvvmCross)
 * [MVVM Light Toolkit](http://www.mvvmlight.net)
 * [Glimpse](http://getglimpse.com)
+* [Exceptionless](https://github.com/exceptionless/Exceptionless)
 
 ## How to Engage, Contribute and Provide Feedback
 

@@ -12,7 +12,7 @@ CodePlex:
 
 * [ASP.NET 5](https://github.com/aspnet/home)
 * [EntityFramework](https://github.com/aspnet/EntityFramework)
-* [.NET Core 5](https://github.com/Microsoft/dotnet-corefx)
+* [.NET Core 5](https://github.com/dotnet/dotnet-corefx)
 * [.NET Compiler Platform ("Roslyn")](https://roslyn.codeplex.com)
 
 Each one of these projects maps to one or more [.NET NuGet packages](http://blogs.msdn.com/b/dotnet/p/nugetpackages.aspx)
@@ -36,8 +36,8 @@ You are also encouraged to start a discussion by posting on the [.NET Foundation
 ## .NET Foundation
 
 Most .NET open source projects at Microsoft have been contributed to the [.NET Foundation](http://www.dotnetfoundation.org/projects). There are two main .NET Foundation projects for Microsoft open source projects:
-[ASP.NET Core 5 project](http://www.dotnetfoundation.org/prjaspnet5.aspx)
-and the [.NET Core 5 project](http://www.dotnetfoundation.org/prjdotnetcore5.aspx).
+[ASP.NET Core 5 project](http://www.dotnetfoundation.org/aspnet-vnext)
+and the [.NET Core 5 project](http://www.dotnetfoundation.org/netcore5).
 
 ## License
 

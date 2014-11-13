@@ -20,37 +20,56 @@ that are published on [NuGet.org](http://nuget.org/).
 
 There are also many great open source .NET community projects, such as:
 
-* [Mono Project](https://github.com/mono/)
-* [JSON.NET](http://json.net/)
-* [MVVM Cross](https://github.com/MvvmCross/MvvmCross)
-* [MVVM Light Toolkit](http://www.mvvmlight.net)
-* [Glimpse](http://getglimpse.com)
-* [TinyIoC](https://github.com/grumpydev/TinyIoC)
-* [Fody](https://github.com/Fody/Fody)
-* [Cimbalino](http://cimbalino.org/)
-* [Simple Data](https://github.com/markrendle/Simple.Data)
-* [NUnit](https://github.com/nunit/nunit)
-* [xUnit](https://github.com/xunit/xunit)
-* [NInject](http://www.ninject.org/)
-* [Dapper](https://github.com/StackExchange/dapper-dot-net)
-* [NHibernate](https://github.com/nhibernate)
-* [NodaTime](http://nodatime.org/)
-* [Autofac](http://autofac.org/)
-* [moq](https://github.com/Moq/moq4)
-* [Umbraco](http://umbraco.com/)
-* [DotNetNuke](https://dotnetnuke.codeplex.com/)
-* [Catel](http://catelproject.com/)
-* [DotNetOpenAuth](https://github.com/DotNetOpenAuth)
-* [FluentValidation](https://github.com/JeremySkinner/FluentValidation)
-* [Simple Mvvm Toolkit](http://simplemvvmtoolkit.codeplex.com/)
-* [Sqlite-net](https://github.com/praeclarum/sqlite-net)
-* [Mini Profiler](http://miniprofiler.com/)
-* [RestSharp](http://restsharp.org/)
-* [Caliburn Micro](http://caliburnmicro.com/)
-* [Castle Project](https://github.com/castleproject)
-* [Protobuf-net](https://code.google.com/p/protobuf-net/)
-* [Splat](https://github.com/paulcbetts/splat)
-* [ReactiveUI](https://github.com/reactiveui/ReactiveUI)
+
+* Platforms
+ * [Mono Project](https://github.com/mono/)
+ * [Castle Project](https://github.com/castleproject)
+
+* Web Platforms
+ * [Umbraco](http://umbraco.com/)
+ * [DotNetNuke](https://dotnetnuke.codeplex.com/)
+
+* Libraries
+ * [JSON.NET](http://json.net/)
+ * [NodaTime](http://nodatime.org/)
+ * [Cimbalino](http://cimbalino.org/)
+ * [DotNetOpenAuth](https://github.com/DotNetOpenAuth)
+ * [FluentValidation](https://github.com/JeremySkinner/FluentValidation)
+ * [Splat](https://github.com/paulcbetts/splat)
+ * [RestSharp](http://restsharp.org/)
+
+* Mvvm
+ * [MVVM Cross](https://github.com/MvvmCross/MvvmCross)
+ * [MVVM Light Toolkit](http://www.mvvmlight.net)
+ * [Catel](http://catelproject.com/)
+ * [Simple Mvvm Toolkit](http://simplemvvmtoolkit.codeplex.com/)
+ * [ReactiveUI](https://github.com/reactiveui/ReactiveUI)
+ * [Caliburn Micro](http://caliburnmicro.com/)
+
+* Tools
+ * [Fody](https://github.com/Fody/Fody)
+ * [Glimpse](http://getglimpse.com)
+ * [Mini Profiler](http://miniprofiler.com/)
+ * [Protobuf-net](https://code.google.com/p/protobuf-net/)
+
+* Testing
+ * [NUnit](https://github.com/nunit/nunit)
+ * [xUnit](https://github.com/xunit/xunit)
+ * [moq](https://github.com/Moq/moq4)
+
+* Dependency Injection
+ * [TinyIoC](https://github.com/grumpydev/TinyIoC)
+ * [NInject](http://www.ninject.org/)
+ * [Autofac](http://autofac.org/)
+ * [Funq](https://funq.codeplex.com/)
+
+* Data Access
+ * [Simple Data](https://github.com/markrendle/Simple.Data)
+ * [Dapper](https://github.com/StackExchange/dapper-dot-net)
+ * [NHibernate](https://github.com/nhibernate)
+ * [Sqlite-net](https://github.com/praeclarum/sqlite-net)
+
+This list is just a starting point - also take a look at all the projects on [CodePlex](http://www.codeplex.com/) and on [GitHub Trending C#](https://github.com/trending?l=csharp)
 
 ## How to Engage, Contribute and Provide Feedback
 
@@ -92,3 +111,4 @@ the cloud, and runs on Windows, Linux and Mac. It uses the .NET Framework to run
 
 
 [ASP.NET 5](https://github.com/aspnet/home) and [.NET Core 5](https://github.com/dotnet/corefx) libraries are open source on GitHub. At present, only a few .NET Core 5 libraries are available on GitHub. The rest of the libraries, including the base runtime, will be added in the coming months.
+

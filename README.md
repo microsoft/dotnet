@@ -49,6 +49,8 @@ There are also many great open source .NET community projects, such as:
 * [Caliburn Micro](http://caliburnmicro.com/)
 * [Castle Project](https://github.com/castleproject)
 * [Protobuf-net](https://code.google.com/p/protobuf-net/)
+* [Splat](https://github.com/paulcbetts/splat)
+* [ReactiveUI](https://github.com/reactiveui/ReactiveUI)
 
 ## How to Engage, Contribute and Provide Feedback
 

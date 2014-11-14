@@ -55,7 +55,7 @@ See specific projects to understand the license used.
 
 ## Understanding the Relationship between .NET Core and Mono
 
-Mono is an important part of the .NET ecosystem, particularly for client scenarios (ex: Xamarin). We will look for ways to collaborate with Mono developers and encourage them to take our code to improve Mono. We will also look for opportunities to improve .NET Core with MIT-licensed Mono code.
+Mono is an important part of the .NET ecosystem, particularly for client scenarios (e.g. Xamarin). We will look for ways to collaborate with Mono developers and encourage them to take our code to improve Mono. We will also look for opportunities to improve .NET Core with MIT-licensed Mono code.
 
 An important collaboration opportunity is making .NET Core NuGet packages (produced from this code) work on Mono. The SIMD NuGet package is a perfect example.
 

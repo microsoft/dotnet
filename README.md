@@ -51,6 +51,7 @@ There are also many great open source .NET community projects, such as:
  * [Glimpse](http://getglimpse.com)
  * [Mini Profiler](http://miniprofiler.com/)
  * [Protobuf-net](https://code.google.com/p/protobuf-net/)
+ * [ILSpy](http://ilspy.net/)
 
 * Testing
  * [NUnit](https://github.com/nunit/nunit)
@@ -68,6 +69,9 @@ There are also many great open source .NET community projects, such as:
  * [Dapper](https://github.com/StackExchange/dapper-dot-net)
  * [NHibernate](https://github.com/nhibernate)
  * [Sqlite-net](https://github.com/praeclarum/sqlite-net)
+
+* Games
+ * [MonoGame](http://monogame.net)
 
 This list is just a starting point - also take a look at all the projects on [CodePlex](http://www.codeplex.com/) and on [GitHub Trending C#](https://github.com/trending?l=csharp)
 

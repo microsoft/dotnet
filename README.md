@@ -2,13 +2,13 @@
 
 The dotnet repository is the starting point to engage in and learn about .NET
 open source projects from [Microsoft](http://microsoft.github.io) and the [.NET Foundation](http://dotnet.github.io). You can
-read the more detailed [Introduction to .NET Open Source](http://blogs.msdn.com/dotnet)
+read the more detailed [.NET Core is Open Source](http://blogs.msdn.com/b/dotnet/archive/2014/11/12/net-core-is-open-source.aspx)
 on the .NET blog.
 
 ## Finding .NET Open Source Projects
 
 There are several open source .NET projects from Microsoft on GitHub and
-CodePlex:
+CodePlex, including:
 
 * [ASP.NET 5](https://github.com/aspnet/home)
 * [EntityFramework](https://github.com/aspnet/EntityFramework)
@@ -29,7 +29,7 @@ There are also many great open source .NET community projects, such as:
 ## How to Engage, Contribute and Provide Feedback
 
 .NET open source projects from Microsoft (gladly) accept PRs and other contributions. To contribute to
-ASP.NET 5 or EntityFramework, see [the ASP.NET Contributing Guide](https://github.com/aspnet/Home/blob/master/CONTRIBUTING.md). To contribute to .NET Core 5, see the [.NET Core Contributing Guide](CONTRIBUTING.md).
+ASP.NET 5 or EntityFramework, see [the ASP.NET Contributing Guide](https://github.com/aspnet/Home/blob/master/CONTRIBUTING.md). To contribute to .NET Core 5, see the [.NET Core Contributing Guide](https://github.com/dotnet/corefx/blob/master/CONTRIBUTING.md).
 
 You are also encouraged to start a discussion by posting on the [.NET Foundation Forums](http://forums.dotnetfoundation.org/) or filing an issue in the corresponding GitHub project. See the contributing guides for more details.
 

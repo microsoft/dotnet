@@ -13,7 +13,7 @@ CodePlex, including:
 
 * [ASP.NET 5](https://github.com/aspnet/home)
 * [EntityFramework](https://github.com/aspnet/EntityFramework)
-* [.NET Core 5](https://github.com/dotnet/corefx)
+* [.NET Core 5](https://github.com/dotnet/core)
 * [.NET Compiler Platform ("Roslyn")](https://roslyn.codeplex.com)
 
 Each one of these projects maps to one or more
@@ -35,7 +35,7 @@ There are also many great open source .NET community projects, such as:
 contributions. To contribute to ASP.NET 5 or EntityFramework, see
 [the ASP.NET Contributing Guide](https://github.com/aspnet/Home/blob/master/CONTRIBUTING.md).
 To contribute to .NET Core 5, see the
-[.NET Core Contributing Guide](https://github.com/dotnet/corefx/blob/master/CONTRIBUTING.md).
+[.NET Core Contributing Guide](https://github.com/dotnet/corefx/wiki/Contributing).
 
 You are also encouraged to start a discussion by posting on the
 [.NET Foundation Forums](http://forums.dotnetfoundation.org/) or filing an issue
@@ -93,7 +93,7 @@ Windows. It currently uses Mono for Linux and Mac support but will move to .NET
 Core 5 for those platforms when they are supported.
 
 [ASP.NET 5](https://github.com/aspnet/home) and
-[.NET Core 5](https://github.com/dotnet/corefx) libraries are open source on
+[.NET Core 5](https://github.com/dotnet/core) libraries are open source on
 GitHub. At present, only a few .NET Core 5 libraries are available on GitHub.
 The rest of the libraries, including the base runtime, will be added in the
 coming months.

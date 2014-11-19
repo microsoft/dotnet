@@ -26,6 +26,7 @@ There are also many great open source .NET community projects, such as:
 * [MVVM Light Toolkit](http://www.mvvmlight.net)
 * [Glimpse](http://getglimpse.com)
 * [MonoGame](http://monogame.net)
+* [Exceptionless](https://github.com/exceptionless/Exceptionless)
 
 ## How to Engage, Contribute and Provide Feedback
 

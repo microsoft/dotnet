@@ -58,6 +58,7 @@ There are many .NET open source projects. You can always use a search engine to 
  * [Dapper](https://github.com/StackExchange/dapper-dot-net)
  * [NHibernate](https://github.com/nhibernate)
  * [Sqlite-net](https://github.com/praeclarum/sqlite-net)
+ * [SQL LocalDB Wrapper](https://github.com/martincostello/sqllocaldb)
 
 * Games
  * [MonoGame](http://monogame.net)

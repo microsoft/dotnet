@@ -17,6 +17,7 @@ There are many .NET open source projects. You can always use a search engine to 
  * [Umbraco](http://umbraco.com/)
 
 * Libraries
+ * [AngleSharp](https://github.com/FlorianRappl/AngleSharp)
  * [Cimbalino](http://cimbalino.org/)
  * [DotNetOpenAuth](https://github.com/DotNetOpenAuth)
  * [FluentValidation](https://github.com/JeremySkinner/FluentValidation)

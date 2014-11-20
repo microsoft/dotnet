@@ -10,11 +10,13 @@ There are many .NET open source projects. You can always use a search engine to 
 * Languages
  * [IronScheme](http://ironscheme.codeplex.com)
 
-* Web Platforms
+* Web CMS
  * [DotNetNuke](https://dotnetnuke.codeplex.com/)
- * [Nancy](http://nancyfx.org)
  * [Orchard](http://www.orchardproject.net/)
  * [Umbraco](http://umbraco.com/)
+
+* Web Frameworks
+* [Nancy](http://nancyfx.org)
 
 * Libraries
  * [AngleSharp](https://github.com/FlorianRappl/AngleSharp)

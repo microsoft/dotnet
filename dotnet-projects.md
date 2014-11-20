@@ -10,6 +10,7 @@ There are many .NET open source projects. You can always use a search engine to 
 * Web Platforms
  * [Umbraco](http://umbraco.com/)
  * [DotNetNuke](https://dotnetnuke.codeplex.com/)
+ * [Orchard](http://www.orchardproject.net/)
 
 * Libraries
  * [JSON.NET](http://json.net/)
@@ -39,6 +40,7 @@ There are many .NET open source projects. You can always use a search engine to 
  * [NUnit](https://github.com/nunit/nunit)
  * [xUnit](https://github.com/xunit/xunit)
  * [moq](https://github.com/Moq/moq4)
+ * [NSubstitute](http://nsubstitute.github.io/)
 
 * Dependency Injection
  * [TinyIoC](https://github.com/grumpydev/TinyIoC)

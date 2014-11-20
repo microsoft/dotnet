@@ -59,10 +59,14 @@ There are many .NET open source projects. You can always use a search engine to 
  * [NHibernate](https://github.com/nhibernate)
  * [Simple Data](https://github.com/markrendle/Simple.Data)
  * [Sqlite-net](https://github.com/praeclarum/sqlite-net)
+ * [NMEA Parser](https://github.com/dotMorten/NmeaParser)
 
 * Games
  * [MonoGame](http://monogame.net)
  * [Paradox](https://github.com/SiliconStudio/paradox)
+
+* Control libraries
+* [Callisto](https://github.com/timheuer/callisto)
  
 This list is just a starting point - also take a look at all the projects on [CodePlex](http://www.codeplex.com/) and on [GitHub Trending C#](https://github.com/trending?l=csharp).
 

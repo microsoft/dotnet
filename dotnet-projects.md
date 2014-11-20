@@ -25,6 +25,9 @@ There are many .NET open source projects. You can always use a search engine to 
  * [Splat](https://github.com/paulcbetts/splat)
  * [RestSharp](http://restsharp.org/)
  * [SharpDX](https://github.com/sharpdx/SharpDX)
+ * [EasyNetQ](https://github.com/mikehadlow/EasyNetQ)
+ * [AzureNetQ](https://github.com/Roysvork/AzureNetQ)
+ * [WpfToolkit](https://github.com/dotnetprojects/wpftoolkit)
 
 * Mvvm
  * [MVVM Cross](https://github.com/MvvmCross/MvvmCross)
@@ -33,6 +36,7 @@ There are many .NET open source projects. You can always use a search engine to 
  * [Simple Mvvm Toolkit](http://simplemvvmtoolkit.codeplex.com/)
  * [ReactiveUI](https://github.com/reactiveui/ReactiveUI)
  * [Caliburn Micro](http://caliburnmicro.com/)
+ * [Radical](https://github.com/RadicalFx/radical)
 
 * Tools
  * [Fody](https://github.com/Fody/Fody)
@@ -40,6 +44,7 @@ There are many .NET open source projects. You can always use a search engine to 
  * [Mini Profiler](http://miniprofiler.com/)
  * [Protobuf-net](https://code.google.com/p/protobuf-net/)
  * [ILSpy](http://ilspy.net/)
+ * [Snoop Wpf](https://github.com/cplotts/snoopwpf)
 
 * Testing
  * [NUnit](https://github.com/nunit/nunit)

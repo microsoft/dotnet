@@ -44,7 +44,7 @@ There are many .NET open source projects. You can always use a search engine to 
 
 * Dependency Injection
  * [TinyIoC](https://github.com/grumpydev/TinyIoC)
- * [NInject](http://www.ninject.org/)
+ * [Ninject](http://www.ninject.org/)
  * [Autofac](http://autofac.org/)
  * [Funq](https://funq.codeplex.com/)
 

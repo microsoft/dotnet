@@ -58,3 +58,5 @@ There are many .NET open source projects. You can always use a search engine to 
 This list is just a starting point - also take a look at all the projects on [CodePlex](http://www.codeplex.com/) and on [GitHub Trending C#](https://github.com/trending?l=csharp).
 
 Thanks to @slodge for providing the initial list.
+
+@quozd hosts an [Awesome .NET!](https://github.com/quozd/awesome-dotnet) list. Also worth checking out.

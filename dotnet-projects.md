@@ -25,6 +25,7 @@ There are many .NET open source projects. You can always use a search engine to 
  * [Splat](https://github.com/paulcbetts/splat)
  * [RestSharp](http://restsharp.org/)
  * [SharpDX](https://github.com/sharpdx/SharpDX)
+ * [AngleSharp](https://github.com/FlorianRappl/AngleSharp)
 
 * Mvvm
  * [MVVM Cross](https://github.com/MvvmCross/MvvmCross)

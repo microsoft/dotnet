@@ -11,6 +11,7 @@ There are many .NET open source projects. You can always use a search engine to 
  * [Umbraco](http://umbraco.com/)
  * [DotNetNuke](https://dotnetnuke.codeplex.com/)
  * [Orchard](http://www.orchardproject.net/)
+ * [Nancy](http://nancyfx.org)
 
 * Libraries
  * [JSON.NET](http://json.net/)

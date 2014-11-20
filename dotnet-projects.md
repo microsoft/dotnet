@@ -51,7 +51,8 @@ There are many .NET open source projects. You can always use a search engine to 
 * Dependency Injection
  * [Autofac](http://autofac.org/)
  * [Funq](https://funq.codeplex.com/)
- * [Ninject](http://www.ninject.org/)
+ * [Ninject for Desktop](http://www.ninject.org/)
+ * [Ninject for Portable Class Libraries, Universal apps and Xamarin](https://github.com/onovotny/ninject)
  * [TinyIoC](https://github.com/grumpydev/TinyIoC)
 
 * Data Access

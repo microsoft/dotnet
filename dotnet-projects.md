@@ -18,20 +18,24 @@ There are many .NET open source projects. You can always use a search engine to 
 
 * Libraries
  * [AngleSharp](https://github.com/FlorianRappl/AngleSharp)
+ * [AzureNetQ](https://github.com/Roysvork/AzureNetQ)
  * [Cimbalino](http://cimbalino.org/)
  * [DotNetOpenAuth](https://github.com/DotNetOpenAuth)
+ * [EasyNetQ](https://github.com/mikehadlow/EasyNetQ)
  * [FluentValidation](https://github.com/JeremySkinner/FluentValidation)
  * [JSON.NET](http://json.net/)
  * [NodaTime](http://nodatime.org/)
  * [RestSharp](http://restsharp.org/)
  * [SharpDX](https://github.com/sharpdx/SharpDX)
  * [Splat](https://github.com/paulcbetts/splat)
+ * [WpfToolkit](https://github.com/dotnetprojects/wpftoolkit)
 
 * Mvvm
  * [Caliburn Micro](http://caliburnmicro.com/)
  * [Catel](http://catelproject.com/)
  * [MVVM Cross](https://github.com/MvvmCross/MvvmCross)
  * [MVVM Light Toolkit](http://www.mvvmlight.net)
+ * [Radical](https://github.com/RadicalFx/radical)
  * [ReactiveUI](https://github.com/reactiveui/ReactiveUI)
  * [Simple Mvvm Toolkit](http://simplemvvmtoolkit.codeplex.com/)
 
@@ -42,6 +46,7 @@ There are many .NET open source projects. You can always use a search engine to 
  * [ILSpy](http://ilspy.net/)
  * [Mini Profiler](http://miniprofiler.com/)
  * [Protobuf-net](https://code.google.com/p/protobuf-net/)
+ * [Snoop Wpf](https://github.com/cplotts/snoopwpf)
 
 * Testing
  * [moq](https://github.com/Moq/moq4)

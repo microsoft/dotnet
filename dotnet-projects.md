@@ -46,6 +46,7 @@ There are many .NET open source projects. You can always use a search engine to 
  * [ILSpy](http://ilspy.net/)
  * [Mini Profiler](http://miniprofiler.com/)
  * [Protobuf-net](https://code.google.com/p/protobuf-net/)
+ * [scriptcs](http://scriptcs.net/)
  * [Snoop Wpf](https://github.com/cplotts/snoopwpf)
 
 * Testing

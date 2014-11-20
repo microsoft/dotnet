@@ -55,6 +55,10 @@ There are many .NET open source projects. You can always use a search engine to 
 * Games
  * [MonoGame](http://monogame.net)
 
+* Languages
+ * [IronScheme](http://ironscheme.codeplex.com)
+ 
+
 This list is just a starting point - also take a look at all the projects on [CodePlex](http://www.codeplex.com/) and on [GitHub Trending C#](https://github.com/trending?l=csharp).
 
 Thanks to @slodge for providing the initial list.

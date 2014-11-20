@@ -24,6 +24,7 @@ There are many .NET open source projects. You can always use a search engine to 
  * [EasyNetQ](https://github.com/mikehadlow/EasyNetQ)
  * [FluentValidation](https://github.com/JeremySkinner/FluentValidation)
  * [JSON.NET](http://json.net/)
+ * [LibGit2Sharp](http://libgit2sharp.com/)
  * [NodaTime](http://nodatime.org/)
  * [RestSharp](http://restsharp.org/)
  * [SharpDX](https://github.com/sharpdx/SharpDX)

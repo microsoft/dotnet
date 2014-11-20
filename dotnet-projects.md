@@ -48,6 +48,7 @@ There are many .NET open source projects. You can always use a search engine to 
  * [Protobuf-net](https://code.google.com/p/protobuf-net/)
  * [scriptcs](http://scriptcs.net/)
  * [Snoop Wpf](https://github.com/cplotts/snoopwpf)
+ * [Sql Bulk Copy Sync](https://github.com/WCOMAB/SqlBulkSync)
 
 * Testing
  * [moq](https://github.com/Moq/moq4)

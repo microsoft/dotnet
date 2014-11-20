@@ -24,6 +24,7 @@ There are many .NET open source projects. You can always use a search engine to 
  * [FluentValidation](https://github.com/JeremySkinner/FluentValidation)
  * [Splat](https://github.com/paulcbetts/splat)
  * [RestSharp](http://restsharp.org/)
+ * [SharpDX](https://github.com/sharpdx/SharpDX)
 
 * Mvvm
  * [MVVM Cross](https://github.com/MvvmCross/MvvmCross)
@@ -60,6 +61,7 @@ There are many .NET open source projects. You can always use a search engine to 
 
 * Games
  * [MonoGame](http://monogame.net)
+ * [Paradox](https://github.com/SiliconStudio/paradox)
  
 This list is just a starting point - also take a look at all the projects on [CodePlex](http://www.codeplex.com/) and on [GitHub Trending C#](https://github.com/trending?l=csharp).
 

@@ -16,7 +16,7 @@ There are many .NET open source projects. You can always use a search engine to 
  * [Umbraco](http://umbraco.com/)
 
 * Web Frameworks
-* [Nancy](http://nancyfx.org)
+ * [Nancy](http://nancyfx.org)
 
 * Libraries
  * [AngleSharp](https://github.com/FlorianRappl/AngleSharp)

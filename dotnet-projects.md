@@ -9,6 +9,7 @@ There are many .NET open source projects. You can always use a search engine to 
  
 * Languages
  * [IronScheme](http://ironscheme.codeplex.com)
+ * [Nemerle](https://github.com/rsdn/nemerle)
 
 * Web Platforms
  * [DotNetNuke](https://dotnetnuke.codeplex.com/)

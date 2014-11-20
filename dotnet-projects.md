@@ -26,6 +26,8 @@ There are many .NET open source projects. You can always use a search engine to 
  * [RestSharp](http://restsharp.org/)
  * [SharpDX](https://github.com/sharpdx/SharpDX)
  * [Splat](https://github.com/paulcbetts/splat)
+ * [Coding4Fun](http://coding4fun.codeplex.com)
+ * [PocketSharp](https://github.com/ceee/PocketSharp)
 
 * Mvvm
  * [Caliburn Micro](http://caliburnmicro.com/)
@@ -68,8 +70,7 @@ There are many .NET open source projects. You can always use a search engine to 
  * [Paradox](https://github.com/SiliconStudio/paradox)
 
 * Control libraries
- * [Callisto](https://github.com/timheuer/callisto)
- * [OpenRA](https://github.com/OpenRA/OpenRA)
+* [Callisto](https://github.com/timheuer/callisto)
  
 This list is just a starting point - also take a look at all the projects on [CodePlex](http://www.codeplex.com/) and on [GitHub Trending C#](https://github.com/trending?l=csharp).
 

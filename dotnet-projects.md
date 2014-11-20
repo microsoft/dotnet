@@ -68,7 +68,8 @@ There are many .NET open source projects. You can always use a search engine to 
  * [Paradox](https://github.com/SiliconStudio/paradox)
 
 * Control libraries
-* [Callisto](https://github.com/timheuer/callisto)
+ * [Callisto](https://github.com/timheuer/callisto)
+ * [OpenRA](https://github.com/OpenRA/OpenRA)
  
 This list is just a starting point - also take a look at all the projects on [CodePlex](http://www.codeplex.com/) and on [GitHub Trending C#](https://github.com/trending?l=csharp).
 

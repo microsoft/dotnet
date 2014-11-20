@@ -3,7 +3,7 @@
 There are many .NET open source projects. You can always use a search engine to find projects, and that's a good approach. This list is an intended to provide a showcase for projects that want it. It is itendeded to be community maintained. PR a change in and it will be accepted (modulo duplicates). Projects should be sorted alphabetically and GitHub links are preferred.
 
 * Platforms
- * [.NET Core](https://github.com/dotnet/core)
+ * [.NET Core](https://github.com/dotnet/corefx)
  * [Castle Project](https://github.com/castleproject)
  * [Mono Project](https://github.com/mono/)
  

@@ -15,6 +15,8 @@ There are many .NET open source projects. You can always use a search engine to 
  * [Nancy](http://nancyfx.org)
  * [Orchard](http://www.orchardproject.net/)
  * [Umbraco](http://umbraco.com/)
+ * [Suave](https://github.com/SuaveIO/suave) A lightweight web server and a set of combinators to manipulate route flow and task composition.
+ * [WebSharper](https://bitbucket.org/IntelliFactory/websharper)  Web programming platform including a compiler from F# code to JavaScript.
 
 * Libraries
  * [AngleSharp](https://github.com/FlorianRappl/AngleSharp)
@@ -29,6 +31,9 @@ There are many .NET open source projects. You can always use a search engine to 
  * [SharpDX](https://github.com/sharpdx/SharpDX)
  * [Splat](https://github.com/paulcbetts/splat)
  * [WpfToolkit](https://github.com/dotnetprojects/wpftoolkit)
+ * [Math.NET Numerics](http://numerics.mathdotnet.com/) Provides methods and algorithms for numerical computations in science, engineering and every day use.
+ * [DiffSharp](http://gbaydin.github.io/DiffSharp/) Automatic Differentiation Library
+ * [Cricket](http://fsprojects.github.io/Cricket/)  Actor library
 
 * Mvvm
  * [Caliburn Micro](http://caliburnmicro.com/)
@@ -48,12 +53,21 @@ There are many .NET open source projects. You can always use a search engine to 
  * [Protobuf-net](https://code.google.com/p/protobuf-net/)
  * [scriptcs](http://scriptcs.net/)
  * [Snoop Wpf](https://github.com/cplotts/snoopwpf)
+ * [FsEye](http://www.swensensoftware.com/fseye) A visual object tree inspector for the F# Interactive.
+ * [FAKE](http://fsharp.github.io/FAKE/) Build automation system with capabilities which are similar to make and rake.
+ * [Paket](http://fsprojects.github.io/Paket/) Dependency manager for .NET and Mono projects, which is designed to work well with NuGet packages and also enables referencing files directly from GitHub repositories.
+ * [FsharpLint](http://fsprojects.github.io/FSharpLint/) Lint tool for F#.
+ * [FsPickler](http://nessos.github.io/FsPickler/) Serialization library that facilitates the distribution of .NET objects.
+ * [](http://nessos.github.io/Vagrant/) Automated dependency resolution and dynamic assembly compilation framework.
 
 * Testing
  * [moq](https://github.com/Moq/moq4)
  * [NSubstitute](http://nsubstitute.github.io/)
  * [NUnit](https://github.com/nunit/nunit)
  * [xUnit](https://github.com/xunit/xunit)
+ * [FsCheck](https://fsharp.github.io/FsCheck/) A tool for testing .NET programs automatically.
+ * [canopy](http://lefthandedgoat.github.io/canopy/) A web testing framework.
+ * [tickspec](http://tickspec.codeplex.com/) A lightweight Behaviour Driven Development (BDD) framework.
 
 * Dependency Injection
  * [Autofac](http://autofac.org/)

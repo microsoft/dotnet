@@ -40,6 +40,7 @@ There are many .NET open source projects. You can always use a search engine to 
  * [Mini Profiler](http://miniprofiler.com/)
  * [Protobuf-net](https://code.google.com/p/protobuf-net/)
  * [ILSpy](http://ilspy.net/)
+ * [GitVersion](https://github.com/ParticularLabs/GitVersion)
 
 * Testing
  * [NUnit](https://github.com/nunit/nunit)

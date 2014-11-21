@@ -12,11 +12,13 @@ There are many .NET open source projects. You can always use a search engine to 
  * [IronScheme](http://ironscheme.codeplex.com)
  * [Nemerle](https://github.com/rsdn/nemerle)
 
-* Web Platforms
+* Web CMS
  * [DNN (formerly DotNetNuke)](https://dotnetnuke.codeplex.com/)
- * [Nancy](http://nancyfx.org)
  * [Orchard](http://www.orchardproject.net/)
  * [Umbraco](http://umbraco.com/)
+
+* Web Frameworks
+ * [Nancy](http://nancyfx.org)
 
 * Libraries
  * [AngleSharp](https://github.com/FlorianRappl/AngleSharp)

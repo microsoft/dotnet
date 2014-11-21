@@ -22,6 +22,7 @@ There are many .NET open source projects. You can always use a search engine to 
  * [Cimbalino](http://cimbalino.org/)
  * [DotNetOpenAuth](https://github.com/DotNetOpenAuth)
  * [EasyNetQ](https://github.com/mikehadlow/EasyNetQ)
+ * [FluentBootstrap](https://github.com/somedave/FluentBootstrap)
  * [FluentValidation](https://github.com/JeremySkinner/FluentValidation)
  * [JSON.NET](http://json.net/)
  * [NodaTime](http://nodatime.org/)

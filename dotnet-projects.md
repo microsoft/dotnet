@@ -42,22 +42,23 @@ There are many .NET open source projects. You can always use a search engine to 
  * [EasyNetQ](https://github.com/mikehadlow/EasyNetQ)
  * [FluentBootstrap](https://github.com/somedave/FluentBootstrap)
  * [FluentValidation](https://github.com/JeremySkinner/FluentValidation)
+ * [ImageProcessor](http://imageprocessor.org/)
  * [JSON.NET](http://json.net/)
  * [Kentor.AuthServices](https://github.com/KentorIT/authservices) A SAML2 Service Provider for .NET.
  * [LibGit2Sharp](http://libgit2sharp.com/)
+ * [Math.NET Numerics](http://numerics.mathdotnet.com/) Provides methods and algorithms for numerical computations in science, engineering and every day use.
  * [NetTopologySuite](https://github.com/NetTopologySuite) A .NET port of the JTS Topology Suite.
  * [NodaTime](http://nodatime.org/)
  * [OsmSharp](https://github.com/OsmSharp) Mapping & Routing library.
  * [PocketSharp](https://github.com/ceee/PocketSharp)
  * [RestSharp](http://restsharp.org/)
  * [SharpDX](https://github.com/sharpdx/SharpDX)
+ * [SharpMap](https://sharpmap.codeplex.com/) An easy-to-use mapping library for use in web and desktop applications
  * [Splat](https://github.com/paulcbetts/splat)
  * [WpfToolkit](https://github.com/dotnetprojects/wpftoolkit)
- * [Math.NET Numerics](http://numerics.mathdotnet.com/) Provides methods and algorithms for numerical computations in science, engineering and every day use.
  * [DiffSharp](http://gbaydin.github.io/DiffSharp/) Automatic Differentiation Library
  * [Cricket](http://fsprojects.github.io/Cricket/)  Actor library
  * [NetTopologySuite](https://github.com/NetTopologySuite/NetTopologySuite/)  A .NET GIS solution that is fast and reliable for the .NET platform
- * [SharpMap](https://sharpmap.codeplex.com/) An easy-to-use mapping library for use in web and desktop applications
 
 * Mvvm
  * [Caliburn Micro](http://caliburnmicro.com/)

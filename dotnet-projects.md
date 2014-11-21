@@ -39,6 +39,7 @@ There are many .NET open source projects. You can always use a search engine to 
  * [FluentBootstrap](https://github.com/somedave/FluentBootstrap)
  * [FluentValidation](https://github.com/JeremySkinner/FluentValidation)
  * [JSON.NET](http://json.net/)
+ * [Kentor.AuthServices](https://github.com/KentorIT/authservices) A SAML2 Service Provider for .NET.
  * [LibGit2Sharp](http://libgit2sharp.com/)
  * [NetTopologySuite](https://github.com/NetTopologySuite) A .NET port of the JTS Topology Suite.
  * [NodaTime](http://nodatime.org/)

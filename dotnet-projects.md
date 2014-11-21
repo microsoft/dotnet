@@ -38,8 +38,8 @@ There are many .NET Open Source projects. You can always use a search engine to 
  * [Cimbalino](http://cimbalino.org/) - A set of useful and powerful tools that will help you build your Windows Platform applications.
  * [Coding4Fun Toolkit](http://coding4fun.codeplex.com/)
  * [ColoredConsole](https://github.com/colored-console/colored-console)
-  * [Cricket](http://fsprojects.github.io/Cricket/) - Actor library
-* [DiffSharp](http://gbaydin.github.io/DiffSharp/) Automatic Differentiation Library
+ * [Cricket](http://fsprojects.github.io/Cricket/) - Actor library
+ * [DiffSharp](http://gbaydin.github.io/DiffSharp/) Automatic Differentiation Library
  * [DotNetOpenAuth](https://github.com/DotNetOpenAuth) - Library that adds support for your site visitors to login with their OpenIDs by just dropping an ASP.NET control onto your page.
  * [EasyNetQ](https://github.com/mikehadlow/EasyNetQ) - An easy to use .NET API for RabbitMQ.
  * [FluentBootstrap](https://github.com/somedave/FluentBootstrap)
@@ -58,6 +58,7 @@ There are many .NET Open Source projects. You can always use a search engine to 
  * [SharpMap](https://sharpmap.codeplex.com/) An easy-to-use mapping library for use in web and desktop applications
  * [Splat](https://github.com/paulcbetts/splat) - A library to make things cross-platform that should be.
  * [WpfToolkit](https://github.com/dotnetprojects/wpftoolkit) - Fork of the MS WPF Toolkit
+ * [MahApps.Metro](https://github.com/MahApps/MahApps.Metro) - A toolkit for creating metro-style WPF applications.
 
 * Model-View-ViewModel (MVVM) Frameworks
  * [Caliburn Micro](http://caliburnmicro.com/)
@@ -99,7 +100,7 @@ There are many .NET Open Source projects. You can always use a search engine to 
  * [Autofac](http://autofac.org/) - Autofac is an addictive Inversion of Control container for .NET 4.5, Silverlight 5, Windows Store apps, and Windows Phone 8 apps.
  * [Funq](https://funq.codeplex.com/) - A fast DI container you can understand.
  * [Ninject for Desktop](http://www.ninject.org/) - Dependency injector for .NET
-	 * [Ninject for Portable Class Libraries, Universal apps and Xamarin](https://github.com/onovotny/ninject)
+ * [Ninject for Portable Class Libraries, Universal apps and Xamarin](https://github.com/onovotny/ninject)
  * [TinyIoC](https://github.com/grumpydev/TinyIoC) - An easy to use, hassle free, Inversion of Control Container for small projects, libraries and beginners alike.
 
 * Data Access

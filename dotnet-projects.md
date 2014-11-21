@@ -32,6 +32,7 @@ There are many .NET open source projects. You can always use a search engine to 
  * [JSON.NET](http://json.net/)
  * [LibGit2Sharp](http://libgit2sharp.com/)
  * [NodaTime](http://nodatime.org/)
+ * [PocketSharp](https://github.com/ceee/PocketSharp)
  * [RestSharp](http://restsharp.org/)
  * [SharpDX](https://github.com/sharpdx/SharpDX)
  * [Splat](https://github.com/paulcbetts/splat)
@@ -86,8 +87,7 @@ There are many .NET open source projects. You can always use a search engine to 
  * [Paradox](https://github.com/SiliconStudio/paradox)
 
 * Control libraries
- * [Callisto](https://github.com/timheuer/callisto)
- * [OpenRA](https://github.com/OpenRA/OpenRA)
+* [Callisto](https://github.com/timheuer/callisto)
  
 * Windows Services
  * [TopShelf](https://github.com/Topshelf/Topshelf) 

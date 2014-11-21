@@ -12,6 +12,10 @@ There are many .NET open source projects. You can always use a search engine to 
  * [IronScheme](http://ironscheme.codeplex.com)
  * [Nemerle](https://github.com/rsdn/nemerle)
 
+* Security / Identity Management
+ * [Thinktecture IdentityServer](https://github.com/thinktecture/Thinktecture.IdentityServer.v3)
+ * [Thinktecture IdentityManager](https://github.com/thinktecture/Thinktecture.IdentityManager)
+
 * Web CMS
  * [DNN (formerly DotNetNuke)](https://dotnetnuke.codeplex.com/)
  * [Orchard](http://www.orchardproject.net/)

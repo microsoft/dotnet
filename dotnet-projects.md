@@ -11,7 +11,7 @@ There are many .NET open source projects. You can always use a search engine to 
  * [IronScheme](http://ironscheme.codeplex.com)
 
 * Web Platforms
- * [DotNetNuke](https://dotnetnuke.codeplex.com/)
+ * [DNN (formerly DotNetNuke)](https://dotnetnuke.codeplex.com/)
  * [Nancy](http://nancyfx.org)
  * [Orchard](http://www.orchardproject.net/)
  * [Umbraco](http://umbraco.com/)

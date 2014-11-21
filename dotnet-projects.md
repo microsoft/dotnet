@@ -10,7 +10,7 @@ There are many .NET open source projects. You can always use a search engine to 
  
 * Languages
  * [IronScheme](http://ironscheme.codeplex.com)
- * [Nemerle](https://github.com/rsdn/nemerle)
+ * [Nemerle](https://github.com/rsdn/nemerle) A high-level statically-typed programming language which offers functional, object-oriented and imperative features and has a simple C# like syntax and a powerful meta-programming system.
 
 * Web CMS
  * [DNN (formerly DotNetNuke)](https://dotnetnuke.codeplex.com/)

@@ -42,6 +42,7 @@ There are many .NET open source projects. You can always use a search engine to 
 * Tools
  * [Fody](https://github.com/Fody/Fody)
  * [GitVersion](https://github.com/ParticularLabs/GitVersion)
+ * [LibGit2Sharp](https://github.com/libgit2/libgit2sharp)
  * [Glimpse](http://getglimpse.com)
  * [ILSpy](http://ilspy.net/)
  * [Mini Profiler](http://miniprofiler.com/)
@@ -54,6 +55,7 @@ There are many .NET open source projects. You can always use a search engine to 
  * [NSubstitute](http://nsubstitute.github.io/)
  * [NUnit](https://github.com/nunit/nunit)
  * [xUnit](https://github.com/xunit/xunit)
+ * [FakeItEasy](https://github.com/FakeItEasy/FakeItEasy)
 
 * Dependency Injection
  * [Autofac](http://autofac.org/)
@@ -68,7 +70,8 @@ There are many .NET open source projects. You can always use a search engine to 
  * [Simple Data](https://github.com/markrendle/Simple.Data)
  * [Sqlite-net](https://github.com/praeclarum/sqlite-net)
  * [NMEA Parser](https://github.com/dotMorten/NmeaParser)
-
+ * [StackExchange.Redis](https://github.com/StackExchange/StackExchange.Redis)  
+ 
 * Games
  * [MonoGame](http://monogame.net)
  * [Paradox](https://github.com/SiliconStudio/paradox)
@@ -76,6 +79,14 @@ There are many .NET open source projects. You can always use a search engine to 
 * Control libraries
  * [Callisto](https://github.com/timheuer/callisto)
  * [OpenRA](https://github.com/OpenRA/OpenRA)
+ 
+* Windows Services
+ * [TopShelf](https://github.com/Topshelf/Topshelf) 
+
+* Scheduling
+ * [Quartz.Net](https://github.com/quartznet/quartznet) 
+
+ 
  
 This list is just a starting point - also take a look at all the projects on [CodePlex](http://www.codeplex.com/) and on [GitHub Trending C#](https://github.com/trending?l=csharp).
 

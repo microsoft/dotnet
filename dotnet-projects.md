@@ -44,6 +44,8 @@ There are many .NET open source projects. You can always use a search engine to 
  * [Math.NET Numerics](http://numerics.mathdotnet.com/) Provides methods and algorithms for numerical computations in science, engineering and every day use.
  * [DiffSharp](http://gbaydin.github.io/DiffSharp/) Automatic Differentiation Library
  * [Cricket](http://fsprojects.github.io/Cricket/)  Actor library
+ * [NetTopologySuite](https://github.com/NetTopologySuite/NetTopologySuite/)  A .NET GIS solution that is fast and reliable for the .NET platform
+ * [SharpMap](https://sharpmap.codeplex.com/) An easy-to-use mapping library for use in web and desktop applications
 
 * Mvvm
  * [Caliburn Micro](http://caliburnmicro.com/)

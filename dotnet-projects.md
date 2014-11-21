@@ -78,7 +78,8 @@ There are many .NET open source projects. You can always use a search engine to 
  * [Sqlite-net](https://github.com/praeclarum/sqlite-net)
  * [NMEA Parser](https://github.com/dotMorten/NmeaParser)
  * [StackExchange.Redis](https://github.com/StackExchange/StackExchange.Redis)  
- 
+ * [SQL LocalDB Wrapper](https://github.com/martincostello/sqllocaldb)
+
 * Games
  * [MonoGame](http://monogame.net)
  * [Paradox](https://github.com/SiliconStudio/paradox)

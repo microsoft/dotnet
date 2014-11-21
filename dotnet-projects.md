@@ -35,7 +35,9 @@ There are many .NET open source projects. You can always use a search engine to 
  * [FluentValidation](https://github.com/JeremySkinner/FluentValidation)
  * [JSON.NET](http://json.net/)
  * [LibGit2Sharp](http://libgit2sharp.com/)
+ * [NetTopologySuite](https://github.com/NetTopologySuite) A .NET port of the JTS Topology Suite.
  * [NodaTime](http://nodatime.org/)
+ * [OsmSharp](https://github.com/OsmSharp) Mapping & Routing library.
  * [PocketSharp](https://github.com/ceee/PocketSharp)
  * [RestSharp](http://restsharp.org/)
  * [SharpDX](https://github.com/sharpdx/SharpDX)

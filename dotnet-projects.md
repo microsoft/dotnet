@@ -5,6 +5,7 @@ There are many .NET open source projects. You can always use a search engine to 
 * Platforms
  * [.NET Core](https://github.com/dotnet/core)
  * [Castle Project](https://github.com/castleproject)
+ * [Cosmos](http://cosmos.codeplex.com/)
  * [Mono Project](https://github.com/mono/)
  
 * Languages

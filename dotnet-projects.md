@@ -22,7 +22,12 @@ There are many .NET open source projects. You can always use a search engine to 
 * Web Frameworks
  * [Nancy](http://nancyfx.org)
 
+* ADO.NET providers
+ * [Npgsql] (https://github.com/npgsql/npgsql) PostgreSQL 
+ * [Firebird .NET client] (https://sourceforge.net/p/firebird/NETProvider/) Firebird
+ 
 * Libraries
+ * [Algorithmia] (https://github.com/SolutionsDesign/Algorithmia) Algorithms and Data structures
  * [AngleSharp](https://github.com/FlorianRappl/AngleSharp)
  * [ArcGIS.PCL](https://github.com/davetimmins/ArcGIS.PCL)
  * [AzureNetQ](https://github.com/Roysvork/AzureNetQ)

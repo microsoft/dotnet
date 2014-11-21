@@ -23,6 +23,7 @@ There are many .NET open source projects. You can always use a search engine to 
  * [ArcGIS.PCL](https://github.com/davetimmins/ArcGIS.PCL)
  * [AzureNetQ](https://github.com/Roysvork/AzureNetQ)
  * [Cimbalino](http://cimbalino.org/)
+ * [Coding4Fun Toolkit](http://coding4fun.codeplex.com/)
  * [ColoredConsole](https://github.com/colored-console/colored-console)
  * [DotNetOpenAuth](https://github.com/DotNetOpenAuth)
  * [EasyNetQ](https://github.com/mikehadlow/EasyNetQ)

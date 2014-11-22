@@ -48,6 +48,7 @@ There are many .NET Open Source projects. You can always use a search engine to 
  * [ImageProcessor](http://imageprocessor.org/)
  * [Kentor.AuthServices](https://github.com/KentorIT/authservices) A SAML2 Service Provider for .NET.
  * [LibGit2Sharp](https://github.com/libgit2/libgit2sharp)
+ * [Lucene.Net](https://github.com/apache/lucene.net)
  * [MahApps.Metro](https://github.com/MahApps/MahApps.Metro) - A toolkit for creating metro-style WPF applications.
  * [Math.NET Numerics](http://numerics.mathdotnet.com/) Provides methods and algorithms for numerical computations in science, engineering and every day use.
  * [NetTopologySuite](https://github.com/NetTopologySuite) A .NET port of the JTS Topology Suite.

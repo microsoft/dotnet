@@ -80,6 +80,7 @@ There are many .NET Open Source projects. You can always use a search engine to 
  * [FsEye](http://www.swensensoftware.com/fseye) A visual object tree inspector for the F# Interactive.
  * [FsPickler](http://nessos.github.io/FsPickler/) Serialization library that facilitates the distribution of .NET objects.
  * [FsharpLint](http://fsprojects.github.io/FSharpLint/) Lint tool for F#.
+ * [GitLink](https://github.com/CatenaLogic/GitLink) - Command-line tool to make .NET open source accessible without the need for a symbols server
  * [GitVersion](https://github.com/ParticularLabs/GitVersion) - Use convention to derive a SemVer product version from a GitFlow based repository.
  * [Glimpse](http://getglimpse.com) - Providing real time diagnostics & insights to the fingertips of hundreds of thousands of developers daily.
  * [ILSpy](http://ilspy.net/) - ILSpy is the open-source .NET assembly browser and decompiler.

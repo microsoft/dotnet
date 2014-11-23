@@ -35,7 +35,7 @@ There are many .NET Open Source projects. You can always use a search engine to 
  * [AngleSharp](https://github.com/FlorianRappl/AngleSharp) - Ultimate angle brackets parser library. It parses HTML5, MathML, SVG and CSS to construct a DOM based on the official W3C specification.
  * [ArcGIS.PCL](https://github.com/davetimmins/ArcGIS.PCL)
  * [AzureNetQ](https://github.com/Roysvork/AzureNetQ) - An easy to use .NET API for Azure Service Bus.
- * [Cimbalino](http://cimbalino.org/) - A set of useful and powerful tools that will help you build your Windows Platform applications.
+ * [Cimbalino Toolkit](http://cimbalino.org/) - A set of useful and powerful tools that will help you build your Windows Platform applications.
  * [Coding4Fun Toolkit](http://coding4fun.codeplex.com/)
  * [ColoredConsole](https://github.com/colored-console/colored-console)
  * [Cricket](http://fsprojects.github.io/Cricket/) - Actor library

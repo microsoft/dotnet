@@ -45,11 +45,13 @@ There are many .NET Open Source projects. You can always use a search engine to 
  * [FluentBootstrap](https://github.com/somedave/FluentBootstrap)
  * [FluentValidation](https://github.com/JeremySkinner/FluentValidation) - A small validation library for .NET that uses a fluent interface and lambda expressions for building validation rules.
  * [GongSolutions.Wpf.DragDrop](https://github.com/punker76/gong-wpf-dragdrop) A drag'n'drop framework for WPF.
+ * [HudlFfmpeg](https://github.com/hudl/HudlFfmpeg) - A/V transcoding framework that helps build complex FFmpeg commands.
  * [ImageProcessor](http://imageprocessor.org/)
  * [Kentor.AuthServices](https://github.com/KentorIT/authservices) A SAML2 Service Provider for .NET.
  * [LibGit2Sharp](https://github.com/libgit2/libgit2sharp)
  * [MahApps.Metro](https://github.com/MahApps/MahApps.Metro) - A toolkit for creating metro-style WPF applications.
  * [Math.NET Numerics](http://numerics.mathdotnet.com/) Provides methods and algorithms for numerical computations in science, engineering and every day use.
+ * [Mjolnir](https://github.com/hudl/Mjolnir) - [Hystrix](https://github.com/Netflix/Hystrix)-inspired fault tolerance with circuit breakers and thread pools.
  * [NetTopologySuite](https://github.com/NetTopologySuite) A .NET port of the JTS Topology Suite.
  * [JSON.NET](http://json.net/) - Popular high-performance JSON framework for .NET
  * [NodaTime](http://nodatime.org/) - A better date and time API for .NET

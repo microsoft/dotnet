@@ -5,6 +5,7 @@ There are many .NET Open Source projects. You can always use a search engine to 
 * Platforms
  * [.NET Core](https://github.com/dotnet/corefx) - Core .NET Framework
  * [Castle Project](https://github.com/castleproject) - Umbrella project for ActiveRecord, DynamicProxy, MonoRail, Windsor
+ * [Catel](http://catelproject.com/) - Application platform with IoC, logging, reflection and much more that serves as a base for applications that must be ready for future growth.
  * [Cosmos](http://cosmos.codeplex.com/)
  * [Mono Project](https://github.com/mono/) - Cross-platform implementation of .NET Framework.
  
@@ -66,7 +67,7 @@ There are many .NET Open Source projects. You can always use a search engine to 
 
 * Model-View-ViewModel (MVVM) Frameworks
  * [Caliburn Micro](http://caliburnmicro.com/)
- * [Catel](http://catelproject.com/)
+ * [Catel.MVVM](http://catelproject.com/)
  * [MVVM Cross](https://github.com/MvvmCross/MvvmCross)
  * [MVVM Light Toolkit](http://www.mvvmlight.net)
  * [Radical](https://github.com/RadicalFx/radical)

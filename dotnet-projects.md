@@ -10,6 +10,9 @@ There are many .NET Open Source projects. You can always use a search engine to 
  * [Mono Project](https://github.com/mono/) - Cross-platform implementation of .NET Framework.
  
 * Languages
+ * [Dynamic Language Runtime](http://www.github.com/IronLanguages/main.git) - A toolkit for building dynamic languages for .NET.
+ * [IronPython](http://ironpython.net) - A .NET implementation of the [Python](https://www.python.org) programming language, built on the DLR.
+ * [IronRuby](http://ironruby.net) - A .NET implementation of the [Ruby](https://www.ruby-lang.org) programming language, built on the DLR.
  * [IronScheme](http://ironscheme.codeplex.com) - A R6RS conforming Scheme-like implementation based on the Microsoft DLR.
  * [Nemerle](https://github.com/rsdn/nemerle) A high-level statically-typed programming language which offers functional, object-oriented and imperative features and has a simple C# like syntax and a powerful meta-programming system.
 

@@ -55,7 +55,7 @@ The general rule we follow is "use Visual Studio defaults".
    namespaces at the top and blank lines between different top level groups
 7. Avoid more than one empty line at any time. For example, do not have two 
    blank lines between members of a type.
-8. Avoid supurious free spaces.
+8. Avoid spurious free spaces.
    For example avoid `if (someVar == 0)...`, where the dots mark the spurious free spaces. 
    Consider enabling "View White Space (Ctrl+E, S)" if using Visual Studio, to aid detection.
  		 

@@ -54,6 +54,10 @@ The general rule we follow is "use Visual Studio defaults".
    `namespace` declarations and should be sorted alphabetically, with `System.`
    namespaces at the top and blank lines between different top level groups
 
+Maintaining consistent style within an existing file or library is preferred
+over the above guidelines when they contradict, which may occur in code that
+predates these guidelines.
+
 ### Example File:
 
 ```C#

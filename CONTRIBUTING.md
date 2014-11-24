@@ -56,7 +56,7 @@ The general rule we follow is "use Visual Studio defaults".
 7. Avoid more than one empty line at any time. For example, do not have two 
    blank lines between members of a type.
 8. Avoid supurious free spaces.
-   For example avoid " if (someVar == 0)...", where the dots mark the spurious free spaces. 
+   For example avoid `if (someVar == 0)...`, where the dots mark the spurious free spaces. 
    Consider enabling "View White Space (Ctrl+E, S)" if using Visual Studio, to aid detection.
  		 
 For VisualStudio 2013, we included a corefx.vssettings that formalizes most of these guidelines, notable exceptions being the spurious spaces and free spaces.

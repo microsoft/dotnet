@@ -125,10 +125,10 @@ There are many .NET Open Source projects. You can always use a search engine to 
 * Games
  * [MonoGame](http://monogame.net) - One framework for creating powerful cross-platform games.
  * [Paradox](https://github.com/SiliconStudio/paradox) - Paradox is a versatile and engaging game engine.
+ * [OpenRA](https://github.com/OpenRA/OpenRA) - An open-source implementation of the Command & Conquer: Red Alert engine using .NET/Mono and OpenGL.
 
 * Control libraries
  * [Callisto](https://github.com/timheuer/callisto) - UI Control Toolkit for WinRT apps
- * [OpenRA](https://github.com/OpenRA/OpenRA) - An open-source implementation of the Command & Conquer: Red Alert engine using .NET/Mono and OpenGL.
  
 * Windows Services
  * [TopShelf](https://github.com/Topshelf/Topshelf) 

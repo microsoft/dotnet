@@ -1,13 +1,15 @@
-# .NET Open Source Projects
+# .NET Open Source Developer Projects
 
-There are many .NET Open Source projects. You can always use a search engine to find projects, and that's a good approach. This list is intended to provide a showcase for projects that want it and to be community maintained. PR a change in and it will be accepted (modulo duplicates). Projects should be sorted alphabetically provide a one-line description and GitHub (or source) links are preferred over marketing sites.
+There are many .NET open source developer projects. You can always use a search engine to find projects, and that's a good approach. This list is intended to provide a showcase for projects that want it and to be community maintained. PR a change in and it will be accepted (modulo duplicates). Projects should be sorted alphabetically provide a one-line description and GitHub (or source) links are preferred over marketing sites.
+
+* .NET Implementations
+ * [.NET Core](https://github.com/dotnet/corefx) - Core .NET Framework
+ * [Mono Project](https://github.com/mono/) - Cross-platform implementation of .NET Framework.
 
 * Platforms
- * [.NET Core](https://github.com/dotnet/corefx) - Core .NET Framework
  * [Castle Project](https://github.com/castleproject) - Umbrella project for ActiveRecord, DynamicProxy, MonoRail, Windsor
  * [Catel](http://catelproject.com/) - Application platform with IoC, logging, reflection and much more that serves as a base for applications that must be ready for future growth.
  * [Cosmos](http://cosmos.codeplex.com/)
- * [Mono Project](https://github.com/mono/) - Cross-platform implementation of .NET Framework.
  
 * Languages
  * [Dynamic Language Runtime](http://www.github.com/IronLanguages/main.git) - A toolkit for building dynamic languages for .NET.

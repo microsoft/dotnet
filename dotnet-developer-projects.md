@@ -153,8 +153,10 @@ There are many .NET open source developer projects. You can always use a search 
  * [Paradox](https://github.com/SiliconStudio/paradox) - Paradox is a versatile and engaging game engine.
  * [OpenRA](https://github.com/OpenRA/OpenRA) - An open-source implementation of the Command & Conquer: Red Alert engine using .NET/Mono and OpenGL.
 
-* Control libraries
+* UI and Control libraries
  * [Callisto](https://github.com/timheuer/callisto) - UI Control Toolkit for WinRT apps
+ * [Eto](https://github.com/picoe/Eto) - Cross platform GUI Toolkit for desktop and mobile apps
+ * [Mono XWT](https://github.com/mono/xwt) - A cross-platform UI toolkit for creating desktop apps
  
 * Windows Services
  * [TopShelf](https://github.com/Topshelf/Topshelf) 

@@ -75,6 +75,7 @@ There are many .NET open source developer projects. You can always use a search 
  * [SharpDX](https://github.com/sharpdx/SharpDX) - SharpDX is a project delivering the full DirectX API for .NET on all Windows platforms.
  * [SharpMap](https://sharpmap.codeplex.com/) An easy-to-use mapping library for use in web and desktop applications
  * [Splat](https://github.com/paulcbetts/splat) - A library to make things cross-platform that should be.
+ * [SSH.NET](https://sshnet.codeplex.com/) - A client-side library for SSH, SCP and SFTP.
  * [WpfToolkit](https://github.com/dotnetprojects/wpftoolkit) - Fork of the MS WPF Toolkit
 
 * Model-View-ViewModel (MVVM) Frameworks

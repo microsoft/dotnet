@@ -3,7 +3,7 @@
 There are many .NET based open source consumer projects. You can always use a search engine to find projects, and that's a good approach. This list is an intended to provide a showcase for projects that want it. It is intended to be community maintained. PR a change in and it will be accepted (modulo duplicates). Projects should be sorted alphabetically and project source links and product website are allowed. This list could include desktop applications, websites, mobile apps, etc.
 
 * Media Streaming
- * [Media Browser](https://github.com/mediabrowser/) - [www.mediabrowser.tv](http://www.mediabrowser.tv)
+ * [Media Browser](https://github.com/mediabrowser/) - [www.mediabrowser.tv](http://www.mediabrowser.tv) - A client/server application that allows you to easily manage your own media content and present it in an eye catching way. Server runs on Windows, Linux and Mac. Clients are for WP, Android, iOS, Media Centre, Windows, Roku, etc.
  
 * Utilities 
  * [Gmail Notifier Plus](https://github.com/shellscape/Gmail-Notifier-Plus) - An app to monitor multiple Gmail and Google Apps for Work Gmail accounts from a single, compact point, sitting in Windows 7/8/8.1 taskbar.

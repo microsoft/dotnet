@@ -4,6 +4,9 @@ There are many .NET based open source consumer projects. You can always use a se
 
 * Media Streaming
  * [Media Browser](https://github.com/mediabrowser/) - [www.mediabrowser.tv](http://www.mediabrowser.tv)
+
+* Audio players
+ * [Banshee](https://github.com/GNOME/banshee) - A cross-platform multimedia player
  
 * Utilities 
  * [Gmail Notifier Plus](https://github.com/shellscape/Gmail-Notifier-Plus) - An app to monitor multiple Gmail and Google Apps for Work Gmail accounts from a single, compact point, sitting in Windows 7/8/8.1 taskbar.

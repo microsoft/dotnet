@@ -42,6 +42,7 @@ There are many .NET open source developer projects. You can always use a search 
  * [System.Data.SQLite](https://system.data.sqlite.org) SQLite
  
 * Libraries
+ * [Albedo](https://github.com/ploeh/Albedo) - A .NET library targeted at making Reflection programming more consistent, using a common set of abstractions and utilities.
  * [Algorithmia](https://github.com/SolutionsDesign/Algorithmia) Algorithms and Data structures
  * [AngleSharp](https://github.com/FlorianRappl/AngleSharp) - Ultimate angle brackets parser library. It parses HTML5, MathML, SVG and CSS to construct a DOM based on the official W3C specification.
  * [ArcGIS.PCL](https://github.com/davetimmins/ArcGIS.PCL)

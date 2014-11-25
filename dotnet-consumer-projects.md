@@ -5,6 +5,9 @@ There are many .NET based open source consumer projects. You can always use a se
 * Media Streaming
  * [Media Browser](https://github.com/mediabrowser/) - [www.mediabrowser.tv](http://www.mediabrowser.tv)
 
+* Utilities
+ * [Gmail Notifier Plus](https://github.com/shellscape/Gmail-Notifier-Plus)
+
 * Developer projects
  * [.NET open source developer projects list](dotnet-developer-projects.md)
  

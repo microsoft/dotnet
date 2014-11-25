@@ -143,13 +143,14 @@ There are many .NET open source developer projects. You can always use a search 
 
 * Data Access
  * [Dapper](https://github.com/StackExchange/dapper-dot-net) - Dapper is a single file you can drop in to your project that will extend your IDbConnection interface.
+ * [linq2db](https://github.com/linq2db/linq2db/) - Lightweight ORM and LINQ provider with support for various databases including MS SQL, PostgreSQL, Oracle and MySQL
  * [NHibernate](https://github.com/nhibernate) - Object Relational Mapper
  * [Simple Data](https://github.com/markrendle/Simple.Data) - A light-weight, dynamic data access component for C# 4.0.
  * [Sqlite-net](https://github.com/praeclarum/sqlite-net) - Simple, powerful, cross-platform SQLite client and ORM.
  * [NMEA Parser](https://github.com/dotMorten/NmeaParser) - Library for handling NMEA message in Windows Desktop, Store, Phone and Xamarin (Android + iOS), coming from files, Bluetooth, serial port or any stream.
  * [StackExchange.Redis](https://github.com/StackExchange/StackExchange.Redis)  
- * [SQL LocalDB Wrapper](https://github.com/martincostello/sqllocaldb)
- * [linq2db](https://github.com/linq2db/linq2db/) - Lightweight ORM and LINQ provider with support for various databases including MS SQL, PostgreSQL, Oracle and MySQL
+ * [SQL LocalDB Wrapper](https://github.com/martincostello/sqllocaldb) - SQL LocalDB Wrapper is an assembly providing interop with the SQL LocalDB native API from managed code using .NET APIs.
+
 
 * Games
  * [MonoGame](http://monogame.net) - One framework for creating powerful cross-platform games.

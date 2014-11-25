@@ -148,7 +148,7 @@ There are many .NET open source developer projects. You can always use a search 
  * [Sqlite-net](https://github.com/praeclarum/sqlite-net) - Simple, powerful, cross-platform SQLite client and ORM.
  * [NMEA Parser](https://github.com/dotMorten/NmeaParser) - Library for handling NMEA message in Windows Desktop, Store, Phone and Xamarin (Android + iOS), coming from files, Bluetooth, serial port or any stream.
  * [StackExchange.Redis](https://github.com/StackExchange/StackExchange.Redis)  
- * [SQL LocalDB Wrapper](https://github.com/martincostello/sqllocaldb)
+ * [SQL LocalDB Wrapper](https://github.com/martincostello/sqllocaldb) - SQL LocalDB Wrapper is an assembly providing interop with the SQL LocalDB native API from managed code using .NET APIs.
 
 * Games
  * [MonoGame](http://monogame.net) - One framework for creating powerful cross-platform games.

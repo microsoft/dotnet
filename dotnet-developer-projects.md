@@ -110,10 +110,29 @@ There are many .NET open source developer projects. You can always use a search 
 
 * Dependency Injection
  * [Autofac](http://autofac.org/) - Autofac is an addictive Inversion of Control container for .NET 4.5, Silverlight 5, Windows Store apps, and Windows Phone 8 apps.
+ * [DryIoc](https://bitbucket.org/dadhi/dryioc) - DryIoc is small, fast, capable IoC Container for .NET
+ * [fFastInjector](https://ffastinjector.codeplex.com/) - fFastInjector is a high-performing dependency injector, service locator, and/or IOC (inversion of control) container.
  * [Funq](https://funq.codeplex.com/) - A fast DI container you can understand.
+ * [Grace](https://github.com/ipjohnson/Grace) - Grace is a feature rich Dependency Injection container in a portable class library 
+ * [Griffin](https://github.com/jgauffin/griffin.container) - Inversion of control container with (almost) zero configuration 
+ * [HaveBox](https://bitbucket.org/Have/havebox/wiki/Home) - HaveBox is a very fast and lightweight IoC containter. The goal is to keep it fast and light, and at the same time easy to use.
+ * [Hiro](https://github.com/philiplaureano/Hiro) - An ultra-lightweight, inversion of control container compiler framework 
+ * [IfInjector](https://github.com/iamahern/IfInjector) - High performance mobile micro-IoC container.
+ * [LightCore](http://lightcore.ch/de/default.aspx) - LightCore is a lightweight dependency injection container that can be used as a service locator and despite its simplicity and ease boasts numerous features.
+ * [LightInject](https://github.com/seesharper/LightInject) - A ultra lightweight IoC container
+ * [MicroSliver](https://microsliver.codeplex.com/) - MicroSliver is a micro, non-bloat, non-intimidating and speedy .NET (ASP.NET, Silverlight, RIA Services, WPF, Forms and Metro!) 
+ * [Mugen Injection](http://mugeninjection.codeplex.com/) - The MugeniInjection is a lightweight and fast managed IoC (Inversion of Control) and DI (Dependency Injection) with support for constructor, property and method call injection
  * [Ninject for Desktop](http://www.ninject.org/) - Dependency injector for .NET
  * [Ninject for Portable Class Libraries, Universal apps and Xamarin](https://github.com/onovotny/ninject)
+ * [QuickInject](https://github.com/isabgol/QuickInject) - QuickInject is a Unity 3.5 based IoC container that aims to give the Unity container a performance advantage in basic scenarios. 
+ * [Simple Injector](https://simpleinjector.org/index.html) - Simple Injector is an easy-to-use Dependency Injection (DI) library for .NET 4+ that supports Silverlight 4+, Windows Phone 8, Windows 8 including Universal apps and Mono.
+ * [Spring.NET](http://www.springframework.net/) - Spring.NET is an open source application framework that makes building  enterprise .NET applications easier.  
+ * [StructureMap](http://docs.structuremap.net/) - StructureMap is a Dependency Injection / Inversion of Control tool for .Net that can be used to improve the architectural qualities of an object oriented system by reducing the mechanical costs of good design techniques.
+ * [StyleMVVM](https://stylemvvm.codeplex.com/) - Style MVVM is a toolkit designed for the Windows Store platform around the idea of being light weight and fast.
  * [TinyIoC](https://github.com/grumpydev/TinyIoC) - An easy to use, hassle free, Inversion of Control Container for small projects, libraries and beginners alike.
+ * [Unity Container](http://msdn.microsoft.com/library/ff647202.aspx) - The Unity Container (Unity) is a lightweight, extensible dependency injection container with optional support for instance and type interception.
+ * [Castle Project/Windsor](http://www.castleproject.org/) - IOC / Proxy
+ * [IOC Comparison](http://www.palmmedia.de/blog/2011/8/30/ioc-container-benchmark-performance-comparison) - IoC Container Benchmark - Performance comparison
 
 * Data Access
  * [Dapper](https://github.com/StackExchange/dapper-dot-net) - Dapper is a single file you can drop in to your project that will extend your IDbConnection interface.

@@ -6,7 +6,7 @@ There are many .NET based open source consumer projects. You can always use a se
  * [Media Browser](https://github.com/mediabrowser/) - [www.mediabrowser.tv](http://www.mediabrowser.tv)
 
 * Developer projects
- * [.NET open source developer projects list](https://github.com/Microsoft/dotnet/blob/master/dotnet-projects.md)
+ * [.NET open source developer projects list](dotnet-developer-projects.md)
  
  
 This list is just a starting point - also take a look at all the projects on [CodePlex](http://www.codeplex.com/) and on [GitHub Trending C#](https://github.com/trending?l=csharp).

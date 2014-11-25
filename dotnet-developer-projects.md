@@ -139,7 +139,7 @@ There are many .NET open source developer projects. You can always use a search 
  * [Quartz.Net](https://github.com/quartznet/quartznet) 
 
 * Consumer projects
- * [.NET open source consumer projects list](https://github.com/Microsoft/dotnet/blob/master/consumer-projects.md)
+ * [.NET open source consumer projects list](dotnet-consumer-projects.md)
 
 This list is just a starting point - also take a look at all the projects on [CodePlex](http://www.codeplex.com/) and on [GitHub Trending C#](https://github.com/trending?l=csharp).
 

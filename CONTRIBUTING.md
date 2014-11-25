@@ -56,31 +56,98 @@ The general rule we follow is "use Visual Studio defaults".
 
 ### Example File:
 
+``ObservableLinkedList`1.cs:``
+
 ```C#
-using System.Aardvarks;
-using System.IO;
-using System.Zebras;
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Collections.Specialized;
+using System.ComponentModel;
+using System.Diagnostics;
 
-using Microsoft.CoolStuff;
-using Microsoft.CoolStuff.Build;
+using Microsoft.Win32;
 
-using Zebra.Crossing;
-
-namespace System.More.AndMore
+namespace System.Collections.Generic
 {
-    public class MyClass
+    public partial class ObservableLinkedList<T> : INotifyCollectionChanged, INotifyPropertyChanged
     {
-        private readonly IAbstraction _something;
+        private ObservableLinkedListNode<T> _head;
+        private int _count;
 
-        public MyClass(IAbstraction something)
+        public ObservableLinkedList(IEnumerable<T> items)
         {
-            _something = something;
+            if (items == null)
+                throw new ArgumentException("items");
+
+            foreach (T item in items)
+            {
+                AddLast(item);
+            }
         }
 
-        public IAbstraction SomethingService
+        public event NotifyCollectionChangedEventHandler CollectionChanged;
+
+        public int Count
         {
-            get { return _something; }
+            get { return _count; }
         }
+
+        public ObservableLinkedListNode AddLast(T value) 
+        {
+            LinkedListNode<T> newNode = new LinkedListNode<T>(this, value);
+
+            InsertNodeBefore(_head, node);
+        }
+
+        protected virtual void OnCollectionChanged(NotifyCollectionChangedEventArgs e)
+        {
+            var handler = CollectionChanged;
+            if (handler != null)
+            {
+                handler(this, e);
+            }
+        }
+
+        private void InsertNodeBefore(LinkedListNode<T> node, LinkedListNode<T> newNode)
+        {
+           ...
+        }
+        
+        ...
+    }
+}
+```
+
+``ObservableLinkedList`1.ObservableLinkedListNode.cs:``
+
+```C#
+using System;
+
+namespace System.Collections.Generics
+{
+    partial class ObservableLinkedList<T>
+    {
+        public class ObservableLinkedListNode
+        {
+            private readonly ObservableLinkedList<T> _parent;
+            private readonly T _value;
+
+            internal ObservableLinkedListNode(ObservableLinkedList<T> parent, T value)
+            {
+                Debug.Assert(parent != null);
+
+                _parent = parent;
+                _value = value;
+            }
+            
+            public T Value
+            {
+               get { return _value; }
+            }
+        }
+
+        ...
     }
 }
 ```

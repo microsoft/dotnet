@@ -112,6 +112,7 @@ There are many .NET open source developer projects. You can always use a search 
  * [NUnit](https://github.com/nunit/nunit) - NUnit is a unit-testing framework for all .NET languages.
  * [tickspec](http://tickspec.codeplex.com/) A lightweight Behaviour Driven Development (BDD) framework.
  * [xUnit](https://github.com/xunit/xunit) - xUnit.net is a community-focused unit testing tool for the .NET Framework.
+ * [AutoFixture](https://github.com/AutoFixture/AutoFixture) - An open source framework for .NET designed to minimize the 'Arrange' phase of your unit tests. Its primary goal is to allow developers to focus on what is being tested rather than how to setup the test scenario, by making it easier to create object graphs containing test data.
 
 * Dependency Injection
  * [Autofac](http://autofac.org/) - Autofac is an addictive Inversion of Control container for .NET 4.5, Silverlight 5, Windows Store apps, and Windows Phone 8 apps.

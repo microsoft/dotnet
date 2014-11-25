@@ -17,6 +17,7 @@ There are many .NET open source developer projects. You can always use a search 
  * [IronRuby](http://ironruby.net) - A .NET implementation of the [Ruby](https://www.ruby-lang.org) programming language, built on the DLR.
  * [IronScheme](http://ironscheme.codeplex.com) - A R6RS conforming Scheme-like implementation based on the Microsoft DLR.
  * [Nemerle](https://github.com/rsdn/nemerle) A high-level statically-typed programming language which offers functional, object-oriented and imperative features and has a simple C# like syntax and a powerful meta-programming system.
+ * [Eagle](http://eagle.to) A .NET implementation of the [Tcl](https://www.tcl.tk) programming language, built on the CLR.
 
 * Security / Identity Management
  * [Thinktecture IdentityServer](https://github.com/thinktecture/Thinktecture.IdentityServer.v3)
@@ -35,6 +36,7 @@ There are many .NET open source developer projects. You can always use a search 
 * ADO.NET providers
  * [Npgsql](https://github.com/npgsql/npgsql) PostgreSQL 
  * [Firebird .NET client](https://sourceforge.net/p/firebird/NETProvider/) Firebird
+ * [System.Data.SQLite](https://system.data.sqlite.org) SQLite
  
 * Libraries
  * [Algorithmia](https://github.com/SolutionsDesign/Algorithmia) Algorithms and Data structures

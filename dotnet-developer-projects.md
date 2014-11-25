@@ -19,6 +19,7 @@ There are many .NET open source developer projects. You can always use a search 
  * [IronScheme](http://ironscheme.codeplex.com) - A R6RS conforming Scheme-like implementation based on the Microsoft DLR.
  * [Nemerle](https://github.com/rsdn/nemerle) A high-level statically-typed programming language which offers functional, object-oriented and imperative features and has a simple C# like syntax and a powerful meta-programming system.
  * [Eagle](http://eagle.to) A .NET implementation of the [Tcl](https://www.tcl.tk) programming language, built on the CLR.
+ * [MoonSharp](http://www.moonsharp.org) A Lua interpreter and remote debugger, written entirely in C#, easily embeddable in any application running on .NET 3.5+ and Mono.
 
 * Security / Identity Management
  * [Thinktecture IdentityServer](https://github.com/thinktecture/Thinktecture.IdentityServer.v3)

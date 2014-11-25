@@ -70,6 +70,7 @@ There are many .NET open source developer projects. You can always use a search 
  * [OsmSharp](https://github.com/OsmSharp) Mapping & Routing library.
  * [PocketSharp](https://github.com/ceee/PocketSharp)
  * [RestSharp](http://restsharp.org/) - Simple REST and HTTP API Client for .NET
+ * [RestBus](http://restbus.org/) - Easy Asynchronous Messaging and Queueing for .NET
  * [SharpDX](https://github.com/sharpdx/SharpDX) - SharpDX is a project delivering the full DirectX API for .NET on all Windows platforms.
  * [SharpMap](https://sharpmap.codeplex.com/) An easy-to-use mapping library for use in web and desktop applications
  * [Splat](https://github.com/paulcbetts/splat) - A library to make things cross-platform that should be.

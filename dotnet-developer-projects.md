@@ -45,6 +45,7 @@ There are many .NET open source developer projects. You can always use a search 
  * [Algorithmia](https://github.com/SolutionsDesign/Algorithmia) Algorithms and Data structures
  * [AngleSharp](https://github.com/FlorianRappl/AngleSharp) - Ultimate angle brackets parser library. It parses HTML5, MathML, SVG and CSS to construct a DOM based on the official W3C specification.
  * [ArcGIS.PCL](https://github.com/davetimmins/ArcGIS.PCL)
+ * [AsyncCollections](https://github.com/HellBrick/AsyncCollections) - A set of lock-free thread-safe collections designed to be used asynchronously.
  * [AzureNetQ](https://github.com/Roysvork/AzureNetQ) - An easy to use .NET API for Azure Service Bus.
  * [Cimbalino Toolkit](http://cimbalino.org/) - A set of useful and powerful tools that will help you build your Windows Platform applications.
  * [Coding4Fun Toolkit](http://coding4fun.codeplex.com/)

@@ -33,6 +33,7 @@ There are many .NET open source developer projects. You can always use a search 
 
 * Web Frameworks
  * [Nancy](http://nancyfx.org) - A lightweight, low-ceremony, framework for building HTTP based services on .NET and Mono. 
+ * [NemerleWeb](https://github.com/NemerleWeb/NemerleWeb) - Web MVVM library for .Net. It uses reactive data model which allows creating rich internet applications.
 
 * ADO.NET providers
  * [Npgsql](https://github.com/npgsql/npgsql) PostgreSQL 

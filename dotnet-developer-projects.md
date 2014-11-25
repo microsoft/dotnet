@@ -103,6 +103,7 @@ There are many .NET open source developer projects. You can always use a search 
  * [Snoop WPF](https://github.com/cplotts/snoopwpf) - Snoop - The WPF Spy Utility
  * [Sql Bulk Copy Sync](https://github.com/WCOMAB/SqlBulkSync)
  * [Vagrant](http://nessos.github.io/Vagrant/) Automated dependency resolution and dynamic assembly compilation framework.
+ * [ZeroToNine](https://github.com/ploeh/ZeroToNine) - A tool for maintaining .NET Assembly versions across multiple files.
 
 * Testing
  * [canopy](http://lefthandedgoat.github.io/canopy/) A web testing framework.

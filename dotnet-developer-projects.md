@@ -12,6 +12,7 @@ There are many .NET open source developer projects. You can always use a search 
  * [Cosmos](http://cosmos.codeplex.com/)
  
 * Languages
+ * [ClojureCLR](https://github.com/clojure/clojure-clr) - A .NET implemention of the [Clojure](http://clojure.org) programming language, built on the DLR. 
  * [Dynamic Language Runtime](http://www.github.com/IronLanguages/main.git) - A toolkit for building dynamic languages for .NET.
  * [IronPython](http://ironpython.net) - A .NET implementation of the [Python](https://www.python.org) programming language, built on the DLR.
  * [IronRuby](http://ironruby.net) - A .NET implementation of the [Ruby](https://www.ruby-lang.org) programming language, built on the DLR.

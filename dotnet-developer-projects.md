@@ -156,7 +156,8 @@ There are many .NET open source developer projects. You can always use a search 
  * [MonoGame](http://monogame.net) - One framework for creating powerful cross-platform games.
  * [Paradox](https://github.com/SiliconStudio/paradox) - Paradox is a versatile and engaging game engine.
  * [OpenRA](https://github.com/OpenRA/OpenRA) - An open-source implementation of the Command & Conquer: Red Alert engine using .NET/Mono and OpenGL.
-
+ * [WaveEngine](https://github.com/waveengine) - A powerful component based game engine for desktop and mobile platforms using C#.
+ 
 * UI and Control libraries
  * [Callisto](https://github.com/timheuer/callisto) - UI Control Toolkit for WinRT apps
  * [Eto](https://github.com/picoe/Eto) - Cross platform GUI Toolkit for desktop and mobile apps

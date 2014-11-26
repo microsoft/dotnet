@@ -80,6 +80,9 @@ There are many .NET open source developer projects. You can always use a search 
  * [SSH.NET](https://sshnet.codeplex.com/) - A client-side library for SSH, SCP and SFTP.
  * [WpfToolkit](https://github.com/dotnetprojects/wpftoolkit) - Fork of the MS WPF Toolkit
 
+* Logging
+ * [Exceptionless](https://github.com/exceptionless/Exceptionless) - Provides real-time .NET error reporting for your ASP.NET, Web API, WebForms, WPF, Console, and MVC apps. It organizes the gathered information into simple actionable data that will help your app become exceptionless!
+
 * Model-View-ViewModel (MVVM) Frameworks
  * [Caliburn Micro](http://caliburnmicro.com/)
  * [Catel.MVVM](http://catelproject.com/)

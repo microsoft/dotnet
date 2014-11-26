@@ -10,9 +10,6 @@ There are many .NET based open source consumer projects. You can always use a se
 
 * Developer projects
  * [.NET open source developer projects list](dotnet-developer-projects.md)
- 
-* Service Bus
-  * [Warewolf Easy Service Bus](https://github.com/Warewolf-ESB/Warewolf-ESB) - An open source easy to use service bus, built on numerous .Net technologies including WF (Windows Workflow Foundation), SignalR and WPF.
 
 This list is just a starting point - also take a look at all the projects on [CodePlex](http://www.codeplex.com/) and on [GitHub Trending C#](https://github.com/trending?l=csharp).
 

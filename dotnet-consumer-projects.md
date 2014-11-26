@@ -13,8 +13,7 @@ There are many .NET based open source consumer projects. You can always use a se
 
 * Developer projects
  * [.NET open source developer projects list](dotnet-developer-projects.md)
- 
- 
+
 This list is just a starting point - also take a look at all the projects on [CodePlex](http://www.codeplex.com/) and on [GitHub Trending C#](https://github.com/trending?l=csharp).
 
 Thanks to @scottisafool for providing the initial list.

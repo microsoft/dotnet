@@ -154,6 +154,7 @@ There are many .NET open source developer projects. You can always use a search 
  * [Simple Data](https://github.com/markrendle/Simple.Data) - A light-weight, dynamic data access component for C# 4.0.
  * [Sqlite-net](https://github.com/praeclarum/sqlite-net) - Simple, powerful, cross-platform SQLite client and ORM.
  * [NMEA Parser](https://github.com/dotMorten/NmeaParser) - Library for handling NMEA message in Windows Desktop, Store, Phone and Xamarin (Android + iOS), coming from files, Bluetooth, serial port or any stream.
+ * [Neyro.Data](https://github.com/neyromant/Neyro.Data) - Tiny, simple and fast ORM.
  * [StackExchange.Redis](https://github.com/StackExchange/StackExchange.Redis)  
  * [SQL LocalDB Wrapper](https://github.com/martincostello/sqllocaldb) - SQL LocalDB Wrapper is an assembly providing interop with the SQL LocalDB native API from managed code using .NET APIs.
 

@@ -5,11 +5,11 @@ There are many .NET open source developer projects. You can always use a search 
 * .NET Implementations
  * [.NET Core](https://github.com/dotnet/corefx) - Core .NET Framework
  * [Mono Project](https://github.com/mono/) - Cross-platform implementation of .NET Framework.
-
+ * [Cosmos](http://cosmos.codeplex.com/) - C# Open Source Managed Operating System, an operating system "construction kit".
+ 
 * Platforms
  * [Castle Project](https://github.com/castleproject) - Umbrella project for ActiveRecord, DynamicProxy, MonoRail, Windsor
  * [Catel](http://catelproject.com/) - Application platform with IoC, logging, reflection and much more that serves as a base for applications that must be ready for future growth.
- * [Cosmos](http://cosmos.codeplex.com/)
  
 * Languages
  * [ClojureCLR](https://github.com/clojure/clojure-clr) - A .NET implemention of the [Clojure](http://clojure.org) programming language, built on the DLR. 

@@ -103,6 +103,8 @@ There are many .NET open source developer projects. You can always use a search 
  * [Snoop WPF](https://github.com/cplotts/snoopwpf) - Snoop - The WPF Spy Utility
  * [Sql Bulk Copy Sync](https://github.com/WCOMAB/SqlBulkSync)
  * [Vagrant](http://nessos.github.io/Vagrant/) Automated dependency resolution and dynamic assembly compilation framework.
+ * [Outcomes.Net](https://github.com/kinetiq/Ether.Outcomes/) Fluent wrapper that eliminates plumbing code around failure-prone functions.
+ * [Weighted Selector] (https://github.com/kinetiq/Ether.WeightedSelector/) Easy to use (but high performance!) weighted selection implementation.
 
 * Testing
  * [canopy](http://lefthandedgoat.github.io/canopy/) A web testing framework.

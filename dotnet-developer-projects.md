@@ -107,6 +107,7 @@ There are many .NET open source developer projects. You can always use a search 
  * [Vagrant](http://nessos.github.io/Vagrant/) Automated dependency resolution and dynamic assembly compilation framework.
  * [Outcomes.Net](https://github.com/kinetiq/Ether.Outcomes/) Fluent wrapper that eliminates plumbing code around failure-prone functions.
  * [Weighted Selector](https://github.com/kinetiq/Ether.WeightedSelector/) Easy to use (but high performance!) weighted selection implementation.
+ * [ZeroToNine](https://github.com/ploeh/ZeroToNine) - A tool for maintaining .NET Assembly versions across multiple files.
 
 * Testing
  * [AutoFixture](https://github.com/AutoFixture/AutoFixture) - An open source framework for .NET designed to minimize the 'Arrange' phase of your unit tests. Its primary goal is to allow developers to focus on what is being tested rather than how to setup the test scenario, by making it easier to create object graphs containing test data.

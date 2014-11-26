@@ -24,7 +24,7 @@ Each one of these projects maps to one or more
 [.NET NuGet packages](http://blogs.msdn.com/b/dotnet/p/nugetpackages.aspx)
 that are published on [NuGet.org](http://nuget.org/).
 
-There are also many great open source .NET community projects, such as:
+There are also many great [open source .NET community projects](dotnet-developer-projects.md), such as:
 
 * [Mono Project](https://github.com/mono/)
 * [JSON.NET](http://json.net/)

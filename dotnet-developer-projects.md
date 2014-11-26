@@ -44,12 +44,12 @@ There are many .NET open source developer projects. You can always use a search 
 * Libraries
  * [Algorithmia](https://github.com/SolutionsDesign/Algorithmia) Algorithms and Data structures
  * [AngleSharp](https://github.com/FlorianRappl/AngleSharp) - Ultimate angle brackets parser library. It parses HTML5, MathML, SVG and CSS to construct a DOM based on the official W3C specification.
- * [ArcGIS.PCL](https://github.com/davetimmins/ArcGIS.PCL)
+ * [ArcGIS.PCL](https://github.com/davetimmins/ArcGIS.PCL) - Call ArcGIS Server REST API resources. You can also convert between ArcGIS features and GeoJSON.
  * [AsyncCollections](https://github.com/HellBrick/AsyncCollections) - A set of lock-free thread-safe collections designed to be used asynchronously.
  * [AzureNetQ](https://github.com/Roysvork/AzureNetQ) - An easy to use .NET API for Azure Service Bus.
  * [Cimbalino Toolkit](http://cimbalino.org/) - A set of useful and powerful tools that will help you build your Windows Platform applications.
  * [Coding4Fun Toolkit](http://coding4fun.codeplex.com/)
- * [ColoredConsole](https://github.com/colored-console/colored-console)
+ * [ColoredConsole](https://github.com/colored-console/colored-console) - Add some color to your console.
  * [Cricket](http://fsprojects.github.io/Cricket/) - Actor library
  * [DiffSharp](http://gbaydin.github.io/DiffSharp/) Automatic Differentiation Library
  * [DotNetOpenAuth](https://github.com/DotNetOpenAuth) - Library that adds support for your site visitors to login with their OpenIDs by just dropping an ASP.NET control onto your page.
@@ -106,12 +106,12 @@ There are many .NET open source developer projects. You can always use a search 
  * [Sql Bulk Copy Sync](https://github.com/WCOMAB/SqlBulkSync)
  * [Vagrant](http://nessos.github.io/Vagrant/) Automated dependency resolution and dynamic assembly compilation framework.
  * [Outcomes.Net](https://github.com/kinetiq/Ether.Outcomes/) Fluent wrapper that eliminates plumbing code around failure-prone functions.
- * [Weighted Selector] (https://github.com/kinetiq/Ether.WeightedSelector/) Easy to use (but high performance!) weighted selection implementation.
+ * [Weighted Selector](https://github.com/kinetiq/Ether.WeightedSelector/) Easy to use (but high performance!) weighted selection implementation.
 
 * Testing
  * [AutoFixture](https://github.com/AutoFixture/AutoFixture) - An open source framework for .NET designed to minimize the 'Arrange' phase of your unit tests. Its primary goal is to allow developers to focus on what is being tested rather than how to setup the test scenario, by making it easier to create object graphs containing test data.
  * [canopy](http://lefthandedgoat.github.io/canopy/) A web testing framework.
- * [FakeItEasy](https://github.com/FakeItEasy/FakeItEasy)
+ * [FakeItEasy](https://github.com/FakeItEasy/FakeItEasy) - The easy mocking library for .NET.
  * [FsCheck](https://fsharp.github.io/FsCheck/) A tool for testing .NET programs automatically.
  * [moq](https://github.com/Moq/moq4) - The most popular and friendly mocking framework for .NET
  * [NSubstitute](http://nsubstitute.github.io/) - A friendly substitute for .NET mocking frameworks.

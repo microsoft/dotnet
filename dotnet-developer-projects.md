@@ -161,6 +161,7 @@ There are many .NET open source developer projects. You can always use a search 
  * [Neyro.Data](https://github.com/neyromant/Neyro.Data) - Tiny, simple and fast ORM.
  * [StackExchange.Redis](https://github.com/StackExchange/StackExchange.Redis)  
  * [SQL LocalDB Wrapper](https://github.com/martincostello/sqllocaldb) - SQL LocalDB Wrapper is an assembly providing interop with the SQL LocalDB native API from managed code using .NET APIs.
+ * [LINQ2DynamoDB](http://linq2dynamodb.codeplex.com) - A type-safe data context for AWS DynamoDB with LINQ, in-memory caching and OData support.   
 
 
 * Games

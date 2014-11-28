@@ -76,6 +76,7 @@ There are many .NET open source developer projects. You can always use a search 
  * [RestBus](http://restbus.org/) - Easy Asynchronous Messaging and Queueing for .NET
  * [SharpDX](https://github.com/sharpdx/SharpDX) - SharpDX is a project delivering the full DirectX API for .NET on all Windows platforms.
  * [SharpMap](https://sharpmap.codeplex.com/) An easy-to-use mapping library for use in web and desktop applications
+ * [SharpSnmpLib](https://sharpsnmplib.codeplex.com) - An easy-to-use SNMP library for use on all platforms (.NET/Mono/Xamarin)
  * [Splat](https://github.com/paulcbetts/splat) - A library to make things cross-platform that should be.
  * [SSH.NET](https://sshnet.codeplex.com/) - A client-side library for SSH, SCP and SFTP.
  * [WpfToolkit](https://github.com/dotnetprojects/wpftoolkit) - Fork of the MS WPF Toolkit
@@ -106,6 +107,7 @@ There are many .NET open source developer projects. You can always use a search 
  * [Snoop WPF](https://github.com/cplotts/snoopwpf) - Snoop - The WPF Spy Utility
  * [Sql Bulk Copy Sync](https://github.com/WCOMAB/SqlBulkSync)
  * [Vagrant](http://nessos.github.io/Vagrant/) Automated dependency resolution and dynamic assembly compilation framework.
+ * [Obfuscar](https://obfuscar.codeplex.com) - MSIL obfuscation utility for .NET assemblies.
  * [Outcomes.Net](https://github.com/kinetiq/Ether.Outcomes/) Fluent wrapper that eliminates plumbing code around failure-prone functions.
  * [Weighted Selector](https://github.com/kinetiq/Ether.WeightedSelector/) Easy to use (but high performance!) weighted selection implementation.
  * [ZeroToNine](https://github.com/ploeh/ZeroToNine) - A tool for maintaining .NET Assembly versions across multiple files.

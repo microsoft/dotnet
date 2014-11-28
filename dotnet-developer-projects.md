@@ -28,6 +28,7 @@ There are many .NET open source developer projects. You can always use a search 
 * Web CMS
  * [DNN (formerly DotNetNuke)](https://dotnetnuke.codeplex.com/) - Web content management platform (CMS).
  * [Orchard](http://www.orchardproject.net/) - A community-focused Content Management System built on the ASP.NET MVC platform.
+ * [Piranha CMS](http://piranhacms.org) - Lightweight CMS library for new and existing ASP.NET MVC & WebPages applications.
  * [Suave](https://github.com/SuaveIO/suave) A lightweight web server and a set of combinators to manipulate route flow and task composition.
  * [Umbraco](http://umbraco.com/) - Web content management platform (CMS).
  * [WebSharper](https://bitbucket.org/IntelliFactory/websharper)  Web programming platform including a compiler from F# code to JavaScript.

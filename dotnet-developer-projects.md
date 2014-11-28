@@ -175,6 +175,9 @@ There are many .NET open source developer projects. You can always use a search 
 
 * Scheduling
  * [Quartz.Net](https://github.com/quartznet/quartznet) 
+ 
+* Service Bus
+  * [Warewolf Easy Service Bus](https://github.com/Warewolf-ESB/Warewolf-ESB) - An open source easy to use service bus, built on numerous .Net technologies including WF (Windows Workflow Foundation), SignalR and WPF.
 
 * Consumer projects
  * [.NET open source consumer projects list](dotnet-consumer-projects.md)

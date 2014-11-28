@@ -60,7 +60,7 @@ There are many .NET open source developer projects. You can always use a search 
  * [FluentValidation](https://github.com/JeremySkinner/FluentValidation) - A small validation library for .NET that uses a fluent interface and lambda expressions for building validation rules.
  * [GongSolutions.Wpf.DragDrop](https://github.com/punker76/gong-wpf-dragdrop) A drag'n'drop framework for WPF.
  * [HudlFfmpeg](https://github.com/hudl/HudlFfmpeg) - A/V transcoding framework that helps build complex FFmpeg commands.
- * [ImageProcessor](http://imageprocessor.org/)
+ * [ImageProcessor](http://imageprocessor.org/) - A .NET Library For On-The-Fly Processing Of Images.
  * [Kentor.AuthServices](https://github.com/KentorIT/authservices) A SAML2 Service Provider for .NET.
  * [LibGit2Sharp](https://github.com/libgit2/libgit2sharp)
  * [Lucene.Net](https://github.com/apache/lucene.net)

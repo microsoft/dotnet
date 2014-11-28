@@ -192,6 +192,11 @@ There are many .NET open source developer projects. You can always use a search 
 
 * Scheduling
  * [Quartz.Net](https://github.com/quartznet/quartznet) 
+ * [Hangfire] (http://hangfire.io/)
+ 
+* Scheduling
+ * [DropkicK](https://github.com/chucknorris/dropkick/) - A fluent deployment library for Windows applications
+ * [RoundHouse] (https://code.google.com/p/roundhouse/) - RoundhousE is a Database Migration Utility for .NET using sql files and versioning based on source control
  
 * Service Bus
   * [Warewolf Easy Service Bus](https://github.com/Warewolf-ESB/Warewolf-ESB) - An open source easy to use service bus, built on numerous .Net technologies including WF (Windows Workflow Foundation), SignalR and WPF.

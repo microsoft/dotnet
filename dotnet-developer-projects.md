@@ -166,6 +166,7 @@ There are many .NET open source developer projects. You can always use a search 
 
 * Games
  * [MonoGame](http://monogame.net) - One framework for creating powerful cross-platform games.
+ * [Duality](https://github.com/AdamsLair/duality) - An Open Source 2D Game Engine + Visual Editor written entirely in C#.
  * [Paradox](https://github.com/SiliconStudio/paradox) - Paradox is a versatile and engaging game engine.
  * [OpenRA](https://github.com/OpenRA/OpenRA) - An open-source implementation of the Command & Conquer: Red Alert engine using .NET/Mono and OpenGL.
  * [WaveEngine](https://github.com/waveengine) - A powerful component based game engine for desktop and mobile platforms using C#.

@@ -60,7 +60,6 @@ There are many .NET open source developer projects. You can always use a search 
  * [FluentValidation](https://github.com/JeremySkinner/FluentValidation) - A small validation library for .NET that uses a fluent interface and lambda expressions for building validation rules.
  * [GongSolutions.Wpf.DragDrop](https://github.com/punker76/gong-wpf-dragdrop) A drag'n'drop framework for WPF.
  * [HudlFfmpeg](https://github.com/hudl/HudlFfmpeg) - A/V transcoding framework that helps build complex FFmpeg commands.
- * [ImageProcessor](http://imageprocessor.org/)
  * [Kentor.AuthServices](https://github.com/KentorIT/authservices) A SAML2 Service Provider for .NET.
  * [LibGit2Sharp](https://github.com/libgit2/libgit2sharp)
  * [Lucene.Net](https://github.com/apache/lucene.net)
@@ -74,13 +73,19 @@ There are many .NET open source developer projects. You can always use a search 
  * [PocketSharp](https://github.com/ceee/PocketSharp)
  * [RestSharp](http://restsharp.org/) - Simple REST and HTTP API Client for .NET
  * [RestBus](http://restbus.org/) - Easy Asynchronous Messaging and Queueing for .NET
- * [SharpDX](https://github.com/sharpdx/SharpDX) - SharpDX is a project delivering the full DirectX API for .NET on all Windows platforms.
  * [SharpMap](https://sharpmap.codeplex.com/) An easy-to-use mapping library for use in web and desktop applications
  * [SharpSnmpLib](https://sharpsnmplib.codeplex.com) - An easy-to-use SNMP library for use on all platforms (.NET/Mono/Xamarin)
  * [Splat](https://github.com/paulcbetts/splat) - A library to make things cross-platform that should be.
  * [SSH.NET](https://sshnet.codeplex.com/) - A client-side library for SSH, SCP and SFTP.
  * [WebApiProxy](https://github.com/faniereynders/WebApiProxy) - An automatic proxy provider for RESTful services built on ASP.NET Web API. Includes JavaScript & C# client generation.
  * [WpfToolkit](https://github.com/dotnetprojects/wpftoolkit) - Fork of the MS WPF Toolkit
+
+* Graphics & Server-side Image Processing
+ * [ImageResizer](http://imageresizing.net/) - Add commands to image URLs to get altered versions in milliseconds. Edit, filter, touch-up images in real-time. (multiple backends - FreeImage, C++/CLI, GDI+, WIC). 45+ plugins available. ([Apache 2 / AGPL](https://github.com/imazen/resizer/blob/develop/LICENSE.md))
+ * [.NET Image Processor](http://dotnetimageprocessor.codeplex.com/) - Extensible, chainable image processing library (GDI+ based) (Ms-PL).
+ * [DynamicImage](https://github.com/tgjones/dynamic-image) - WPF-based server-side image rendering system - lots of visual effects implemented as high-performance shaders. Has URL api, several plugins available. (Apache 2)
+ * [ImageProcessor](http://imageprocessor.org/) (GDI+ based) (Apache 2).
+ * [SharpDX](https://github.com/sharpdx/SharpDX) - SharpDX is a project delivering the full DirectX API for .NET on all Windows platforms.
 
 * Logging
  * [Exceptionless](https://github.com/exceptionless/Exceptionless) - Provides real-time .NET error reporting for your ASP.NET, Web API, WebForms, WPF, Console, and MVC apps. It organizes the gathered information into simple actionable data that will help your app become exceptionless!

@@ -194,7 +194,7 @@ There are many .NET open source developer projects. You can always use a search 
  * [Quartz.Net](https://github.com/quartznet/quartznet) 
  * [Hangfire] (http://hangfire.io/)
  
-* Scheduling
+* Deployment
  * [DropkicK](https://github.com/chucknorris/dropkick/) - A fluent deployment library for Windows applications
  * [RoundHouse] (https://code.google.com/p/roundhouse/) - RoundhousE is a Database Migration Utility for .NET using sql files and versioning based on source control
  

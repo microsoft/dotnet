@@ -198,6 +198,9 @@ There are many .NET open source developer projects. You can always use a search 
 * Service Bus
   * [Warewolf Easy Service Bus](https://github.com/Warewolf-ESB/Warewolf-ESB) - An open source easy to use service bus, built on numerous .Net technologies including WF (Windows Workflow Foundation), SignalR and WPF.
 
+* Distributed Caching and Computing
+  * [Dache](https://github.com/ironyx/dache) - An open source distributed caching service, built on .NET 4.0 and using TCP sockets for communication.
+
 * Consumer projects
  * [.NET open source consumer projects list](dotnet-consumer-projects.md)
 

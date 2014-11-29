@@ -8,6 +8,7 @@ There are many .NET based open source consumer projects. You can always use a se
 * Audio players
  * [Banshee](https://github.com/GNOME/banshee) - A cross-platform multimedia player
  * [Espera](https://github.com/flagbug/Espera) - A media player that plays your music, YouTube videos, SoundCloud songs, has a special "party mode" and an Android remote control.
+ * [Simple Music Player](https://github.com/punker76/simple-music-player) SimpleMP or Simple Music Player is a simple and easy to use music player for free. It plays the most common music files (mp3, ogg, wma, wav) in a simple way.
  
 * Utilities 
  * [Gmail Notifier Plus](https://github.com/shellscape/Gmail-Notifier-Plus) - An app to monitor multiple Gmail and Google Apps for Work Gmail accounts from a single, compact point, sitting in Windows 7/8/8.1 taskbar.

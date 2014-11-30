@@ -15,6 +15,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
 * Utilities 
  * [Gmail Notifier Plus](https://github.com/shellscape/Gmail-Notifier-Plus) - An app to monitor multiple Gmail and Google Apps for Work Gmail accounts from a single, compact point, sitting in Windows 7/8/8.1 taskbar.
  * [YouCast](https://github.com/I3arnon/YouCast) - YouCast allows you to subscribe to video feeds on YouTube as podcasts in any standard podcatcher like iTunes, BeyondPod on Adroid or even Zune PC and so forth.
+ * [Ember](https://github.com/Embershot/Ember) - Simple & Beautiful Screenshot App
  
 This list is just a starting point - also take a look at all the projects on [CodePlex](http://www.codeplex.com/) and on [GitHub Trending C#](https://github.com/trending?l=csharp).
 

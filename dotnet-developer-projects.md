@@ -10,6 +10,7 @@ There are many .NET open source developer projects. You can always use a search 
 * Platforms
  * [Castle Project](https://github.com/castleproject) - Umbrella project for ActiveRecord, DynamicProxy, MonoRail, Windsor
  * [Catel](http://catelproject.com/) - Application platform with IoC, logging, reflection and much more that serves as a base for applications that must be ready for future growth.
+ * [KonfDB](http://www.konfdb.com/) - Configuration Management as a Service for cross-platform, multi-tenant enterprise/hobby applications
  
 * Languages
  * [ClojureCLR](https://github.com/clojure/clojure-clr) - A .NET implemention of the [Clojure](http://clojure.org) programming language, built on the DLR. 
@@ -130,6 +131,7 @@ There are many .NET open source developer projects. You can always use a search 
  * [Outcomes.Net](https://github.com/kinetiq/Ether.Outcomes/) Fluent wrapper that eliminates plumbing code around failure-prone functions.
  * [Weighted Selector](https://github.com/kinetiq/Ether.WeightedSelector/) Easy to use (but high performance!) weighted selection implementation.
  * [ZeroToNine](https://github.com/ploeh/ZeroToNine) - A tool for maintaining .NET Assembly versions across multiple files.
+ * [CInject](http://codeinject.codeplex.com) - A tool to inject your C#/VB.NET code into existing .NET assemblies and executables
 
 * Testing
  * [AutoFixture](https://github.com/AutoFixture/AutoFixture) - An open source framework for .NET designed to minimize the 'Arrange' phase of your unit tests. Its primary goal is to allow developers to focus on what is being tested rather than how to setup the test scenario, by making it easier to create object graphs containing test data.
@@ -148,7 +150,8 @@ There are many .NET open source developer projects. You can always use a search 
  * [fFastInjector](https://ffastinjector.codeplex.com/) - fFastInjector is a high-performing dependency injector, service locator, and/or IOC (inversion of control) container.
  * [Funq](https://funq.codeplex.com/) - A fast DI container you can understand.
  * [Grace](https://github.com/ipjohnson/Grace) - Grace is a feature rich Dependency Injection container in a portable class library 
- * [Griffin](https://github.com/jgauffin/griffin.container) - Inversion of control container with (almost) zero configuration 
+ * [Griffin](https://github.com/jgauffin/griffin.container) - Inversion of control container with (almost) zero configuration
+ * [dI.Hook](http://dihook.codeplex.com) - DI container that allows invocation using AOP
  * [HaveBox](https://bitbucket.org/Have/havebox/wiki/Home) - HaveBox is a very fast and lightweight IoC containter. The goal is to keep it fast and light, and at the same time easy to use.
  * [Hiro](https://github.com/philiplaureano/Hiro) - An ultra-lightweight, inversion of control container compiler framework 
  * [IfInjector](https://github.com/iamahern/IfInjector) - High performance mobile micro-IoC container.
@@ -213,6 +216,9 @@ There are many .NET open source developer projects. You can always use a search 
 
 * Consumer projects
  * [.NET open source consumer projects list](dotnet-consumer-projects.md)
+
+* Windows Workflow
+ * [Workflow Extractor](http://workflowextractor.codeplex.com) - Document Windows Workflow logic into a Word document or Excel sheet. 
 
 This list is just a starting point - also take a look at all the projects on [CodePlex](http://www.codeplex.com/) and on [GitHub Trending C#](https://github.com/trending?l=csharp).
 

@@ -1,6 +1,8 @@
 # .NET Open Source Developer Projects
 
-There are many .NET open source developer projects. You can always use a search engine to find projects, and that's a good approach. This list is intended to provide a showcase for projects that want it and to be community maintained. PR a change in and it will be accepted (modulo duplicates). Projects should be sorted alphabetically provide a one-line description and GitHub (or source) links are preferred over marketing sites.
+This community maintained list showcases .NET open source developer projects. It is intended to include projects that are useful for any aspect of the development process. For consumer projects, see the [.NET open source consumer projects list](dotnet-consumer-projects.md). PR a change into either list and it will be accepted (modulo duplicates). 
+
+Please sort projects alphabetically and provide a one-line description. GitHub/CodePlex (or other source) links are preferred, but feel free to also include marketing sites. Create new sections, as appropriate. 
 
 * .NET Implementations
  * [.NET Core](https://github.com/dotnet/corefx) - Core .NET Framework
@@ -199,11 +201,11 @@ There are many .NET open source developer projects. You can always use a search 
 
 * Scheduling
  * [Quartz.Net](https://github.com/quartznet/quartznet) 
- * [Hangfire] (http://hangfire.io/)
+ * [Hangfire](http://hangfire.io/)
  
 * Deployment
  * [DropkicK](https://github.com/chucknorris/dropkick/) - A fluent deployment library for Windows applications
- * [RoundHouse] (https://code.google.com/p/roundhouse/) - RoundhousE is a Database Migration Utility for .NET using sql files and versioning based on source control
+ * [RoundHouse](https://code.google.com/p/roundhouse/) - RoundhousE is a Database Migration Utility for .NET using sql files and versioning based on source control
  
 * Service Bus
   * [Warewolf Easy Service Bus](https://github.com/Warewolf-ESB/Warewolf-ESB) - An open source easy to use service bus, built on numerous .Net technologies including WF (Windows Workflow Foundation), SignalR and WPF.
@@ -211,11 +213,8 @@ There are many .NET open source developer projects. You can always use a search 
 * Distributed Caching and Computing
   * [Dache](https://github.com/ironyx/dache) - An open source distributed caching service, built on .NET 4.0 and using TCP sockets for communication.
 
-* Consumer projects
- * [.NET open source consumer projects list](dotnet-consumer-projects.md)
-
 This list is just a starting point - also take a look at all the projects on [CodePlex](http://www.codeplex.com/) and on [GitHub Trending C#](https://github.com/trending?l=csharp).
 
-Thanks to [@slodge](http://twitter.com/slodge "@slodge on Twitter") for providing the initial list.
-
 [@quozd](http://twitter.com/quozd "@quozd on Twitter") hosts an [Awesome .NET!](https://github.com/quozd/awesome-dotnet) list. Also worth checking out.
+
+Thanks to [@slodge](http://twitter.com/slodge "@slodge on Twitter") for providing the initial list.

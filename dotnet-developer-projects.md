@@ -50,6 +50,7 @@ There are many .NET open source developer projects. You can always use a search 
  * [ArcGIS.PCL](https://github.com/davetimmins/ArcGIS.PCL) - Call ArcGIS Server REST API resources. You can also convert between ArcGIS features and GeoJSON.
  * [AsyncCollections](https://github.com/HellBrick/AsyncCollections) - A set of lock-free thread-safe collections designed to be used asynchronously.
  * [AzureNetQ](https://github.com/Roysvork/AzureNetQ) - An easy to use .NET API for Azure Service Bus.
+ * [Bing.RestClient](https://github.com/AdvancedREI/Bing.RestClient) - Access the Bing REST APIs from a unified client.
  * [Cimbalino Toolkit](http://cimbalino.org/) - A set of useful and powerful tools that will help you build your Windows Platform applications.
  * [Coding4Fun Toolkit](http://coding4fun.codeplex.com/)
  * [ColoredConsole](https://github.com/colored-console/colored-console) - Add some color to your console.
@@ -74,6 +75,7 @@ There are many .NET open source developer projects. You can always use a search 
  * [NodaTime](http://nodatime.org/) - A better date and time API for .NET
  * [OsmSharp](https://github.com/OsmSharp) Mapping & Routing library.
  * [PocketSharp](https://github.com/ceee/PocketSharp)
+ * [PortableRest](https://github.com/AdvancedREI/PortableRest) Portable library for building cross-platform REST API Clients for .NET and Xamarin.
  * [RestSharp](http://restsharp.org/) - Simple REST and HTTP API Client for .NET
  * [RestBus](http://restbus.org/) - Easy Asynchronous Messaging and Queueing for .NET
  * [SharpMap](https://sharpmap.codeplex.com/) An easy-to-use mapping library for use in web and desktop applications
@@ -84,6 +86,8 @@ There are many .NET open source developer projects. You can always use a search 
  * [WebApiProxy](https://github.com/faniereynders/WebApiProxy) - An automatic proxy provider for RESTful services built on ASP.NET Web API. Includes JavaScript & C# client generation.
  * [WebSocket4Net](https://websocket4net.codeplex.com/) - A C# websocket client for .NET, Mono and Xamarin
  * [WpfToolkit](https://github.com/dotnetprojects/wpftoolkit) - Fork of the MS WPF Toolkit
+ * [XamlEssentials](https://github.com/AdvancedREI/XamlEssentials) - Collection of helpers for Microsoft's XAML platforms.
+ * [Zlib.Portable](https://github.com/AdvancedREI/Zlib.Portable) - A Portable Class Library port of the Zlib library from http://dotnetzip.codeplex.com.
 
 * Graphics & Server-side Image Processing
  * [.NET Image Processor](http://dotnetimageprocessor.codeplex.com/) - Extensible, chainable image processing library (GDI+ based) (Ms-PL).

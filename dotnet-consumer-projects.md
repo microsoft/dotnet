@@ -1,6 +1,8 @@
 # .NET Open Source Consumer Projects
 
-There are many .NET based open source consumer projects. You can always use a search engine to find projects, and that's a good approach. This list is an intended to provide a showcase for projects that want it. It is intended to be community maintained. PR a change in and it will be accepted (modulo duplicates). Projects should be sorted alphabetically and project source links and product website are allowed. This list could include desktop applications, websites, mobile apps, etc.
+This community maintained list showcases .NET open source consumer projects. It is intended to include projects that are useful for consumers, such as desktop applications, websites, mobile apps, etc.  For developer projects, see the [.NET open source developer projects list](dotnet-developer-projects.md). PR a change into either list and it will be accepted (modulo duplicates). 
+
+Please sort projects alphabetically and provide a one-line description. GitHub/CodePlex (or other source) links are preferred, but feel free to also include marketing sites. Create new sections, as appropriate. 
 
 * Media Streaming
  * [Media Browser](https://github.com/mediabrowser/) - [www.mediabrowser.tv](http://www.mediabrowser.tv) - A client/server application that allows you to easily manage your own media content and present it in an eye catching way. Server runs on Windows, Linux and Mac. Clients are for WP, Android, iOS, Media Centre, Windows, Roku, etc.
@@ -14,10 +16,6 @@ There are many .NET based open source consumer projects. You can always use a se
  * [Gmail Notifier Plus](https://github.com/shellscape/Gmail-Notifier-Plus) - An app to monitor multiple Gmail and Google Apps for Work Gmail accounts from a single, compact point, sitting in Windows 7/8/8.1 taskbar.
  * [YouCast](https://github.com/I3arnon/YouCast) - YouCast allows you to subscribe to video feeds on YouTube as podcasts in any standard podcatcher like iTunes, BeyondPod on Adroid or even Zune PC and so forth.
  * [Ember](https://github.com/Embershot/Ember) - Simple & Beautiful Screenshot App
- * 
-* Developer projects
- * [.NET open source developer projects list](dotnet-developer-projects.md)
- 
  
 This list is just a starting point - also take a look at all the projects on [CodePlex](http://www.codeplex.com/) and on [GitHub Trending C#](https://github.com/trending?l=csharp).
 

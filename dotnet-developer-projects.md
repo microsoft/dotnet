@@ -146,6 +146,9 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [tickspec](http://tickspec.codeplex.com/) A lightweight Behaviour Driven Development (BDD) framework.
  * [xUnit](https://github.com/xunit/xunit) - xUnit.net is a community-focused unit testing tool for the .NET Framework.
  * [TestStack.FluentMvcTesting](https://github.com/TestStack/TestStack.FluentMVCTesting) - Simple, terse, fluent unit testing for ASP.NET MVC Controllers.
+ * [TestStack.Seleno](https://github.com/TestStack/TestStack.Seleno) - Seleno helps you write automated UI tests in the right way by implementing Page Objects and Page Components and by reading from and writing to web pages using strongly typed view models.
+ * [TestStack.BDDfy](https://github.com/TestStack/TestStack.BDDfy) - BDDfy is the simplest BDD framework to use, customize and extend!
+ * [TestStack.White](https://github.com/TestStack/White) - White is a framework for automating rich client applications based on Win32, WinForms, WPF, Silverlight and SWT (Java) platforms.
 
 * Dependency Injection
  * [Autofac](http://autofac.org/) - Autofac is an addictive Inversion of Control container for .NET 4.5, Silverlight 5, Windows Store apps, and Windows Phone 8 apps.

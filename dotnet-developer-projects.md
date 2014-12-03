@@ -28,6 +28,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
 * Security / Identity Management
  * [Thinktecture IdentityServer](https://github.com/thinktecture/Thinktecture.IdentityServer.v3)
  * [Thinktecture IdentityManager](https://github.com/thinktecture/Thinktecture.IdentityManager)
+ * [SKGL - Serial Key Generating Library] (https://skgl.codeplex.com/)
 
 * Web CMS
  * [DNN (formerly DotNetNuke)](https://dotnetnuke.codeplex.com/) - Web content management platform (CMS).
@@ -74,6 +75,8 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [Lucene.Net](https://github.com/apache/lucene.net)
  * [MahApps.Metro](https://github.com/MahApps/MahApps.Metro) - A toolkit for creating metro-style WPF applications.
  * [Math.NET Numerics](http://numerics.mathdotnet.com/) Provides methods and algorithms for numerical computations in science, engineering and every day use.
+ * [Mathos Core Libary](http://mathos.codeplex.com/) - A library with algorithms for numerical calcultations in finance, statistics, pattern recognition, and more.
+ * [Mathos Parser](http://mathosparser.codeplex.com/) - A simple parser for mathematical expressions before and at runtime.
  * [Mjolnir](https://github.com/hudl/Mjolnir) - [Hystrix](https://github.com/Netflix/Hystrix)-inspired fault tolerance with circuit breakers and thread pools.
  * [NetTopologySuite](https://github.com/NetTopologySuite) A .NET port of the JTS Topology Suite.
  * [JSON.NET](http://json.net/) - Popular high-performance JSON framework for .NET

@@ -78,6 +78,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [Mathos Core Libary](http://mathos.codeplex.com/) - A library with algorithms for numerical calcultations in finance, statistics, pattern recognition, and more.
  * [Mathos Parser](http://mathosparser.codeplex.com/) - A simple parser for mathematical expressions before and at runtime.
  * [Mjolnir](https://github.com/hudl/Mjolnir) - [Hystrix](https://github.com/Netflix/Hystrix)-inspired fault tolerance with circuit breakers and thread pools.
+ * [MoreLINQ](https://code.google.com/p/morelinq/) - LINQ to Objects is missing a few desirable features. This project will enhance LINQ to Objects with extra methods, in a manner which keeps to the spirit of LINQ.
  * [NetTopologySuite](https://github.com/NetTopologySuite) A .NET port of the JTS Topology Suite.
  * [JSON.NET](http://json.net/) - Popular high-performance JSON framework for .NET
  * [NodaTime](http://nodatime.org/) - A better date and time API for .NET
@@ -106,7 +107,8 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
 
 * Logging
  * [Exceptionless](https://github.com/exceptionless/Exceptionless) - Provides real-time .NET error reporting for your ASP.NET, Web API, WebForms, WPF, Console, and MVC apps. It organizes the gathered information into simple actionable data that will help your app become exceptionless!
-
+ * [ELMAH](https://code.google.com/p/elmah/) - ELMAH (Error Logging Modules and Handlers) is an application-wide error logging facility that is completely pluggable. It can be dynamically added to a running ASP.NET web application, or even all ASP.NET web applications on a machine, without any need for re-compilation or re-deployment.
+ 
 * Model-View-ViewModel (MVVM) Frameworks
  * [Caliburn Micro](http://caliburnmicro.com/)
  * [Catel.MVVM](http://catelproject.com/)
@@ -192,7 +194,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [StackExchange.Redis](https://github.com/StackExchange/StackExchange.Redis)  
  * [SQL LocalDB Wrapper](https://github.com/martincostello/sqllocaldb) - SQL LocalDB Wrapper is an assembly providing interop with the SQL LocalDB native API from managed code using .NET APIs.
  * [LINQ2DynamoDB](http://linq2dynamodb.codeplex.com) - A type-safe data context for AWS DynamoDB with LINQ, in-memory caching and OData support.   
-
+ * [Eggado](https://code.google.com/p/eggado/) - C# and CLR have come a long way since their inception. ADO.NET has been around as long but not evolved nearly as much. Eggado takes generics, lambdas, expression trees, dynamic methods and DLR and uses them to breathe new life into data access using good old ADO.NET. It's for folks who can live with a SQL dialect.
 
 * Games
  * [MonoGame](http://monogame.net) - One framework for creating powerful cross-platform games.

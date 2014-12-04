@@ -104,6 +104,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [DynamicImage](https://github.com/tgjones/dynamic-image) - WPF-based server-side image rendering system - lots of visual effects implemented as high-performance shaders. Has URL api, several plugins available. (Apache 2)
  * [ImageProcessor](http://imageprocessor.org/) - A .NET Library For On-The-Fly Processing Of Images (GDI+ based) (Apache 2).
  * [SharpDX](https://github.com/sharpdx/SharpDX) - SharpDX is a project delivering the full DirectX API for .NET on all Windows platforms.
+ * [King.Azure.Imaging](https://github.com/jefking/King.Azure.Imaging) - Scalable image uploading and processing for Azure.
 
 * Logging
  * [Exceptionless](https://github.com/exceptionless/Exceptionless) - Provides real-time .NET error reporting for your ASP.NET, Web API, WebForms, WPF, Console, and MVC apps. It organizes the gathered information into simple actionable data that will help your app become exceptionless!
@@ -195,6 +196,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [SQL LocalDB Wrapper](https://github.com/martincostello/sqllocaldb) - SQL LocalDB Wrapper is an assembly providing interop with the SQL LocalDB native API from managed code using .NET APIs.
  * [LINQ2DynamoDB](http://linq2dynamodb.codeplex.com) - A type-safe data context for AWS DynamoDB with LINQ, in-memory caching and OData support.   
  * [Eggado](https://code.google.com/p/eggado/) - C# and CLR have come a long way since their inception. ADO.NET has been around as long but not evolved nearly as much. Eggado takes generics, lambdas, expression trees, dynamic methods and DLR and uses them to breathe new life into data access using good old ADO.NET. It's for folks who can live with a SQL dialect.
+ * [King.Mapper](https://github.com/jefking/King.Mapper) - High performance model mapping.
 
 * Games
  * [MonoGame](http://monogame.net) - One framework for creating powerful cross-platform games.
@@ -210,7 +212,8 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [Dragablz](http://github.com/ButchersBoy/Dragablz) - A tearable TabControl for WPF which also provides easy-to-use and implement docking features.
  
 * Windows Services
- * [TopShelf](https://github.com/Topshelf/Topshelf) 
+ * [TopShelf](https://github.com/Topshelf/Topshelf)
+ * [King.Service](https://github.com/jefking/King.Service) - Task scheduling for Azure and Windows
 
 * Scheduling
  * [Quartz.Net](https://github.com/quartznet/quartznet) 
@@ -222,6 +225,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  
 * Service Bus
   * [Warewolf Easy Service Bus](https://github.com/Warewolf-ESB/Warewolf-ESB) - An open source easy to use service bus, built on numerous .Net technologies including WF (Windows Workflow Foundation), SignalR and WPF.
+  * [King.Service.ServiceBus](https://github.com/jefking/King.Service.ServiceBus) - Task scheduling for Azure and Windows Servers: Service Bus.
 
 * Distributed Caching and Computing
   * [Dache](https://github.com/ironyx/dache) - An open source distributed caching service, built on .NET 4.0 and using TCP sockets for communication.

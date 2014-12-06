@@ -53,6 +53,8 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [Algorithmia](https://github.com/SolutionsDesign/Algorithmia) Algorithms and Data structures
  * [AngleSharp](https://github.com/FlorianRappl/AngleSharp) - Ultimate angle brackets parser library. It parses HTML5, MathML, SVG and CSS to construct a DOM based on the official W3C specification.
  * [ArcGIS.PCL](https://github.com/davetimmins/ArcGIS.PCL) - Call ArcGIS Server REST API resources. You can also convert between ArcGIS features and GeoJSON.
+ * [Argument](https://github.com/ashmind/Argument) - Argument validation microframework that does one thing in the simplest way possible.
+ * [AshMind.Extensions](https://github.com/ashmind/ashmind-extensions) - A set of very conservative extension methods most of which closely follow naming and design patterns of .NET Base Class Library.
  * [AsyncCollections](https://github.com/HellBrick/AsyncCollections) - A set of lock-free thread-safe collections designed to be used asynchronously.
  * [AzureNetQ](https://github.com/Roysvork/AzureNetQ) - An easy to use .NET API for Azure Service Bus.
  * [Bing.RestClient](https://github.com/AdvancedREI/Bing.RestClient) - Access the Bing REST APIs from a unified client.
@@ -67,6 +69,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [ExtraLINQ](https://github.com/mariusschulz/ExtraLINQ) - Various extension methods for working with .NET collections.
  * [FeatureToggle](https://github.com/jason-roberts/FeatureToggle) - Simple, reliable feature toggles in .NET.
  * [FluentBootstrap](https://github.com/somedave/FluentBootstrap)
+ * [FluentConsole](https://github.com/ashmind/FluentConsole) - Alternative approach to colored console (`FluentConsole.Red.Text().Green.Text()`).
  * [FluentValidation](https://github.com/JeremySkinner/FluentValidation) - A small validation library for .NET that uses a fluent interface and lambda expressions for building validation rules.
  * [GongSolutions.Wpf.DragDrop](https://github.com/punker76/gong-wpf-dragdrop) A drag'n'drop framework for WPF.
  * [HudlFfmpeg](https://github.com/hudl/HudlFfmpeg) - A/V transcoding framework that helps build complex FFmpeg commands.
@@ -183,6 +186,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [Unity Container](http://msdn.microsoft.com/library/ff647202.aspx) - The Unity Container (Unity) is a lightweight, extensible dependency injection container with optional support for instance and type interception.
  * [Castle Project/Windsor](http://www.castleproject.org/) - IOC / Proxy
  * [IOC Comparison](http://www.palmmedia.de/blog/2011/8/30/ioc-container-benchmark-performance-comparison) - IoC Container Benchmark - Performance comparison
+ * [DI Feature Tests](http://featuretests.apphb.com/DependencyInjection.html) - Tests that track commmon DI features among multiple containers
 
 * Data Access
  * [Dapper](https://github.com/StackExchange/dapper-dot-net) - Dapper is a single file you can drop in to your project that will extend your IDbConnection interface.

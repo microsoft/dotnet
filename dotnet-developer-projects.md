@@ -120,6 +120,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [Simple Mvvm Toolkit](http://simplemvvmtoolkit.codeplex.com/)
 
 * Tools
+ * [Cake](https://github.com/cake-build/cake) (C# Make) is a build automation system with C#/Roslyn driven build scripts.
  * [Fody](https://github.com/Fody/Fody) - Extensible tool for weaving .NET assemblies.
  * [FAKE](http://fsharp.github.io/FAKE/) Build automation system with capabilities which are similar to make and rake.
  * [FsEye](http://www.swensensoftware.com/fseye) A visual object tree inspector for the F# Interactive.

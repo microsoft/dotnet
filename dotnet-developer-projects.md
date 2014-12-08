@@ -6,9 +6,10 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
 
 * .NET Implementations
  * [.NET Core](https://github.com/dotnet/corefx) - Core .NET Framework
- * [Mono Project](https://github.com/mono/) - Cross-platform implementation of .NET Framework.
  * [Cosmos](http://cosmos.codeplex.com/) - C# Open Source Managed Operating System, an operating system "construction kit".
  * [Fling OS](http://www.flingos.co.uk/) - C# Operating System designed for people to learn low-level development from.
+ * [Mono Project](https://github.com/mono/) - Cross-platform implementation of .NET Framework.
+ * [MOSA Project](https://github.com/mosa/MOSA-Project/) - Managed Operating System Alliance Project - C# Operating System.
 
 * Platforms
  * [Castle Project](https://github.com/castleproject) - Umbrella project for ActiveRecord, DynamicProxy, MonoRail, Windsor

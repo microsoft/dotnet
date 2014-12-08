@@ -25,6 +25,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [Nemerle](https://github.com/rsdn/nemerle) A high-level statically-typed programming language which offers functional, object-oriented and imperative features and has a simple C# like syntax and a powerful meta-programming system.
  * [Eagle](http://eagle.to) A .NET implementation of the [Tcl](https://www.tcl.tk) programming language, built on the CLR.
  * [MoonSharp](http://www.moonsharp.org) A Lua interpreter and remote debugger, written entirely in C#, easily embeddable in any application running on .NET 3.5+ and Mono.
+ * [NiL.JS](https://github.com/nilproject/NiL.JS) A .NET implementation of the ECMAScript language and runtime.
 
 * Security / Identity Management
  * [Thinktecture IdentityServer](https://github.com/thinktecture/Thinktecture.IdentityServer.v3)

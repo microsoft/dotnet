@@ -115,6 +115,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
 * Logging
  * [Exceptionless](https://github.com/exceptionless/Exceptionless) - Provides real-time .NET error reporting for your ASP.NET, Web API, WebForms, WPF, Console, and MVC apps. It organizes the gathered information into simple actionable data that will help your app become exceptionless!
  * [ELMAH](https://code.google.com/p/elmah/) - ELMAH (Error Logging Modules and Handlers) is an application-wide error logging facility that is completely pluggable. It can be dynamically added to a running ASP.NET web application, or even all ASP.NET web applications on a machine, without any need for re-compilation or re-deployment.
+ * [log4net](http://logging.apache.org/log4net/) - A tool to help the programmer output log statements to a variety of output targets.
  
 * Model-View-ViewModel (MVVM) Frameworks
  * [Caliburn Micro](http://caliburnmicro.com/)

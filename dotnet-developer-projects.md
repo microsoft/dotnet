@@ -102,6 +102,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [WebSocket4Net](https://websocket4net.codeplex.com/) - A C# websocket client for .NET, Mono and Xamarin
  * [WpfToolkit](https://github.com/dotnetprojects/wpftoolkit) - Fork of the MS WPF Toolkit
  * [XamlEssentials](https://github.com/AdvancedREI/XamlEssentials) - Collection of helpers for Microsoft's XAML platforms.
+ * [XecMe](https://xecme.codeplex.com) - Task based excecution framework.
  * [Zlib.Portable](https://github.com/AdvancedREI/Zlib.Portable) - A Portable Class Library port of the Zlib library from http://dotnetzip.codeplex.com.
 
 * Graphics & Server-side Image Processing

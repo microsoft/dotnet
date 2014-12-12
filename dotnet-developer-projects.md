@@ -19,6 +19,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
 * Languages
  * [ClojureCLR](https://github.com/clojure/clojure-clr) - A .NET implemention of the [Clojure](http://clojure.org) programming language, built on the DLR. 
  * [Dynamic Language Runtime](http://www.github.com/IronLanguages/main.git) - A toolkit for building dynamic languages for .NET.
+ * [F#](https://github.com/fsharp/fsharp) - A mature, open source, cross-platform, functional-first programming language.
  * [IronPython](http://ironpython.net) - A .NET implementation of the [Python](https://www.python.org) programming language, built on the DLR.
  * [IronRuby](http://ironruby.net) - A .NET implementation of the [Ruby](https://www.ruby-lang.org) programming language, built on the DLR.
  * [IronScheme](http://ironscheme.codeplex.com) - A R6RS conforming Scheme-like implementation based on the Microsoft DLR.
@@ -26,6 +27,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [Eagle](http://eagle.to) A .NET implementation of the [Tcl](https://www.tcl.tk) programming language, built on the CLR.
  * [MoonSharp](http://www.moonsharp.org) A Lua interpreter and remote debugger, written entirely in C#, easily embeddable in any application running on .NET 3.5+ and Mono.
  * [NiL.JS](https://github.com/nilproject/NiL.JS) A .NET implementation of the ECMAScript language and runtime.
+ * [Roslyn (.NET Compiler Platform)](https://roslyn.codeplex.com/) - Open-source C# and Visual Basic compilers with rich code analysis APIs.
 
 * Security / Identity Management
  * [Thinktecture IdentityServer](https://github.com/thinktecture/Thinktecture.IdentityServer.v3)

@@ -66,6 +66,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [Cimbalino Toolkit](http://cimbalino.org/) - A set of useful and powerful tools that will help you build your Windows Platform applications.
  * [Coding4Fun Toolkit](http://coding4fun.codeplex.com/)
  * [ColoredConsole](https://github.com/colored-console/colored-console) - Add some color to your console.
+ * [ComparerExtensions](https://github.com/jehugaleahsa/comparerextensions) - Build IComparer and IEqualityComparer objects using natural language syntax.
  * [Cricket](http://fsprojects.github.io/Cricket/) - Actor library
  * [DiffSharp](http://gbaydin.github.io/DiffSharp/) - Automatic Differentiation Library
  * [DotNetOpenAuth](https://github.com/DotNetOpenAuth) - Library that adds support for your site visitors to login with their OpenIDs by just dropping an ASP.NET control onto your page.

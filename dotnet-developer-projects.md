@@ -131,7 +131,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
 
 * Tools
  * [Cake](https://github.com/cake-build/cake) (C# Make) - A build automation system with C#/Roslyn driven build scripts.
- * [CInject](http://codeinject.codeplex.com) - A tool to inject your C#/VB.NET code into existing .NET assemblies and executables
+ * [CInject](https://github.com/punitganshani/CodeInject) - A tool to inject your C#/VB.NET code into existing .NET assemblies and executables
  * [FAKE](http://fsharp.github.io/FAKE/) - Build automation system with capabilities which are similar to make and rake.
  * [Fody](https://github.com/Fody/Fody) - Extensible tool for weaving .NET assemblies.
  * [FsEye](http://www.swensensoftware.com/fseye) - A visual object tree inspector for the F# Interactive.
@@ -172,7 +172,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [Autofac](http://autofac.org/) - Autofac is an addictive Inversion of Control container for .NET 4.5, Silverlight 5, Windows Store apps, and Windows Phone 8 apps.
  * [Castle Windsor](http://www.castleproject.org/projects/windsor/) - A mature Inversion of Control container available for .NET and Silverlight
  * [DI Feature Tests](http://featuretests.apphb.com/DependencyInjection.html) - Tests that track commmon DI features among multiple containers
- * [dI.Hook](http://dihook.codeplex.com) - DI container that allows invocation using AOP
+ * [dI.Hook](https://github.com/punitganshani/dI.Hook) - DI container that allows invocation using AOP
  * [DryIoc](https://bitbucket.org/dadhi/dryioc) - DryIoc is small, fast, capable IoC Container for .NET
  * [fFastInjector](https://ffastinjector.codeplex.com/) - fFastInjector is a high-performing dependency injector, service locator, and/or IOC (inversion of control) container.
  * [Funq](https://funq.codeplex.com/) - A fast DI container you can understand.
@@ -242,7 +242,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [Dache](https://github.com/ironyx/dache) - An open source distributed caching service, built on .NET 4.0 and using TCP sockets for communication.
 
 * Windows Workflow
- * [Workflow Extractor](http://workflowextractor.codeplex.com) - Document Windows Workflow logic into a Word document or Excel sheet. 
+ * [Workflow Extractor](https://github.com/punitganshani/WorkflowExtractor) - Document Windows Workflow logic into a Word document or Excel sheet. 
 
 This list is just a starting point - also take a look at all the projects on [CodePlex](http://www.codeplex.com/) and on [GitHub Trending C#](https://github.com/trending?l=csharp).
 

@@ -17,16 +17,21 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [KonfDB](http://www.konfdb.com/) - Configuration Management as a Service for cross-platform, multi-tenant enterprise/hobby applications
  
 * Languages
+ * [Boo](https://github.com/bamboo/boo) - A .NET language similar to Python but with static typing, and many meta-programming capabilities.
  * [ClojureCLR](https://github.com/clojure/clojure-clr) - A .NET implemention of the [Clojure](http://clojure.org) programming language, built on the DLR. 
+ * [Cobra](http://cobra-language.com/) - Clean, high-level syntax (Boo/Python-like). Static and dynamic binding. First class support for unit tests and contracts. Compiled performance with scripting conveniences. Lambdas and closures. Extensions and mixins
  * [Dynamic Language Runtime](http://www.github.com/IronLanguages/main.git) - A toolkit for building dynamic languages for .NET.
  * [Eagle](http://eagle.to) - A .NET implementation of the [Tcl](https://www.tcl.tk) programming language, built on the CLR.
+ * [Essence#](https://essencesharp.codeplex.com/) - Essence# is a fully dynamic and highly polymorphic programming language which features pervasive message passing, pervasive dynamic and strong typing, pervasive and deep reflection and pervasive object orientation.
  * [F#](https://github.com/fsharp/fsharp) - A mature, open source, cross-platform, functional-first programming language.
+ * [F*](https://github.com/FStarLang/FStar) - An ML-like language with a type system for program verification.
  * [IronPython](http://ironpython.net) - A .NET implementation of the [Python](https://www.python.org) programming language, built on the DLR.
  * [IronRuby](http://ironruby.net) - A .NET implementation of the [Ruby](https://www.ruby-lang.org) programming language, built on the DLR.
  * [IronScheme](http://ironscheme.codeplex.com) - A R6RS conforming Scheme-like implementation based on the Microsoft DLR.
  * [MoonSharp](http://www.moonsharp.org) - A Lua interpreter and remote debugger, written entirely in C#, easily embeddable in any application running on .NET 3.5+ and Mono.
  * [Nemerle](https://github.com/rsdn/nemerle) - A high-level statically-typed programming language which offers functional, object-oriented and imperative features and has a simple C# like syntax and a powerful meta-programming system.
  * [NiL.JS](https://github.com/nilproject/NiL.JS) - A .NET implementation of the ECMAScript language and runtime.
+ * [Phalanger](http://www.php-compiler.net/) - full-featured PHP runtime & compiler for .NET/Mono frameworks. Phalanger is modern open-source implementation of PHP, compatible with the vast array of existing PHP code.
  * [Roslyn (.NET Compiler Platform)](https://roslyn.codeplex.com/) - Open-source C# and Visual Basic compilers with rich code analysis APIs.
 
 * Security / Identity Management

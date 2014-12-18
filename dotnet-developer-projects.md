@@ -17,6 +17,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [KonfDB](http://www.konfdb.com/) - Configuration Management as a Service for cross-platform, multi-tenant enterprise/hobby applications
  
 * Languages
+ * [Boo](https://github.com/bamboo/boo) - A .NET language similar to Python but with static typing, and many meta-programming capabilities.
  * [ClojureCLR](https://github.com/clojure/clojure-clr) - A .NET implemention of the [Clojure](http://clojure.org) programming language, built on the DLR. 
  * [Dynamic Language Runtime](http://www.github.com/IronLanguages/main.git) - A toolkit for building dynamic languages for .NET.
  * [Eagle](http://eagle.to) - A .NET implementation of the [Tcl](https://www.tcl.tk) programming language, built on the CLR.

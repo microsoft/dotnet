@@ -17,6 +17,9 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [YouCast](https://github.com/I3arnon/YouCast) - YouCast allows you to subscribe to video feeds on YouTube as podcasts in any standard podcatcher like iTunes, BeyondPod on Adroid or even Zune PC and so forth.
  * [Ember](https://github.com/Embershot/Ember) - Simple & Beautiful Screenshot App
  
+* Administration
+ * [OpenPetra](https://github.com/openpetra/openpetra) - [www.openpetra.org](https://www.openpetra.org) - An administration software for charities that can be used to manage personnel, supporters, book keeping, gift receipting, accounts payable, conferences etc.
+ 
 This list is just a starting point - also take a look at all the projects on [CodePlex](http://www.codeplex.com/) and on [GitHub Trending C#](https://github.com/trending?l=csharp).
 
 Thanks to @scottisafool for providing the initial list.

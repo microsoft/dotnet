@@ -136,6 +136,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
 
 * Tools
  * [Cake](https://github.com/cake-build/cake) (C# Make) - A build automation system with C#/Roslyn driven build scripts.
+ * [CppSharp](https://github.com/mono/CppSharp) - C/C++ bindings generation for .NET.
  * [CInject](https://github.com/punitganshani/CodeInject) - A tool to inject your C#/VB.NET code into existing .NET assemblies and executables
  * [FAKE](http://fsharp.github.io/FAKE/) - Build automation system with capabilities which are similar to make and rake.
  * [Fody](https://github.com/Fody/Fody) - Extensible tool for weaving .NET assemblies.

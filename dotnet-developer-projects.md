@@ -151,13 +151,14 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [Mini Profiler](http://miniprofiler.com/) - A simple but effective mini-profiler for .NET and Ruby.
  * [Obfuscar](https://obfuscar.codeplex.com) - MSIL obfuscation utility for .NET assemblies.
  * [Outcomes.Net](https://github.com/kinetiq/Ether.Outcomes/) - Fluent wrapper that eliminates plumbing code around failure-prone functions.
- * [Paket](http://fsprojects.github.io/Paket/) - Dependency manager for .NET and Mono projects, which is designed to work well with NuGet packages and also enables referencing files directly from GitHub repositories.
+ * [Paket](http://fsprojects.github.io/Paket/) - Dependency manager for .NET and Mono projmects, which is designed to work well with NuGet packages and also enables referencing files directly from GitHub repositories.
  * [Protobuf-net](https://code.google.com/p/protobuf-net/) - A .NET implementation of protobuf, allowing you to serialize your .NET objects efficiently and easily.
  * [scriptcs](http://scriptcs.net/) - scriptcs makes it easy to write and execute C# with a simple text editor.
  * [Snoop WPF](https://github.com/cplotts/snoopwpf) - Snoop - The WPF Spy Utility
  * [Sql Bulk Copy Sync](https://github.com/WCOMAB/SqlBulkSync)
  * [Vagrant](http://nessos.github.io/Vagrant/) - Automated dependency resolution and dynamic assembly compilation framework.
  * [Weighted Selector](https://github.com/kinetiq/Ether.WeightedSelector/) - Easy to use (but high performance!) weighted selection implementation.
+ * [XDav](https://github.com/rezabazargan/xDav) -  A .net server mudole for webdav standard.
  * [ZeroToNine](https://github.com/ploeh/ZeroToNine) - A tool for maintaining .NET Assembly versions across multiple files.
 
 * Testing

@@ -5,33 +5,33 @@ This community maintained list showcases .NET open source developer projects. It
 Please sort projects alphabetically and provide a one-line description. GitHub/CodePlex (or other source) links are preferred, but feel free to also include marketing sites. Create new sections, as appropriate. 
 
 * .NET Implementations
- * [.NET Core](https://github.com/dotnet/corefx) - Core .NET Framework
+ * [.NET Core](https://github.com/dotnet/core) - Core .NET Framework
  * [Cosmos](http://cosmos.codeplex.com/) - C# Open Source Managed Operating System, an operating system "construction kit".
- * [Fling OS](http://www.flingos.co.uk/) - C# Operating System designed for people to learn low-level development from.
- * [Mono Project](https://github.com/mono/) - Cross-platform implementation of .NET Framework.
+ * [Fling OS](http://git.flingos.co.uk/fling-os/src) - C# Operating System designed for people to learn low-level development from. [Fling OS Site](http://www.flingos.co.uk/).
+ * [Mono](https://github.com/mono/mono) - Cross-platform implementation of .NET Framework.
  * [MOSA Project](https://github.com/mosa/MOSA-Project/) - Managed Operating System Alliance Project - C# Operating System.
 
 * Platforms
  * [Castle Project](https://github.com/castleproject) - Umbrella project for ActiveRecord, DynamicProxy, MonoRail, Windsor
- * [Catel](http://catelproject.com/) - Application platform with IoC, logging, reflection and much more that serves as a base for applications that must be ready for future growth.
- * [KonfDB](http://www.konfdb.com/) - Configuration Management as a Service for cross-platform, multi-tenant enterprise/hobby applications
+ * [Catel](https://github.com/catel/catel) - Application platform with IoC, logging, reflection and much more that serves as a base for applications that must be ready for future growth.
+ * [KonfDB](https://github.com/punitganshani/konfdb) - Configuration Management as a Service for cross-platform, multi-tenant enterprise/hobby applications. [KonfDB Site](http://www.konfdb.com/).
  
 * Languages
  * [Boo](https://github.com/bamboo/boo) - A .NET language similar to Python but with static typing, and many meta-programming capabilities.
  * [ClojureCLR](https://github.com/clojure/clojure-clr) - A .NET implemention of the [Clojure](http://clojure.org) programming language, built on the DLR. 
- * [Cobra](http://cobra-language.com/) - Clean, high-level syntax (Boo/Python-like). Static and dynamic binding. First class support for unit tests and contracts. Compiled performance with scripting conveniences. Lambdas and closures. Extensions and mixins
- * [Dynamic Language Runtime](http://www.github.com/IronLanguages/main.git) - A toolkit for building dynamic languages for .NET.
- * [Eagle](http://eagle.to) - A .NET implementation of the [Tcl](https://www.tcl.tk) programming language, built on the CLR.
+ * [Cobra](http://cobra-language.com/source/) - Clean, high-level syntax (Boo/Python-like). Static and dynamic binding. First class support for unit tests and contracts. Compiled performance with scripting conveniences. Lambdas and closures. Extensions and mixins
+ * [Dynamic Language Runtime](http://www.github.com/IronLanguages/main) - A toolkit for building dynamic languages for .NET.
+ * [Eagle](http://eagle.to/cgi-bin/eagle/dir?ci=trunk) - A .NET implementation of the [Tcl](https://www.tcl.tk) programming language, built on the CLR. [Eagle Site](http://eagle.to).
  * [Essence#](https://essencesharp.codeplex.com/) - Essence# is a fully dynamic and highly polymorphic programming language which features pervasive message passing, pervasive dynamic and strong typing, pervasive and deep reflection and pervasive object orientation.
  * [F#](https://github.com/fsharp/fsharp) - A mature, open source, cross-platform, functional-first programming language.
  * [F*](https://github.com/FStarLang/FStar) - An ML-like language with a type system for program verification.
- * [IronPython](http://ironpython.net) - A .NET implementation of the [Python](https://www.python.org) programming language, built on the DLR.
- * [IronRuby](http://ironruby.net) - A .NET implementation of the [Ruby](https://www.ruby-lang.org) programming language, built on the DLR.
+ * [IronPython](https://github.com/IronLanguages/main/tree/master/Languages/IronPython) - A .NET implementation of the [Python](https://www.python.org) programming language, built on the DLR. [IronPython Site](http://ironpython.net).
+ * [IronRuby](https://github.com/IronLanguages/main/tree/master/Languages/Ruby) - A .NET implementation of the [Ruby](https://www.ruby-lang.org) programming language, built on the DLR. [IronRuby Site](http://ironruby.net).
  * [IronScheme](http://ironscheme.codeplex.com) - A R6RS conforming Scheme-like implementation based on the Microsoft DLR.
- * [MoonSharp](http://www.moonsharp.org) - A Lua interpreter and remote debugger, written entirely in C#, easily embeddable in any application running on .NET 3.5+ and Mono.
+ * [MoonSharp](https://github.com/xanathar/moonsharp/) - A Lua interpreter and remote debugger, written entirely in C#, easily embeddable in any application running on .NET 3.5+ and Mono. [MoonSharp Site](http://www.moonsharp.org).
  * [Nemerle](https://github.com/rsdn/nemerle) - A high-level statically-typed programming language which offers functional, object-oriented and imperative features and has a simple C# like syntax and a powerful meta-programming system.
  * [NiL.JS](https://github.com/nilproject/NiL.JS) - A .NET implementation of the ECMAScript language and runtime.
- * [Phalanger](http://www.php-compiler.net/) - full-featured PHP runtime & compiler for .NET/Mono frameworks. Phalanger is modern open-source implementation of PHP, compatible with the vast array of existing PHP code.
+ * [Phalanger](https://github.com/DEVSENSE/Phalanger) - full-featured PHP runtime & compiler for .NET/Mono frameworks. Phalanger is modern open-source implementation of PHP, compatible with the vast array of existing PHP code.
  * [Roslyn (.NET Compiler Platform)](https://roslyn.codeplex.com/) - Open-source C# and Visual Basic compilers with rich code analysis APIs.
 
 * Security / Identity Management
@@ -41,15 +41,15 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
 
 * Web CMS
  * [DNN (formerly DotNetNuke)](https://dotnetnuke.codeplex.com/) - Web content management platform (CMS).
- * [N2CMS](http://www.n2cms.com/) - Open source, lightweight, code-first CMS able to seamlessly integrate into any MVC project.
- * [Orchard](http://www.orchardproject.net/) - A community-focused Content Management System built on the ASP.NET MVC platform.
- * [Piranha CMS](http://piranhacms.org) - Lightweight CMS library for new and existing ASP.NET MVC & WebPages applications.
+ * [N2CMS](http://n2cms.codeplex.com/) - Open source, lightweight, code-first CMS able to seamlessly integrate into any MVC project. [N2CMS Site](http://www.n2cms.com/).
+ * [Orchard](http://orchard.codeplex.com/) - A community-focused Content Management System built on the ASP.NET MVC platform. [Orchard Site](http://www.orchardproject.net/).
+ * [Piranha CMS](https://github.com/PiranhaCMS/Piranha) - Lightweight CMS library for new and existing ASP.NET MVC & WebPages applications. [Piranha CMS Site](http://piranhacms.org).
  * [Suave](https://github.com/SuaveIO/suave) A lightweight web server and a set of combinators to manipulate route flow and task composition.
- * [Umbraco](http://umbraco.com/) - Web content management platform (CMS).
+ * [Umbraco](https://github.com/umbraco/Umbraco-CMS/) - Web content management platform (CMS). [Umbraco Site](http://umbraco.com/).
  * [WebSharper](https://bitbucket.org/IntelliFactory/websharper) - Web programming platform including a compiler from F# code to JavaScript.
 
 * Web Frameworks
- * [Nancy](http://nancyfx.org) - A lightweight, low-ceremony, framework for building HTTP based services on .NET and Mono. 
+ * [Nancy](https://github.com/NancyFx/Nancy) - A lightweight, low-ceremony, framework for building HTTP based services on .NET and Mono. [Nancy Site](http://nancyfx.org)
  * [NemerleWeb](https://github.com/NemerleWeb/NemerleWeb) - Web MVVM library for .Net. It uses reactive data model which allows creating rich internet applications.
 
 * ADO.NET providers
@@ -68,12 +68,12 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [AzureNetQ](https://github.com/Roysvork/AzureNetQ) - An easy to use .NET API for Azure Service Bus.
  * [Bing.RestClient](https://github.com/AdvancedREI/Bing.RestClient) - Access the Bing REST APIs from a unified client.
  * [BoxKite.Twitter](https://github.com/NickHodge/BoxKite.Twitter/) - Twitter .NET Client Library for the 1.1 Twitter API, incorporating REST API, User streaming and Search Streaming. Uses Reactive Extensions (Rx).
- * [Cimbalino Toolkit](http://cimbalino.org/) - A set of useful and powerful tools that will help you build your Windows Platform applications.
+ * [Cimbalino Toolkit](https://github.com/Cimbalino/Cimbalino-Toolkit) - A set of useful and powerful tools that will help you build your Windows Platform applications.
  * [Coding4Fun Toolkit](http://coding4fun.codeplex.com/)
  * [ColoredConsole](https://github.com/colored-console/colored-console) - Add some color to your console.
  * [ComparerExtensions](https://github.com/jehugaleahsa/comparerextensions) - Build IComparer and IEqualityComparer objects using natural language syntax.
- * [Cricket](http://fsprojects.github.io/Cricket/) - Actor library
- * [DiffSharp](http://gbaydin.github.io/DiffSharp/) - Automatic Differentiation Library
+ * [Cricket](https://github.com/fsprojects/Cricket) - Actor library
+ * [DiffSharp](https://github.com/gbaydin/DiffSharp) - Automatic Differentiation Library
  * [DotNetOpenAuth](https://github.com/DotNetOpenAuth) - Library that adds support for your site visitors to login with their OpenIDs by just dropping an ASP.NET control onto your page.
  * [DropboxRestAPI](https://github.com/saguiitay/DropboxRestAPI) - DropBox .Net Client Library
  * [DynamicData](https://github.com/RolandPheasant/DynamicData) - Brings the power of Rx to collections
@@ -86,25 +86,25 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [GongSolutions.Wpf.DragDrop](https://github.com/punker76/gong-wpf-dragdrop) - A drag'n'drop framework for WPF.
  * [GeckoFX](https://bitbucket.org/geckofx) - Mozilla's Gecko layout engine wrapper in .NET.
  * [HudlFfmpeg](https://github.com/hudl/HudlFfmpeg) - A/V transcoding framework that helps build complex FFmpeg commands.
- * [JSON.NET](http://json.net/) - Popular high-performance JSON framework for .NET
+ * [JSON.NET](https://github.com/JamesNK/Newtonsoft.Json) - Popular high-performance JSON framework for .NET
  * [Kentor.AuthServices](https://github.com/KentorIT/authservices) - A SAML2 Service Provider for .NET.
  * [LibGit2Sharp](https://github.com/libgit2/libgit2sharp)
  * [Lucene.Net](https://github.com/apache/lucene.net)
  * [MahApps.Metro](https://github.com/MahApps/MahApps.Metro) - A toolkit for creating metro-style WPF applications.
- * [Math.NET Numerics](http://numerics.mathdotnet.com/) - Provides methods and algorithms for numerical computations in science, engineering and every day use.
+ * [Math.NET Numerics](https://github.com/mathnet/mathnet-numerics) - Provides methods and algorithms for numerical computations in science, engineering and every day use.
  * [Mathos Core Libary](http://mathos.codeplex.com/) - A library with algorithms for numerical calcultations in finance, statistics, pattern recognition, and more.
  * [Mathos Parser](http://mathosparser.codeplex.com/) - A simple parser for mathematical expressions before and at runtime.
  * [Mjolnir](https://github.com/hudl/Mjolnir) - [Hystrix](https://github.com/Netflix/Hystrix)-inspired fault tolerance with circuit breakers and thread pools.
  * [MoreLINQ](https://code.google.com/p/morelinq/) - LINQ to Objects is missing a few desirable features. This project will enhance LINQ to Objects with extra methods, in a manner which keeps to the spirit of LINQ.
  * [NetTopologySuite](https://github.com/NetTopologySuite) - A .NET port of the JTS Topology Suite.
-* [NHunspell](http://www.crawler-lib.net/nhunspell) - Spell Checker, Hyphenation an Theasaurus
- * [NodaTime](http://nodatime.org/) - A better date and time API for .NET
+* [NHunspell](http://sourceforge.net/projects/nhunspell/) - Spell Checker, Hyphenation an Theasaurus
+ * [NodaTime](https://code.google.com/p/noda-time/) - A better date and time API for .NET
  * [OneDriveRestAPI](https://github.com/saguiitay/OneDriveRestAPI) - OneDrive .Net Client Library using the REST API.
  * [OsmSharp](https://github.com/OsmSharp) - Mapping & Routing library.
  * [PocketSharp](https://github.com/ceee/PocketSharp)
  * [PortableRest](https://github.com/AdvancedREI/PortableRest) - Portable library for building cross-platform REST API Clients for .NET and Xamarin.
- * [RestSharp](http://restsharp.org/) - Simple REST and HTTP API Client for .NET
- * [RestBus](http://restbus.org/) - Easy Asynchronous Messaging and Queueing for .NET
+ * [RestSharp](https://github.com/restsharp/RestSharp) - Simple REST and HTTP API Client for .NET
+ * [RestBus](https://github.com/tenor/RestBus) - Easy Asynchronous Messaging and Queueing for .NET
  * [SharpMap](https://sharpmap.codeplex.com/) - An easy-to-use mapping library for use in web and desktop applications
  * [SharpSnmpLib](https://sharpsnmplib.codeplex.com) - An easy-to-use SNMP library for use on all platforms (.NET/Mono/Xamarin)
  * [Splat](https://github.com/paulcbetts/splat) - A library to make things cross-platform that should be.
@@ -118,8 +118,8 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
 
 * Graphics & Server-side Image Processing
  * [DynamicImage](https://github.com/tgjones/dynamic-image) - WPF-based server-side image rendering system - lots of visual effects implemented as high-performance shaders. Has URL api, several plugins available.
- * [ImageProcessor](http://imageprocessor.org/) - A .NET Library For On-The-Fly Processing Of Images (GDI+ based).
- * [ImageResizer](http://imageresizing.net/) - Add commands to image URLs to get altered versions in milliseconds. Edit, filter, touch-up images in real-time. (multiple backends - FreeImage, C++/CLI, GDI+, WIC). 45+ plugins available.
+ * [ImageProcessor](https://github.com/jimbobsquarepants/imageprocessor/) - A .NET Library For On-The-Fly Processing Of Images (GDI+ based).
+ * [ImageResizer](https://github.com/imazen/resizer) - Add commands to image URLs to get altered versions in milliseconds. Edit, filter, touch-up images in real-time. (multiple backends - FreeImage, C++/CLI, GDI+, WIC). 45+ plugins available.
  * [King.Azure.Imaging](https://github.com/jefking/King.Azure.Imaging) - Scalable image uploading and processing for Azure.
  * [.NET Image Processor](http://dotnetimageprocessor.codeplex.com/) - Extensible, chainable image processing library (GDI+ based).
  * [SharpDX](https://github.com/sharpdx/SharpDX) - SharpDX is a project delivering the full DirectX API for .NET on all Windows platforms.
@@ -130,8 +130,8 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [log4net](http://logging.apache.org/log4net/) - A tool to help the programmer output log statements to a variety of output targets.
  
 * Model-View-ViewModel (MVVM) Frameworks
- * [Caliburn Micro](http://caliburnmicro.com/)
- * [Catel.MVVM](http://catelproject.com/)
+ * [Caliburn Micro](https://github.com/Caliburn-Micro/Caliburn.Micro) - A small, yet powerful framework, designed for building applications across all XAML platforms.
+ * [Catel.MVVM](https://github.com/catel/catel) - Catel is an application development platform with the focus on MVVM.
  * [MVVM Cross](https://github.com/MvvmCross/MvvmCross)
  * [MVVM Light Toolkit](http://www.mvvmlight.net)
  * [Radical](https://github.com/RadicalFx/radical)

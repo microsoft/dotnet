@@ -97,6 +97,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [Mjolnir](https://github.com/hudl/Mjolnir) - [Hystrix](https://github.com/Netflix/Hystrix)-inspired fault tolerance with circuit breakers and thread pools.
  * [MoreLINQ](https://code.google.com/p/morelinq/) - LINQ to Objects is missing a few desirable features. This project will enhance LINQ to Objects with extra methods, in a manner which keeps to the spirit of LINQ.
  * [NetTopologySuite](https://github.com/NetTopologySuite) - A .NET port of the JTS Topology Suite.
+* [NHunspell](http://www.crawler-lib.net/nhunspell) - Spell Checker, Hyphenation an Theasaurus
  * [NodaTime](http://nodatime.org/) - A better date and time API for .NET
  * [OneDriveRestAPI](https://github.com/saguiitay/OneDriveRestAPI) - OneDrive .Net Client Library using the REST API.
  * [OsmSharp](https://github.com/OsmSharp) - Mapping & Routing library.
@@ -143,6 +144,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [CInject](https://github.com/punitganshani/CodeInject) - A tool to inject your C#/VB.NET code into existing .NET assemblies and executables
  * [FAKE](http://fsharp.github.io/FAKE/) - Build automation system with capabilities which are similar to make and rake.
  * [Fody](https://github.com/Fody/Fody) - Extensible tool for weaving .NET assemblies.
+* [Crawler-Lib Build Tools](http://www.crawler-lib.net/build-tools) -  A PowerShell based toolbox for automating the software build process, autmated testing and integration.
  * [FsEye](http://www.swensensoftware.com/fseye) - A visual object tree inspector for the F# Interactive.
  * [FsharpLint](http://fsprojects.github.io/FSharpLint/) - Lint tool for F#.
  * [FsPickler](http://nessos.github.io/FsPickler/) - Serialization library that facilitates the distribution of .NET objects.

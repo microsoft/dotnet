@@ -75,6 +75,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [Cricket](http://fsprojects.github.io/Cricket/) - Actor library
  * [DiffSharp](http://gbaydin.github.io/DiffSharp/) - Automatic Differentiation Library
  * [DotNetOpenAuth](https://github.com/DotNetOpenAuth) - Library that adds support for your site visitors to login with their OpenIDs by just dropping an ASP.NET control onto your page.
+ * [DropboxRestAPI](https://github.com/saguiitay/DropboxRestAPI) - DropBox .Net Client Library
  * [DynamicData](https://github.com/RolandPheasant/DynamicData) - Brings the power of Rx to collections
  * [EasyNetQ](https://github.com/mikehadlow/EasyNetQ) - An easy to use .NET API for RabbitMQ.
  * [ExtraLINQ](https://github.com/mariusschulz/ExtraLINQ) - Various extension methods for working with .NET collections.
@@ -97,6 +98,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [MoreLINQ](https://code.google.com/p/morelinq/) - LINQ to Objects is missing a few desirable features. This project will enhance LINQ to Objects with extra methods, in a manner which keeps to the spirit of LINQ.
  * [NetTopologySuite](https://github.com/NetTopologySuite) - A .NET port of the JTS Topology Suite.
  * [NodaTime](http://nodatime.org/) - A better date and time API for .NET
+ * [OneDriveRestAPI](https://github.com/saguiitay/OneDriveRestAPI) - OneDrive .Net Client Library using the REST API.
  * [OsmSharp](https://github.com/OsmSharp) - Mapping & Routing library.
  * [PocketSharp](https://github.com/ceee/PocketSharp)
  * [PortableRest](https://github.com/AdvancedREI/PortableRest) - Portable library for building cross-platform REST API Clients for .NET and Xamarin.

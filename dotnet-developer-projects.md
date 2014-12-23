@@ -7,28 +7,28 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
 * .NET Implementations
  * [.NET Core](https://github.com/dotnet/core) - Core .NET Framework
  * [Cosmos](http://cosmos.codeplex.com/) - C# Open Source Managed Operating System, an operating system "construction kit".
- * [Fling OS](http://git.flingos.co.uk/fling-os/src) - C# Operating System designed for people to learn low-level development from. [Fling OS Site](http://www.flingos.co.uk/).
+ * [Fling OS](http://git.flingos.co.uk/fling-os/src) - [C# Operating System](http://www.flingos.co.uk/) designed for people to learn low-level development from.
  * [Mono](https://github.com/mono/mono) - Cross-platform implementation of .NET Framework.
  * [MOSA Project](https://github.com/mosa/MOSA-Project/) - Managed Operating System Alliance Project - C# Operating System.
 
 * Platforms
  * [Castle Project](https://github.com/castleproject) - Umbrella project for ActiveRecord, DynamicProxy, MonoRail, Windsor
  * [Catel](https://github.com/catel/catel) - Application platform with IoC, logging, reflection and much more that serves as a base for applications that must be ready for future growth.
- * [KonfDB](https://github.com/punitganshani/konfdb) - Configuration Management as a Service for cross-platform, multi-tenant enterprise/hobby applications. [KonfDB Site](http://www.konfdb.com/).
+ * [KonfDB](https://github.com/punitganshani/konfdb) - Configuration Management as a Service for cross-platform, multi-tenant enterprise/hobby applications.
  
 * Languages
  * [Boo](https://github.com/bamboo/boo) - A .NET language similar to Python but with static typing, and many meta-programming capabilities.
  * [ClojureCLR](https://github.com/clojure/clojure-clr) - A .NET implemention of the [Clojure](http://clojure.org) programming language, built on the DLR. 
  * [Cobra](http://cobra-language.com/source/) - Clean, high-level syntax (Boo/Python-like). Static and dynamic binding. First class support for unit tests and contracts. Compiled performance with scripting conveniences. Lambdas and closures. Extensions and mixins
  * [Dynamic Language Runtime](http://www.github.com/IronLanguages/main) - A toolkit for building dynamic languages for .NET.
- * [Eagle](http://eagle.to/cgi-bin/eagle/dir?ci=trunk) - A .NET implementation of the [Tcl](https://www.tcl.tk) programming language, built on the CLR. [Eagle Site](http://eagle.to).
+ * [Eagle](http://eagle.to/cgi-bin/eagle/dir?ci=trunk) - [A .NET implementation](http://eagle.to) of the [Tcl](https://www.tcl.tk) programming language, built on the CLR.
  * [Essence#](https://essencesharp.codeplex.com/) - Essence# is a fully dynamic and highly polymorphic programming language which features pervasive message passing, pervasive dynamic and strong typing, pervasive and deep reflection and pervasive object orientation.
  * [F#](https://github.com/fsharp/fsharp) - A mature, open source, cross-platform, functional-first programming language.
  * [F*](https://github.com/FStarLang/FStar) - An ML-like language with a type system for program verification.
  * [IronPython](https://github.com/IronLanguages/main/tree/master/Languages/IronPython) - A .NET implementation of the [Python](https://www.python.org) programming language, built on the DLR. [IronPython Site](http://ironpython.net).
  * [IronRuby](https://github.com/IronLanguages/main/tree/master/Languages/Ruby) - A .NET implementation of the [Ruby](https://www.ruby-lang.org) programming language, built on the DLR. [IronRuby Site](http://ironruby.net).
  * [IronScheme](http://ironscheme.codeplex.com) - A R6RS conforming Scheme-like implementation based on the Microsoft DLR.
- * [MoonSharp](https://github.com/xanathar/moonsharp/) - A Lua interpreter and remote debugger, written entirely in C#, easily embeddable in any application running on .NET 3.5+ and Mono. [MoonSharp Site](http://www.moonsharp.org).
+ * [MoonSharp](https://github.com/xanathar/moonsharp/) - A Lua interpreter and remote debugger, written entirely in C#, easily embeddable in any application running on .NET 3.5+ and Mono.
  * [Nemerle](https://github.com/rsdn/nemerle) - A high-level statically-typed programming language which offers functional, object-oriented and imperative features and has a simple C# like syntax and a powerful meta-programming system.
  * [NiL.JS](https://github.com/nilproject/NiL.JS) - A .NET implementation of the ECMAScript language and runtime.
  * [Phalanger](https://github.com/DEVSENSE/Phalanger) - full-featured PHP runtime & compiler for .NET/Mono frameworks. Phalanger is modern open-source implementation of PHP, compatible with the vast array of existing PHP code.
@@ -41,15 +41,15 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
 
 * Web CMS
  * [DNN (formerly DotNetNuke)](https://dotnetnuke.codeplex.com/) - Web content management platform (CMS).
- * [N2CMS](http://n2cms.codeplex.com/) - Open source, lightweight, code-first CMS able to seamlessly integrate into any MVC project. [N2CMS Site](http://www.n2cms.com/).
- * [Orchard](http://orchard.codeplex.com/) - A community-focused Content Management System built on the ASP.NET MVC platform. [Orchard Site](http://www.orchardproject.net/).
- * [Piranha CMS](https://github.com/PiranhaCMS/Piranha) - Lightweight CMS library for new and existing ASP.NET MVC & WebPages applications. [Piranha CMS Site](http://piranhacms.org).
+ * [N2CMS](https://github.com/n2cms/n2cms) - Open source, lightweight, code-first CMS able to seamlessly integrate into any MVC project.
+ * [Orchard](http://orchard.codeplex.com/) - A community-focused Content Management System built on the ASP.NET MVC platform.
+ * [Piranha CMS](https://github.com/PiranhaCMS/Piranha) - Lightweight CMS library for new and existing ASP.NET MVC & WebPages applications.
  * [Suave](https://github.com/SuaveIO/suave) A lightweight web server and a set of combinators to manipulate route flow and task composition.
- * [Umbraco](https://github.com/umbraco/Umbraco-CMS/) - Web content management platform (CMS). [Umbraco Site](http://umbraco.com/).
+ * [Umbraco](https://github.com/umbraco/Umbraco-CMS/) - Web content management platform (CMS).
  * [WebSharper](https://bitbucket.org/IntelliFactory/websharper) - Web programming platform including a compiler from F# code to JavaScript.
 
 * Web Frameworks
- * [Nancy](https://github.com/NancyFx/Nancy) - A lightweight, low-ceremony, framework for building HTTP based services on .NET and Mono. [Nancy Site](http://nancyfx.org)
+ * [Nancy](https://github.com/NancyFx/Nancy) - A lightweight, low-ceremony, framework for building HTTP based services on .NET and Mono.
  * [NemerleWeb](https://github.com/NemerleWeb/NemerleWeb) - Web MVVM library for .Net. It uses reactive data model which allows creating rich internet applications.
 
 * ADO.NET providers
@@ -132,11 +132,11 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
 * Model-View-ViewModel (MVVM) Frameworks
  * [Caliburn Micro](https://github.com/Caliburn-Micro/Caliburn.Micro) - A small, yet powerful framework, designed for building applications across all XAML platforms.
  * [Catel.MVVM](https://github.com/catel/catel) - Catel is an application development platform with the focus on MVVM.
- * [MVVM Cross](https://github.com/MvvmCross/MvvmCross)
- * [MVVM Light Toolkit](http://www.mvvmlight.net)
- * [Radical](https://github.com/RadicalFx/radical)
- * [ReactiveUI](https://github.com/reactiveui/ReactiveUI)
- * [Simple Mvvm Toolkit](http://simplemvvmtoolkit.codeplex.com/)
+ * [MVVM Cross](https://github.com/MvvmCross/MvvmCross) - A cross-platform mobile MVVM development framework.
+ * [MVVM Light Toolkit](http://www.mvvmlight.net) - A cross-platform desktop and mobile MVVM development framework.
+ * [Radical](https://github.com/RadicalFx/radical) - An infrastructure framework whose primary role is to help in the development of composite WPF/Silverlight/WP/WinRT applications based on the Model View ViewModel pattern.
+ * [ReactiveUI](https://github.com/reactiveui/ReactiveUI) - An MVVM framework that integrates with the Reactive Extensions for .NET to create elegant, testable User Interfaces that run on any mobile or desktop platform.
+ * [Simple Mvvm Toolkit](http://simplemvvmtoolkit.codeplex.com/) - Provides a simple framework and set of tools for getting up to speed quickly with applications based on the MVVM design pattern. 
 
 * Tools
  * [Cake](https://github.com/cake-build/cake) (C# Make) - A build automation system with C#/Roslyn driven build scripts.
@@ -144,34 +144,34 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [CInject](https://github.com/punitganshani/CodeInject) - A tool to inject your C#/VB.NET code into existing .NET assemblies and executables
  * [FAKE](http://fsharp.github.io/FAKE/) - Build automation system with capabilities which are similar to make and rake.
  * [Fody](https://github.com/Fody/Fody) - Extensible tool for weaving .NET assemblies.
-* [Crawler-Lib Build Tools](http://www.crawler-lib.net/build-tools) -  A PowerShell based toolbox for automating the software build process, autmated testing and integration.
- * [FsEye](http://www.swensensoftware.com/fseye) - A visual object tree inspector for the F# Interactive.
- * [FsharpLint](http://fsprojects.github.io/FSharpLint/) - Lint tool for F#.
- * [FsPickler](http://nessos.github.io/FsPickler/) - Serialization library that facilitates the distribution of .NET objects.
+* [Crawler-Lib Build Tools](http://download.crawler-lib.net/BuildTools/) -  [A PowerShell based toolbox](http://www.crawler-lib.net/build-tools) for automating the software build process, autmated testing and integration.
+ * [FsEye](https://code.google.com/p/fseye/) - A visual object tree inspector for the F# Interactive.
+ * [FsharpLint](https://github.com/fsprojects/FSharpLint) - Lint tool for F#.
+ * [FsPickler](https://github.com/nessos/FsPickler) - Serialization library that facilitates the distribution of .NET objects.
  * [GitLink](https://github.com/CatenaLogic/GitLink) - Command-line tool to make .NET open source accessible without the need for a symbols server
  * [GitVersion](https://github.com/ParticularLabs/GitVersion) - Use convention to derive a SemVer product version from a GitFlow based repository.
- * [Glimpse](http://getglimpse.com) - Providing real time diagnostics & insights to the fingertips of hundreds of thousands of developers daily.
- * [ILSpy](http://ilspy.net/) - ILSpy is the open-source .NET assembly browser and decompiler.
- * [Mini Profiler](http://miniprofiler.com/) - A simple but effective mini-profiler for .NET and Ruby.
+ * [Glimpse](https://github.com/Glimpse/Glimpse) - Providing real time diagnostics & insights to the fingertips of hundreds of thousands of developers daily.
+ * [ILSpy](https://github.com/icsharpcode/ILSpy) - ILSpy is the open-source .NET assembly browser and decompiler.
+ * [Mini Profiler](https://github.com/MiniProfiler/dotnet) - A simple but effective mini-profiler for .NET.
  * [Obfuscar](https://obfuscar.codeplex.com) - MSIL obfuscation utility for .NET assemblies.
  * [Outcomes.Net](https://github.com/kinetiq/Ether.Outcomes/) - Fluent wrapper that eliminates plumbing code around failure-prone functions.
- * [Paket](http://fsprojects.github.io/Paket/) - Dependency manager for .NET and Mono projmects, which is designed to work well with NuGet packages and also enables referencing files directly from GitHub repositories.
+ * [Paket](https://github.com/fsprojects/Paket) - Dependency manager for .NET and Mono projmects, which is designed to work well with NuGet packages and also enables referencing files directly from GitHub repositories.
  * [Protobuf-net](https://code.google.com/p/protobuf-net/) - A .NET implementation of protobuf, allowing you to serialize your .NET objects efficiently and easily.
- * [scriptcs](http://scriptcs.net/) - scriptcs makes it easy to write and execute C# with a simple text editor.
+ * [scriptcs](https://github.com/scriptcs/scriptcs) - scriptcs makes it easy to write and execute C# with a simple text editor.
  * [Snoop WPF](https://github.com/cplotts/snoopwpf) - Snoop - The WPF Spy Utility
  * [Sql Bulk Copy Sync](https://github.com/WCOMAB/SqlBulkSync)
- * [Vagrant](http://nessos.github.io/Vagrant/) - Automated dependency resolution and dynamic assembly compilation framework.
+ * [Vagrant](https://github.com/nessos/Vagrant) - Automated dependency resolution and dynamic assembly compilation framework.
  * [Weighted Selector](https://github.com/kinetiq/Ether.WeightedSelector/) - Easy to use (but high performance!) weighted selection implementation.
  * [XDav](https://github.com/rezabazargan/xDav) -  A .net server mudole for webdav standard.
  * [ZeroToNine](https://github.com/ploeh/ZeroToNine) - A tool for maintaining .NET Assembly versions across multiple files.
 
 * Testing
  * [AutoFixture](https://github.com/AutoFixture/AutoFixture) - An open source framework for .NET designed to minimize the 'Arrange' phase of your unit tests. Its primary goal is to allow developers to focus on what is being tested rather than how to setup the test scenario, by making it easier to create object graphs containing test data.
- * [canopy](http://lefthandedgoat.github.io/canopy/) - A web testing framework.
+ * [canopy](https://github.com/lefthandedgoat/canopy) - A web testing framework.
  * [FakeItEasy](https://github.com/FakeItEasy/FakeItEasy) - The easy mocking library for .NET.
- * [FsCheck](https://fsharp.github.io/FsCheck/) - A tool for testing .NET programs automatically.
+ * [FsCheck](https://github.com/fsharp/FsCheck) - A tool for testing .NET programs automatically.
  * [moq](https://github.com/Moq/moq4) - The most popular and friendly mocking framework for .NET
- * [NSubstitute](http://nsubstitute.github.io/) - A friendly substitute for .NET mocking frameworks.
+ * [NSubstitute](https://github.com/nsubstitute/NSubstitute) - A friendly substitute for .NET mocking frameworks.
  * [NUnit](https://github.com/nunit/nunit) - NUnit is a unit-testing framework for all .NET languages.
  * [tickspec](http://tickspec.codeplex.com/) - A lightweight Behaviour Driven Development (BDD) framework.
  * [TestStack.BDDfy](https://github.com/TestStack/TestStack.BDDfy) - BDDfy is the simplest BDD framework to use, customize and extend!
@@ -181,9 +181,9 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [xUnit](https://github.com/xunit/xunit) - xUnit.net is a community-focused unit testing tool for the .NET Framework.
 
 * Dependency Injection
- * [Autofac](http://autofac.org/) - Autofac is an addictive Inversion of Control container for .NET 4.5, Silverlight 5, Windows Store apps, and Windows Phone 8 apps.
- * [Castle Windsor](http://www.castleproject.org/projects/windsor/) - A mature Inversion of Control container available for .NET and Silverlight
- * [DI Feature Tests](http://featuretests.apphb.com/DependencyInjection.html) - Tests that track commmon DI features among multiple containers
+ * [Autofac](https://github.com/autofac/Autofac) - Autofac is an addictive Inversion of Control container for .NET 4.5, Silverlight 5, Windows Store apps, and Windows Phone 8 apps.
+ * [Castle Windsor](https://github.com/castleproject/Windsor) - A mature Inversion of Control container available for .NET and Silverlight
+ * [DI Feature Tests](https://github.com/ashmind/net-feature-tests) - Tests that track commmon DI features among multiple containers
  * [dI.Hook](https://github.com/punitganshani/dI.Hook) - DI container that allows invocation using AOP
  * [DryIoc](https://bitbucket.org/dadhi/dryioc) - DryIoc is small, fast, capable IoC Container for .NET
  * [fFastInjector](https://ffastinjector.codeplex.com/) - fFastInjector is a high-performing dependency injector, service locator, and/or IOC (inversion of control) container.
@@ -193,19 +193,19 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [HaveBox](https://bitbucket.org/Have/havebox/wiki/Home) - HaveBox is a very fast and lightweight IoC containter. The goal is to keep it fast and light, and at the same time easy to use.
  * [Hiro](https://github.com/philiplaureano/Hiro) - An ultra-lightweight, inversion of control container compiler framework 
  * [IfInjector](https://github.com/iamahern/IfInjector) - High performance mobile micro-IoC container.
- * [LightCore](http://lightcore.ch/de/default.aspx) - LightCore is a lightweight dependency injection container that can be used as a service locator and despite its simplicity and ease boasts numerous features.
+ * [LightCore](https://peterbucher.kilnhg.com/Code/LightCore/Group/Default?nr=) - [A lightweight dependency injection container](http://lightcore.ch/en/default.aspx) that can be used as a service locator and despite its simplicity and ease boasts numerous features.
  * [LightInject](https://github.com/seesharper/LightInject) - A ultra lightweight IoC container
  * [MicroSliver](https://microsliver.codeplex.com/) - MicroSliver is a micro, non-bloat, non-intimidating and speedy .NET (ASP.NET, Silverlight, RIA Services, WPF, Forms and Metro!) 
  * [Mugen Injection](http://mugeninjection.codeplex.com/) - The MugeniInjection is a lightweight and fast managed IoC (Inversion of Control) and DI (Dependency Injection) with support for constructor, property and method call injection
- * [Ninject for Desktop](http://www.ninject.org/) - Dependency injector for .NET
+ * [Ninject for Desktop](https://github.com/ninject/ninject) - Dependency injector for .NET
  * [Ninject for Portable Class Libraries, Universal apps and Xamarin](https://github.com/onovotny/ninject)
  * [QuickInject](https://github.com/isabgol/QuickInject) - QuickInject is a Unity 3.5 based IoC container that aims to give the Unity container a performance advantage in basic scenarios. 
- * [Simple Injector](https://simpleinjector.org/index.html) - Simple Injector is an easy-to-use Dependency Injection library for .NET 4+ that supports Silverlight 4+, Windows Phone 8, Windows 8 including Universal apps and Mono.
- * [Spring.NET](http://www.springframework.net/) - Spring.NET is an open source application framework that makes building  enterprise .NET applications easier.  
- * [StructureMap](http://docs.structuremap.net/) - StructureMap is a Dependency Injection / Inversion of Control tool for .Net that can be used to improve the architectural qualities of an object oriented system by reducing the mechanical costs of good design techniques.
+ * [Simple Injector](https://simpleinjector.codeplex.com/) - Simple Injector is an easy-to-use Dependency Injection library for .NET 4+ that supports Silverlight 4+, Windows Phone 8, Windows 8 including Universal apps and Mono.
+ * [Spring.NET](https://github.com/spring-projects/spring-net) - Spring.NET is an open source application framework that makes building  enterprise .NET applications easier.  
+ * [StructureMap](https://github.com/structuremap/structuremap) - StructureMap is a Dependency Injection / Inversion of Control tool for .Net that can be used to improve the architectural qualities of an object oriented system by reducing the mechanical costs of good design techniques.
  * [StyleMVVM](https://stylemvvm.codeplex.com/) - Style MVVM is a toolkit designed for the Windows Store platform around the idea of being light weight and fast.
  * [TinyIoC](https://github.com/grumpydev/TinyIoC) - An easy to use, hassle free, Inversion of Control Container for small projects, libraries and beginners alike.
- * [Unity Container](http://msdn.microsoft.com/library/ff647202.aspx) - The Unity Container (Unity) is a lightweight, extensible dependency injection container with optional support for instance and type interception.
+ * [Unity Container](http://unity.codeplex.com/) - The Unity Container (Unity) is a lightweight, extensible dependency injection container with optional support for instance and type interception.
 
 * Data Access
  * [Dapper](https://github.com/StackExchange/dapper-dot-net) - Dapper is a single file you can drop in to your project that will extend your IDbConnection interface.
@@ -223,7 +223,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
 
 * Games
  * [Duality](https://github.com/AdamsLair/duality) - An Open Source 2D Game Engine + Visual Editor written entirely in C#.
- * [MonoGame](http://monogame.net) - One framework for creating powerful cross-platform games.
+ * [MonoGame](https://github.com/mono/MonoGame) - One framework for creating powerful cross-platform games.
  * [OpenRA](https://github.com/OpenRA/OpenRA) - An open-source implementation of the Command & Conquer: Red Alert engine using .NET/Mono and OpenGL.
  * [Paradox](https://github.com/SiliconStudio/paradox) - Paradox is a versatile and engaging game engine.
  * [WaveEngine](https://github.com/waveengine) - A powerful component based game engine for desktop and mobile platforms using C#.
@@ -236,11 +236,11 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  
 * Windows Services
  * [King.Service](https://github.com/jefking/King.Service) - Task scheduling for Azure and Windows
- * [TopShelf](https://github.com/Topshelf/Topshelf)
+ * [TopShelf](https://github.com/Topshelf/Topshelf) - An easy service hosting framework for building Windows services using .NET.
 
 * Scheduling
- * [Hangfire](http://hangfire.io/)
- * [Quartz.Net](https://github.com/quartznet/quartznet) 
+ * [Hangfire](https://github.com/HangfireIO/Hangfire) - An easy way to perform fire-and-forget, delayed and recurring tasks inside ASP.NET applications.
+ * [Quartz.Net](https://github.com/quartznet/quartznet) - A full-featured, open source job scheduling system that can be used from smallest apps to large scale enterprise systems.
  
 * Deployment
  * [DropkicK](https://github.com/chucknorris/dropkick/) - A fluent deployment library for Windows applications

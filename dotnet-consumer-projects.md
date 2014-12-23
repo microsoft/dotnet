@@ -19,6 +19,9 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  
 * Administration
  * [OpenPetra](https://github.com/openpetra/openpetra) - [www.openpetra.org](https://www.openpetra.org) - An administration software for charities that can be used to manage personnel, supporters, book keeping, gift receipting, accounts payable, conferences etc.
+  
+* Crypto Currency
+ * [CoiniumServ](https://github.com/CoiniumServ/CoiniumServ) - a high performance, extremely efficient, platform-agnostic, easy to setup bitcoin & alt-coin pool server implementation. It features stratum services, reward, payment, share processors, vardiff & ban managers, user-friendly embedded web-server & front-end and a full-stack API.
  
 This list is just a starting point - also take a look at all the projects on [CodePlex](http://www.codeplex.com/) and on [GitHub Trending C#](https://github.com/trending?l=csharp).
 

@@ -23,6 +23,9 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
 * Crypto Currency
  * [CoiniumServ](https://github.com/CoiniumServ/CoiniumServ) - a high performance, extremely efficient, platform-agnostic, easy to setup bitcoin & alt-coin pool server implementation. It features stratum services, reward, payment, share processors, vardiff & ban managers, user-friendly embedded web-server & front-end and a full-stack API.
  
+* Online Algorithm Competitions
+ * [OpenJudgeSystem](https://github.com/NikolayIT/OpenJudgeSystem) - an open source system for online algorithm competitions. The algorithm competitions (currently available in C#, C++, JavaScript, Java and PHP programming languages) are timed contests where all contestants compete online and are given the same algorithmic problems to solve under the same time and memory constraints.
+ 
 This list is just a starting point - also take a look at all the projects on [CodePlex](http://www.codeplex.com/) and on [GitHub Trending C#](https://github.com/trending?l=csharp).
 
 Thanks to @scottisafool for providing the initial list.

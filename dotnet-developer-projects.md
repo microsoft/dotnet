@@ -14,6 +14,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
 * Platforms
  * [Castle Project](https://github.com/castleproject) - Umbrella project for ActiveRecord, DynamicProxy, MonoRail, Windsor
  * [Catel](https://github.com/catel/catel) - Application platform with IoC, logging, reflection and much more that serves as a base for applications that must be ready for future growth.
+ * [Enterprise Web Library (EWL)](https://github.com/enduracode/enterprise-web-library) - An extremely opinionated platform for web applications that trades off performance, scalability, and development flexibility for an ease of maintenance you won't find anywhere else. [Enterprise Web Library site](http://www.enterpriseweblibrary.org/).
  * [KonfDB](https://github.com/punitganshani/konfdb) - Configuration Management as a Service for cross-platform, multi-tenant enterprise/hobby applications.
  
 * Languages

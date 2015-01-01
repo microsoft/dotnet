@@ -135,6 +135,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [Catel.MVVM](https://github.com/catel/catel) - Catel is an application development platform with the focus on MVVM.
  * [MVVM Cross](https://github.com/MvvmCross/MvvmCross) - A cross-platform mobile MVVM development framework.
  * [MVVM Light Toolkit](http://www.mvvmlight.net) - A cross-platform desktop and mobile MVVM development framework.
+ * [Okra App Framework](https://github.com/OkraFramework/Okra.Core) - An MVVM framework for Windows Store applications including MVVM templates for Visual Studio.
  * [Radical](https://github.com/RadicalFx/radical) - An infrastructure framework whose primary role is to help in the development of composite WPF/Silverlight/WP/WinRT applications based on the Model View ViewModel pattern.
  * [ReactiveUI](https://github.com/reactiveui/ReactiveUI) - An MVVM framework that integrates with the Reactive Extensions for .NET to create elegant, testable User Interfaces that run on any mobile or desktop platform.
  * [Simple Mvvm Toolkit](http://simplemvvmtoolkit.codeplex.com/) - Provides a simple framework and set of tools for getting up to speed quickly with applications based on the MVVM design pattern. 

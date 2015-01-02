@@ -122,7 +122,9 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [ImageProcessor](https://github.com/jimbobsquarepants/imageprocessor/) - A .NET Library For On-The-Fly Processing Of Images (GDI+ based).
  * [ImageResizer](https://github.com/imazen/resizer) - Add commands to image URLs to get altered versions in milliseconds. Edit, filter, touch-up images in real-time. (multiple backends - FreeImage, C++/CLI, GDI+, WIC). 45+ plugins available.
  * [King.Azure.Imaging](https://github.com/jefking/King.Azure.Imaging) - Scalable image uploading and processing for Azure.
+ * [MonoGame](http://www.monogame.net/) - MonoGame is a cross-platform, open-source implementation of the XNA Game Framework.
  * [.NET Image Processor](http://dotnetimageprocessor.codeplex.com/) - Extensible, chainable image processing library (GDI+ based).
+ * [OpenTK](https://github.com/opentk/opentk) - OpenTK is a low-level, cross-platform binding to OpenGL, OpenGL ES, OpenCL and OpenAL, available for Windows, Linux, Mac OS X, BSD, Android and iOS.
  * [SharpDX](https://github.com/sharpdx/SharpDX) - SharpDX is a project delivering the full DirectX API for .NET on all Windows platforms.
 
 * Logging

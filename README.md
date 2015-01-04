@@ -27,6 +27,10 @@ For a longer list, see:
 * [.NET developer projects](dotnet-developer-projects.md)
 * [.NET consumer projects](dotnet-consumer-projects.md) 
 
+For a list of free services and tools for open source .NET projects, see:
+
+* [Free Services & Tools for Open Source .NET Projects](dotnet-free-oss-services.md)
+
 ## How to Engage, Contribute and Provide Feedback
 
 .NET open source projects from Microsoft (gladly) accept PRs and other

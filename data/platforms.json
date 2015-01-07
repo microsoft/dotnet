@@ -10,6 +10,10 @@
 {"alias":"VS2013",
 "name":"Visual Studio 2013",
 "download":"http://www.visualstudio.com/en-us/downloads/download-visual-studio-vs.aspx"
+},
+{"alias":"VS2015",
+"name":"Visual Studio 2015",
+"download":"http://www.visualstudio.com/downloads/visual-studio-2015-downloads-vs"
 }
 ]
 ,
@@ -30,6 +34,19 @@
 "platforms":
 [
 {
+"platform":".NET Framework 4.6",
+"category":"netfx",
+"info":"http://blogs.msdn.com/b/dotnet/archive/2014/11/12/announcing-net-2015-preview-a-new-era-for-net.aspx#_.NET_Framework_4.6",
+"includedIn":["VS2015"],
+"supportedBy":["VS2013","VS2012"],
+"runtime":[
+{"name":".NET Framework 4.6","link":"http://go.microsoft.com/fwlink/?LinkId=399417"}],
+"tools":[
+{"name":"Visual Studio Community 2013 (free)","link":"http://www.visualstudio.com/en-us/downloads/download-visual-studio-vs#DownloadFamilies_2"},
+{"name":"Visual Studio Express 2013 (free)","link":"http://www.visualstudio.com/en-us/downloads/download-visual-studio-vs#DownloadFamilies_2"}
+]
+  },
+{
 "platform":".NET Framework 4.5.2",
 "category":"netfx",
 "info":"http://go.microsoft.com/fwlink/?LinkID=309958",
@@ -39,9 +56,7 @@
 {"name":".NET Framework 4.5.2","link":"http://go.microsoft.com/fwlink/?LinkId=397674"}],
 "tools":[
 {"name":".NET Framework 4.5.2 Developer Pack","link":"http://go.microsoft.com/fwlink/?LinkId=328857","description":"The .NET 4.5.2 Developer pack includes the .NET framework 4.5.2 runtime and targeting pack."},
-{"name":".NET Framework 4.5.2 Language Packs","link":"http://go.microsoft.com/fwlink/?LinkId=328858","description":"Resources to support languages other than English."},
-{"name":"Visual Studio Express 2013 for Windows Desktop","link":"http://www.visualstudio.com/downloads/download-visual-studio-vs#d-express-windows-desktop"},
-{"name":"Visual Studio Express 2013 for Web","link":"http://www.visualstudio.com/downloads/download-visual-studio-vs#d-express-web"}
+{"name":".NET Framework 4.5.2 Language Packs","link":"http://go.microsoft.com/fwlink/?LinkId=328858","description":"Resources to support languages other than English."}
 ]
   },
   {

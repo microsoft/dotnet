@@ -141,6 +141,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [Radical](https://github.com/RadicalFx/radical) - An infrastructure framework whose primary role is to help in the development of composite WPF/Silverlight/WP/WinRT applications based on the Model View ViewModel pattern.
  * [ReactiveUI](https://github.com/reactiveui/ReactiveUI) - An MVVM framework that integrates with the Reactive Extensions for .NET to create elegant, testable User Interfaces that run on any mobile or desktop platform.
  * [Simple Mvvm Toolkit](http://simplemvvmtoolkit.codeplex.com/) - Provides a simple framework and set of tools for getting up to speed quickly with applications based on the MVVM design pattern. 
+ * [WPF Application Framework (WAF)](http://waf.codeplex.com) - A lightweight Framework that helps you to create well structured WPF Applications. It supports you in applying a Layered Architecture and the Model-View-ViewModel pattern.
 
 * Tools
  * [Cake](https://github.com/cake-build/cake) (C# Make) - A build automation system with C#/Roslyn driven build scripts.

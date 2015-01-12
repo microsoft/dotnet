@@ -10,6 +10,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [Fling OS](http://git.flingos.co.uk/fling-os/src) - [C# Operating System](http://www.flingos.co.uk/) designed for people to learn low-level development from.
  * [Mono](https://github.com/mono/mono) - Cross-platform implementation of .NET Framework.
  * [MOSA Project](https://github.com/mosa/MOSA-Project/) - Managed Operating System Alliance Project - C# Operating System.
+ * [SharpLang](https://github.com/xen2/SharpLang) - Compiles C# & .NET to native machine code, using [LLVM](http://llvm.org) as a backend.
 
 * Platforms
  * [Castle Project](https://github.com/castleproject) - Umbrella project for ActiveRecord, DynamicProxy, MonoRail, Windsor

@@ -23,7 +23,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [ClojureCLR](https://github.com/clojure/clojure-clr) - A .NET implemention of the [Clojure](http://clojure.org) programming language, built on the DLR. 
  * [Cobra](http://cobra-language.com/source/) - Clean, high-level syntax (Boo/Python-like). Static and dynamic binding. First class support for unit tests and contracts. Compiled performance with scripting conveniences. Lambdas and closures. Extensions and mixins
  * [Dynamic Language Runtime](http://www.github.com/IronLanguages/main) - A toolkit for building dynamic languages for .NET.
- * [Eagle](http://eagle.to/cgi-bin/eagle/dir?ci=trunk) - [A .NET implementation](http://eagle.to) of the [Tcl](https://www.tcl.tk) programming language, built on the CLR.
+ * [Eagle](http://eagle.to) - A .NET implementation of the [Tcl](https://www.tcl.tk) programming language, built on the CLR.
  * [Essence#](https://essencesharp.codeplex.com/) - Essence# is a fully dynamic and highly polymorphic programming language which features pervasive message passing, pervasive dynamic and strong typing, pervasive and deep reflection and pervasive object orientation.
  * [F#](https://github.com/fsharp/fsharp) - A mature, open source, cross-platform, functional-first programming language.
  * [F*](https://github.com/FStarLang/FStar) - An ML-like language with a type system for program verification.

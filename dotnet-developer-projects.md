@@ -73,6 +73,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [Cimbalino Toolkit](https://github.com/Cimbalino/Cimbalino-Toolkit) - A set of useful and powerful tools that will help you build your Windows Platform applications.
  * [Coding4Fun Toolkit](http://coding4fun.codeplex.com/)
  * [ColoredConsole](https://github.com/colored-console/colored-console) - Add some color to your console.
+ * [ColorSharp](https://github.com/Litipk/ColorSharp) - Library to handle color spaces and light spectrums.
  * [ComparerExtensions](https://github.com/jehugaleahsa/comparerextensions) - Build IComparer and IEqualityComparer objects using natural language syntax.
  * [Cricket](https://github.com/fsprojects/Cricket) - Actor library
  * [DiffSharp](https://github.com/gbaydin/DiffSharp) - Automatic Differentiation Library

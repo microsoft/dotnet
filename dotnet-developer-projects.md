@@ -6,6 +6,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
 
 * .NET Implementations
  * [.NET Core](https://github.com/dotnet/core) - Core .NET Framework
+ * [C# Native](https://csnative.codeplex.com) - Compiles C# to native.
  * [Cosmos](http://cosmos.codeplex.com/) - C# Open Source Managed Operating System, an operating system "construction kit".
  * [Fling OS](http://git.flingos.co.uk/fling-os/src) - [C# Operating System](http://www.flingos.co.uk/) designed for people to learn low-level development from.
  * [Mono](https://github.com/mono/mono) - Cross-platform implementation of .NET Framework.

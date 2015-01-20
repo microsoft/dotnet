@@ -10,7 +10,7 @@ on the .NET blog.
 
 There are many [open source .NET projects](dotnet-developer-projects.md), a few of which are listed below. Please find one to engage in or add one to the list.
 
-* [.NET Compiler Platform ("Roslyn")](https://roslyn.codeplex.com)
+* [.NET Compiler Platform ("Roslyn")](https://github.com/dotnet/roslyn)
 * [.NET Core 5](https://github.com/dotnet/core)
 * [ASP.NET 5](https://github.com/aspnet/home)
 * [EntityFramework](https://github.com/aspnet/EntityFramework)

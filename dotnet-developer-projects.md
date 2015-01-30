@@ -140,6 +140,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [Caliburn Micro](https://github.com/Caliburn-Micro/Caliburn.Micro) - A small, yet powerful framework, designed for building applications across all XAML platforms.
  * [Catel.MVVM](https://github.com/catel/catel) - Catel is an application development platform with the focus on MVVM.
  * [MVVM Cross](https://github.com/MvvmCross/MvvmCross) - A cross-platform mobile MVVM development framework.
+ * [MVVM Extensions](https://github.com/TommasoScalici/MVVMExtensions) - MVVM cross platform (.NET FW 4.5, WPF, Windows Runtime/Phone) extensions for .NET with support for async commands, MVVM-friendly Object and Task with support for UI notification.
  * [MVVM Light Toolkit](http://www.mvvmlight.net) - A cross-platform desktop and mobile MVVM development framework.
  * [Okra App Framework](https://github.com/OkraFramework/Okra.Core) - An MVVM framework for Windows Store applications including MVVM templates for Visual Studio.
  * [Radical](https://github.com/RadicalFx/radical) - An infrastructure framework whose primary role is to help in the development of composite WPF/Silverlight/WP/WinRT applications based on the Model View ViewModel pattern.

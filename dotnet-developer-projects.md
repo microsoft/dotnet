@@ -59,7 +59,13 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [Firebird .NET client](https://sourceforge.net/p/firebird/NETProvider/) - Firebird
  * [Npgsql](https://github.com/npgsql/npgsql) - PostgreSQL 
  * [System.Data.SQLite](https://system.data.sqlite.org) - SQLite
- 
+
+* Messaging
+ * [AzureNetQ](https://github.com/Roysvork/AzureNetQ) - An easy to use .NET API for Azure Service Bus.
+ * [EasyNetQ](https://github.com/mikehadlow/EasyNetQ) - An easy to use .NET API for RabbitMQ.
+ * [Lime](https://github.com/takenet/lime-csharp) - A lightweight messaging library. 
+ * [RestBus](https://github.com/tenor/RestBus) - Easy Asynchronous Messaging and Queueing for .NET
+
 * Libraries
  * [Albedo](https://github.com/ploeh/Albedo) - A .NET library targeted at making Reflection programming more consistent, using a common set of abstractions and utilities.
  * [Algorithmia](https://github.com/SolutionsDesign/Algorithmia) - Algorithms and Data structures
@@ -68,7 +74,6 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [Argument](https://github.com/ashmind/Argument) - Argument validation microframework that does one thing in the simplest way possible.
  * [AshMind.Extensions](https://github.com/ashmind/ashmind-extensions) - A set of very conservative extension methods most of which closely follow naming and design patterns of .NET Base Class Library.
  * [AsyncCollections](https://github.com/HellBrick/AsyncCollections) - A set of lock-free thread-safe collections designed to be used asynchronously.
- * [AzureNetQ](https://github.com/Roysvork/AzureNetQ) - An easy to use .NET API for Azure Service Bus.
  * [Bing.RestClient](https://github.com/AdvancedREI/Bing.RestClient) - Access the Bing REST APIs from a unified client.
  * [BoxKite.Twitter](https://github.com/NickHodge/BoxKite.Twitter/) - Twitter .NET Client Library for the 1.1 Twitter API, incorporating REST API, User streaming and Search Streaming. Uses Reactive Extensions (Rx).
  * [Cimbalino Toolkit](https://github.com/Cimbalino/Cimbalino-Toolkit) - A set of useful and powerful tools that will help you build your Windows Platform applications.
@@ -81,7 +86,6 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [DotNetOpenAuth](https://github.com/DotNetOpenAuth) - Library that adds support for your site visitors to login with their OpenIDs by just dropping an ASP.NET control onto your page.
  * [DropboxRestAPI](https://github.com/saguiitay/DropboxRestAPI) - DropBox .Net Client Library
  * [DynamicData](https://github.com/RolandPheasant/DynamicData) - Brings the power of Rx to collections
- * [EasyNetQ](https://github.com/mikehadlow/EasyNetQ) - An easy to use .NET API for RabbitMQ.
  * [ExtraLINQ](https://github.com/mariusschulz/ExtraLINQ) - Various extension methods for working with .NET collections.
  * [FeatureToggle](https://github.com/jason-roberts/FeatureToggle) - Simple, reliable feature toggles in .NET.
  * [FluentBootstrap](https://github.com/somedave/FluentBootstrap)
@@ -109,7 +113,6 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [PocketSharp](https://github.com/ceee/PocketSharp)
  * [PortableRest](https://github.com/AdvancedREI/PortableRest) - Portable library for building cross-platform REST API Clients for .NET and Xamarin.
  * [RestSharp](https://github.com/restsharp/RestSharp) - Simple REST and HTTP API Client for .NET
- * [RestBus](https://github.com/tenor/RestBus) - Easy Asynchronous Messaging and Queueing for .NET
  * [SharpMap](https://sharpmap.codeplex.com/) - An easy-to-use mapping library for use in web and desktop applications
  * [SharpSnmpLib](https://sharpsnmplib.codeplex.com) - An easy-to-use SNMP library for use on all platforms (.NET/Mono/Xamarin)
  * [Splat](https://github.com/paulcbetts/splat) - A library to make things cross-platform that should be.

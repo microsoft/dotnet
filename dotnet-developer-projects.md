@@ -31,12 +31,13 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [IronPython](https://github.com/IronLanguages/main/tree/master/Languages/IronPython) - A .NET implementation of the [Python](https://www.python.org) programming language, built on the DLR. [IronPython Site](http://ironpython.net).
  * [IronRuby](https://github.com/IronLanguages/main/tree/master/Languages/Ruby) - A .NET implementation of the [Ruby](https://www.ruby-lang.org) programming language, built on the DLR. [IronRuby Site](http://ironruby.net).
  * [IronScheme](http://ironscheme.codeplex.com) - A R6RS conforming Scheme-like implementation based on the Microsoft DLR.
+ * [Irony](https://irony.codeplex.com/) - a development kit for implementing languages on .NET platform
  * [MoonSharp](https://github.com/xanathar/moonsharp/) - A Lua interpreter and remote debugger, written entirely in C#, easily embeddable in any application running on .NET 3.5+ and Mono.
  * [Nemerle](https://github.com/rsdn/nemerle) - A high-level statically-typed programming language which offers functional, object-oriented and imperative features and has a simple C# like syntax and a powerful meta-programming system.
  * [NiL.JS](https://github.com/nilproject/NiL.JS) - A .NET implementation of the ECMAScript language and runtime.
  * [Phalanger](https://github.com/DEVSENSE/Phalanger) - full-featured PHP runtime & compiler for .NET/Mono frameworks. Phalanger is modern open-source implementation of PHP, compatible with the vast array of existing PHP code.
  * [Roslyn (.NET Compiler Platform)](https://roslyn.codeplex.com/) - Open-source C# and Visual Basic compilers with rich code analysis APIs.
-
+ 
 * Security / Identity Management
  * [Thinktecture IdentityManager](https://github.com/thinktecture/Thinktecture.IdentityManager)
  * [Thinktecture IdentityServer](https://github.com/thinktecture/Thinktecture.IdentityServer.v3)
@@ -110,6 +111,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [NHunspell](http://sourceforge.net/projects/nhunspell/) - Spell Checker, Hyphenation an Theasaurus
  * [NModbus4](https://github.com/Maxwe11/NModbus4) - Implementation of the Modbus protocol
  * [NodaTime](https://code.google.com/p/noda-time/) - A better date and time API for .NET
+ * [NPOI](https://npoi.codeplex.com) - An Office file formats (xls, xlsx, docx) read/write library for .NET
  * [OneDriveRestAPI](https://github.com/saguiitay/OneDriveRestAPI) - OneDrive .Net Client Library using the REST API.
  * [OsmSharp](https://github.com/OsmSharp) - Mapping & Routing library.
  * [PocketSharp](https://github.com/ceee/PocketSharp)
@@ -125,7 +127,13 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [WpfToolkit](https://github.com/dotnetprojects/wpftoolkit) - Fork of the MS WPF Toolkit
  * [XamlEssentials](https://github.com/AdvancedREI/XamlEssentials) - Collection of helpers for Microsoft's XAML platforms.
  * [Zlib.Portable](https://github.com/AdvancedREI/Zlib.Portable) - A Portable Class Library port of the Zlib library from http://dotnetzip.codeplex.com.
-
+ 
+* Data Mine/Data Extraction/Machine Learning/AI
+ * [AForge.NET](http://www.aforgenet.com/) - a C# framework designed for developers and researchers in the fields of Computer Vision and Artificial Intelligence - image processing, neural networks, genetic algorithms, machine learning, robotics
+ * [Nepy](http://nepy.codeplex.com) - A collection of NLP parsers for .NET
+ * [SharpNLP](http://sharpnlp.codeplex.com) - SharpNLP is a collection of natural language processing tools written in C#
+ * [Toxy](http://toxy.codeplex.com) - An data/text extraction framework for .NET, similar to Tika in Java.
+ 
 * Graphics & Server-side Image Processing
  * [DynamicImage](https://github.com/tgjones/dynamic-image) - WPF-based server-side image rendering system - lots of visual effects implemented as high-performance shaders. Has URL api, several plugins available.
  * [ImageProcessor](https://github.com/jimbobsquarepants/imageprocessor/) - A .NET Library For On-The-Fly Processing Of Images (GDI+ based).
@@ -266,8 +274,9 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [Warewolf Easy Service Bus](https://github.com/Warewolf-ESB/Warewolf-ESB) - An open source easy to use service bus, built on numerous .Net technologies including WF (Windows Workflow Foundation), SignalR and WPF.
 
 * Distributed Caching and Computing
+  * [CacheAdapter](https://bitbucket.org/glav/cacheadapter) - a .Net library allows developers to use unified-implemented cahce provider
   * [Dache](https://github.com/ironyx/dache) - An open source distributed caching service, built on .NET 4.0 and using TCP sockets for communication.
-
+  
 * Windows Workflow
  * [Workflow Extractor](https://github.com/punitganshani/WorkflowExtractor) - Document Windows Workflow logic into a Word document or Excel sheet. 
 

@@ -4,9 +4,10 @@ This community maintained list showcases .NET open source consumer projects. It 
 
 Please sort projects alphabetically and provide a one-line description. GitHub/CodePlex (or other source) links are preferred, but feel free to also include marketing sites. Create new sections, as appropriate. 
 
-* Media Streaming
+* Media Streaming/Media file Editor
  * [Media Browser](https://github.com/mediabrowser/) - [www.mediabrowser.tv](http://www.mediabrowser.tv) - A client/server application that allows you to easily manage your own media content and present it in an eye catching way. Server runs on Windows, Linux and Mac. Clients are for WP, Android, iOS, Media Centre, Windows, Roku, etc.
-
+ * [Paint.NET](http://www.getpaint.net/) - famous Photoshop-like tool based on .NET
+ 
 * Audio players
  * [Banshee](https://github.com/GNOME/banshee) - A cross-platform multimedia player
  * [Espera](https://github.com/flagbug/Espera) - A media player that plays your music, YouTube videos, SoundCloud songs, has a special "party mode" and an Android remote control.

@@ -258,6 +258,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [Callisto](https://github.com/timheuer/callisto) - UI Control Toolkit for WinRT apps
  * [Dragablz](http://github.com/ButchersBoy/Dragablz) - A tearable TabControl for WPF which also provides easy-to-use and implement docking features.
  * [Eto](https://github.com/picoe/Eto) - Cross platform GUI Toolkit for desktop and mobile apps
+ * [Material Design in XAML Toolkit](https://github.com/ButchersBoy/MaterialDesignInXamlToolkit) - WPF/XAML resources, styles & templates for creating applications using Material Design
  * [Mono XWT](https://github.com/mono/xwt) - A cross-platform UI toolkit for creating desktop apps
  
 * Windows Services

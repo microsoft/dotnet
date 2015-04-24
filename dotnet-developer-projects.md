@@ -184,6 +184,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [AutoFixture](https://github.com/AutoFixture/AutoFixture) - An open source framework for .NET designed to minimize the 'Arrange' phase of your unit tests. Its primary goal is to allow developers to focus on what is being tested rather than how to setup the test scenario, by making it easier to create object graphs containing test data.
  * [canopy](https://github.com/lefthandedgoat/canopy) - A web testing framework.
  * [FakeItEasy](https://github.com/FakeItEasy/FakeItEasy) - The easy mocking library for .NET.
+ * [Fixie](https://github.com/fixie/fixie) - A low-ceremony, convention-based testing framework with flexible customization.
  * [FsCheck](https://github.com/fsharp/FsCheck) - A tool for testing .NET programs automatically.
  * [moq](https://github.com/Moq/moq4) - The most popular and friendly mocking framework for .NET
  * [NSubstitute](https://github.com/nsubstitute/NSubstitute) - A friendly substitute for .NET mocking frameworks.

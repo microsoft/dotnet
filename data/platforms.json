@@ -36,11 +36,11 @@
 {
 "platform":".NET Framework 4.6",
 "category":"netfx",
-"info":"http://blogs.msdn.com/b/dotnet/archive/2014/11/12/announcing-net-2015-preview-a-new-era-for-net.aspx#_.NET_Framework_4.6",
+"info":"http://blogs.msdn.com/b/dotnet/archive/2015/04/29/net-announcements-at-build-2015.aspx#dotnet46",
 "includedIn":["VS2015"],
 "supportedBy":["VS2013","VS2012"],
 "runtime":[
-{"name":".NET Framework 4.6","link":"http://go.microsoft.com/fwlink/?LinkId=399417"}],
+{"name":".NET Framework 4.6","link":"http://go.microsoft.com/fwlink/?LinkId=524667"}],
 "tools":[
 {"name":"Visual Studio Community 2013 (free)","link":"http://www.visualstudio.com/en-us/downloads/download-visual-studio-vs#DownloadFamilies_2"},
 {"name":"Visual Studio Express 2013 (free)","link":"http://www.visualstudio.com/en-us/downloads/download-visual-studio-vs#DownloadFamilies_2"}

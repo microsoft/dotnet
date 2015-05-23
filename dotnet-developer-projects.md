@@ -100,6 +100,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [JSON.NET](https://github.com/JamesNK/Newtonsoft.Json) - Popular high-performance JSON framework for .NET
  * [Kentor.AuthServices](https://github.com/KentorIT/authservices) - A SAML2 Service Provider for .NET.
  * [Language-ext](https://github.com/louthy/language-ext) - C# 6.0+ functional language extensions. Make C# more like F# and other functional languages
+ * [leveldb-sharp](https://github.com/meebey/leveldb-sharp) - cross-platform C# binding for LevelDB
  * [LibGit2Sharp](https://github.com/libgit2/libgit2sharp)
  * [Lucene.Net](https://github.com/apache/lucene.net)
  * [MahApps.Metro](https://github.com/MahApps/MahApps.Metro) - A toolkit for creating metro-style WPF applications.

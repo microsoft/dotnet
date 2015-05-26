@@ -6,7 +6,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
 
 * Media Streaming/Media file Editor
  * [Media Browser](https://github.com/mediabrowser/) - [www.mediabrowser.tv](http://www.mediabrowser.tv) - A client/server application that allows you to easily manage your own media content and present it in an eye catching way. Server runs on Windows, Linux and Mac. Clients are for WP, Android, iOS, Media Centre, Windows, Roku, etc.
- * [Paint.NET](http://www.getpaint.net/) - famous Photoshop-like tool based on .NET
+ * [Pinta](https://github.com/PintaProject/Pinta) - simple drawing/editing program modeled after Paint.NET
  
 * Audio players
  * [Banshee](https://github.com/GNOME/banshee) - A cross-platform multimedia player

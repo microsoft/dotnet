@@ -122,6 +122,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [Splat](https://github.com/paulcbetts/splat) - A library to make things cross-platform that should be.
  * [SSH.NET](https://sshnet.codeplex.com/) - A client-side library for SSH, SCP and SFTP.
  * [SuperSocket](https://github.com/kerryjiang/SuperSocket) - An extensible socket server engine which supports .NET and Mono
+ * [TomP2P.NET](https://github.com/tomp2p/TomP2P.NET) - A P2P-based high performance key-value pair storage library for .NET
  * [WebApiProxy](https://github.com/faniereynders/WebApiProxy) - An automatic proxy provider for RESTful services built on ASP.NET Web API. Includes JavaScript & C# client generation.
  * [WebSocket4Net](https://websocket4net.codeplex.com/) - A C# websocket client for .NET, Mono and Xamarin
  * [WpfToolkit](https://github.com/dotnetprojects/wpftoolkit) - Fork of the MS WPF Toolkit

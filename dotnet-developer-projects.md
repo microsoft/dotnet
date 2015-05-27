@@ -88,7 +88,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [DotNetOpenAuth](https://github.com/DotNetOpenAuth) - Library that adds support for your site visitors to login with their OpenIDs by just dropping an ASP.NET control onto your page.
  * [DropboxRestAPI](https://github.com/saguiitay/DropboxRestAPI) - DropBox .Net Client Library
  * [DynamicData](https://github.com/RolandPheasant/DynamicData) - Brings the power of Rx to collections
- * [Excel-DNA](http://excel-dna.net) - Create high-performance Excel add-ins with .NET
+ * [Excel-DNA](https://github.com/Excel-DNA/ExcelDna) - Create high-performance, easy to deploy Excel add-ins with .NET - [Home](http://excel-dna.net)
  * [ExtraLINQ](https://github.com/mariusschulz/ExtraLINQ) - Various extension methods for working with .NET collections.
  * [FeatureToggle](https://github.com/jason-roberts/FeatureToggle) - Simple, reliable feature toggles in .NET.
  * [FluentBootstrap](https://github.com/somedave/FluentBootstrap)

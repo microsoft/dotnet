@@ -178,8 +178,8 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [FsEye](https://code.google.com/p/fseye/) - A visual object tree inspector for the F# Interactive.
  * [FsharpLint](https://github.com/fsprojects/FSharpLint) - Lint tool for F#.
  * [FsPickler](https://github.com/nessos/FsPickler) - Serialization library that facilitates the distribution of .NET objects.
- * [GitLink](https://github.com/CatenaLogic/GitLink) - Command-line tool to make .NET open source accessible without the need for a symbols server
- * [GitVersion](https://github.com/ParticularLabs/GitVersion) - Use convention to derive a SemVer product version from a GitFlow based repository.
+ * [GitLink](https://github.com/GitTools/GitLink) - Command-line tool to make .NET open source accessible without the need for a symbols server
+ * [GitVersion](https://github.com/GitTools/GitVersion) - Use convention to derive a SemVer product version from a GitFlow based repository.
  * [Glimpse](https://github.com/Glimpse/Glimpse) - Providing real time diagnostics & insights to the fingertips of hundreds of thousands of developers daily.
  * [ILSpy](https://github.com/icsharpcode/ILSpy) - ILSpy is the open-source .NET assembly browser and decompiler.
  * [Mini Profiler](https://github.com/MiniProfiler/dotnet) - A simple but effective mini-profiler for .NET.

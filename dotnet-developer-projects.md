@@ -52,6 +52,9 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [Umbraco](https://github.com/umbraco/Umbraco-CMS/) - Web content management platform (CMS).
  * [WebSharper](https://bitbucket.org/IntelliFactory/websharper) - Web programming platform including a compiler from F# code to JavaScript.
 
+* Web Marketplace
+ * [BeYourMarket](https://github.com/beyourmarket/beyourmarket) - BeYourMarket is a peer-to-peer marketplace framework http://beyourmarket.com 
+
 * Web Frameworks
  * [Nancy](https://github.com/NancyFx/Nancy) - A lightweight, low-ceremony, framework for building HTTP based services on .NET and Mono.
  * [NemerleWeb](https://github.com/NemerleWeb/NemerleWeb) - Web MVVM library for .Net. It uses reactive data model which allows creating rich internet applications.

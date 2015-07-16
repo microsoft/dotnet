@@ -8,7 +8,9 @@ on the .NET blog.
 
 ## Finding .NET Open Source Projects
 
-There are many [open source .NET projects](dotnet-developer-projects.md), a few of which are listed below. Please find one to engage in or add one to the list.
+There are many [open source .NET projects](dotnet-developer-projects.md), a few of which are listed below. Additionally @qourzd maintains list of [awesome open source .NET libraries, tools, frameworks, and software](https://github.com/quozd/awesome-dotnet).
+
+
 
 * [.NET Compiler Platform ("Roslyn")](https://github.com/dotnet/roslyn)
 * [.NET Core 5](https://github.com/dotnet/core)

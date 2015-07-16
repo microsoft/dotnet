@@ -21,6 +21,7 @@ There are many [open source .NET projects](dotnet-developer-projects.md), a few 
 * [Mono Project](https://github.com/mono/)
 * [MVVM Cross](https://github.com/MvvmCross/MvvmCross)
 * [MVVM Light Toolkit](http://www.mvvmlight.net)
+* [ReactiveUI](https://github.com/reactiveui/ReactiveUI)
 
 For a longer list, see:
 

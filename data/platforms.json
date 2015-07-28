@@ -36,21 +36,21 @@
 {
 "platform":".NET Framework 4.6",
 "category":"netfx",
-"info":"http://blogs.msdn.com/b/dotnet/archive/2014/11/12/announcing-net-2015-preview-a-new-era-for-net.aspx#_.NET_Framework_4.6",
+"info":"http://blogs.msdn.com/b/dotnet/archive/2015/07/20/announcing-net-framework-4-6.aspx",
 "includedIn":["VS2015"],
 "supportedBy":["VS2013","VS2012"],
 "runtime":[
-{"name":".NET Framework 4.6","link":"http://go.microsoft.com/fwlink/?LinkId=399417"}],
+{"name":".NET Framework 4.6","link":"http://go.microsoft.com/fwlink/?LinkId=528259"}],
 "tools":[
-{"name":"Visual Studio Community 2013 (free)","link":"http://www.visualstudio.com/en-us/downloads/download-visual-studio-vs#DownloadFamilies_2"},
-{"name":"Visual Studio Express 2013 (free)","link":"http://www.visualstudio.com/en-us/downloads/download-visual-studio-vs#DownloadFamilies_2"}
+{"name":"Visual Studio Community 2015 (free)","link":"https://www.visualstudio.com/products/visual-studio-community-vs"},
+{"name":".NET Framework 4.6 Targeting Pack","link":"http://go.microsoft.com/fwlink/?LinkId=528261","description":"The .NET 4.6 Developer pack includes the 4.6 reference assemblies needed by Visual Studio and msbuild."}
 ]
   },
 {
 "platform":".NET Framework 4.5.2",
 "category":"netfx",
 "info":"http://go.microsoft.com/fwlink/?LinkID=309958",
-"includedIn":[],
+"includedIn":["VS2015"],
 "supportedBy":["VS2013","VS2012"],
 "runtime":[
 {"name":".NET Framework 4.5.2","link":"http://go.microsoft.com/fwlink/?LinkId=397674"}],
@@ -63,7 +63,7 @@
 "platform":".NET Framework 4.5.1",
 "category":"netfx",
 "info":"http://go.microsoft.com/fwlink/?LinkID=309958",
-"includedIn":["VS2013"],
+"includedIn":["VS2015","VS2013"],
 "supportedBy":["VS2012"],
 "runtime":[
 {"name":".NET Framework 4.5.1","link":"http://go.microsoft.com/fwlink/?LinkId=306592"}],
@@ -75,7 +75,7 @@
 "platform":".NET Framework 4.5",
 "category":"netfx",
 "info":"http://blogs.msdn.com/b/dotnet/archive/2012/08/15/announcing-the-release-of-net-framework-4-5-rtm-product-and-source-code.aspx",
-"includedIn":["VS2013","VS2012"],
+"includedIn":["VS2015","VS2013","VS2012"],
 "supportedBy":[],
 "runtime":[
 {"name":".NET Framework 4.5","link":"http://go.microsoft.com/fwlink/?LinkId=306591"}],
@@ -88,7 +88,7 @@
 "category":"netfx",
 "info":"http://blogs.msdn.com/b/dotnet/archive/2012/03/05/update-4-0-3-for-the-microsoft-net-framework-4.aspx",
 "includedIn":[],
-"supportedBy":["VS2013","VS2012", "VS2010"],
+"supportedBy":["VS2010"],
 "runtime":[
 {"name":".NET Framework 4.0.3","link":"http://go.microsoft.com/fwlink/?LinkID=226775"}
 ],
@@ -102,7 +102,7 @@
 "platform":".NET Framework 4",
 "category":"netfx",
 "info":"http://blogs.msdn.com/b/dotnet/archive/2012/08/15/announcing-the-release-of-net-framework-4-5-rtm-product-and-source-code.aspx",
-"includedIn":["VS2013","VS2012","VS2010"],
+"includedIn":["VS2015","VS2013","VS2012","VS2010"],
 "supportedBy":[],
 "runtime":[
 {"name":".NET Framework 4","link":"http://go.microsoft.com/fwlink/?LinkID=306589"}],
@@ -112,14 +112,14 @@
 },
 
  {
-"platform":".NET Framework 3.5 SP1",
+"platform":".NET Framework 2.0 + 3.5 SP1",
 "category":"netfx",
 "info":"http://msdn.microsoft.com/library/w0x726c2(VS.90).aspx",
 "includedIn":[],
-"supportedBy":["VS2013","VS2012","VS2010"],
+"supportedBy":["VS2015","VS2013","VS2012","VS2010"],
 "runtime":[
 {"name":".NET Framework 3.5 SP1","link":"http://go.microsoft.com/fwlink/?LinkID=229190"},
-{"name":".NET Framework 3.5 SP1 (Windows 8+)","link":"http://msdn.microsoft.com/en-us/library/hh506443(v=vs.110).aspx"}],
+{"name":".NET Framework 3.5 SP1 (Windows 8+)","link":"http://msdn.microsoft.com/library/hh506443.aspx"}],
 "tools":[]
   },
 
@@ -128,7 +128,7 @@
 "category":"services",
 "info":"http://msdn.microsoft.com/library/azure",
 "includedIn":[],
-"supportedBy":["VS2013","VS2012"],
+"supportedBy":["VS2015","VS2013","VS2012"],
 "tools":[
 {"name":"Azure SDK for .NET","link":"http://go.microsoft.com/fwlink/?LinkID=254336"},
 {"name":"Visual Studio Express 2013 for Web","link":"http://www.visualstudio.com/downloads/download-visual-studio-vs#d-express-web"}
@@ -149,7 +149,7 @@
 "platform":"Team Foundation Server",
 "category":"services",
 "info":"http://go.microsoft.com/fwlink/?LinkID=308920",
-"includedIn":["VS2012", "VS2013"],
+"includedIn":["VS2015","VS2013","VS2012"],
 "supportedBy":[]
   },
 
@@ -157,23 +157,23 @@
 "platform":"Office 365, Office and SharePoint",
 "category":"services",
 "info":"http://go.microsoft.com/fwlink/?LinkID=308921",
-"includedIn":["VS2013"],
+"includedIn":["VS2015","VS2013"],
 "supportedBy":[]
 }
 ,
 {
 "platform":"OneDrive",
 "category":"services",
-"info":"http://msdn.microsoft.com/onedrive/dn630256",
+"info":"http://go.microsoft.com/fwlink/?LinkID=306598",
 "includedIn":[],
-"supportedBy":["VS2013","VS2012"],
+"supportedBy":["VS2015","VS2013","VS2012"],
 "tools":[{"name":"Live SDK","link":"http://go.microsoft.com/fwlink/?LinkID=306598"}]
 },
 
 {
 "platform":"Bing",
 "category":"services",
-"info":"http://msdn.microsoft.com/onedrive/dn630256",
+"info":"http://www.bing.com/dev",
 "includedIn":[],
 "supportedBy":["VS2013"],
 "tools":[{"name":"Maps WPF Control","link":"http://go.microsoft.com/fwlink/?LinkID=306597"},
@@ -186,7 +186,7 @@
 {
 "platform":"Bing",
 "category":"services",
-"info":"http://msdn.microsoft.com/onedrive/dn630256",
+"info":"http://www.bing.com/dev",
 "includedIn":[],
 "supportedBy":["VS2012"],
 "tools":[{"name":"Maps WPF Control","link":"http://go.microsoft.com/fwlink/?LinkID=306597"},
@@ -199,7 +199,7 @@
 {
 "platform":"Bing",
 "category":"services",
-"info":"http://msdn.microsoft.com/onedrive/dn630256",
+"info":"http://www.bing.com/dev",
 "includedIn":[],
 "supportedBy":["VS2010"],
 "tools":[{"name":"Maps WPF Control","link":"http://go.microsoft.com/fwlink/?LinkID=306597"}]
@@ -208,7 +208,7 @@
 {
 "platform":"Microsoft Advertising",
 "category":"Services",
-"info":"http://services.microsoft.com/onedrive/dn630256",
+"info":"http://go.microsoft.com/fwlink/?LinkID=309951",
 "includedIn":[],
 "supportedBy":["VS2013","VS2012"],
 "tools":[
@@ -283,7 +283,7 @@
 "platform":"Portable Class Library",
 "category":"libraries",
 "info":"http://msdn.microsoft.com/library/gg597391(v=vs.110)",
-"includedIn":["VS2013", "VS2012"],
+"includedIn":["VS2015","VS2013", "VS2012"],
 "supportedBy":[]
 },
 {
@@ -294,19 +294,11 @@
 "supportedBy":["VS2010"],
 "tools":[{"name":"Portable Library Tools","link":"http://go.microsoft.com/fwlink/?LinkID=229189"}]
 },
-
-{
-"platform":".NET NuGet Packages",
-"category":"libraries",
-"info":"http://msdn.microsoft.com/library/gg597391(v=vs.110)",
-"includedIn":["VS2013"],
-"supportedBy":["VS2013"]
-},
 {
 "platform":"Silverlight 5",
 "category":"silverlight",
 "info":"http://msdn.microsoft.com/library/cc838158.aspx)",
-"includedIn":["VS2013","VS2012"],
+"includedIn":["VS2015","VS2013","VS2012"],
 "supportedBy":[],
 "runtime":[
 {"name":"Silverlight 5","link":"http://go.microsoft.com/fwlink/?LinkID=310211"}]
@@ -328,7 +320,7 @@
 "category":"devices",
 "info":"http://xamarin.com",
 "includedIn":[],
-"supportedBy":["VS2013","VS2012","VS2010"],
+"supportedBy":["VS2015","VS2013","VS2012","VS2010"],
 "runtime":[],
 "tools":[
 {"name":"Xamarin Tools for iOS and Android","link":"http://go.microsoft.com/fwlink/?LinkID=398052"}]

@@ -100,5 +100,5 @@ You can disable tail call optimization in RyuJIT with the following instructions
   Then, specify the following:
 
         Key name: TailCallOpt
-        Type: REG_DWORD
-        Value: 0
+        Type: REG_SZ
+        Value: "0"

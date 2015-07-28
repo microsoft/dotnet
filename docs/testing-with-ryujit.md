@@ -1,16 +1,12 @@
-# .NET Framework 4.6 - Testing with RyuJIT
+.NET Framework 4.6 - Testing RyuJIT
+===================================
 
-The .NET Framework 4.6 includes new Just-In-Time (JIT) compiler for 64-bit processes, called RyuJIT. It is enabled by default. It is still a preview version, so you may discover issues that have yet to be fixed.
+The [.NET Framework 4.6](http://blogs.msdn.com/b/dotnet/archive/2015/07/20/announcing-net-framework-4-6.aspx#net-framework-46) includes new Just-In-Time (JIT) compiler for 64-bit processes, called RyuJIT. It is enabled by default. 
 
-You may experience the following symptoms when you use the new JIT compiler:
+This document provides instructions to disable RyuJIT or one of its optimizations, in order to test your program without it running. This is useful if you experience unexpected product behavior and want to determine if RyuJIT is the cause of that behavioral change.
 
-* An application throws an `InvalidProgramException` error.
-* An application works on an x86-based computer but not on an x64-based
-  computer.
-
-## Workarounds for JIT Compilation
-
-To work around this problem, use any one of the following methods. 
+Disable RyuJIT
+==============
 
 **Important** Follow the steps in this section carefully. Serious problems might
 occur if you modify the registry incorrectly. Before you modify it,
@@ -48,7 +44,8 @@ existing NGEN images that have been compiled by the new JIT continue to be used.
           </runtime>
         </configuration>
 
-## Workarounds for NGEN Compilation
+Disable loading NGEN Images
+===========================
 
 If you encounter a bug when you use the new JIT, and if the bug manifests itself
 as an NGEN image, use any of the following methods to force certain named
@@ -89,3 +86,19 @@ assemblies to be recompiled by the JIT and not use the existing native images:
         </disableNativeImageLoad>
         </runtime>
       </configuration>
+
+Disable Tail Call Optimization
+==============================
+
+You can disable tail call optimization in RyuJIT with the following instructions.
+
+* In the registry, create either of the following subkeys:
+
+        HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework
+        HKEY_CURRENT_USER\SOFTWARE\Microsoft\.NETFramework
+
+  Then, specify the following:
+
+        Key name: TailCallOpt
+        Type: REG_DWORD
+        Value: 0

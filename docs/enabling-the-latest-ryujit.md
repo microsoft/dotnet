@@ -1,5 +1,7 @@
 # How to enable a RyuJIT CTP
 
+**Updated (July 2015)**: [RyuJIT](http://blogs.msdn.com/b/dotnet/archive/2015/07/20/announcing-net-framework-4-6.aspx#ryujit) has shipped! You can download it with the [.NET Framework 4.6](http://blogs.msdn.com/b/dotnet/archive/2015/07/20/announcing-net-framework-4-6.aspx#net-framework-46). There is no longer any need to install the RyuJIT CTP.
+
 Download and install the latest [RyuJIT](http://aka.ms/RyuJIT) now.
 
 RyuJIT only works on 64-bit editions of Windows Vista and Windows Server 2008 and later.

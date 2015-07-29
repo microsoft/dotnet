@@ -40,7 +40,7 @@ existing NGEN images that have been compiled by the new JIT continue to be used.
 
         <configuration>
           <runtime>
-           <useLegacyJit enabled="1">
+           <useLegacyJit enabled="1" />
           </runtime>
         </configuration>
 

@@ -14,6 +14,8 @@ in case problems occur.
 
 **Note** The registry methods below use either `HKEY_LOCAL_MACHINE` or `HKEY_CURRENT_USER`. Using `HKEY_LOCAL_MACHINE` makes the setting applicable to the entire machine and all users. Using `HKEY_CURRENT_USER` makes the setting applicable to just the current user. If using the registry methods, the latter is generally preferable.
 
+In general, you should choose the least impactful option. Choose a per-application setting if possible, and only move to a per-user or per-machine setting if necessary. Note that per-application settings are not available for ASP.NET applications.
+
 Disable RyuJIT
 ==============
 
@@ -29,7 +31,7 @@ existing NGEN images that have been compiled by the new JIT continue to be used.
 
         <configuration>
           <runtime>
-           <useLegacyJit enabled="1">
+            <useLegacyJit enabled="1" />
           </runtime>
         </configuration>
 
@@ -58,17 +60,9 @@ existing NGEN images that have been compiled by the new JIT continue to be used.
 Disable loading NGEN Images
 ===========================
 
-If you encounter a bug when you use the new JIT, and if the bug manifests itself
-in an NGEN image, use any of the following methods to force certain named
-assemblies to be recompiled by the JIT and not use the existing native images. You
-will generally pair one of these methods with the same numbered method above to get an NGEN image
-to fall back to JIT compilation, and, in addition, do that JIT compilation with the legacy
-JIT.
+If you encounter a bug when you use the new JIT, and if the bug manifests itself in a function in an NGEN native image (see [here](https://msdn.microsoft.com/en-us/library/6t9t5wcf(v=vs.110).aspx) for details), use any of the following methods to force certain named assemblies to be recompiled by the JIT and not use the existing native images. You will generally pair one of these methods with the same numbered method above to get an NGEN image to fall back to JIT compilation, and, in addition, do that JIT compilation with the legacy JIT.
 
-In the examples below, we wish to prevent using the NGEN images of three assemblies, named
-`assembly_one.dll`, `assembly_two.dll`, and `assembly_three.dll`. We specify the assemblies
-using simple assembly names (no public key token, no architecture, and so on). The assembly names
-are specified without using the `.dll` file name extension.
+In the examples below, we wish to prevent using the NGEN images of three assemblies, named `assembly_one.dll`, `assembly_two.dll`, and `assembly_three.dll`. We specify the assemblies using simple assembly names (no public key token, no architecture, and so on). The assembly names are specified without using the `.dll` file name extension.
 
 * **Method 1: : per-application config file**. Add the following text to the `<app>.exe.config` file. Create
   the indicated sections if they do not already exist.
@@ -103,7 +97,52 @@ are specified without using the `.dll` file name extension.
         Value: assembly_one;assembly_two;assembly_three
 
   **Note** This is a semicolon-delimited list of simple assembly names.
+
+Disabling the use of all NGEN images
+====================================
+
+To prevent any NGEN native image from being used, and force all code to be compiled with the JIT compiler, you can use the ZapDisable configuration variable, as follows. You might choose to do this as an experiment, to see if any NGEN native image contains generated code that is inducing a bug in your application. Generally, if an NGEN native image does have a problem, and the identity of that native image can be determined, using one of the `DisableNativeImageLoadList` mechanisms described above is preferable.
+
+**Note** This setting applies to both the 32-bit and 64-bit JIT. Thus, setting this globally will affect all 32-bit .NET applications as well. This is particularly true for **Method 2: environment variable**.
+
+**Note 2** NGEN provides significant performance improvements to .NET applications. Disabling the use of NGEN will cause the perfomance of .NET applications to be significantly worse.
+
+* **Method 1: per-application config file**. Add the following text to the `<app>.exe.config` file. Create
+  the indicated sections if they do not already exist.
+
+  **Note** In this file name, `<app>` represents the actual name of the
+  application. So, for example, for `MyApp.exe`, you will have `MyApp.exe.config`.
+
+        <configuration>
+          <runtime>
+            <ZapDisable enabled="1" />
+          </runtime>
+        </configuration>
+
+  Note that Method 1 does not apply to ASP.NET websites; you cannot use this method in web.config files.
   
+  This method is preferable as it is scoped to just one application.
+
+* **Method 2: environment variable**. Set the following environment variable:
+
+        COMPLUS_ZapDisable=1
+
+  This method affects any environment that inherits this environment variable. This might be just a single
+  console session, or it might affect the entire machine, if you set the environment variable globally.
+  
+* **Method 3: registry**. Using Registry Editor (regedit.exe), find either of the following subkeys:
+
+        HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework
+        HKEY_CURRENT_USER\SOFTWARE\Microsoft\.NETFramework
+
+  Then, add the following:
+
+        Value name: ZapDisable
+        Type: DWORD (32-bit) Value (also called REG_WORD)
+        Value: 1
+
+  **Note** Windows has both 32-bit and 64-bit registry sections. The addresses shown above use the 64-bit registry path, so are appropriate for troubleshooting RyuJIT and not affecting 32-bit .NET applications. On a 64-bit machine, the 32-bit registry path for the `HKEY_LOCAL_MACHINE` case is `HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework`.
+
 Disable Tail Call Optimization
 ==============================
 
@@ -123,7 +162,7 @@ You can disable tail call optimization in RyuJIT with the following instructions
 Disabling optimization of a function
 ====================================
 
-You can selectively disable JIT optimization of a particular function by annotating that function with `MethodImplOptions.NoOptimization`. For example, in C#:
+If you determine that the JIT is incorrectly optimizing a particular function, you can selectively disable JIT optimization for that function by annotating that function with `MethodImplOptions.NoOptimization`. For example, in C#:
 
         using System.Runtime.CompilerServices;
         ...
@@ -135,6 +174,8 @@ You can selectively disable JIT optimization of a particular function by annotat
 
 In this case, the annotated `add` function will not be optimized. You can see more detail about `MethodImplAttribute` 
 [here](https://msdn.microsoft.com/en-us/library/system.runtime.compilerservices.methodimplattribute(v=vs.110).aspx).
+
+This is only effective in solving a code generation problem if the incorrect code being generated by the JIT is due to optimization, as opposed to being due to unoptimized code generation.
 
 Note that this method applies to all .NET JIT compilers.
 

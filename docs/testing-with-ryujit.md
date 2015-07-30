@@ -57,6 +57,12 @@ existing NGEN images that have been compiled by the new JIT continue to be used.
         Type: DWORD (32-bit) Value (also called REG_WORD)
         Value: 1
 
+  You can use the Windows REG.EXE tool to add this value from a command-line or scripting environment. For example:
+  
+        reg add HKLM\SOFTWARE\Microsoft\.NETFramework /v useLegacyJit /t REG_DWORD /d 1
+  
+  In this case, `HKLM` is used instead of `HKEY_LOCAL_MACHINE`. Use `reg add /?` to see help on this syntax.
+
 Disable loading NGEN Images
 ===========================
 
@@ -159,8 +165,10 @@ You can disable tail call optimization in RyuJIT with the following instructions
         Type: String Value (also known as REG_SZ)
         Value: "0" (Double quotes are not required while entering the string value in Registry Editor)
 
-Disabling optimization of a function
-====================================
+**Note** This will disable tail call optimization of a function when the JIT is invoked to compile it. Note that if your application is NGEN compiled, the JIT is not invoked after the NGEN compilation has completed. To affect the code compiled for NGEN, you must first remove your application from the NGEN native image cache using `ngen uninstall MyApp`. Then, set the registry key shown here. Finally, optionally, you can re-NGEN your app using `ngen install MyApp.exe`.
+
+Disabling all optimization of a function
+========================================
 
 If you determine that the JIT is incorrectly optimizing a particular function, you can selectively disable JIT optimization for that function by annotating that function with `MethodImplOptions.NoOptimization`. For example, in C#:
 

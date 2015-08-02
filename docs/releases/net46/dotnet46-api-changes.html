@@ -1,0 +1,1222 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+</head>
+<body>
+<pre><span style="color:red">C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2</span>
+<span style="color:green">C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6</span>
+<span style="color:blue">namespace</span> Microsoft.Win32 {
+  <span style="color:blue">public</span> <span style="color:blue">sealed</span> <span style="color:blue">class</span> RegistryKey : <span style="color:#2B91AF">MarshalByRefObject</span>, <span style="color:#2B91AF">IDisposable</span> {
+    <span style="color:green">public RegistryKey CreateSubKey(string subkey, bool writable);</span>
+    <span style="color:green">public RegistryKey CreateSubKey(string subkey, bool writable, RegistryOptions options);</span>
+    <span style="color:green">public RegistryKey OpenSubKey(string name, RegistryRights rights);</span>
+  }
+}
+<span style="color:blue">namespace</span> Microsoft.Win32.SafeHandles {
+  <span style="color:green">public sealed class SafeAccessTokenHandle : SafeHandle</span> {
+    <span style="color:green">public SafeAccessTokenHandle(IntPtr handle);</span>
+    <span style="color:green">public static SafeAccessTokenHandle InvalidHandle { get; }</span>
+    <span style="color:gray">public override bool IsInvalid { get; }</span>
+    <span style="color:gray">protected override bool ReleaseHandle();</span>
+  }
+  <span style="color:green">public sealed class SafeProcessHandle : SafeHandleZeroOrMinusOneIsInvalid</span> {
+    <span style="color:green">public SafeProcessHandle(IntPtr existingHandle, bool ownsHandle);</span>
+    <span style="color:gray">protected override bool ReleaseHandle();</span>
+  }
+  <span style="color:green">public sealed class SafeX509ChainHandle : SafeHandleZeroOrMinusOneIsInvalid</span> {
+    <span style="color:gray">protected override bool ReleaseHandle();</span>
+  }
+}
+<span style="color:blue">namespace</span> System {
+  <span style="color:green">public static class AppContext</span> {
+    <span style="color:green">public static string BaseDirectory { get; }</span>
+    <span style="color:green">public static void SetSwitch(string switchName, bool isEnabled);</span>
+    <span style="color:green">public static bool TryGetSwitch(string switchName, out bool isEnabled);</span>
+  }
+  <span style="color:blue">public</span> <span style="color:blue">abstract</span> <span style="color:blue">class</span> Array : <span style="color:#2B91AF">ICloneable</span>, <span style="color:#2B91AF">ICollection</span>, <span style="color:#2B91AF">IEnumerable</span>, <span style="color:#2B91AF">IList</span>, <span style="color:#2B91AF">IStructuralComparable</span>, <span style="color:#2B91AF">IStructuralEquatable</span> {
+    <span style="color:green">public static T[] Empty&lt;T&gt;();</span>
+  }
+  <span style="color:blue">public</span> <span style="color:blue">static</span> <span style="color:blue">class</span> Buffer {
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public unsafe static void MemoryCopy(void* source, void* destination, long destinationSizeInBytes, long sourceBytesToCopy);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public unsafe static void MemoryCopy(void* source, void* destination, ulong destinationSizeInBytes, ulong sourceBytesToCopy);</span>
+  }
+  <span style="color:blue">public</span> <span style="color:blue">static</span> <span style="color:blue">class</span> Console {
+    <span style="color:green">[MethodImpl(NoInlining)]</span><span style="color:blue">public</span> <span style="color:blue">static</span> <span style="color:blue">int</span> Read();
+    <span style="color:green">[MethodImpl(NoInlining)]</span><span style="color:blue">public</span> <span style="color:blue">static</span> <span style="color:blue">string</span> ReadLine();
+    <span style="color:green">[MethodImpl(NoInlining)]</span><span style="color:blue">public</span> <span style="color:blue">static</span> <span style="color:blue">void</span> Write(<span style="color:blue">bool</span> value);
+    <span style="color:green">[MethodImpl(NoInlining)]</span><span style="color:blue">public</span> <span style="color:blue">static</span> <span style="color:blue">void</span> Write(<span style="color:blue">char</span> value);
+    <span style="color:green">[MethodImpl(NoInlining)]</span><span style="color:blue">public</span> <span style="color:blue">static</span> <span style="color:blue">void</span> Write(<span style="color:#2B91AF">char[]</span> buffer);
+    <span style="color:green">[MethodImpl(NoInlining)]</span><span style="color:blue">public</span> <span style="color:blue">static</span> <span style="color:blue">void</span> Write(<span style="color:#2B91AF">char[]</span> buffer, <span style="color:blue">int</span> index, <span style="color:blue">int</span> count);
+    <span style="color:green">[MethodImpl(NoInlining)]</span><span style="color:blue">public</span> <span style="color:blue">static</span> <span style="color:blue">void</span> Write(<span style="color:blue">decimal</span> value);
+    <span style="color:green">[MethodImpl(NoInlining)]</span><span style="color:blue">public</span> <span style="color:blue">static</span> <span style="color:blue">void</span> Write(<span style="color:blue">double</span> value);
+    <span style="color:green">[MethodImpl(NoInlining)]</span><span style="color:blue">public</span> <span style="color:blue">static</span> <span style="color:blue">void</span> Write(<span style="color:blue">int</span> value);
+    <span style="color:green">[MethodImpl(NoInlining)]</span><span style="color:blue">public</span> <span style="color:blue">static</span> <span style="color:blue">void</span> Write(<span style="color:blue">long</span> value);
+    <span style="color:green">[MethodImpl(NoInlining)]</span><span style="color:blue">public</span> <span style="color:blue">static</span> <span style="color:blue">void</span> Write(<span style="color:blue">object</span> value);
+    <span style="color:green">[MethodImpl(NoInlining)]</span><span style="color:blue">public</span> <span style="color:blue">static</span> <span style="color:blue">void</span> Write(<span style="color:blue">float</span> value);
+    <span style="color:green">[MethodImpl(NoInlining)]</span><span style="color:blue">public</span> <span style="color:blue">static</span> <span style="color:blue">void</span> Write(<span style="color:blue">string</span> value);
+    <span style="color:green">[MethodImpl(NoInlining)]</span><span style="color:blue">public</span> <span style="color:blue">static</span> <span style="color:blue">void</span> Write(<span style="color:blue">string</span> format, <span style="color:blue">object</span> arg0);
+    <span style="color:green">[MethodImpl(NoInlining)]</span><span style="color:blue">public</span> <span style="color:blue">static</span> <span style="color:blue">void</span> Write(<span style="color:blue">string</span> format, <span style="color:blue">object</span> arg0, <span style="color:blue">object</span> arg1);
+    <span style="color:green">[MethodImpl(NoInlining)]</span><span style="color:blue">public</span> <span style="color:blue">static</span> <span style="color:blue">void</span> Write(<span style="color:blue">string</span> format, <span style="color:blue">object</span> arg0, <span style="color:blue">object</span> arg1, <span style="color:blue">object</span> arg2);
+    <span style="color:green">[MethodImpl(NoInlining)]</span><span style="color:blue">public</span> <span style="color:blue">static</span> <span style="color:blue">void</span> Write(<span style="color:blue">string</span> format, <span style="color:blue">object</span> arg0, <span style="color:blue">object</span> arg1, <span style="color:blue">object</span> arg2, <span style="color:blue">object</span> arg3, __arglist);
+    <span style="color:green">[MethodImpl(NoInlining)]</span><span style="color:blue">public</span> <span style="color:blue">static</span> <span style="color:blue">void</span> Write(<span style="color:blue">string</span> format, <span style="color:blue">params</span> <span style="color:#2B91AF">object[]</span> arg);
+    <span style="color:green">[MethodImpl(NoInlining)]</span><span style="color:blue">public</span> <span style="color:blue">static</span> <span style="color:blue">void</span> Write(<span style="color:blue">uint</span> value);
+    <span style="color:green">[MethodImpl(NoInlining)]</span><span style="color:blue">public</span> <span style="color:blue">static</span> <span style="color:blue">void</span> Write(<span style="color:blue">ulong</span> value);
+    <span style="color:green">[MethodImpl(NoInlining)]</span><span style="color:blue">public</span> <span style="color:blue">static</span> <span style="color:blue">void</span> WriteLine();
+    <span style="color:green">[MethodImpl(NoInlining)]</span><span style="color:blue">public</span> <span style="color:blue">static</span> <span style="color:blue">void</span> WriteLine(<span style="color:blue">bool</span> value);
+    <span style="color:green">[MethodImpl(NoInlining)]</span><span style="color:blue">public</span> <span style="color:blue">static</span> <span style="color:blue">void</span> WriteLine(<span style="color:blue">char</span> value);
+    <span style="color:green">[MethodImpl(NoInlining)]</span><span style="color:blue">public</span> <span style="color:blue">static</span> <span style="color:blue">void</span> WriteLine(<span style="color:#2B91AF">char[]</span> buffer);
+    <span style="color:green">[MethodImpl(NoInlining)]</span><span style="color:blue">public</span> <span style="color:blue">static</span> <span style="color:blue">void</span> WriteLine(<span style="color:#2B91AF">char[]</span> buffer, <span style="color:blue">int</span> index, <span style="color:blue">int</span> count);
+    <span style="color:green">[MethodImpl(NoInlining)]</span><span style="color:blue">public</span> <span style="color:blue">static</span> <span style="color:blue">void</span> WriteLine(<span style="color:blue">decimal</span> value);
+    <span style="color:green">[MethodImpl(NoInlining)]</span><span style="color:blue">public</span> <span style="color:blue">static</span> <span style="color:blue">void</span> WriteLine(<span style="color:blue">double</span> value);
+    <span style="color:green">[MethodImpl(NoInlining)]</span><span style="color:blue">public</span> <span style="color:blue">static</span> <span style="color:blue">void</span> WriteLine(<span style="color:blue">int</span> value);
+    <span style="color:green">[MethodImpl(NoInlining)]</span><span style="color:blue">public</span> <span style="color:blue">static</span> <span style="color:blue">void</span> WriteLine(<span style="color:blue">long</span> value);
+    <span style="color:green">[MethodImpl(NoInlining)]</span><span style="color:blue">public</span> <span style="color:blue">static</span> <span style="color:blue">void</span> WriteLine(<span style="color:blue">object</span> value);
+    <span style="color:green">[MethodImpl(NoInlining)]</span><span style="color:blue">public</span> <span style="color:blue">static</span> <span style="color:blue">void</span> WriteLine(<span style="color:blue">float</span> value);
+    <span style="color:green">[MethodImpl(NoInlining)]</span><span style="color:blue">public</span> <span style="color:blue">static</span> <span style="color:blue">void</span> WriteLine(<span style="color:blue">string</span> value);
+    <span style="color:green">[MethodImpl(NoInlining)]</span><span style="color:blue">public</span> <span style="color:blue">static</span> <span style="color:blue">void</span> WriteLine(<span style="color:blue">string</span> format, <span style="color:blue">object</span> arg0);
+    <span style="color:green">[MethodImpl(NoInlining)]</span><span style="color:blue">public</span> <span style="color:blue">static</span> <span style="color:blue">void</span> WriteLine(<span style="color:blue">string</span> format, <span style="color:blue">object</span> arg0, <span style="color:blue">object</span> arg1);
+    <span style="color:green">[MethodImpl(NoInlining)]</span><span style="color:blue">public</span> <span style="color:blue">static</span> <span style="color:blue">void</span> WriteLine(<span style="color:blue">string</span> format, <span style="color:blue">object</span> arg0, <span style="color:blue">object</span> arg1, <span style="color:blue">object</span> arg2);
+    <span style="color:green">[MethodImpl(NoInlining)]</span><span style="color:blue">public</span> <span style="color:blue">static</span> <span style="color:blue">void</span> WriteLine(<span style="color:blue">string</span> format, <span style="color:blue">object</span> arg0, <span style="color:blue">object</span> arg1, <span style="color:blue">object</span> arg2, <span style="color:blue">object</span> arg3, __arglist);
+    <span style="color:green">[MethodImpl(NoInlining)]</span><span style="color:blue">public</span> <span style="color:blue">static</span> <span style="color:blue">void</span> WriteLine(<span style="color:blue">string</span> format, <span style="color:blue">params</span> <span style="color:#2B91AF">object[]</span> arg);
+    <span style="color:green">[MethodImpl(NoInlining)]</span><span style="color:blue">public</span> <span style="color:blue">static</span> <span style="color:blue">void</span> WriteLine(<span style="color:blue">uint</span> value);
+    <span style="color:green">[MethodImpl(NoInlining)]</span><span style="color:blue">public</span> <span style="color:blue">static</span> <span style="color:blue">void</span> WriteLine(<span style="color:blue">ulong</span> value);
+  }
+  <span style="color:blue">public</span> <span style="color:blue">struct</span> DateTimeOffset : <span style="color:#2B91AF">IComparable</span>, <span style="color:#2B91AF">IComparable&lt;DateTimeOffset&gt;</span>, <span style="color:#2B91AF">IDeserializationCallback</span>, <span style="color:#2B91AF">IEquatable&lt;DateTimeOffset&gt;</span>, <span style="color:#2B91AF">IFormattable</span>, <span style="color:#2B91AF">ISerializable</span> {
+    <span style="color:green">public static DateTimeOffset FromUnixTimeMilliseconds(long milliseconds);</span>
+    <span style="color:green">public static DateTimeOffset FromUnixTimeSeconds(long seconds);</span>
+    <span style="color:green">public long ToUnixTimeMilliseconds();</span>
+    <span style="color:green">public long ToUnixTimeSeconds();</span>
+  }
+  <span style="color:green">public abstract class FormattableString : IFormattable</span> {
+    <span style="color:green">protected FormattableString();</span>
+    <span style="color:green">public abstract int ArgumentCount { get; }</span>
+    <span style="color:green">public abstract string Format { get; }</span>
+    <span style="color:green">public abstract object GetArgument(int index);</span>
+    <span style="color:green">public abstract object[] GetArguments();</span>
+    <span style="color:green">public static string Invariant(FormattableString formattable);</span>
+    <span style="color:gray">string System.IFormattable.ToString(string ignored, IFormatProvider formatProvider);</span>
+    <span style="color:gray">public override string ToString();</span>
+    <span style="color:green">public abstract string ToString(IFormatProvider formatProvider);</span>
+  }
+  <span style="color:blue">public</span> <span style="color:blue">static</span> <span style="color:blue">class</span> GC {
+    <span style="color:green">public static void Collect(int generation, GCCollectionMode mode, bool blocking, bool compacting);</span>
+    <span style="color:green">public static void EndNoGCRegion();</span>
+    <span style="color:green">public static bool TryStartNoGCRegion(long totalSize);</span>
+    <span style="color:green">public static bool TryStartNoGCRegion(long totalSize, bool disallowFullBlockingGC);</span>
+    <span style="color:green">public static bool TryStartNoGCRegion(long totalSize, long lohSize);</span>
+    <span style="color:green">public static bool TryStartNoGCRegion(long totalSize, long lohSize, bool disallowFullBlockingGC);</span>
+  }
+  <span style="color:blue">public</span> <span style="color:blue">sealed</span> <span style="color:blue">class</span> String : <span style="color:#2B91AF">ICloneable</span>, <span style="color:#2B91AF">IComparable</span>, <span style="color:#2B91AF">IComparable&lt;string&gt;</span>, <span style="color:#2B91AF">IConvertible</span>, <span style="color:#2B91AF">IEnumerable</span>, <span style="color:#2B91AF">IEnumerable&lt;char&gt;</span>, <span style="color:#2B91AF">IEquatable&lt;string&gt;</span> {
+    <span style="color:green">public static string Format(IFormatProvider provider, string format, object arg0);</span>
+    <span style="color:green">public static string Format(IFormatProvider provider, string format, object arg0, object arg1);</span>
+    <span style="color:green">public static string Format(IFormatProvider provider, string format, object arg0, object arg1, object arg2);</span>
+  }
+  <span style="color:blue">public</span> <span style="color:blue">class</span> Uri : <span style="color:#2B91AF">ISerializable</span> {
+    <span style="color:green">public string IdnHost { get; }</span>
+  }
+}
+<span style="color:blue">namespace</span> System.Collections.Concurrent {
+  <span style="color:blue">public</span> <span style="color:blue">class</span> BlockingCollection&lt;<span style="color:#2B91AF">T</span>&gt; : <span style="color:#2B91AF">ICollection</span>, <span style="color:#2B91AF">IDisposable</span>, <span style="color:#2B91AF">IEnumerable</span>, <span style="color:#2B91AF">IEnumerable&lt;T&gt;</span><span style="color:green">, IReadOnlyCollection&lt;T&gt;</span> {
+  }
+  <span style="color:blue">public</span> <span style="color:blue">class</span> ConcurrentBag&lt;<span style="color:#2B91AF">T</span>&gt; : <span style="color:#2B91AF">ICollection</span>, <span style="color:#2B91AF">IEnumerable</span>, <span style="color:#2B91AF">IEnumerable&lt;T&gt;</span>, <span style="color:#2B91AF">IProducerConsumerCollection&lt;T&gt;</span><span style="color:green">, IReadOnlyCollection&lt;T&gt;</span> {
+  }
+  <span style="color:blue">public</span> <span style="color:blue">class</span> ConcurrentDictionary&lt;<span style="color:#2B91AF">TKey</span>, <span style="color:#2B91AF">TValue</span>&gt; : <span style="color:#2B91AF">ICollection</span>, <span style="color:#2B91AF">ICollection&lt;KeyValuePair&lt;TKey, TValue&gt;&gt;</span>, <span style="color:#2B91AF">IDictionary</span>, <span style="color:#2B91AF">IDictionary&lt;TKey, TValue&gt;</span>, <span style="color:#2B91AF">IEnumerable</span>, <span style="color:#2B91AF">IEnumerable&lt;KeyValuePair&lt;TKey, TValue&gt;&gt;</span><span style="color:green">, IReadOnlyCollection&lt;KeyValuePair&lt;TKey, TValue&gt;&gt;, IReadOnlyDictionary&lt;TKey, TValue&gt;</span> {
+    <span style="color:gray">IEnumerable&lt;TKey&gt; System.Collections.Generic.IReadOnlyDictionary&lt;TKey,TValue&gt;.Keys { get; }</span>
+    <span style="color:gray">IEnumerable&lt;TValue&gt; System.Collections.Generic.IReadOnlyDictionary&lt;TKey,TValue&gt;.Values { get; }</span>
+  }
+  <span style="color:blue">public</span> <span style="color:blue">class</span> ConcurrentQueue&lt;<span style="color:#2B91AF">T</span>&gt; : <span style="color:#2B91AF">ICollection</span>, <span style="color:#2B91AF">IEnumerable</span>, <span style="color:#2B91AF">IEnumerable&lt;T&gt;</span>, <span style="color:#2B91AF">IProducerConsumerCollection&lt;T&gt;</span><span style="color:green">, IReadOnlyCollection&lt;T&gt;</span> {
+  }
+  <span style="color:blue">public</span> <span style="color:blue">class</span> ConcurrentStack&lt;<span style="color:#2B91AF">T</span>&gt; : <span style="color:#2B91AF">ICollection</span>, <span style="color:#2B91AF">IEnumerable</span>, <span style="color:#2B91AF">IEnumerable&lt;T&gt;</span>, <span style="color:#2B91AF">IProducerConsumerCollection&lt;T&gt;</span><span style="color:green">, IReadOnlyCollection&lt;T&gt;</span> {
+  }
+}
+<span style="color:blue">namespace</span> System.Collections.Generic {
+  <span style="color:blue">public</span> <span style="color:blue">class</span> HashSet&lt;<span style="color:#2B91AF">T</span>&gt; : <span style="color:#2B91AF">ICollection&lt;T&gt;</span>, <span style="color:#2B91AF">IDeserializationCallback</span>, <span style="color:#2B91AF">IEnumerable</span>, <span style="color:#2B91AF">IEnumerable&lt;T&gt;</span>, <span style="color:green">IReadOnlyCollection&lt;T&gt;, </span><span style="color:#2B91AF">ISerializable</span>, <span style="color:#2B91AF">ISet&lt;T&gt;</span> {
+  }
+  <span style="color:blue">public</span> <span style="color:blue">class</span> LinkedList&lt;<span style="color:#2B91AF">T</span>&gt; : <span style="color:#2B91AF">ICollection</span>, <span style="color:#2B91AF">ICollection&lt;T&gt;</span>, <span style="color:#2B91AF">IDeserializationCallback</span>, <span style="color:#2B91AF">IEnumerable</span>, <span style="color:#2B91AF">IEnumerable&lt;T&gt;</span>, <span style="color:green">IReadOnlyCollection&lt;T&gt;, </span><span style="color:#2B91AF">ISerializable</span> {
+  }
+  <span style="color:blue">public</span> <span style="color:blue">class</span> Queue&lt;<span style="color:#2B91AF">T</span>&gt; : <span style="color:#2B91AF">ICollection</span>, <span style="color:#2B91AF">IEnumerable</span>, <span style="color:#2B91AF">IEnumerable&lt;T&gt;</span><span style="color:green">, IReadOnlyCollection&lt;T&gt;</span> {
+  }
+  <span style="color:blue">public</span> <span style="color:blue">class</span> SortedDictionary&lt;<span style="color:#2B91AF">TKey</span>, <span style="color:#2B91AF">TValue</span>&gt; : <span style="color:#2B91AF">ICollection</span>, <span style="color:#2B91AF">ICollection&lt;KeyValuePair&lt;TKey, TValue&gt;&gt;</span>, <span style="color:#2B91AF">IDictionary</span>, <span style="color:#2B91AF">IDictionary&lt;TKey, TValue&gt;</span>, <span style="color:#2B91AF">IEnumerable</span>, <span style="color:#2B91AF">IEnumerable&lt;KeyValuePair&lt;TKey, TValue&gt;&gt;</span><span style="color:green">, IReadOnlyCollection&lt;KeyValuePair&lt;TKey, TValue&gt;&gt;, IReadOnlyDictionary&lt;TKey, TValue&gt;</span> {
+    <span style="color:gray">IEnumerable&lt;TKey&gt; System.Collections.Generic.IReadOnlyDictionary&lt;TKey,TValue&gt;.Keys { get; }</span>
+    <span style="color:gray">IEnumerable&lt;TValue&gt; System.Collections.Generic.IReadOnlyDictionary&lt;TKey,TValue&gt;.Values { get; }</span>
+    <span style="color:blue">public</span> <span style="color:blue">sealed</span> <span style="color:blue">class</span> KeyCollection : <span style="color:#2B91AF">ICollection</span>, <span style="color:#2B91AF">ICollection&lt;TKey&gt;</span>, <span style="color:#2B91AF">IEnumerable</span>, <span style="color:#2B91AF">IEnumerable&lt;TKey&gt;</span><span style="color:green">, IReadOnlyCollection&lt;TKey&gt;</span> {
+    }
+    <span style="color:blue">public</span> <span style="color:blue">sealed</span> <span style="color:blue">class</span> ValueCollection : <span style="color:#2B91AF">ICollection</span>, <span style="color:#2B91AF">ICollection&lt;TValue&gt;</span>, <span style="color:#2B91AF">IEnumerable</span>, <span style="color:#2B91AF">IEnumerable&lt;TValue&gt;</span><span style="color:green">, IReadOnlyCollection&lt;TValue&gt;</span> {
+    }
+  }
+  <span style="color:blue">public</span> <span style="color:blue">class</span> SortedList&lt;<span style="color:#2B91AF">TKey</span>, <span style="color:#2B91AF">TValue</span>&gt; : <span style="color:#2B91AF">ICollection</span>, <span style="color:#2B91AF">ICollection&lt;KeyValuePair&lt;TKey, TValue&gt;&gt;</span>, <span style="color:#2B91AF">IDictionary</span>, <span style="color:#2B91AF">IDictionary&lt;TKey, TValue&gt;</span>, <span style="color:#2B91AF">IEnumerable</span>, <span style="color:#2B91AF">IEnumerable&lt;KeyValuePair&lt;TKey, TValue&gt;&gt;</span><span style="color:green">, IReadOnlyCollection&lt;KeyValuePair&lt;TKey, TValue&gt;&gt;, IReadOnlyDictionary&lt;TKey, TValue&gt;</span> {
+    <span style="color:gray">IEnumerable&lt;TKey&gt; System.Collections.Generic.IReadOnlyDictionary&lt;TKey,TValue&gt;.Keys { get; }</span>
+    <span style="color:gray">IEnumerable&lt;TValue&gt; System.Collections.Generic.IReadOnlyDictionary&lt;TKey,TValue&gt;.Values { get; }</span>
+  }
+  <span style="color:blue">public</span> <span style="color:blue">class</span> SortedSet&lt;<span style="color:#2B91AF">T</span>&gt; : <span style="color:#2B91AF">ICollection</span>, <span style="color:#2B91AF">ICollection&lt;T&gt;</span>, <span style="color:#2B91AF">IDeserializationCallback</span>, <span style="color:#2B91AF">IEnumerable</span>, <span style="color:#2B91AF">IEnumerable&lt;T&gt;</span>, <span style="color:green">IReadOnlyCollection&lt;T&gt;, </span><span style="color:#2B91AF">ISerializable</span>, <span style="color:#2B91AF">ISet&lt;T&gt;</span> {
+  }
+  <span style="color:blue">public</span> <span style="color:blue">class</span> Stack&lt;<span style="color:#2B91AF">T</span>&gt; : <span style="color:#2B91AF">ICollection</span>, <span style="color:#2B91AF">IEnumerable</span>, <span style="color:#2B91AF">IEnumerable&lt;T&gt;</span><span style="color:green">, IReadOnlyCollection&lt;T&gt;</span> {
+  }
+}
+<span style="color:blue">namespace</span> System.Configuration {
+  <span style="color:blue">public</span> <span style="color:blue">sealed</span> <span style="color:blue">class</span> RsaProtectedConfigurationProvider : <span style="color:#2B91AF">ProtectedConfigurationProvider</span> {
+    <span style="color:green">public bool UseFIPS { get; }</span>
+  }
+}
+<span style="color:blue">namespace</span> System.Data.Common {
+  <span style="color:blue">public</span> <span style="color:blue">class</span> DbEnumerator : <span style="color:#2B91AF">IEnumerator</span> {
+    <span style="color:green">public DbEnumerator(DbDataReader reader);</span>
+    <span style="color:green">public DbEnumerator(DbDataReader reader, bool closeReader);</span>
+  }
+}
+<span style="color:blue">namespace</span> System.Data.SqlClient {
+  <span style="color:green">public enum SqlAuthenticationMethod</span> {
+    <span style="color:green">ActiveDirectoryIntegrated = 3,</span>
+    <span style="color:green">ActiveDirectoryPassword = 2,</span>
+    <span style="color:green">NotSpecified = 0,</span>
+    <span style="color:green">SqlPassword = 1,</span>
+  }
+  <span style="color:blue">public</span> <span style="color:blue">sealed</span> <span style="color:blue">class</span> SqlBulkCopy : <span style="color:#2B91AF">IDisposable</span> {
+    <span style="color:green">public void WriteToServer(DbDataReader reader);</span>
+    <span style="color:green">public Task WriteToServerAsync(DbDataReader reader);</span>
+    <span style="color:green">public Task WriteToServerAsync(DbDataReader reader, CancellationToken cancellationToken);</span>
+  }
+  <span style="color:green">public sealed class SqlColumnEncryptionCertificateStoreProvider : SqlColumnEncryptionKeyStoreProvider</span> {
+    <span style="color:green">public SqlColumnEncryptionCertificateStoreProvider();</span>
+    <span style="color:gray">public override byte[] DecryptColumnEncryptionKey(string masterKeyPath, string encryptionAlgorithm, byte[] encryptedColumnEncryptionKey);</span>
+    <span style="color:gray">public override byte[] EncryptColumnEncryptionKey(string masterKeyPath, string encryptionAlgorithm, byte[] columnEncryptionKey);</span>
+  }
+  <span style="color:green">public abstract class SqlColumnEncryptionKeyStoreProvider</span> {
+    <span style="color:green">protected SqlColumnEncryptionKeyStoreProvider();</span>
+    <span style="color:green">public abstract byte[] DecryptColumnEncryptionKey(string masterKeyPath, string encryptionAlgorithm, byte[] encryptedColumnEncryptionKey);</span>
+    <span style="color:green">public abstract byte[] EncryptColumnEncryptionKey(string masterKeyPath, string encryptionAlgorithm, byte[] columnEncryptionKey);</span>
+  }
+  <span style="color:blue">public</span> <span style="color:blue">sealed</span> <span style="color:blue">class</span> SqlCommand : <span style="color:#2B91AF">DbCommand</span>, <span style="color:#2B91AF">ICloneable</span> {
+    <span style="color:green">public SqlCommand(string cmdText, SqlConnection connection, SqlTransaction transaction, SqlCommandColumnEncryptionSetting columnEncryptionSetting);</span>
+    <span style="color:green">public SqlCommandColumnEncryptionSetting ColumnEncryptionSetting { get; }</span>
+  }
+  <span style="color:green">public enum SqlCommandColumnEncryptionSetting</span> {
+    <span style="color:green">Disabled = 3,</span>
+    <span style="color:green">Enabled = 1,</span>
+    <span style="color:green">ResultSetOnly = 2,</span>
+    <span style="color:green">UseConnectionSetting = 0,</span>
+  }
+  <span style="color:blue">public</span> <span style="color:blue">sealed</span> <span style="color:blue">class</span> SqlConnection : <span style="color:#2B91AF">DbConnection</span>, <span style="color:#2B91AF">ICloneable</span> {
+    <span style="color:green">public string AccessToken { get; set; }</span>
+    <span style="color:green">public static IDictionary&lt;string, IList&lt;string&gt;&gt; ColumnEncryptionTrustedMasterKeyPaths { get; }</span>
+    <span style="color:green">public static void RegisterColumnEncryptionKeyStoreProviders(IDictionary&lt;string, SqlColumnEncryptionKeyStoreProvider&gt; customProviders);</span>
+  }
+  <span style="color:green">public enum SqlConnectionColumnEncryptionSetting</span> {
+    <span style="color:green">Disabled = 0,</span>
+    <span style="color:green">Enabled = 1,</span>
+  }
+  <span style="color:blue">public</span> <span style="color:blue">sealed</span> <span style="color:blue">class</span> SqlConnectionStringBuilder : <span style="color:#2B91AF">DbConnectionStringBuilder</span> {
+    <span style="color:green">public SqlAuthenticationMethod Authentication { get; set; }</span>
+    <span style="color:green">public SqlConnectionColumnEncryptionSetting ColumnEncryptionSetting { get; set; }</span>
+  }
+  <span style="color:blue">public</span> <span style="color:blue">sealed</span> <span style="color:blue">class</span> SqlParameter : <span style="color:#2B91AF">DbParameter</span>, <span style="color:#2B91AF">ICloneable</span>, <span style="color:#2B91AF">IDataParameter</span>, <span style="color:#2B91AF">IDbDataParameter</span> {
+    <span style="color:green">public bool ForceColumnEncryption { get; set; }</span>
+  }
+}
+<span style="color:blue">namespace</span> System.Diagnostics {
+  <span style="color:blue">public</span> <span style="color:blue">sealed</span> <span style="color:blue">class</span> Debugger {
+    <span style="color:blue">public</span> <span style="color:blue">static</span> <span style="color:blue">bool</span> IsAttached { <span style="color:green">[MethodImpl(InternalCall)]</span><span style="color:blue">get</span>; }
+  }
+  <span style="color:blue">public</span> <span style="color:blue">class</span> Process : <span style="color:#2B91AF">Component</span> {
+    <span style="color:green">public SafeProcessHandle SafeHandle { get; }</span>
+  }
+  <span style="color:blue">public</span> <span style="color:blue">sealed</span> <span style="color:blue">class</span> ProcessStartInfo {
+    <span style="color:green">public IDictionary&lt;string, string&gt; Environment { get; }</span>
+  }
+}
+<span style="color:blue">namespace</span> System.Diagnostics.Tracing {
+  <span style="color:green">public enum EventActivityOptions</span> {
+    <span style="color:green">Detachable = 8,</span>
+    <span style="color:green">Disable = 2,</span>
+    <span style="color:green">None = 0,</span>
+    <span style="color:green">Recursive = 4,</span>
+  }
+  <span style="color:blue">public</span> <span style="color:blue">sealed</span> <span style="color:blue">class</span> EventAttribute : <span style="color:#2B91AF">Attribute</span> {
+    <span style="color:green">public EventActivityOptions ActivityOptions { get; set; }</span>
+    <span style="color:green">public EventChannel Channel { get; set; }</span>
+    <span style="color:green">public EventTags Tags { get; set; }</span>
+  }
+  <span style="color:green">public enum EventChannel : byte</span> {
+    <span style="color:green">Admin = (byte)16,</span>
+    <span style="color:green">Analytic = (byte)18,</span>
+    <span style="color:green">Debug = (byte)19,</span>
+    <span style="color:green">None = (byte)0,</span>
+    <span style="color:green">Operational = (byte)17,</span>
+  }
+  <span style="color:green">public class EventDataAttribute : Attribute</span> {
+    <span style="color:green">public EventDataAttribute();</span>
+    <span style="color:green">public string Name { get; set; }</span>
+  }
+  <span style="color:green">public class EventFieldAttribute : Attribute</span> {
+    <span style="color:green">public EventFieldAttribute();</span>
+    <span style="color:green">public EventFieldFormat Format { get; set; }</span>
+    <span style="color:green">public EventFieldTags Tags { get; set; }</span>
+  }
+  <span style="color:green">public enum EventFieldFormat</span> {
+    <span style="color:green">Boolean = 3,</span>
+    <span style="color:green">Default = 0,</span>
+    <span style="color:green">Hexadecimal = 4,</span>
+    <span style="color:green">HResult = 15,</span>
+    <span style="color:green">Json = 12,</span>
+    <span style="color:green">String = 2,</span>
+    <span style="color:green">Xml = 11,</span>
+  }
+  <span style="color:green">public enum EventFieldTags</span> {
+    <span style="color:green">None = 0,</span>
+  }
+  <span style="color:green">public class EventIgnoreAttribute : Attribute</span> {
+    <span style="color:green">public EventIgnoreAttribute();</span>
+  }
+  <span style="color:blue">public</span> <span style="color:blue">enum</span> EventKeywords : <span style="color:blue">long</span> {
+    <span style="color:green">All = (long)-1,</span>
+    <span style="color:green">MicrosoftTelemetry = (long)562949953421312,</span>
+  }
+  <span style="color:green">public enum EventManifestOptions</span> {
+    <span style="color:green">AllCultures = 2,</span>
+    <span style="color:green">AllowEventSourceOverride = 8,</span>
+    <span style="color:green">None = 0,</span>
+    <span style="color:green">OnlyIfNeededForRegistration = 4,</span>
+    <span style="color:green">Strict = 1,</span>
+  }
+  <span style="color:blue">public</span> <span style="color:blue">class</span> EventSource : <span style="color:#2B91AF">IDisposable</span> {
+    <span style="color:green">protected EventSource(EventSourceSettings settings);</span>
+    <span style="color:green">protected EventSource(EventSourceSettings settings, params string[] traits);</span>
+    <span style="color:green">public EventSource(string eventSourceName);</span>
+    <span style="color:green">public EventSource(string eventSourceName, EventSourceSettings config);</span>
+    <span style="color:green">public EventSource(string eventSourceName, EventSourceSettings config, params string[] traits);</span>
+    <span style="color:green">public EventSourceSettings Settings { get; }</span>
+    <span style="color:green">public static string GenerateManifest(Type eventSourceType, string assemblyPathToIncludeInManifest, EventManifestOptions flags);</span>
+    <span style="color:green">public string GetTrait(string key);</span>
+    <span style="color:green">public bool IsEnabled(EventLevel level, EventKeywords keywords, EventChannel channel);</span>
+    <span style="color:green">public void Write(string eventName);</span>
+    <span style="color:green">public void Write(string eventName, EventSourceOptions options);</span>
+    <span style="color:green">public void Write&lt;T&gt;(string eventName, ref EventSourceOptions options, ref Guid activityId, ref Guid relatedActivityId, ref T data);</span>
+    <span style="color:green">public void Write&lt;T&gt;(string eventName, ref EventSourceOptions options, ref T data);</span>
+    <span style="color:green">public void Write&lt;T&gt;(string eventName, T data);</span>
+    <span style="color:green">protected void WriteEvent(int eventId, byte[] arg1);</span>
+    <span style="color:green">protected void WriteEvent(int eventId, int arg1, string arg2);</span>
+    <span style="color:green">protected void WriteEvent(int eventId, long arg1, byte[] arg2);</span>
+    <span style="color:green">protected void WriteEvent(int eventId, long arg1, string arg2);</span>
+    <span style="color:blue">protected</span> <span style="color:blue">void</span> WriteEventWithRelatedActivityId(<span style="color:blue">int</span> eventId, <span style="color:#2B91AF">Guid</span> <span style="color:red">childActivityID</span><span style="color:green">relatedActivityId</span>, <span style="color:blue">params</span> <span style="color:#2B91AF">object[]</span> args);
+    <span style="color:blue">protected</span> <span style="color:blue">unsafe</span> <span style="color:blue">void</span> WriteEventWithRelatedActivityIdCore(<span style="color:blue">int</span> eventId, <span style="color:#2B91AF">Guid*</span> <span style="color:red">childActivityID</span><span style="color:green">relatedActivityId</span>, <span style="color:blue">int</span> eventDataCount, <span style="color:#2B91AF">EventSource.EventData*</span> data);
+  }
+  <span style="color:green">[System.Runtime.InteropServices.StructLayoutAttribute(System.Runtime.InteropServices.LayoutKind.Sequential)]
+  public struct EventSourceOptions</span> {
+    <span style="color:green">public EventActivityOptions ActivityOptions { get; set; }</span>
+    <span style="color:green">public EventKeywords Keywords { get; set; }</span>
+    <span style="color:green">public EventLevel Level { get; set; }</span>
+    <span style="color:green">public EventOpcode Opcode { get; set; }</span>
+    <span style="color:green">public EventTags Tags { get; set; }</span>
+  }
+  <span style="color:green">public enum EventSourceSettings</span> {
+    <span style="color:green">Default = 0,</span>
+    <span style="color:green">EtwManifestEventFormat = 4,</span>
+    <span style="color:green">EtwSelfDescribingEventFormat = 8,</span>
+    <span style="color:green">ThrowOnEventWriteErrors = 1,</span>
+  }
+  <span style="color:green">public enum EventTags</span> {
+    <span style="color:green">None = 0,</span>
+  }
+  <span style="color:blue">public</span> <span style="color:blue">class</span> EventWrittenEventArgs : <span style="color:#2B91AF">EventArgs</span> {
+    <span style="color:green">public EventChannel Channel { get; }</span>
+    <span style="color:green">public string EventName { get; }</span>
+    <span style="color:green">public ReadOnlyCollection&lt;string&gt; PayloadNames { get; }</span>
+    <span style="color:green">public EventTags Tags { get; }</span>
+  }
+}
+<span style="color:blue">namespace</span> System.DirectoryServices.ActiveDirectory {
+  <span style="color:blue">public</span> <span style="color:blue">class</span> Domain : <span style="color:#2B91AF">ActiveDirectoryPartition</span> {
+    <span style="color:green">public int DomainModeLevel { get; }</span>
+    <span style="color:green">public void RaiseDomainFunctionalityLevel(int domainMode);</span>
+  }
+  <span style="color:blue">public</span> <span style="color:blue">enum</span> DomainMode {
+    <span style="color:green">Unknown = -1,</span>
+  }
+  <span style="color:blue">public</span> <span style="color:blue">class</span> Forest : <span style="color:#2B91AF">IDisposable</span> {
+    <span style="color:green">public int ForestModeLevel { get; }</span>
+    <span style="color:green">public void RaiseForestFunctionalityLevel(int forestMode);</span>
+  }
+  <span style="color:blue">public</span> <span style="color:blue">enum</span> ForestMode {
+    <span style="color:green">Unknown = -1,</span>
+  }
+}
+<span style="color:blue">namespace</span> System.Globalization {
+  <span style="color:blue">public</span> <span style="color:blue">class</span> CompareInfo : <span style="color:#2B91AF">IDeserializationCallback</span> {
+    <span style="color:green">public virtual int GetHashCode(string source, CompareOptions options);</span>
+  }
+  <span style="color:blue">public</span> <span style="color:blue">class</span> CultureInfo : <span style="color:#2B91AF">ICloneable</span>, <span style="color:#2B91AF">IFormatProvider</span> {
+    <span style="color:blue">public</span> <span style="color:blue">static</span> <span style="color:#2B91AF">CultureInfo</span> CurrentCulture { <span style="color:blue">get</span>; <span style="color:green">set; </span>}
+    <span style="color:blue">public</span> <span style="color:blue">static</span> <span style="color:#2B91AF">CultureInfo</span> CurrentUICulture { <span style="color:blue">get</span>; <span style="color:green">set; </span>}
+  }
+}
+<span style="color:blue">namespace</span> System.IO {
+  <span style="color:blue">public</span> <span style="color:blue">class</span> MemoryStream : <span style="color:#2B91AF">Stream</span> {
+    <span style="color:green">public virtual bool TryGetBuffer(out ArraySegment&lt;byte&gt; buffer);</span>
+  }
+}
+<span style="color:blue">namespace</span> System.IO.MemoryMappedFiles {
+  <span style="color:blue">public</span> <span style="color:blue">class</span> MemoryMappedFile : <span style="color:#2B91AF">IDisposable</span> {
+    <span style="color:green">public static MemoryMappedFile CreateFromFile(FileStream fileStream, string mapName, long capacity, MemoryMappedFileAccess access, HandleInheritability inheritability, bool leaveOpen);</span>
+    <span style="color:green">public static MemoryMappedFile CreateNew(string mapName, long capacity, MemoryMappedFileAccess access, MemoryMappedFileOptions options, HandleInheritability inheritability);</span>
+    <span style="color:green">public static MemoryMappedFile CreateOrOpen(string mapName, long capacity, MemoryMappedFileAccess access, MemoryMappedFileOptions options, HandleInheritability inheritability);</span>
+  }
+}
+<span style="color:blue">namespace</span> System.IO.Pipes {
+  <span style="color:blue">public</span> <span style="color:blue">sealed</span> <span style="color:blue">class</span> NamedPipeClientStream : <span style="color:#2B91AF">PipeStream</span> {
+    <span style="color:green">public Task ConnectAsync();</span>
+    <span style="color:green">public Task ConnectAsync(int timeout);</span>
+    <span style="color:green">public Task ConnectAsync(int timeout, CancellationToken cancellationToken);</span>
+    <span style="color:green">public Task ConnectAsync(CancellationToken cancellationToken);</span>
+  }
+  <span style="color:blue">public</span> <span style="color:blue">sealed</span> <span style="color:blue">class</span> NamedPipeServerStream : <span style="color:#2B91AF">PipeStream</span> {
+    <span style="color:green">public Task WaitForConnectionAsync();</span>
+    <span style="color:green">public Task WaitForConnectionAsync(CancellationToken cancellationToken);</span>
+  }
+}
+<span style="color:blue">namespace</span> System.Linq.Expressions {
+  <span style="color:blue">public</span> <span style="color:blue">class</span> DynamicExpression : <span style="color:#2B91AF">Expression</span><span style="color:green">, IArgumentProvider, IDynamicExpression</span> {
+    <span style="color:gray">int System.Linq.Expressions.IArgumentProvider.ArgumentCount { get; }</span>
+    <span style="color:gray">Expression System.Linq.Expressions.IArgumentProvider.GetArgument(int index);</span>
+    <span style="color:gray">object System.Linq.Expressions.IDynamicExpression.CreateCallSite();</span>
+    <span style="color:gray">Expression System.Linq.Expressions.IDynamicExpression.Rewrite(Expression[] args);</span>
+  }
+  <span style="color:blue">public</span> <span style="color:blue">sealed</span> <span style="color:blue">class</span> ElementInit<span style="color:green"> : IArgumentProvider</span> {
+    <span style="color:gray">int System.Linq.Expressions.IArgumentProvider.ArgumentCount { get; }</span>
+    <span style="color:gray">Expression System.Linq.Expressions.IArgumentProvider.GetArgument(int index);</span>
+  }
+  <span style="color:green">public interface IArgumentProvider</span> {
+    <span style="color:green">int ArgumentCount { get; }</span>
+    <span style="color:green">Expression GetArgument(int index);</span>
+  }
+  <span style="color:green">public interface IDynamicExpression : IArgumentProvider</span> {
+    <span style="color:green">Type DelegateType { get; }</span>
+    <span style="color:green">object CreateCallSite();</span>
+    <span style="color:green">Expression Rewrite(Expression[] args);</span>
+  }
+  <span style="color:blue">public</span> <span style="color:blue">sealed</span> <span style="color:blue">class</span> IndexExpression : <span style="color:#2B91AF">Expression</span><span style="color:green">, IArgumentProvider</span> {
+    <span style="color:gray">int System.Linq.Expressions.IArgumentProvider.ArgumentCount { get; }</span>
+    <span style="color:gray">Expression System.Linq.Expressions.IArgumentProvider.GetArgument(int index);</span>
+  }
+  <span style="color:blue">public</span> <span style="color:blue">sealed</span> <span style="color:blue">class</span> InvocationExpression : <span style="color:#2B91AF">Expression</span><span style="color:green">, IArgumentProvider</span> {
+    <span style="color:gray">int System.Linq.Expressions.IArgumentProvider.ArgumentCount { get; }</span>
+    <span style="color:gray">Expression System.Linq.Expressions.IArgumentProvider.GetArgument(int index);</span>
+  }
+  <span style="color:blue">public</span> <span style="color:blue">class</span> MethodCallExpression : <span style="color:#2B91AF">Expression</span><span style="color:green">, IArgumentProvider</span> {
+    <span style="color:gray">int System.Linq.Expressions.IArgumentProvider.ArgumentCount { get; }</span>
+    <span style="color:gray">Expression System.Linq.Expressions.IArgumentProvider.GetArgument(int index);</span>
+  }
+  <span style="color:blue">public</span> <span style="color:blue">class</span> NewExpression : <span style="color:#2B91AF">Expression</span><span style="color:green">, IArgumentProvider</span> {
+    <span style="color:gray">int System.Linq.Expressions.IArgumentProvider.ArgumentCount { get; }</span>
+    <span style="color:gray">Expression System.Linq.Expressions.IArgumentProvider.GetArgument(int index);</span>
+  }
+}
+<span style="color:blue">namespace</span> System.Net {
+  <span style="color:blue">public</span> <span style="color:blue">class</span> ServicePointManager {
+    <span style="color:green">public static bool ReusePort { get; set; }</span>
+  }
+}
+<span style="color:blue">namespace</span> System.Net.Sockets {
+  <span style="color:blue">public</span> <span style="color:blue">enum</span> SocketOptionName {
+    <span style="color:green">ReuseUnicastPort = 12295,</span>
+  }
+  <span style="color:blue">public</span> <span style="color:blue">class</span> TcpClient : <span style="color:#2B91AF">IDisposable</span> {
+    <span style="color:gray">public void Dispose();</span>
+    <span style="color:gray">void System.IDisposable.Dispose();</span>
+  }
+  <span style="color:blue">public</span> <span style="color:blue">class</span> UdpClient : <span style="color:#2B91AF">IDisposable</span> {
+    <span style="color:gray">public void Dispose();</span>
+    <span style="color:gray">void System.IDisposable.Dispose();</span>
+  }
+}
+<span style="color:blue">namespace</span> System.Numerics {
+  <span style="color:green">[System.Runtime.InteropServices.StructLayoutAttribute(System.Runtime.InteropServices.LayoutKind.Sequential)]
+  public struct Matrix3x2 : IEquatable&lt;Matrix3x2&gt;</span> {
+    <span style="color:green">public float M11;</span>
+    <span style="color:green">public float M12;</span>
+    <span style="color:green">public float M21;</span>
+    <span style="color:green">public float M22;</span>
+    <span style="color:green">public float M31;</span>
+    <span style="color:green">public float M32;</span>
+    <span style="color:green">public Matrix3x2(float m11, float m12, float m21, float m22, float m31, float m32);</span>
+    <span style="color:green">public static Matrix3x2 Identity { get; }</span>
+    <span style="color:green">public bool IsIdentity { get; }</span>
+    <span style="color:green">public Vector2 Translation { get; set; }</span>
+    <span style="color:green">public static Matrix3x2 Add(Matrix3x2 value1, Matrix3x2 value2);</span>
+    <span style="color:green">public static Matrix3x2 CreateRotation(float radians);</span>
+    <span style="color:green">public static Matrix3x2 CreateRotation(float radians, Vector2 centerPoint);</span>
+    <span style="color:green">public static Matrix3x2 CreateScale(Vector2 scales);</span>
+    <span style="color:green">public static Matrix3x2 CreateScale(Vector2 scales, Vector2 centerPoint);</span>
+    <span style="color:green">public static Matrix3x2 CreateScale(float scale);</span>
+    <span style="color:green">public static Matrix3x2 CreateScale(float scale, Vector2 centerPoint);</span>
+    <span style="color:green">public static Matrix3x2 CreateScale(float xScale, float yScale);</span>
+    <span style="color:green">public static Matrix3x2 CreateScale(float xScale, float yScale, Vector2 centerPoint);</span>
+    <span style="color:green">public static Matrix3x2 CreateSkew(float radiansX, float radiansY);</span>
+    <span style="color:green">public static Matrix3x2 CreateSkew(float radiansX, float radiansY, Vector2 centerPoint);</span>
+    <span style="color:green">public static Matrix3x2 CreateTranslation(Vector2 position);</span>
+    <span style="color:green">public static Matrix3x2 CreateTranslation(float xPosition, float yPosition);</span>
+    <span style="color:gray">public bool Equals(Matrix3x2 other);</span>
+    <span style="color:gray">public override bool Equals(object obj);</span>
+    <span style="color:green">public float GetDeterminant();</span>
+    <span style="color:gray">public override int GetHashCode();</span>
+    <span style="color:green">public static bool Invert(Matrix3x2 matrix, out Matrix3x2 result);</span>
+    <span style="color:green">public static Matrix3x2 Lerp(Matrix3x2 matrix1, Matrix3x2 matrix2, float amount);</span>
+    <span style="color:green">public static Matrix3x2 Multiply(Matrix3x2 value1, Matrix3x2 value2);</span>
+    <span style="color:green">public static Matrix3x2 Multiply(Matrix3x2 value1, float value2);</span>
+    <span style="color:green">public static Matrix3x2 Negate(Matrix3x2 value);</span>
+    <span style="color:green">public static Matrix3x2 operator &#43;(Matrix3x2 value1, Matrix3x2 value2);</span>
+    <span style="color:green">public static bool operator ==(Matrix3x2 value1, Matrix3x2 value2);</span>
+    <span style="color:green">public static bool operator !=(Matrix3x2 value1, Matrix3x2 value2);</span>
+    <span style="color:green">public static Matrix3x2 operator *(Matrix3x2 value1, Matrix3x2 value2);</span>
+    <span style="color:green">public static Matrix3x2 operator *(Matrix3x2 value1, float value2);</span>
+    <span style="color:green">public static Matrix3x2 operator -(Matrix3x2 value1, Matrix3x2 value2);</span>
+    <span style="color:green">public static Matrix3x2 operator -(Matrix3x2 value);</span>
+    <span style="color:green">public static Matrix3x2 Subtract(Matrix3x2 value1, Matrix3x2 value2);</span>
+    <span style="color:gray">public override string ToString();</span>
+  }
+  <span style="color:green">[System.Runtime.InteropServices.StructLayoutAttribute(System.Runtime.InteropServices.LayoutKind.Sequential)]
+  public struct Matrix4x4 : IEquatable&lt;Matrix4x4&gt;</span> {
+    <span style="color:green">public float M11;</span>
+    <span style="color:green">public float M12;</span>
+    <span style="color:green">public float M13;</span>
+    <span style="color:green">public float M14;</span>
+    <span style="color:green">public float M21;</span>
+    <span style="color:green">public float M22;</span>
+    <span style="color:green">public float M23;</span>
+    <span style="color:green">public float M24;</span>
+    <span style="color:green">public float M31;</span>
+    <span style="color:green">public float M32;</span>
+    <span style="color:green">public float M33;</span>
+    <span style="color:green">public float M34;</span>
+    <span style="color:green">public float M41;</span>
+    <span style="color:green">public float M42;</span>
+    <span style="color:green">public float M43;</span>
+    <span style="color:green">public float M44;</span>
+    <span style="color:green">public Matrix4x4(Matrix3x2 value);</span>
+    <span style="color:green">public Matrix4x4(float m11, float m12, float m13, float m14, float m21, float m22, float m23, float m24, float m31, float m32, float m33, float m34, float m41, float m42, float m43, float m44);</span>
+    <span style="color:green">public static Matrix4x4 Identity { get; }</span>
+    <span style="color:green">public bool IsIdentity { get; }</span>
+    <span style="color:green">public Vector3 Translation { get; set; }</span>
+    <span style="color:green">public static Matrix4x4 Add(Matrix4x4 value1, Matrix4x4 value2);</span>
+    <span style="color:green">public static Matrix4x4 CreateBillboard(Vector3 objectPosition, Vector3 cameraPosition, Vector3 cameraUpVector, Vector3 cameraForwardVector);</span>
+    <span style="color:green">public static Matrix4x4 CreateConstrainedBillboard(Vector3 objectPosition, Vector3 cameraPosition, Vector3 rotateAxis, Vector3 cameraForwardVector, Vector3 objectForwardVector);</span>
+    <span style="color:green">public static Matrix4x4 CreateFromAxisAngle(Vector3 axis, float angle);</span>
+    <span style="color:green">public static Matrix4x4 CreateFromQuaternion(Quaternion quaternion);</span>
+    <span style="color:green">public static Matrix4x4 CreateFromYawPitchRoll(float yaw, float pitch, float roll);</span>
+    <span style="color:green">public static Matrix4x4 CreateLookAt(Vector3 cameraPosition, Vector3 cameraTarget, Vector3 cameraUpVector);</span>
+    <span style="color:green">public static Matrix4x4 CreateOrthographic(float width, float height, float zNearPlane, float zFarPlane);</span>
+    <span style="color:green">public static Matrix4x4 CreateOrthographicOffCenter(float left, float right, float bottom, float top, float zNearPlane, float zFarPlane);</span>
+    <span style="color:green">public static Matrix4x4 CreatePerspective(float width, float height, float nearPlaneDistance, float farPlaneDistance);</span>
+    <span style="color:green">public static Matrix4x4 CreatePerspectiveFieldOfView(float fieldOfView, float aspectRatio, float nearPlaneDistance, float farPlaneDistance);</span>
+    <span style="color:green">public static Matrix4x4 CreatePerspectiveOffCenter(float left, float right, float bottom, float top, float nearPlaneDistance, float farPlaneDistance);</span>
+    <span style="color:green">public static Matrix4x4 CreateReflection(Plane value);</span>
+    <span style="color:green">public static Matrix4x4 CreateRotationX(float radians);</span>
+    <span style="color:green">public static Matrix4x4 CreateRotationX(float radians, Vector3 centerPoint);</span>
+    <span style="color:green">public static Matrix4x4 CreateRotationY(float radians);</span>
+    <span style="color:green">public static Matrix4x4 CreateRotationY(float radians, Vector3 centerPoint);</span>
+    <span style="color:green">public static Matrix4x4 CreateRotationZ(float radians);</span>
+    <span style="color:green">public static Matrix4x4 CreateRotationZ(float radians, Vector3 centerPoint);</span>
+    <span style="color:green">public static Matrix4x4 CreateScale(Vector3 scales);</span>
+    <span style="color:green">public static Matrix4x4 CreateScale(Vector3 scales, Vector3 centerPoint);</span>
+    <span style="color:green">public static Matrix4x4 CreateScale(float scale);</span>
+    <span style="color:green">public static Matrix4x4 CreateScale(float scale, Vector3 centerPoint);</span>
+    <span style="color:green">public static Matrix4x4 CreateScale(float xScale, float yScale, float zScale);</span>
+    <span style="color:green">public static Matrix4x4 CreateScale(float xScale, float yScale, float zScale, Vector3 centerPoint);</span>
+    <span style="color:green">public static Matrix4x4 CreateShadow(Vector3 lightDirection, Plane plane);</span>
+    <span style="color:green">public static Matrix4x4 CreateTranslation(Vector3 position);</span>
+    <span style="color:green">public static Matrix4x4 CreateTranslation(float xPosition, float yPosition, float zPosition);</span>
+    <span style="color:green">public static Matrix4x4 CreateWorld(Vector3 position, Vector3 forward, Vector3 up);</span>
+    <span style="color:green">public static bool Decompose(Matrix4x4 matrix, out Vector3 scale, out Quaternion rotation, out Vector3 translation);</span>
+    <span style="color:gray">public bool Equals(Matrix4x4 other);</span>
+    <span style="color:gray">public override bool Equals(object obj);</span>
+    <span style="color:green">public float GetDeterminant();</span>
+    <span style="color:gray">public override int GetHashCode();</span>
+    <span style="color:green">public static bool Invert(Matrix4x4 matrix, out Matrix4x4 result);</span>
+    <span style="color:green">public static Matrix4x4 Lerp(Matrix4x4 matrix1, Matrix4x4 matrix2, float amount);</span>
+    <span style="color:green">public static Matrix4x4 Multiply(Matrix4x4 value1, Matrix4x4 value2);</span>
+    <span style="color:green">public static Matrix4x4 Multiply(Matrix4x4 value1, float value2);</span>
+    <span style="color:green">public static Matrix4x4 Negate(Matrix4x4 value);</span>
+    <span style="color:green">public static Matrix4x4 operator &#43;(Matrix4x4 value1, Matrix4x4 value2);</span>
+    <span style="color:green">public static bool operator ==(Matrix4x4 value1, Matrix4x4 value2);</span>
+    <span style="color:green">public static bool operator !=(Matrix4x4 value1, Matrix4x4 value2);</span>
+    <span style="color:green">public static Matrix4x4 operator *(Matrix4x4 value1, Matrix4x4 value2);</span>
+    <span style="color:green">public static Matrix4x4 operator *(Matrix4x4 value1, float value2);</span>
+    <span style="color:green">public static Matrix4x4 operator -(Matrix4x4 value1, Matrix4x4 value2);</span>
+    <span style="color:green">public static Matrix4x4 operator -(Matrix4x4 value);</span>
+    <span style="color:green">public static Matrix4x4 Subtract(Matrix4x4 value1, Matrix4x4 value2);</span>
+    <span style="color:gray">public override string ToString();</span>
+    <span style="color:green">public static Matrix4x4 Transform(Matrix4x4 value, Quaternion rotation);</span>
+    <span style="color:green">public static Matrix4x4 Transpose(Matrix4x4 matrix);</span>
+  }
+  <span style="color:green">[System.Runtime.InteropServices.StructLayoutAttribute(System.Runtime.InteropServices.LayoutKind.Sequential)]
+  public struct Plane : IEquatable&lt;Plane&gt;</span> {
+    <span style="color:green">public Vector3 Normal;</span>
+    <span style="color:green">public float D;</span>
+    <span style="color:green">public Plane(Vector3 normal, float d);</span>
+    <span style="color:green">public Plane(Vector4 value);</span>
+    <span style="color:green">public Plane(float x, float y, float z, float d);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Plane CreateFromVertices(Vector3 point1, Vector3 point2, Vector3 point3);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static float Dot(Plane plane, Vector4 value);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static float DotCoordinate(Plane plane, Vector3 value);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static float DotNormal(Plane plane, Vector3 value);</span>
+    <span style="color:gray">[MethodImpl(AggressiveInlining)]public bool Equals(Plane other);</span>
+    <span style="color:gray">[MethodImpl(AggressiveInlining)]public override bool Equals(object obj);</span>
+    <span style="color:gray">public override int GetHashCode();</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Plane Normalize(Plane value);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static bool operator ==(Plane value1, Plane value2);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static bool operator !=(Plane value1, Plane value2);</span>
+    <span style="color:gray">public override string ToString();</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Plane Transform(Plane plane, Matrix4x4 matrix);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Plane Transform(Plane plane, Quaternion rotation);</span>
+  }
+  <span style="color:green">[System.Runtime.InteropServices.StructLayoutAttribute(System.Runtime.InteropServices.LayoutKind.Sequential)]
+  public struct Quaternion : IEquatable&lt;Quaternion&gt;</span> {
+    <span style="color:green">public float W;</span>
+    <span style="color:green">public float X;</span>
+    <span style="color:green">public float Y;</span>
+    <span style="color:green">public float Z;</span>
+    <span style="color:green">public Quaternion(Vector3 vectorPart, float scalarPart);</span>
+    <span style="color:green">public Quaternion(float x, float y, float z, float w);</span>
+    <span style="color:green">public static Quaternion Identity { get; }</span>
+    <span style="color:green">public bool IsIdentity { get; }</span>
+    <span style="color:green">public static Quaternion Add(Quaternion value1, Quaternion value2);</span>
+    <span style="color:green">public static Quaternion Concatenate(Quaternion value1, Quaternion value2);</span>
+    <span style="color:green">public static Quaternion Conjugate(Quaternion value);</span>
+    <span style="color:green">public static Quaternion CreateFromAxisAngle(Vector3 axis, float angle);</span>
+    <span style="color:green">public static Quaternion CreateFromRotationMatrix(Matrix4x4 matrix);</span>
+    <span style="color:green">public static Quaternion CreateFromYawPitchRoll(float yaw, float pitch, float roll);</span>
+    <span style="color:green">public static Quaternion Divide(Quaternion value1, Quaternion value2);</span>
+    <span style="color:green">public static float Dot(Quaternion quaternion1, Quaternion quaternion2);</span>
+    <span style="color:gray">public bool Equals(Quaternion other);</span>
+    <span style="color:gray">public override bool Equals(object obj);</span>
+    <span style="color:gray">public override int GetHashCode();</span>
+    <span style="color:green">public static Quaternion Inverse(Quaternion value);</span>
+    <span style="color:green">public float Length();</span>
+    <span style="color:green">public float LengthSquared();</span>
+    <span style="color:green">public static Quaternion Lerp(Quaternion quaternion1, Quaternion quaternion2, float amount);</span>
+    <span style="color:green">public static Quaternion Multiply(Quaternion value1, Quaternion value2);</span>
+    <span style="color:green">public static Quaternion Multiply(Quaternion value1, float value2);</span>
+    <span style="color:green">public static Quaternion Negate(Quaternion value);</span>
+    <span style="color:green">public static Quaternion Normalize(Quaternion value);</span>
+    <span style="color:green">public static Quaternion operator &#43;(Quaternion value1, Quaternion value2);</span>
+    <span style="color:green">public static Quaternion operator /(Quaternion value1, Quaternion value2);</span>
+    <span style="color:green">public static bool operator ==(Quaternion value1, Quaternion value2);</span>
+    <span style="color:green">public static bool operator !=(Quaternion value1, Quaternion value2);</span>
+    <span style="color:green">public static Quaternion operator *(Quaternion value1, Quaternion value2);</span>
+    <span style="color:green">public static Quaternion operator *(Quaternion value1, float value2);</span>
+    <span style="color:green">public static Quaternion operator -(Quaternion value1, Quaternion value2);</span>
+    <span style="color:green">public static Quaternion operator -(Quaternion value);</span>
+    <span style="color:green">public static Quaternion Slerp(Quaternion quaternion1, Quaternion quaternion2, float amount);</span>
+    <span style="color:green">public static Quaternion Subtract(Quaternion value1, Quaternion value2);</span>
+    <span style="color:gray">public override string ToString();</span>
+  }
+  <span style="color:green">[System.Runtime.InteropServices.StructLayoutAttribute(System.Runtime.InteropServices.LayoutKind.Sequential)]
+  public struct Vector2 : IEquatable&lt;Vector2&gt;, IFormattable</span> {
+    <span style="color:green">public float X;</span>
+    <span style="color:green">public float Y;</span>
+    <span style="color:green">public Vector2(float value);</span>
+    <span style="color:green">public Vector2(float x, float y);</span>
+    <span style="color:green">public static Vector2 One { get; }</span>
+    <span style="color:green">public static Vector2 UnitX { get; }</span>
+    <span style="color:green">public static Vector2 UnitY { get; }</span>
+    <span style="color:green">public static Vector2 Zero { get; }</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector2 Abs(Vector2 value);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector2 Add(Vector2 left, Vector2 right);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector2 Clamp(Vector2 value1, Vector2 min, Vector2 max);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public void CopyTo(float[] array);</span>
+    <span style="color:green">public void CopyTo(float[] array, int index);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static float Distance(Vector2 value1, Vector2 value2);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static float DistanceSquared(Vector2 value1, Vector2 value2);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector2 Divide(Vector2 left, Vector2 right);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector2 Divide(Vector2 left, float divisor);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static float Dot(Vector2 value1, Vector2 value2);</span>
+    <span style="color:gray">public bool Equals(Vector2 other);</span>
+    <span style="color:gray">[MethodImpl(AggressiveInlining)]public override bool Equals(object obj);</span>
+    <span style="color:gray">public override int GetHashCode();</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public float Length();</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public float LengthSquared();</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector2 Lerp(Vector2 value1, Vector2 value2, float amount);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector2 Max(Vector2 value1, Vector2 value2);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector2 Min(Vector2 value1, Vector2 value2);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector2 Multiply(Vector2 left, Vector2 right);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector2 Multiply(Vector2 left, float right);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector2 Multiply(float left, Vector2 right);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector2 Negate(Vector2 value);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector2 Normalize(Vector2 value);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector2 operator &#43;(Vector2 left, Vector2 right);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector2 operator /(Vector2 left, Vector2 right);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector2 operator /(Vector2 value1, float value2);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static bool operator ==(Vector2 left, Vector2 right);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static bool operator !=(Vector2 left, Vector2 right);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector2 operator *(Vector2 left, Vector2 right);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector2 operator *(Vector2 left, float right);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector2 operator *(float left, Vector2 right);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector2 operator -(Vector2 left, Vector2 right);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector2 operator -(Vector2 value);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector2 Reflect(Vector2 vector, Vector2 normal);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector2 SquareRoot(Vector2 value);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector2 Subtract(Vector2 left, Vector2 right);</span>
+    <span style="color:gray">public override string ToString();</span>
+    <span style="color:green">public string ToString(string format);</span>
+    <span style="color:gray">public string ToString(string format, IFormatProvider formatProvider);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector2 Transform(Vector2 position, Matrix3x2 matrix);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector2 Transform(Vector2 position, Matrix4x4 matrix);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector2 Transform(Vector2 value, Quaternion rotation);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector2 TransformNormal(Vector2 normal, Matrix3x2 matrix);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector2 TransformNormal(Vector2 normal, Matrix4x4 matrix);</span>
+  }
+  <span style="color:green">[System.Runtime.InteropServices.StructLayoutAttribute(System.Runtime.InteropServices.LayoutKind.Sequential)]
+  public struct Vector3 : IEquatable&lt;Vector3&gt;, IFormattable</span> {
+    <span style="color:green">public float X;</span>
+    <span style="color:green">public float Y;</span>
+    <span style="color:green">public float Z;</span>
+    <span style="color:green">public Vector3(Vector2 value, float z);</span>
+    <span style="color:green">public Vector3(float value);</span>
+    <span style="color:green">public Vector3(float x, float y, float z);</span>
+    <span style="color:green">public static Vector3 One { get; }</span>
+    <span style="color:green">public static Vector3 UnitX { get; }</span>
+    <span style="color:green">public static Vector3 UnitY { get; }</span>
+    <span style="color:green">public static Vector3 UnitZ { get; }</span>
+    <span style="color:green">public static Vector3 Zero { get; }</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector3 Abs(Vector3 value);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector3 Add(Vector3 left, Vector3 right);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector3 Clamp(Vector3 value1, Vector3 min, Vector3 max);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public void CopyTo(float[] array);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public void CopyTo(float[] array, int index);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector3 Cross(Vector3 vector1, Vector3 vector2);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static float Distance(Vector3 value1, Vector3 value2);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static float DistanceSquared(Vector3 value1, Vector3 value2);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector3 Divide(Vector3 left, Vector3 right);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector3 Divide(Vector3 left, float divisor);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static float Dot(Vector3 vector1, Vector3 vector2);</span>
+    <span style="color:gray">public bool Equals(Vector3 other);</span>
+    <span style="color:gray">[MethodImpl(AggressiveInlining)]public override bool Equals(object obj);</span>
+    <span style="color:gray">public override int GetHashCode();</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public float Length();</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public float LengthSquared();</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector3 Lerp(Vector3 value1, Vector3 value2, float amount);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector3 Max(Vector3 value1, Vector3 value2);</span>
+    <span style="color:green">public static Vector3 Min(Vector3 value1, Vector3 value2);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector3 Multiply(Vector3 left, Vector3 right);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector3 Multiply(Vector3 left, float right);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector3 Multiply(float left, Vector3 right);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector3 Negate(Vector3 value);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector3 Normalize(Vector3 value);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector3 operator &#43;(Vector3 left, Vector3 right);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector3 operator /(Vector3 left, Vector3 right);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector3 operator /(Vector3 value1, float value2);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static bool operator ==(Vector3 left, Vector3 right);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static bool operator !=(Vector3 left, Vector3 right);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector3 operator *(Vector3 left, Vector3 right);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector3 operator *(Vector3 left, float right);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector3 operator *(float left, Vector3 right);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector3 operator -(Vector3 left, Vector3 right);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector3 operator -(Vector3 value);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector3 Reflect(Vector3 vector, Vector3 normal);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector3 SquareRoot(Vector3 value);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector3 Subtract(Vector3 left, Vector3 right);</span>
+    <span style="color:gray">public override string ToString();</span>
+    <span style="color:green">public string ToString(string format);</span>
+    <span style="color:gray">public string ToString(string format, IFormatProvider formatProvider);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector3 Transform(Vector3 position, Matrix4x4 matrix);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector3 Transform(Vector3 value, Quaternion rotation);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector3 TransformNormal(Vector3 normal, Matrix4x4 matrix);</span>
+  }
+  <span style="color:green">[System.Runtime.InteropServices.StructLayoutAttribute(System.Runtime.InteropServices.LayoutKind.Sequential)]
+  public struct Vector4 : IEquatable&lt;Vector4&gt;, IFormattable</span> {
+    <span style="color:green">public float W;</span>
+    <span style="color:green">public float X;</span>
+    <span style="color:green">public float Y;</span>
+    <span style="color:green">public float Z;</span>
+    <span style="color:green">public Vector4(Vector2 value, float z, float w);</span>
+    <span style="color:green">public Vector4(Vector3 value, float w);</span>
+    <span style="color:green">public Vector4(float value);</span>
+    <span style="color:green">public Vector4(float x, float y, float z, float w);</span>
+    <span style="color:green">public static Vector4 One { get; }</span>
+    <span style="color:green">public static Vector4 UnitW { get; }</span>
+    <span style="color:green">public static Vector4 UnitX { get; }</span>
+    <span style="color:green">public static Vector4 UnitY { get; }</span>
+    <span style="color:green">public static Vector4 UnitZ { get; }</span>
+    <span style="color:green">public static Vector4 Zero { get; }</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector4 Abs(Vector4 value);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector4 Add(Vector4 left, Vector4 right);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector4 Clamp(Vector4 value1, Vector4 min, Vector4 max);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public void CopyTo(float[] array);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public void CopyTo(float[] array, int index);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static float Distance(Vector4 value1, Vector4 value2);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static float DistanceSquared(Vector4 value1, Vector4 value2);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector4 Divide(Vector4 left, Vector4 right);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector4 Divide(Vector4 left, float divisor);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static float Dot(Vector4 vector1, Vector4 vector2);</span>
+    <span style="color:gray">public bool Equals(Vector4 other);</span>
+    <span style="color:gray">[MethodImpl(AggressiveInlining)]public override bool Equals(object obj);</span>
+    <span style="color:gray">public override int GetHashCode();</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public float Length();</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public float LengthSquared();</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector4 Lerp(Vector4 value1, Vector4 value2, float amount);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector4 Max(Vector4 value1, Vector4 value2);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector4 Min(Vector4 value1, Vector4 value2);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector4 Multiply(Vector4 left, Vector4 right);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector4 Multiply(Vector4 left, float right);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector4 Multiply(float left, Vector4 right);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector4 Negate(Vector4 value);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector4 Normalize(Vector4 vector);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector4 operator &#43;(Vector4 left, Vector4 right);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector4 operator /(Vector4 left, Vector4 right);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector4 operator /(Vector4 value1, float value2);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static bool operator ==(Vector4 left, Vector4 right);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static bool operator !=(Vector4 left, Vector4 right);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector4 operator *(Vector4 left, Vector4 right);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector4 operator *(Vector4 left, float right);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector4 operator *(float left, Vector4 right);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector4 operator -(Vector4 left, Vector4 right);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector4 operator -(Vector4 value);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector4 SquareRoot(Vector4 value);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector4 Subtract(Vector4 left, Vector4 right);</span>
+    <span style="color:gray">public override string ToString();</span>
+    <span style="color:green">public string ToString(string format);</span>
+    <span style="color:gray">public string ToString(string format, IFormatProvider formatProvider);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector4 Transform(Vector2 position, Matrix4x4 matrix);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector4 Transform(Vector2 value, Quaternion rotation);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector4 Transform(Vector3 position, Matrix4x4 matrix);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector4 Transform(Vector3 value, Quaternion rotation);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector4 Transform(Vector4 vector, Matrix4x4 matrix);</span>
+    <span style="color:green">[MethodImpl(AggressiveInlining)]public static Vector4 Transform(Vector4 value, Quaternion rotation);</span>
+  }
+}
+<span style="color:blue">namespace</span> System.Reflection {
+  <span style="color:blue">public</span> <span style="color:blue">sealed</span> <span style="color:blue">class</span> AssemblyName : <span style="color:#2B91AF">_AssemblyName</span>, <span style="color:#2B91AF">ICloneable</span>, <span style="color:#2B91AF">IDeserializationCallback</span>, <span style="color:#2B91AF">ISerializable</span> {
+    <span style="color:blue">public</span> <span style="color:blue">string</span> CultureName { <span style="color:blue">get</span>; <span style="color:green">set; </span>}
+  }
+}
+<span style="color:blue">namespace</span> System.Runtime {
+  <span style="color:blue">public</span> <span style="color:blue">enum</span> GCLatencyMode {
+    <span style="color:green">NoGCRegion = 4,</span>
+  }
+}
+<span style="color:blue">namespace</span> System.Runtime.CompilerServices {
+  <span style="color:green">public sealed class DisablePrivateReflectionAttribute : Attribute</span> {
+    <span style="color:green">public DisablePrivateReflectionAttribute();</span>
+  }
+  <span style="color:green">public static class FormattableStringFactory</span> {
+    <span style="color:green">public static FormattableString Create(string format, params object[] arguments);</span>
+  }
+}
+<span style="color:blue">namespace</span> System.Runtime.InteropServices {
+  <span style="color:blue">public</span> <span style="color:blue">static</span> <span style="color:blue">class</span> Marshal {
+    <span style="color:green">[MethodImpl(InternalCall)]</span><span style="color:blue">public</span> <span style="color:blue">static</span> <span style="color:#2B91AF">IntPtr</span> CreateAggregatedObject(<span style="color:#2B91AF">IntPtr</span> pOuter, <span style="color:blue">object</span> o);
+    <span style="color:green">[MethodImpl(InternalCall)]</span><span style="color:blue">public</span> <span style="color:blue">static</span> <span style="color:blue">void</span> DestroyStructure(<span style="color:#2B91AF">IntPtr</span> ptr, <span style="color:#2B91AF">Type</span> structuretype);
+    <span style="color:green">[MethodImpl(InternalCall)]</span><span style="color:blue">public</span> <span style="color:blue">static</span> <span style="color:blue">int</span> GetExceptionCode();
+    <span style="color:green">[MethodImpl(InternalCall)]</span><span style="color:blue">public</span> <span style="color:blue">static</span> <span style="color:blue">void</span> GetNativeVariantForObject(<span style="color:blue">object</span> obj, <span style="color:#2B91AF">IntPtr</span> pDstNativeVariant);
+    <span style="color:green">[MethodImpl(InternalCall)]</span><span style="color:blue">public</span> <span style="color:blue">static</span> <span style="color:blue">object</span> GetObjectForIUnknown(<span style="color:#2B91AF">IntPtr</span> pUnk);
+    <span style="color:green">[MethodImpl(InternalCall)]</span><span style="color:blue">public</span> <span style="color:blue">static</span> <span style="color:blue">object</span> GetObjectForNativeVariant(<span style="color:#2B91AF">IntPtr</span> pSrcNativeVariant);
+    <span style="color:green">[MethodImpl(InternalCall)]</span><span style="color:blue">public</span> <span style="color:blue">static</span> <span style="color:#2B91AF">object[]</span> GetObjectsForNativeVariants(<span style="color:#2B91AF">IntPtr</span> aSrcNativeVariant, <span style="color:blue">int</span> cVars);
+    <span style="color:green">[MethodImpl(InternalCall)]</span><span style="color:blue">public</span> <span style="color:blue">static</span> <span style="color:blue">int</span> GetStartComSlot(<span style="color:#2B91AF">Type</span> t);
+    <span style="color:green">[MethodImpl(InternalCall)]</span><span style="color:blue">public</span> <span style="color:blue">static</span> <span style="color:blue">object</span> GetUniqueObjectForIUnknown(<span style="color:#2B91AF">IntPtr</span> unknown);
+    <span style="color:green">[MethodImpl(InternalCall)]</span><span style="color:blue">public</span> <span style="color:blue">static</span> <span style="color:blue">void</span> StructureToPtr(<span style="color:blue">object</span> structure, <span style="color:#2B91AF">IntPtr</span> ptr, <span style="color:blue">bool</span> fDeleteOld);
+    <span style="color:green">[MethodImpl(InternalCall)]</span><span style="color:blue">public</span> <span style="color:blue">static</span> <span style="color:#2B91AF">IntPtr</span> UnsafeAddrOfPinnedArrayElement(<span style="color:#2B91AF">Array</span> arr, <span style="color:blue">int</span> index);
+  }
+}
+<span style="color:blue">namespace</span> System.Runtime.Serialization {
+  <span style="color:blue">public</span> <span style="color:blue">sealed</span> <span style="color:blue">class</span> CollectionDataContractAttribute : <span style="color:#2B91AF">Attribute</span> {
+    <span style="color:green">public bool IsItemNameSetExplicitly { get; }</span>
+    <span style="color:green">public bool IsKeyNameSetExplicitly { get; }</span>
+    <span style="color:green">public bool IsNameSetExplicitly { get; }</span>
+    <span style="color:green">public bool IsNamespaceSetExplicitly { get; }</span>
+    <span style="color:green">public bool IsReferenceSetExplicitly { get; }</span>
+    <span style="color:green">public bool IsValueNameSetExplicitly { get; }</span>
+  }
+  <span style="color:blue">public</span> <span style="color:blue">sealed</span> <span style="color:blue">class</span> DataContractAttribute : <span style="color:#2B91AF">Attribute</span> {
+    <span style="color:green">public bool IsNameSetExplicitly { get; }</span>
+    <span style="color:green">public bool IsNamespaceSetExplicitly { get; }</span>
+    <span style="color:green">public bool IsReferenceSetExplicitly { get; }</span>
+  }
+  <span style="color:blue">public</span> <span style="color:blue">sealed</span> <span style="color:blue">class</span> DataMemberAttribute : <span style="color:#2B91AF">Attribute</span> {
+    <span style="color:green">public bool IsNameSetExplicitly { get; }</span>
+  }
+  <span style="color:blue">public</span> <span style="color:blue">sealed</span> <span style="color:blue">class</span> EnumMemberAttribute : <span style="color:#2B91AF">Attribute</span> {
+    <span style="color:green">public bool IsValueSetExplicitly { get; }</span>
+  }
+}
+<span style="color:blue">namespace</span> System.Security.AccessControl {
+  <span style="color:blue">public</span> <span style="color:blue">sealed</span> <span style="color:blue">class</span> AuthorizationRuleCollection : <span style="color:#2B91AF">ReadOnlyCollectionBase</span> {
+    <span style="color:green">public AuthorizationRuleCollection();</span>
+    <span style="color:green">public void AddRule(AuthorizationRule rule);</span>
+  }
+  <span style="color:blue">public</span> <span style="color:blue">sealed</span> <span style="color:blue">class</span> CommonSecurityDescriptor : <span style="color:#2B91AF">GenericSecurityDescriptor</span> {
+    <span style="color:green">public void AddDiscretionaryAcl(byte revision, int trusted);</span>
+    <span style="color:green">public void AddSystemAcl(byte revision, int trusted);</span>
+  }
+  <span style="color:blue">public</span> <span style="color:blue">sealed</span> <span style="color:blue">class</span> DiscretionaryAcl : <span style="color:#2B91AF">CommonAcl</span> {
+    <span style="color:green">public void AddAccess(AccessControlType accessType, SecurityIdentifier sid, ObjectAccessRule rule);</span>
+    <span style="color:green">public bool RemoveAccess(AccessControlType accessType, SecurityIdentifier sid, ObjectAccessRule rule);</span>
+    <span style="color:green">public void RemoveAccessSpecific(AccessControlType accessType, SecurityIdentifier sid, ObjectAccessRule rule);</span>
+    <span style="color:green">public void SetAccess(AccessControlType accessType, SecurityIdentifier sid, ObjectAccessRule rule);</span>
+  }
+  <span style="color:blue">public</span> <span style="color:blue">abstract</span> <span style="color:blue">class</span> ObjectSecurity {
+    <span style="color:green">protected ObjectSecurity();</span>
+    <span style="color:green">protected ObjectSecurity(CommonSecurityDescriptor securityDescriptor);</span>
+  }
+  <span style="color:blue">public</span> <span style="color:blue">sealed</span> <span style="color:blue">class</span> SystemAcl : <span style="color:#2B91AF">CommonAcl</span> {
+    <span style="color:green">public void AddAudit(SecurityIdentifier sid, ObjectAuditRule rule);</span>
+    <span style="color:green">public bool RemoveAudit(SecurityIdentifier sid, ObjectAuditRule rule);</span>
+    <span style="color:green">public void RemoveAuditSpecific(SecurityIdentifier sid, ObjectAuditRule rule);</span>
+    <span style="color:green">public void SetAudit(SecurityIdentifier sid, ObjectAuditRule rule);</span>
+  }
+}
+<span style="color:blue">namespace</span> System.Security.Claims {
+  <span style="color:blue">public</span> <span style="color:blue">class</span> Claim {
+    <span style="color:green">public Claim(BinaryReader reader);</span>
+    <span style="color:green">public Claim(BinaryReader reader, ClaimsIdentity subject);</span>
+    <span style="color:green">protected Claim(Claim other);</span>
+    <span style="color:green">protected Claim(Claim other, ClaimsIdentity subject);</span>
+    <span style="color:green">protected virtual byte[] CustomSerializationData { get; }</span>
+    <span style="color:green">public virtual void WriteTo(BinaryWriter writer);</span>
+    <span style="color:green">protected virtual void WriteTo(BinaryWriter writer, byte[] userData);</span>
+  }
+  <span style="color:blue">public</span> <span style="color:blue">class</span> ClaimsIdentity : <span style="color:#2B91AF">IIdentity</span> {
+    <span style="color:green">public ClaimsIdentity(BinaryReader reader);</span>
+    <span style="color:green">protected ClaimsIdentity(ClaimsIdentity other);</span>
+    <span style="color:green">protected virtual byte[] CustomSerializationData { get; }</span>
+    <span style="color:green">protected virtual Claim CreateClaim(BinaryReader reader);</span>
+    <span style="color:green">public virtual void WriteTo(BinaryWriter writer);</span>
+    <span style="color:green">protected virtual void WriteTo(BinaryWriter writer, byte[] userData);</span>
+  }
+  <span style="color:blue">public</span> <span style="color:blue">class</span> ClaimsPrincipal : <span style="color:#2B91AF">IPrincipal</span> {
+    <span style="color:green">public ClaimsPrincipal(BinaryReader reader);</span>
+    <span style="color:green">protected virtual byte[] CustomSerializationData { get; }</span>
+    <span style="color:green">public virtual ClaimsPrincipal Clone();</span>
+    <span style="color:green">protected virtual ClaimsIdentity CreateClaimsIdentity(BinaryReader reader);</span>
+    <span style="color:green">public virtual void WriteTo(BinaryWriter writer);</span>
+    <span style="color:green">protected virtual void WriteTo(BinaryWriter writer, byte[] userData);</span>
+  }
+}
+<span style="color:blue">namespace</span> System.Security.Cryptography {
+  <span style="color:blue">public</span> <span style="color:blue">abstract</span> <span style="color:blue">class</span> AsymmetricAlgorithm : <span style="color:#2B91AF">IDisposable</span> {
+    <span style="color:blue">public</span> <span style="color:red">abstract</span><span style="color:green">virtual</span> <span style="color:blue">string</span> KeyExchangeAlgorithm { <span style="color:blue">get</span>; }
+    <span style="color:blue">public</span> <span style="color:red">abstract</span><span style="color:green">virtual</span> <span style="color:blue">string</span> SignatureAlgorithm { <span style="color:blue">get</span>; }
+    <span style="color:blue">public</span> <span style="color:red">abstract</span><span style="color:green">virtual</span> <span style="color:blue">void</span> FromXmlString(<span style="color:blue">string</span> xmlString);
+    <span style="color:blue">public</span> <span style="color:red">abstract</span><span style="color:green">virtual</span> <span style="color:blue">string</span> ToXmlString(<span style="color:blue">bool</span> includePrivateParameters);
+  }
+  <span style="color:blue">public</span> <span style="color:blue">sealed</span> <span style="color:blue">class</span> CngAlgorithm : <span style="color:#2B91AF">IEquatable&lt;CngAlgorithm&gt;</span> {
+    <span style="color:green">public static CngAlgorithm Rsa { get; }</span>
+  }
+  <span style="color:green">[System.Runtime.InteropServices.StructLayoutAttribute(System.Runtime.InteropServices.LayoutKind.Sequential)]
+  public struct HashAlgorithmName : IEquatable&lt;HashAlgorithmName&gt;</span> {
+    <span style="color:green">public HashAlgorithmName(string name);</span>
+    <span style="color:green">public static HashAlgorithmName MD5 { get; }</span>
+    <span style="color:green">public string Name { get; }</span>
+    <span style="color:green">public static HashAlgorithmName SHA1 { get; }</span>
+    <span style="color:green">public static HashAlgorithmName SHA256 { get; }</span>
+    <span style="color:green">public static HashAlgorithmName SHA384 { get; }</span>
+    <span style="color:green">public static HashAlgorithmName SHA512 { get; }</span>
+    <span style="color:gray">public override bool Equals(object obj);</span>
+    <span style="color:gray">public bool Equals(HashAlgorithmName other);</span>
+    <span style="color:gray">public override int GetHashCode();</span>
+    <span style="color:green">public static bool operator ==(HashAlgorithmName left, HashAlgorithmName right);</span>
+    <span style="color:green">public static bool operator !=(HashAlgorithmName left, HashAlgorithmName right);</span>
+    <span style="color:gray">public override string ToString();</span>
+  }
+  <span style="color:blue">public</span> <span style="color:blue">abstract</span> <span style="color:blue">class</span> RandomNumberGenerator : <span style="color:#2B91AF">IDisposable</span> {
+    <span style="color:green">public virtual void GetBytes(byte[] data, int offset, int count);</span>
+  }
+  <span style="color:blue">public</span> <span style="color:blue">class</span> Rfc2898DeriveBytes : <span style="color:#2B91AF">DeriveBytes</span> {
+    <span style="color:green">public byte[] CryptDeriveKey(string algname, string alghashname, int keySize, byte[] rgbIV);</span>
+  }
+  <span style="color:blue">public</span> <span style="color:blue">abstract</span> <span style="color:blue">class</span> RSA : <span style="color:#2B91AF">AsymmetricAlgorithm</span> {
+    <span style="color:gray">public override string KeyExchangeAlgorithm { get; }</span>
+    <span style="color:gray">public override string SignatureAlgorithm { get; }</span>
+    <span style="color:green">public virtual byte[] Decrypt(byte[] data, RSAEncryptionPadding padding);</span>
+    <span style="color:blue">public</span> <span style="color:red">abstract</span><span style="color:green">virtual</span> <span style="color:#2B91AF">byte[]</span> DecryptValue(<span style="color:#2B91AF">byte[]</span> rgb);
+    <span style="color:green">public virtual byte[] Encrypt(byte[] data, RSAEncryptionPadding padding);</span>
+    <span style="color:blue">public</span> <span style="color:red">abstract</span><span style="color:green">virtual</span> <span style="color:#2B91AF">byte[]</span> EncryptValue(<span style="color:#2B91AF">byte[]</span> rgb);
+    <span style="color:green">protected virtual byte[] HashData(byte[] data, int offset, int count, HashAlgorithmName hashAlgorithm);</span>
+    <span style="color:green">protected virtual byte[] HashData(Stream data, HashAlgorithmName hashAlgorithm);</span>
+    <span style="color:green">public virtual byte[] SignData(byte[] data, int offset, int count, HashAlgorithmName hashAlgorithm, RSASignaturePadding padding);</span>
+    <span style="color:green">public byte[] SignData(byte[] data, HashAlgorithmName hashAlgorithm, RSASignaturePadding padding);</span>
+    <span style="color:green">public virtual byte[] SignData(Stream data, HashAlgorithmName hashAlgorithm, RSASignaturePadding padding);</span>
+    <span style="color:green">public virtual byte[] SignHash(byte[] hash, HashAlgorithmName hashAlgorithm, RSASignaturePadding padding);</span>
+    <span style="color:green">public bool VerifyData(byte[] data, byte[] signature, HashAlgorithmName hashAlgorithm, RSASignaturePadding padding);</span>
+    <span style="color:green">public virtual bool VerifyData(byte[] data, int offset, int count, byte[] signature, HashAlgorithmName hashAlgorithm, RSASignaturePadding padding);</span>
+    <span style="color:green">public bool VerifyData(Stream data, byte[] signature, HashAlgorithmName hashAlgorithm, RSASignaturePadding padding);</span>
+    <span style="color:green">public virtual bool VerifyHash(byte[] hash, byte[] signature, HashAlgorithmName hashAlgorithm, RSASignaturePadding padding);</span>
+  }
+  <span style="color:green">public sealed class RSACng : RSA</span> {
+    <span style="color:green">public RSACng();</span>
+    <span style="color:green">public RSACng(int keySize);</span>
+    <span style="color:green">public RSACng(CngKey key);</span>
+    <span style="color:green">public CngKey Key { get; }</span>
+    <span style="color:gray">public override byte[] Decrypt(byte[] data, RSAEncryptionPadding padding);</span>
+    <span style="color:gray">protected override void Dispose(bool disposing);</span>
+    <span style="color:gray">public override byte[] Encrypt(byte[] data, RSAEncryptionPadding padding);</span>
+    <span style="color:gray">public override RSAParameters ExportParameters(bool includePrivateParameters);</span>
+    <span style="color:gray">protected override byte[] HashData(byte[] data, int offset, int count, HashAlgorithmName hashAlgorithm);</span>
+    <span style="color:gray">protected override byte[] HashData(Stream data, HashAlgorithmName hashAlgorithm);</span>
+    <span style="color:gray">public override void ImportParameters(RSAParameters parameters);</span>
+    <span style="color:gray">public override byte[] SignHash(byte[] hash, HashAlgorithmName hashAlgorithm, RSASignaturePadding padding);</span>
+    <span style="color:gray">public override bool VerifyHash(byte[] hash, byte[] signature, HashAlgorithmName hashAlgorithm, RSASignaturePadding padding);</span>
+  }
+  <span style="color:blue">public</span> <span style="color:blue">sealed</span> <span style="color:blue">class</span> RSACryptoServiceProvider : <span style="color:#2B91AF">RSA</span>, <span style="color:#2B91AF">ICspAsymmetricAlgorithm</span> {
+    <span style="color:gray">public override byte[] Decrypt(byte[] data, RSAEncryptionPadding padding);</span>
+    <span style="color:gray">public override byte[] Encrypt(byte[] data, RSAEncryptionPadding padding);</span>
+    <span style="color:gray">protected override byte[] HashData(byte[] data, int offset, int count, HashAlgorithmName hashAlgorithm);</span>
+    <span style="color:gray">protected override byte[] HashData(Stream data, HashAlgorithmName hashAlgorithm);</span>
+    <span style="color:gray">public override byte[] SignHash(byte[] hash, HashAlgorithmName hashAlgorithm, RSASignaturePadding padding);</span>
+    <span style="color:gray">public override bool VerifyHash(byte[] hash, byte[] signature, HashAlgorithmName hashAlgorithm, RSASignaturePadding padding);</span>
+  }
+  <span style="color:green">public sealed class RSAEncryptionPadding : IEquatable&lt;RSAEncryptionPadding&gt;</span> {
+    <span style="color:green">public RSAEncryptionPaddingMode Mode { get; }</span>
+    <span style="color:green">public HashAlgorithmName OaepHashAlgorithm { get; }</span>
+    <span style="color:green">public static RSAEncryptionPadding OaepSHA1 { get; }</span>
+    <span style="color:green">public static RSAEncryptionPadding OaepSHA256 { get; }</span>
+    <span style="color:green">public static RSAEncryptionPadding OaepSHA384 { get; }</span>
+    <span style="color:green">public static RSAEncryptionPadding OaepSHA512 { get; }</span>
+    <span style="color:green">public static RSAEncryptionPadding Pkcs1 { get; }</span>
+    <span style="color:green">public static RSAEncryptionPadding CreateOaep(HashAlgorithmName hashAlgorithm);</span>
+    <span style="color:gray">public override bool Equals(object obj);</span>
+    <span style="color:gray">public bool Equals(RSAEncryptionPadding other);</span>
+    <span style="color:gray">public override int GetHashCode();</span>
+    <span style="color:green">public static bool operator ==(RSAEncryptionPadding left, RSAEncryptionPadding right);</span>
+    <span style="color:green">public static bool operator !=(RSAEncryptionPadding left, RSAEncryptionPadding right);</span>
+    <span style="color:gray">public override string ToString();</span>
+  }
+  <span style="color:green">public enum RSAEncryptionPaddingMode</span> {
+    <span style="color:green">Oaep = 1,</span>
+    <span style="color:green">Pkcs1 = 0,</span>
+  }
+  <span style="color:green">public sealed class RSASignaturePadding : IEquatable&lt;RSASignaturePadding&gt;</span> {
+    <span style="color:green">public RSASignaturePaddingMode Mode { get; }</span>
+    <span style="color:green">public static RSASignaturePadding Pkcs1 { get; }</span>
+    <span style="color:green">public static RSASignaturePadding Pss { get; }</span>
+    <span style="color:gray">public override bool Equals(object obj);</span>
+    <span style="color:gray">public bool Equals(RSASignaturePadding other);</span>
+    <span style="color:gray">public override int GetHashCode();</span>
+    <span style="color:green">public static bool operator ==(RSASignaturePadding left, RSASignaturePadding right);</span>
+    <span style="color:green">public static bool operator !=(RSASignaturePadding left, RSASignaturePadding right);</span>
+    <span style="color:gray">public override string ToString();</span>
+  }
+  <span style="color:green">public enum RSASignaturePaddingMode</span> {
+    <span style="color:green">Pkcs1 = 0,</span>
+    <span style="color:green">Pss = 1,</span>
+  }
+}
+<span style="color:blue">namespace</span> System.Security.Cryptography.X509Certificates {
+  <span style="color:green">public static class RSACertificateExtensions</span> {
+    <span style="color:green">public static RSA GetRSAPrivateKey(this X509Certificate2 certificate);</span>
+    <span style="color:green">public static RSA GetRSAPublicKey(this X509Certificate2 certificate);</span>
+  }
+  <span style="color:blue">public</span> <span style="color:blue">class</span> X509Certificate : <span style="color:#2B91AF">IDeserializationCallback</span>, <span style="color:green">IDisposable, </span><span style="color:#2B91AF">ISerializable</span> {
+    <span style="color:gray">public void Dispose();</span>
+    <span style="color:green">protected virtual void Dispose(bool disposing);</span>
+  }
+  <span style="color:blue">public</span> <span style="color:blue">class</span> X509Chain<span style="color:green"> : IDisposable</span> {
+    <span style="color:green">public SafeX509ChainHandle SafeHandle { get; }</span>
+    <span style="color:gray">public void Dispose();</span>
+    <span style="color:green">protected virtual void Dispose(bool disposing);</span>
+  }
+  <span style="color:blue">public</span> <span style="color:blue">sealed</span> <span style="color:blue">class</span> X509Store<span style="color:green"> : IDisposable</span> {
+    <span style="color:gray">public void Dispose();</span>
+  }
+}
+<span style="color:blue">namespace</span> System.Security.Cryptography.Xml {
+  <span style="color:blue">public</span> <span style="color:blue">class</span> EncryptedXml {
+    <span style="color:green">public int XmlDSigSearchDepth { get; set; }</span>
+  }
+}
+<span style="color:blue">namespace</span> System.Security.Principal {
+  <span style="color:blue">public</span> <span style="color:blue">class</span> WindowsIdentity : <span style="color:#2B91AF">ClaimsIdentity</span>, <span style="color:#2B91AF">IDeserializationCallback</span>, <span style="color:#2B91AF">IDisposable</span>, <span style="color:#2B91AF">ISerializable</span> {
+    <span style="color:green">public SafeAccessTokenHandle AccessToken { get; }</span>
+    <span style="color:green">public static void RunImpersonated(SafeAccessTokenHandle safeAccessTokenHandle, Action action);</span>
+    <span style="color:green">public static T RunImpersonated&lt;T&gt;(SafeAccessTokenHandle safeAccessTokenHandle, Func&lt;T&gt; func);</span>
+  }
+}
+<span style="color:blue">namespace</span> System.ServiceModel {
+  <span style="color:blue">public</span> <span style="color:blue">sealed</span> <span style="color:blue">class</span> TcpTransportSecurity {
+    <span style="color:green">public SslProtocols SslProtocols { get; set; }</span>
+  }
+}
+<span style="color:blue">namespace</span> System.ServiceModel.Channels {
+  <span style="color:blue">public</span> <span style="color:blue">class</span> SslStreamSecurityBindingElement : <span style="color:#2B91AF">StreamUpgradeBindingElement</span>, <span style="color:#2B91AF">IPolicyExportExtension</span>, <span style="color:#2B91AF">ITransportTokenAssertionProvider</span> {
+    <span style="color:green">public SslProtocols SslProtocols { get; set; }</span>
+  }
+}
+<span style="color:blue">namespace</span> System.ServiceModel.Configuration {
+  <span style="color:blue">public</span> <span style="color:blue">sealed</span> <span style="color:blue">class</span> SslStreamSecurityElement : <span style="color:#2B91AF">BindingElementExtensionElement</span> {
+    <span style="color:green">public SslProtocols SslProtocols { get; }</span>
+  }
+  <span style="color:blue">public</span> <span style="color:blue">sealed</span> <span style="color:blue">class</span> TcpTransportSecurityElement : <span style="color:#2B91AF">ServiceModelConfigurationElement</span> {
+    <span style="color:green">public SslProtocols SslProtocols { get; }</span>
+  }
+}
+<span style="color:blue">namespace</span> System.Text {
+  <span style="color:blue">public</span> <span style="color:blue">abstract</span> <span style="color:blue">class</span> Encoding : <span style="color:#2B91AF">ICloneable</span> {
+    <span style="color:green">protected Encoding(int codePage, EncoderFallback encoderFallback, DecoderFallback decoderFallback);</span>
+    <span style="color:green">public unsafe string GetString(byte* bytes, int byteCount);</span>
+    <span style="color:green">public static void RegisterProvider(EncodingProvider provider);</span>
+  }
+  <span style="color:green">public abstract class EncodingProvider</span> {
+    <span style="color:green">public EncodingProvider();</span>
+    <span style="color:green">public abstract Encoding GetEncoding(int codepage);</span>
+    <span style="color:green">public virtual Encoding GetEncoding(int codepage, EncoderFallback encoderFallback, DecoderFallback decoderFallback);</span>
+    <span style="color:green">public abstract Encoding GetEncoding(string name);</span>
+    <span style="color:green">public virtual Encoding GetEncoding(string name, EncoderFallback encoderFallback, DecoderFallback decoderFallback);</span>
+  }
+  <span style="color:blue">public</span> <span style="color:blue">sealed</span> <span style="color:blue">class</span> StringBuilder : <span style="color:#2B91AF">ISerializable</span> {
+    <span style="color:green">public unsafe StringBuilder Append(char* value, int valueCount);</span>
+    <span style="color:green">public StringBuilder AppendFormat(IFormatProvider provider, string format, object arg0);</span>
+    <span style="color:green">public StringBuilder AppendFormat(IFormatProvider provider, string format, object arg0, object arg1);</span>
+    <span style="color:green">public StringBuilder AppendFormat(IFormatProvider provider, string format, object arg0, object arg1, object arg2);</span>
+  }
+}
+<span style="color:blue">namespace</span> System.Threading {
+  <span style="color:green">public sealed class AsyncLocal&lt;T&gt;</span> {
+    <span style="color:green">public AsyncLocal();</span>
+    <span style="color:green">public AsyncLocal(Action&lt;AsyncLocalValueChangedArgs&lt;T&gt;&gt; valueChangedHandler);</span>
+    <span style="color:green">public T Value { get; set; }</span>
+  }
+  <span style="color:green">[System.Runtime.InteropServices.StructLayoutAttribute(System.Runtime.InteropServices.LayoutKind.Sequential)]
+  public struct AsyncLocalValueChangedArgs&lt;T&gt;</span> {
+    <span style="color:green">public T CurrentValue { get; }</span>
+    <span style="color:green">public T PreviousValue { get; }</span>
+    <span style="color:green">public bool ThreadContextChanged { get; }</span>
+  }
+  <span style="color:green">public static class WaitHandleExtensions</span> {
+    <span style="color:green">public static SafeWaitHandle GetSafeWaitHandle(this WaitHandle waitHandle);</span>
+    <span style="color:green">public static void SetSafeWaitHandle(this WaitHandle waitHandle, SafeWaitHandle value);</span>
+  }
+}
+<span style="color:blue">namespace</span> System.Threading.Tasks {
+  <span style="color:blue">public</span> <span style="color:blue">class</span> Task : <span style="color:#2B91AF">IAsyncResult</span>, <span style="color:#2B91AF">IDisposable</span> {
+    <span style="color:green">public static Task CompletedTask { get; }</span>
+    <span style="color:green">public static Task FromCanceled(CancellationToken cancellationToken);</span>
+    <span style="color:green">public static Task&lt;TResult&gt; FromCanceled&lt;TResult&gt;(CancellationToken cancellationToken);</span>
+    <span style="color:green">public static Task FromException(Exception exception);</span>
+    <span style="color:green">public static Task&lt;TResult&gt; FromException&lt;TResult&gt;(Exception exception);</span>
+  }
+  <span style="color:blue">public</span> <span style="color:blue">class</span> TaskCompletionSource&lt;<span style="color:#2B91AF">TResult</span>&gt; {
+    <span style="color:green">public bool TrySetCanceled(CancellationToken cancellationToken);</span>
+  }
+  <span style="color:blue">public</span> <span style="color:blue">enum</span> TaskContinuationOptions {
+    <span style="color:green">RunContinuationsAsynchronously = 64,</span>
+  }
+  <span style="color:blue">public</span> <span style="color:blue">enum</span> TaskCreationOptions {
+    <span style="color:green">RunContinuationsAsynchronously = 64,</span>
+  }
+}
+<span style="color:blue">namespace</span> System.Web {
+  <span style="color:blue">public</span> <span style="color:blue">sealed</span> <span style="color:blue">class</span> HttpRequest {
+    <span style="color:green">public ITlsTokenBindingInfo TlsTokenBindingInfo { get; }</span>
+  }
+  <span style="color:blue">public</span> <span style="color:blue">abstract</span> <span style="color:blue">class</span> HttpRequestBase {
+    <span style="color:green">public virtual ITlsTokenBindingInfo TlsTokenBindingInfo { get; }</span>
+  }
+  <span style="color:blue">public</span> <span style="color:blue">class</span> HttpRequestWrapper : <span style="color:#2B91AF">HttpRequestBase</span> {
+    <span style="color:gray">public override ITlsTokenBindingInfo TlsTokenBindingInfo { get; }</span>
+  }
+  <span style="color:blue">public</span> <span style="color:blue">sealed</span> <span style="color:blue">class</span> HttpResponse {
+    <span style="color:green">public Task FlushAsync();</span>
+    <span style="color:green">public void PushPromise(string path);</span>
+    <span style="color:green">public void PushPromise(string path, string method, NameValueCollection headers);</span>
+  }
+  <span style="color:blue">public</span> <span style="color:blue">abstract</span> <span style="color:blue">class</span> HttpResponseBase {
+    <span style="color:green">public virtual Task FlushAsync();</span>
+    <span style="color:green">public virtual void PushPromise(string path);</span>
+    <span style="color:green">public virtual void PushPromise(string path, string method, NameValueCollection headers);</span>
+  }
+  <span style="color:blue">public</span> <span style="color:blue">class</span> HttpResponseWrapper : <span style="color:#2B91AF">HttpResponseBase</span> {
+    <span style="color:gray">public override Task FlushAsync();</span>
+    <span style="color:gray">public override void PushPromise(string path);</span>
+    <span style="color:gray">public override void PushPromise(string path, string method, NameValueCollection headers);</span>
+  }
+  <span style="color:green">public interface ITlsTokenBindingInfo</span> {
+    <span style="color:green">byte[] GetProvidedTokenBindingId();</span>
+    <span style="color:green">byte[] GetReferredTokenBindingId();</span>
+  }
+}
+<span style="color:blue">namespace</span> System.Web.UI.WebControls {
+  <span style="color:blue">public</span> <span style="color:blue">class</span> ModelDataSourceView : <span style="color:#2B91AF">DataSourceView</span>, <span style="color:#2B91AF">IStateManager</span> {
+    <span style="color:gray">public override void Delete(IDictionary keys, IDictionary oldValues, DataSourceViewOperationCallback callback);</span>
+    <span style="color:gray">public override void Insert(IDictionary values, DataSourceViewOperationCallback callback);</span>
+    <span style="color:gray">public override void Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback);</span>
+    <span style="color:gray">public override void Update(IDictionary keys, IDictionary values, IDictionary oldValues, DataSourceViewOperationCallback callback);</span>
+  }
+  <span style="color:green">public sealed class SelectResult</span> {
+    <span style="color:green">public SelectResult(int totalRowCount, IEnumerable results);</span>
+    <span style="color:green">public IEnumerable Results { get; }</span>
+    <span style="color:green">public int TotalRowCount { get; }</span>
+  }
+}
+<span style="color:blue">namespace</span> System.Windows {
+  <span style="color:blue">public</span> <span style="color:blue">static</span> <span style="color:blue">class</span> CoreCompatibilityPreferences {
+    <span style="color:green">public static Nullable&lt;bool&gt; EnableMultiMonitorDisplayClipping { get; set; }</span>
+  }
+}
+<span style="color:green">namespace System.Windows.Diagnostics</span> {
+  <span style="color:green">public static class VisualDiagnostics</span> {
+    <span style="color:green">public static event EventHandler&lt;VisualTreeChangeEventArgs&gt; VisualTreeChanged;</span>
+    <span style="color:green">public static XamlSourceInfo GetXamlSourceInfo(object obj);</span>
+  }
+  <span style="color:green">public class VisualTreeChangeEventArgs : EventArgs</span> {
+    <span style="color:green">public VisualTreeChangeEventArgs(DependencyObject parent, DependencyObject child, int childIndex, VisualTreeChangeType changeType);</span>
+    <span style="color:green">public VisualTreeChangeType ChangeType { get; }</span>
+    <span style="color:green">public DependencyObject Child { get; }</span>
+    <span style="color:green">public int ChildIndex { get; }</span>
+    <span style="color:green">public DependencyObject Parent { get; }</span>
+  }
+  <span style="color:green">public enum VisualTreeChangeType</span> {
+    <span style="color:green">Add = 0,</span>
+    <span style="color:green">Remove = 1,</span>
+  }
+  <span style="color:green">public class XamlSourceInfo</span> {
+    <span style="color:green">public XamlSourceInfo(Uri sourceUri, int lineNumber, int linePosition);</span>
+    <span style="color:green">public int LineNumber { get; }</span>
+    <span style="color:green">public int LinePosition { get; }</span>
+    <span style="color:green">public Uri SourceUri { get; }</span>
+  }
+}
+<span style="color:blue">namespace</span> System.Windows.Forms {
+  <span style="color:blue">public</span> <span style="color:blue">class</span> MonthCalendar : <span style="color:#2B91AF">Control</span> {
+    <span style="color:gray">protected override void DefWndProc(ref Message m);</span>
+  }
+}
+<span style="color:blue">namespace</span> System.Windows.Input {
+  <span style="color:blue">public</span> <span style="color:blue">sealed</span> <span style="color:blue">class</span> Cursor : <span style="color:#2B91AF">IDisposable</span> {
+    <span style="color:green">public Cursor(Stream cursorStream, bool scaleWithDpi);</span>
+    <span style="color:green">public Cursor(string cursorFile, bool scaleWithDpi);</span>
+  }
+  <span style="color:blue">public</span> <span style="color:blue">sealed</span> <span style="color:blue">class</span> StylusDevice : <span style="color:#2B91AF">InputDevice</span> {
+    <span style="color:green">public bool IsValid { get; }</span>
+  }
+}
+<span style="color:blue">namespace</span> System.Windows.Interop {
+  [<span style="color:#2B91AF">System.Runtime.InteropServices.StructLayoutAttribute</span>(System.Runtime.InteropServices.LayoutKind.Sequential)]
+  <span style="color:blue">public</span> <span style="color:blue">struct</span> HwndSourceParameters {
+    <span style="color:green">public bool UsesPerPixelTransparency { get; set; }</span>
+  }
+}
+<span style="color:blue">namespace</span> System.Xaml {
+  <span style="color:blue">public</span> <span style="color:blue">class</span> XamlObjectEventArgs : <span style="color:#2B91AF">EventArgs</span> {
+    <span style="color:green">public int ElementLineNumber { get; }</span>
+    <span style="color:green">public int ElementLinePosition { get; }</span>
+    <span style="color:green">public Uri SourceBamlUri { get; }</span>
+  }
+}
+<span style="color:blue">namespace</span> System.Xml {
+  <span style="color:blue">public</span> <span style="color:blue">class</span> XmlCDataSection : <span style="color:#2B91AF">XmlCharacterData</span> {
+    <span style="color:gray">public override XmlNode PreviousText { get; }</span>
+  }
+  <span style="color:blue">public</span> <span style="color:blue">abstract</span> <span style="color:blue">class</span> XmlNode : <span style="color:#2B91AF">ICloneable</span>, <span style="color:#2B91AF">IEnumerable</span>, <span style="color:#2B91AF">IXPathNavigable</span> {
+    <span style="color:green">public virtual XmlNode PreviousText { get; }</span>
+  }
+  <span style="color:blue">public</span> <span style="color:blue">class</span> XmlSignificantWhitespace : <span style="color:#2B91AF">XmlCharacterData</span> {
+    <span style="color:gray">public override XmlNode PreviousText { get; }</span>
+  }
+  <span style="color:blue">public</span> <span style="color:blue">class</span> XmlText : <span style="color:#2B91AF">XmlCharacterData</span> {
+    <span style="color:gray">public override XmlNode PreviousText { get; }</span>
+  }
+  <span style="color:blue">public</span> <span style="color:blue">class</span> XmlWhitespace : <span style="color:#2B91AF">XmlCharacterData</span> {
+    <span style="color:gray">public override XmlNode PreviousText { get; }</span>
+  }
+}
+</pre>
+</body>
+</html>

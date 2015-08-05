@@ -200,6 +200,11 @@ Note that when you run your application under the Visual Studio debugger, it mig
 
 **Note** This method applies to all .NET JIT compilers.
 
+.NET Framework 4.6 and RyuJIT CTP releases
+==========================================
+
+Before .NET Framework 4.6 was released with RyuJIT as the default .NET JIT for the x64 architecture, RyuJIT was shipped several times as a CTP ("Community Technology Preview") release. If you previously installed a RyuJIT CTP, you must remove any manually created configuration related to using the RyuJIT CTP, before upgrading to .NET Framework 4.6. You can read more details [here](https://support.microsoft.com/en-us/kb/3065367).
+
 Additional Notes
 ================
 

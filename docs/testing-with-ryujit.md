@@ -1,4 +1,4 @@
-.NET Framework 4.6 - Troubleshooing RyuJIT
+.NET Framework 4.6 - Troubleshooting RyuJIT
 ==========================================
 
 The [.NET Framework 4.6](http://blogs.msdn.com/b/dotnet/archive/2015/07/20/announcing-net-framework-4-6.aspx#net-framework-46) includes a new Just-In-Time (JIT) compiler for 64-bit processes, called RyuJIT. It is enabled by default. Note that the 32-bit JIT in .NET Framework 4.6 is not significantly changed from previous releases. This document does not describe troubleshooting problems with the 32-bit JIT.
@@ -152,7 +152,7 @@ To prevent any NGEN native image from being used, and force all code to be compi
 Disable Tail Call Optimization
 ==============================
 
-You can disable tail call optimization in RyuJIT with the following instructions.
+"Tail call" is a code pattern that the JIT compiler can sometimes optimize to improve code performance. You can see some discussion about JIT and tail call [here](http://blogs.msdn.com/b/clrcodegeneration/archive/2010/05/07/jit-etw-tail-call-event-fail-reasons.aspx). You can disable tail call optimization in RyuJIT with the following instructions.
 
 * Using Registry Editor (regedit.exe), find either of the following subkeys:
 
@@ -196,7 +196,7 @@ While troubleshooting, it might be useful to determine if *any* JIT optimization
 
 and run your application.
 
-Note that when you run your application under the Visual Studio debugger, it disables JIT optimization by default, to improve the debugging experience. You can read about that [here](https://msdn.microsoft.com/en-us/library/ms241594.aspx).
+Note that when you run your application under the Visual Studio debugger, it might disable JIT optimization to improve the debugging experience. In Visual Studio 2013 and before, JIT optimization is disabled by default. In Visual Studio 2015, it is not disabled by default. The option in Visual Studio is called "Suppress JIT optimization on module load". You can read about that [here](https://msdn.microsoft.com/en-us/library/ms241594.aspx). Note that the MSDN documentation is incorrect about the Visual Studio 2015 default.
 
 **Note** This method applies to all .NET JIT compilers.
 

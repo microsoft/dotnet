@@ -203,7 +203,28 @@ Note that when you run your application under the Visual Studio debugger, it mig
 .NET Framework 4.6 and RyuJIT CTP releases
 ==========================================
 
-Before .NET Framework 4.6 was released with RyuJIT as the default .NET JIT for the x64 architecture, RyuJIT was shipped several times as a CTP ("Community Technology Preview") release. If you previously installed a RyuJIT CTP, you must remove any manually created configuration related to using the RyuJIT CTP, before upgrading to .NET Framework 4.6. You can read more details [here](https://support.microsoft.com/en-us/kb/3065367).
+Before .NET Framework 4.6 was released with RyuJIT as the default .NET JIT for the x64 architecture, RyuJIT was shipped several times as a CTP ("Community Technology Preview") release. For example, see the RyuJIT CTP5 release announcement [here](http://blogs.msdn.com/b/clrcodegeneration/archive/2014/10/31/ryujit-ctp5-getting-closer-to-shipping-and-with-better-simd-support.aspx).
+
+If you previously installed a RyuJIT CTP, you must remove any manually created configuration related to using the RyuJIT CTP, before upgrading to .NET Framework 4.6. If you don't, all managed applications will immediately crash on startup.
+
+To fix this issue, delete the following registry value (if it exists):
+
+        key: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework
+        value name: AltJit
+
+You can do this with Registry Editor (regedit.exe) or the command-line REG.EXE tool, as follows:
+
+        reg delete HKLM\SOFTWARE\Microsoft\.NETFramework /v AltJit
+
+Secondly, ensure that the following environment variable is not set:
+
+        COMPLUS_AltJit
+
+## More information
+
+In order to enable the JIT shipped with a RyuJIT CTP, you had to manually create the registry value or set the environment variable that is indicated above. If this registry value or environment variable exists after you install .NET Framework 4.6, the system looks for a CTP version of the JIT compiler instead of the newly installed version. Because the RyuJIT CTP releases are incompatible with .NET Framework 4.6, this causes managed applications to crash. 
+
+Note that the .NET Framework 4.6 installer does not change or delete these manually created configuration settings. Similarly, uninstalling the RyuJIT CTP also does not change these configuration settings.
 
 Additional Notes
 ================

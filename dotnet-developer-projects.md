@@ -112,7 +112,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [NAudio](http://naudio.codeplex.com/) - An open source .NET audio and MIDI library.
  * [NetTopologySuite](https://github.com/NetTopologySuite) - A .NET port of the JTS Topology Suite.
  * [NHunspell](http://sourceforge.net/projects/nhunspell/) - Spell Checker, Hyphenation an Theasaurus
- * [NModbus4](https://github.com/Maxwe11/NModbus4) - Implementation of the Modbus protocol
+ * [NModbus4](https://github.com/NModbus4/NModbus4) - Implementation of the Modbus protocol
  * [NodaTime](https://code.google.com/p/noda-time/) - A better date and time API for .NET
  * [NPOI](https://npoi.codeplex.com) - An Office file formats (xls, xlsx, docx) read/write library for .NET
  * [OneDriveRestAPI](https://github.com/saguiitay/OneDriveRestAPI) - OneDrive .Net Client Library using the REST API.

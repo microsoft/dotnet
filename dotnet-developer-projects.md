@@ -45,6 +45,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
 
 * Web CMS
  * [DNN (formerly DotNetNuke)](https://dotnetnuke.codeplex.com/) - Web content management platform (CMS).
+ * [Kaliko CMS](https://github.com/KalikoCMS/KalikoCMS.Core) - Flexible and extensible CMS framework supporting both ASP.NET MVC and WebForms.
  * [N2CMS](https://github.com/n2cms/n2cms) - Open source, lightweight, code-first CMS able to seamlessly integrate into any MVC project.
  * [Orchard](http://orchard.codeplex.com/) - A community-focused Content Management System built on the ASP.NET MVC platform.
  * [Piranha CMS](https://github.com/PiranhaCMS/Piranha) - Lightweight CMS library for new and existing ASP.NET MVC & WebPages applications.

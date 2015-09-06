@@ -7,7 +7,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
 * .NET Implementations
  * [.NET Core](https://github.com/dotnet/core) - Core .NET Framework
  * [C# Native](https://csnative.codeplex.com) - Compiles C# to native.
- * [Cosmos](http://cosmos.codeplex.com/) - C# Open Source Managed Operating System, an operating system "construction kit".
+ * [Cosmos](https://github.com/CosmosOS/Cosmos) - C# Open Source Managed Operating System, an operating system "construction kit".
  * [Fling OS](http://git.flingos.co.uk/fling-os/src) - [C# Operating System](http://www.flingos.co.uk/) designed for people to learn low-level development from.
  * [Mono](https://github.com/mono/mono) - Cross-platform implementation of .NET Framework.
  * [MOSA Project](https://github.com/mosa/MOSA-Project/) - Managed Operating System Alliance Project - C# Operating System.
@@ -47,7 +47,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [DNN (formerly DotNetNuke)](https://dotnetnuke.codeplex.com/) - Web content management platform (CMS).
  * [Kaliko CMS](https://github.com/KalikoCMS/KalikoCMS.Core) - Flexible and extensible CMS framework supporting both ASP.NET MVC and WebForms.
  * [N2CMS](https://github.com/n2cms/n2cms) - Open source, lightweight, code-first CMS able to seamlessly integrate into any MVC project.
- * [Orchard](http://orchard.codeplex.com/) - A community-focused Content Management System built on the ASP.NET MVC platform.
+ * [Orchard](https://github.com/OrchardCMS/Orchard) - A community-focused Content Management System built on the ASP.NET MVC platform.
  * [Piranha CMS](https://github.com/PiranhaCMS/Piranha) - Lightweight CMS library for new and existing ASP.NET MVC & WebPages applications.
  * [Suave](https://github.com/SuaveIO/suave) A lightweight web server and a set of combinators to manipulate route flow and task composition.
  * [Umbraco](https://github.com/umbraco/Umbraco-CMS/) - Web content management platform (CMS).
@@ -81,7 +81,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [Brighter](https://github.com/iancooper/Paramore) - A Command Dispatcher and Command Processor library with support for Work or Task Queues over different MoM implementations such as RabbitMQ
  * [Cecil](https://github.com/jbevain/cecil) - A popular library to read, modify and write .NET binaries.
  * [Cimbalino Toolkit](https://github.com/Cimbalino/Cimbalino-Toolkit) - A set of useful and powerful tools that will help you build your Windows Platform applications.
- * [Coding4Fun Toolkit](http://coding4fun.codeplex.com/)
+ * [Coding4Fun Toolkit](https://github.com/Coding4FunProjects/Coding4FunToolkit)
  * [ColoredConsole](https://github.com/colored-console/colored-console) - Add some color to your console.
  * [ColorSharp](https://github.com/Litipk/ColorSharp) - Library to handle color spaces and light spectrums.
  * [ComparerExtensions](https://github.com/jehugaleahsa/comparerextensions) - Build IComparer and IEqualityComparer objects using natural language syntax.
@@ -107,10 +107,10 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [MahApps.Metro](https://github.com/MahApps/MahApps.Metro) - A toolkit for creating metro-style WPF applications.
  * [Math.NET Numerics](https://github.com/mathnet/mathnet-numerics) - Provides methods and algorithms for numerical computations in science, engineering and every day use.
  * [Mathos Core Libary](http://mathos.codeplex.com/) - A library with algorithms for numerical calcultations in finance, statistics, pattern recognition, and more.
- * [Mathos Parser](http://mathosparser.codeplex.com/) - A simple parser for mathematical expressions before and at runtime.
+ * [Mathos Parser](https://github.com/MathosProject/Mathos-Project) - A simple parser for mathematical expressions before and at runtime.
  * [Mjolnir](https://github.com/hudl/Mjolnir) - [Hystrix](https://github.com/Netflix/Hystrix)-inspired fault tolerance with circuit breakers and thread pools.
  * [MoreLINQ](https://code.google.com/p/morelinq/) - LINQ to Objects is missing a few desirable features. This project will enhance LINQ to Objects with extra methods, in a manner which keeps to the spirit of LINQ.
- * [NAudio](http://naudio.codeplex.com/) - An open source .NET audio and MIDI library.
+ * [NAudio](https://github.com/naudio/NAudio) - An open source .NET audio and MIDI library.
  * [NetTopologySuite](https://github.com/NetTopologySuite) - A .NET port of the JTS Topology Suite.
  * [NHunspell](http://sourceforge.net/projects/nhunspell/) - Spell Checker, Hyphenation an Theasaurus
  * [NModbus4](https://github.com/NModbus4/NModbus4) - Implementation of the Modbus protocol
@@ -234,7 +234,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [Ninject for Desktop](https://github.com/ninject/ninject) - Dependency injector for .NET
  * [Ninject for Portable Class Libraries, Universal apps and Xamarin](https://github.com/onovotny/ninject)
  * [QuickInject](https://github.com/isabgol/QuickInject) - QuickInject is a Unity 3.5 based IoC container that aims to give the Unity container a performance advantage in basic scenarios. 
- * [Simple Injector](https://simpleinjector.codeplex.com/) - Simple Injector is an easy-to-use Dependency Injection library for .NET 4+ that supports Silverlight 4+, Windows Phone 8, Windows 8 including Universal apps and Mono.
+ * [Simple Injector](https://github.com/simpleinjector/SimpleInjector/) - Simple Injector is an easy-to-use Dependency Injection library for .NET 4+ that supports Silverlight 4+, Windows Phone 8, Windows 8 including Universal apps and Mono.
  * [Spring.NET](https://github.com/spring-projects/spring-net) - Spring.NET is an open source application framework that makes building  enterprise .NET applications easier.  
  * [StructureMap](https://github.com/structuremap/structuremap) - StructureMap is a Dependency Injection / Inversion of Control tool for .Net that can be used to improve the architectural qualities of an object oriented system by reducing the mechanical costs of good design techniques.
  * [StyleMVVM](https://stylemvvm.codeplex.com/) - Style MVVM is a toolkit designed for the Windows Store platform around the idea of being light weight and fast.
@@ -243,7 +243,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
 
 * Data Access
  * [Dapper](https://github.com/StackExchange/dapper-dot-net) - Dapper is a single file you can drop in to your project that will extend your IDbConnection interface.
- * [Eggado](https://code.google.com/p/eggado/) - Eggado takes generics, lambdas, expression trees, dynamic methods and DLR and uses them to breathe new life into data access using good old ADO.NET. It's for folks who can live with a SQL dialect.
+ * [Eggado](https://bitbucket.org/raboof/eggado) - Eggado takes generics, lambdas, expression trees, dynamic methods and DLR and uses them to breathe new life into data access using good old ADO.NET. It's for folks who can live with a SQL dialect.
  * [King.Mapper](https://github.com/jefking/King.Mapper) - High performance model mapping.
  * [linq2db](https://github.com/linq2db/linq2db/) - Lightweight ORM and LINQ provider with support for various databases including MS SQL, PostgreSQL, Oracle and MySQL
  * [NHibernate](https://github.com/nhibernate) - Object Relational Mapper
@@ -253,7 +253,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [Neyro.Data](https://github.com/neyromant/Neyro.Data) - Tiny, simple and fast ORM.
  * [StackExchange.Redis](https://github.com/StackExchange/StackExchange.Redis)  
  * [SQL LocalDB Wrapper](https://github.com/martincostello/sqllocaldb) - SQL LocalDB Wrapper is an assembly providing interop with the SQL LocalDB native API from managed code using .NET APIs.
- * [LINQ2DynamoDB](http://linq2dynamodb.codeplex.com) - A type-safe data context for AWS DynamoDB with LINQ, in-memory caching and OData support.   
+ * [LINQ2DynamoDB](https://github.com/scale-tone/linq2dynamodb) - A type-safe data context for AWS DynamoDB with LINQ, in-memory caching and OData support.   
 
 * Games
  * [Duality](https://github.com/AdamsLair/duality) - An Open Source 2D Game Engine + Visual Editor written entirely in C#.
@@ -279,7 +279,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  
 * Deployment
  * [DropkicK](https://github.com/chucknorris/dropkick/) - A fluent deployment library for Windows applications
- * [RoundHouse](https://code.google.com/p/roundhouse/) - RoundhousE is a Database Migration Utility for .NET using sql files and versioning based on source control
+ * [RoundHouse](https://github.com/chucknorris/roundhouse) - RoundhousE is a Database Migration Utility for .NET using sql files and versioning based on source control
  
 * Service Bus
   * [King.Service.ServiceBus](https://github.com/jefking/King.Service.ServiceBus) - Task scheduling for Azure and Windows Servers: Service Bus.

@@ -99,6 +99,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [FluentBootstrap](https://github.com/somedave/FluentBootstrap)
  * [FluentConsole](https://github.com/ashmind/FluentConsole) - Alternative approach to colored console (`FluentConsole.Red.Text().Green.Text()`).
  * [FluentValidation](https://github.com/JeremySkinner/FluentValidation) - A small validation library for .NET that uses a fluent interface and lambda expressions for building validation rules.
+ * [Font-Awesome-WPF](https://github.com/charri/Font-Awesome-WPF) - WPF controls for the iconic font and CSS toolkit [Font Awesome](http://fortawesome.github.io/Font-Awesome/).
  * [GongSolutions.Wpf.DragDrop](https://github.com/punker76/gong-wpf-dragdrop) - A drag'n'drop framework for WPF.
  * [GeckoFX](https://bitbucket.org/geckofx) - Mozilla's Gecko layout engine wrapper in .NET.
  * [HudlFfmpeg](https://github.com/hudl/HudlFfmpeg) - A/V transcoding framework that helps build complex FFmpeg commands.
@@ -108,7 +109,6 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [leveldb-sharp](https://github.com/meebey/leveldb-sharp) - cross-platform C# binding for LevelDB
  * [LibGit2Sharp](https://github.com/libgit2/libgit2sharp) - C# language bindings for the [LibGit2](https://github.com/libgit2/libgit2) implementation of Git.
  * [Lucene.Net](https://github.com/apache/lucene.net)
- * [MahApps.Metro](https://github.com/MahApps/MahApps.Metro) - A toolkit for creating metro-style WPF applications.
  * [Math.NET Numerics](https://github.com/mathnet/mathnet-numerics) - Provides methods and algorithms for numerical computations in science, engineering and every day use.
  * [Mathos Core Libary](http://mathos.codeplex.com/) - A library with algorithms for numerical calcultations in finance, statistics, pattern recognition, and more.
  * [Mathos Parser](https://github.com/MathosProject/Mathos-Project) - A simple parser for mathematical expressions before and at runtime.
@@ -273,6 +273,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [Callisto](https://github.com/timheuer/callisto) - UI Control Toolkit for WinRT apps
  * [Dragablz](http://github.com/ButchersBoy/Dragablz) - A tearable TabControl for WPF which also provides easy-to-use and implement docking features.
  * [Eto](https://github.com/picoe/Eto) - Cross platform GUI Toolkit for desktop and mobile apps
+ * [MahApps.Metro](https://github.com/MahApps/MahApps.Metro) - A toolkit for creating Metro / Modern UI styled WPF apps. [mahapps.com](http://mahapps.com)
  * [Material Design in XAML Toolkit](https://github.com/ButchersBoy/MaterialDesignInXamlToolkit) - WPF/XAML resources, styles & templates for creating applications using Material Design
  * [Mono XWT](https://github.com/mono/xwt) - A cross-platform UI toolkit for creating desktop apps
  

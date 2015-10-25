@@ -284,7 +284,8 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
 * Scheduling
  * [Hangfire](https://github.com/HangfireIO/Hangfire) - An easy way to perform fire-and-forget, delayed and recurring tasks inside ASP.NET applications.
  * [Quartz.Net](https://github.com/quartznet/quartznet) - A full-featured, open source job scheduling system that can be used from smallest apps to large scale enterprise systems.
- 
+ * [FluentScheduler](https://github.com/fluentscheduler/FluentScheduler) - Task scheduler with fluent interface that runs automated tasks (cron jobs) from your application.
+
 * Deployment
  * [DropkicK](https://github.com/chucknorris/dropkick/) - A fluent deployment library for Windows applications
  * [RoundHouse](https://github.com/chucknorris/roundhouse) - RoundhousE is a Database Migration Utility for .NET using sql files and versioning based on source control

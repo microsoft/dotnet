@@ -152,9 +152,6 @@ WCF
 * Binding including message credential over transport allows for messages where the To header is not signed [140756]
 * Fixed a null reference exception in System.Runtime.Serialization when ETW is enabled [105266]
 
-Entity Framework
-----------------
-
 Workflow
 --------
 

@@ -35,4 +35,4 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  
 This list is just a starting point - also take a look at all the projects on [CodePlex](http://www.codeplex.com/) and on [GitHub Trending C#](https://github.com/trending?l=csharp).
 
-Thanks to @scottisafool for providing the initial list.
+Thanks to [@scottisafool](https://twitter.com/scottisafool) for providing the initial list.

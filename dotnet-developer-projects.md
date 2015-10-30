@@ -116,6 +116,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [MoreLINQ](https://code.google.com/p/morelinq/) - LINQ to Objects is missing a few desirable features. This project will enhance LINQ to Objects with extra methods, in a manner which keeps to the spirit of LINQ.
  * [NAudio](https://github.com/naudio/NAudio) - An open source .NET audio and MIDI library.
  * [NetTopologySuite](https://github.com/NetTopologySuite) - A .NET port of the JTS Topology Suite.
+ * [NEST](https://github.com/elastic/elasticsearch-net) - The official .NET client library for Elasticsearch.
  * [NHunspell](http://sourceforge.net/projects/nhunspell/) - Spell Checker, Hyphenation an Theasaurus
  * [NModbus4](https://github.com/NModbus4/NModbus4) - Implementation of the Modbus protocol
  * [NodaTime](https://code.google.com/p/noda-time/) - A better date and time API for .NET

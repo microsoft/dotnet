@@ -213,6 +213,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [canopy](https://github.com/lefthandedgoat/canopy) - A web testing framework.
  * [FakeItEasy](https://github.com/FakeItEasy/FakeItEasy) - The easy mocking library for .NET.
  * [Fixie](https://github.com/fixie/fixie) - A low-ceremony, convention-based testing framework with flexible customization.
+ * [FluentAutomation](https://github.com/stirno/FluentAutomation) - Simple Fluent API for UI Automation
  * [FsCheck](https://github.com/fsharp/FsCheck) - A tool for testing .NET programs automatically.
  * [moq](https://github.com/Moq/moq4) - The most popular and friendly mocking framework for .NET
  * [NSubstitute](https://github.com/nsubstitute/NSubstitute) - A friendly substitute for .NET mocking frameworks.

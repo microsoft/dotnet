@@ -225,6 +225,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [TestStack.FluentMvcTesting](https://github.com/TestStack/TestStack.FluentMVCTesting) - Simple, terse, fluent unit testing for ASP.NET MVC Controllers.
  * [TestStack.Seleno](https://github.com/TestStack/TestStack.Seleno) - Seleno helps you write automated UI tests in the right way by implementing Page Objects and Page Components and by reading from and writing to web pages using strongly typed view models.
  * [TestStack.White](https://github.com/TestStack/White) - White is a framework for automating rich client applications based on Win32, WinForms, WPF, Silverlight and SWT (Java) platforms.
+ * [xBehave.net](https://github.com/xbehave/xbehave.net/) - A BDD/TDD framework based on xUnit.net and inspired by Gherkin.
  * [xUnit](https://github.com/xunit/xunit) - xUnit.net is a community-focused unit testing tool for the .NET Framework.
 
 * Dependency Injection

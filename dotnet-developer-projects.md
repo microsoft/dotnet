@@ -308,6 +308,9 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
 * Windows Workflow
  * [Workflow Extractor](https://github.com/punitganshani/WorkflowExtractor) - Document Windows Workflow logic into a Word document or Excel sheet. 
 
+* Amazon Echo/Alexa Integration
+ * [AlexaSkillsKit.NET](https://github.com/AreYouFreeBusy/AlexaSkillsKit.NET) - .NET library to write Alexa Skills that's interface-compatible with Amazon's AlexaSkillsKit for Java and matches that functionality.
+
 This list is just a starting point - also take a look at all the projects on [CodePlex](http://www.codeplex.com/) and on [GitHub Trending C#](https://github.com/trending?l=csharp).
 
 [@quozd](http://twitter.com/quozd "@quozd on Twitter") hosts an [Awesome .NET!](https://github.com/quozd/awesome-dotnet) list. Also worth checking out.

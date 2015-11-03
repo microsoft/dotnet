@@ -302,6 +302,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [Warewolf Easy Service Bus](https://github.com/Warewolf-ESB/Warewolf-ESB) - An open source easy to use service bus, built on numerous .Net technologies including WF (Windows Workflow Foundation), SignalR and WPF.
 
 * Distributed Caching and Computing
+  * [Orleans](https://github.com/dotnet/orleans) - Framework that provides a straight-forward approach to building distributed high-scale computing applications using virtual actor model.
   * [CacheAdapter](https://bitbucket.org/glav/cacheadapter) - a .Net library allows developers to use unified-implemented cahce provider
   * [Dache](https://github.com/ironyx/dache) - An open source distributed caching service, built on .NET 4.0 and using TCP sockets for communication.
   

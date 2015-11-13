@@ -2,13 +2,13 @@
 
 The dotnet repository is the starting point to engage in and learn about .NET
 open source projects from [Microsoft](http://microsoft.github.io) and the
-[.NET Foundation](http://www.dotnetfoundation.org/). You can read the more detailed
+[.NET Foundation](http://www.dotnetfoundation.org/). You can read the more detailed post
 [.NET Core is Open Source](http://blogs.msdn.com/b/dotnet/archive/2014/11/12/net-core-is-open-source.aspx)
 on the .NET blog.
 
 ## Finding .NET Open Source Projects
 
-There are many [open source .NET projects](dotnet-developer-projects.md), a few of which are listed below. Additionally @qourzd maintains list of [awesome open source .NET libraries, tools, frameworks, and software](https://github.com/quozd/awesome-dotnet).
+There are many [open source .NET projects](dotnet-developer-projects.md), a few of which are listed below. Additionally [@quozd](https://github.com/quozd) maintains a list of [awesome open source .NET libraries, tools, frameworks, and software](https://github.com/quozd/awesome-dotnet).
 
 
 

@@ -13,7 +13,7 @@ There are many [open source .NET projects](dotnet-developer-projects.md), a few 
 
 
 * [.NET Compiler Platform ("Roslyn")](https://github.com/dotnet/roslyn)
-* [.NET Core 5](https://github.com/dotnet/core)
+* [.NET Core](https://github.com/dotnet/core)
 * [ASP.NET 5](https://github.com/aspnet/home)
 * [EntityFramework](https://github.com/aspnet/EntityFramework)
 * [Exceptionless](https://github.com/exceptionless/Exceptionless)
@@ -39,7 +39,7 @@ For a list of free services and tools for open source .NET projects, see:
 .NET open source projects from Microsoft (gladly) accept PRs and other
 contributions. To contribute to ASP.NET 5 or EntityFramework, see
 [the ASP.NET Contributing Guide](https://github.com/aspnet/Home/blob/master/CONTRIBUTING.md).
-To contribute to .NET Core 5, see the
+To contribute to .NET Core, see the
 [.NET Core Contributing Guide](https://github.com/dotnet/corefx/wiki/Contributing).
 
 You are also encouraged to start a discussion by posting on the

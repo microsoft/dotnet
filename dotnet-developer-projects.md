@@ -109,6 +109,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [JSON.NET](https://github.com/JamesNK/Newtonsoft.Json) - Popular high-performance JSON framework for .NET
  * [Kentor.AuthServices](https://github.com/KentorIT/authservices) - A SAML2 Service Provider for .NET.
  * [Language-ext](https://github.com/louthy/language-ext) - C# 6.0+ functional language extensions. Make C# more like F# and other functional languages
+ * [LINQ Extensions](https://github.com/TommasoScalici/LINQExtensions) - LINQ extensions for .NET is a collection of useful extensions methods that extends LINQ's capability. There are methods for combinatorics and sequence analysis, generation and manipulation.
  * [leveldb-sharp](https://github.com/meebey/leveldb-sharp) - cross-platform C# binding for LevelDB
  * [LibGit2Sharp](https://github.com/libgit2/libgit2sharp) - C# language bindings for the [LibGit2](https://github.com/libgit2/libgit2) implementation of Git.
  * [Lucene.Net](https://github.com/apache/lucene.net)

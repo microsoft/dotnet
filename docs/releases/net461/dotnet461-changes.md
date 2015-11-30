@@ -50,6 +50,14 @@ CLR
 * Improved hash function for float and double in value numbering [142492]
 * Fixed an incorrect Assertionprop optimization on legacy x86 JIT that changes a negative zero into a positive zero and impacts the 32-bit Roslyn compiler [142253]
 * Improved performance of parallel binary file deserialization [141896]
+* Fixed an issue with F# applications that target FSharp.Core 3.1 and .NET 4.5.2 causing a FatalExecutionEngineException when deployed to a machine with .NET 4.6 installed  [142619]
+* Fixed an issue with x64 POINTF structure passing during a tail call [145688]
+* Fixed an issue with !sos.heaptat always looking for unrooted information regardless on if the -iu switch is passed [145696]
+* EventLog entry displays the exception type and stack trace string in the proper order [145642]
+* Fixed a bug that prevented users from using NGen on non-Microsoft signed assemblies [147703]
+* X509Certificates now support Elliptic Curve Digital Signature Algorithm (ECDSA) [145702]
+* Fixed an issue that caused local variables not to show up in X++ Debugging [145571]
+* Fixed RyuJIT optimizer causing incorrect result [110557]  
 
 BCL
 ---
@@ -84,6 +92,8 @@ BCL
 * SqlClient always encrypted supports hardware-protected keys [116442]
 * Added support for Token Binding for server-side usage of HttpListener [119817]
 * Uri constructor doesn't throw ArgumentOutOfRangeException when parsing certain URIs with escaped international characters [123235]
+* Fixed a bug that prevented some localized text from displaying properly [145634]
+* Fixed a bug that caused the Exception Catch event to get the incorrect source line [142525]
 
 ASP.NET
 -------
@@ -92,6 +102,8 @@ ASP.NET
 * Access to WebAdminFiles re-enabled [144513]
 * Fixed 4.6 regression in DataBoundControl.PerformSelect() [145931]
 * MaintainScrollPositionOnPostBack works with zoom on Chrome [120243]
+* RegEx can be opted out for EmailAddresses, Phone, and URL attributes [142685]
+* Added a MatchTimeout property to RegularExpressionAttribute [142685]
 
 WPF
 ---
@@ -138,7 +150,10 @@ WPF
 * Using the Binding(string) constructor doesn't degrade performance [120967]
 * Fixed a memory leak in TreeView [105337]
 * Changing IsEnabled for a parent of a TextBlock affects its contents [91119]
-
+* Fixed an issue with partial trust applications running on a machine with a touch device [151160]
+* Fixed a bug caused by loading multiple Microsoft Visual Studio Tools for Office (VSTO) addins on touch enabled devices [142484]
+* Fixed a bug that caused Visual Studio to hang when saving a XAML file [110669] 
+  
 WCF
 ---
 
@@ -151,6 +166,7 @@ WCF
 * Fixed a performance regression in selected large object variations [141815]
 * Binding including message credential over transport allows for messages where the To header is not signed [140756]
 * Fixed a null reference exception in System.Runtime.Serialization when ETW is enabled [105266]
+* Fixed IdentityModel.Claims to support multiple DNS entries [140718]
 
 Workflow
 --------
@@ -168,3 +184,8 @@ Windows Forms
 * CancelButton or mnemonics respect Control.CausesValidation [144357]
 * Fixed a possible index out of range exception in ThreadContext when using custom MessageFilter [145665]
 * Fixed a null reference exception in System.Windows.Forms.ToolTip [145763]
+* Fixed the Categories name visibility in the Table/Columns Collection Editor when using high contrast scheme [145631]
+* Fixed several VisualStudio Designer Crashes [145639], [145710], [145652]
+* Fixed the size of the text for the Generating Previews dialog of the PrintPreviewControl from being cropped when scaling up to 500% in HDPI mode [145775]
+* Fixed the icons in the toolbox when scaling above 100% [145824]
+

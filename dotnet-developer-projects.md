@@ -38,6 +38,9 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [Phalanger](https://github.com/DEVSENSE/Phalanger) - full-featured PHP runtime & compiler for .NET/Mono frameworks. Phalanger is modern open-source implementation of PHP, compatible with the vast array of existing PHP code.
  * [Roslyn (.NET Compiler Platform)](https://roslyn.codeplex.com/) - Open-source C# and Visual Basic compilers with rich code analysis APIs.
  
+* Quality Assurance
+ * [C# Coding Guidelines](csharpcodingguidelines.com) - A set of coding guidelines for C# 3.0, 4.0 and 5.0 that extend StyleCop and can be forked and adapted for internal use. 
+
 * Security / Identity Management
  * [NWebsec](https://github.com/NWebsec/NWebsec) - Security headers for ASP.NET applications.
  * [Thinktecture IdentityManager](https://github.com/thinktecture/Thinktecture.IdentityManager)
@@ -217,6 +220,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [canopy](https://github.com/lefthandedgoat/canopy) - A web testing framework.
  * [FakeItEasy](https://github.com/FakeItEasy/FakeItEasy) - The easy mocking library for .NET.
  * [Fixie](https://github.com/fixie/fixie) - A low-ceremony, convention-based testing framework with flexible customization.
+ * [FluentAssertions](http://www.fluentassertions.com/) - A very extensive set of extension methods that allow you to more naturally specify the expected outcome of unit tests and which make your assertions look beautiful, natural and most importantly, extremely readable.
  * [FluentAutomation](https://github.com/stirno/FluentAutomation) - Simple Fluent API for UI Automation
  * [FsCheck](https://github.com/fsharp/FsCheck) - A tool for testing .NET programs automatically.
  * [moq](https://github.com/Moq/moq4) - The most popular and friendly mocking framework for .NET

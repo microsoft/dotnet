@@ -16,6 +16,7 @@ There are many [open source .NET projects](dotnet-developer-projects.md), a few 
 * [.NET Core](https://github.com/dotnet/core)
 * [ASP.NET 5](https://github.com/aspnet/home)
 * [EntityFramework](https://github.com/aspnet/EntityFramework)
+* [Orleans](https://github.com/dotnet/orleans)
 * [Exceptionless](https://github.com/exceptionless/Exceptionless)
 * [Glimpse](http://getglimpse.com)
 * [JSON.NET](http://json.net/)

@@ -140,6 +140,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [Splat](https://github.com/paulcbetts/splat) - A library to make things cross-platform that should be.
  * [SSH.NET](https://sshnet.codeplex.com/) - A client-side library for SSH, SCP and SFTP.
  * [SuperSocket](https://github.com/kerryjiang/SuperSocket) - An extensible socket server engine which supports .NET and Mono
+ * [Sweet.Jayson](https://github.com/ocdogan/Sweet.Jayson) - Fast, reliable, easy to use, fully json.org compliant, thread safe C# JSON library for server side and desktop operations.
  * [VkSharp](https://github.com/kasthack/vksharp) - VK client library
  * [TomP2P.NET](https://github.com/tomp2p/TomP2P.NET) - A P2P-based high performance key-value pair storage library for .NET
  * [WampSharp](https://github.com/Code-Sharp/WampSharp) - A C# implementation of [The Web Application Messaging Protocol](http://wamp.ws) - a protocol that provides messaging patterns of Remote Procedure Calls and Publish/Subscribe over WebSockets.

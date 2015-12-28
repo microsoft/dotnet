@@ -23,6 +23,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [Ember](https://github.com/Embershot/Ember) - Simple & Beautiful Screenshot App
  * [Waf Stopwatch](http://wafstopwatch.codeplex.com) - is an advanced stopwatch with a lap recording feature. Additionally, it provides a Countdown with alert sound.
  * [Waf File Hash Generator](http://fhg.codeplex.com) - is a simple tool to generate the hash values of one or more files. It supports: SHA512, SHA256, SHA1 and MD5 in hexadecimal or Base64 format.
+ * [Zero Install](https://github.com/0install/0install-win) - [0install.de](http://0install.de/) - is a decentralized cross-platform software-installation system. Run apps with a single click or control every detail.
  
 * Administration
  * [OpenPetra](https://github.com/openpetra/openpetra) - [www.openpetra.org](https://www.openpetra.org) - An administration software for charities that can be used to manage personnel, supporters, book keeping, gift receipting, accounts payable, conferences etc.

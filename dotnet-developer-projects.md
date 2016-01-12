@@ -38,7 +38,11 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [Phalanger](https://github.com/DEVSENSE/Phalanger) - full-featured PHP runtime & compiler for .NET/Mono frameworks. Phalanger is modern open-source implementation of PHP, compatible with the vast array of existing PHP code.
  * [Roslyn (.NET Compiler Platform)](https://roslyn.codeplex.com/) - Open-source C# and Visual Basic compilers with rich code analysis APIs.
  
+* Quality Assurance
+ * [C# Coding Guidelines](csharpcodingguidelines.com) - A set of coding guidelines for C# 3.0, 4.0 and 5.0 that extend StyleCop and can be forked and adapted for internal use. 
+
 * Security / Identity Management
+ * [NWebsec](https://github.com/NWebsec/NWebsec) - Security headers for ASP.NET applications.
  * [Thinktecture IdentityManager](https://github.com/thinktecture/Thinktecture.IdentityManager)
  * [Thinktecture IdentityServer](https://github.com/thinktecture/Thinktecture.IdentityServer.v3)
  * [SKGL - Serial Key Generating Library](https://skgl.codeplex.com/)
@@ -69,6 +73,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [AzureNetQ](https://github.com/Roysvork/AzureNetQ) - An easy to use .NET API for Azure Service Bus.
  * [EasyNetQ](https://github.com/mikehadlow/EasyNetQ) - An easy to use .NET API for RabbitMQ.
  * [Lime](https://github.com/takenet/lime-csharp) - A lightweight messaging library. 
+ * [MassTransit](https://github.com/MassTransit/MassTransit) - A distributed application framework for RabbitMQ and Azure Service Bus.
  * [RestBus](https://github.com/tenor/RestBus) - Easy Asynchronous Messaging and Queueing for .NET
 
 * Libraries
@@ -79,6 +84,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [Argument](https://github.com/ashmind/Argument) - Argument validation microframework that does one thing in the simplest way possible.
  * [AshMind.Extensions](https://github.com/ashmind/ashmind-extensions) - A set of very conservative extension methods most of which closely follow naming and design patterns of .NET Base Class Library.
  * [AsyncCollections](https://github.com/HellBrick/AsyncCollections) - A set of lock-free thread-safe collections designed to be used asynchronously.
+ * [Automatonymous](https://github.com/MassTransit/Automatonymous) - An asynchronous state machine engine with messaging support. 
  * [Bing.RestClient](https://github.com/AdvancedREI/Bing.RestClient) - Access the Bing REST APIs from a unified client.
  * [BoxKite.Twitter](https://github.com/NickHodge/BoxKite.Twitter/) - Twitter .NET Client Library for the 1.1 Twitter API, incorporating REST API, User streaming and Search Streaming. Uses Reactive Extensions (Rx).
  * [Brighter](https://github.com/iancooper/Paramore) - A Command Dispatcher and Command Processor library with support for Work or Task Queues over different MoM implementations such as RabbitMQ
@@ -106,6 +112,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [JSON.NET](https://github.com/JamesNK/Newtonsoft.Json) - Popular high-performance JSON framework for .NET
  * [Kentor.AuthServices](https://github.com/KentorIT/authservices) - A SAML2 Service Provider for .NET.
  * [Language-ext](https://github.com/louthy/language-ext) - C# 6.0+ functional language extensions. Make C# more like F# and other functional languages
+ * [LINQ Extensions](https://github.com/TommasoScalici/LINQExtensions) - LINQ extensions for .NET is a collection of useful extensions methods that extends LINQ's capability. There are methods for combinatorics and sequence analysis, generation and manipulation.
  * [leveldb-sharp](https://github.com/meebey/leveldb-sharp) - cross-platform C# binding for LevelDB
  * [LibGit2Sharp](https://github.com/libgit2/libgit2sharp) - C# language bindings for the [LibGit2](https://github.com/libgit2/libgit2) implementation of Git.
  * [Lucene.Net](https://github.com/apache/lucene.net)
@@ -116,6 +123,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [MoreLINQ](https://code.google.com/p/morelinq/) - LINQ to Objects is missing a few desirable features. This project will enhance LINQ to Objects with extra methods, in a manner which keeps to the spirit of LINQ.
  * [NAudio](https://github.com/naudio/NAudio) - An open source .NET audio and MIDI library.
  * [NetTopologySuite](https://github.com/NetTopologySuite) - A .NET port of the JTS Topology Suite.
+ * [NEST](https://github.com/elastic/elasticsearch-net) - The official .NET client library for Elasticsearch.
  * [NHunspell](http://sourceforge.net/projects/nhunspell/) - Spell Checker, Hyphenation an Theasaurus
  * [NModbus4](https://github.com/NModbus4/NModbus4) - Implementation of the Modbus protocol
  * [NodaTime](https://code.google.com/p/noda-time/) - A better date and time API for .NET
@@ -127,6 +135,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [RestSharp](https://github.com/restsharp/RestSharp) - Simple REST and HTTP API Client for .NET
  * [SharpMap](https://sharpmap.codeplex.com/) - An easy-to-use mapping library for use in web and desktop applications
  * [SharpSnmpLib](https://sharpsnmplib.codeplex.com) - An easy-to-use SNMP library for use on all platforms (.NET/Mono/Xamarin)
+ * [Shielded](https://github.com/jbakic/Shielded) - Software Transactional Memory for .NET
  * [SmartIrc4net](https://github.com/meebey/SmartIrc4net) - IRC C# Library
  * [Splat](https://github.com/paulcbetts/splat) - A library to make things cross-platform that should be.
  * [SSH.NET](https://sshnet.codeplex.com/) - A client-side library for SSH, SCP and SFTP.
@@ -170,12 +179,14 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [MVVM Extensions](https://github.com/TommasoScalici/MVVMExtensions) - MVVM cross platform (.NET FW 4.5, WPF, Windows Runtime/Phone) extensions for .NET with support for async commands, MVVM-friendly Object and Task with support for UI notification.
  * [MVVM Light Toolkit](http://www.mvvmlight.net) - A cross-platform desktop and mobile MVVM development framework.
  * [Okra App Framework](https://github.com/OkraFramework/Okra.Core) - An MVVM framework for Windows Store applications including MVVM templates for Visual Studio.
+ * [Prism](https://github.com/PrismLibrary/Prism) - A cross-platform desktop and mobile MVVM development framework.
  * [Radical](https://github.com/RadicalFx/radical) - An infrastructure framework whose primary role is to help in the development of composite WPF/Silverlight/WP/WinRT applications based on the Model View ViewModel pattern.
  * [ReactiveUI](https://github.com/reactiveui/ReactiveUI) - An MVVM framework that integrates with the Reactive Extensions for .NET to create elegant, testable User Interfaces that run on any mobile or desktop platform.
  * [Simple Mvvm Toolkit](http://simplemvvmtoolkit.codeplex.com/) - Provides a simple framework and set of tools for getting up to speed quickly with applications based on the MVVM design pattern. 
  * [WPF Application Framework (WAF)](http://waf.codeplex.com) - A lightweight Framework that helps you to create well structured WPF Applications. It supports you in applying a Layered Architecture and the Model-View-ViewModel pattern.
 
 * Tools
+ * [API Port](https://github.com/microsoft/dotnet-apiport) - A tool that will analyze code for compatability issues when migrating between .NET Framework releases.  
  * [Cake](https://github.com/cake-build/cake) (C# Make) - A build automation system with C#/Roslyn driven build scripts.
  * [CppSharp](https://github.com/mono/CppSharp) - C/C++ bindings generation for .NET.
  * [CInject](https://github.com/punitganshani/CodeInject) - A tool to inject your C#/VB.NET code into existing .NET assemblies and executables
@@ -190,9 +201,10 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [Glimpse](https://github.com/Glimpse/Glimpse) - Providing real time diagnostics & insights to the fingertips of hundreds of thousands of developers daily.
  * [ILSpy](https://github.com/icsharpcode/ILSpy) - ILSpy is the open-source .NET assembly browser and decompiler.
  * [Mini Profiler](https://github.com/MiniProfiler/dotnet) - A simple but effective mini-profiler for .NET.
+ * [Node.js Tools For Visual Studio](https://github.com/Microsoft/nodejstools) -  Plugin that turns Visual Studio into a Node.js IDE
  * [Obfuscar](https://obfuscar.codeplex.com) - MSIL obfuscation utility for .NET assemblies.
  * [Outcomes.Net](https://github.com/kinetiq/Ether.Outcomes/) - Fluent wrapper that eliminates plumbing code around failure-prone functions.
- * [Paket](https://github.com/fsprojects/Paket) - Dependency manager for .NET and Mono projmects, which is designed to work well with NuGet packages and also enables referencing files directly from GitHub repositories.
+ * [Paket](https://github.com/fsprojects/Paket) - Dependency manager for .NET and Mono projects, which is designed to work well with NuGet packages and also enables referencing files directly from GitHub repositories.
  * [Protobuf-net](https://code.google.com/p/protobuf-net/) - A .NET implementation of protobuf, allowing you to serialize your .NET objects efficiently and easily.
  * [scriptcs](https://github.com/scriptcs/scriptcs) - scriptcs makes it easy to write and execute C# with a simple text editor.
  * [Snoop WPF](https://github.com/cplotts/snoopwpf) - Snoop - The WPF Spy Utility
@@ -208,16 +220,20 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [canopy](https://github.com/lefthandedgoat/canopy) - A web testing framework.
  * [FakeItEasy](https://github.com/FakeItEasy/FakeItEasy) - The easy mocking library for .NET.
  * [Fixie](https://github.com/fixie/fixie) - A low-ceremony, convention-based testing framework with flexible customization.
+ * [FluentAssertions](http://www.fluentassertions.com/) - A very extensive set of extension methods that allow you to more naturally specify the expected outcome of unit tests and which make your assertions look beautiful, natural and most importantly, extremely readable.
+ * [FluentAutomation](https://github.com/stirno/FluentAutomation) - Simple Fluent API for UI Automation
  * [FsCheck](https://github.com/fsharp/FsCheck) - A tool for testing .NET programs automatically.
  * [moq](https://github.com/Moq/moq4) - The most popular and friendly mocking framework for .NET
  * [NSubstitute](https://github.com/nsubstitute/NSubstitute) - A friendly substitute for .NET mocking frameworks.
  * [NUnit](https://github.com/nunit/nunit) - NUnit is a unit-testing framework for all .NET languages.
  * [Shouldly](https://github.com/shouldly/shouldly) - Should style test assertion library with great error messages.
+ * [SpecFlow](https://github.com/techtalk/specflow) - Cucumber clone for .NET for writing acceptance tests in natural langauge. [Site](http://www.specflow.org/) 
  * [tickspec](http://tickspec.codeplex.com/) - A lightweight Behaviour Driven Development (BDD) framework.
  * [TestStack.BDDfy](https://github.com/TestStack/TestStack.BDDfy) - BDDfy is the simplest BDD framework to use, customize and extend!
  * [TestStack.FluentMvcTesting](https://github.com/TestStack/TestStack.FluentMVCTesting) - Simple, terse, fluent unit testing for ASP.NET MVC Controllers.
  * [TestStack.Seleno](https://github.com/TestStack/TestStack.Seleno) - Seleno helps you write automated UI tests in the right way by implementing Page Objects and Page Components and by reading from and writing to web pages using strongly typed view models.
  * [TestStack.White](https://github.com/TestStack/White) - White is a framework for automating rich client applications based on Win32, WinForms, WPF, Silverlight and SWT (Java) platforms.
+ * [xBehave.net](https://github.com/xbehave/xbehave.net/) - A BDD/TDD framework based on xUnit.net and inspired by Gherkin.
  * [xUnit](https://github.com/xunit/xunit) - xUnit.net is a community-focused unit testing tool for the .NET Framework.
 
 * Dependency Injection
@@ -284,7 +300,8 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
 * Scheduling
  * [Hangfire](https://github.com/HangfireIO/Hangfire) - An easy way to perform fire-and-forget, delayed and recurring tasks inside ASP.NET applications.
  * [Quartz.Net](https://github.com/quartznet/quartznet) - A full-featured, open source job scheduling system that can be used from smallest apps to large scale enterprise systems.
- 
+ * [FluentScheduler](https://github.com/fluentscheduler/FluentScheduler) - Task scheduler with fluent interface that runs automated tasks (cron jobs) from your application.
+
 * Deployment
  * [DropkicK](https://github.com/chucknorris/dropkick/) - A fluent deployment library for Windows applications
  * [RoundHouse](https://github.com/chucknorris/roundhouse) - RoundhousE is a Database Migration Utility for .NET using sql files and versioning based on source control
@@ -294,11 +311,15 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [Warewolf Easy Service Bus](https://github.com/Warewolf-ESB/Warewolf-ESB) - An open source easy to use service bus, built on numerous .Net technologies including WF (Windows Workflow Foundation), SignalR and WPF.
 
 * Distributed Caching and Computing
+  * [Orleans](https://github.com/dotnet/orleans) - Framework that provides a straight-forward approach to building distributed high-scale computing applications using virtual actor model.
   * [CacheAdapter](https://bitbucket.org/glav/cacheadapter) - a .Net library allows developers to use unified-implemented cahce provider
   * [Dache](https://github.com/ironyx/dache) - An open source distributed caching service, built on .NET 4.0 and using TCP sockets for communication.
   
 * Windows Workflow
  * [Workflow Extractor](https://github.com/punitganshani/WorkflowExtractor) - Document Windows Workflow logic into a Word document or Excel sheet. 
+
+* Amazon Echo/Alexa Integration
+ * [AlexaSkillsKit.NET](https://github.com/AreYouFreeBusy/AlexaSkillsKit.NET) - .NET library to write Alexa Skills that's interface-compatible with Amazon's AlexaSkillsKit for Java and matches that functionality.
 
 This list is just a starting point - also take a look at all the projects on [CodePlex](http://www.codeplex.com/) and on [GitHub Trending C#](https://github.com/trending?l=csharp).
 

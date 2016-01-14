@@ -36,7 +36,12 @@
 {
 "platform":".NET Framework 4.6.1",
 "category":"netfx",
-"support": "Supported",
+"supportInfo" : 
+	{ 
+	"support": "Supported", 
+	"link" : ""
+	},
+"popular": true,
 "info":"http://blogs.msdn.com/b/dotnet/archive/2015/11/30/net-framework-4-6-1-is-now-available.aspx",
 "includedIn":["VS2015"],
 "supportedBy":["VS2013","VS2012"],
@@ -50,7 +55,12 @@
 {
 "platform":".NET Framework 4.6",
 "category":"netfx",
-"support": "Supported",
+"supportInfo" : 
+	{ 
+	"support": "Supported", 
+	"link" : ""
+	},
+"popular": true,
 "info":"http://blogs.msdn.com/b/dotnet/archive/2015/07/20/announcing-net-framework-4-6.aspx",
 "includedIn":["VS2015"],
 "supportedBy":["VS2013","VS2012"],
@@ -63,7 +73,12 @@
 {
 "platform":".NET Framework 4.5.2",
 "category":"netfx",
-"support": "Supported",
+"supportInfo" : 
+	{ 
+	"support": "Supported", 
+	"link" : ""
+	},
+"popular": true,
 "info":"http://go.microsoft.com/fwlink/?LinkID=309958",
 "includedIn":["VS2015"],
 "supportedBy":["VS2013","VS2012"],
@@ -77,7 +92,12 @@
   {
 "platform":".NET Framework 4.5.1",
 "category":"netfx",
-"support": "Not Supported",
+"supportInfo" : 
+	{ 
+	"support": "Not Supported", 
+	"link" : "http://blogs.msdn.com/b/dotnet/archive/2015/12/09/support-ending-for-the-net-framework-4-4-5-and-4-5-1.aspx"
+	},
+"popular": false,
 "info":"http://go.microsoft.com/fwlink/?LinkID=309958",
 "includedIn":["VS2015","VS2013"],
 "supportedBy":["VS2012"],
@@ -90,7 +110,12 @@
 {
 "platform":".NET Framework 4.5",
 "category":"netfx",
-"support": "Not Supported",
+"supportInfo" : 
+	{ 
+	"support": "Not Supported", 
+	"link" : "http://blogs.msdn.com/b/dotnet/archive/2015/12/09/support-ending-for-the-net-framework-4-4-5-and-4-5-1.aspx"
+	},
+"popular": false,
 "info":"http://blogs.msdn.com/b/dotnet/archive/2012/08/15/announcing-the-release-of-net-framework-4-5-rtm-product-and-source-code.aspx",
 "includedIn":["VS2015","VS2013","VS2012"],
 "supportedBy":[],
@@ -103,7 +128,12 @@
 {
 "platform":".NET Framework 4.0.3",
 "category":"netfx",
-"support": "Not Supported",
+"supportInfo" : 
+	{ 
+	"support": "Not Supported", 
+	"link" : "http://blogs.msdn.com/b/dotnet/archive/2015/12/09/support-ending-for-the-net-framework-4-4-5-and-4-5-1.aspx"
+	},
+"popular": false,
 "info":"http://blogs.msdn.com/b/dotnet/archive/2012/03/05/update-4-0-3-for-the-microsoft-net-framework-4.aspx",
 "includedIn":[],
 "supportedBy":["VS2010"],
@@ -119,7 +149,12 @@
 {
 "platform":".NET Framework 4",
 "category":"netfx",
-"support": "Not Supported",
+"supportInfo" : 
+	{ 
+	"support": "Supported", 
+	"link" : ""
+	},
+"popular": true,
 "info":"http://blogs.msdn.com/b/dotnet/archive/2012/08/15/announcing-the-release-of-net-framework-4-5-rtm-product-and-source-code.aspx",
 "includedIn":["VS2015","VS2013","VS2012","VS2010"],
 "supportedBy":[],
@@ -133,7 +168,12 @@
  {
 "platform":".NET Framework 2.0 + 3.5 SP1",
 "category":"netfx",
-"support": "Supported",
+"supportInfo" : 
+	{ 
+	"support": "Supported", 
+	"link" : ""
+	},
+"popular": true,
 "info":"http://msdn.microsoft.com/library/w0x726c2(VS.90).aspx",
 "includedIn":[],
 "supportedBy":["VS2015","VS2013","VS2012","VS2010"],

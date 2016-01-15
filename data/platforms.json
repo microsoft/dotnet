@@ -151,8 +151,8 @@
 "category":"netfx",
 "supportInfo" : 
 	{ 
-	"support": "Supported", 
-	"link" : ""
+	"support": "Not Supported", 
+	"link" : "http://blogs.msdn.com/b/dotnet/archive/2015/12/09/support-ending-for-the-net-framework-4-4-5-and-4-5-1.aspx"
 	},
 "popular": true,
 "info":"http://blogs.msdn.com/b/dotnet/archive/2012/08/15/announcing-the-release-of-net-framework-4-5-rtm-product-and-source-code.aspx",

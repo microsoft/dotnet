@@ -46,7 +46,7 @@
 "includedIn":["VS2015"],
 "supportedBy":["VS2013","VS2012"],
 "runtime":[
-{"name":".NET Framework 4.6.1","link":"http://go.microsoft.com/fwlink/?LinkId=528259"}],
+{"name":".NET Framework 4.6.1","link":"http://go.microsoft.com/fwlink/?LinkId=671729"}],
 "tools":[
 {"name":"Visual Studio Community 2015 (free)","link":"https://www.visualstudio.com/products/visual-studio-community-vs"},
 {"name":".NET Framework 4.6.1 Targeting Pack","link":"http://go.microsoft.com/fwlink/?LinkId=690706","description":"The .NET 4.6.1 Developer pack includes the 4.6.1 reference assemblies needed by Visual Studio and msbuild."}
@@ -65,7 +65,7 @@
 "includedIn":["VS2015"],
 "supportedBy":["VS2013","VS2012"],
 "runtime":[
-{"name":".NET Framework 4.6","link":"http://go.microsoft.com/fwlink/?LinkId=671729"}],
+{"name":".NET Framework 4.6","link":"http://go.microsoft.com/fwlink/?LinkId=528259"}],
 "tools":[
 {"name":".NET Framework 4.6 Targeting Pack","link":"http://go.microsoft.com/fwlink/?LinkId=528261","description":"The .NET 4.6 Developer pack includes the 4.6 reference assemblies needed by Visual Studio and msbuild."}
 ]

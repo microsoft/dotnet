@@ -43,8 +43,8 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
 
 * Security / Identity Management
  * [NWebsec](https://github.com/NWebsec/NWebsec) - Security headers for ASP.NET applications.
- * [Thinktecture IdentityManager](https://github.com/thinktecture/Thinktecture.IdentityManager)
- * [Thinktecture IdentityServer](https://github.com/thinktecture/Thinktecture.IdentityServer.v3)
+ * [IdentityManager](https://github.com/IdentityManager/IdentityManager)
+ * [IdentityServer](https://github.com/IdentityServer/IdentityServer3)
  * [SKGL - Serial Key Generating Library](https://skgl.codeplex.com/)
 
 * Web CMS

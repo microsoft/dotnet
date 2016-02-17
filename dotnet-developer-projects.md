@@ -105,6 +105,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [FluentBootstrap](https://github.com/somedave/FluentBootstrap)
  * [FluentConsole](https://github.com/ashmind/FluentConsole) - Alternative approach to colored console (`FluentConsole.Red.Text().Green.Text()`).
  * [FluentValidation](https://github.com/JeremySkinner/FluentValidation) - A small validation library for .NET that uses a fluent interface and lambda expressions for building validation rules.
+ * [Flurl](https://github.com/tmenier/Flurl) - A fluent, portable, testable URL builder and HTTP client library.
  * [Font-Awesome-WPF](https://github.com/charri/Font-Awesome-WPF) - WPF controls for the iconic font and CSS toolkit [Font Awesome](http://fortawesome.github.io/Font-Awesome/).
  * [GongSolutions.Wpf.DragDrop](https://github.com/punker76/gong-wpf-dragdrop) - A drag'n'drop framework for WPF.
  * [GeckoFX](https://bitbucket.org/geckofx) - Mozilla's Gecko layout engine wrapper in .NET.

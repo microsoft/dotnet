@@ -277,6 +277,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [NHibernate](https://github.com/nhibernate) - Object Relational Mapper
  * [Simple Data](https://github.com/markrendle/Simple.Data) - A light-weight, dynamic data access component for C# 4.0.
  * [Sqlite-net](https://github.com/praeclarum/sqlite-net) - Simple, powerful, cross-platform SQLite client and ORM.
+ * [DeveelDB](https://github.com/deveel/deveeldb) - A complete SQL-99 embeddable database management system for .NET and Mono
  * [NMEA Parser](https://github.com/dotMorten/NmeaParser) - Library for handling NMEA message in Windows Desktop, Store, Phone and Xamarin (Android + iOS), coming from files, Bluetooth, serial port or any stream.
  * [Neyro.Data](https://github.com/neyromant/Neyro.Data) - Tiny, simple and fast ORM.
  * [StackExchange.Redis](https://github.com/StackExchange/StackExchange.Redis)  

@@ -18,7 +18,8 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [Catel](https://github.com/catel/catel) - Application platform with IoC, logging, reflection and much more that serves as a base for applications that must be ready for future growth.
  * [Enterprise Web Library (EWL)](https://github.com/enduracode/enterprise-web-library) - An extremely opinionated platform for web applications that trades off performance, scalability, and development flexibility for an ease of maintenance you won't find anywhere else. [Enterprise Web Library site](http://www.enterpriseweblibrary.org/).
  * [KonfDB](https://github.com/punitganshani/konfdb) - Configuration Management as a Service for cross-platform, multi-tenant enterprise/hobby applications.
- 
+ * [Akka.NET](http://github.com/akkadotnet) - Akka.NET is a toolkit and runtime for building highly concurrent, distributed, and fault tolerant event-driven applications on .NET & Mono. This community-driven port brings C# & F# developers the capabilities of the original Akka framework in Java/Scala. [[Project Site]](http://getakka.net/)
+
 * Languages
  * [Boo](https://github.com/bamboo/boo) - A .NET language similar to Python but with static typing, and many meta-programming capabilities.
  * [ClojureCLR](https://github.com/clojure/clojure-clr) - A .NET implemention of the [Clojure](http://clojure.org) programming language, built on the DLR. 

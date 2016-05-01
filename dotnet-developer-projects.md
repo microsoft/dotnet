@@ -210,7 +210,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [Mini Profiler](https://github.com/MiniProfiler/dotnet) - A simple but effective mini-profiler for .NET.
  * [Node.js Tools For Visual Studio](https://github.com/Microsoft/nodejstools) -  Plugin that turns Visual Studio into a Node.js IDE
  * [Obfuscar](https://obfuscar.codeplex.com) - MSIL obfuscation utility for .NET assemblies.
- * [OmniDB](http://omnidb.com.br) (https://github.com/OmniDB/OmniDB) - Web tool for database management and conversion.
+ * [OmniDB](https://github.com/OmniDB/OmniDB) - Web tool for database management and conversion. [Site](http://omnidb.com.br)
  * [Outcomes.Net](https://github.com/kinetiq/Ether.Outcomes/) - Fluent wrapper that eliminates plumbing code around failure-prone functions.
  * [Paket](https://github.com/fsprojects/Paket) - Dependency manager for .NET and Mono projects, which is designed to work well with NuGet packages and also enables referencing files directly from GitHub repositories.
  * [Protobuf-net](https://code.google.com/p/protobuf-net/) - A .NET implementation of protobuf, allowing you to serialize your .NET objects efficiently and easily.

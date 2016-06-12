@@ -71,6 +71,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [System.Data.SQLite](https://system.data.sqlite.org) - SQLite
 
 * Messaging
+ * [NServiceBus](https://github.com/Particular/NServiceBus) - The most popular service bus for .NET
  * [AzureNetQ](https://github.com/Roysvork/AzureNetQ) - An easy to use .NET API for Azure Service Bus.
  * [EasyNetQ](https://github.com/mikehadlow/EasyNetQ) - An easy to use .NET API for RabbitMQ.
  * [Lime](https://github.com/takenet/lime-csharp) - A lightweight messaging library. 

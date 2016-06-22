@@ -65,6 +65,12 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [Nancy](https://github.com/NancyFx/Nancy) - A lightweight, low-ceremony, framework for building HTTP based services on .NET and Mono.
  * [NemerleWeb](https://github.com/NemerleWeb/NemerleWeb) - Web MVVM library for .Net. It uses reactive data model which allows creating rich internet applications.
 
+* Static Site Generators
+  * [FsBlog](https://github.com/fsprojects/FsBlog/) - Blog aware, static site generation using F#.
+  * [Pretzel](https://github.com/Code52/pretzel) - A site generation tool (and then some) for .NET platforms.
+  * [Sandra.Snow](https://github.com/Sandra/Sandra.Snow) - Jekyll inspired static site generation for .NET.
+  * [Wyam](http://wyam.io) - A simple to use, highly modular, and extremely configurable static content generator.
+
 * ADO.NET providers
  * [Firebird .NET client](https://sourceforge.net/p/firebird/NETProvider/) - Firebird
  * [Npgsql](https://github.com/npgsql/npgsql) - PostgreSQL 

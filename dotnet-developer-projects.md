@@ -40,7 +40,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [Roslyn (.NET Compiler Platform)](https://roslyn.codeplex.com/) - Open-source C# and Visual Basic compilers with rich code analysis APIs.
  
 * Quality Assurance
- * [C# Coding Guidelines](csharpcodingguidelines.com) - A set of coding guidelines for C# 3.0, 4.0 and 5.0 that extend StyleCop and can be forked and adapted for internal use. 
+ * [C# Coding Guidelines](http://csharpcodingguidelines.com) - A set of coding guidelines for C# 3.0, 4.0 and 5.0 that extend StyleCop and can be forked and adapted for internal use. 
 
 * Security / Identity Management
  * [NWebsec](https://github.com/NWebsec/NWebsec) - Security headers for ASP.NET applications.

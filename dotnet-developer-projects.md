@@ -225,7 +225,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [scriptcs](https://github.com/scriptcs/scriptcs) - scriptcs makes it easy to write and execute C# with a simple text editor.
  * [Snoop WPF](https://github.com/cplotts/snoopwpf) - Snoop - The WPF Spy Utility
  * [Sql Bulk Copy Sync](https://github.com/WCOMAB/SqlBulkSync)
- * [Vagrant](https://github.com/nessos/Vagrant) - Automated dependency resolution and dynamic assembly compilation framework.
+ * [Vagabond](https://github.com/nessos/Vagabond) - Automated dependency resolution and dynamic assembly compilation framework.
  * [Waf DotNetPad](http://dotnetpad.codeplex.com) - The Waf DotNetPad is a simple and fast code editor that makes fun program with C# or Visual Basic.
  * [Weighted Selector](https://github.com/kinetiq/Ether.WeightedSelector/) - Easy to use (but high performance!) weighted selection implementation.
  * [XDav](https://github.com/rezabazargan/xDav) -  A .net server mudole for webdav standard.

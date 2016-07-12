@@ -54,7 +54,7 @@ details.
 Most .NET open source projects at Microsoft have been contributed to the
 [.NET Foundation](http://www.dotnetfoundation.org/projects). There are two main
 .NET Foundation projects for Microsoft open source projects:
-[ASP.NET Core 5 project](http://www.dotnetfoundation.org/aspnet-5)
+[ASP.NET Core project](http://www.dotnetfoundation.org/aspnet-core)
 and the [.NET Core project](http://www.dotnetfoundation.org/netcore).
 
 ## License

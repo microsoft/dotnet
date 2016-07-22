@@ -165,6 +165,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  
 * Data Mine/Data Extraction/Machine Learning/AI
  * [AForge.NET](http://www.aforgenet.com/) - a C# framework designed for developers and researchers in the fields of Computer Vision and Artificial Intelligence - image processing, neural networks, genetic algorithms, machine learning, robotics
+ * [Accord.NET Framework](https://github.com/accord-net/framework) - The Accord.NET Framework is a .NET machine learning framework combined with audio and image processing libraries completely written in C#.
  * [Nepy](http://nepy.codeplex.com) - A collection of NLP parsers for .NET
  * [SharpNLP](http://sharpnlp.codeplex.com) - SharpNLP is a collection of natural language processing tools written in C#
  * [Toxy](http://toxy.codeplex.com) - An data/text extraction framework for .NET, similar to Tika in Java.

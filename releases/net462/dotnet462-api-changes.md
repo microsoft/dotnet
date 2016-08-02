@@ -1,4 +1,25 @@
 ```diff
+ namespace System.ComponentModel {
+     public abstract class GroupDescription : INotifyPropertyChanged {
++        public IComparer CustomSort { get; set; }
++        public SortDescriptionCollection SortDescriptions { get; }
++        public bool ShouldSerializeSortDescriptions();
+     }
+ }
+ namespace System.Data.SqlClient {
++    public enum PoolBlockingPeriod {
++        AlwaysBlock = 1,
++        Auto = 0,
++        NeverBlock = 2,
++    }
+     public sealed class SqlConnection : DbConnection, ICloneable {
++        public static TimeSpan ColumnEncryptionKeyCacheTtl { get; set; }
++        public static bool ColumnEncryptionQueryMetadataCacheEnabled { get; set; }
+     }
+     public sealed class SqlConnectionStringBuilder : DbConnectionStringBuilder {
++        public PoolBlockingPeriod PoolBlockingPeriod { get; set; }
+     }
+ }
  namespace System.Diagnostics.Tracing {
 -    public abstract class EventListener : IDisposable {
 +    public class EventListener : IDisposable {
@@ -102,6 +123,104 @@
 +        public const string XmlDsigSHA512Url = "http://www.w3.org/2001/04/xmlenc#sha512";
      }
  }
+namespace System.Web {
+     public sealed class HttpCachePolicy {
++        public DateTime UtcTimestampCreated { get; set; }
++        public HttpCacheability GetCacheability();
++        public string GetCacheExtensions();
++        public string GetETag();
++        public bool GetETagFromFileDependencies();
++        public DateTime GetExpires();
++        public bool GetIgnoreRangeRequests();
++        public bool GetLastModifiedFromFileDependencies();
++        public TimeSpan GetMaxAge();
++        public bool GetNoServerCaching();
++        public bool GetNoStore();
++        public bool GetNoTransforms();
++        public int GetOmitVaryStar();
++        public TimeSpan GetProxyMaxAge();
++        public HttpCacheRevalidation GetRevalidation();
++        public DateTime GetUtcLastModified();
++        public string GetVaryByCustom();
++        public bool HasSlidingExpiration();
++        public bool IsModified();
++        public bool IsValidUntilExpires();
+     }
+     public sealed class HttpCacheVaryByContentEncodings {
++        public string[] GetContentEncodings();
++        public void SetContentEncodings(string[] contentEncodings);
+     }
+     public sealed class HttpCacheVaryByHeaders {
++        public string[] GetHeaders();
++        public void SetHeaders(string[] headers);
+     }
+     public sealed class HttpCacheVaryByParams {
++        public string[] GetParams();
++        public void SetParams(string[] parameters);
+     }
+ }
+ namespace System.Web.Caching {
+     public sealed class AggregateCacheDependency : CacheDependency, ICacheDependencyChanged {
++        public override string[] GetFileDependencies();
+     }
+     public class CacheDependency : IDisposable {
++        public virtual string[] GetFileDependencies();
+     }
++    public abstract class OutputCacheProviderAsync : OutputCacheProvider {
++        protected OutputCacheProviderAsync();
++        public abstract Task<object> AddAsync(string key, object entry, DateTime utcExpiry);
++        public abstract Task<object> GetAsync(string key);
++        public abstract Task RemoveAsync(string key);
++        public abstract Task SetAsync(string key, object entry, DateTime utcExpiry);
++    }
++    public static class OutputCacheUtility {
++        public static CacheDependency CreateCacheDependency(HttpResponse response);
++        public static ArrayList GetContentBuffers(HttpResponse response);
++        public static IEnumerable<KeyValuePair<HttpCacheValidateHandler, object>> GetValidationCallbacks(HttpResponse response);
++        public static void SetContentBuffers(HttpResponse response, ArrayList buffers);
++        public static string SetupKernelCaching(string originalCacheUrl, HttpResponse response);
++    }
+ }
++namespace System.Web.Globalization {
++    public interface IStringLocalizerProvider {
++        string GetLocalizedString(CultureInfo culture, string name, params object[] arguments);
++    }
++    public sealed class ResourceFileStringLocalizerProvider : IStringLocalizerProvider {
++        public const string ResourceFileName = "DataAnnotation.Localization";
++        public ResourceFileStringLocalizerProvider();
++        public string GetLocalizedString(CultureInfo culture, string name, params object[] arguments);
++    }
++    public static class StringLocalizerProviders {
++        public static IStringLocalizerProvider DataAnnotationStringLocalizerProvider { get; set; }
++    }
++}
+ namespace System.Web.ModelBinding {
+     public class DataAnnotationsModelValidator : ModelValidator {
++        protected virtual string GetLocalizedErrorMessage(string errorMessage);
++        protected string GetLocalizedString(string name, params object[] arguments);
+     }
++    public sealed class MaxLengthAttributeAdapter : DataAnnotationsModelValidator<MaxLengthAttribute> {
++        public MaxLengthAttributeAdapter(ModelMetadata metadata, ModelBindingExecutionContext context, MaxLengthAttribute attribute);
++    }
++    public sealed class MinLengthAttributeAdapter : DataAnnotationsModelValidator<MinLengthAttribute> {
++        public MinLengthAttributeAdapter(ModelMetadata metadata, ModelBindingExecutionContext context, MinLengthAttribute attribute);
++    }
+ }
+ namespace System.Web.SessionState {
++    public interface ISessionStateModule : IHttpModule {
++        void ReleaseSessionState(HttpContext context);
++        Task ReleaseSessionStateAsync(HttpContext context);
++    }
+-    public sealed class SessionStateModule : IHttpModule {
++    public sealed class SessionStateModule : IHttpModule, ISessionStateModule {
++        public void ReleaseSessionState(HttpContext context);
++        public Task ReleaseSessionStateAsync(HttpContext context);
+     }
+     public static class SessionStateUtility {
++        public static bool IsSessionStateReadOnly(HttpContext context);
++        public static bool IsSessionStateRequired(HttpContext context);
+     }
+ } 
  namespace System.Windows {
 +    public sealed class DpiChangedEventArgs : RoutedEventArgs {
 +        public DpiScale NewDpi { get; private set; }
@@ -122,6 +241,9 @@
 +        public double PixelsPerInchX { get; }
 +        public double PixelsPerInchY { get; }
 +    }
+     public static class FrameworkCompatibilityPreferences {
++        public static bool ShouldThrowOnCopyOrCutFailure { get; set; }
+     }
 +    public sealed class HwndDpiChangedEventArgs : HandledEventArgs {
 +        public DpiScale NewDpi { get; private set; }
 +        public DpiScale OldDpi { get; private set; }
@@ -227,6 +349,12 @@
      }
      public abstract class TextSource {
 +        public double PixelsPerDip { get; set; }
+     }
+ }
+  namespace System.Windows.Data {
+     public class PropertyGroupDescription : GroupDescription {
++        public static IComparer CompareNameAscending { get; }
++        public static IComparer CompareNameDescending { get; }
      }
  }
 ```

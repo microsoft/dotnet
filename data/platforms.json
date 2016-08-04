@@ -46,14 +46,14 @@
     "supportedBy": [ "VS2013", "VS2012" ],
     "runtime": [
       {
-        "name": ".NET Framework 4.6.2",
-        "link": "http://go.microsoft.com/fwlink/?LinkId=780597"
+        "name": ".NET Framework 4.6.2 Preview",
+        "link": "http://go.microsoft.com/fwlink/?LinkId=708735"
       }
     ],
     "tools": [
       {
-        "name": ".NET Framework 4.6.2 Developer Pack",
-        "link": "http://go.microsoft.com/fwlink/?LinkId=780617",
+        "name": ".NET Framework 4.6.2 Preview Developer Pack",
+        "link": "http://go.microsoft.com/fwlink/?LinkId=708774",
         "description": "The .NET 4.6.2 Developer pack includes 4.6.2 reference assemblies needed by Visual Studio and msbuild."
       }
     ]

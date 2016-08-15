@@ -49,6 +49,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [SKGL - Serial Key Generating Library](https://skgl.codeplex.com/)
 
 * Web CMS
+ * [Composite C1](https://github.com/Orckestra/C1-CMS) - Web content management platform (CMS).
  * [DNN (formerly DotNetNuke)](https://dotnetnuke.codeplex.com/) - Web content management platform (CMS).
  * [Kaliko CMS](https://github.com/KalikoCMS/KalikoCMS.Core) - Flexible and extensible CMS framework supporting both ASP.NET MVC and WebForms.
  * [N2CMS](https://github.com/n2cms/n2cms) - Open source, lightweight, code-first CMS able to seamlessly integrate into any MVC project.

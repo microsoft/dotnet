@@ -311,6 +311,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [MahApps.Metro](https://github.com/MahApps/MahApps.Metro) - A toolkit for creating Metro / Modern UI styled WPF apps. [mahapps.com](http://mahapps.com)
  * [Material Design in XAML Toolkit](https://github.com/ButchersBoy/MaterialDesignInXamlToolkit) - WPF/XAML resources, styles & templates for creating applications using Material Design
  * [Mono XWT](https://github.com/mono/xwt) - A cross-platform UI toolkit for creating desktop apps
+ * [UWP Community Toolkit](https://github.com/Microsoft/UWPCommunityToolkit) - The UWP Community Toolkit is a collection of helper functions, custom controls, and app services. It simplifies and demonstrates common developer tasks building UWP apps for Windows 10.
  
 * Windows Services
  * [King.Service](https://github.com/jefking/King.Service) - Task scheduling for Azure and Windows

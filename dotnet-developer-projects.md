@@ -8,7 +8,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [.NET Core](https://github.com/dotnet/core) - Core .NET Framework
  * [C# Native](https://csnative.codeplex.com) - Compiles C# to native.
  * [Cosmos](https://github.com/CosmosOS/Cosmos) - C# Open Source Managed Operating System, an operating system "construction kit".
- * [Fling OS](http://git.flingos.co.uk/fling-os/src) - [C# Operating System](http://www.flingos.co.uk/) designed for people to learn low-level development from.
+ * [Fling OS](https://github.com/FlingOS/FlingOS) - [C# Operating System](http://www.flingos.co.uk/) designed for people to learn low-level development from.
  * [Mono](https://github.com/mono/mono) - Cross-platform implementation of .NET Framework.
  * [MOSA Project](https://github.com/mosa/MOSA-Project/) - Managed Operating System Alliance Project - C# Operating System.
  * [SharpLang](https://github.com/xen2/SharpLang) - Compiles C# & .NET to native machine code, using [LLVM](http://llvm.org) as a backend.

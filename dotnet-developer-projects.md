@@ -173,7 +173,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  
 * Graphics & Server-side Image Processing
  * [DynamicImage](https://github.com/tgjones/dynamic-image) - WPF-based server-side image rendering system - lots of visual effects implemented as high-performance shaders. Has URL api, several plugins available.
- * [ImageProcessor](https://github.com/jimbobsquarepants/imageprocessor/) - A .NET Library For On-The-Fly Processing Of Images (GDI+ based).
+ * [ImageProcessor](https://github.com/jimbobsquarepants/imageprocessor/) - A cross-platform library for processing of image files written in C#. Available in Core (NetStandard 1.1 X-Plat) and Framework (NET 4.5+ GDI+ based) flavours.
  * [ImageResizer](https://github.com/imazen/resizer) - Add commands to image URLs to get altered versions in milliseconds. Edit, filter, touch-up images in real-time. (multiple backends - FreeImage, C++/CLI, GDI+, WIC). 45+ plugins available.
  * [King.Azure.Imaging](https://github.com/jefking/King.Azure.Imaging) - Scalable image uploading and processing for Azure.
  * [MonoGame](http://www.monogame.net/) - MonoGame is a cross-platform, open-source implementation of the XNA Game Framework.

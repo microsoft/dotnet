@@ -35,6 +35,7 @@ For a longer list, see:
 For a list of free services and tools for open source .NET projects, see:
 
 * [Free Services & Tools for Open Source .NET Projects](dotnet-free-oss-services.md)
+* [Download the latest Azure .NET SDK](https://www.visualstudio.com/features/azure-tools-vs)
 
 ## How to Engage, Contribute and Provide Feedback
 

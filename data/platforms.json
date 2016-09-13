@@ -19,6 +19,8 @@
 ,
 "platformcategories":
 [
+{"alias":"netcore",
+"name":".NET Core"},
 {"alias":"netfx",
 "name":".NET Framework"},
 {"alias":"services",
@@ -34,6 +36,75 @@
 "platforms":
 [
   {
+    "platform": ".NET Core 1.0",
+    "category": "netcore",
+    "supportInfo": {
+      "support": "Supported",
+      "link": ""
+    },
+    "popular": true,
+    "info": "https://blogs.msdn.microsoft.com/dotnet/2016/06/27/announcing-net-core-1-0/",
+    "includedIn": [  ],
+    "supportedBy": [ "VS2015" ],
+    "runtime": [
+      {
+        "name": ".NET Core 1.0",
+        "link": "https://dot.net/core"
+      }
+    ],
+    "tools": [
+      {
+        "name": ".NET Core Tools for Visual Studio 2015 Update 3",
+        "link": "https://go.microsoft.com/fwlink/?LinkID=824849",
+        "description": "The .NET Core Tools for Visual Studio 2015 (requires Update 3)."
+      },
+      {
+        "name": "Visual Studio 2015 Update 3",
+        "link": "https://go.microsoft.com/fwlink/?LinkId=691129",
+        "description": "Required to install .NET Core 1.0"
+      },
+
+      {
+        "name": ".NET Core SDK (for commandline on Windows)",
+        "link": "https://go.microsoft.com/fwlink/?LinkID=809122",
+        "description": "The .NET Core SDK for Windows, including the .NET Core commandline tools."
+      },
+      {
+        "name": ".NET Core SDK (for commandline on macOS)",
+        "link": "https://www.microsoft.com/net/core#macos",
+        "description": "The .NET Core SDK for macOS, including the .NET Core commandline tools."
+      },
+      {
+        "name": ".NET Core SDK (for commandline on Linux)",
+        "link": "https://dot.net/core",
+        "description": "The .NET Core SDK for Linux, including the .NET Core commandline tools."
+      },
+      {
+        "name": ".NET Core SDK (for Docker)",
+        "link": "https://www.microsoft.com/net/core#docker",
+        "description": "Using the .NET Core docker container on Windows, macOS and Linux."
+      }
+    ]
+  },
+ {
+    "platform": "ASP.NET Core 1.0",
+    "category": "netcore",
+    "supportInfo": {
+      "support": "Supported",
+      "link": ""
+    },
+    "popular": true,
+    "info": "https://blogs.msdn.microsoft.com/webdev/2016/06/27/announcing-asp-net-core-1-0/",
+    "includedIn": [  ],
+    "supportedBy": [ "VS2015" ],
+    "runtime": [
+      {
+        "name": "ASP.NET Core 1.0",
+        "link": "http://www.asp.net/get-started"
+      }
+    ]
+  },  
+  {
     "platform": ".NET Framework 4.6.2",
     "category": "netfx",
     "supportInfo": {
@@ -42,8 +113,8 @@
     },
     "popular": true,
     "info": "http://go.microsoft.com/fwlink/?LinkID=708776",
-    "includedIn": [ "VS2015" ],
-    "supportedBy": [ "VS2013", "VS2012" ],
+    "includedIn": [  ],
+    "supportedBy": [ "VS2015", "VS2013", "VS2012" ],
     "runtime": [
       {
         "name": ".NET Framework 4.6.2",
@@ -215,8 +286,7 @@
 "includedIn":[],
 "supportedBy":["VS2015","VS2013","VS2012"],
 "tools":[
-{"name":"Azure SDK for .NET","link":"http://go.microsoft.com/fwlink/?LinkID=254336"},
-{"name":"Visual Studio Express 2013 for Web","link":"http://www.visualstudio.com/downloads/download-visual-studio-vs#d-express-web"}
+{"name":"Azure SDK for .NET","link":"http://go.microsoft.com/fwlink/?LinkID=254336"}
 ]
   }, 
 

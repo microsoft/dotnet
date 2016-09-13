@@ -27,6 +27,8 @@
 "name":"Services"},
 {"alias":"devices",
 "name":"Devices"},
+{"alias":"gaming",
+"name":"Gaming"},
 {"alias":"libraries",
 "name":"Libraries"},
 {"alias":"silverlight",
@@ -479,6 +481,46 @@
 "runtime":[],
 "tools":[
 {"name":"Xamarin Tools for iOS and Android","link":"http://go.microsoft.com/fwlink/?LinkID=398052"}]
+},
+{
+"platform":"Unity",
+"category":"gaming",
+"info":"https://blogs.msdn.microsoft.com/visualstudio/2016/07/14/visual-studio-tools-for-unity-2-3/",
+"includedIn":[],
+"supportedBy":["VS2015"],
+"runtime":[],
+"tools":[
+{"name":"Visual Studio 2015 Tools for Unity","link":"https://visualstudiogallery.msdn.microsoft.com/8d26236e-4a64-4d64-8486-7df95156aba9"}]
+},
+{
+"platform":"Unity",
+"category":"gaming",
+"info":"https://blogs.msdn.microsoft.com/visualstudio/2016/07/14/visual-studio-tools-for-unity-2-3/",
+"includedIn":[],
+"supportedBy":["VS2013"],
+"runtime":[],
+"tools":[
+{"name":"Visual Studio 2013 Tools for Unity","link":"http://visualstudiogallery.msdn.microsoft.com/20b80b8c-659b-45ef-96c1-437828fe7cf2"}]
+},
+{
+"platform":"Unity",
+"category":"gaming",
+"info":"https://blogs.msdn.microsoft.com/visualstudio/2016/07/14/visual-studio-tools-for-unity-2-3/",
+"includedIn":[],
+"supportedBy":["VS2012"],
+"runtime":[],
+"tools":[
+{"name":"Visual Studio 2012 Tools for Unity","link":"http://visualstudiogallery.msdn.microsoft.com/7ab11d2a-f413-4ed6-b3de-ff1d05157714"}]
+},
+{
+"platform":"Unity",
+"category":"gaming",
+"info":"https://blogs.msdn.microsoft.com/visualstudio/2016/07/14/visual-studio-tools-for-unity-2-3/",
+"includedIn":[],
+"supportedBy":["VS2010"],
+"runtime":[],
+"tools":[
+{"name":"Visual Studio 2010 Tools for Unity","link":"http://visualstudiogallery.msdn.microsoft.com/6e536faa-ce73-494a-a746-6a14753015f1"}]
 },
 {
 "platform":".NET Micro Framework",

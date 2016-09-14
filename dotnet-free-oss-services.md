@@ -36,6 +36,9 @@ Please sort projects alphabetically and provide a one-line description. Where po
 * Analytics and Error Reporting
  * [Bugsnag](https://bugsnag.com/blog/bugsnag-loves-open-source) - Cross platform error reporting.
 
+* Cloud Resources and Services
+ * [Azure SDK for .NET](https://www.visualstudio.com/features/azure-tools-vs) - Easily build, manage, and deploy cloud-scale apps with Visual Studio and Azure.
+
 * Misc
  * [Crowdin](https://crowdin.com/page/open-source-project-setup-request) - Localisation management platform.
  * [Transifex](https://www.transifex.com/pricing/) - Localisation management platform.

@@ -57,7 +57,7 @@
     "tools": [
       {
         "name": ".NET Core Tools for Visual Studio 2015 Update 3",
-        "link": "https://go.microsoft.com/fwlink/?LinkID=824849",
+        "link": "https://go.microsoft.com/fwlink/?LinkID=827546",
         "description": "The .NET Core Tools for Visual Studio 2015 (requires Update 3)."
       },
       {
@@ -68,7 +68,7 @@
 
       {
         "name": ".NET Core SDK (for commandline on Windows)",
-        "link": "https://go.microsoft.com/fwlink/?LinkID=809122",
+        "link": "https://go.microsoft.com/fwlink/?LinkID=827524",
         "description": "The .NET Core SDK for Windows, including the .NET Core commandline tools."
       },
       {

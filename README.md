@@ -39,7 +39,7 @@ For a list of free services and tools for open source .NET projects, see:
 ## How to Engage, Contribute and Provide Feedback
 
 .NET open source projects from Microsoft (gladly) accept PRs and other
-contributions. To contribute to ASP.NET 5 or EntityFramework, see
+contributions. To contribute to ASP.NET Core or Entity Framework Core, see
 [the ASP.NET Contributing Guide](https://github.com/aspnet/Home/blob/master/CONTRIBUTING.md).
 To contribute to .NET Core, see the
 [.NET Core Contributing Guide](https://github.com/dotnet/corefx/wiki/Contributing).

@@ -78,6 +78,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [System.Data.SQLite](https://system.data.sqlite.org) - SQLite
 
 * Messaging
+ * [Azure Event Hubs](https://github.com/azure/azure-event-hubs-dotnet) - A Microsoft supported Event Hubs library for sending and receiving messages at scale.
  * [NServiceBus](https://github.com/Particular/NServiceBus) - The most popular service bus for .NET
  * [AzureNetQ](https://github.com/Roysvork/AzureNetQ) - An easy to use .NET API for Azure Service Bus.
  * [EasyNetQ](https://github.com/mikehadlow/EasyNetQ) - An easy to use .NET API for RabbitMQ.

@@ -81,6 +81,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [Azure Event Hubs](https://github.com/azure/azure-event-hubs-dotnet) - A Microsoft supported Event Hubs library for sending and receiving messages at scale.
  * [NServiceBus](https://github.com/Particular/NServiceBus) - The most popular service bus for .NET
  * [AzureNetQ](https://github.com/Roysvork/AzureNetQ) - An easy to use .NET API for Azure Service Bus.
+  * [Brighter](https://github.com/iancooper/Paramore) - A Command Dispatcher and Command Processor library with support for Work or Task Queues over different MoM implementations such as RabbitMQ
  * [EasyNetQ](https://github.com/mikehadlow/EasyNetQ) - An easy to use .NET API for RabbitMQ.
  * [Lime](https://github.com/takenet/lime-csharp) - A lightweight messaging library. 
  * [MassTransit](https://github.com/MassTransit/MassTransit) - A distributed application framework for RabbitMQ and Azure Service Bus.
@@ -97,7 +98,6 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [Automatonymous](https://github.com/MassTransit/Automatonymous) - An asynchronous state machine engine with messaging support. 
  * [Bing.RestClient](https://github.com/AdvancedREI/Bing.RestClient) - Access the Bing REST APIs from a unified client.
  * [BoxKite.Twitter](https://github.com/NickHodge/BoxKite.Twitter/) - Twitter .NET Client Library for the 1.1 Twitter API, incorporating REST API, User streaming and Search Streaming. Uses Reactive Extensions (Rx).
- * [Brighter](https://github.com/iancooper/Paramore) - A Command Dispatcher and Command Processor library with support for Work or Task Queues over different MoM implementations such as RabbitMQ
  * [Cecil](https://github.com/jbevain/cecil) - A popular library to read, modify and write .NET binaries.
  * [Cimbalino Toolkit](https://github.com/Cimbalino/Cimbalino-Toolkit) - A set of useful and powerful tools that will help you build your Windows Platform applications.
  * [Coding4Fun Toolkit](https://github.com/Coding4FunProjects/Coding4FunToolkit)

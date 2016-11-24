@@ -108,6 +108,7 @@
   },  
   {
     "platform": ".NET Framework 4.6.2",
+    "alias": "net462",
     "category": "netfx",
     "supportInfo": {
       "support": "Supported",
@@ -133,6 +134,7 @@
   },
 {
 "platform":".NET Framework 4.6.1",
+"alias": "net461",
 "category":"netfx",
 "supportInfo" : 
 	{ 
@@ -152,6 +154,7 @@
 },
 {
 "platform":".NET Framework 4.6",
+"alias": "net46",
 "category":"netfx",
 "supportInfo" : 
 	{ 
@@ -170,6 +173,7 @@
   },
 {
 "platform":".NET Framework 4.5.2",
+"alias": "net452",
 "category":"netfx",
 "supportInfo" : 
 	{ 
@@ -189,6 +193,7 @@
   },
   {
 "platform":".NET Framework 4.5.1",
+"alias": "net451",
 "category":"netfx",
 "supportInfo" : 
 	{ 
@@ -207,6 +212,7 @@
   },
 {
 "platform":".NET Framework 4.5",
+"alias": "net45",
 "category":"netfx",
 "supportInfo" : 
 	{ 
@@ -225,6 +231,7 @@
 
 {
 "platform":".NET Framework 4.0.3",
+"alias": "net403",
 "category":"netfx",
 "supportInfo" : 
 	{ 
@@ -246,6 +253,7 @@
 
 {
 "platform":".NET Framework 4",
+"alias": "net4",
 "category":"netfx",
 "supportInfo" : 
 	{ 
@@ -265,6 +273,7 @@
 
  {
 "platform":".NET Framework 2.0 + 3.5 SP1",
+"alias": "net2",
 "category":"netfx",
 "supportInfo" : 
 	{ 

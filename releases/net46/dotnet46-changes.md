@@ -218,7 +218,7 @@ WPF
 * List virtualization doesn't cause crash in GitHub for Windows. [992770]
 * Scrolling in virtualized DataGrid with items of different heights doesn't cause ArgumentNullException. [996725]
 * WriteableBitmap isn't causing leaks of CWriteProtectedBitmap virtual memory. [997584]
-* Selection doesn't incorrectly include the previously selected item when moving selection of ListBoxItem bound to ObservableCleection<T>. [999613]
+* Selection doesn't incorrectly include the previously selected item when moving selection of ListBoxItem bound to ObservableCollection<T>. [999613]
 * Fixed a UI thread deadlock in pen input code. [1010998]
 * Margins set in sections in FlowDocuments are respected. [1104560]
 * Scaling doesn't suffer from rounding errors on odd DPI. [1104807]

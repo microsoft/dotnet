@@ -149,6 +149,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [PocketSharp](https://github.com/ceee/PocketSharp)
  * [PortableRest](https://github.com/AdvancedREI/PortableRest) - Portable library for building cross-platform REST API Clients for .NET and Xamarin.
  * [RestSharp](https://github.com/restsharp/RestSharp) - Simple REST and HTTP API Client for .NET
+ * [SharpCompress](https://github.com/adamhathcock/sharpcompress) - SharpCompress is a fully managed cross-platform C# library to deal with many compression types and formats: Zip, GZip, RAR, TAR, 7Zip, etc.
  * [SharpMap](https://sharpmap.codeplex.com/) - An easy-to-use mapping library for use in web and desktop applications
  * [SharpSnmpLib](https://sharpsnmplib.codeplex.com) - An easy-to-use SNMP library for use on all platforms (.NET/Mono/Xamarin)
  * [Shielded](https://github.com/jbakic/Shielded) - Software Transactional Memory for .NET

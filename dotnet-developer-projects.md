@@ -247,7 +247,9 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [FluentAssertions](http://www.fluentassertions.com/) - A very extensive set of extension methods that allow you to more naturally specify the expected outcome of unit tests and which make your assertions look beautiful, natural and most importantly, extremely readable.
  * [FluentAutomation](https://github.com/stirno/FluentAutomation) - Simple Fluent API for UI Automation
  * [FsCheck](https://github.com/fsharp/FsCheck) - A tool for testing .NET programs automatically.
+ * [Http.ClientHelpers](https://github.com/PureKrome/HttpClient.Helpers) - library to help mock & test `System.Net.Http.HttpClient`.
  * [moq](https://github.com/Moq/moq4) - The most popular and friendly mocking framework for .NET
+ * [NBuilder](https://github.com/nbuilder/nbuilder) - A rapid test object generator.
  * [NSubstitute](https://github.com/nsubstitute/NSubstitute) - A friendly substitute for .NET mocking frameworks.
  * [NUnit](https://github.com/nunit/nunit) - NUnit is a unit-testing framework for all .NET languages.
  * [Shouldly](https://github.com/shouldly/shouldly) - Should style test assertion library with great error messages.

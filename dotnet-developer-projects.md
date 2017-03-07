@@ -1,4 +1,3 @@
-[ 
 # .NET Open Source Developer Projects
 
 This community maintained list showcases .NET open source developer projects. It is intended to include projects that are useful for any aspect of the development process. For consumer projects, see the [.NET open source consumer projects list](dotnet-consumer-projects.md). PR a change into either list and it will be accepted (modulo duplicates). 

@@ -135,6 +135,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [LINQ Extensions](https://github.com/TommasoScalici/LINQExtensions) - LINQ extensions for .NET is a collection of useful extensions methods that extends LINQ's capability. There are methods for combinatorics and sequence analysis, generation and manipulation.
  * [leveldb-sharp](https://github.com/meebey/leveldb-sharp) - cross-platform C# binding for LevelDB
  * [LibGit2Sharp](https://github.com/libgit2/libgit2sharp) - C# language bindings for the [LibGit2](https://github.com/libgit2/libgit2) implementation of Git.
+ * [Localization.SqlLocalizer]( https://github.com/damienbod/AspNet5Localization) - SQL Localizer for ASP.NET Core, dotnet
  * [Lucene.Net](https://github.com/apache/lucene.net)
  * [Math.NET Numerics](https://github.com/mathnet/mathnet-numerics) - Provides methods and algorithms for numerical computations in science, engineering and every day use.
  * [Mathos Core Libary](http://mathos.codeplex.com/) - A library with algorithms for numerical calcultations in finance, statistics, pattern recognition, and more.

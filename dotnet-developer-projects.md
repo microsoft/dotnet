@@ -75,7 +75,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [Wyam](http://wyam.io) - A simple to use, highly modular, and extremely configurable static content generator.
 
 * ADO.NET providers
- * [Firebird .NET client](https://sourceforge.net/p/firebird/NETProvider/) - Firebird
+ * [Firebird .NET Data Provider](https://github.com/cincuranet/FirebirdSql.Data.FirebirdClient) - Firebird
  * [Npgsql](https://github.com/npgsql/npgsql) - PostgreSQL 
  * [System.Data.SQLite](https://system.data.sqlite.org) - SQLite
 

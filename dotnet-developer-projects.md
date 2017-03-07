@@ -111,6 +111,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [ColoredConsole](https://github.com/colored-console/colored-console) - Add some color to your console.
  * [ColorSharp](https://github.com/Litipk/ColorSharp) - Library to handle color spaces and light spectrums.
  * [ComparerExtensions](https://github.com/jehugaleahsa/comparerextensions) - Build IComparer and IEqualityComparer objects using natural language syntax.
+ * [Comparers](https://github.com/StephenCleary/Comparers) - Fluent syntax for building comparers (and equality comparers) and implementing object comparison.
  * [Cricket](https://github.com/fsprojects/Cricket) - Actor library
  * [DateTimeExtensions](https://github.com/kappy/DateTimeExtensions) - Common Date Time operations on the form of extensions to System.DateTime, including holidays and working days calculations on several culture locales.
  * [DiffSharp](https://github.com/gbaydin/DiffSharp) - Automatic Differentiation Library

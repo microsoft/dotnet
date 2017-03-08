@@ -1,19 +1,17 @@
 {
 "vsversions":
 [
-{"alias":"VS2010",
-"name":"Visual Studio 2010",
-"download":"http://www.visualstudio.com/en-us/downloads/download-visual-studio-vs#DownloadFamilies_4"},
-{"alias":"VS2012",
-"name":"Visual Studio 2012",
-"download":"http://www.microsoft.com/en-us/download/details.aspx?id=30682"},
 {"alias":"VS2013",
 "name":"Visual Studio 2013",
-"download":"http://www.visualstudio.com/en-us/downloads/download-visual-studio-vs.aspx"
+"download":"http://www.visualstudio.com/downloads"
 },
 {"alias":"VS2015",
 "name":"Visual Studio 2015",
-"download":"http://www.visualstudio.com/downloads/visual-studio-2015-downloads-vs"
+"download":"http://www.visualstudio.com/downloads"
+},
+{"alias":"VS2017",
+"name":"Visual Studio 2017",
+"download":"http://www.visualstudio.com/downloads"
 }
 ]
 ,
@@ -45,9 +43,8 @@
       "link": ""
     },
     "popular": true,
-    "info": "https://blogs.msdn.microsoft.com/dotnet/2016/06/27/announcing-net-core-1-0/",
-    "includedIn": [  ],
-    "supportedBy": [ "VS2015" ],
+    "info": "https://blogs.msdn.microsoft.com/dotnet/2017/03/07/announcing-net-core-tools-1-0/",
+    "includedIn": [ "VS2017" ],
     "runtime": [
       {
         "name": ".NET Core 1.0",
@@ -56,35 +53,14 @@
     ],
     "tools": [
       {
-        "name": ".NET Core Tools for Visual Studio 2015 Update 3",
-        "link": "https://go.microsoft.com/fwlink/?LinkID=827546",
-        "description": "The .NET Core Tools for Visual Studio 2015 (requires Update 3)."
-      },
-      {
-        "name": "Visual Studio 2015 Update 3",
-        "link": "https://go.microsoft.com/fwlink/?LinkId=691129",
-        "description": "Required to install .NET Core 1.0"
-      },
-
-      {
-        "name": ".NET Core SDK (for commandline on Windows)",
-        "link": "https://go.microsoft.com/fwlink/?LinkID=827524",
-        "description": "The .NET Core SDK for Windows, including the .NET Core commandline tools."
-      },
-      {
-        "name": ".NET Core SDK (for commandline on macOS)",
-        "link": "https://www.microsoft.com/net/core#macos",
-        "description": "The .NET Core SDK for macOS, including the .NET Core commandline tools."
-      },
-      {
-        "name": ".NET Core SDK (for commandline on Linux)",
-        "link": "https://dot.net/core",
-        "description": "The .NET Core SDK for Linux, including the .NET Core commandline tools."
+        "name": ".NET Core SDK",
+        "link": "https://www.microsoft.com/net/download/core",
+        "description": "The .NET Core SDK for Windows, macOS and Linux."
       },
       {
         "name": ".NET Core SDK (for Docker)",
-        "link": "https://www.microsoft.com/net/core#docker",
-        "description": "Using the .NET Core docker container on Windows, macOS and Linux."
+        "link": "https://www.microsoft.com/net/core#dockercmd",
+        "description": "The .NET Core docker images, for Windows and Linux."
       }
     ]
   },
@@ -96,9 +72,9 @@
       "link": ""
     },
     "popular": true,
-    "info": "https://blogs.msdn.microsoft.com/webdev/2016/06/27/announcing-asp-net-core-1-0/",
+    "info": "https://blogs.msdn.microsoft.com/webdev/2017/03/07/announcing-visual-studio-2017/",
     "includedIn": [  ],
-    "supportedBy": [ "VS2015" ],
+    "supportedBy": [ "VS2017" ],
     "runtime": [
       {
         "name": "ASP.NET Core 1.0",
@@ -117,7 +93,7 @@
     "popular": true,
     "info": "http://go.microsoft.com/fwlink/?LinkID=708776",
     "includedIn": [  ],
-    "supportedBy": [ "VS2015", "VS2013", "VS2012" ],
+    "supportedBy": [ "VS2017","VS2015","VS2013"],
     "runtime": [
       {
         "name": ".NET Framework 4.6.2",
@@ -143,8 +119,8 @@
 	},
 "popular": true,
 "info":"http://blogs.msdn.com/b/dotnet/archive/2015/11/30/net-framework-4-6-1-is-now-available.aspx",
-"includedIn":["VS2015"],
-"supportedBy":["VS2013","VS2012"],
+"includedIn":["VS2017","VS2015"],
+"supportedBy":["VS2013"],
 "runtime":[
 {"name":".NET Framework 4.6.1","link":"http://go.microsoft.com/fwlink/?LinkId=671729"}],
 "tools":[
@@ -163,8 +139,8 @@
 	},
 "popular": true,
 "info":"http://blogs.msdn.com/b/dotnet/archive/2015/07/20/announcing-net-framework-4-6.aspx",
-"includedIn":["VS2015"],
-"supportedBy":["VS2013","VS2012"],
+"includedIn":["VS2017","VS2015"],
+"supportedBy":["VS2013"],
 "runtime":[
 {"name":".NET Framework 4.6","link":"http://go.microsoft.com/fwlink/?LinkId=528259"}],
 "tools":[
@@ -182,94 +158,16 @@
 	},
 "popular": true,
 "info":"http://go.microsoft.com/fwlink/?LinkID=309958",
-"includedIn":["VS2015"],
-"supportedBy":["VS2013","VS2012"],
+"includedIn":["VS2017","VS2015"],
+"supportedBy":["VS2013"],
 "runtime":[
 {"name":".NET Framework 4.5.2","link":"http://go.microsoft.com/fwlink/?LinkId=397674"}],
 "tools":[
 {"name":".NET Framework 4.5.2 Developer Pack","link":"http://go.microsoft.com/fwlink/?LinkId=328857","description":"The .NET 4.5.2 Developer pack includes the .NET framework 4.5.2 runtime and targeting pack."},
 {"name":".NET Framework 4.5.2 Language Packs","link":"http://go.microsoft.com/fwlink/?LinkId=328858","description":"Resources to support languages other than English."}
 ]
-  },
-  {
-"platform":".NET Framework 4.5.1",
-"alias": "net451",
-"category":"netfx",
-"supportInfo" : 
-	{ 
-	"support": "Not Supported", 
-	"link" : "http://blogs.msdn.com/b/dotnet/archive/2015/12/09/support-ending-for-the-net-framework-4-4-5-and-4-5-1.aspx"
-	},
-"popular": false,
-"info":"http://go.microsoft.com/fwlink/?LinkID=309958",
-"includedIn":["VS2015","VS2013"],
-"supportedBy":["VS2012"],
-"runtime":[
-{"name":".NET Framework 4.5.1","link":"http://go.microsoft.com/fwlink/?LinkId=306592"}],
-"tools":[
-{"name":".NET Framework 4.5.1 Developer Pack","link":"http://www.microsoft.com/en-us/download/details.aspx?id=40772","description":"The .NET 4.5.1 Developer pack includes the .NET framework 4.5.1 runtime and targeting pack."},
-{"name":"Windows Software Development Kit for Windows 8.1","link":"http://go.microsoft.com/fwlink/?LinkID=310212"}]
-  },
-{
-"platform":".NET Framework 4.5",
-"alias": "net45",
-"category":"netfx",
-"supportInfo" : 
-	{ 
-	"support": "Not Supported", 
-	"link" : "http://blogs.msdn.com/b/dotnet/archive/2015/12/09/support-ending-for-the-net-framework-4-4-5-and-4-5-1.aspx"
-	},
-"popular": false,
-"info":"http://blogs.msdn.com/b/dotnet/archive/2012/08/15/announcing-the-release-of-net-framework-4-5-rtm-product-and-source-code.aspx",
-"includedIn":["VS2015","VS2013","VS2012"],
-"supportedBy":[],
-"runtime":[
-{"name":".NET Framework 4.5","link":"http://go.microsoft.com/fwlink/?LinkId=306591"}],
-"tools":[
-{"name":"Windows Software Development Kit (SDK) for Windows 8","link":"http://go.microsoft.com/fwlink/?LinkID=310216"}]
-  },
-
-{
-"platform":".NET Framework 4.0.3",
-"alias": "net403",
-"category":"netfx",
-"supportInfo" : 
-	{ 
-	"support": "Not Supported", 
-	"link" : "http://blogs.msdn.com/b/dotnet/archive/2015/12/09/support-ending-for-the-net-framework-4-4-5-and-4-5-1.aspx"
-	},
-"popular": false,
-"info":"http://blogs.msdn.com/b/dotnet/archive/2012/03/05/update-4-0-3-for-the-microsoft-net-framework-4.aspx",
-"includedIn":[],
-"supportedBy":["VS2010"],
-"runtime":[
-{"name":".NET Framework 4.0.3","link":"http://go.microsoft.com/fwlink/?LinkID=226775"}
-],
-"tools":[
-{"name":".NET Framework 4.0.3 Targeting Pack","link":"http://go.microsoft.com/fwlink/?LinkID=245232"},
-{"name":".NET Framework 4.0.3 -- Design-time Update","link":"http://go.microsoft.com/fwlink/?LinkID=226778"}
-]
-},
-
-{
-"platform":".NET Framework 4",
-"alias": "net4",
-"category":"netfx",
-"supportInfo" : 
-	{ 
-	"support": "Not Supported", 
-	"link" : "http://blogs.msdn.com/b/dotnet/archive/2015/12/09/support-ending-for-the-net-framework-4-4-5-and-4-5-1.aspx"
-	},
-"popular": true,
-"info":"http://blogs.msdn.com/b/dotnet/archive/2012/08/15/announcing-the-release-of-net-framework-4-5-rtm-product-and-source-code.aspx",
-"includedIn":["VS2015","VS2013","VS2012","VS2010"],
-"supportedBy":[],
-"runtime":[
-{"name":".NET Framework 4","link":"http://go.microsoft.com/fwlink/?LinkID=306589"}],
-"tools":[
-{"name":"Windows SDK for Windows 7 and .NET Framework 4","link":"http://go.microsoft.com/fwlink/?LinkID=229188"}
-]
-},
+  }
+,
 
  {
 "platform":".NET Framework 2.0 + 3.5 SP1",
@@ -283,7 +181,7 @@
 "popular": true,
 "info":"http://msdn.microsoft.com/library/w0x726c2(VS.90).aspx",
 "includedIn":[],
-"supportedBy":["VS2015","VS2013","VS2012","VS2010"],
+"supportedBy":["VS2017","VS2015","VS2013"],
 "runtime":[
 {"name":".NET Framework 3.5 SP1","link":"http://go.microsoft.com/fwlink/?LinkID=229190"},
 {"name":".NET Framework 3.5 SP1 (Windows 8+)","link":"http://msdn.microsoft.com/library/hh506443.aspx"}],
@@ -294,23 +192,12 @@
 "platform":"Microsoft Azure",    
 "category":"services",
 "info":"http://msdn.microsoft.com/library/azure",
-"includedIn":[],
-"supportedBy":["VS2015","VS2013","VS2012"],
+"includedIn":["VS2017"],
+"supportedBy":["VS2015","VS2013"],
 "tools":[
 {"name":"Azure SDK for .NET","link":"http://go.microsoft.com/fwlink/?LinkID=254336"}
 ]
   }, 
-
-{
-"platform":"Team Foundation Server",
-"category":"services",
-"info":"http://go.microsoft.com/fwlink/?LinkID=308920",
-"includedIn":[],
-"supportedBy":["VS2010"],
-"tools":[
-{"name":"Visual Studio 2010 SP1 Team Foundation Server Compatibility GDR ","link":"http://go.microsoft.com/fwlink/?LinkID=308924"}]
-  },
-
 {
 "platform":"Team Foundation Server",
 "category":"services",
@@ -323,7 +210,7 @@
 "platform":"Office 365, Office and SharePoint",
 "category":"services",
 "info":"http://go.microsoft.com/fwlink/?LinkID=308921",
-"includedIn":["VS2015","VS2013"],
+"includedIn":["VS2017","VS2015","VS2013"],
 "supportedBy":[]
 }
 ,
@@ -332,7 +219,7 @@
 "category":"services",
 "info":"http://go.microsoft.com/fwlink/?LinkID=306598",
 "includedIn":[],
-"supportedBy":["VS2015","VS2013","VS2012"],
+"supportedBy":["VS2017","VS2015","VS2013","VS2012"],
 "tools":[{"name":"Live SDK","link":"http://go.microsoft.com/fwlink/?LinkID=306598"}]
 },
 
@@ -341,45 +228,7 @@
 "category":"services",
 "info":"http://www.bing.com/dev",
 "includedIn":[],
-"supportedBy":["VS2013"],
-"tools":[{"name":"Maps WPF Control","link":"http://go.microsoft.com/fwlink/?LinkID=306597"},
-{"name":"Bing Maps SDK for Windows 8.1","link":"http://go.microsoft.com/fwlink/?LinkID=309954"},
-{"name":"Bing Optical Character Recognition Control","link":"http://go.microsoft.com/fwlink/?LinkID=309953"},
-{"name":"Bing Translator Control","link":"http://go.microsoft.com/fwlink/?LinkID=309952"}
-]
-},
-
-{
-"platform":"Bing",
-"category":"services",
-"info":"http://www.bing.com/dev",
-"includedIn":[],
-"supportedBy":["VS2012"],
-"tools":[{"name":"Maps WPF Control","link":"http://go.microsoft.com/fwlink/?LinkID=306597"},
-{"name":"Bing Maps SDK for Windows 8","link":"http://go.microsoft.com/fwlink/?LinkID=309950"},
-{"name":"Bing Optical Character Recognition Control","link":"http://go.microsoft.com/fwlink/?LinkID=309953"},
-{"name":"Bing Translator Control","link":"http://go.microsoft.com/fwlink/?LinkID=309952"}
-]
-},
-
-{
-"platform":"Bing",
-"category":"services",
-"info":"http://www.bing.com/dev",
-"includedIn":[],
-"supportedBy":["VS2010"],
-"tools":[{"name":"Maps WPF Control","link":"http://go.microsoft.com/fwlink/?LinkID=306597"}]
-},
-
-{
-"platform":"Microsoft Advertising",
-"category":"Services",
-"info":"http://go.microsoft.com/fwlink/?LinkID=309951",
-"includedIn":[],
-"supportedBy":["VS2013","VS2012"],
-"tools":[
-{"name":"Microsoft Ad SDK for Windows 8","link":"http://go.microsoft.com/fwlink/?LinkID=309951"}
-]
+"supportedBy":["VS2017","VS2015","VS2013"]
 },
 
 {
@@ -392,100 +241,11 @@
          {"name":"Microsoft .NET Native","link":"http://msdn.microsoft.com/vstudio/dotnetnative"}
 ]
 },
-
-{
-"platform":"Windows Store",
-"category":"devices",
-"info":"http://msdn.microsoft.com/windows/apps",
-"includedIn":["VS2012"],
-"supportedBy":[],
-"tools":[{"name":"Visual Studio Express 2013 for Windows with Update 2 RC ","link":"http://www.microsoft.com/download/details.aspx?id=42305"}]
-},
-
-{
-"platform":"Windows Phone",
-"category":"devices",
-"info":"http://msdn.microsoft.com/library/windowsphone/develop/ff402535(v=vs.105).aspx",
-"includedIn":["VS2013"],
-"supportedBy":[],
-"tools":[{"name":"Visual Studio Express 2013 for Windows with Update 2 RC ","link":"http://www.microsoft.com/download/details.aspx?id=42305"}
-]
-},
-
-{
-"platform":"Windows Phone 7.5",
-"category":"devices",
-"info":"http://dev.windowsphone.com/develop",
-"includedIn":[],
-"supportedBy":["VS2012","VS2010"],
-"tools":[
-    {"name":"Windows Phone SDK 7.1","link":"http://go.microsoft.com/fwlink/?LinkID=229195"},
-    {"name":"Visual Studio Express 2012 for Windows Phone","link":"http://www.visualstudio.com/downloads/download-visual-studio-vs#d-express-windows-phone"},
-    {"name":"Visual Studio Express 2013 for Windows with Update 2 RC ","link":"http://www.microsoft.com/download/details.aspx?id=42305"}
-]
-},
-
-{
-"platform":"XBOX 360",
-"category":"devices",
-"info":"http://xbox.create.msdn.com",
-"includedIn":[],
-"supportedBy":["VS2010"],
-"tools":[
-    {"name":"XNA Game Studio 4.0","link":"http://go.microsoft.com/fwlink/?LinkID=229196"}
-]
-},
-
-{
-"platform":"Kinect for Windows",
-"category":"devices",
-"info":"http://www.microsoft.com/en-us/kinectforwindows/develop",
-"includedIn":[],
-"supportedBy":["VS2013", "VS2012"],
-"tools":[{"name":"Kinect for Windows SDK","link":"http://go.microsoft.com/fwlink/?LinkID=324285"}
-]
-},
-{
-"platform":"Portable Class Library",
-"category":"libraries",
-"info":"http://msdn.microsoft.com/library/gg597391(v=vs.110)",
-"includedIn":["VS2015","VS2013", "VS2012"],
-"supportedBy":[]
-},
-{
-"platform":"Portable Class Library",
-"category":"libraries",
-"info":"http://msdn.microsoft.com/library/gg597391(v=vs.110)",
-"includedIn":[],
-"supportedBy":["VS2010"],
-"tools":[{"name":"Portable Library Tools","link":"http://go.microsoft.com/fwlink/?LinkID=229189"}]
-},
-{
-"platform":"Silverlight 5",
-"category":"silverlight",
-"info":"http://msdn.microsoft.com/library/cc838158.aspx)",
-"includedIn":["VS2015","VS2013","VS2012"],
-"supportedBy":[],
-"runtime":[
-{"name":"Silverlight 5","link":"http://go.microsoft.com/fwlink/?LinkID=310211"}]
-},
-
-{
-"platform":"Silverlight 5",
-"category":"silverlight",
-"info":"http://msdn.microsoft.com/library/cc838158.aspx",
-"includedIn":[],
-"supportedBy":["VS2010"],
-"runtime":[
-{"name":"Silverlight 5","link":"http://go.microsoft.com/fwlink/?LinkID=310211"}],
-"tools":[
-{"name":"Silverlight 5 Tools for Visual Studio 2010 SP1","link":"http://go.microsoft.com/fwlink/?LinkID=229193"}]
-},
 {
 "platform":"Xamarin",
 "category":"devices",
 "info":"http://xamarin.com",
-"includedIn":[],
+"includedIn":["VS2017"],
 "supportedBy":["VS2015","VS2013","VS2012","VS2010"],
 "runtime":[],
 "tools":[
@@ -495,50 +255,11 @@
 "platform":"Unity",
 "category":"gaming",
 "info":"https://blogs.msdn.microsoft.com/visualstudio/2016/07/14/visual-studio-tools-for-unity-2-3/",
-"includedIn":[],
+"includedIn":["VS2017"],
 "supportedBy":["VS2015"],
 "runtime":[],
 "tools":[
 {"name":"Visual Studio 2015 Tools for Unity","link":"https://visualstudiogallery.msdn.microsoft.com/8d26236e-4a64-4d64-8486-7df95156aba9"}]
-},
-{
-"platform":"Unity",
-"category":"gaming",
-"info":"https://blogs.msdn.microsoft.com/visualstudio/2016/07/14/visual-studio-tools-for-unity-2-3/",
-"includedIn":[],
-"supportedBy":["VS2013"],
-"runtime":[],
-"tools":[
-{"name":"Visual Studio 2013 Tools for Unity","link":"http://visualstudiogallery.msdn.microsoft.com/20b80b8c-659b-45ef-96c1-437828fe7cf2"}]
-},
-{
-"platform":"Unity",
-"category":"gaming",
-"info":"https://blogs.msdn.microsoft.com/visualstudio/2016/07/14/visual-studio-tools-for-unity-2-3/",
-"includedIn":[],
-"supportedBy":["VS2012"],
-"runtime":[],
-"tools":[
-{"name":"Visual Studio 2012 Tools for Unity","link":"http://visualstudiogallery.msdn.microsoft.com/7ab11d2a-f413-4ed6-b3de-ff1d05157714"}]
-},
-{
-"platform":"Unity",
-"category":"gaming",
-"info":"https://blogs.msdn.microsoft.com/visualstudio/2016/07/14/visual-studio-tools-for-unity-2-3/",
-"includedIn":[],
-"supportedBy":["VS2010"],
-"runtime":[],
-"tools":[
-{"name":"Visual Studio 2010 Tools for Unity","link":"http://visualstudiogallery.msdn.microsoft.com/6e536faa-ce73-494a-a746-6a14753015f1"}]
-},
-{
-"platform":".NET Micro Framework",
-"category":"devices",
-"info":"http://www.netmf.com",
-"includedIn":[],
-"supportedBy":["VS2012"],
-"runtime":[{"name":".NET MF 4.3 RTM QFE1","link":"http://netmf.codeplex.com/releases/view/118283"}],
-"tools":[]
 }
 ]
 }

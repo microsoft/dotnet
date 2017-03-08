@@ -26,11 +26,7 @@
 {"alias":"devices",
 "name":"Devices"},
 {"alias":"gaming",
-"name":"Gaming"},
-{"alias":"libraries",
-"name":"Libraries"},
-{"alias":"silverlight",
-"name":"Silverlight"}
+"name":"Gaming"}
 ],
 
 "platforms":
@@ -92,8 +88,8 @@
     },
     "popular": true,
     "info": "http://go.microsoft.com/fwlink/?LinkID=708776",
-    "includedIn": [  ],
-    "supportedBy": [ "VS2017","VS2015","VS2013"],
+    "includedIn": [ "VS2017" ],
+    "supportedBy": [ "VS2015","VS2013"],
     "runtime": [
       {
         "name": ".NET Framework 4.6.2",
@@ -246,7 +242,7 @@
 "category":"devices",
 "info":"http://xamarin.com",
 "includedIn":["VS2017"],
-"supportedBy":["VS2015","VS2013","VS2012","VS2010"],
+"supportedBy":["VS2015","VS2013"],
 "runtime":[],
 "tools":[
 {"name":"Xamarin Tools for iOS and Android","link":"http://go.microsoft.com/fwlink/?LinkID=398052"}]

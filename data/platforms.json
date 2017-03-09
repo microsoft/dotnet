@@ -110,7 +110,6 @@
 "runtime":[
 {"name":".NET Framework 4.6.1","link":"http://go.microsoft.com/fwlink/?LinkId=671729"}],
 "tools":[
-{"name":"Visual Studio Community 2015 (free)","link":"https://www.visualstudio.com/products/visual-studio-community-vs"},
 {"name":".NET Framework 4.6.1 Targeting Pack","link":"http://go.microsoft.com/fwlink/?LinkId=690706","description":"The .NET 4.6.1 Developer pack includes the 4.6.1 reference assemblies needed by Visual Studio and msbuild."}
 ]
 },

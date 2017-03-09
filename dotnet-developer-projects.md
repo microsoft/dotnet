@@ -1,4 +1,3 @@
-[ 
 # .NET Open Source Developer Projects
 
 This community maintained list showcases .NET open source developer projects. It is intended to include projects that are useful for any aspect of the development process. For consumer projects, see the [.NET open source consumer projects list](dotnet-consumer-projects.md). PR a change into either list and it will be accepted (modulo duplicates). 
@@ -260,10 +259,11 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [Http.ClientHelpers](https://github.com/PureKrome/HttpClient.Helpers) - library to help mock & test `System.Net.Http.HttpClient`.
  * [moq](https://github.com/Moq/moq4) - The most popular and friendly mocking framework for .NET
  * [NBuilder](https://github.com/nbuilder/nbuilder) - A rapid test object generator.
+ * [NSpec](https://github.com/nspec/NSpec) - .NET BDD testing framework of the xSpec (context/specification) flavor, heavily inspired by RSpec and Mocha.
  * [NSubstitute](https://github.com/nsubstitute/NSubstitute) - A friendly substitute for .NET mocking frameworks.
  * [NUnit](https://github.com/nunit/nunit) - NUnit is a unit-testing framework for all .NET languages.
  * [Shouldly](https://github.com/shouldly/shouldly) - Should style test assertion library with great error messages.
- * [SpecFlow](https://github.com/techtalk/specflow) - Cucumber clone for .NET for writing acceptance tests in natural langauge. [Site](http://www.specflow.org/) 
+ * [SpecFlow](https://github.com/techtalk/specflow) - Cucumber clone for .NET for writing acceptance tests in natural language. [Site](http://www.specflow.org/) 
  * [tickspec](http://tickspec.codeplex.com/) - A lightweight Behaviour Driven Development (BDD) framework.
  * [TestStack.BDDfy](https://github.com/TestStack/TestStack.BDDfy) - BDDfy is the simplest BDD framework to use, customize and extend!
  * [TestStack.FluentMvcTesting](https://github.com/TestStack/TestStack.FluentMVCTesting) - Simple, terse, fluent unit testing for ASP.NET MVC Controllers.

@@ -44,8 +44,16 @@
     "runtime": [
       {
         "name": ".NET Core 1.0",
-        "link": "https://dot.net/core"
-      }
+        "link": "https://github.com/dotnet/core/releases/tag/1.0.4"
+      },
+      {
+        "name": ".NET Core 1.1",
+        "link": "https://github.com/dotnet/core/releases/tag/1.1.1"
+      },
+            {
+        "name": "ASP.NET Core",
+        "link": "http://www.asp.net/get-started"
+      }     
     ],
     "tools": [
       {
@@ -57,24 +65,6 @@
         "name": ".NET Core SDK (for Docker)",
         "link": "https://www.microsoft.com/net/core#dockercmd",
         "description": "The .NET Core docker images, for Windows and Linux."
-      }
-    ]
-  },
- {
-    "platform": "ASP.NET Core 1.0",
-    "category": "netcore",
-    "supportInfo": {
-      "support": "Supported",
-      "link": ""
-    },
-    "popular": true,
-    "info": "https://blogs.msdn.microsoft.com/webdev/2017/03/07/announcing-visual-studio-2017/",
-    "includedIn": [  ],
-    "supportedBy": [ "VS2017" ],
-    "runtime": [
-      {
-        "name": "ASP.NET Core 1.0",
-        "link": "http://www.asp.net/get-started"
       }
     ]
   },  

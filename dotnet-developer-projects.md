@@ -89,7 +89,6 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [Brighter](https://github.com/iancooper/Paramore) - A Command Dispatcher and Command Processor library with support for Work or Task Queues over different MoM implementations such as RabbitMQ
  * [EasyNetQ](https://github.com/mikehadlow/EasyNetQ) - An easy to use .NET API for RabbitMQ.
  * [Lime](https://github.com/takenet/lime-csharp) - A lightweight messaging library. 
- * [MassTransit](https://github.com/MassTransit/MassTransit) - A distributed application framework for RabbitMQ and Azure Service Bus.
  * [RestBus](https://github.com/tenor/RestBus) - Easy Asynchronous Messaging and Queueing for .NET
 
 * Libraries
@@ -101,7 +100,6 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [AshMind.Extensions](https://github.com/ashmind/ashmind-extensions) - A set of very conservative extension methods most of which closely follow naming and design patterns of .NET Base Class Library.
  * [ASP.NET MVC Boilerplate Framework](https://github.com/ASP-NET-MVC-Boilerplate/Framework) - ASP.NET MVC Extensions and Helper NuGet packages.
  * [AsyncCollections](https://github.com/HellBrick/AsyncCollections) - A set of lock-free thread-safe collections designed to be used asynchronously.
- * [Automatonymous](https://github.com/MassTransit/Automatonymous) - An asynchronous state machine engine with messaging support. 
  * [Bing.RestClient](https://github.com/AdvancedREI/Bing.RestClient) - Access the Bing REST APIs from a unified client.
  * [BoxKite.Twitter](https://github.com/NickHodge/BoxKite.Twitter/) - Twitter .NET Client Library for the 1.1 Twitter API, incorporating REST API, User streaming and Search Streaming. Uses Reactive Extensions (Rx).
  * [Cecil](https://github.com/jbevain/cecil) - A popular library to read, modify and write .NET binaries.
@@ -233,7 +231,6 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [Glimpse](https://github.com/Glimpse/Glimpse) - Providing real time diagnostics & insights to the fingertips of hundreds of thousands of developers daily.
  * [ILSpy](https://github.com/icsharpcode/ILSpy) - ILSpy is the open-source .NET assembly browser and decompiler.
  * [Mini Profiler](https://github.com/MiniProfiler/dotnet) - A simple but effective mini-profiler for .NET.
- * [Node.js Tools For Visual Studio](https://github.com/Microsoft/nodejstools) -  Plugin that turns Visual Studio into a Node.js IDE
  * [Obfuscar](https://obfuscar.codeplex.com) - MSIL obfuscation utility for .NET assemblies.
  * [OmniDB](https://github.com/OmniDB/OmniDB) - Web tool for database management and conversion. [Site](http://omnidb.com.br)
  * [Outcomes.Net](https://github.com/kinetiq/Ether.Outcomes/) - Fluent wrapper that eliminates plumbing code around failure-prone functions.
@@ -356,6 +353,9 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   
 * Windows Workflow
  * [Workflow Extractor](https://github.com/punitganshani/WorkflowExtractor) - Document Windows Workflow logic into a Word document or Excel sheet. 
+ 
+* Amazon Echo/Alexa Integration
+ * [AlexaSkillsKit.NET](https://github.com/AreYouFreeBusy/AlexaSkillsKit.NET) - .NET library to write Alexa Skills that's interface-compatible with Amazon's AlexaSkillsKit for Java and matches that functionality.
 
 * Amazon Echo/Alexa Integration
  * [AlexaSkillsKit.NET](https://github.com/AreYouFreeBusy/AlexaSkillsKit.NET) - .NET library to write Alexa Skills that's interface-compatible with Amazon's AlexaSkillsKit for Java and matches that functionality.

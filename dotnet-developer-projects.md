@@ -202,7 +202,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [ELMAH](https://github.com/elmah/Elmah) - [ELMAH (Error Logging Modules and Handlers)](https://elmah.github.io/) is an application-wide error logging facility that is completely pluggable. It can be dynamically added to a running ASP.NET web application, or even all ASP.NET web applications on a machine, without any need for re-compilation or re-deployment.
  * [log4net](http://logging.apache.org/log4net/) - A tool to help the programmer output log statements to a variety of output targets.
  * [LogMaster4Net](https://github.com/kerryjiang/LogMaster4Net) - It is a central log server which can organize your logs in different applications in a same place but have same log behaviors (loggers, appenders, levels and rules) like in the indepedent applications before.
- * [NLog](https://github.com/NLog/NLog) - NLog is a free logging platform for .NET with rich log routing and management capabilities.
+ * [NLog](http://nlog-project.org/) - NLog is a free logging platform for .NET with rich log routing and management capabilities.
  
 * Model-View-ViewModel (MVVM) Frameworks
  * [Caliburn Micro](https://github.com/Caliburn-Micro/Caliburn.Micro) - A small, yet powerful framework, designed for building applications across all XAML platforms.

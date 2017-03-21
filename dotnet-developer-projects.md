@@ -314,6 +314,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [SQL LocalDB Wrapper](https://github.com/martincostello/sqllocaldb) - SQL LocalDB Wrapper is an assembly providing interop with the SQL LocalDB native API from managed code using .NET APIs.
  * [LINQ2DynamoDB](https://github.com/scale-tone/linq2dynamodb) - A type-safe data context for AWS DynamoDB with LINQ, in-memory caching and OData support.   
  * [Elephant](https://github.com/takenet/elephant) - Persistence library that provides common data structures as composable elements to abstract any storage engine, including (No)SQL databases. 
+ * [Marten](https://github.com/JasperFx/marten) - Document DB / Event Store built on top of PostgreSQL.
 
 * Games
  * [Duality](https://github.com/AdamsLair/duality) - An Open Source 2D Game Engine + Visual Editor written entirely in C#.

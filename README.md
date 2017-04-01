@@ -11,7 +11,7 @@ This repository is a starting point to learn about and engage in .NET and .NET o
 
 Please contribute to this repository via [pull requests](https://github.com/Microsoft/dotnet/pulls)
 
-Please file .NET Core product issues at [dotnet/core](https://github.com/dotnet/core/issues). This repo is not an official .NET Framework support location, however, we will respond to issues filed here as best we can.
+This repo is not an official .NET Framework support location, however, we will respond to issues filed here as best we can. Please file .NET Core product issues at [dotnet/core](https://github.com/dotnet/core/issues) and ASP.NET Core product issues at [aspnet/home](https://github.com/aspnet/home/issues).
 
 ## Finding .NET Open Source Projects
 

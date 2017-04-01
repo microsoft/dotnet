@@ -1,6 +1,6 @@
 # .NET Home
 
-The dotnet repository is a starting point to engage in and learn about .NET and .NET open source projects.
+This repository is a starting point to learn about and engage in .NET and .NET open source projects.
 
 ## In this repository
 
@@ -9,7 +9,7 @@ The dotnet repository is a starting point to engage in and learn about .NET and 
 - [.NET Open Source Consumer Projects](dotnet-consumer-projects.md)
 - [Free Services & Tools for Open Source .NET Projects](dotnet-free-oss-services.md)
 
-Please contribute the .NET open source projects and services lists via [pull requests](https://github.com/Microsoft/dotnet/pulls)
+Please contribute to this repository via [pull requests](https://github.com/Microsoft/dotnet/pulls)
 
 Please file .NET Core product issues at [dotnet/core](https://github.com/dotnet/core/issues). This repo is not an official .NET Framework support location, however, we will respond to issues filed here as best we can.
 

@@ -1,66 +1,69 @@
 # .NET Home
 
-The dotnet repository is the starting point to engage in and learn about .NET
-open source projects from [Microsoft](http://microsoft.github.io) and the
-[.NET Foundation](http://www.dotnetfoundation.org/). You can read the more detailed post
-[.NET Core is Open Source](http://blogs.msdn.com/b/dotnet/archive/2014/11/12/net-core-is-open-source.aspx)
-on the .NET blog.
+This repository is a starting point to learn about and engage in .NET and .NET open source projects.
+
+This repo is not an official .NET Framework support location, however, we will respond to issues filed here as best we can. Please file .NET Core product issues at [dotnet/core](https://github.com/dotnet/core/issues) and ASP.NET Core product issues at [aspnet/home](https://github.com/aspnet/home/issues).
+
+## In this repository
+
+- [.NET Framework Release Notes](releases/README.md)
+- [.NET Open Source Developer Projects](dotnet-developer-projects.md)
+- [.NET Open Source Consumer Projects](dotnet-consumer-projects.md)
+- [Free Services & Tools for Open Source .NET Projects](dotnet-free-oss-services.md)
+
+Please contribute to this repository via [pull requests](https://github.com/Microsoft/dotnet/pulls)
 
 ## Finding .NET Open Source Projects
 
-There are many [open source .NET projects](dotnet-developer-projects.md), a few of which are listed below. Additionally [@quozd](https://github.com/quozd) maintains a list of [awesome open source .NET libraries, tools, frameworks, and software](https://github.com/quozd/awesome-dotnet). [ASP.NET Core (and .NET Core) Library and Framework Support](https://github.com/jpsingleton/ANCLAFS) is listed at [ANCLAFS.com](https://ANCLAFS.com).
+There are many projects that you can use and contribute to. Please do contribute to these projects!
 
+### .NET Core
 
+- [.NET Core (dotnet/core)](https://github.com/dotnet/core)
+- [.NET Core docs (dotnet/docs)](https://github.com/dotnet/docs)
+- [ASP.NET Core (aspnet/home)](https://github.com/aspnet/home)
+- [ASP.NET Core docs (aspnet/Docs)](https://github.com/aspnet/Docs)
+- [Roslyn Compiler Platform (dotnet/roslyn)](https://github.com/dotnet/roslyn)
+- [EntityFramework (aspnet/entityframework)](https://github.com/aspnet/EntityFramework)
 
-* [.NET Compiler Platform ("Roslyn")](https://github.com/dotnet/roslyn)
-* [.NET Core](https://github.com/dotnet/core)
-* [ASP.NET Core](https://github.com/aspnet/home)
-* [EntityFramework](https://github.com/aspnet/EntityFramework)
+### .NET Framework
+
+- [.NET Framework docs (dotnet/docs)](https://github.com/dotnet/docs)
+- [.NET Framework source code - read-only subset (microsoft/referencesource)](https://github.com/microsoft/referencesource)
+
+### Xamarin
+
+- [Xamarin iOS + macOS (xamarin-macios)](https://github.com/xamarin/xamarin-macios)
+- [Xamarin Android (xamarin/xamarin-android)](https://github.com/xamarin/xamarin-android)
+- [Xamarin Forms (xamarin/Xamarin.Forms)](https://github.com/xamarin/Xamarin.Forms)
+- [Mono Project](https://github.com/mono/)
+
+### Community
+
+Here is a short list of projects to check out:
+
 * [Orleans](https://github.com/dotnet/orleans)
 * [Exceptionless](https://github.com/exceptionless/Exceptionless)
-* [Glimpse](http://getglimpse.com)
-* [JSON.NET](http://json.net/)
+* [Glimpse](https://github.com/Glimpse/Glimpse)
+* [JSON.NET](https://github.com/JamesNK/Newtonsoft.Json)
 * [Mobius: C# API for Apache Spark](https://github.com/Microsoft/Mobius)
-* [MonoGame](http://monogame.net)
-* [Mono Project](https://github.com/mono/)
+* [MonoGame](https://github.com/MonoGame/MonoGame)
 * [MVVM Cross](https://github.com/MvvmCross/MvvmCross)
-* [MVVM Light Toolkit](http://www.mvvmlight.net)
 * [ReactiveUI](https://github.com/reactiveui/ReactiveUI)
 
-For a longer list, see:
+Here are some excellent community-maintained lists of projects:
 
-* [.NET developer projects](dotnet-developer-projects.md)
-* [.NET consumer projects](dotnet-consumer-projects.md) 
-
-For a list of free services and tools for open source .NET projects, see:
-
-* [Free Services & Tools for Open Source .NET Projects](dotnet-free-oss-services.md)
-
-## How to Engage, Contribute and Provide Feedback
-
-.NET open source projects from Microsoft (gladly) accept PRs and other
-contributions. To contribute to ASP.NET Core or Entity Framework Core, see
-[the ASP.NET Contributing Guide](https://github.com/aspnet/Home/blob/master/CONTRIBUTING.md).
-To contribute to .NET Core, see the
-[.NET Core Contributing Guide](https://github.com/dotnet/corefx/wiki/Contributing).
-
-You are also encouraged to start a discussion by posting on the
-[.NET Foundation Forums](http://forums.dotnetfoundation.org/) or filing an issue
-in the corresponding GitHub project. See the contributing guides for more
-details.
+- [Awesome .NET!](https://github.com/quozd/awesome-dotnet)
+- [ASP.NET Core Library and Framework Support](https://github.com/jpsingleton/ANCLAFS)
 
 ## .NET Foundation
 
-Most .NET open source projects at Microsoft have been contributed to the
-[.NET Foundation](http://www.dotnetfoundation.org/projects). There are two main
-.NET Foundation projects for Microsoft open source projects:
-[ASP.NET Core project](http://www.dotnetfoundation.org/aspnet-core)
-and the [.NET Core project](http://www.dotnetfoundation.org/netcore).
+Many .NET open source projects are part of the
+[.NET Foundation](http://www.dotnetfoundation.org/projects). Microsoft has contributed many projects, including ASP.NET Core and 
+.NET Core. You may want to consider [joining the .NET Foundation](https://dotnetfoundation.org/get-involved).
+
+Check out the [.NET Foundation Forums](http://forums.dotnetfoundation.org/) to see what others are talking about or start a new discussion to ask a question or make a point. 
 
 ## License
 
-.NET open source projects typically use either the [MIT](LICENSE) or
-[Apache 2](http://www.apache.org/licenses/LICENSE-2.0) licenses for code. Some
-projects license documentation and other forms of content under
-[Creative Commons Attribution 4.0](http://creativecommons.org/licenses/by/4.0/).
-See specific projects to understand the license used.
+This repository is licensed with the [MIT](LICENSE) license.

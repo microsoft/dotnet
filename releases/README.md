@@ -1,6 +1,6 @@
 # .NET Framework Releases
 
-You can learn about .NET Framework releases
+You can learn about .NET Framework releases:
 
 - .NET Framework 4.6.2 
    - [Announcement blog post](https://blogs.msdn.microsoft.com/dotnet/2016/08/02/announcing-net-framework-4-6-2/)
@@ -11,3 +11,7 @@ You can learn about .NET Framework releases
 - .NET Framework 4.6 
    - [Announcement blog post](https://blogs.msdn.microsoft.com/dotnet/2015/07/20/announcing-net-framework-4-6/)
    - [Release notes](net46) 
+
+See [referencesource](https://referencesource.microsoft.com/) to look at the source code for much of the .NET Framework.
+
+See [docs.microsoft.com/dotnet](https://docs.microsoft.com/dotnet) for official .NET documentation. See [dotnet/docs](https://github.com/dotnet/docs) to contribute to the .NET docs.

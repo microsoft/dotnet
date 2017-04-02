@@ -18,6 +18,7 @@ You can learn about .NET Framework releases, below.
 - .NET Framework 4.5 
    - [Announcement blog post](https://blogs.msdn.microsoft.com/dotnet/2012/08/15/announcing-the-release-of-net-framework-4-5-rtm-product-and-source-code/)     
 
+See [Install the .NET Framework](https://www.microsoft.com/net/framework/versions) to install the .NET Framework. See [Visual Studio IDE](https://www.visualstudio.com/vs/) to install [Visual Studio](https://www.visualstudio.com).
 
 See [referencesource](https://referencesource.microsoft.com/) to look at the source code for much of the .NET Framework.
 

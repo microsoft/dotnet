@@ -1,6 +1,12 @@
 # .NET Framework Releases
 
-You can learn about .NET Framework releases, below.
+You can learn about .NET Framework [releases](#releases), below. See [resources](#resources) for additional information.
+
+To get up-to-date with the latest versions of .NET Framework and Visual Studio, see [Install the .NET Framework](https://www.microsoft.com/net/framework/versions) and  [Install Visual Studio](https://www.visualstudio.com/vs/). See [Targeting .NET Platforms](https://www.microsoft.com/net/targeting) to find additional tools.
+
+## Releases
+
+You can see what was included in each .NET Framework release. Some releases are now unsupported, as called out.
 
 - .NET Framework 4.6.2 
    - [Announcement blog post](https://blogs.msdn.microsoft.com/dotnet/2016/08/02/announcing-net-framework-4-6-2/)
@@ -13,15 +19,20 @@ You can learn about .NET Framework releases, below.
    - [Release notes](net46) 
 - .NET Framework 4.5.2 
    - [Announcement blog post](https://blogs.msdn.microsoft.com/dotnet/2014/05/05/announcing-the-net-framework-4-5-2/)
-- .NET Framework 4.5.1 
+- .NET Framework 4.5.1 (unsupported)
    - [Announcement blog post](https://blogs.msdn.microsoft.com/dotnet/2013/10/17/net-framework-4-5-1-rtm-start-coding/)
-- .NET Framework 4.5 
-   - [Announcement blog post](https://blogs.msdn.microsoft.com/dotnet/2012/08/15/announcing-the-release-of-net-framework-4-5-rtm-product-and-source-code/)     
+- .NET Framework 4.5 (unsupported)
+   - [Announcement blog post](https://blogs.msdn.microsoft.com/dotnet/2012/08/15/announcing-the-release-of-net-framework-4-5-rtm-product-and-source-code/)
+- .NET Framework 4.0.3 (unsupported)
+   - [Announcement blog post](https://blogs.msdn.microsoft.com/dotnet/2012/03/05/update-4-0-3-for-the-microsoft-net-framework-4/)
+- .NET Framework 4.0.2 (unsupported)
+   - [Announcement blog post](https://blogs.msdn.microsoft.com/dotnet/2011/10/27/update-4-0-2-for-the-microsoft-net-framework-4/)
 
-See [Install the .NET Framework](https://www.microsoft.com/net/framework/versions) to install the .NET Framework. See [Visual Studio IDE](https://www.visualstudio.com/vs/) to install [Visual Studio](https://www.visualstudio.com).
+## Resources
 
-See [referencesource](https://referencesource.microsoft.com/) to look at the source code for much of the .NET Framework.
-
-See [docs.microsoft.com/dotnet](https://docs.microsoft.com/dotnet) for official .NET documentation. See [dotnet/docs](https://github.com/dotnet/docs) to contribute to the .NET docs.
-
-See [dotnet/core](https://github.com/dotnet/core) to learn about [.NET Core releases](https://github.com/dotnet/core/blob/master/release-notes/README.md). See [aspnet/home](https://github.com/aspnet/Home) to learn about [ASP.NET Core releases](https://github.com/aspnet/Home/releases).
+- [.NET Framework Docs](https://docs.microsoft.com/dotnet) 
+- [.NET Framework Docs Source (dotnet/docs)](https://github.com/dotnet/docs)
+- [.NET Framework Reference Source](https://referencesource.microsoft.com/)
+- [.NET Framework reference source on GitHub (microsoft/referencesource)](https://github.com/microsoft/referencesource)
+- [.NET Core Releases (dotnet/core)](https://github.com/dotnet/core/blob/master/release-notes/README.md)
+- [ASP.NET Core Releases (aspnet/home)](https://github.com/aspnet/Home/releases)

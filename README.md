@@ -15,12 +15,12 @@ Please contribute to this repository via [pull requests](https://github.com/Micr
 
 ## Finding .NET Open Source Projects
 
-There are many projects that you can use and contribute to, some of which are listed below. Please do contribute to these projects!
-
 Here are some excellent community-maintained lists of projects:
 
 - [Awesome .NET!](https://github.com/quozd/awesome-dotnet)
 - [ASP.NET Core Library and Framework Support](https://github.com/jpsingleton/ANCLAFS)
+
+There are many projects that you can use and contribute to, some of which are listed below. Please do contribute to these projects!
 
 ### .NET Core
 

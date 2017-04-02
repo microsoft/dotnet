@@ -15,7 +15,12 @@ Please contribute to this repository via [pull requests](https://github.com/Micr
 
 ## Finding .NET Open Source Projects
 
-There are many projects that you can use and contribute to. Please do contribute to these projects!
+There are many projects that you can use and contribute to, some of which are listed below. Please do contribute to these projects!
+
+Here are some excellent community-maintained lists of projects:
+
+- [Awesome .NET!](https://github.com/quozd/awesome-dotnet)
+- [ASP.NET Core Library and Framework Support](https://github.com/jpsingleton/ANCLAFS)
 
 ### .NET Core
 
@@ -50,11 +55,6 @@ Here is a short list of projects to check out:
 * [MonoGame](https://github.com/MonoGame/MonoGame)
 * [MVVM Cross](https://github.com/MvvmCross/MvvmCross)
 * [ReactiveUI](https://github.com/reactiveui/ReactiveUI)
-
-Here are some excellent community-maintained lists of projects:
-
-- [Awesome .NET!](https://github.com/quozd/awesome-dotnet)
-- [ASP.NET Core Library and Framework Support](https://github.com/jpsingleton/ANCLAFS)
 
 ## .NET Foundation
 

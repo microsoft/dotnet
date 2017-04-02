@@ -28,8 +28,15 @@ There are many projects that you can use and contribute to. Please do contribute
 
 ### .NET Framework
 
-- [dotnet/docs](https://github.com/dotnet/docs)
-- [microsoft/referencesource (read-only)](https://github.com/microsoft/referencesource)
+- [.NET Framework docs (dotnet/docs)](https://github.com/dotnet/docs)
+- [.NET Framework source code - read-only subset (microsoft/referencesource)](https://github.com/microsoft/referencesource)
+
+### Xamarin
+
+- [Xamarin iOS + macOS (xamarin-macios)](https://github.com/xamarin/xamarin-macios)
+- [Xamarin Android (xamarin/xamarin-android)](https://github.com/xamarin/xamarin-android)
+- [Xamarin Forms (xamarin/Xamarin.Forms)](https://github.com/xamarin/Xamarin.Forms)
+- [Mono Project](https://github.com/mono/)
 
 ### Community
 
@@ -41,7 +48,6 @@ Here is a short list of projects to check out:
 * [JSON.NET](https://github.com/JamesNK/Newtonsoft.Json)
 * [Mobius: C# API for Apache Spark](https://github.com/Microsoft/Mobius)
 * [MonoGame](https://github.com/MonoGame/MonoGame)
-* [Mono Project](https://github.com/mono/)
 * [MVVM Cross](https://github.com/MvvmCross/MvvmCross)
 * [ReactiveUI](https://github.com/reactiveui/ReactiveUI)
 
@@ -60,4 +66,4 @@ Check out the [.NET Foundation Forums](http://forums.dotnetfoundation.org/) to s
 
 ## License
 
-This repository is licensed with the [MIT](LICENSE).
+This repository is licensed with the [MIT](LICENSE) license.

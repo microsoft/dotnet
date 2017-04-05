@@ -38,6 +38,7 @@ You can see what was included in each .NET Framework release. Some releases are 
 
 ## Resources
 
+- [.NET Framework Breaking Changes](../Documentation/breaking-changes/README.md)
 - [.NET Framework Docs](https://docs.microsoft.com/dotnet) 
 - [.NET Framework Docs Source (dotnet/docs)](https://github.com/dotnet/docs)
 - [.NET Framework Reference Source](https://referencesource.microsoft.com/)

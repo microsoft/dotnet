@@ -68,6 +68,18 @@
       }
     ]
   },  
+    {
+    "platform": ".NET Framework 4.7",
+    "alias": "net47",
+    "category": "netfx",
+    "supportInfo": {
+      "support": "Supported in Windows 10 Creators Update",
+      "link": ""
+    },
+    "popular": true,
+    "info": "http://go.microsoft.com/fwlink/?LinkID=845636",
+    "includedIn": [ "VS2017" ]
+  },
   {
     "platform": ".NET Framework 4.6.2",
     "alias": "net462",

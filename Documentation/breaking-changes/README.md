@@ -1,7 +1,6 @@
 # .NET Framework Breaking Changes
 
-The following breaking changes 
-
+The following documents provide information on .NET Framework breaking changes and changes in behavior, starting with .NET Framework 4.5.
 
 - [SoapFormatter cannot deserialize Hashtable and similar ordered collection objects](soapformatter-cannot-deserialize-hashtable-and-similar-ordered-collection-objects.md)
 - [XML schema validation is stricter](xml-schema-validation-is-stricter.md)

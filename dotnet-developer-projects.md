@@ -115,6 +115,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [Cricket](https://github.com/fsprojects/Cricket) - Actor library
   * [DateTimeExtensions](https://github.com/kappy/DateTimeExtensions) - Common Date Time operations on the form of extensions to System.DateTime, including holidays and working days calculations on several culture locales.
   * [DiffSharp](https://github.com/gbaydin/DiffSharp) - Automatic Differentiation Library
+  * [DnsClient](https://github.com/MichaCo/DnsClient.NET) - A high performant DNS query/lookup library - [Home](http://dnsclient.michaco.net)
   * [DotNetOpenAuth](https://github.com/DotNetOpenAuth) - Library that adds support for your site visitors to login with their OpenIDs by just dropping an ASP.NET control onto your page.
   * [DropboxRestAPI](https://github.com/saguiitay/DropboxRestAPI) - DropBox .Net Client Library
   * [DynamicData](https://github.com/RolandPheasant/DynamicData) - Brings the power of Rx to collections

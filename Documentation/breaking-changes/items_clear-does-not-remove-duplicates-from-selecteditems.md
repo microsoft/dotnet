@@ -1,4 +1,4 @@
-## 154: Items.Clear does not remove duplicates from SelectedItems
+## Items.Clear does not remove duplicates from SelectedItems
 
 ### Scope
 Minor
@@ -37,4 +37,4 @@ Windows Presentation Foundation (WPF)
     154627
 -->
 
-
+<!-- breaking change id: 154 -->

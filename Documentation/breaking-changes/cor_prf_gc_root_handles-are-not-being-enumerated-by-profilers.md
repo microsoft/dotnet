@@ -1,4 +1,4 @@
-## 117: COR_PRF_GC_ROOT_HANDLEs are not being enumerated by profilers
+## COR_PRF_GC_ROOT_HANDLEs are not being enumerated by profilers
 
 ### Scope
 Minor
@@ -32,3 +32,4 @@ Core
     Native code analysis needed. Also, this could be categorized as 'profiling' but I chose to call it 'core' because there are no other profiling issues. We can add that category in the future if enough issues crop up to justify it.
 -->
 
+<!-- breaking change id: 117 -->

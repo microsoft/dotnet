@@ -1,4 +1,4 @@
-## 85: Some .NET APIs cause first chance (handled) EntryPointNotFoundExceptions
+## Some .NET APIs cause first chance (handled) EntryPointNotFoundExceptions
 
 ### Scope
 Edge
@@ -33,3 +33,5 @@ This bug can be avoided by upgrading to .NET Framework 4.5.1. Alternatively, tes
 Core
 
 [More information](https://connect.microsoft.com/VisualStudio/feedback/details/732334/unable-to-find-an-entry-point-named-getcurrentpackageid-in-dll-kernel32-dll)
+
+<!-- breaking change id: 85 -->

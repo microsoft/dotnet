@@ -1,4 +1,4 @@
-## 32: MinFreeMemoryPercentageToActiveService is now respected
+## MinFreeMemoryPercentageToActiveService is now respected
 
 ### Scope
 Minor
@@ -25,3 +25,5 @@ An exception occurs if the free memory available on the web server is less than 
 Windows Communication Foundation (WCF)
 
 [More information](https://msdn.microsoft.com/en-us/library/dn458360(v=vs.110).aspx)
+
+<!-- breaking change id: 32 -->

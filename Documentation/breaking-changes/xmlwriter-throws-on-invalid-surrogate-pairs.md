@@ -1,4 +1,4 @@
-## 81: XmlWriter throws on invalid surrogate pairs
+## XmlWriter throws on invalid surrogate pairs
 
 ### Scope
 Edge
@@ -54,4 +54,4 @@ XML, XSLT
     Single-diagnostic compilation action analyzer?? Depends on how likely it is we think we could usefully analyze arguments to these methods (and whether they contained invalid surrogate pairs)
 -->
 
-
+<!-- breaking change id: 81 -->

@@ -1,4 +1,4 @@
-## 151: DataGridCellsPanel.BringIndexIntoView throws ArgumentOutOfRangeException
+## DataGridCellsPanel.BringIndexIntoView throws ArgumentOutOfRangeException
 
 ### Scope
 Edge
@@ -35,3 +35,5 @@ Windows Presentation Foundation (WPF)
 <!--
 Original Bug: 272673
 -->
+
+<!-- breaking change id: 151 -->

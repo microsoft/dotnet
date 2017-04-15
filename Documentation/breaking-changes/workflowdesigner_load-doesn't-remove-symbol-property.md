@@ -1,4 +1,4 @@
-## 82: WorkflowDesigner.Load doesn't remove symbol property
+## WorkflowDesigner.Load doesn't remove symbol property
 
 ### Scope
 Major
@@ -30,3 +30,5 @@ Alternatively, the issue may be avoided by using the [WorkflowContext.Load(strin
 Windows Workflow Foundation (WF)
 
 [More information](https://connect.microsoft.com/VisualStudio/feedback/details/786503/)
+
+<!-- breaking change id: 82 -->

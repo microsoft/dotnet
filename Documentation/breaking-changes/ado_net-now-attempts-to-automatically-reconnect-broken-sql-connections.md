@@ -1,4 +1,4 @@
-## 119: ADO.NET now attempts to automatically reconnect broken SQL connections
+## ADO.NET now attempts to automatically reconnect broken SQL connections
 
 ### Scope
 Edge
@@ -42,4 +42,4 @@ Data
     Single-diagnostic compilation action analyzer
 -->
 
-
+<!-- breaking change id: 119 -->

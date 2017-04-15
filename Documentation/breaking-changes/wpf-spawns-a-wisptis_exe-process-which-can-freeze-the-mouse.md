@@ -1,4 +1,4 @@
-## 87: WPF spawns a wisptis.exe process which can freeze the mouse
+## WPF spawns a wisptis.exe process which can freeze the mouse
 
 ### Scope
 Major
@@ -28,3 +28,5 @@ A fix for this issue is available in a servicing release of the .NET Framework 4
 Windows Presentation Foundation (WPF)
 
 [More information](http://connect.microsoft.com/VisualStudio/feedback/details/927119/net-framework-4-5-2-causes-applications-using-wpf-to-spawn-a-wisptis-exe-process-which-can-freeze-the-mouse)
+
+<!-- breaking change id: 87 -->

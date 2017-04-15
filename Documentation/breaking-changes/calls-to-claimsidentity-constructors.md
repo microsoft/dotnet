@@ -1,4 +1,4 @@
-## 164: Calls to ClaimsIdentity constructors
+## Calls to ClaimsIdentity constructors
 
 ### Scope
 Edge
@@ -40,3 +40,5 @@ Core
     ### Original Bug
     227024
 -->
+
+<!-- breaking change id: 164 -->

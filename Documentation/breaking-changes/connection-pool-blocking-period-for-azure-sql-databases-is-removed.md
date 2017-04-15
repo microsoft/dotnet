@@ -1,4 +1,4 @@
-## 160: Connection pool blocking period for Azure SQL databases is removed
+## Connection pool blocking period for Azure SQL databases is removed
 
 ### Scope
 Minor
@@ -39,4 +39,4 @@ Data
     213479
 -->
 
-
+<!-- breaking change id: 160 -->

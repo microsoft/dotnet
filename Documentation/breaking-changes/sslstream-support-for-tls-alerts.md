@@ -1,4 +1,4 @@
-## 181: SslStream supports TLS Alerts
+## SslStream supports TLS Alerts
 
 ### Scope
 Edge
@@ -54,7 +54,6 @@ The following configuration API is available to enable or disable the feature fo
 			Value = "true"
 ```
 
-
 ### Affected APIs
 * `T:System.Net.Security.SslStream`
 * `T:System.Net.WebRequest`
@@ -69,3 +68,5 @@ Networking, Security
 <!--
     Bug 274590:SslStream TLS Alerts implementation
 -->
+
+<!-- breaking change id: 181 -->

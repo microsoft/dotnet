@@ -1,4 +1,4 @@
-## 161: Changing the IsEnabled property of the parent of a TextBlock control affects any child controls
+## Changing the IsEnabled property of the parent of a TextBlock control affects any child controls
 
 ### Scope
 Minor
@@ -31,4 +31,4 @@ Windows Presentation Foundation (WPF)
     213267
 -->
 
-
+<!-- breaking change id: 161 -->

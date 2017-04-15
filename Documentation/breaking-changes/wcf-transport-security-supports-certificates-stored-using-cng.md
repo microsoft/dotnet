@@ -1,4 +1,4 @@
-## 166: WCF transport security supports certificates stored using CNG
+## WCF transport security supports certificates stored using CNG
 
 ### Scope
 Minor
@@ -47,4 +47,4 @@ Windows Communication Foundation (WCF)
     182182
 -->
 
-
+<!-- breaking change id: 166 -->

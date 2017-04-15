@@ -1,4 +1,4 @@
-## 177: NullReferenceException in exception handling code from ImageSourceConverter.ConvertFrom
+## NullReferenceException in exception handling code from ImageSourceConverter.ConvertFrom
 
 ### Scope
 Edge
@@ -38,3 +38,5 @@ Windows Presentation Foundation (WPF)
 ### Original Bug
 223209
 -->
+
+<!-- breaking change id: 177 -->

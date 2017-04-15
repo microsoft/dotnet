@@ -1,4 +1,4 @@
-## 35: XSLT style sheet exception message changed
+## XSLT style sheet exception message changed
 
 ### Scope
 Edge
@@ -32,3 +32,5 @@ Update any app code depending on the excepton message from this error condition 
 XML, XSLT
 
 [More information](https://msdn.microsoft.com/en-us/library/hh367887(v=vs.110).aspx#xml)
+
+<!-- breaking change id: 35 -->

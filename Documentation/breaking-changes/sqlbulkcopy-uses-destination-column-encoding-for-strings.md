@@ -1,4 +1,4 @@
-## 71: SqlBulkCopy uses destination column encoding for strings
+## SqlBulkCopy uses destination column encoding for strings
 
 ### Scope
 Edge
@@ -26,3 +26,5 @@ Expect that SqlBulkCopy will no longer corrupt data due to encoding differences.
 Data
 
 [More information](https://msdn.microsoft.com/en-us/library/hh367887(v=vs.110).aspx#xml)
+
+<!-- breaking change id: 71 -->

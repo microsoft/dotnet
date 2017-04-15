@@ -1,4 +1,4 @@
-## 33: XmlTextReader DTD entity expansion is limited to 10,000,000 characters
+## XmlTextReader DTD entity expansion is limited to 10,000,000 characters
 
 ### Scope
 Edge
@@ -39,3 +39,5 @@ If the limit of DTD entity expansion is too low 10,000,000, the value can be ove
 XML, XSLT
 
 [More information](https://msdn.microsoft.com/en-us/library/hh367887(v=vs.110).aspx)
+
+<!-- breaking change id: 33 -->

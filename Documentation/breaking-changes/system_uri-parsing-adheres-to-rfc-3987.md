@@ -1,4 +1,4 @@
-## 6: System.Uri parsing adheres to RFC 3987
+## System.Uri parsing adheres to RFC 3987
 
 ### Scope
 Major
@@ -40,3 +40,5 @@ If the old .NET 4.0 URI parsing semantics are necessary (they often aren't), the
 Core
 
 [More information](https://msdn.microsoft.com/en-us/library/hh367887\(v=vs.110\).aspx#core)
+
+<!-- breaking change id: 6 -->

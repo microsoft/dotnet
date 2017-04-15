@@ -1,4 +1,4 @@
-## 152: Item-scrolling a flat list with items of different pixel-height
+## Item-scrolling a flat list with items of different pixel-height
 
 ### Scope
 Minor
@@ -47,4 +47,4 @@ Windows Presentation Foundation (WPF)
     202599
 -->
 
-
+<!-- breaking change id: 152 -->

@@ -1,4 +1,4 @@
-## 67: Deserialization of objects across appdomains can fail
+## Deserialization of objects across appdomains can fail
 
 ### Scope
 Edge
@@ -25,3 +25,5 @@ See [Mitigation: Deserialization of Objects Across App Domains](https://msdn.mic
 Core
 
 [More information](https://msdn.microsoft.com/en-us/library/dn458360(v=vs.110).aspx)
+
+<!-- breaking change id: 67 -->

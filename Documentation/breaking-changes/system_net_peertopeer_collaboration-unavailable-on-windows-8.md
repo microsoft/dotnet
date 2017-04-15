@@ -1,4 +1,4 @@
-## 11: System.Net.PeerToPeer.Collaboration unavailable on Windows 8
+## System.Net.PeerToPeer.Collaboration unavailable on Windows 8
 
 ### Scope
 Major
@@ -25,3 +25,5 @@ Apps that support Windows 8 or above must be updated to not depend on this names
 Networking
 
 [More information](https://msdn.microsoft.com/en-us/library/hh367887#network)
+
+<!-- breaking change id: 11 -->

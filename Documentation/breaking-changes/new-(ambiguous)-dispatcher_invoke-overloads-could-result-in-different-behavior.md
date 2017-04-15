@@ -1,4 +1,4 @@
-## 23: New (ambiguous) Dispatcher.Invoke overloads could result in different behavior
+## New (ambiguous) Dispatcher.Invoke overloads could result in different behavior
 
 ### Scope
 Minor
@@ -31,3 +31,5 @@ To avoid ambiguity (and potential differences in exception handling or blocking 
 Windows Workflow Foundation (WF)
 
 [More information](https://msdn.microsoft.com/en-us/library/hh367887(v=vs.110).aspx#wwf)
+
+<!-- breaking change id: 23 -->

@@ -1,4 +1,4 @@
-## 34: XSLT forward compat now works
+## XSLT forward compat now works
 
 ### Scope
 Edge
@@ -30,3 +30,5 @@ Most apps should be unaffected, however data will be sorted differently in some 
 XML, XSLT
 
 [More information](https://msdn.microsoft.com/en-us/library/hh367887(v=vs.110).aspx#xml)
+
+<!-- breaking change id: 34 -->

@@ -1,4 +1,4 @@
-## 169: Throttle concurrent requests per session
+## Throttle concurrent requests per session
 
 ### Scope
 Edge
@@ -29,3 +29,5 @@ To restore the old behavior, you can add the following setting to your web.confi
 
 ### Category
 ASP.NET
+
+<!-- breaking change id: 169 -->

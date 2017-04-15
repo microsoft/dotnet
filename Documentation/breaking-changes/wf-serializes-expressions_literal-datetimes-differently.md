@@ -1,4 +1,4 @@
-## 36: WF serializes Expressions.Literal&lt;T&gt; DateTimes differently now (breaks custom XAML parsers)
+## WF serializes Expressions.Literal&lt;T&gt; DateTimes differently now (breaks custom XAML parsers)
 
 ### Scope
 Edge
@@ -30,3 +30,5 @@ Windows Workflow Foundation (WF)
     ### Notes
     Will need to dig in a bit to figure out exactly what a repro for this looks like. Probably, identifying Literal<DateTime>/Literal<DateTimeOffset> usage will be sufficient to give an informational diagnostic.
 -->
+
+<!-- breaking change id: 36 -->

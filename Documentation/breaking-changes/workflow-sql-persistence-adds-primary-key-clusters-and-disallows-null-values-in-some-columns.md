@@ -1,4 +1,4 @@
-## 180: Workflow SQL persistence adds primary key clusters and disallows null values in some columns
+## Workflow SQL persistence adds primary key clusters and disallows null values in some columns
 
 ### Scope
 Edge
@@ -28,3 +28,4 @@ in order to experience this change. New database installations will automaticall
 ### Category
 Windows Workflow Foundation (WF)
 
+<!-- breaking change id: 180 -->

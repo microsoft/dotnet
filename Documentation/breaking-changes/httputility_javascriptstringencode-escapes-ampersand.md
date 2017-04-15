@@ -1,4 +1,4 @@
-## 44: HttpUtility.JavaScriptStringEncode escapes ampersand
+## HttpUtility.JavaScriptStringEncode escapes ampersand
 
 ### Scope
 Minor
@@ -26,3 +26,5 @@ If your app depends on the previous behavior of this method, you can add an aspn
 ASP.NET
 
 [More information](https://msdn.microsoft.com/en-us/library/hh367887(v=vs.110).aspx#asp)
+
+<!-- breaking change id: 44 -->

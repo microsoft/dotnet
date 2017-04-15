@@ -1,4 +1,4 @@
-## 28: MachineKey.Encode and MachineKey.Decode methods are now obsolete
+## MachineKey.Encode and MachineKey.Decode methods are now obsolete
 
 ### Scope
 Minor
@@ -26,3 +26,5 @@ The recommended alternatives are [MachineKey.Protect](https://msdn.microsoft.com
 ASP.NET
 
 [More information](https://msdn.microsoft.com/en-us/library/hh367887(v=vs.110).aspx#asp)
+
+<!-- breaking change id: 28 -->

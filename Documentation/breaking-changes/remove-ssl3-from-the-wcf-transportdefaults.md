@@ -1,4 +1,4 @@
-## 149: Remove Ssl3 from the WCF TransportDefaults
+## Remove Ssl3 from the WCF TransportDefaults
 
 ### Scope
 Edge
@@ -23,11 +23,11 @@ If Ssl3 is required, use one of the following configuration mechanisms to add Ss
 * [\<transport\> section of \<netTcpBinding\>](https://msdn.microsoft.com/en-us/library/ms731331%28v=vs.110%29.aspx)  
 * [\<sslStreamSecurity\> section of \<customBinding\>](https://msdn.microsoft.com/en-us/library/ms731328%28v=vs.110%29.aspx)
 
-
 ### Affected APIs
 * `P:System.ServiceModel.Channels.SslStreamSecurityBindingElement.SslProtocols`
 * `P:System.ServiceModel.TcpTransportSecurity.SslProtocols`
 
-
 ### Category
 * Windows Communication Foundation (WCF)
+
+<!-- breaking change id: 149 -->

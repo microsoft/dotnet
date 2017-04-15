@@ -1,4 +1,4 @@
-## 70: SqlConnection can no longer connect to SQL Server 1997 or databases using the VIA adapter
+## SqlConnection can no longer connect to SQL Server 1997 or databases using the VIA adapter
 
 ### Scope
 Edge
@@ -30,3 +30,5 @@ The VIA protocol is deprecated, so an alternative protocol should be used to con
 Data
 
 [More information](https://msdn.microsoft.com/en-us/library/hh367887%28v=vs.110%29.aspx#sql)
+
+<!-- breaking change id: 70 -->

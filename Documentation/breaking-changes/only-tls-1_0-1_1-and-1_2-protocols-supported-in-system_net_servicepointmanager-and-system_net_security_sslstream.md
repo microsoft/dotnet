@@ -1,4 +1,4 @@
-## 137: Only Tls 1.0, 1.1 and 1.2 protocols supported in System.Net.ServicePointManager and System.Net.Security.SslStream 
+## Only Tls 1.0, 1.1 and 1.2 protocols supported in System.Net.ServicePointManager and System.Net.Security.SslStream 
 
 ### Scope
 Minor
@@ -31,3 +31,5 @@ The recommended mitigation is to upgrade the sever-side app to Tls1.0, Tls1.1, o
 Networking
 
 [More information](https://msdn.microsoft.com/en-us/library/dn833123(v=vs.110).aspx#Net)
+
+<!-- breaking change id: 137 -->

@@ -1,4 +1,4 @@
-## 56: Compiler support for type forwarding when multi-targeting mscorlib
+## Compiler support for type forwarding when multi-targeting mscorlib
 
 ### Scope
 Edge
@@ -25,3 +25,5 @@ This change prevents compiler warnings (and compilation failure in cases where w
 Core
 
 [More information](https://msdn.microsoft.com/en-us/library/hh367887(v=vs.110).aspx#core)
+
+<!-- breaking change id: 56 -->

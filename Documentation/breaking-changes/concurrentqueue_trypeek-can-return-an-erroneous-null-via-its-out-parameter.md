@@ -1,4 +1,4 @@
-## 95: ConcurrentQueue&lt;T&gt;.TryPeek can return an erroneous null via its out parameter
+## ConcurrentQueue&lt;T&gt;.TryPeek can return an erroneous null via its out parameter
 
 ### Scope
 Major
@@ -28,3 +28,5 @@ This issue is fixed in the .NET Framework 4.5.1. Upgrading to that Framework wil
 Core
 
 [More information](http://connect.microsoft.com/VisualStudio/feedback/details/762273/bug-in-concurrentqueue-in-net-4-5-trypeek-returns-true-but-no-real-object-returned)
+
+<!-- breaking change id: 95 -->

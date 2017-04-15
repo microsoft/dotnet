@@ -1,4 +1,4 @@
-## 91: EntityFramework 6.0 loads very slowly in apps launched from Visual Studio
+## EntityFramework 6.0 loads very slowly in apps launched from Visual Studio
 
 ### Scope
 Edge
@@ -25,3 +25,5 @@ This issue is fixed in EntityFramework 6.0.2. Please update EntityFramework to a
 Entity Framework
 
 [More information](https://entityframework.codeplex.com/workitem/1749)
+
+<!-- breaking change id: 91 -->

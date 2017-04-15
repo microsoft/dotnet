@@ -1,4 +1,4 @@
-## 143: X509CertificateClaimSet.FindClaims Considers All claimTypes
+## X509CertificateClaimSet.FindClaims Considers All claimTypes
 
 ### Scope
 Minor
@@ -27,3 +27,5 @@ This change only affects applications targeting the .NET Framework 4.6.1. This c
 Windows Communication Foundation (WCF)
 
 [More information](https://msdn.microsoft.com/en-us/library/mt620031%28v=vs.110%29.aspx#WCF)
+
+<!-- breaking change id: 143 -->

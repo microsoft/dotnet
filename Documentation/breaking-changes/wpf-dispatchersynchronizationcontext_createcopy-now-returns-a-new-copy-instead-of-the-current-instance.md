@@ -1,4 +1,4 @@
-## 38: WPF DispatcherSynchronizationContext.CreateCopy now returns a new copy instead of the current instance
+## WPF DispatcherSynchronizationContext.CreateCopy now returns a new copy instead of the current instance
 
 ### Scope
 Minor
@@ -25,3 +25,5 @@ Be aware that DispatcherSynchronizationContext.CreateCopy() will now return a ne
 Windows Presentation Foundation (WPF)
 
 [More information](https://msdn.microsoft.com/en-us/library/hh367887(v=vs.110).aspx#wpf)
+
+<!-- breaking change id: 38 -->

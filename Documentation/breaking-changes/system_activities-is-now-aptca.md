@@ -1,4 +1,4 @@
-## 20: System.Activities is now APTCA
+## System.Activities is now APTCA
 
 ### Scope
 Edge
@@ -25,3 +25,5 @@ Derived classes cannot be marked with the SecurityCriticalAttribute. Previously,
 Windows Workflow Foundation (WF)
 
 [More information](https://msdn.microsoft.com/en-us/library/hh367887)
+
+<!-- breaking change id: 20 -->

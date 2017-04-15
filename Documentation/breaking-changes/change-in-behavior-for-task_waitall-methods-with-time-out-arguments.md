@@ -1,4 +1,4 @@
-## 26: Change in behavior for Task.WaitAll methods with time-out arguments
+## Change in behavior for Task.WaitAll methods with time-out arguments
 
 ### Scope
 Minor
@@ -29,3 +29,5 @@ If an AggregateException was being caught as a means of detecting a task that wa
 Core
 
 [More information](https://msdn.microsoft.com/en-us/library/hh367887\(v=vs.110\).aspx#core)
+
+<!-- breaking change id: 26 -->

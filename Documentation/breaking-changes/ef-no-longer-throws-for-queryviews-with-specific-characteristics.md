@@ -1,4 +1,4 @@
-## 69: EF no longer throws for QueryViews with specific characteristics
+## EF no longer throws for QueryViews with specific characteristics
 
 ### Scope
 Edge
@@ -29,3 +29,5 @@ This change only affects code that uses QueryViews with 1-0..1 relationships whe
 Entity Framework
 
 [More information](https://msdn.microsoft.com/en-us/library/dn720774(v=vs.110).aspx)
+
+<!-- breaking change id: 69 -->

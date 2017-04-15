@@ -1,4 +1,4 @@
-## 94: XmlSerializer serializes fields differently in 4.5
+## XmlSerializer serializes fields differently in 4.5
 
 ### Scope
 Major
@@ -43,3 +43,5 @@ Serialization
 XML, XSLT
 
 [More information](http://connect.microsoft.com/VisualStudio/feedback/details/761786/net-4-5-xmlserializer-produces-different-output-from-4-0)
+
+<!-- breaking change id: 94 -->

@@ -1,4 +1,4 @@
-## 59: Log file name created by the ObjectContext.CreateDatabase method has changed to match SQL Server specifications
+## Log file name created by the ObjectContext.CreateDatabase method has changed to match SQL Server specifications
 
 ### Scope
 Edge
@@ -25,3 +25,5 @@ If the log file name is important for an app, the app should be updated to expec
 Entity Framework
 
 [More information](https://msdn.microsoft.com/en-us/library/hh367887(v=vs.110).aspx#sql)
+
+<!-- breaking change id: 59 -->

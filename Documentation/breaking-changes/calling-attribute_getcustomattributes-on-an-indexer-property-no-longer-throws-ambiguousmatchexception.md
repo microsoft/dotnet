@@ -1,4 +1,4 @@
-## 112: Calling Attribute.GetCustomAttributes on an indexer property no longer throws AmbiguousMatchException if the ambiguity can be resolved by index's type
+## Calling Attribute.GetCustomAttributes on an indexer property no longer throws AmbiguousMatchException if the ambiguity can be resolved by index's type
 
 ### Scope
 Edge
@@ -38,3 +38,5 @@ Be aware that GetCustomAttribute(s) will work more frequently now. If an app was
 
 ### Category
 Core
+
+<!-- breaking change id: 112 -->

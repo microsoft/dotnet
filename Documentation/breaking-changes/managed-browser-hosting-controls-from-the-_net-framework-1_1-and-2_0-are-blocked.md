@@ -1,4 +1,4 @@
-## 64: Managed browser hosting controls from the .NET Framework 1.1 and 2.0 are blocked
+## Managed browser hosting controls from the .NET Framework 1.1 and 2.0 are blocked
 
 ### Scope
 Minor
@@ -25,3 +25,5 @@ Internet Explorer will fail to launch an application that uses managed browser h
 Web Applications
 
 [More information](https://msdn.microsoft.com/en-us/library/hh367887(v=vs.110).aspx#web)
+
+<!-- breaking change id: 64 -->

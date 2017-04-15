@@ -1,4 +1,4 @@
-## 115: AppDomainSetup.DynamicBase is no longer randomized by UseRandomizedStringHashAlgorithm
+## AppDomainSetup.DynamicBase is no longer randomized by UseRandomizedStringHashAlgorithm
 
 ### Scope
 Edge
@@ -29,3 +29,4 @@ Core
     Should be easy to look for DynamicBase use while UseRandomizedStringHashAlgorithm is set
 -->
 
+<!-- breaking change id: 115 -->

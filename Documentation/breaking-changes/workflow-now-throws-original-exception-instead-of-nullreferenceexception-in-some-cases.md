@@ -1,4 +1,4 @@
-## 170: Workflow now throws original exception instead of NullReferenceException in some cases
+## Workflow now throws original exception instead of NullReferenceException in some cases
 
 ### Scope
 Minor
@@ -32,3 +32,5 @@ that could be thrown from your custom activities.
 
 ### Category
 Windows Workflow Foundation (WF)
+
+<!-- breaking change id: 170 -->

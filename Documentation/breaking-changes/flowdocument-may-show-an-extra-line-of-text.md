@@ -1,4 +1,4 @@
-## 120: FlowDocument may show an extra line of text
+## FlowDocument may show an extra line of text
 
 ### Scope
 Edge
@@ -33,3 +33,4 @@ Windows Presentation Foundation (WPF)
     Analyzer would just look for FlowDocument/FlowDocunmentReader/FlowDocumentPageViewer/DocumentPageView usage in xaml
 -->
 
+<!-- breaking change id: 120 -->

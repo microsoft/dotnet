@@ -1,4 +1,4 @@
-## 3: WPF DataTemplate elements are now visible to UIA
+## WPF DataTemplate elements are now visible to UIA
 
 ### Scope
 Edge
@@ -26,3 +26,5 @@ UI Auomation tests for this app may need updated to account for the UIA tree now
 Windows Presentation Foundation (WPF)
 
 [More information](https://msdn.microsoft.com/en-us/library/hh367887\(v=vs.110\).aspx#wpf)
+
+<!-- breaking change id: 3 -->

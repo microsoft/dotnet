@@ -1,4 +1,4 @@
-## 51: WPF TextBox defaults to undo limit of 100
+## WPF TextBox defaults to undo limit of 100
 
 ### Scope
 Edge
@@ -25,3 +25,5 @@ If an undo limit of 100 is too low, the limit can be set explicitly with the Tex
 Windows Presentation Foundation (WPF)
 
 [More information](https://msdn.microsoft.com/en-us/library/hh367887(v=vs.110).aspx)
+
+<!-- breaking change id: 51 -->

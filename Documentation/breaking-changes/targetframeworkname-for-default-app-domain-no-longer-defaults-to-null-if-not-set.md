@@ -1,4 +1,4 @@
-## 75: TargetFrameworkName for default app domain no longer defaults to null if not set
+## TargetFrameworkName for default app domain no longer defaults to null if not set
 
 ### Scope
 Edge
@@ -25,3 +25,5 @@ Code should be updated to not depend on `AppDomainSetup.TargetFrameworkName` def
 Core
 
 [More information](https://msdn.microsoft.com/en-us/library/dn833125(v=vs.110).aspx#Core)
+
+<!-- breaking change id: 75 -->

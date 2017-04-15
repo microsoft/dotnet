@@ -1,4 +1,4 @@
-## 45: Error codes for maxRequestLength or maxReceivedMessageSize are different
+## Error codes for maxRequestLength or maxReceivedMessageSize are different
 
 ### Scope
 Edge
@@ -29,3 +29,5 @@ You must modify any code that performs processing based on an HTTP 400 status co
 Windows Communication Foundation (WCF)
 
 [More information](https://msdn.microsoft.com/en-us/library/hh367887(v=vs.110).aspx#wcf)
+
+<!-- breaking change id: 45 -->

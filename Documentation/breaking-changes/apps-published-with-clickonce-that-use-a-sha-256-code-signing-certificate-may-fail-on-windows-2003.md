@@ -1,4 +1,4 @@
-## 63: Apps published with ClickOnce that use a SHA-256 code-signing certificate may fail on Windows 2003
+## Apps published with ClickOnce that use a SHA-256 code-signing certificate may fail on Windows 2003
 
 ### Scope
 Edge
@@ -40,3 +40,5 @@ ClickOnce
     ### Notes
     Only affects WinServer 2003; there is a KB to address it.  Could flag it if we detect click-once being used (especially if it has a SHA-1 code-signing cert)
 -->
+
+<!-- breaking change id: 63 -->

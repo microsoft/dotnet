@@ -1,4 +1,4 @@
-## 129: Two-way data-binding to a property with a non-public setter is not supported
+## Two-way data-binding to a property with a non-public setter is not supported
 
 ### Scope
 Minor
@@ -31,4 +31,4 @@ Windows Presentation Foundation (WPF)
     This is a good candidate for a non-code source analyzer since most cases of two-way binding will be defined in XAML
 -->
 
-
+<!-- breaking change id: 129 -->

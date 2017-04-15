@@ -1,4 +1,4 @@
-## 179: CoerceIsSelectionBoxHighlighted
+## CoerceIsSelectionBoxHighlighted
 
 ### Scope
 Minor
@@ -32,4 +32,4 @@ Windows Presentation Foundation (WPF)
     125219
 -->
 
-
+<!-- breaking change id: 179 -->

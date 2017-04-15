@@ -1,4 +1,4 @@
-## 174: ObjectDisposedException thrown by WPF spellchecker
+## ObjectDisposedException thrown by WPF spellchecker
 
 ### Scope
 Edge
@@ -31,3 +31,5 @@ Windows Presentation Foundation (WPF)
 ### Original Bug
 231772
 -->
+
+<!-- breaking change id: 174 -->

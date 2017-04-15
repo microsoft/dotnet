@@ -1,4 +1,4 @@
-## 155: WPF Spell Checking fails in unexpected ways
+## WPF Spell Checking fails in unexpected ways
 
 ### Scope
 Edge
@@ -28,7 +28,6 @@ Issue #1 - This has been fixed in .NET Framework 4.6.2
 Issue #2 - WPF Spell Checker is no longer supported when applications are launched using 'run as different user'. Starting .NET Framework 4.6.2, applications launched in this manner will no longer crash unexpectedly - instead the Spell Checker will be silently disabled. 
 Issue #3 - This has been fixed in .NET Framework 4.6.2. 
 
-
 ### Affected APIs
 * Not detectable via API analysis
 
@@ -42,4 +41,4 @@ Windows Presentation Foundation (WPF)
     180203
 -->
 
-
+<!-- breaking change id: 155 -->

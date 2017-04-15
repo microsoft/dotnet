@@ -1,4 +1,4 @@
-## 106: Exception message has changed for failed DataContract serialization in case of an unknown type
+## Exception message has changed for failed DataContract serialization in case of an unknown type
 
 ### Scope
 Edge
@@ -48,3 +48,4 @@ Serialization
 
 [More information](http://connect.microsoft.com/VisualStudio/feedback/details/806395/misleading-exception-with-datacontractjsonserializer)
 
+<!-- breaking change id: 106 -->

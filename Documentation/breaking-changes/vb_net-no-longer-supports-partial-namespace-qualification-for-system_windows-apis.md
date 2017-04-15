@@ -1,4 +1,4 @@
-## 127: VB.NET no longer supports partial namespace qualification for System.Windows APIs
+## VB.NET no longer supports partial namespace qualification for System.Windows APIs
 
 ### Scope
 Minor
@@ -25,3 +25,5 @@ Code should be updated to refer to `System.Windows` APIs either with simple name
 Visual Basic .NET
 
 [More information](http://stackoverflow.com/questions/23573659/forms-is-not-a-member-of-windows)
+
+<!-- breaking change id: 127 -->

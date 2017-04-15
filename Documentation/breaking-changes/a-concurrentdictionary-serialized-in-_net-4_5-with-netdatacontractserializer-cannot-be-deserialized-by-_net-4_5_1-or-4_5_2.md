@@ -1,4 +1,4 @@
-## 133: A ConcurrentDictionary serialized in .NET 4.5 with NetDataContractSerializer cannot be deserialized by .NET 4.5.1 or 4.5.2
+## A ConcurrentDictionary serialized in .NET 4.5 with NetDataContractSerializer cannot be deserialized by .NET 4.5.1 or 4.5.2
 
 ### Scope
 Minor
@@ -43,3 +43,4 @@ Core
     Should be fairly easy to detect ConcurrentDictionary objects being serialized/deserialized by a NetDataContractSerializer.
 -->
 
+<!-- breaking change id: 133 -->

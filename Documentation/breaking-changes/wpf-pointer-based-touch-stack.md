@@ -1,4 +1,4 @@
-## 172: WPF Pointer-Based Touch Stack
+## WPF Pointer-Based Touch Stack
 
 ### Scope
 Edge
@@ -52,3 +52,5 @@ Windows Presentation Foundation (WPF)
 # Original bug
 197685
 -->
+
+<!-- breaking change id: 172 -->

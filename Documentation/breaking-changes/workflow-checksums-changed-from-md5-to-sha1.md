@@ -1,4 +1,4 @@
-## 176: Workflow checksums changed from MD5 to SHA1
+## Workflow checksums changed from MD5 to SHA1
 
 ### Scope
 Minor
@@ -37,10 +37,10 @@ Or in configuration:
 </configuration>
 ```
 
-
 ### Affected APIs
 * Not detectable via API analysis
 
 ### Category
 Windows Workflow Foundation (WF)
 
+<!-- breaking change id: 176 -->

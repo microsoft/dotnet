@@ -1,4 +1,4 @@
-## 153: Horizontal scrolling and virtualization
+## Horizontal scrolling and virtualization
 
 ### Scope
 Minor
@@ -50,7 +50,6 @@ scroll that could change ExtentWidth due to de-virtualization.
 ### Affected APIs
 * `T:System.Windows.Controls.Primitives.IScrollInfo`
 
-
 ### Category
 Windows Presentation Foundation (WPF)
 
@@ -59,4 +58,4 @@ Windows Presentation Foundation (WPF)
     123992
 -->
 
-
+<!-- breaking change id: 153 -->

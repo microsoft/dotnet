@@ -1,4 +1,4 @@
-## 47: WinRT stream adapters no long call FlushAsync automatically on close
+## WinRT stream adapters no long call FlushAsync automatically on close
 
 ### Scope
 Transparent
@@ -33,3 +33,5 @@ using (var stream = GetWindowsRuntimeStream() as Stream)
 Core
 
 [More information](https://msdn.microsoft.com/en-us/library/dn458360(v=vs.110).aspx)
+
+<!-- breaking change id: 47 -->

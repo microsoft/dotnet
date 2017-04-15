@@ -1,4 +1,4 @@
-## 128: Sharing session state with Asp.Net StateServer requires all servers in the web farm to use the same .NET Framework version
+## Sharing session state with Asp.Net StateServer requires all servers in the web farm to use the same .NET Framework version
 
 ### Scope
 Edge
@@ -31,3 +31,4 @@ ASP.NET
     Source analysis will be more useful than binary here; we'll want to look in the web.config for StateServer usage (https://msdn.microsoft.com/en-us/subscriptions/downloads/h6bb9cz9(v=vs.71).aspx)
 -->
 
+<!-- breaking change id: 128 -->

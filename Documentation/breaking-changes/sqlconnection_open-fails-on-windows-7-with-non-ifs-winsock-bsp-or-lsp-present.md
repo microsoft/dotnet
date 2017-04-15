@@ -1,4 +1,4 @@
-## 83: SqlConnection.Open fails on Windows 7 with non-IFS Winsock BSP or LSP present
+## SqlConnection.Open fails on Windows 7 with non-IFS Winsock BSP or LSP present
 
 ### Scope
 Minor
@@ -31,3 +31,5 @@ This bug has been fixed in the .NET Framework 4.5.2, so it can be avoided by upg
 Data
 
 [More information](https://connect.microsoft.com/VisualStudio/feedback/details/729323)
+
+<!-- breaking change id: 83 -->

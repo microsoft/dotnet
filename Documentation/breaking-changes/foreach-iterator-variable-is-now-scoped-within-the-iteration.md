@@ -1,4 +1,4 @@
-## 100: Foreach iterator variable is now scoped within the iteration, so closure capturing semantics are different (in C#5)
+## Foreach iterator variable is now scoped within the iteration, so closure capturing semantics are different (in C#5)
 
 ### Scope
 Major
@@ -26,3 +26,5 @@ Core
 C#
 
 [More information](http://blogs.msdn.com/b/ericlippert/archive/2009/11/12/closing-over-the-loop-variable-considered-harmful.aspx)
+
+<!-- breaking change id: 100 -->

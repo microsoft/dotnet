@@ -1,4 +1,4 @@
-## 25: EF version must match NetFX version
+## EF version must match NetFX version
 
 ### Scope
 Major
@@ -25,3 +25,5 @@ Upgrade to EF 5 for .NET 4.5
 Entity Framework
 
 [More information](http://forums.asp.net/t/1779042.aspx)
+
+<!-- breaking change id: 25 -->

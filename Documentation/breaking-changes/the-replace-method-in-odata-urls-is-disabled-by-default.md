@@ -1,4 +1,4 @@
-## 29: The Replace method in OData URLs is disabled by default
+## The Replace method in OData URLs is disabled by default
 
 ### Scope
 Edge
@@ -25,3 +25,5 @@ If the replace method is required (which is uncommon), it can be re-enabled thro
 Windows Communication Foundation (WCF)
 
 [More information](https://msdn.microsoft.com/en-us/library/hh367887(v=vs.110).aspx#wcf)
+
+<!-- breaking change id: 29 -->

@@ -1,4 +1,4 @@
-## 175: RibbonGroup background is set to transparent in localized builds
+## RibbonGroup background is set to transparent in localized builds
 
 ### Scope
 Edge
@@ -31,3 +31,5 @@ Windows Presentation Foundation (WPF)
 ### Original Bug
 266592
 -->
+
+<!-- breaking change id: 175 -->

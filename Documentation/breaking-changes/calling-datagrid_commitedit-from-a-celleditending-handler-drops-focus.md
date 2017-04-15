@@ -1,4 +1,4 @@
-## 124: Calling DataGrid.CommitEdit from a CellEditEnding handler drops focus
+## Calling DataGrid.CommitEdit from a CellEditEnding handler drops focus
 
 ### Scope
 Edge
@@ -27,3 +27,5 @@ This bug has been fixed in the .NET Framework 4.5.2, so it can be avoided by upg
 
 ### Category
 Windows Presentation Foundation (WPF)
+
+<!-- breaking change id: 124 -->

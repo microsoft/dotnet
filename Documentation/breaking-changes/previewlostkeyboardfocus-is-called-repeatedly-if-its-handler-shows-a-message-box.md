@@ -1,4 +1,4 @@
-## 131: PreviewLostKeyboardFocus is called repeatedly if its handler shows a Windows Forms message box
+## PreviewLostKeyboardFocus is called repeatedly if its handler shows a Windows Forms message box
 
 ### Scope
 Edge
@@ -40,3 +40,4 @@ Windows Presentation Foundation (WPF)
     Scan XAML for PreviewLostKeyboardFocus use and then examine the handlers
 -->
 
+<!-- breaking change id: 131 -->

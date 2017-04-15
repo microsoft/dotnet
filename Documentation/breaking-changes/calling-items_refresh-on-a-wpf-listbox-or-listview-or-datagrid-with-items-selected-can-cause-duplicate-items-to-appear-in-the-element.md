@@ -1,4 +1,4 @@
-## 104: Calling Items.Refresh on a WPF ListBox, ListView, or DataGrid with items selected can cause duplicate items to appear in the element
+## Calling Items.Refresh on a WPF ListBox, ListView, or DataGrid with items selected can cause duplicate items to appear in the element
 
 ### Scope
 Minor
@@ -29,3 +29,4 @@ Windows Presentation Foundation (WPF)
 
 [More information](http://connect.microsoft.com/VisualStudio/feedback/details/873075/on-net-4-5-the-selected-items-in-a-wpf-listbox-listview-control-are-incorrect-when-items-refresh-is-called-from-code-behind)
 
+<!-- breaking change id: 104 -->

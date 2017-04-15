@@ -1,4 +1,4 @@
-## 144: Application.FilterMessage no longer throws for re-entrant implementations of IMessageFilter.PreFilterMessage
+## Application.FilterMessage no longer throws for re-entrant implementations of IMessageFilter.PreFilterMessage
 
 ### Scope
 Edge
@@ -37,4 +37,4 @@ Windows Forms
     more useful, even though it would be easier to be 'precise' if we analyzed the interface implementer.
 -->
 
-
+<!-- breaking change id: 144 -->

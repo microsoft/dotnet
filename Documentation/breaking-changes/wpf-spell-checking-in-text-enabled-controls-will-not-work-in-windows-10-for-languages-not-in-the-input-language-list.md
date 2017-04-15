@@ -1,4 +1,4 @@
-## 136: WPF spell checking in text-enabled controls will not work in Windows 10 for languages not in the OS's input language list
+## WPF spell checking in text-enabled controls will not work in Windows 10 for languages not in the OS's input language list
 
 ### Scope
 Edge
@@ -27,3 +27,5 @@ Be aware that the language or text to be spell-checked must be added as an input
 Windows Presentation Foundation (WPF)
 
 [More information](https://msdn.microsoft.com/en-us/library/dn833125(v=vs.110).aspx#WPF)
+
+<!-- breaking change id: 136 -->

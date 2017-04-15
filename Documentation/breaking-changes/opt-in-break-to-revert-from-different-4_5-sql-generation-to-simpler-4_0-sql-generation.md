@@ -1,4 +1,4 @@
-## 50: Opt-in break to revert from different 4.5 SQL generation to simpler 4.0 SQL generation
+## Opt-in break to revert from different 4.5 SQL generation to simpler 4.0 SQL generation
 
 ### Scope
 Transparent
@@ -32,3 +32,5 @@ Entity Framework
 [More information](https://msdn.microsoft.com/en-us/library/dn720772(v=vs.110).aspx)
 
 <!-- MSDN lists this as a 'minor'-scope break, but it is 'transparent' here because it is an opt-in break -->
+
+<!-- breaking change id: 50 -->

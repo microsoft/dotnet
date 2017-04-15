@@ -1,4 +1,4 @@
-## 125: ASP.NET MVC now escapes spaces in strings passed in via route parameters
+## ASP.NET MVC now escapes spaces in strings passed in via route parameters
 
 ### Scope
 Minor
@@ -31,3 +31,4 @@ ASP.NET
     Single-diagnostic compilation action analyzer
 -->
 
+<!-- breaking change id: 125 -->

@@ -1,4 +1,4 @@
-## 103: Right clicking on a WPF DataGrid row header changes the DataGrid selection
+## Right clicking on a WPF DataGrid row header changes the DataGrid selection
 
 ### Scope
 Edge
@@ -29,3 +29,4 @@ Windows Presentation Foundation (WPF)
 
 [More information](http://connect.microsoft.com/VisualStudio/feedback/details/1001771/right-clicking-on-wpf-data-grid-row-header-changes-selection)
 
+<!-- breaking change id: 103 -->

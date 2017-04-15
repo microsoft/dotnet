@@ -1,4 +1,4 @@
-## 13: Missing Target Framework Moniker results in 4.0 behavior
+## Missing Target Framework Moniker results in 4.0 behavior
 
 ### Scope
 Major
@@ -23,3 +23,5 @@ A [target framework attribute](https://msdn.microsoft.com/en-us/library/system.r
 
 ### Category
 Core
+
+<!-- breaking change id: 13 -->

@@ -1,4 +1,4 @@
-## 138: Calling CreateDefaultAuthorizationContext with a null argument has changed
+## Calling CreateDefaultAuthorizationContext with a null argument has changed
 
 ### Scope
 Minor
@@ -28,3 +28,5 @@ In rare cases, WCF apps that use custom authentication may see behavioral differ
 Windows Communication Foundation (WCF)
 
 [More information](https://msdn.microsoft.com/en-us/library/dn833123%28v=vs.110%29.aspx#WCF)
+
+<!-- breaking change id: 138 -->

@@ -1,4 +1,4 @@
-## 5: List&lt;T&gt;.ForEach can throw exception when modifying list item
+## List&lt;T&gt;.ForEach can throw exception when modifying list item
 
 ### Scope
 Edge
@@ -25,3 +25,5 @@ Ideally, code should be fixed to not modify lists while enumerating their elemen
 Core
 
 [More information](https://msdn.microsoft.com/en-us/library/hh367887\(v=vs.110\).aspx#core)
+
+<!-- breaking change id: 5 -->

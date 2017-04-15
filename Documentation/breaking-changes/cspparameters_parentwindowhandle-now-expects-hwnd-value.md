@@ -1,4 +1,4 @@
-## 178: CspParameters.ParentWindowHandle now expects HWND value
+## CspParameters.ParentWindowHandle now expects HWND value
 
 ### Scope
 Minor
@@ -53,3 +53,5 @@ can set the AppContext switch to `false`.
 
 ### Category
 Security
+
+<!-- breaking change id: 178 -->

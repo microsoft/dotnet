@@ -1,4 +1,4 @@
-## 4: WPF TextBox selected text appears a different color when the text box is inactive
+## WPF TextBox selected text appears a different color when the text box is inactive
 
 ### Scope
 Edge
@@ -25,3 +25,5 @@ Previous (.NET 4.0) behavior may be restored by setting the [FrameworkCompatibil
 Windows Presentation Foundation (WPF)
 
 [More information](https://msdn.microsoft.com/en-us/library/hh367887(v=vs.110).aspx#wpf)
+
+<!-- breaking change id: 4 -->

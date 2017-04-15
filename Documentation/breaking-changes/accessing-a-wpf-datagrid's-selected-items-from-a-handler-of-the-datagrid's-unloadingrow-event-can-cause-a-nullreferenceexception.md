@@ -1,4 +1,4 @@
-## 107: Accessing a WPF DataGrid's selected items from a handler of the DataGrid's UnloadingRow event can cause a NullReferenceException
+## Accessing a WPF DataGrid's selected items from a handler of the DataGrid's UnloadingRow event can cause a NullReferenceException
 
 ### Scope
 Minor
@@ -27,3 +27,5 @@ This issue has been fixed in the .NET Framework 4.6 and may be addressed by upgr
 
 ### Category
 Windows Presentation Foundation (WPF)
+
+<!-- breaking change id: 107 -->

@@ -1,4 +1,4 @@
-## 101: HtmlTextWriter does not render `<br/>` element correctly
+## HtmlTextWriter does not render `<br/>` element correctly
 
 ### Scope
 Edge
@@ -26,3 +26,5 @@ If an app depended on the extra `<BR />` tag, `HtmlTextWriter.RenderBeginTag()` 
 ASP.NET
 
 [More information](http://connect.microsoft.com/VisualStudio/feedback/details/813061/htmltextwriter-does-not-render-br-element-correctly)
+
+<!-- breaking change id: 101 -->

@@ -1,4 +1,4 @@
-## 48: ObsoleteAttribute exports as both ObsoleteAttribute and DeprecatedAttribute in WinMD scenarios
+## ObsoleteAttribute exports as both ObsoleteAttribute and DeprecatedAttribute in WinMD scenarios
 
 ### Scope
 Edge
@@ -27,3 +27,5 @@ We do not recommend applying both ObsoleteAttribute and Windows.Foundation.Depre
 Core
 
 [More information](https://msdn.microsoft.com/en-us/library/dn458356(v=vs.110).aspx)
+
+<!-- breaking change id: 48 -->

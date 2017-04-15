@@ -1,4 +1,4 @@
-## 31: EventSource.WriteEvent impls must pass WriteEvent the same parameters that it received (plus ID)
+## EventSource.WriteEvent impls must pass WriteEvent the same parameters that it received (plus ID)
 
 ### Scope
 Minor
@@ -25,3 +25,5 @@ An IndexOutOfRangeException exception is thrown if an EventListener reads EventS
 Core
 
 [More information](https://msdn.microsoft.com/en-us/library/dn458360(v=vs.110).aspx)
+
+<!-- breaking change id: 31 -->

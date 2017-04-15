@@ -1,4 +1,4 @@
-## 78: ContentDisposition DateTimes returns slightly different string
+## ContentDisposition DateTimes returns slightly different string
 
 ### Scope
 Minor
@@ -26,3 +26,5 @@ Do not expect that string representations of ContentDispositions from different 
 Networking
 
 [More information](https://msdn.microsoft.com/en-us/library/dn833125(v=vs.110).aspx#Networking)
+
+<!-- breaking change id: 78 -->

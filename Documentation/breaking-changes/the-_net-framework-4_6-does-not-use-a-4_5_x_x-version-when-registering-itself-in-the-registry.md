@@ -1,4 +1,4 @@
-## 122: The .NET Framework 4.6 does not use a 4.5.x.x version when registering itself in the registry
+## The .NET Framework 4.6 does not use a 4.5.x.x version when registering itself in the registry
 
 ### Scope
 Edge
@@ -25,3 +25,5 @@ Update apps probing for a .NET Framework 4.5 install by looking for 4.5 registry
 Setup and Deployment
 
 [More information](https://msdn.microsoft.com/en-us/library/mt125490%28v=vs.110%29.aspx)
+
+<!-- breaking change id: 122 -->

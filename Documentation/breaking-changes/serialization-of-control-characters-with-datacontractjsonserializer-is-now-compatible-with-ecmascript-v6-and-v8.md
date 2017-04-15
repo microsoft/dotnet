@@ -1,4 +1,4 @@
-## 168: Serialization of control characters with DataContractJsonSerializer is now compatible with ECMAScript V6 and V8
+## Serialization of control characters with DataContractJsonSerializer is now compatible with ECMAScript V6 and V8
 
 ### Scope
 Edge
@@ -24,12 +24,12 @@ For apps that target the .NET Framework 4.7, this feature is enabled by default.
    </runtime>
    ```   
 
-
 ### Affected APIs
 * `M:System.Runtime.Serialization.Json.DataContractJsonSerializer.WriteObject(System.IO.Stream,System.Object)`
 * `M:System.Runtime.Serialization.Json.DataContractJsonSerializer.WriteObject(System.Xml.XmlDictionaryWriter,System.Object)`
 * `M:System.Runtime.Serialization.Json.DataContractJsonSerializer.WriteObject(System.Xml.XmlWriter,System.Object)`
 
-
 ### Category
 * Windows Communication Foundation (WCF)
+
+<!-- breaking change id: 168 -->

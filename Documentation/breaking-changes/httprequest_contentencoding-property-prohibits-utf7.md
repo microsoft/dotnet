@@ -1,4 +1,4 @@
-## 43: HttpRequest.ContentEncoding property prohibits UTF7
+## HttpRequest.ContentEncoding property prohibits UTF7
 
 ### Scope
 Edge
@@ -25,3 +25,5 @@ Ideally, applications should be updated to not use UTF-7 encoding in HttpRequest
 ASP.NET
 
 [More information](https://msdn.microsoft.com/en-us/library/hh367887(v=vs.110).aspx#asp)
+
+<!-- breaking change id: 43 -->

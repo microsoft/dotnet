@@ -1,4 +1,4 @@
-## 130: Marshal.SizeOf and Marshal.PtrToStructure overloads break dynamic code
+## Marshal.SizeOf and Marshal.PtrToStructure overloads break dynamic code
 
 ### Scope
 Minor
@@ -37,3 +37,4 @@ Core
     since the broken cases are so narrow that the rules would likely add more noise than they're worth.
 -->
 
+<!-- breaking change id: 130 -->

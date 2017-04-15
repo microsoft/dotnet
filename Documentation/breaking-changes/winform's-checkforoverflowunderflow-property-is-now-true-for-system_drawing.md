@@ -1,4 +1,4 @@
-## 53: WinForm's CheckForOverflowUnderflow property is now true for System.Drawing
+## WinForm's CheckForOverflowUnderflow property is now true for System.Drawing
 
 ### Scope
 Edge
@@ -25,3 +25,5 @@ Previously when overflows occurred, the result would be silently truncated. Now 
 Windows Forms
 
 [More information](https://msdn.microsoft.com/en-us/library/hh367887(v=vs.110).aspx)
+
+<!-- breaking change id: 53 -->

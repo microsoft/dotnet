@@ -1,4 +1,4 @@
-## 30: System.ServiceModel.Web.WebServiceHost object no longer adds a default endpoint
+## System.ServiceModel.Web.WebServiceHost object no longer adds a default endpoint
  
 ### Scope
 Minor
@@ -41,3 +41,5 @@ Windows Communication Foundation (WCF)
 
     Source analyzer status: Pri 2, Planned
 -->
+
+<!-- breaking change id: 30 -->

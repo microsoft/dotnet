@@ -1,4 +1,4 @@
-## 55: Exceptions during unobserved processing in System.Threading.Tasks.Task no longer propagate on finalizer thread
+## Exceptions during unobserved processing in System.Threading.Tasks.Task no longer propagate on finalizer thread
 
 ### Scope
 Edge
@@ -34,3 +34,5 @@ If an app depends on unobserved asynchronous exceptions propagating to the final
 Core
 
 [More information](https://msdn.microsoft.com/en-us/library/hh367887(v=vs.110).aspx#core)
+
+<!-- breaking change id: 55 -->

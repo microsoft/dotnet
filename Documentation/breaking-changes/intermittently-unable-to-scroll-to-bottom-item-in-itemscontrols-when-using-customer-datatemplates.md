@@ -1,4 +1,4 @@
-## 113: Intermittently unable to scroll to bottom item in ItemsControls (like ListBox and DataGrid) when using custom DataTemplates
+## Intermittently unable to scroll to bottom item in ItemsControls (like ListBox and DataGrid) when using custom DataTemplates
 
 ### Scope
 Minor
@@ -32,4 +32,4 @@ Windows Presentation Foundation (WPF)
     This is difficult to detect with ApiPort because we can't know which of all ItemsControl instances have custom data templates that would make them susceptible to this. We should learn more about the issue to understand whether or not an analyzer could do a better job.
 -->
 
-
+<!-- breaking change id: 113 -->

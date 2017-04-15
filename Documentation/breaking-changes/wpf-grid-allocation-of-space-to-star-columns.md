@@ -1,4 +1,4 @@
-## 171: WPF Grid allocation of space to star-columns
+## WPF Grid allocation of space to star-columns
 
 ### Scope
 Minor
@@ -81,4 +81,4 @@ Windows Presentation Foundation (WPF)
     245278
 -->
 
-
+<!-- breaking change id: 171 -->

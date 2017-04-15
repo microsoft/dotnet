@@ -1,4 +1,4 @@
-## 140: XmlSerializer fails while serializing a type that hides an accessible member with an inaccessible one
+## XmlSerializer fails while serializing a type that hides an accessible member with an inaccessible one
 
 ### Scope
 Minor
@@ -41,3 +41,5 @@ Alternatively, the following config setting will revert to 4.0 XmlSerializer beh
 Serialization
 
 [More information](http://stackoverflow.com/questions/14689305/serialization-breaks-in-net-4-5)
+
+<!-- breaking change id: 140 -->

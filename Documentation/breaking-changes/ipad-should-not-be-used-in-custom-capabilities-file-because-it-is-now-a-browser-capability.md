@@ -1,4 +1,4 @@
-## 118: IPad should not be used in custom capabilities file because it is now a browser capability
+## IPad should not be used in custom capabilities file because it is now a browser capability
 
 ### Scope
 Edge
@@ -29,3 +29,4 @@ ASP.NET
     For analyzer, can look for 'iPad' in .browser capability files
 -->
 
+<!-- breaking change id: 118 -->

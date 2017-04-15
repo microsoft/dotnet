@@ -1,4 +1,4 @@
-## 24: EncoderParameter ctor is obsolete
+## EncoderParameter ctor is obsolete
 
 ### Scope
 Minor
@@ -25,3 +25,5 @@ Although the `EncoderParameter.EncoderParameter(Encoder, Int32, Int32, Int32)`  
 Windows Forms
 
 [More information](https://msdn.microsoft.com/en-us/library/hh367887(v=vs.110).aspx#winForms)
+
+<!-- breaking change id: 24 -->

@@ -1,4 +1,4 @@
-## 73: DataObject.GetData now retrieves data as UTF-8
+## DataObject.GetData now retrieves data as UTF-8
 
 ### Scope
 Edge
@@ -36,3 +36,5 @@ Windows Forms
     ### Notes
     Don't know what data they're getting. Can give an informational diagnostic if we see the GetData APIs called, though.
 -->
+
+<!-- breaking change id: 73 -->

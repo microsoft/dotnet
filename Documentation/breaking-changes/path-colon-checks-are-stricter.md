@@ -1,4 +1,4 @@
-## 158: Path colon checks are stricter
+## Path colon checks are stricter
 
 ### Scope
 Edge
@@ -34,3 +34,4 @@ Alternatively, you can opt out of the new path normalization by setting the `Swi
 ### Category
 Core
 
+<!-- breaking change id: 158 -->

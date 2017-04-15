@@ -1,4 +1,4 @@
-## 157: .Net Framework now supports Unicode standard version 8.0 categories
+## .Net Framework now supports Unicode standard version 8.0 categories
 
 ### Scope
 Minor
@@ -33,3 +33,5 @@ character categories.
 Globalization
 
 [More information](https://github.com/Microsoft/dotnet/blob/master/releases/net462/dotnet462-changes.md)
+
+<!-- breaking change id: 157 -->

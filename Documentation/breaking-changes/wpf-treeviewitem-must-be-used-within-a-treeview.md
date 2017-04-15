@@ -1,4 +1,4 @@
-## 141: WPF TreeViewItem must be used within a TreeView
+## WPF TreeViewItem must be used within a TreeView
 
 ### Scope
 Minor
@@ -33,3 +33,5 @@ A hotfix will be made available for this.
 
 ### Category
 Windows Presentation Foundation (WPF)
+
+<!-- breaking change id: 141 -->

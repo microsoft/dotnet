@@ -1,5 +1,4 @@
-## 12: MEF catalogs implement IEnumerable and therefore can no longer be used to create a serializer
-
+## MEF catalogs implement IEnumerable and therefore can no longer be used to create a serializer
 
 ### Scope
 Major
@@ -26,3 +25,5 @@ Can no longer use MEF to create a serializer
 Managed Extensibility Framework (MEF)
 
 [More information](https://msdn.microsoft.com/en-us/library/hh367887#MEF)
+
+<!-- breaking change id: 12 -->

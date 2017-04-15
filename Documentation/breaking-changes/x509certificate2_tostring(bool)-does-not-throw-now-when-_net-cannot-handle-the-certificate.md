@@ -1,4 +1,4 @@
-## 76: X509Certificate2.ToString(bool) does not throw now when .NET cannot handle the certificate
+## X509Certificate2.ToString(bool) does not throw now when .NET cannot handle the certificate
 
 ### Scope
 Edge
@@ -25,3 +25,5 @@ Any code depending on X509Certificate2.ToString(bool) should be updated to expec
 Core
 
 [More information](https://msdn.microsoft.com/en-us/library/dn833125\(v=vs.110\).aspx#Core)
+
+<!-- breaking change id: 76 -->

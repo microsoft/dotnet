@@ -1,4 +1,4 @@
-## 88: Unexpected InvalidCastException from InvokeMethod activity in WF4
+## Unexpected InvalidCastException from InvokeMethod activity in WF4
 
 ### Scope
 Minor
@@ -34,4 +34,4 @@ Windows Workflow Foundation (WF)
     Activities can be defined in xaml (as well as programmatically), so it will be good to create a non-code analyzer to identify those. See the repro in the linked bug for an example.
 -->
 
-
+<!-- breaking change id: 88 -->

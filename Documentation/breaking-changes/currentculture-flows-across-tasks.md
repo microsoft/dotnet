@@ -1,4 +1,4 @@
-## 146: CurrentCulture and CurrentUICulture flow across tasks
+## CurrentCulture and CurrentUICulture flow across tasks
 
 ### Scope
 Minor
@@ -39,3 +39,5 @@ Applications targeting .NET 4.6 or later will automatically get the right behavi
 Core
 
 [More information](https://msdn.microsoft.com/en-us/library/system.globalization.cultureinfo%28v=vs.110%29.aspx#Async)
+
+<!-- breaking change id: 146 -->

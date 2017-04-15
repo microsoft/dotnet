@@ -1,4 +1,4 @@
-## 54: List.Sort algorithm changed
+## List.Sort algorithm changed
 
 ### Scope
 Transparent
@@ -28,3 +28,5 @@ Because the old sort algorithm was also unstable (though in slightly different w
 Core
 
 [More information](http://stackoverflow.com/questions/12461328/behaviour-of-listt-sort-in-net-4-5-changed-from-net-4-0?rq=1)
+
+<!-- breaking change id: 54 -->

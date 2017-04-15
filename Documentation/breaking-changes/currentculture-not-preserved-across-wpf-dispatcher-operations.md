@@ -1,4 +1,4 @@
-## 145: CurrentCulture is not preserved across WPF Dispatcher operations
+## CurrentCulture is not preserved across WPF Dispatcher operations
 
 ### Scope
 Minor
@@ -45,3 +45,5 @@ Windows Presentation Foundation (WPF)
     This issue is not marked as detectable via API analysis because simply looking for CurrentCulture or CurrentUICulture being set is insufficient in most cases - it must be done in a WPF app.
     Also, looking for WPF Dispatcher invocations is insufficient because many dispatcher invocations are automatic and, besides that, there is no way to know if CurrentCulture or CurrentUICulture matters for those dispatchers.
 -->
+
+<!-- breaking change id: 145 -->

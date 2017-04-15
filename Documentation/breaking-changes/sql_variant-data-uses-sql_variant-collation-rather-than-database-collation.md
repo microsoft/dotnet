@@ -1,4 +1,4 @@
-## 72: Sql_variant data uses sql_variant collation rather than database collation
+## Sql_variant data uses sql_variant collation rather than database collation
 
 ### Scope
 Transparent
@@ -25,3 +25,5 @@ This change addresses possible data corruption if the database collation differs
 Data
 
 [More information](https://msdn.microsoft.com/en-us/library/hh367887(v=vs.110).aspx#xml)
+
+<!-- breaking change id: 72 -->

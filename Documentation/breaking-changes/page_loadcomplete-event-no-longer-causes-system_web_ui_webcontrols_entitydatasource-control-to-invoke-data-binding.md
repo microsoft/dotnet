@@ -1,4 +1,4 @@
-## 60: Page.LoadComplete event no longer causes System.Web.UI.WebControls.EntityDataSource control to invoke data binding
+## Page.LoadComplete event no longer causes System.Web.UI.WebControls.EntityDataSource control to invoke data binding
 
 ### Scope
 Edge
@@ -33,4 +33,4 @@ ASP.NET
     This change produces different behavior in the unlikely event that applications rely on invoking data binding in the Page.LoadComplete event.
 -->
 
-
+<!-- breaking change id: 60 -->

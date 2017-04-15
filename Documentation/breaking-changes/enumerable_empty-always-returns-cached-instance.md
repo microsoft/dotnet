@@ -1,4 +1,4 @@
-## 42: Enumerable.Empty&lt;TResult&gt; always returns cached instance
+## Enumerable.Empty&lt;TResult&gt; always returns cached instance
 
 ### Scope
 Edge
@@ -27,3 +27,5 @@ Because the previous behavior was non-deterministic, code is unlikely to depend 
 LINQ
 
 [More information](https://msdn.microsoft.com/en-us/library/hh367887(v=vs.110).aspx#sql)
+
+<!-- breaking change id: 42 -->

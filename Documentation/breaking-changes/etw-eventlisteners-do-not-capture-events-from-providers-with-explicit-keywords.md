@@ -1,4 +1,4 @@
-## 105: ETW EventListeners do not capture events from providers with explicit keywords (like the TPL provider)
+## ETW EventListeners do not capture events from providers with explicit keywords (like the TPL provider)
 
 ### Scope
 Edge
@@ -30,3 +30,5 @@ Alternatively, this issue has been fixed in the .NET Framework 4.6 and may be ad
 Core
 
 [More information](http://connect.microsoft.com/VisualStudio/feedback/details/816989/tpl-etw-events-for-task-not-captured-by-eventlistener-anymore)
+
+<!-- breaking change id: 105 -->

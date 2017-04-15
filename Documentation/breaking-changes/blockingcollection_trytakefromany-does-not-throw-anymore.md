@@ -1,4 +1,4 @@
-## 18: BlockingCollection&lt;T&gt;.TryTakeFromAny does not throw anymore
+## BlockingCollection&lt;T&gt;.TryTakeFromAny does not throw anymore
 
 ### Scope
 Minor
@@ -30,3 +30,5 @@ If TryTakeFromAny returning -1 or TakeFromAny throwing were used for control-flo
 Core
 
 [More information](https://msdn.microsoft.com/en-us/library/hh367887#core)
+
+<!-- breaking change id: 18 -->

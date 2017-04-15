@@ -1,4 +1,4 @@
-## 173: WPF Printing Stack Update
+## WPF Printing Stack Update
 
 ### Scope
 Edge
@@ -29,4 +29,4 @@ Windows Presentation Foundation (WPF)
 ### Original Bug
 https://devdiv.visualstudio.com/DevDiv/_workitems?id=113979
 
-
+<!-- breaking change id: 173 -->

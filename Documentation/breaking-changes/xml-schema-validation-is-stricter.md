@@ -1,4 +1,4 @@
-## 2: XML schema validation is stricter
+## XML schema validation is stricter
 
 ### Scope
 Minor
@@ -25,3 +25,5 @@ If looser .NET Framework 4.0 validation is needed, the validating application ca
 XML, XSLT
 
 [More information](https://msdn.microsoft.com/en-us/library/hh367887\(v=vs.110\).aspx)
+
+<!-- breaking change id: 2 -->

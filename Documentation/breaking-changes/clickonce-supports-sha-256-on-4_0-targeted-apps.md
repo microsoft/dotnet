@@ -1,4 +1,4 @@
-## 79: ClickOnce supports SHA-256 on 4.0-targeted apps
+## ClickOnce supports SHA-256 on 4.0-targeted apps
 
 ### Scope
 Minor
@@ -31,3 +31,4 @@ ClickOnce
     We could possibly detect this by analyzing ClickOnce manifests and looking for SHA-256 certs.
 -->
 
+<!-- breaking change id: 79 -->

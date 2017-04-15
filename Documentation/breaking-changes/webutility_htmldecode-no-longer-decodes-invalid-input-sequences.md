@@ -1,4 +1,4 @@
-## 61: WebUtility.HtmlDecode no longer decodes invalid input sequences
+## WebUtility.HtmlDecode no longer decodes invalid input sequences
 
 ### Scope
 Minor
@@ -32,3 +32,5 @@ ASP.NET
     ### Notes
     This only matters if you store binary data instead of UTF-16 data in string. An analyzer may not add much beyond ApiPort, but we could do basic parameter analysis and potentially implement a code fix
 -->
+
+<!-- breaking change id: 61 -->

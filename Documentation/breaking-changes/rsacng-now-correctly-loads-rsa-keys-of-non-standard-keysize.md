@@ -1,4 +1,4 @@
-## 148: RSACng now correctly loads RSA keys of non-standard key size
+## RSACng now correctly loads RSA keys of non-standard key size
 
 ### Scope
 Edge
@@ -27,7 +27,6 @@ If there is any exception handling logic that relies on the previous
 behavior where a `CryptographicException` is thrown when non-standard
 key sizes are used, consider removing the logic.
 
-
 ### Affected APIs
 * `M:System.Security.Cryptography.RSA.ImportParameters(System.Security.Cryptography.RSAParameters)`
 * `M:System.Security.Cryptography.RSACng.ImportParameters(System.Security.Cryptography.RSAParameters)`
@@ -36,3 +35,5 @@ key sizes are used, consider removing the logic.
 
 ### Category
 Security
+
+<!-- breaking change id: 148 -->

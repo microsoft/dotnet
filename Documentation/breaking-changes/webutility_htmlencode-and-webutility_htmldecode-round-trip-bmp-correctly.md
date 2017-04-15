@@ -1,4 +1,4 @@
-## 62: WebUtility.HtmlEncode and WebUtility.HtmlDecode round-trip BMP correctly
+## WebUtility.HtmlEncode and WebUtility.HtmlDecode round-trip BMP correctly
 
 ### Scope
 Edge
@@ -31,3 +31,5 @@ ASP.NET
     ### Notes
     This shouldn't affect anything. An analyzer may not add much beyond ApiPort, but we could do basic parameter analysis and potentially implement a code fix
 -->
+
+<!-- breaking change id: 62 -->

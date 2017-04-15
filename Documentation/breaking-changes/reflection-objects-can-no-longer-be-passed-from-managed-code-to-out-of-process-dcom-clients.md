@@ -1,4 +1,4 @@
-## 77: Reflection objects can no longer be passed from managed code to out-of-process DCOM clients
+## Reflection objects can no longer be passed from managed code to out-of-process DCOM clients
 
 ### Scope
 Minor
@@ -33,3 +33,5 @@ Update marshaling code to work with non-reflection objects
 Core
 
 [More information](https://msdn.microsoft.com/en-us/library/dn833125(v=vs.110).aspx#Core)
+
+<!-- breaking change id: 77 -->

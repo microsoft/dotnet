@@ -1,4 +1,4 @@
-## 147: BinaryFormatter can fail to find type from LoadFrom context
+## BinaryFormatter can fail to find type from LoadFrom context
 
 ### Scope
 Edge
@@ -45,3 +45,5 @@ public class TypeFinderBinder : SerializationBinder
 
 ### Category
 Serialization
+
+<!-- breaking change id: 147 -->

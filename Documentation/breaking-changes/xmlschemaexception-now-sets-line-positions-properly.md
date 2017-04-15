@@ -1,4 +1,4 @@
-## 19: XmlSchemaException now sets line positions properly
+## XmlSchemaException now sets line positions properly
 
 ### Scope
 Edge
@@ -25,3 +25,5 @@ Exception-handling code that assumes XmlSchemaException.LineNumber and XmlSchema
 XML, XSLT
 
 [More information](https://msdn.microsoft.com/en-us/library/hh367887#xml)
+
+<!-- breaking change id: 19 -->

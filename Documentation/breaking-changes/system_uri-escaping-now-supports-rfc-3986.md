@@ -1,4 +1,4 @@
-## 10: System.Uri escaping now supports RFC 3986 (http://tools.ietf.org/html/rfc3986)
+## System.Uri escaping now supports RFC 3986 (http://tools.ietf.org/html/rfc3986)
 
 ### Scope
 Minor
@@ -33,3 +33,5 @@ URI escaping has changed in .NET 4.5 to support [RFC 3986](http://tools.ietf.org
 Core
 
 [More information](https://msdn.microsoft.com/en-us/library/hh367887\(v=vs.110\).aspx#core)
+
+<!-- breaking change id: 10 -->

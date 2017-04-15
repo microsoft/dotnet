@@ -1,4 +1,4 @@
-## 52: WPF TextBox.Text can be out-of-sync with databinding
+## WPF TextBox.Text can be out-of-sync with databinding
 
 ### Scope
 Edge
@@ -25,3 +25,5 @@ This should have no negative impact. However, you can restore the previous behav
 Windows Presentation Foundation (WPF)
 
 [More information](https://msdn.microsoft.com/en-us/library/hh367887(v=vs.110).aspx#wpf)
+
+<!-- breaking change id: 52 -->

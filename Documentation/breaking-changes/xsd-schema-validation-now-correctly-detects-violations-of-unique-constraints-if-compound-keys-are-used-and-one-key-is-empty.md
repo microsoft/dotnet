@@ -1,4 +1,4 @@
-## 111: XSD Schema validation now correctly detects violations of unique constraints if compound keys are used and one key is empty
+## XSD Schema validation now correctly detects violations of unique constraints if compound keys are used and one key is empty
 
 ### Scope
 Edge
@@ -23,3 +23,5 @@ If looser, .NET Framework 4.0 validation is needed, the validating application c
 
 ### Category
 XML, XSLT
+
+<!-- breaking change id: 111 -->

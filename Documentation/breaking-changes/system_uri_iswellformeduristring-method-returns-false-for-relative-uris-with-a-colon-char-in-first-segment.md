@@ -1,4 +1,4 @@
-## 121: System.Uri.IsWellFormedUriString method returns false for relative URIs with a colon char in first segment
+## System.Uri.IsWellFormedUriString method returns false for relative URIs with a colon char in first segment
 
 ### Scope
 Minor
@@ -26,3 +26,4 @@ Core
 
 [More information](http://connect.microsoft.com/VisualStudio/feedback/details/788841/net-4-5-system-uri-iswellformeduristring-method-returns-false-for-relative-uris-with-a-colon-char-in-first-segment)
 
+<!-- breaking change id: 121 -->

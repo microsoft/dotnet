@@ -1,4 +1,4 @@
-## 142: WCF binding with the TransportWithMessageCredential security mode
+## WCF binding with the TransportWithMessageCredential security mode
 
 ### Scope
 Transparent
@@ -38,3 +38,4 @@ Windows Communication Foundation (WCF)
 
 [More information](https://msdn.microsoft.com/en-US/library/mt592686%28v=vs.110%29.aspx)
 
+<!-- breaking change id: 142 -->

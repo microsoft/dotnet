@@ -1,4 +1,4 @@
-## 139: WPF layout rounding of margins has changed 
+## WPF layout rounding of margins has changed 
 
 ### Scope
 Minor
@@ -33,3 +33,5 @@ Apps that target the .NET Framework 4.6 but want WPF controls to render using th
 Windows Presentation Foundation (WPF)
 
 [More information](https://msdn.microsoft.com/en-us/library/mt298997(v=vs.110).aspx)
+
+<!-- breaking change id: 139 -->

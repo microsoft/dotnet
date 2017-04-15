@@ -1,4 +1,4 @@
-## 22: Some WorkFlow drag and drop APIs are obsolete
+## Some WorkFlow drag and drop APIs are obsolete
 
 ### Scope
 Minor
@@ -28,3 +28,5 @@ New [DragDropHelper](https://msdn.microsoft.com/en-us/library/system.activities.
 Windows Workflow Foundation (WF)
 
 [More information](https://msdn.microsoft.com/en-us/library/hh367887#wwf)
+
+<!-- breaking change id: 22 -->

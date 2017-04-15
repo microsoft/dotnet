@@ -1,4 +1,4 @@
-## 96: Profiling ASP.Net MVC4 apps can lead to Fatal Execution Engine Error
+## Profiling ASP.Net MVC4 apps can lead to Fatal Execution Engine Error
 
 ### Scope
 Edge
@@ -28,3 +28,5 @@ This issue is fixed in the .NET Framework 4.5.2. Alternatively, the profiler may
 ASP.NET
 
 [More information](http://connect.microsoft.com/VisualStudio/feedback/details/793730/clr-profiler-crashes-any-asp-net-mvc4-app-on-startup-due-to-ngen-profile-images)
+
+<!-- breaking change id: 96 -->

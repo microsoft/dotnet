@@ -1,4 +1,4 @@
-## 84: ICommand.CanExecuteChanged event behaviour changed in .NET 4.5
+## ICommand.CanExecuteChanged event behaviour changed in .NET 4.5
 
 ### Scope
 Minor
@@ -28,3 +28,5 @@ This bug has been fixed in the .NET Framework 4.5 servicing releases, so it can 
 Windows Presentation Foundation (WPF)
 
 [More information](http://connect.microsoft.com/VisualStudio/feedback/details/751429/wpf-icommand-canexecutechanged-behaviour-change-in-net-4-5)
+
+<!-- breaking change id: 84 -->

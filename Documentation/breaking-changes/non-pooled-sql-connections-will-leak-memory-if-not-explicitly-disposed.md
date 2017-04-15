@@ -1,4 +1,4 @@
-## 97: Non-pooled SQL connections will leak memory if not explicitly disposed
+## Non-pooled SQL connections will leak memory if not explicitly disposed
 
 ### Scope
 Edge
@@ -29,3 +29,5 @@ This issue is fixed in a .NET Framework 4.5 servicing update. Please update the 
 Data
 
 [More information](https://support.microsoft.com/kb/2748720)
+
+<!-- breaking change id: 97 -->

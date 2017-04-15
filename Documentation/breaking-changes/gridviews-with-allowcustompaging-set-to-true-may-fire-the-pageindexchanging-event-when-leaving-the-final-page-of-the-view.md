@@ -1,4 +1,4 @@
-## 116: GridViews with AllowCustomPaging set to true may fire the PageIndexChanging event when leaving the final page of the view
+## GridViews with AllowCustomPaging set to true may fire the PageIndexChanging event when leaving the final page of the view
 
 ### Scope
 Minor
@@ -34,3 +34,4 @@ ASP.NET
     An analyzer could usefully scan XAML (where custom paging is more likely to be enabled)
 -->
 
+<!-- breaking change id: 116 -->

@@ -1,4 +1,4 @@
-## 102: ListBoxItem IsSelected binding issue with ObservableCollection&lt;T&gt;.Move
+## ListBoxItem IsSelected binding issue with ObservableCollection&lt;T&gt;.Move
 
 ### Scope
 Minor
@@ -30,3 +30,4 @@ Windows Presentation Foundation (WPF)
 
 [More information](http://social.msdn.microsoft.com/Forums/en-US/afcbc8b3-a2f2-41e4-b402-2efc9eab1ffe/listboxitem-isselected-binding-issue-with-observablecollectiontmove?forum=wpf)
 
+<!-- breaking change id: 102 -->

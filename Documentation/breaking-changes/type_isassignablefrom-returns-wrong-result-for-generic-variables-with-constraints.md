@@ -1,4 +1,4 @@
-## 89: Type.IsAssignableFrom returns wrong result for generic variables with constraints
+## Type.IsAssignableFrom returns wrong result for generic variables with constraints
 
 ### Scope
 Minor
@@ -33,3 +33,5 @@ Core
   ### Notes
   Can be added to a single-compilation API analyzer
 -->
+
+<!-- breaking change id: 89 -->

@@ -1,4 +1,4 @@
-## 159: RSACng.VerifyHash now returns False for any verification failure
+## RSACng.VerifyHash now returns False for any verification failure
 
 ### Scope
 Minor
@@ -32,4 +32,4 @@ Security
     164390
 -->
 
-
+<!-- breaking change id: 159 -->

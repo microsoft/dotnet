@@ -1,4 +1,4 @@
-## 37: New enum values in WPF's PageRangeSelection
+## New enum values in WPF's PageRangeSelection
 
 ### Scope
 Edge
@@ -30,3 +30,5 @@ Windows Presentation Foundation (WPF)
     ### Notes
     Look for cast to PageRangeSelection, or Enum.GetNames or Enum.GetValues calls taking this type as input
 -->
+
+<!-- breaking change id: 37 -->

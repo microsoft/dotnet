@@ -1,4 +1,4 @@
-## 1: SoapFormatter cannot deserialize Hashtable and similar ordered collection objects
+## SoapFormatter cannot deserialize Hashtable and similar ordered collection objects
 
 ### Scope
 Minor
@@ -29,3 +29,5 @@ SoapFormatter serialization should be replaced with BinaryFormatter serializatio
 Serialization
 
 [More information](https://msdn.microsoft.com/en-us/library/hh367887\(v=vs.110\).aspx#core)
+
+<!-- breaking change id: 1 -->

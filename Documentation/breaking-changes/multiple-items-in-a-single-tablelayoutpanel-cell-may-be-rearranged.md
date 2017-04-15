@@ -1,4 +1,4 @@
-## 98: Multiple items in a single TableLayoutPanel cell may be rearranged
+## Multiple items in a single TableLayoutPanel cell may be rearranged
 
 ### Scope
 Minor
@@ -32,3 +32,5 @@ Windows Forms
     Although we're looking for TableLayoutPanel APIs, what's really needed here is an analyzer that can look for XAML with multiple items in a single TableLayoutPanel cell
     Source analyzer status: Pri 1
 -->
+
+<!-- breaking change id: 98 -->

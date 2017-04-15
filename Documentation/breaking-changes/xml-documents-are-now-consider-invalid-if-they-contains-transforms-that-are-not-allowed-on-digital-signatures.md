@@ -1,4 +1,4 @@
-## 156: SignedXml and EncryptedXml Breaking Changes
+## SignedXml and EncryptedXml Breaking Changes
 
 ### Scope
 Minor
@@ -45,3 +45,5 @@ receiver may not be able to process it.
 Security
 
 [More information](https://github.com/Microsoft/dotnet/blob/master/releases/net462/dotnet462-changes.md)
+
+<!-- breaking change id: 156 -->

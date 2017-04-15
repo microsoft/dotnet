@@ -1,4 +1,4 @@
-## 92: Multi-line ASP.Net TextBox spacing changed when using AntiXSSEncoder
+## Multi-line ASP.Net TextBox spacing changed when using AntiXSSEncoder
 
 ### Scope
 Minor
@@ -30,3 +30,5 @@ ASP.NET
     ### Notes
     Encoder is set in a config file. See bug repro for example.
 -->
+
+<!-- breaking change id: 92 -->

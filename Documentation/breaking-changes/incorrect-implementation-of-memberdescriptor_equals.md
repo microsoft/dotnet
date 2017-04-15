@@ -1,4 +1,4 @@
-## 150: Incorrect implementation of MemberDescriptor.Equals
+## Incorrect implementation of MemberDescriptor.Equals
 
 ### Scope
 Edge
@@ -49,3 +49,5 @@ app.config file:
 
 ### Category
 Windows Forms
+
+<!-- breaking change id: 150 -->

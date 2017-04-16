@@ -358,7 +358,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [Dache](https://github.com/ironyx/dache) - An open source distributed caching service, built on .NET 4.0 and using TCP sockets for communication.
   * [Orleans](https://github.com/dotnet/orleans) - Framework that provides a straight-forward approach to building distributed high-scale computing applications using virtual actor model.
   
-##* Windows Workflow
+## Windows Workflow
   * [Workflow Extractor](https://github.com/punitganshani/WorkflowExtractor) - Document Windows Workflow logic into a Word document or Excel sheet. 
 
 ## Amazon Echo/Alexa Integration

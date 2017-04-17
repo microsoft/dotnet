@@ -5,7 +5,7 @@ You can learn about the changes made in the .NET Framework 4.6.1.
 - [.NET Framework 4.6.1 announcement blog post](https://blogs.msdn.microsoft.com/dotnet/2015/11/30/net-framework-4-6-1-is-now-available/)
 - [What's new in the .NET Framework 4.6.1](https://docs.microsoft.com/dotnet/articles/framework/whats-new/index#v461)
 - [Release notes](dotnet461-changes.md)
-- [Breaking changes](../../Documentation/compatibility/README.md#net-framework-461)
+- [Application compatibility](../../Documentation/compatibility/README.md#net-framework-461)
 - [API changes](dotnet461-api-changes.md)
 - [Reference Source](https://github.com/Microsoft/referencesource/commit/e458f8df6ded689323d4bd1a2a725ad32668aaec)
 - [Known issues](https://support.microsoft.com/en-us/help/3102432/known-issues-for-the-.net-framework-4.6.1)

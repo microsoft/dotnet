@@ -4,13 +4,13 @@ The following documents provide information on .NET Framework breaking changes a
 
 Please help us improve the [breaking change documents](https://github.com/Microsoft/dotnet/tree/master/Documentation/breaking-changes). In particular, better titles will improve index below, both in content and the sort.
 
-[.NET Framework 4.7](#net-framework-47)
-[.NET Framework 4.6.2](#net-framework-462)
-[.NET Framework 4.6.1](#net-framework-461)
-[.NET Framework 4.6](#net-framework-46)
-[.NET Framework 4.5.2](#net-framework-452)
-[.NET Framework 4.5.1](#net-framework-451)
-[.NET Framework 4.5](#net-framework-45)
+- [.NET Framework 4.7](#net-framework-47)
+- [.NET Framework 4.6.2](#net-framework-462)
+- [.NET Framework 4.6.1](#net-framework-461)
+- [.NET Framework 4.6](#net-framework-46)
+- [.NET Framework 4.5.2](#net-framework-452)
+- [.NET Framework 4.5.1](#net-framework-451)
+- [.NET Framework 4.5](#net-framework-45)
 
 ## .NET Framework 4.7
 

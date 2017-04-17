@@ -93,7 +93,7 @@ namespace bc_readme_gen
                     }
 
                     var hashLink = $"net-framework-{hashVersion.ToString()}";
-                    writer.WriteLine($"[.NET Framework {ver}](#{hashLink})");
+                    writer.WriteLine($"- [.NET Framework {ver}](#{hashLink})");
                 }
 
                 foreach(var ver in keysArray)

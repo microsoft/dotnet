@@ -1,4 +1,4 @@
-## .Net Framework now supports Unicode standard version 8.0 categories
+## Unicode standard version 8.0 categories now supported
 
 ### Scope
 Minor

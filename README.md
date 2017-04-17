@@ -7,7 +7,7 @@ This repo is not an official .NET Framework support location, however, we will r
 ## In this repository
 
 - [.NET Framework Release Notes](releases/README.md)
-- [.NET Framework Breaking Changes](Documentation/breaking-changes/README.md)
+- [.NET Framework Documentation](Documentation/README.md)
 - [.NET Open Source Developer Projects](dotnet-developer-projects.md)
 - [.NET Open Source Consumer Projects](dotnet-consumer-projects.md)
 - [Free Services & Tools for Open Source .NET Projects](dotnet-free-oss-services.md)

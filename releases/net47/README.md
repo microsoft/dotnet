@@ -1,14 +1,15 @@
 # .NET Framework 4.7 Release Notes
 
-The following information describes the changes made in the .NET Framework 4.7 release.
+You can learn about the changes made in the .NET Framework 4.7.
 
-- [Announcement blog post](https://go.microsoft.com/fwlink/?linkid=845636)
+- [.NET Framework 4.7 announcement blog post](https://blogs.msdn.microsoft.com/dotnet/2017/04/05/announcing-the-net-framework-4-7/)
+- [What's new in the .NET Framework 4.7](https://docs.microsoft.com/dotnet/articles/framework/whats-new/index#v47)
 - [Release notes](dotnet47-changes.md)
-- [Known issues](https://support.microsoft.com/en-us/help/4015088/known-issues-for-the-net-framework-4-7)
 - [API changes](dotnet47-api-changes.md)
-- [referencesource](https://github.com/Microsoft/referencesource/commit/4251daa76e0aae7330139978648fc04f5c7b8ccb)
+- [Reference Source](https://github.com/Microsoft/referencesource/commit/4251daa76e0aae7330139978648fc04f5c7b8ccb)
+- [Known issues](https://support.microsoft.com/en-us/help/4015088/known-issues-for-the-net-framework-4-7)
 
-# Product Areas
+# Release Notes by Product Area
 
 - [ASP.NET](dotnet47-changes.md#aspnet)
 - [BCL](dotnet47-changes.md#bcl)

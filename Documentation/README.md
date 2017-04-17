@@ -2,8 +2,9 @@
 
 The following documents are available in this repo:
 
-- [.NET Framework Breaking Changes](compatibility/README.md)
+- [.NET Framework Application Compatibility](compatibility/README.md)
 - [.NET Framework Release Notes](../releases/README.md)
+- [Testing with RyuJIT](testing-with-ryujit.md)
 
 The following .NET Framework documentation is available from Microsoft:
 

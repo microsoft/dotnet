@@ -6,6 +6,52 @@ This list details those changes, grouped by feature area.
 Each change includes our TFS bug numbers at the end of the line.
 Please include those numbers in your communication if you wish to contact us to obtain more information.
 
+ASP.NET
+-------
+
+* TreeNode.ImageTooltip is rendered as title attribute [101518]
+* Access to WebAdminFiles re-enabled [144513]
+* Fixed 4.6 regression in DataBoundControl.PerformSelect() [145931]
+* MaintainScrollPositionOnPostBack works with zoom on Chrome [120243]
+* RegEx can be opted out for EmailAddresses, Phone, and URL attributes [142685]
+* Added a MatchTimeout property to RegularExpressionAttribute [142685]
+
+BCL
+---
+
+* System.Diagnostics.Process v4.1.0.0 supported in desktop implementation assemblies [142838]
+* System.ServiceProcess.ServiceController exposes a StartType property [145866]
+* SqlClient has retry logic for cloud service connection opening [145878]
+* SqlClient has improved multi-subnet failover connection behavior for AlwaysOn [117760]
+* HttpListener API exposes TlsUnique to support token-binding [141263]
+* Enhanced the ECDsa RedZone API [142405]
+* No overflow exception when using Level in an EventSourceListener on a Write&lt;T&gt; [94974]
+* No null reference exception when calling EventSource.GenerateManifest(Type, string) when an event method name ends with "Stop" [129244]
+* Added a timeout to HttpOutput when sending a message [130240]
+* More reliable connection of TCP local host with named SQL instance [130340]
+* Vector2/3/4.CopyTo throws the right exception when a null array is passed in [131600]
+* Vector2/3/4.CopyTo doesn't cause access violation when used with a negative startIndex parameter [142102]
+* Vector.CopyTo throws consistent exceptions when running with JIT intrinsics [142413]
+* Fixed access violation in Vector.CopyTo on an AVX2 machine [146428]
+* Fixed SIMD Vector.Equals on AVX [133633]
+* Vector3.Dot doesn't cause access violation when value is not stored [142555]
+* Vector4 constructor evaluates argument list left to right [142843]
+* Optimized memory usage by HttpListenerAsyncEventArgs [109754]
+* Fixed a null reference exception in XML validation [111660]
+* AppContext.BaseDirectory is configurable [142857]
+* Fixed Serbian culture date parsing issue [144893]
+* Fixed Norwegian culture date parsing issue [145872]
+* TransparentNetworkIPResolution works with more than 64 IPs in DNS [147652]
+* SqlBulkCopy works for data movement from encrypted to plain text nchar columns [149383]
+* Transparent network IP resolution works if TCP protocol isn't explicitly defined [149824]
+* Enumerating cultures yields both Persian languages [145823]
+* An archive created with System.IO.Compression.ZipFile.CreateFromDirectory preserves directory structure when unpacked on OSX [142220]
+* SqlClient always encrypted supports hardware-protected keys [116442]
+* Added support for Token Binding for server-side usage of HttpListener [119817]
+* Uri constructor doesn't throw ArgumentOutOfRangeException when parsing certain URIs with escaped international characters [123235]
+* Fixed a bug that prevented some localized text from displaying properly [145634]
+* Fixed a bug that caused the Exception Catch event to get the incorrect source line [142525]
+
 CLR
 ---
 
@@ -58,52 +104,41 @@ CLR
 * X509Certificates now support Elliptic Curve Digital Signature Algorithm (ECDSA) [145702]
 * Fixed an issue that caused local variables not to show up in X++ Debugging [145571]
 * Fixed RyuJIT optimizer causing incorrect result [110557]  
-
-BCL
+  
+WCF
 ---
 
-* System.Diagnostics.Process v4.1.0.0 supported in desktop implementation assemblies [142838]
-* System.ServiceProcess.ServiceController exposes a StartType property [145866]
-* SqlClient has retry logic for cloud service connection opening [145878]
-* SqlClient has improved multi-subnet failover connection behavior for AlwaysOn [117760]
-* HttpListener API exposes TlsUnique to support token-binding [141263]
-* Enhanced the ECDsa RedZone API [142405]
-* No overflow exception when using Level in an EventSourceListener on a Write&lt;T&gt; [94974]
-* No null reference exception when calling EventSource.GenerateManifest(Type, string) when an event method name ends with "Stop" [129244]
-* Added a timeout to HttpOutput when sending a message [130240]
-* More reliable connection of TCP local host with named SQL instance [130340]
-* Vector2/3/4.CopyTo throws the right exception when a null array is passed in [131600]
-* Vector2/3/4.CopyTo doesn't cause access violation when used with a negative startIndex parameter [142102]
-* Vector.CopyTo throws consistent exceptions when running with JIT intrinsics [142413]
-* Fixed access violation in Vector.CopyTo on an AVX2 machine [146428]
-* Fixed SIMD Vector.Equals on AVX [133633]
-* Vector3.Dot doesn't cause access violation when value is not stored [142555]
-* Vector4 constructor evaluates argument list left to right [142843]
-* Optimized memory usage by HttpListenerAsyncEventArgs [109754]
-* Fixed a null reference exception in XML validation [111660]
-* AppContext.BaseDirectory is configurable [142857]
-* Fixed Serbian culture date parsing issue [144893]
-* Fixed Norwegian culture date parsing issue [145872]
-* TransparentNetworkIPResolution works with more than 64 IPs in DNS [147652]
-* SqlBulkCopy works for data movement from encrypted to plain text nchar columns [149383]
-* Transparent network IP resolution works if TCP protocol isn't explicitly defined [149824]
-* Enumerating cultures yields both Persian languages [145823]
-* An archive created with System.IO.Compression.ZipFile.CreateFromDirectory preserves directory structure when unpacked on OSX [142220]
-* SqlClient always encrypted supports hardware-protected keys [116442]
-* Added support for Token Binding for server-side usage of HttpListener [119817]
-* Uri constructor doesn't throw ArgumentOutOfRangeException when parsing certain URIs with escaped international characters [123235]
-* Fixed a bug that prevented some localized text from displaying properly [145634]
-* Fixed a bug that caused the Exception Catch event to get the incorrect source line [142525]
+* ServiceThrottle uses double-checked locking pattern for calls, sessions, and dynamic properties [96934]
+* MessageLogger.LogInternal doesn't call TraceXPathNavigator.ToString() [127642]
+* ProtocolException RoutingService to net.tcp doesn't reject all requests after end service recycles [142828]
+* Better performance on base64 strings with spaces [143785]
+* NetHttpBinding handles synchronous callback from WCF service correctly when called via WPF or WinForms app [145832]
+* Fixed a w3wp.exe crash when an exception occurs with WCF activity tracing enabled [145636]
+* Fixed a performance regression in selected large object variations [141815]
+* Binding including message credential over transport allows for messages where the To header is not signed [140756]
+* Fixed a null reference exception in System.Runtime.Serialization when ETW is enabled [105266]
+* Fixed IdentityModel.Claims to support multiple DNS entries [140718]
 
-ASP.NET
--------
+Windows Forms
+-------------
 
-* TreeNode.ImageTooltip is rendered as title attribute [101518]
-* Access to WebAdminFiles re-enabled [144513]
-* Fixed 4.6 regression in DataBoundControl.PerformSelect() [145931]
-* MaintainScrollPositionOnPostBack works with zoom on Chrome [120243]
-* RegEx can be opted out for EmailAddresses, Phone, and URL attributes [142685]
-* Added a MatchTimeout property to RegularExpressionAttribute [142685]
+* CTRL+A works in multiline text boxes [145670]
+* Vertical scrollbar's Maximum is in sync with DataGridView's total height if the grid is populated while disabled [127329]
+* CancelButton or mnemonics respect Control.CausesValidation [144357]
+* Fixed a possible index out of range exception in ThreadContext when using custom MessageFilter [145665]
+* Fixed a null reference exception in System.Windows.Forms.ToolTip [145763]
+* Fixed the Categories name visibility in the Table/Columns Collection Editor when using high contrast scheme [145631]
+* Fixed several VisualStudio Designer Crashes [145639], [145710], [145652]
+* Fixed the size of the text for the Generating Previews dialog of the PrintPreviewControl from being cropped when scaling up to 500% in HDPI mode [145775]
+* Fixed the icons in the toolbox when scaling above 100% [145824]
+
+Workflow
+--------
+
+* Sys.Tx APIs enable distributed transactions with a non-MSDTC coordinator [145813]
+* A user of EnlistPromotableSinglePhase can promote transactions to a non-MSDTC distributed transaction coordinator [145770, 142891, 142992]
+* System.Transaction allows for snapshot isolation for non-MSDTC promoter types [146607]
+* Sql implementation handles transient faults properly [113390]
 
 WPF
 ---
@@ -153,39 +188,3 @@ WPF
 * Fixed an issue with partial trust applications running on a machine with a touch device [151160]
 * Fixed a bug caused by loading multiple Microsoft Visual Studio Tools for Office (VSTO) addins on touch enabled devices [142484]
 * Fixed a bug that caused Visual Studio to hang when saving a XAML file [110669] 
-  
-WCF
----
-
-* ServiceThrottle uses double-checked locking pattern for calls, sessions, and dynamic properties [96934]
-* MessageLogger.LogInternal doesn't call TraceXPathNavigator.ToString() [127642]
-* ProtocolException RoutingService to net.tcp doesn't reject all requests after end service recycles [142828]
-* Better performance on base64 strings with spaces [143785]
-* NetHttpBinding handles synchronous callback from WCF service correctly when called via WPF or WinForms app [145832]
-* Fixed a w3wp.exe crash when an exception occurs with WCF activity tracing enabled [145636]
-* Fixed a performance regression in selected large object variations [141815]
-* Binding including message credential over transport allows for messages where the To header is not signed [140756]
-* Fixed a null reference exception in System.Runtime.Serialization when ETW is enabled [105266]
-* Fixed IdentityModel.Claims to support multiple DNS entries [140718]
-
-Workflow
---------
-
-* Sys.Tx APIs enable distributed transactions with a non-MSDTC coordinator [145813]
-* A user of EnlistPromotableSinglePhase can promote transactions to a non-MSDTC distributed transaction coordinator [145770, 142891, 142992]
-* System.Transaction allows for snapshot isolation for non-MSDTC promoter types [146607]
-* Sql implementation handles transient faults properly [113390]
-
-Windows Forms
--------------
-
-* CTRL+A works in multiline text boxes [145670]
-* Vertical scrollbar's Maximum is in sync with DataGridView's total height if the grid is populated while disabled [127329]
-* CancelButton or mnemonics respect Control.CausesValidation [144357]
-* Fixed a possible index out of range exception in ThreadContext when using custom MessageFilter [145665]
-* Fixed a null reference exception in System.Windows.Forms.ToolTip [145763]
-* Fixed the Categories name visibility in the Table/Columns Collection Editor when using high contrast scheme [145631]
-* Fixed several VisualStudio Designer Crashes [145639], [145710], [145652]
-* Fixed the size of the text for the Generating Previews dialog of the PrintPreviewControl from being cropped when scaling up to 500% in HDPI mode [145775]
-* Fixed the icons in the toolbox when scaling above 100% [145824]
-

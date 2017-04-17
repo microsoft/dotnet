@@ -14,10 +14,7 @@ You can learn about the changes made in the .NET Framework 4.6.1.
 
 - [ASP.NET](dotnet461-changes.md#aspnet)
 - [BCL](dotnet461-changes.md#bcl)
-- [ClickOnce](dotnet461-changes.md#clickonce)
 - [CLR](dotnet461-changes.md#clr)
-- [Networking](dotnet461-changes.md#networking)
-- [SQL](dotnet461-changes.md#sql)
 - [WCF](dotnet461-changes.md#wcf)
 - [Windows Forms](dotnet461-changes.md#windows-forms)
 - [Workflow](dotnet461-changes.md#workflow)

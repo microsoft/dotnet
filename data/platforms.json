@@ -76,7 +76,6 @@
       "support": "Supported in Windows 10 Creators Update",
       "link": ""
     },
-    "popular": true,
     "info": "https://blogs.msdn.microsoft.com/dotnet/2017/04/05/announcing-the-net-framework-4-7/",
     "includedIn": [ "VS2017" ]
   },
@@ -115,7 +114,6 @@
 	"support": "Supported", 
 	"link" : ""
 	},
-"popular": true,
 "info":"http://blogs.msdn.com/b/dotnet/archive/2015/11/30/net-framework-4-6-1-is-now-available.aspx",
 "includedIn":["VS2017","VS2015"],
 "supportedBy":["VS2013"],
@@ -134,7 +132,6 @@
 	"support": "Supported", 
 	"link" : ""
 	},
-"popular": true,
 "info":"http://blogs.msdn.com/b/dotnet/archive/2015/07/20/announcing-net-framework-4-6.aspx",
 "includedIn":["VS2017","VS2015"],
 "supportedBy":["VS2013"],

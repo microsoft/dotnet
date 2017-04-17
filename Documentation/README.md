@@ -2,7 +2,7 @@
 
 The following documents are available in this repo:
 
-- [.NET Framework Breaking Changes](breaking-changes/README.md)
+- [.NET Framework Breaking Changes](compatibility/README.md)
 - [.NET Framework Release Notes](../releases/README.md)
 
 The following .NET Framework documentation is available from Microsoft:

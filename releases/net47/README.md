@@ -5,7 +5,7 @@ You can learn about the changes made in the .NET Framework 4.7.
 - [.NET Framework 4.7 announcement blog post](https://blogs.msdn.microsoft.com/dotnet/2017/04/05/announcing-the-net-framework-4-7/)
 - [What's new in the .NET Framework 4.7](https://docs.microsoft.com/dotnet/articles/framework/whats-new/index#v47)
 - [Release notes](dotnet47-changes.md)
-- [Breaking changes](../../Documentation/breaking-changes/README.md#net-framework-47)
+- [Breaking changes](../../Documentation/compatibility/README.md#net-framework-47)
 - [API changes](dotnet47-api-changes.md)
 - [Reference Source](https://github.com/Microsoft/referencesource/commit/4251daa76e0aae7330139978648fc04f5c7b8ccb)
 - [Known issues](https://support.microsoft.com/en-us/help/4015088/known-issues-for-the-net-framework-4-7)

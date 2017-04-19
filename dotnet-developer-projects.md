@@ -139,6 +139,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [LibGit2Sharp](https://github.com/libgit2/libgit2sharp) - C# language bindings for the [LibGit2](https://github.com/libgit2/libgit2) implementation of Git.
   * [Localization.SqlLocalizer]( https://github.com/damienbod/AspNet5Localization) - SQL Localizer for ASP.NET Core, dotnet
   * [Lucene.Net](https://github.com/apache/lucene.net)
+  * [MahApps.Metro.IconPacks](https://github.com/MahApps/MahApps.Metro.IconPacks) - Some awesome icons for `WPF` and `UWP` all together. The library contains controls to use icons from [Material Design](https://materialdesignicons.com/), [Material Design Icons Light](https://github.com/Templarian/MaterialDesignLight), [Font Awesome](http://fontawesome.io/icons/), [GitHub Octicons](https://octicons.github.com/), [Modern](http://modernuiicons.com/), [Entypo+](http://www.entypo.com/) and [Simple Icons](https://simpleicons.org/).
   * [Math.NET Numerics](https://github.com/mathnet/mathnet-numerics) - Provides methods and algorithms for numerical computations in science, engineering and every day use.
   * [Mathos Core Libary](http://mathos.codeplex.com/) - A library with algorithms for numerical calcultations in finance, statistics, pattern recognition, and more.
   * [Mathos Parser](https://github.com/MathosProject/Mathos-Project) - A simple parser for mathematical expressions before and at runtime.

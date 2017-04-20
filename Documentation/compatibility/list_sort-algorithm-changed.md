@@ -10,13 +10,25 @@ Transparent
 Not planned
 
 ### Change Description
-Begining in .NET Framework 4.5, `List<T>`'s sort algorithm has changed (to be an introspective sort instead of a quick sort). `List<T>`'s sort has never been stable, but this change may cause different scenarios to sort in unstable ways. That simply means that equivalent items may sort in different orders in subsequent calls of the API.
+
+Begining in .NET Framework 4.5,
+<xref:System.Collections.Generic.List`1?displayProperty=name>'s sort algorithm
+has changed (to be an introspective sort instead of a quick sort).
+<xref:System.Collections.Generic.List`1?displayProperty=name>'s sort has never
+been stable, but this change may cause different scenarios to sort in unstable
+ways. That simply means that equivalent items may sort in different orders in
+subsequent calls of the API.
 
 - [ ] Quirked
 - [ ] Build-time break
 
 ### Recommended Action
-Because the old sort algorithm was also unstable (though in slightly different ways), there should be no code that depends on equivalent items always sorting in a particular order. If there are instances of code depending upon that and being lucky with the old behavior, that code should be updated to use a comparer that will deterministically sort the items in the desired order.
+
+Because the old sort algorithm was also unstable (though in slightly different
+ways), there should be no code that depends on equivalent items always sorting
+in a particular order. If there are instances of code depending upon that and
+being lucky with the old behavior, that code should be updated to use a comparer
+that will deterministically sort the items in the desired order.
 
 ### Affected APIs
 * ``M:System.Collections.Generic.List`1.Sort``

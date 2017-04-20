@@ -10,6 +10,7 @@ Major
 Available
 
 ### Change Description
+
 The System.Net.PeerToPeer.Collaboration namespace is unavailable on Windows 8 or above.
 
 - [ ] Quirked

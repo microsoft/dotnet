@@ -105,7 +105,7 @@ Please help us improve the [.NET Framework Application Compatibility documents](
 - [MinFreeMemoryPercentageToActiveService is now respected](minfreememorypercentagetoactiveservice-is-now-respected.md)
 - [NetDataContractSerializer fails to deserialize a ConcurrentDictionary serialized with a different .NET version](netdatacontractserializer-fails-to-deserialize-a-concurrentdictionary-serialized-with-a-different-_net-version.md)
 - [ObsoleteAttribute exports as both ObsoleteAttribute and DeprecatedAttribute in WinMD scenarios](obsoleteattribute-exports-as-both-obsoleteattribute-and-deprecatedattribute-in-winmd-scenarios.md)
-- [ResolveAssemblyReference task now warns on dependencies with the wrong architecture](resolveassemblyreference-task-now-warns-on-dependencies-with-the-wrong-architecture.md)
+- [ResolveAssemblyReference task now warns of dependencies with the wrong architecture](resolveassemblyreference-task-now-warns-on-dependencies-with-the-wrong-architecture.md)
 - [Two-way data-binding to a property with a non-public setter is not supported](two-way-data-binding-to-a-property-with-a-non-public-setter-is-not-supported.md)
 - [WinRT stream adapters no long call FlushAsync automatically on close](winrt-stream-adapters-no-long-call-flushasync-automatically-on-close.md)
 

@@ -13,13 +13,21 @@ Edge
 Available
 
 ### Change Description
-In the .NET Framework 4.5, a small number of .NET methods began throwing first chance EntryPointNotFoundExceptions. These exceptions were handled within the .Net Framework, but could break test automation that did not expect the first chance exceptions. These same APIs break some ApiVerifier scenarios when HighVersionLie is enabled.
+
+In the .NET Framework 4.5, a small number of .NET methods began throwing first
+chance <xref:System.EntryPointNotFoundException?displayProperty=name>s. These
+exceptions were handled within the .Net Framework, but could break test
+automation that did not expect the first chance exceptions. These same APIs
+break some ApiVerifier scenarios when HighVersionLie is enabled.
 
 - [ ] Quirked
 - [ ] Build-time break
 
 ### Recommended Action
-This bug can be avoided by upgrading to .NET Framework 4.5.1. Alternatively, test automation can be updated to not break on first-chance EntryPointNotFoundExceptions.
+
+This bug can be avoided by upgrading to .NET Framework 4.5.1. Alternatively,
+test automation can be updated to not break on first-chance
+<xref:System.EntryPointNotFoundException?displayProperty=name>s.
 
 ### Affected APIs
 * `M:System.Diagnostics.Debug.Assert(System.Boolean)`

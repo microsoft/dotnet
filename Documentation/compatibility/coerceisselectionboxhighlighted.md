@@ -13,7 +13,8 @@ Minor
 Planned
 
 ### Change Description
-Certain sequences of actions involving a ComboBox and its data source can result in a `NullReferenceException`.
+Certain sequences of actions involving a <xref:System.Windows.Controls.ComboBox?displayProperty=name>
+and its data source can result in a <xref:System.NullReferenceException?displayProperty=name>.
 
 - [ ] Quirked
 - [ ] Build-time break

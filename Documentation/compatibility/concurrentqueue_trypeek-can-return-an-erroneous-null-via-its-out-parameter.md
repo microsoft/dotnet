@@ -13,7 +13,10 @@ Major
 Available
 
 ### Change Description
-In some multi-threaded scenarios, `ConcurentQueue<T>.TryPeek` can return true, but populate the out parameter with a null value (instead of the correct, peeked value).
+In some multi-threaded scenarios,
+<xref:System.Collections.Concurrent.ConcurrentQueue`1.TryPeek(`0@)?displayProperty=name>
+can return true, but populate the out parameter with a null value (instead of
+the correct, peeked value).
 
 - [ ] Quirked
 - [ ] Build-time break

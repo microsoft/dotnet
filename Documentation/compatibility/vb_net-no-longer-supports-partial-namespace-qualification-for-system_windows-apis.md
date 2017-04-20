@@ -10,7 +10,7 @@ Minor
 Available
 
 ### Change Description
-Beginning in .NET 4.5.2, VB.NET projects cannot specify System.Windows APIs with partially-qualified namespaces. For example, referring to `Windows.Forms.DialogResult` will fail. Instead, code must refer to the fully qualified name (`System.Windows.Forms.DialogResult`) or import the specific namespace and refer simply to `DialogResult`.
+Beginning in .NET 4.5.2, VB.NET projects cannot specify System.Windows APIs with partially-qualified namespaces. For example, referring to `Windows.Forms.DialogResult` will fail. Instead, code must refer to the fully qualified name (<xref:System.Windows.Forms.DialogResult>) or import the specific namespace and refer simply to <xref:System.Windows.Forms.DialogResult?displayProperty=name>.
 
 - [ ] Quirked
 - [x] Build-time break

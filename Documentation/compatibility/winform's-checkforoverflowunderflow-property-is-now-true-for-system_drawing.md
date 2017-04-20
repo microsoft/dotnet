@@ -16,7 +16,9 @@ The CheckForOverflowUnderflow property for the System.Drawing.dll assembly is se
 - [ ] Build-time break
 
 ### Recommended Action
-Previously when overflows occurred, the result would be silently truncated. Now an OverflowException exception is thrown.
+
+Previously when overflows occurred, the result would be silently truncated. Now
+an <xref:System.OverflowException?displayProperty=name> exception is thrown.
 
 ### Affected APIs
 * Not detectable via API analysis

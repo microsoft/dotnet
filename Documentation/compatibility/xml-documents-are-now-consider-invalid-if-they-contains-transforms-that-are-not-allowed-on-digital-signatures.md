@@ -11,7 +11,9 @@ Planned
 
 ### Change Description
 
-In .NET Framework 4.6.2, Security fixes in `SignedXml` and `EncryptedXml` lead
+In .NET Framework 4.6.2, Security fixes in
+<xref:System.Security.Cryptography.Xml.SignedXml?displayProperty=name> and
+<xref:System.Security.Cryptography.Xml.EncryptedXml?displayProperty=name> lead
 to different run-time behaviors. For example,
 
 * If a document has multiple elements with the same `id` attribute and a
@@ -30,9 +32,9 @@ to different run-time behaviors. For example,
 ### Recommended Action
 
 Developers might want to review the usage of
-`System.Security.Cryptography.Xml.XmlDsigXsltTransform` and
-`System.Security.Cryptography.Xml.XmlDsigXPathTransform`, as well as types
-derived from `System.Security.Cryptography.Xml.Transform` since a document
+<xref:System.Security.Cryptography.Xml.XmlDsigXsltTransform> and
+<xref:System.Security.Cryptography.Xml.XmlDsigXsltTransform>, as well as types
+derived from <xref:System.Security.Cryptography.Xml.Transform> since a document
 receiver may not be able to process it.
 
 ### Affected APIs

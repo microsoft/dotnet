@@ -10,7 +10,13 @@ Minor
 Available
 
 ### Change Description
-If one of the input collections is marked completed, `BlockingCollection<T>.TryTakeFromAny(BlockingCollection<T>[], T)` no longer returns -1 and `BlockingCollection<T>.TakeFromAny` no longer throws an exception. This change makes it possible to work with collections when one of the collections is either empty or completed, but the other collection still has items that can be retrieved.
+
+If one of the input collections is marked completed, <xref:System.Collections.Concurrent.BlockingCollection`1.TryTakeFromAny(System.Collections.Concurrent.BlockingCollection{`0}[],`0@)>
+no longer returns -1 and
+<xref:System.Collections.Concurrent.BlockingCollection`1.TakeFromAny(System.Collections.Concurrent.BlockingCollection{`0}[],`0@)>
+no longer throws an exception. This change makes it possible to work with
+collections when one of the collections is either empty or completed, but the
+other collection still has items that can be retrieved.
 
 - [ ] Quirked
 - [ ] Build-time break

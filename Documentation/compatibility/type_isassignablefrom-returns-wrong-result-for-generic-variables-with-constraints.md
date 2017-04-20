@@ -13,13 +13,21 @@ Minor
 Planned
 
 ### Change Description
-In the .NET Framework 4.5, Type.IsAssignableFrom will incorrectly return `false` in all cases for some generic types with constraints.
+
+In the .NET Framework 4.5,
+<xref:System.Type.IsAssignableFrom(System.Type)>
+will incorrectly return `false` in all cases for some generic types with
+constraints.
 
 - [ ] Quirked
 - [ ] Build-time break
 
 ### Recommended Action
-This issue was fixed in a servicing update. Please update the .NET Framework 4.5, or upgrade to .NET Framework 4.5.1 or later, to fix this issue. Alternatively, avoid using IsAssignableFrom with generic types that have constraints on generic parameters. Reflection APIs can be used as a work-around.
+
+This issue was fixed in a servicing update. Please update the .NET Framework
+4.5, or upgrade to .NET Framework 4.5.1 or later, to fix this issue.
+Alternatively, avoid using IsAssignableFrom with generic types that have
+constraints on generic parameters. Reflection APIs can be used as a work-around.
 
 ### Affected APIs
 * `M:System.Type.IsAssignableFrom(System.Type)`

@@ -10,13 +10,23 @@ Edge
 Planned
 
 ### Change Description
-Beginning in the .NET Framework 4.5.1, the .NET Framework will attempt to automatically reconnect broken SQL connections. Although this will typically make apps more reliable, there are edge cases in which an app needs to know that the connection was lost so that it can take some action upon reconnection.
+
+Beginning in the .NET Framework 4.5.1, the .NET Framework will attempt to
+automatically reconnect broken SQL connections. Although this will typically
+make apps more reliable, there are edge cases in which an app needs to know that
+the connection was lost so that it can take some action upon reconnection.
 
 - [ ] Quirked
 - [ ] Build-time break
 
 ### Recommended Action
-If this feature is undesirable due to compatibility concerns, it can be disabled by setting the ConnectRetryCount property of a connection string (or SqlConnectionStringBuilder) to 0.
+
+If this feature is undesirable due to compatibility concerns, it can be disabled
+by setting the
+<xref:System.Data.SqlClient.SqlConnectionStringBuilder.ConnectRetryCount?displayProperty=name>
+property of a connection string (or
+<xref:System.Data.SqlClient.SqlConnectionStringBuilder?displayProperty=name>) to
+0.
 
 ### Affected APIs
 * `M:System.Data.IDbConnection.set_ConnectionString(System.String)`

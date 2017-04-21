@@ -32,6 +32,5 @@ successfully started and ran in a constrained memory environment may now fail.
 ### Category
 Windows Communication Foundation (WCF)
 
-[More information](https://msdn.microsoft.com/en-us/library/dn458360(v=vs.110).aspx)
 
 <!-- breaking change id: 32 -->

@@ -36,6 +36,4 @@ compatibility switch.
 ### Category
 Windows Communication Foundation (WCF)
 
-[More information](https://msdn.microsoft.com/en-us/library/mt620031%28v=vs.110%29.aspx#WCF)
-
 <!-- breaking change id: 143 -->

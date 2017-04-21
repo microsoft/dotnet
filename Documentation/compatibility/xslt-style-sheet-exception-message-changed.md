@@ -40,6 +40,4 @@ which has not changed.
 ### Category
 XML, XSLT
 
-[More information](https://msdn.microsoft.com/en-us/library/hh367887(v=vs.110).aspx#xml)
-
 <!-- breaking change id: 35 -->

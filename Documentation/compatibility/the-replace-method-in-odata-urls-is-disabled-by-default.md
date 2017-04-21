@@ -32,6 +32,4 @@ only be used after careful review.
 ### Category
 Windows Communication Foundation (WCF)
 
-[More information](https://msdn.microsoft.com/en-us/library/hh367887(v=vs.110).aspx#wcf)
-
 <!-- breaking change id: 29 -->

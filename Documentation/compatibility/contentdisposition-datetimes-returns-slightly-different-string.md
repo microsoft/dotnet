@@ -41,6 +41,4 @@ comparison.
 ### Category
 Networking
 
-[More information](https://msdn.microsoft.com/en-us/library/dn833125(v=vs.110).aspx#Networking)
-
 <!-- breaking change id: 78 -->

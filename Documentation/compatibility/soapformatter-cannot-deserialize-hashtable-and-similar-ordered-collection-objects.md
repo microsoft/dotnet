@@ -40,6 +40,4 @@ to be resilient to .NET Framework changes.
 ### Category
 Serialization
 
-[More information](https://msdn.microsoft.com/en-us/library/hh367887\(v=vs.110\).aspx#core)
-
 <!-- breaking change id: 1 -->

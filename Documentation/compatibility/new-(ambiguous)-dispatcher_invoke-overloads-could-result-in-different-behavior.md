@@ -41,6 +41,4 @@ method overload.
 ### Category
 Windows Workflow Foundation (WF)
 
-[More information](https://msdn.microsoft.com/en-us/library/hh367887(v=vs.110).aspx#wwf)
-
 <!-- breaking change id: 23 -->

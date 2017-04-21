@@ -38,6 +38,4 @@ the app's configuration file:
 ### Category
 Entity Framework
 
-[More information](https://msdn.microsoft.com/en-us/library/dn720774(v=vs.110).aspx)
-
 <!-- breaking change id: 69 -->

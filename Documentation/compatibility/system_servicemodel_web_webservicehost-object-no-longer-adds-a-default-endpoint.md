@@ -40,8 +40,6 @@ endpoints should also be added explicitly (using <xref:System.ServiceModel.Servi
 ### Category
 Windows Communication Foundation (WCF)
 
-[More information](https://msdn.microsoft.com/en-us/library/hh367887(v=vs.110).aspx#wcf)
-
 <!--
     ### Notes
     If an explicit endpoint is added, then the expected default endpoint will not exist. An analyzer can look for explicit endpoints being added without a corresponding call to add default endpoints. A code fix is possible here, too, by just calling <xref:System.ServiceModel.ServiceHostBase.AddDefaultEndpoints?displayProperty=name>. Note, though, that this is probably just informational since it's often not something that needs fixed.

@@ -42,6 +42,4 @@ affected code paths should be enough to determine if this poses any problem.
 ### Category
 Windows Presentation Foundation (WPF)
 
-[More information](https://msdn.microsoft.com/en-us/library/hh367887(v=vs.110).aspx#wpf)
-
 <!-- breaking change id: 38 -->

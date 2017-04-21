@@ -31,6 +31,4 @@ using an older compiler. The APIs are still supported.
 ### Category
 Windows Workflow Foundation (WF)
 
-[More information](https://msdn.microsoft.com/en-us/library/hh367887#wwf)
-
 <!-- breaking change id: 22 -->

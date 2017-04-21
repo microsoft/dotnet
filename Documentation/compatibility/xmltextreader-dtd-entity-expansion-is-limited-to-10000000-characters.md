@@ -46,6 +46,4 @@ value can be passed to `XmlReader.Create` that takes
 ### Category
 XML, XSLT
 
-[More information](https://msdn.microsoft.com/en-us/library/hh367887(v=vs.110).aspx)
-
 <!-- breaking change id: 33 -->

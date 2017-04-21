@@ -38,6 +38,4 @@ null, it can be explicitly set to that value.
 ### Category
 Core
 
-[More information](https://msdn.microsoft.com/en-us/library/dn833125(v=vs.110).aspx#Core)
-
 <!-- breaking change id: 75 -->

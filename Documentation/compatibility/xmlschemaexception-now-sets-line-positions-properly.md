@@ -34,6 +34,4 @@ properly when SetLineInfo is used while loading XML.
 ### Category
 XML, XSLT
 
-[More information](https://msdn.microsoft.com/en-us/library/hh367887#xml)
-
 <!-- breaking change id: 19 -->

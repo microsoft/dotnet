@@ -27,8 +27,6 @@ to sign ClickOnce apps that target .NET Framework 4 and earlier versions.
 ### Category
 ClickOnce
 
-[More information](https://msdn.microsoft.com/en-us/library/dn833125(v=vs.110).aspx#ClickOnce)
-
 <!--
     ### Notes
     We could possibly detect this by analyzing ClickOnce manifests and looking for SHA-256 certs.

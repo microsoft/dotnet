@@ -27,6 +27,4 @@ If Translate or ExecuteStoreQuery was called on an enum type in .NET 4.0, '0' wa
 ### Category
 Entity Framework
 
-[More information](https://msdn.microsoft.com/en-us/library/hh367887\(v=vs.110\).aspx#sql)
-
 <!-- breaking change id: 41 -->

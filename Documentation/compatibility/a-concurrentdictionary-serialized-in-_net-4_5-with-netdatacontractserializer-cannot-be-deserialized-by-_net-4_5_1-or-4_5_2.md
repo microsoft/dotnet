@@ -36,8 +36,6 @@ Alternatively, because this issue is addressed in the .NET Framework 4.6, it may
 ### Category
 Core
 
-[More information](https://msdn.microsoft.com/en-us/library/dn458360(v=vs.110).aspx#Core)
-
 <!--
     ### Notes
     Should be fairly easy to detect ConcurrentDictionary objects being serialized/deserialized by a NetDataContractSerializer.

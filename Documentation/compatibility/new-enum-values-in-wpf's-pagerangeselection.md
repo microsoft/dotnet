@@ -35,8 +35,6 @@ should be modified, though.
 ### Category
 Windows Presentation Foundation (WPF)
 
-[More information](https://msdn.microsoft.com/en-us/library/hh367887(v=vs.110).aspx#wpf)
-
 <!--
     ### Notes
     Look for cast to PageRangeSelection, or <xref:System.Enum.GetNames(System.Type)> or <xref:System.Enum.GetValues(System.Type)> calls taking this type as input

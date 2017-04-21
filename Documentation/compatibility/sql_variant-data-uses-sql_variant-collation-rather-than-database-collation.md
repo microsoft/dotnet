@@ -10,20 +10,18 @@ Transparent
 Not planned
 
 ### Change Description
-`sql_variant` data uses `sql_variant` collation rather than database collation. 
+`sql_variant` data uses `sql_variant` collation rather than database collation.
 
 - [ ] Quirked
 - [ ] Build-time break
 
 ### Recommended Action
-This change addresses possible data corruption if the database collation differs from the `sql_variant` collation. Applications that rely on the corrupted data may experience failure. 
+This change addresses possible data corruption if the database collation differs from the `sql_variant` collation. Applications that rely on the corrupted data may experience failure.
 
 ### Affected APIs
 * Not detectable via API analysis
 
 ### Category
 Data
-
-[More information](https://msdn.microsoft.com/en-us/library/hh367887(v=vs.110).aspx#xml)
 
 <!-- breaking change id: 72 -->

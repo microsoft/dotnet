@@ -39,6 +39,4 @@ this feature in either of two ways:
 ### Category
 Networking
 
-[More information](https://msdn.microsoft.com/en-us/library/dn833123(v=vs.110).aspx#Net)
-
 <!-- breaking change id: 137 -->

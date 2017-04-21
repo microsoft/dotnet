@@ -1,4 +1,4 @@
-## WPF layout rounding of margins has changed 
+## WPF layout rounding of margins has changed
 
 ### Scope
 Minor
@@ -10,13 +10,13 @@ Minor
 Not planned
 
 ### Change Description
-The way in which margins are rounded and borders and the background inside of them has changed. As a result of this change: 
+The way in which margins are rounded and borders and the background inside of them has changed. As a result of this change:
 
-- The width or height of elements may grow or shrink by at most one pixel. 
-- The placement of an object can move by at most one pixel. 
-- Centered elements can be vertically or horizontally off center by at most one pixel. 
+- The width or height of elements may grow or shrink by at most one pixel.
+- The placement of an object can move by at most one pixel.
+- Centered elements can be vertically or horizontally off center by at most one pixel.
 
-By default, this new layout is enabled only for apps that target the .NET Framework 4.6. 
+By default, this new layout is enabled only for apps that target the .NET Framework 4.6.
 
 - [x] Quirked
 - [ ] Build-time break
@@ -32,6 +32,6 @@ Apps that target the .NET Framework 4.6 but want WPF controls to render using th
 ### Category
 Windows Presentation Foundation (WPF)
 
-[More information](https://msdn.microsoft.com/en-us/library/mt298997(v=vs.110).aspx)
+[More information](https://docs.microsoft.com/en-us/dotnet/articles/framework/migration-guide/mitigation-wpf-layout)
 
 <!-- breaking change id: 139 -->

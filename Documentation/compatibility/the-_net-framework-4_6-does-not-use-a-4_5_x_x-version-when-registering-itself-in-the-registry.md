@@ -24,6 +24,6 @@ Update apps probing for a .NET Framework 4.5 install by looking for 4.5 registry
 ### Category
 Setup and Deployment
 
-[More information](https://msdn.microsoft.com/en-us/library/mt125490%28v=vs.110%29.aspx)
+[More information](https://docs.microsoft.com/en-us/dotnet/articles/framework/migration-guide/mitigation-product-versioning)
 
 <!-- breaking change id: 122 -->

@@ -30,6 +30,4 @@ property to `false`.
 ### Category
 Windows Presentation Foundation (WPF)
 
-[More information](https://msdn.microsoft.com/en-us/library/hh367887(v=vs.110).aspx#wpf)
-
 <!-- breaking change id: 4 -->

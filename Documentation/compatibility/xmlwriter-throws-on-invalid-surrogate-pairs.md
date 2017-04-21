@@ -54,8 +54,6 @@ xml prior to writing them.
 ### Category
 XML, XSLT
 
-[More information](https://msdn.microsoft.com/en-us/library/dn833123\(v=vs.110\).aspx)
-
 <!--
     ### Notes
     Analyzer wouldn't add much over ApiPort, but we could do basic parameter analysis

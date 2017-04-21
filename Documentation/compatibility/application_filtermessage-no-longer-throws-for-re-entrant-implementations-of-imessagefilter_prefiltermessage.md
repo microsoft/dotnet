@@ -38,7 +38,7 @@ Framework 4.6.1.
 
 Apps targeting the .NET Framework 4.6.1 can opt out of this change (or apps
 targeting older Frameworks may opt in) by using the
-[DontSupportReentrantFilterMessage](https://msdn.microsoft.com/en-us/library/mt620032%28v=vs.110%29.aspx)
+[DontSupportReentrantFilterMessage](https://docs.microsoft.com/en-us/dotnet/articles/framework/migration-guide/mitigation-custom-imessagefilter-prefiltermessage-implementations#mitigation)
 compatibility switch.
 
 ### Affected APIs
@@ -46,8 +46,6 @@ compatibility switch.
 
 ### Category
 Windows Forms
-
-[More information](https://msdn.microsoft.com/en-us/library/mt620031%28v=vs.110%29.aspx#WinForms)
 
 <!--
     ### Notes

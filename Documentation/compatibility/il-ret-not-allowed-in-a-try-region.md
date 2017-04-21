@@ -24,8 +24,6 @@ If an app is generating IL that includes a ret opcode in a try region, the app m
 ### Category
 JIT
 
-[More information](https://msdn.microsoft.com/en-us/library/dn833125(v=vs.110).aspx#RyuJIT)
-
 <!--
     ### Notes
     We could maybe detect this by looking for apps that emit ret opcodes, but we'd have to also know whether they were emitted into a try block.

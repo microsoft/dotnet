@@ -40,8 +40,6 @@ not function correctly.
 ### Category
 Windows Workflow Foundation (WF)
 
-[More information](https://msdn.microsoft.com/en-us/library/hh367887(v=vs.110).aspx#wwf)
-
 <!--
     ### Notes
     Will need to dig in a bit to figure out exactly what a repro for this looks like. Probably, identifying Literal<DateTime>/Literal<DateTimeOffset> usage will be sufficient to give an informational diagnostic.

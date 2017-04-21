@@ -35,6 +35,4 @@ If TryTakeFromAny returning -1 or TakeFromAny throwing were used for control-flo
 ### Category
 Core
 
-[More information](https://msdn.microsoft.com/en-us/library/hh367887#core)
-
 <!-- breaking change id: 18 -->

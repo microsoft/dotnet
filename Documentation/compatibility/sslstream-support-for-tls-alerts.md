@@ -18,7 +18,7 @@ be thrown by the first I/O Read/Write operation. The
 <xref:System.ComponentModel.Win32Exception.NativeErrorCode?displayProperty=name>
 code for the <xref:System.ComponentModel.Win32Exception?displayProperty=name>
 can be mapped to the TLS Alert from the remote party using this
-[channel documentation](https://msdn.microsoft.com/en-us/library/windows/desktop/dd721886%28v=vs.85%29.aspx).
+[Schannel documentation](https://msdn.microsoft.com/en-us/library/windows/desktop/dd721886%28v=vs.85%29.aspx).
 
 For more information, see
 [RFC 2246: Section 7.2.2 Error alerts](https://tools.ietf.org/html/rfc2246#section-7.2.2)

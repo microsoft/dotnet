@@ -26,6 +26,4 @@ an <xref:System.OverflowException?displayProperty=name> exception is thrown.
 ### Category
 Windows Forms
 
-[More information](https://msdn.microsoft.com/en-us/library/hh367887(v=vs.110).aspx)
-
 <!-- breaking change id: 53 -->

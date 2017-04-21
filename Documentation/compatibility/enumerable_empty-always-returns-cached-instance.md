@@ -41,6 +41,4 @@ and expected to sometimes be unequal, explicit empty arrays should be created
 ### Category
 LINQ
 
-[More information](https://msdn.microsoft.com/en-us/library/hh367887(v=vs.110).aspx#sql)
-
 <!-- breaking change id: 42 -->

@@ -38,6 +38,4 @@ If an <xref:System.AggregateException?displayProperty=name> was being caught as 
 ### Category
 Core
 
-[More information](https://msdn.microsoft.com/en-us/library/hh367887\(v=vs.110\).aspx#core)
-
 <!-- breaking change id: 26 -->

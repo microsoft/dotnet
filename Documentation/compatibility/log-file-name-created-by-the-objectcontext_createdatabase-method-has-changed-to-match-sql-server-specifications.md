@@ -33,6 +33,4 @@ expect the standard _log.ldf file name format.
 ### Category
 Entity Framework
 
-[More information](https://msdn.microsoft.com/en-us/library/hh367887(v=vs.110).aspx#sql)
-
 <!-- breaking change id: 59 -->

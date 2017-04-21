@@ -24,6 +24,4 @@ This behavior (whether to clip or not) can be explicitly set using the `<EnableM
 ### Category
 Windows Presentation Foundation (WPF)
 
-[More information](https://msdn.microsoft.com/en-us/library/dn833125(v=vs.110).aspx#WPF)
-
 <!-- breaking change id: 135 -->

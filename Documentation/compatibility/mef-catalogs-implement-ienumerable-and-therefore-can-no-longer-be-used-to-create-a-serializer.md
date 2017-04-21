@@ -29,6 +29,4 @@ Can no longer use MEF to create a serializer
 ### Category
 Managed Extensibility Framework (MEF)
 
-[More information](https://msdn.microsoft.com/en-us/library/hh367887#MEF)
-
 <!-- breaking change id: 12 -->

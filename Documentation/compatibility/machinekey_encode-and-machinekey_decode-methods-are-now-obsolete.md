@@ -33,6 +33,4 @@ using an older compiler. The APIs are still supported.
 ### Category
 ASP.NET
 
-[More information](https://msdn.microsoft.com/en-us/library/hh367887(v=vs.110).aspx#asp)
-
 <!-- breaking change id: 28 -->

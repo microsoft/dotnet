@@ -10,7 +10,7 @@ Minor
 Not planned
 
 ### Change Description
-Hosting these controls is blocked in Internet Explorer. 
+Hosting these controls is blocked in Internet Explorer.
 
 - [ ] Quirked
 - [ ] Build-time break
@@ -23,7 +23,5 @@ Internet Explorer will fail to launch an application that uses managed browser h
 
 ### Category
 Web Applications
-
-[More information](https://msdn.microsoft.com/en-us/library/hh367887(v=vs.110).aspx#web)
 
 <!-- breaking change id: 64 -->

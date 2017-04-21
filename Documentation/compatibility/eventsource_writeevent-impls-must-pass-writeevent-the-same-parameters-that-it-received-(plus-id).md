@@ -33,6 +33,4 @@ process for an event source that violates this contract.
 ### Category
 Core
 
-[More information](https://msdn.microsoft.com/en-us/library/dn458360(v=vs.110).aspx)
-
 <!-- breaking change id: 31 -->

@@ -36,6 +36,4 @@ result in build warnings.
 ### Category
 Core
 
-[More information](https://msdn.microsoft.com/en-us/library/dn458356(v=vs.110).aspx)
-
 <!-- breaking change id: 48 -->

@@ -42,8 +42,6 @@ If the old behavior is needed for some reason, the app can target the .NET Frame
 ### Category
 Windows Forms
 
-[More information](https://msdn.microsoft.com/en-us/library/dn720772(v=vs.110).aspx#WinForms)
-
 <!--
     ### Notes
     Don't know what data they're getting. Can give an informational diagnostic if we see the GetData APIs called, though.

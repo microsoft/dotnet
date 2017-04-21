@@ -30,6 +30,4 @@ These changes make it easier to build tools and applications that use the DDL AP
 ### Category
 Entity Framework
 
-[More information](https://msdn.microsoft.com/en-us/library/hh367887(v=vs.110).aspx#sql)
-
 <!-- breaking change id: 27 -->

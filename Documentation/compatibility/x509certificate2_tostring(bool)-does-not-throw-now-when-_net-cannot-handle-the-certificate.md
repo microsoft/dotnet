@@ -33,6 +33,4 @@ in which the API would have previously thrown.
 ### Category
 Core
 
-[More information](https://msdn.microsoft.com/en-us/library/dn833125\(v=vs.110\).aspx#Core)
-
 <!-- breaking change id: 76 -->

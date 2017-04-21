@@ -26,8 +26,6 @@ The change in decoder output should matter only if you store binary data instead
 ### Category
 ASP.NET
 
-[More information](https://msdn.microsoft.com/en-us/library/hh367887\(v=vs.110\).aspx#asp)
-
 <!--
     ### Notes
     This only matters if you store binary data instead of UTF-16 data in string. An analyzer may not add much beyond ApiPort, but we could do basic parameter analysis and potentially implement a code fix

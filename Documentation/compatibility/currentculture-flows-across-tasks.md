@@ -59,6 +59,6 @@ would be preserved across Dispatcher operations.
 ### Category
 Core
 
-[More information](https://msdn.microsoft.com/en-us/library/system.globalization.cultureinfo%28v=vs.110%29.aspx#Async)
+[More information](https://docs.microsoft.com/en-us/dotnet/api/system.globalization.cultureinfo#Async)
 
 <!-- breaking change id: 146 -->

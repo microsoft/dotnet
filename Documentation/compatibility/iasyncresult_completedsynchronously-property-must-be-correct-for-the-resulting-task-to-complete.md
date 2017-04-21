@@ -57,6 +57,4 @@ completed synchronously or not.
 ### Category
 Core
 
-[More information](https://msdn.microsoft.com/en-us/library/hh367887(v=vs.110).aspx#core)
-
 <!-- breaking change id: 58 -->

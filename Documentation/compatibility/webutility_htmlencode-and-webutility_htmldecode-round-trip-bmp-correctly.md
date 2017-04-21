@@ -35,8 +35,6 @@ the targeted version of the .NET Framework.
 ### Category
 ASP.NET
 
-[More information](https://msdn.microsoft.com/en-us/library/hh367887(v=vs.110).aspx#asp)
-
 <!--
     ### Notes
     This shouldn't affect anything. An analyzer may not add much beyond ApiPort, but we could do basic parameter analysis and potentially implement a code fix

@@ -174,6 +174,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [WampSharp](https://github.com/Code-Sharp/WampSharp) - A C# implementation of [The Web Application Messaging Protocol](http://wamp.ws) - a protocol that provides messaging patterns of Remote Procedure Calls and Publish/Subscribe over WebSockets.
   * [WebApiProxy](https://github.com/faniereynders/WebApiProxy) - An automatic proxy provider for RESTful services built on ASP.NET Web API. Includes JavaScript & C# client generation.
   * [WebSocket4Net](https://websocket4net.codeplex.com/) - A C# websocket client for .NET, Mono and Xamarin
+  * [WinFsp](https://github.com/billziss-gh/winfsp) - FUSE for Windows - Develop file systems in .NET
   * [WpfToolkit](https://github.com/dotnetprojects/wpftoolkit) - Fork of the MS WPF Toolkit
   * [XamlEssentials](https://github.com/AdvancedREI/XamlEssentials) - Collection of helpers for Microsoft's XAML platforms.
   * [Zlib.Portable](https://github.com/AdvancedREI/Zlib.Portable) - A Portable Class Library port of the Zlib library from http://dotnetzip.codeplex.com.

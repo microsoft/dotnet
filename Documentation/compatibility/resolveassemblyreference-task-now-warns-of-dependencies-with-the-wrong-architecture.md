@@ -1,4 +1,4 @@
-## ResolveAssemblyReference task now warns on dependencies with the wrong architecture
+## ResolveAssemblyReference task now warns of dependencies with the wrong architecture
 
 ### Scope
 Minor

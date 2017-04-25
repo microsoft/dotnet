@@ -57,6 +57,8 @@ Here is a short list of projects to check out:
 * [MVVM Cross](https://github.com/MvvmCross/MvvmCross)
 * [ReactiveUI](https://github.com/reactiveui/ReactiveUI)
 
+There are additional templates available for `dotnet new`. For more info see [Available templates for dotnet new](https://github.com/dotnet/templating/wiki/Available-templates-for-dotnet-new)
+
 ## .NET Foundation
 
 Many .NET open source projects are part of the

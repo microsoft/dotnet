@@ -38,6 +38,8 @@ Add the following text to the `<app>.exe.config` file. Create
   
   This method is preferable as it is scoped to just one application.
 
+  The string "useLegacyJit" is case-sensitive.
+
 ### Method 2: environment variable
 
 Set the following environment variable:
@@ -47,6 +49,8 @@ Set the following environment variable:
   This method affects any environment that inherits this environment variable. This might be just a single
   console session, or it might affect the entire machine, if you set the environment variable globally.
   
+  The environment variable name is not case-sensitive.
+
 ### Method 3: registry
 
 Using Registry Editor (regedit.exe), find either of the following subkeys:
@@ -65,6 +69,8 @@ Using Registry Editor (regedit.exe), find either of the following subkeys:
         reg add HKLM\SOFTWARE\Microsoft\.NETFramework /v useLegacyJit /t REG_DWORD /d 1
   
   In this case, `HKLM` is used instead of `HKEY_LOCAL_MACHINE`. Use `reg add /?` to see help on this syntax.
+
+  The registry value name is not case-sensitive.
 
 Disable loading NGEN Images
 ===========================

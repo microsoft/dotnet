@@ -29,7 +29,7 @@ update the .NET Framework 4.5 (or upgrade to .NET Framework 4.5.1 or later) to
 fix the issue.
 
 ### Affected APIs
-* `P:<xref:System.Activities.Statements.InvokeMethod>.Parameters`
+* `P:System.Activities.Statements.InvokeMethod.Parameters`
 
 ### Category
 Windows Workflow Foundation (WF)

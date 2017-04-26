@@ -13,13 +13,20 @@ Minor
 Available
 
 ### Change Description
-Due to internal changes to the type, <xref:System.Collections.Concurrent.ConcurrentDictionary`2> objects that are serialized with the .NET Framework 4.5
-using the <xref:System.Runtime.Serialization.NetDataContractSerializer?displayProperty=name> cannot be deserialized in the .NET Framework 4.5.1 or in the .NET Framework 4.5.2.
 
-Note that moving in the other direction (serializing with the .NET Framework 4.5.x and deserializing with the .NET Framework 4.5) works. Similarly,
-all 4.x cross-version serialization works with the .NET Framework 4.6.
+Due to internal changes to the type,
+<xref:System.Collections.Concurrent.ConcurrentDictionary`2> objects that are
+serialized with the .NET Framework 4.5 using the
+<xref:System.Runtime.Serialization.NetDataContractSerializer?displayProperty=name>
+cannot be deserialized in the .NET Framework 4.5.1 or in the .NET Framework
+4.5.2.
 
-Serializing and deserializing with a single version of the .NET Framework is not affected.
+Note that moving in the other direction (serializing with the .NET Framework
+4.5.x and deserializing with the .NET Framework 4.5) works. Similarly, all 4.x
+cross-version serialization works with the .NET Framework 4.6.
+
+Serializing and deserializing with a single version of the .NET Framework is not
+affected.
 
 - [ ] Quirked
 - [ ] Build-time break

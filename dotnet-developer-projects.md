@@ -114,6 +114,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [Comparers](https://github.com/StephenCleary/Comparers) - Fluent syntax for building comparers (and equality comparers) and implementing object comparison.
   * [Cricket](https://github.com/fsprojects/Cricket) - Actor library
   * [DateTimeExtensions](https://github.com/kappy/DateTimeExtensions) - Common Date Time operations on the form of extensions to System.DateTime, including holidays and working days calculations on several culture locales.
+  * [DeveelDB](https://github.com/deveel/deveeldb) - SQL-99 embeddable database engine for .NET
   * [DiffSharp](https://github.com/gbaydin/DiffSharp) - Automatic Differentiation Library
   * [DnsClient](https://github.com/MichaCo/DnsClient.NET) - A high performant DNS query/lookup library - [Home](http://dnsclient.michaco.net)
   * [DotNetOpenAuth](https://github.com/DotNetOpenAuth) - Library that adds support for your site visitors to login with their OpenIDs by just dropping an ASP.NET control onto your page.

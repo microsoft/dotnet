@@ -31,7 +31,7 @@ When using Visual Studio this package requires Visual Studio 2017 or later.
 
 ### 5.3.0 (January 27, 2017)
 
-- .NET Native 1.6.
+- Contains .NET Native 1.6 with lots of great improvements, including addressing over 100 customer reported issues since .NET Native 1.4 (UWP 5.2.2).
 
 When using Visual Studio this package requires Visual Studio 2017 or later.
 

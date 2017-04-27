@@ -20,8 +20,8 @@ When using Visual Studio this package requires Visual Studio 2017 or later.
 
 ### 5.3.1 (March 7, 2017)
 
-- Fix a [bug](https://github.com/dotnet/corefx/issues/10374) that caused DataContractJsonSerializer to fail to serialize any [DataContract] type whose default constructor is not public.
-- Fixes a regression in 5.3.0 where [4 Libraries were accidently no longer referenced by default](https://github.com/dotnet/corefx/issues/10338)
+- Fixed an [issue](https://github.com/dotnet/corefx/issues/10374) that caused DataContractJsonSerializer to fail to serialize any [DataContract] type whose default constructor is not public.
+- Fixed a regression in 5.3.0 where [4 Libraries were accidently no longer referenced by default](https://github.com/dotnet/corefx/issues/10338)
     - System.Collections.NonGeneric
     - System.Collections.Specialized
     - System.Threading.Overlapped
@@ -38,8 +38,8 @@ When using Visual Studio this package requires Visual Studio 2017 or later.
 
 ### 5.2.3 (March 7, 2017)
 
-- Fix a [bug](https://github.com/dotnet/corefx/issues/10374) that caused DataContractJsonSerializer to fail to serialize any [DataContract] type whose default constructor is not public.
-- Fixes a regression in 5.2.2 where [4 Libraries were accidently no longer referenced by default](https://github.com/dotnet/corefx/issues/10338)
+- Fixed an [issue](https://github.com/dotnet/corefx/issues/10374) that caused DataContractJsonSerializer to fail to serialize any [DataContract] type whose default constructor is not public.
+- Fixed a regression in 5.2.2 where [4 Libraries were accidently no longer referenced by default](https://github.com/dotnet/corefx/issues/10338)
     - System.Collections.NonGeneric
     - System.Collections.Specialized
     - System.Threading.Overlapped

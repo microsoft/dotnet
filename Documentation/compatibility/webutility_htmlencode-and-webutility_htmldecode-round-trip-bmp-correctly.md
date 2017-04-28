@@ -10,13 +10,23 @@ Edge
 Planned
 
 ### Change Description
-For applications that target the .NET Framework 4.5, characters that are outside the Basic Multilingual Plane (BMP) round-trip correctly when they are passed to the WebUtility.HtmlDecode method.
+
+For applications that target the .NET Framework 4.5, characters that are outside
+the Basic Multilingual Plane (BMP) round-trip correctly when they are passed to
+the <xref:System.Net.WebUtility.HtmlDecode(System.String)>
+methods.
 
 - [x] Quirked
 - [ ] Build-time break
 
 ### Recommended Action
-This change should have no effect on current applications, but to restore the original behavior, set the targetFramework attribute of the `<httpRuntime>` element to a string other than "4.5". You can also set the `unicodeEncodingConformance` and `unicodeDecodingConformance` attributes of the `<webUtility>` configuration element to control this behavior independently of the targeted version of the .NET Framework.
+
+This change should have no effect on current applications, but to restore the
+original behavior, set the `targetFramework` attribute of the `<httpRuntime>`
+element to a string other than "4.5". You can also set the
+`unicodeEncodingConformance` and `unicodeDecodingConformance` attributes of the
+`<webUtility>` configuration element to control this behavior independently of
+the targeted version of the .NET Framework.
 
 ### Affected APIs
 * `M:System.Net.WebUtility.HtmlEncode(System.String)`
@@ -24,8 +34,6 @@ This change should have no effect on current applications, but to restore the or
 
 ### Category
 ASP.NET
-
-[More information](https://msdn.microsoft.com/en-us/library/hh367887(v=vs.110).aspx#asp)
 
 <!--
     ### Notes

@@ -10,6 +10,7 @@ Major
 Available
 
 ### Change Description
+
 The System.Net.PeerToPeer.Collaboration namespace is unavailable on Windows 8 or above.
 
 - [ ] Quirked
@@ -23,7 +24,5 @@ Apps that support Windows 8 or above must be updated to not depend on this names
 
 ### Category
 Networking
-
-[More information](https://msdn.microsoft.com/en-us/library/hh367887#network)
 
 <!-- breaking change id: 11 -->

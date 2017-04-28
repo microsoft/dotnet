@@ -10,7 +10,7 @@ Transparent
 Not planned
 
 ### Change Description
-Queries that produce JOIN statements and contain a call to a limiting operation without first using OrderBy now produce simpler SQL. After upgrading to .NET Framework 4.5, these queries produced more complicated SQL than previous versions. 
+Queries that produce JOIN statements and contain a call to a limiting operation without first using OrderBy now produce simpler SQL. After upgrading to .NET Framework 4.5, these queries produced more complicated SQL than previous versions.
 
 - [ ] Quirked
 - [x] Optional
@@ -20,7 +20,7 @@ Queries that produce JOIN statements and contain a call to a limiting operation 
 This feature is disabled by default. If Entity Framework generates extra JOIN statements that cause performance degradation, you can enable this feature by adding the following entry to the `<appSettings>` section of the application configuration (app.config) file:
 
 ```xml
-<add key="EntityFramework_SimplifyLimitOperations" value="true" /> 
+<add key="EntityFramework_SimplifyLimitOperations" value="true" />
 ```
 
 ### Affected APIs
@@ -28,8 +28,6 @@ This feature is disabled by default. If Entity Framework generates extra JOIN st
 
 ### Category
 Entity Framework
-
-[More information](https://msdn.microsoft.com/en-us/library/dn720772(v=vs.110).aspx)
 
 <!-- MSDN lists this as a 'minor'-scope break, but it is 'transparent' here because it is an opt-in break -->
 

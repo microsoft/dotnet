@@ -16,7 +16,15 @@ DTD entity expansion is now limited to 10,000,000 characters. Loading XML files 
 - [ ] Build-time break
 
 ### Recommended Action
-If the limit of DTD entity expansion is too low 10,000,000, the value can be overridden with the [XmlReaderSettings.MaxCharactersFromEntities](https://msdn.microsoft.com/en-us/library/system.xml.xmlreadersettings.maxcharactersfromentities%28v=vs.110%29.aspx) property. An XmlReaderSettings with the proper MaxCharactersFromEntity value can be passed to [XmlReader.Create](https://msdn.microsoft.com/en-us/library/System.Xml.XmlReader.Create(v=vs.110).aspx)
+
+If the limit of DTD entity expansion is too low 10,000,000, the value can be
+overridden with the
+<xref:System.Xml.XmlReaderSettings.MaxCharactersFromEntities>
+property. An <xref:System.Xml.XmlReaderSettings?displayProperty=name> with the
+proper <xref:System.Xml.XmlReaderSettings.MaxCharactersFromEntities?displayProperty=name>
+value can be passed to `XmlReader.Create` that takes
+<xref:System.Xml.XmlReaderSettings?displayProperty=name>
+(ie. <xref:System.Xml.XmlReader.Create(System.String,System.Xml.XmlReaderSettings)>)
 
 ### Affected APIs
 * `T:System.Xml.XmlTextReader`
@@ -37,7 +45,5 @@ If the limit of DTD entity expansion is too low 10,000,000, the value can be ove
 
 ### Category
 XML, XSLT
-
-[More information](https://msdn.microsoft.com/en-us/library/hh367887(v=vs.110).aspx)
 
 <!-- breaking change id: 33 -->

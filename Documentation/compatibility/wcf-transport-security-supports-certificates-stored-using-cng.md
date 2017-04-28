@@ -12,7 +12,8 @@ Investigating
 ### Change Description
 Starting with apps that target the .NET Framework 4.6.2, WCF transport security supports certificates stored using the Windows Cryptography Library (CNG). This support is limited to certificates with a public key that has an exponent no more than 32 bits in length. When an application targets the .NET Framework 4.6.2, this feature is on by default.
 
-In earlier versions of the .NET Framework, the attempt to use X509 certificates with a CSG key storage provider throws an exception. 
+In earlier versions of the .NET Framework, the attempt to use X509 certificates with a CSG key storage provider throws an exception.
+
 - [X] Quirked
 - [ ] Build-time break
 
@@ -23,12 +24,12 @@ Apps that target the .NET Framework 4.6.1 and earlier but are running on the .NE
    <runtime>
       <AppContextSwitchOverrides value="Switch.System.ServiceModel.DisableCngCertificates=false" />
    </runtime>
-   ```   
+   ```
 
 This can also be done programmatically with the following code:
 
    ```cs
-   private const string DisableCngCertificates = @"Switch.System.ServiceModel.DisableCngCertificate"; 
+   private const string DisableCngCertificates = @"Switch.System.ServiceModel.DisableCngCertificate";
    AppContext.SetSwitch(disableCngCertificates, false);
    ```
 
@@ -37,7 +38,7 @@ This can also be done programmatically with the following code:
    AppContext.SetSwitch(disableCngCertificates, False)
    ```
 
-Note that, because of this change, any exception handling code that depends on the attempt to initiate secure communication with a CNG certificate to fail will no longer execute. 
+Note that, because of this change, any exception handling code that depends on the attempt to initiate secure communication with a CNG certificate to fail will no longer execute.
 
 ### Category
 Windows Communication Foundation (WCF)

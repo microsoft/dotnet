@@ -13,7 +13,13 @@ Major
 Available
 
 ### Change Description
-MSBuild 12.0 tools (included in Visual Studio 2013) changed msbuild file locations, causing older Entity Framework targets files to be invalid. The result is that `EntityDeploySplit` and `EntityClean` tasks fail because they are unable to find `Microsoft.Data.Entity.Build.Tasks.dll`. Note that this break is because of a toolset (msbuild/VS) change, not because of a .NET Framework change. It will only occur when upgrading developer tools, not when merely upgrading the .NET Framework.
+MSBuild 12.0 tools (included in Visual Studio 2013) changed msbuild file
+locations, causing older Entity Framework targets files to be invalid. The
+result is that `EntityDeploySplit` and `EntityClean` tasks fail because they are
+unable to find `Microsoft.Data.Entity.Build.Tasks.dll`. Note that this break is
+because of a toolset (msbuild/VS) change, not because of a .NET Framework
+change. It will only occur when upgrading developer tools, not when merely
+upgrading the .NET Framework.
 
 - [ ] Quirked
 - [x] Build-time break

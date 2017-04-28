@@ -13,17 +13,22 @@ Edge
 NotPlanned
 
 ### Change Description
-`M:System.Windows.Controls.DataGrid.ScrollIntoView` will work asynchronously when column virtualization is enabled but the column widths
-have not yet been determined.  If columns are removed before the asynchronous work happens, an `ArgumentOutOfRangeException` can occur.
+
+<xref:System.Windows.Controls.DataGrid.ScrollIntoView(System.Object)>
+will work asynchronously when column virtualization is enabled but the column
+widths have not yet been determined.  If columns are removed before the
+asynchronous work happens, an
+<xref:System.ArgumentOutOfRangeException?displayProperty=name> can occur.
 
 - [ ] Quirked
 - [ ] Build-time break
 
 ### Recommended Action
+
 Any one of the following:
 1. Upgrade to .NET 4.7.
 2. Install the latest servicing patch for .NET 4.6.2.
-3. Avoid removing columns until the asynchronous response to `M:System.Windows.Controls.DataGrid.ScrollIntoView` has completed.
+3. Avoid removing columns until the asynchronous response to <xref:System.Windows.Controls.DataGrid.ScrollIntoView(System.Object)> has completed.
 
 ### Affected APIs
 - `M:System.Windows.Controls.DataGrid.ScrollIntoView(System.Object)`

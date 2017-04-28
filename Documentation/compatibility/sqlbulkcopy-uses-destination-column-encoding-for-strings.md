@@ -10,13 +10,26 @@ Edge
 Planned
 
 ### Change Description
-When inserting data into a column, SqlBulkCopy uses the encoding of the destination column rather than the default encoding for `VARCHAR` and `CHAR` types. This change eliminates the possibility of data corruption caused by using the default encoding when the destination column does not use the default encoding. In rare cases, an existing application may throw a SqlException exception if the change in encoding produces data that is too big to fit into the destination column.
+
+When inserting data into a column,
+<xref:System.Data.SqlClient.SqlBulkCopy?displayProperty=name> uses the encoding
+of the destination column rather than the default encoding for `VARCHAR` and
+`CHAR` types. This change eliminates the possibility of data corruption caused
+by using the default encoding when the destination column does not use the
+default encoding. In rare cases, an existing application may throw a
+SqlException exception if the change in encoding produces data that is too big
+to fit into the destination column.
 
 - [ ] Quirked
 - [ ] Build-time break
 
 ### Recommended Action
-Expect that SqlBulkCopy will no longer corrupt data due to encoding differences. If strings near the destination column's size limit are being copied, it may be necessary to either pre-encode data (to be copied to check that the data will fit in the destination column) or catch SqlExceptions.
+
+Expect that <xref:System.Data.SqlClient.SqlBulkCopy?displayProperty=name> will
+no longer corrupt data due to encoding differences. If strings near the
+destination column's size limit are being copied, it may be necessary to either
+pre-encode data (to be copied to check that the data will fit in the destination
+column) or catch <xref:System.Data.SqlClient.SqlException?displayProperty=name>s.
 
 ### Affected APIs
 * `T:System.Data.SqlClient.SqlBulkCopy`
@@ -24,7 +37,5 @@ Expect that SqlBulkCopy will no longer corrupt data due to encoding differences.
 
 ### Category
 Data
-
-[More information](https://msdn.microsoft.com/en-us/library/hh367887(v=vs.110).aspx#xml)
 
 <!-- breaking change id: 71 -->

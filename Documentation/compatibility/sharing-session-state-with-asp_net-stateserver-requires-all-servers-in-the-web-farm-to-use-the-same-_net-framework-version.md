@@ -10,13 +10,19 @@ Edge
 Planned
 
 ### Change Description
-When enabling StateServer session state, all of the servers in the given web farm must use the same version of the .NET Framework in order for state to be properly shared.
+
+When enabling
+<xref:System.Web.SessionState.SessionStateMode.StateServer?displayProperty=name>
+session state, all of the servers in the given web farm must use the same
+version of the .NET Framework in order for state to be properly shared.
 
 - [ ] Quirked
 - [ ] Build-time break
 
 ### Recommended Action
-Be sure to upgrade .NET Framework versions on web servers that share state at the same time.
+
+Be sure to upgrade .NET Framework versions on web servers that share state at
+the same time.
 
 ### Affected APIs
 * `F:System.Web.SessionState.SessionStateMode.StateServer`

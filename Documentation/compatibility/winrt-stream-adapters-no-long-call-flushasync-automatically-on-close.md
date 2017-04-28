@@ -10,7 +10,7 @@ Transparent
 Not planned
 
 ### Change Description
-In Windows Store apps, Windows Runtime stream adapters no longer call the FlushAsync method from the Dispose method. 
+In Windows Store apps, Windows Runtime stream adapters no longer call the FlushAsync method from the Dispose method.
 
 - [ ] Quirked
 - [ ] Build-time break
@@ -19,11 +19,11 @@ In Windows Store apps, Windows Runtime stream adapters no longer call the FlushA
 This change should be transparent. Developers can restore the previous behavior by writing code like this:
 
 ```csharp
-using (var stream = GetWindowsRuntimeStream() as Stream) 
-{ 
-   // do something 
-   await stream.FlushAsync();  
-} 
+using (var stream = GetWindowsRuntimeStream() as Stream)
+{
+   // do something
+   await stream.FlushAsync();
+}
 ```
 
 ### Affected APIs
@@ -31,7 +31,5 @@ using (var stream = GetWindowsRuntimeStream() as Stream)
 
 ### Category
 Core
-
-[More information](https://msdn.microsoft.com/en-us/library/dn458360(v=vs.110).aspx)
 
 <!-- breaking change id: 47 -->

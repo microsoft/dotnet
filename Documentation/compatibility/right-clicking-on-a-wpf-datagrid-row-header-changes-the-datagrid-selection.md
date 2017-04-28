@@ -13,13 +13,19 @@ Edge
 Planned
 
 ### Change Description
-Right-clicking a selected DataGrid row header while multiple rows are selected results in the DataGrid's selection changing to only that row.
+
+Right-clicking a selected
+<xref:System.Windows.Controls.DataGrid?displayProperty=name> row header while
+multiple rows are selected results in the <xref:System.Windows.Controls.DataGrid?displayProperty=name>'s selection changing to only
+that row.
 
 - [ ] Quirked
 - [ ] Build-time break
 
 ### Recommended Action
-This issue has been fixed in the .NET Framework 4.6 and may be addressed by upgrading to that version of the .NET Framework.
+
+This issue has been fixed in the .NET Framework 4.6 and may be addressed by
+upgrading to that version of the .NET Framework.
 
 ### Affected APIs
 * `M:System.Windows.Controls.DataGrid.#ctor`

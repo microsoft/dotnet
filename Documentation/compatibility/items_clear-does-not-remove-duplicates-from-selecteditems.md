@@ -13,12 +13,18 @@ Minor
 NotPlanned
 
 ### Change Description
-Suppose a Selector (with multiple selection enabled) has duplicates in its SelectedItems
+
+Suppose a Selector (with multiple selection enabled) has duplicates in its
+<xref:System.Windows.Controls.Primitives.MultiSelector.SelectedItems?displayProperty=name>
 collection - the same item appears more than once.  Removing those items from the
-data source (e.g. by calling Items.Clear) fails to remove them from SelectedItems;
-only the first instance is removed.  Furthermore, subsequent use of SelectedItems
-(e.g. SelectedItems.Clear()) can encounter problems such as ArgumentException, because
-SelectedItems contains items that are no longer in the data source.
+data source (e.g. by calling Items.Clear) fails to remove them from
+<xref:System.Windows.Controls.Primitives.MultiSelector.SelectedItems?displayProperty=name>;
+only the first instance is removed. Furthermore, subsequent use of
+<xref:System.Windows.Controls.Primitives.MultiSelector.SelectedItems?displayProperty=name>
+(e.g. SelectedItems.Clear()) can encounter problems such as
+<xref:System.ArgumentException?displayProperty=name>, because
+<xref:System.Windows.Controls.Primitives.MultiSelector.SelectedItems?displayProperty=name>
+contains items that are no longer in the data source.
 
 - [ ] Quirked
 - [ ] Build-time break

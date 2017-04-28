@@ -10,21 +10,22 @@ Minor
 Planned
 
 ### Change Description
-Previously, a ClickOnce app with a certificate signed with SHA-256 would require .NET 4.5 or later to be present, even if the app targeted 4.0. Now, 4.0-targeted ClickOnce apps can run on 4.0, even if signed with SHA-256.
+Previously, a ClickOnce app with a certificate signed with SHA-256 would require
+.NET 4.5 or later to be present, even if the app targeted 4.0. Now, 4.0-targeted
+ClickOnce apps can run on 4.0, even if signed with SHA-256.
 
 - [ ] Quirked
 - [x] Build-time break
 
 ### Recommended Action
-This change removes that dependency and allows SHA-256 certificates to be used to sign ClickOnce apps that target .NET Framework 4 and earlier versions.
+This change removes that dependency and allows SHA-256 certificates to be used
+to sign ClickOnce apps that target .NET Framework 4 and earlier versions.
 
 ### Affected APIs
 * Not detectable via API analysis
 
 ### Category
 ClickOnce
-
-[More information](https://msdn.microsoft.com/en-us/library/dn833125(v=vs.110).aspx#ClickOnce)
 
 <!--
     ### Notes

@@ -10,23 +10,33 @@ Edge
 Available
 
 ### Change Description
-The `Page.LoadComplete` event no longer causes the System.Web.UI.WebControls.EntityDataSource control to invoke data binding for changes to create/update/delete parameters. 
-This change eliminates an extraneous trip to the database, prevents the values of controls from being reset, and produces behavior that is consistent with other data controls, such as SqlDataSource and ObjectDataSource. 
-This change produces different behavior in the unlikely event that applications rely on invoking data binding in the `Page.LoadComplete` event. 
+
+The <xref:System.Web.UI.Page.LoadComplete> event no
+longer causes the
+<xref:System.Web.UI.WebControls.EntityDataSource?displayProperty=name> control
+to invoke data binding for changes to create/update/delete parameters. This
+change eliminates an extraneous trip to the database, prevents the values of
+controls from being reset, and produces behavior that is consistent with other
+data controls, such as
+<xref:System.Web.UI.WebControls.SqlDataSource?displayProperty=name> and
+<xref:System.Web.UI.WebControls.ObjectDataSource?displayProperty=name>. This
+change produces different behavior in the unlikely event that applications rely
+on invoking data binding in the
+<xref:System.Web.UI.Page.LoadComplete> event.
 
 - [ ] Quirked
 - [ ] Build-time break
 
 ### Recommended Action
-If there is a need for databinding, manually invoke databind in an event that is earlier in the post-back.
+
+If there is a need for databinding, manually invoke databind in an event that is
+earlier in the post-back.
 
 ### Affected APIs
 * Investigate applicable APIs
 
 ### Category
 ASP.NET
-
-[More information](https://msdn.microsoft.com/en-us/library/hh367887(v=vs.110).aspx#asp)
 
 <!--
     ### Notes

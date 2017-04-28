@@ -23,7 +23,7 @@ Because this is an opt-in feature, it should not affect the behavior of existing
 Because this is an opt-in feature, it should not affect the behavior of existing apps. To control whether the new behavior is used or not, use the following configuration setting:
 ```
 <runtime>
-    <AppContextSwitchOverrides value="Switch.System.ServiceModel.AllowUnsignedToHeader=true" /> 
+    <AppContextSwitchOverrides value="Switch.System.ServiceModel.AllowUnsignedToHeader=true" />
 </runtime>
 ```
 
@@ -35,7 +35,5 @@ Because this is an opt-in feature, it should not affect the behavior of existing
 
 ### Category
 Windows Communication Foundation (WCF)
-
-[More information](https://msdn.microsoft.com/en-US/library/mt592686%28v=vs.110%29.aspx)
 
 <!-- breaking change id: 142 -->

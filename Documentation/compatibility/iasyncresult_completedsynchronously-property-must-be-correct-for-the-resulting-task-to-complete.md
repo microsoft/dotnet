@@ -10,13 +10,25 @@ Edge
 Available
 
 ### Change Description
-When calling TaskFactory.FromAsync, the implementation of the IAsyncResult.CompletedSynchronously property must be correct for the resulting task to complete. That is, the property must return true if, and only if, the implementation completed synchronously. Previously, the property was not checked.
+
+When calling TaskFactory.FromAsync, the implementation of the
+<xref:System.IAsyncResult.CompletedSynchronously>
+property must be correct for the resulting task to complete. That is, the
+property must return true if, and only if, the implementation completed
+synchronously. Previously, the property was not checked.
 
 - [x] Quirked
 - [ ] Build-time break
 
 ### Recommended Action
-If IAsyncResult implementations correctly return true for the CompletedSynchronusly property only when a task completed synchronously, then no break will be observed. Users should review IAsyncResult implementations they own (if any) to ensure that they correctly evaluate whether a task completed synchronously or not.
+
+If <xref:System.IAsyncResult?displayProperty=name> implementations correctly
+return true for the
+<xref:System.IAsyncResult.CompletedSynchronously?displayProperty=name> property
+only when a task completed synchronously, then no break will be observed. Users
+should review <xref:System.IAsyncResult?displayProperty=name> implementations
+they own (if any) to ensure that they correctly evaluate whether a task
+completed synchronously or not.
 
 ### Affected APIs
 * ```M:System.Threading.Tasks.TaskFactory.FromAsync(System.IAsyncResult,System.Action{System.IAsyncResult})```
@@ -44,7 +56,5 @@ If IAsyncResult implementations correctly return true for the CompletedSynchronu
 
 ### Category
 Core
-
-[More information](https://msdn.microsoft.com/en-us/library/hh367887(v=vs.110).aspx#core)
 
 <!-- breaking change id: 58 -->

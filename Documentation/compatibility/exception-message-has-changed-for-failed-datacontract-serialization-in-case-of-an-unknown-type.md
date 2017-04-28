@@ -10,13 +10,20 @@ Edge
 Planned
 
 ### Change Description
-Beginning in the .NET Framework 4.6, the exception message given if a DataContractSerializer or DataContractJsonSerializer fails to serialize or deserialize due to missing 'known types' has been clarified.
+
+Beginning in the .NET Framework 4.6, the exception message given if a
+<xref:System.Runtime.Serialization.DataContractSerializer?displayProperty=name>
+or <xref:System.Runtime.Serialization.Json.DataContractJsonSerializer?displayProperty=name>
+fails to serialize or deserialize due to missing 'known types' has been clarified.
 
 - [ ] Quirked
 - [ ] Build-time break
 
 ### Recommended Action
-Apps should not depend on specific exception messages. If an app depending on this message, please either update it to expect the new message or (preferably) change it to depend only on the exception type
+
+Apps should not depend on specific exception messages. If an app depending on
+this message, please either update it to expect the new message or (preferably)
+change it to depend only on the exception type.
 
 ### Affected APIs
 * `M:System.Runtime.Serialization.Json.DataContractJsonSerializer.#ctor(System.Type)`

@@ -10,13 +10,15 @@ Minor
 Available
 
 ### Change Description
-Reflection objects can no longer be passed from managed code to out-of-process DCOM clients. The following types are affected: 
 
-- Assembly
-- MemberInfo (and its derived types, including FieldInfo, MethodInfo, Type, and TypeInfo)
-- MethodBody
-- Module
-- ParameterInfo. 
+Reflection objects can no longer be passed from managed code to out-of-process
+DCOM clients. The following types are affected:
+
+- <xref:System.Reflection.Assembly?displayProperty=name>
+- <xref:System.Reflection.MemberInfo?displayProperty=name> (and its derived types, including <xref:System.Reflection.FieldInfo?displayProperty=name>, <xref:System.Reflection.MethodInfo?displayProperty=name>, <xref:System.Type?displayProperty=name>, and <xref:System.Reflection.TypeInfo?displayProperty=name>)
+- <xref:System.Reflection.MethodBody?displayProperty=name>
+- <xref:System.Reflection.Module?displayProperty=name>
+- <xref:System.Reflection.ParameterInfo?displayProperty=name>.
 
 Calls to `IMarshal` for the object return `E_NOINTERFACE`.
 
@@ -31,7 +33,5 @@ Update marshaling code to work with non-reflection objects
 
 ### Category
 Core
-
-[More information](https://msdn.microsoft.com/en-us/library/dn833125(v=vs.110).aspx#Core)
 
 <!-- breaking change id: 77 -->

@@ -16,7 +16,11 @@ This WorkFlow Drag/Drop API is obsolete and will cause compiler warnings if the 
 - [x] Build-time break
 
 ### Recommended Action
-New [DragDropHelper](https://msdn.microsoft.com/en-us/library/system.activities.presentation.dragdrophelper(v=vs.110).aspx) APIs that support operations with multiple objects should be used instead. Alternatively, the build warnings can be suppressed or they can be avoided by using an older compiler. The APIs are still supported.
+
+New <xref:System.Activities.Presentation.DragDropHelper?displayProperty=name>
+APIs that support operations with multiple objects should be used instead.
+Alternatively, the build warnings can be suppressed or they can be avoided by
+using an older compiler. The APIs are still supported.
 
 ### Affected APIs
 * `M:System.Activities.Presentation.DragDropHelper.DoDragMove(System.Activities.Presentation.WorkflowViewElement,System.Windows.Point)`
@@ -26,7 +30,5 @@ New [DragDropHelper](https://msdn.microsoft.com/en-us/library/system.activities.
 
 ### Category
 Windows Workflow Foundation (WF)
-
-[More information](https://msdn.microsoft.com/en-us/library/hh367887#wwf)
 
 <!-- breaking change id: 22 -->

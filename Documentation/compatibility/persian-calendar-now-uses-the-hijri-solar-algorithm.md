@@ -10,9 +10,17 @@ Minor
 Available
 
 ### Change Description
-Starting with the .NET Framework 4.6, the PersianCalendar class uses the Hijri solar algorithm. Converting dates between the PersianCalendar and other calendars may produce a slightly different result beginning with the .NET Framework 4.6 for dates earlier than 1800 or later than 2023 (Gregorian).
 
-Also, `PersianCalendar.MinSupportedDateTime` is now `March 22, 0622 instead of March 21, 0622`.
+Starting with the .NET Framework 4.6, the
+<xref:System.Globalization.PersianCalendar?displayProperty=name> class uses the
+Hijri solar algorithm. Converting dates between the
+<xref:System.Globalization.PersianCalendar?displayProperty=name> and other
+calendars may produce a slightly different result beginning with the .NET
+Framework 4.6 for dates earlier than 1800 or later than 2023 (Gregorian).
+
+Also,
+<xref:System.Globalization.PersianCalendar.MinSupportedDateTime>
+is now `March 22, 0622 instead of March 21, 0622`.
 
 - [ ] Quirked
 - [ ] Build-time break
@@ -25,7 +33,5 @@ Be aware that some early or late dates may be slightly different when using the 
 
 ### Category
 Core
-
-[More information](https://msdn.microsoft.com/en-us/library/dn833125%28v=vs.110%29.aspx#Core)
 
 <!-- breaking change id: 134 -->

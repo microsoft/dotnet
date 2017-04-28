@@ -13,7 +13,7 @@ Minor
 Planned
 
 ### Change Description
-In the .NET Framework 4.5, WPF Selector properties (such as 'SelectedItem' on ListBoxes or DataGrids) that are data-bound to static properties do not properly update when their bound property is updated.
+In the .NET Framework 4.5, WPF Selector properties (such as 'SelectedItem' on <xref:System.Windows.Controls.ListBox?displayProperty=name> or <xref:System.Windows.Controls.DataGrid?displayProperty=name>) that are data-bound to static properties do not properly update when their bound property is updated.
 
 - [ ] Quirked
 - [ ] Build-time break

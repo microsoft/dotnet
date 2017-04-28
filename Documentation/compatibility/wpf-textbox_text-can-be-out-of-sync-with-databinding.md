@@ -10,20 +10,26 @@ Edge
 Planned
 
 ### Change Description
-In some cases, the TextBox.Text property reflects a previous value of the databound property value if the property is modified during a databinding write operation.
+
+In some cases, the
+<xref:System.Windows.Controls.TextBox.Text>
+property reflects a previous value of the databound property value if the
+property is modified during a databinding write operation.
 
 - [x] Quirked
 - [ ] Build-time break
 
 ### Recommended Action
-This should have no negative impact. However, you can restore the previous behavior by setting the [FrameworkCompatibilityPreferences.KeepTextBoxDisplaySynchronizedWithTextProperty](https://msdn.microsoft.com/en-us/library/system.windows.frameworkcompatibilitypreferences.keeptextboxdisplaysynchronizedwithtextproperty(v=vs.110).aspx) property to false.
+
+This should have no negative impact. However, you can restore the previous
+behavior by setting the
+<xref:System.Windows.FrameworkCompatibilityPreferences.KeepTextBoxDisplaySynchronizedWithTextProperty>
+property to `false`.
 
 ### Affected APIs
 * `P:System.Windows.Controls.TextBox.Text`
 
 ### Category
 Windows Presentation Foundation (WPF)
-
-[More information](https://msdn.microsoft.com/en-us/library/hh367887(v=vs.110).aspx#wpf)
 
 <!-- breaking change id: 52 -->

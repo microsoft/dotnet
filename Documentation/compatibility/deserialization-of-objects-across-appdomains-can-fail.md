@@ -10,20 +10,18 @@ Edge
 Not planned
 
 ### Change Description
-In some cases, when an app uses two or more app domains with different application bases, trying to deserialize objects in the logical call context across app domains throws an exception. 
+In some cases, when an app uses two or more app domains with different application bases, trying to deserialize objects in the logical call context across app domains throws an exception.
 
 - [ ] Quirked
 - [ ] Build-time break
 
 ### Recommended Action
-See [Mitigation: Deserialization of Objects Across App Domains](https://msdn.microsoft.com/en-us/library/dn458353(v=vs.110).aspx)
+See [Mitigation: Deserialization of Objects Across App Domains](https://docs.microsoft.com/en-us/dotnet/articles/framework/migration-guide/mitigation-deserialization-of-objects-across-app-domains)
 
 ### Affected APIs
 * Not detectable via API analysis
 
 ### Category
 Core
-
-[More information](https://msdn.microsoft.com/en-us/library/dn458360(v=vs.110).aspx)
 
 <!-- breaking change id: 67 -->

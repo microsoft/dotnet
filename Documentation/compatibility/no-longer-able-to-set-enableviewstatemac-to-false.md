@@ -24,6 +24,4 @@ EnableViewStateMac must be assumed to be true, and any resulting MAC errors must
 ### Category
 ASP.NET
 
-[More information](https://msdn.microsoft.com/en-us/library/dn720774#ASP_NET)
-
 <!-- breaking change id: 14 -->

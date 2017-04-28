@@ -10,13 +10,21 @@ Edge
 Planned
 
 ### Change Description
-For apps that target the .NET Framework 4.5.2 or previous versions, writing an invalid surrogate pair using exception fallback handling does not always throw an exception. For apps that target the .NET Framework 4.6, attempting to write an invalid surrogate pair throws an `ArgumentException`.
+
+For apps that target the .NET Framework 4.5.2 or previous versions, writing an
+invalid surrogate pair using exception fallback handling does not always throw
+an exception. For apps that target the .NET Framework 4.6, attempting to write
+an invalid surrogate pair throws an
+<xref:System.ArgumentException?displayProperty=name>.
 
 - [x] Quirked
 - [ ] Build-time break
 
 ### Recommended Action
-If necessary, this break can be avoided by targeting the .NET Framework 4.5.2 or earlier. Alternatively, invalid surrogate pairs can be pre-processed into valid xml prior to writing them.
+
+If necessary, this break can be avoided by targeting the .NET Framework 4.5.2 or
+earlier. Alternatively, invalid surrogate pairs can be pre-processed into valid
+xml prior to writing them.
 
 ### Affected APIs
 * `M:System.Xml.XmlWriter.WriteAttributeString(System.String,System.String)`
@@ -45,8 +53,6 @@ If necessary, this break can be avoided by targeting the .NET Framework 4.5.2 or
 
 ### Category
 XML, XSLT
-
-[More information](https://msdn.microsoft.com/en-us/library/dn833123\(v=vs.110\).aspx)
 
 <!--
     ### Notes

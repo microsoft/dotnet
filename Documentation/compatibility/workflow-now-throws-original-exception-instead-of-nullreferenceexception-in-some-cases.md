@@ -10,9 +10,12 @@ Minor
 NotPlanned
 
 ### Change Description
-In the .NET Framework 4.6.2 and earlier versions, when the Execute method of a workflow activity
-throws an exception with a `null` value for the `P:System.Exception.Message` property, the
-System.Activities Workflow runtime throws a `NullReferenceException`, masking the original
+
+In the .NET Framework 4.6.2 and earlier versions, when the Execute method of a
+workflow activity throws an exception with a `null` value for the
+<xref:System.Exception.Message> property, the
+System.Activities Workflow runtime throws a
+<xref:System.NullReferenceException?displayProperty=name>, masking the original
 exception.
 
 In the .NET Framework 4.7, the previously masked exception is thrown.
@@ -21,8 +24,10 @@ In the .NET Framework 4.7, the previously masked exception is thrown.
 - [ ] Build-time break
 
 ### Recommended Action
-If your code relies on handling the `NullReferenceException`, change it to catch the exceptions
-that could be thrown from your custom activities.
+
+If your code relies on handling the
+<xref:System.NullReferenceException?displayProperty=name>, change it to catch
+the exceptions that could be thrown from your custom activities.
 
 ### Affected APIs
 * `M:System.Activities.CodeActivity.Execute(System.Activities.CodeActivityContext)`

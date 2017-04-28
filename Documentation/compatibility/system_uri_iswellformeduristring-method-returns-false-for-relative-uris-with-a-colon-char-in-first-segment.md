@@ -10,13 +10,26 @@ Minor
 Planned
 
 ### Change Description
-Beginning with the .NET Framework 4.5, `Uri.IsWellFormedUriString` will treat relative URIs with a `:` in their first segment as not well formed. This is a change from `Uri.IsWellFormedUriString` behavior in the .NET Framework 4.0 that was made to conform to RFC3986.
+
+Beginning with the .NET Framework 4.5,
+<xref:System.Uri.IsWellFormedUriString(System.String,System.UriKind)>
+will treat relative URIs with a `:` in their first segment as not well formed.
+This is a change from
+<xref:System.Uri.IsWellFormedUriString(System.String,System.UriKind)?displayProperty=name>
+behavior in the .NET Framework 4.0 that was made to conform to RFC3986.
 
 - [x] Quirked
 - [ ] Build-time break
 
 ### Recommended Action
-This change (like many other URI changes) will only affect applications targeting the .NET Framework 4.5 (or later). To keep using the old behavior, target the app against the .NET Framework 4.0. Alternatively, scan URI's prior to calling `IsWellFormedUriString` looking for `:` characters that you may want to remove for validation purposes, if the old behavior is desirable.
+
+This change (like many other URI changes) will only affect applications
+targeting the .NET Framework 4.5 (or later). To keep using the old behavior,
+target the app against the .NET Framework 4.0. Alternatively, scan URI's prior
+to calling
+<xref:System.Uri.IsWellFormedUriString(System.String,System.UriKind)?displayProperty=name>
+looking for `:` characters that you may want to remove for validation purposes,
+if the old behavior is desirable.
 
 ### Affected APIs
 * `M:System.Uri.IsWellFormedUriString(System.String,System.UriKind)`

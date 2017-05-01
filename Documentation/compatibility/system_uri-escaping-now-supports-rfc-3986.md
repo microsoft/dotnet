@@ -1,4 +1,4 @@
-## System.Uri escaping now supports RFC 3986 (http://tools.ietf.org/html/rfc3986)
+## System.Uri escaping now supports RFC 3986
 
 ### Scope
 Minor

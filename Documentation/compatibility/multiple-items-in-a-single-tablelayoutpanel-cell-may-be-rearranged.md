@@ -1,4 +1,4 @@
-## Multiple items in a single <xref:System.Windows.Forms.TableLayoutPanel?displayProperty=name> cell may be rearranged
+## Multiple items in a single TableLayoutPanel cell may be rearranged
 
 ### Scope
 Minor

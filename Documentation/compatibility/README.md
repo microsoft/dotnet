@@ -36,6 +36,7 @@ Please help us improve the [.NET Framework Application Compatibility documents](
 - [Connection pool blocking period for Azure SQL databases is removed](connection-pool-blocking-period-for-azure-sql-databases-is-removed.md)
 - [DataGridCellsPanel.BringIndexIntoView throws ArgumentOutOfRangeException](datagridcellspanel_bringintoview-throws-argumentoutofrangeexception.md)
 - [Horizontal scrolling and virtualization](horizontal-scrolling-and-virtualization.md)
+- [HttpRuntime.AppDomainAppPath Throws a NullReferenceException](asp-net-httpruntime-appdomainapppath-throws-nullreferenceexception.md)
 - [Incorrect implementation of MemberDescriptor.Equals](incorrect-implementation-of-memberdescriptor_equals.md)
 - [Long path support](long-path-support.md)
 - [Path colon checks are stricter](path-colon-checks-are-stricter.md)
@@ -50,6 +51,7 @@ Please help us improve the [.NET Framework Application Compatibility documents](
 ## .NET Framework 4.6.1
 
 - [Application.FilterMessage no longer throws for re-entrant implementations of IMessageFilter.PreFilterMessage](application_filtermessage-no-longer-throws-for-re-entrant-implementations-of-imessagefilter_prefiltermessage.md)
+- [Calls to System.Windows.Input.PenContext.Disable on touch-enabled systems may throw an ArgumentException](wpf-pencontext-disable-method-calls-on-touch-enabled-systems-may-throw-argumentexception.md)
 - [Item-scrolling a flat list with items of different pixel-height](item-scrolling-a-flat-list-with-items-of-different-pixel-height.md)
 - [ObjectDisposedException thrown by WPF spellchecker](objectdisposedexception-thrown-by-wpf-spellchecker.md)
 - [WCF binding with the TransportWithMessageCredential security mode](wcf-binding-with-the-transportwithmessagecredential-security-mode.md)
@@ -143,8 +145,8 @@ Please help us improve the [.NET Framework Application Compatibility documents](
 - [IPad should not be used in custom capabilities file because it is now a browser capability](ipad-should-not-be-used-in-custom-capabilities-file-because-it-is-now-a-browser-capability.md)
 - [Items.Clear does not remove duplicates from SelectedItems](items_clear-does-not-remove-duplicates-from-selecteditems.md)
 - [Linq to EF Join throws ArgumentOutOfRangeException](linq-to-ef-join-throws-argumentoutofrangeexception.md)
-- [List.Sort algorithm changed](list_sort-algorithm-changed.md)
 - [List&lt;T&gt;.ForEach can throw exception when modifying list item](list_foreach-can-throw-exception-when-modifying-list-item.md)
+- [List.Sort algorithm changed](list_sort-algorithm-changed.md)
 - [ListBoxItem IsSelected binding issue with ObservableCollection&lt;T&gt;.Move](listboxitem-isselected-binding-issue-with-observablecollection_move.md)
 - [Log file name created by the ObjectContext.CreateDatabase method has changed to match SQL Server specifications](log-file-name-created-by-the-objectcontext_createdatabase-method-has-changed-to-match-sql-server-specifications.md)
 - [MachineKey.Encode and MachineKey.Decode methods are now obsolete](machinekey_encode-and-machinekey_decode-methods-are-now-obsolete.md)

@@ -73,11 +73,26 @@
     "alias": "net47",
     "category": "netfx",
     "supportInfo": {
-      "support": "Supported in Windows 10 Creators Update",
+      "support": "Supported",
       "link": ""
     },
-    "info": "https://blogs.msdn.microsoft.com/dotnet/2017/04/05/announcing-the-net-framework-4-7/",
-    "includedIn": [ "VS2017" ]
+    "popular": true,
+    "info": "http://go.microsoft.com/fwlink/?LinkID=825321",
+    "includedIn": [ "VS2017" ],
+    "supportedBy": [ "VS2015"],
+    "runtime": [
+      {
+        "name": ".NET Framework 4.7",
+        "link": "http://go.microsoft.com/fwlink/?LinkId=825299"
+      }
+    ],
+    "tools": [
+      {
+        "name": ".NET Framework 4.7 Developer Pack",
+        "link": "http://go.microsoft.com/fwlink/?LinkId=825319",
+        "description": "The .NET 4.7 Developer pack includes 4.7 reference assemblies needed by Visual Studio and msbuild."
+      }
+    ]
   },
   {
     "platform": ".NET Framework 4.6.2",

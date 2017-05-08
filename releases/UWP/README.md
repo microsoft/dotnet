@@ -60,12 +60,12 @@ When using Visual Studio this package requires Visual Studio 2015 Update 3 or la
     - System.Threading.Overlapped
     - System.Xml.XmlDocument
 
-### 5.2.2 (June 27, 2016)
+### 5.2.2 (July 14, 2016)
 When using Visual Studio this package requires Visual Studio 2015 Update 3 or later. You can read more about these changes in the Visual Studio 2015 Update 3 blog [post](https://www.visualstudio.com/en-us/news/releasenotes/vs2015-update3-vs).
 
 - Fixed several customer reported bugs.
-- Improves release build compilation times of large applications.
-- Improves runtime performance for XAML applications and Unity games. 
+- Improved release build compilation times of large applications.
+- Improved runtime performance for XAML applications and Unity games. 
 
 ## Resources
 

@@ -25,7 +25,7 @@ with a `<BR />` element will correctly insert only one `<BR />` (instead of two)
 If an app depended on the extra `<BR />` tag,
 <xref:System.Web.UI.HtmlTextWriter.RenderBeginTag(System.String)>
 should be called a second time. Note that this behavior change only affects apps
-that are targeting the .NET Framework 4.6, so another option is to target a
+that target the .NET Framework 4.6 or later, so another option is to target a
 previous version of the .NET Framework in order to get the old behavior.
 
 ### Affected APIs

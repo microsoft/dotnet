@@ -1,4 +1,4 @@
-## Some WorkFlow drag and drop APIs are obsolete
+## Some WorkFlow drag-and-drop APIs are obsolete
 
 ### Scope
 Minor
@@ -10,7 +10,7 @@ Minor
 Available
 
 ### Change Description
-This WorkFlow Drag/Drop API is obsolete and will cause compiler warnings if the app is rebuilt against 4.5.
+This WorkFlow drag-and-drop API is obsolete and will cause compiler warnings if the app is rebuilt against 4.5.
 
 - [ ] Quirked
 - [x] Build-time break

@@ -1,4 +1,4 @@
-## EF version must match NetFX version
+## Entity Framework version must match the .NET Framework version
 
 ### Scope
 Major
@@ -22,7 +22,7 @@ which annotations to use.
 - [x] Build-time break
 
 ### Recommended Action
-Upgrade to EF 5 for .NET 4.5
+Upgrade to Entity Framework 5 for .NET Framework 4.5
 
 ### Affected APIs
 * Not detectable via API analysis

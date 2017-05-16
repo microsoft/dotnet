@@ -23,7 +23,7 @@ after a call to <xref:System.Security.Cryptography.CryptoAPITransform.TransformF
 throws a <xref:System.Security.Cryptography.CryptographicException> or
 produces corrupted data.
 
-- [X] Quirked AppContext or config files. Needs to be turned on automatically for some situations.
+- [X] Quirked
 - [ ] Build-time break
 
 ### Recommended Action

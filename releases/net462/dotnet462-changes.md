@@ -27,7 +27,7 @@ Each change includes our TFS bug numbers at the end of the line. Please include 
 * Fix RunContinuationsAscynchronously flag for all continuation types. [146618]
 * Fixed NullReference exception if  "sha1RSA" is passed to RSACryptoServiceProvider.SignHash(). [147247]
 * Fixed "Unhandled Exception: System.Security.SecurityException: Unable to retrieve security descriptor for this frame." in System.Security.Principal.WindowsIdentity.RunImpersonated() [149685]
-* Removed the System.Numerics.Vectors facade from the targeting pack. If this facade is needed, add a reference to the System.Numerics.Vectors NuGet package. [120400]
+* Removed the System.Numerics.Vectors façade from the targeting pack. If this façade is needed, add a reference to the System.Numerics.Vectors NuGet package. [120400]
 * SignedXml now supports SHA256/384/512 signing. [125387]
 * Added a new type called DSACng. [180229]
 * Fixed Warnings generated during build that before required a global disable. [185846]

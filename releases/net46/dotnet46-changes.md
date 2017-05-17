@@ -3,6 +3,10 @@
 
 .NET Framework release notes describe product improvements grouped by product area. Each change includes a Microsoft-internal VSTS bug number, which acts as a useful unique ID for each change (can be used to report issues or when calling Microsoft Support).
 
+Post-release servicing updates are also included, appended to the end of each product area. The following servicing updates have been included:
+
+- [May 2017](https://blogs.msdn.com/dotnet)
+
 ## ASP.NET
 
 * State Service startup type is correctly persisted. [1038077]
@@ -145,6 +149,7 @@
 * Fixed the size of Vector<T>. [1020874]
 * System.Drawing.Icon.ToBitmap() supports PNG framed icons. [1084802]
 * Uri constructor doesn't throw ArgumentOutOfRangeException when parsing certain URIs with escaped international characters. [1173958]
+* When using RSACng (or another class which directly or indirectly uses RSACng) to perform encryption using RSAEncryptionPadding.Pkcs1 when the private key is stored on a smartcard (or other hardware security module) an exception of System.Security.Cryptography.CryptographicException: The parameter is incorrect. at System.Security.Cryptography.NCryptNative.DecryptData[T](SafeNCryptKeyHandle key, Byte[] data, T& paddingInfo, AsymmetricPaddingMode paddingMode, NCryptDecryptor`1 decryptor)  [299303] [Added: May 2017]
 
 ## CLR
 
@@ -280,3 +285,4 @@
 * Window chrome doesn't turn black on maximize with GlassFrameThickness -1. [1176703]
 * Improved RichTextBox typing performance on low-end GPUs. [1177602]
 * Applications continue to promote touch events to click after digitizer is removed and reconnected while touching the digitizer. [1186170]
+* A WPF application with a virtualizing list control (ListBox, DataGrid, TreeView, etc.) can encounter an ArgumentNullException when scrolling to an item whose size has substantially decreased since the last time it was re-virtualized. [273803, 282662, 282664, 367282, 367285] [Added: May 2017]

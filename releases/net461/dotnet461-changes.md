@@ -3,6 +3,10 @@
 
 .NET Framework release notes describe product improvements grouped by product area. Each change includes a Microsoft-internal VSTS bug number, which acts as a useful unique ID for each change (can be used to report issues or when calling Microsoft Support).
 
+Post-release servicing updates are also included, appended to the end of each product area. The following servicing updates have been included:
+
+- [May 2017](https://blogs.msdn.com/dotnet)
+
 ## ASP.NET
 
 * TreeNode.ImageTooltip is rendered as title attribute [101518]
@@ -11,6 +15,11 @@
 * MaintainScrollPositionOnPostBack works with zoom on Chrome [120243]
 * RegEx can be opted out for EmailAddresses, Phone, and URL attributes [142685]
 * Added a MatchTimeout property to RegularExpressionAttribute [142685]
+* In the following scenarios, ASP.NET may duplicate the cookie in response headers:
+    - Before a request cookie is loaded, the response cookie is added.
+    - A response cookie is added, and then a native module sets the response cookie.
+    
+    With the fix, ASP.NET makes sure that response cookies are not duplicated. [359376] [Added: May 2017]
 
 ## BCL
 
@@ -46,6 +55,7 @@
 * Uri constructor doesn't throw ArgumentOutOfRangeException when parsing certain URIs with escaped international characters [123235]
 * Fixed a bug that prevented some localized text from displaying properly [145634]
 * Fixed a bug that caused the Exception Catch event to get the incorrect source line [142525]
+* When using RSACng (or another class which directly or indirectly uses RSACng) to perform encryption using RSAEncryptionPadding.Pkcs1 when the private key is stored on a smartcard (or other hardware security module) an exception of System.Security.Cryptography.CryptographicException: The parameter is incorrect. at System.Security.Cryptography.NCryptNative.DecryptData[T](SafeNCryptKeyHandle key, Byte[] data, T& paddingInfo, AsymmetricPaddingMode paddingMode, NCryptDecryptor`1 decryptor)  [299303] [Added: May 2017]
 
 ## CLR
 
@@ -178,3 +188,7 @@
 * Fixed an issue with partial trust applications running on a machine with a touch device [151160]
 * Fixed a bug caused by loading multiple Microsoft Visual Studio Tools for Office (VSTO) addins on touch enabled devices [142484]
 * Fixed a bug that caused Visual Studio to hang when saving a XAML file [110669] 
+* If two WPF applications that target Side by Side (SxS) .NET versions (3.5 and 4.X) are loaded in the same process issues can occur on touch/stylus enabled machines.  A common example of this is loading VSTO add-ins written in WPF.  This is due to an issue with choosing the correct PenIMC.dll version for each application.  This fix allows WPF to properly differentiate between both DLLs and function correctly. [362710] [Added: May 2017]
+* If two WPF applications that target Side by Side (SxS) .NET versions (3.5 and 4.X) are loaded in the same process issues can occur on touch/stylus enabled machines.  A common example of this is loading VSTO add-ins written in WPF.  This is due to an issue with choosing the correct PenIMC.dll version for each application.  This fix allows WPF to properly differentiate between both DLLs and function correctly. [377649] [Added: May 2017]
+* In some situations, it is possible that WPF attempts to process a touch/stylus input with a null StylusDevice.  This can cause a NullReferenceException.  This fix checks for this issue and guards against it. [378295] [Added: May 2017]
+* A WPF application with a virtualizing list control (ListBox, DataGrid, TreeView, etc.) can encounter an ArgumentNullException when scrolling to an item whose size has substantially decreased since the last time it was re-virtualized. [273803, 282662, 282664, 367282, 367285] [Added: May 2017]

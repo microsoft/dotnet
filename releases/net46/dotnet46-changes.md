@@ -1,5 +1,5 @@
 .NET Framework 4.6 Release Notes
-==================================
+================================
 
 .NET Framework release notes describe product improvements grouped by product area. Each change includes a Microsoft-internal VSTS bug number, which acts as a useful unique ID for each change (can be used to report issues or when calling Microsoft Support).
 

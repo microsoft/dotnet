@@ -6,8 +6,7 @@ This list details those changes, grouped by feature area.
 Each change includes our TFS bug numbers at the end of the line.
 Please include those numbers in your communication if you wish to contact us to obtain more information.
 
-ASP.NET
--------
+## ASP.NET
 
 * TreeNode.ImageTooltip is rendered as title attribute [101518]
 * Access to WebAdminFiles re-enabled [144513]
@@ -16,8 +15,7 @@ ASP.NET
 * RegEx can be opted out for EmailAddresses, Phone, and URL attributes [142685]
 * Added a MatchTimeout property to RegularExpressionAttribute [142685]
 
-BCL
----
+## BCL
 
 * System.Diagnostics.Process v4.1.0.0 supported in desktop implementation assemblies [142838]
 * System.ServiceProcess.ServiceController exposes a StartType property [145866]
@@ -52,8 +50,7 @@ BCL
 * Fixed a bug that prevented some localized text from displaying properly [145634]
 * Fixed a bug that caused the Exception Catch event to get the incorrect source line [142525]
 
-CLR
----
+## CLR
 
 * Ngen emits debug section mapping IL to native [145669]
 * ICorProfiler implementations can apply metadata changes during rejit [145801]
@@ -105,8 +102,7 @@ CLR
 * Fixed an issue that caused local variables not to show up in X++ Debugging [145571]
 * Fixed RyuJIT optimizer causing incorrect result [110557]  
   
-WCF
----
+## WCF
 
 * ServiceThrottle uses double-checked locking pattern for calls, sessions, and dynamic properties [96934]
 * MessageLogger.LogInternal doesn't call TraceXPathNavigator.ToString() [127642]
@@ -119,8 +115,7 @@ WCF
 * Fixed a null reference exception in System.Runtime.Serialization when ETW is enabled [105266]
 * Fixed IdentityModel.Claims to support multiple DNS entries [140718]
 
-Windows Forms
--------------
+## Windows Forms
 
 * CTRL+A works in multiline text boxes [145670]
 * Vertical scrollbar's Maximum is in sync with DataGridView's total height if the grid is populated while disabled [127329]
@@ -132,16 +127,14 @@ Windows Forms
 * Fixed the size of the text for the Generating Previews dialog of the PrintPreviewControl from being cropped when scaling up to 500% in HDPI mode [145775]
 * Fixed the icons in the toolbox when scaling above 100% [145824]
 
-Workflow
---------
+## Workflow
 
 * Sys.Tx APIs enable distributed transactions with a non-MSDTC coordinator [145813]
 * A user of EnlistPromotableSinglePhase can promote transactions to a non-MSDTC distributed transaction coordinator [145770, 142891, 142992]
 * System.Transaction allows for snapshot isolation for non-MSDTC promoter types [146607]
 * Sql implementation handles transient faults properly [113390]
 
-WPF
----
+## WPF
 
 * Listbox items can be selected by touch on high precision touch panel [141237]
 * Underline can be applied after strikethrough [141662]

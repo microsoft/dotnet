@@ -5,14 +5,13 @@
 This list details those changes, grouped by feature area. 
 Each change includes our TFS bug numbers at the end of the line. Please include those numbers in your communication if you wish to contact us to obtain more information.
 
-CLR
----
+## CLR
 
 * Added Custom attribute to opt out of NGen with method granularity [186172]
 * Support .NET in packaged desktop apps. [191774]
 * Fixed incorrect result generation while comparing 16-bit signed values. [187325]
 * Fixed a JIT optimization bug [174983]
-* Fixed crashes due to JIT32 inlining’s handling of struct [171773]
+* Fixed crashes due to JIT32 inliningï¿½s handling of struct [171773]
 * Fixed issue with incomplete PDB information when invoking ildasm. [150267]
 * Fixed a performance regression in debug start [164437]
 * Fixed an issue in CLR type loader that causes type load failures in rare conditions. [185570]
@@ -46,12 +45,12 @@ CLR
 * Reduced events are being sent for telemetry to the CLR for Windows Server OSes. [211794]
 * Support resolving Windows Runtime references through simple name in .NET SDK. [219126]
 
-BCL
----
+## BCL
+
 * Fix RunContinuationsAscynchronously flag for all continuation types. [146618]
 * Fixed NullReference exception if  "sha1RSA" is passed to RSACryptoServiceProvider.SignHash(). [147247]
-* Fixed “Unhandled Exception: System.Security.SecurityException: Unable to retrieve security descriptor for this frame.” in System.Security.Principal.WindowsIdentity.RunImpersonated() [149685]
-* Removed the System.Numerics.Vectors façade from the targeting pack. If this façade is needed, add a reference to the System.Numerics.Vectors NuGet package. [120400]
+* Fixed ï¿½Unhandled Exception: System.Security.SecurityException: Unable to retrieve security descriptor for this frame.ï¿½ in System.Security.Principal.WindowsIdentity.RunImpersonated() [149685]
+* Removed the System.Numerics.Vectors faï¿½ade from the targeting pack. If this faï¿½ade is needed, add a reference to the System.Numerics.Vectors NuGet package. [120400]
 * SignedXml now supports SHA256/384/512 signing. [125387]
 * Added a new type called DSACng. [180229]
 * Fixed Warnings generated during build that before required a global disable. [185846]
@@ -89,15 +88,15 @@ BCL
 * Fixed file path syntax to correctly handle device path syntaxes (\\.\, \\?\) [202926]
 * Fix for StringBuilder overflow and the length becoming negative when > 2GB of data is added/inserted. [216203]
 
-Networking
-----------
+## Networking
+
 * Fixed a crash with Null Reference in PinnableBufferCache.Free. [144864]
 * Fix in bulletin MS16-065. [186985]
 * Added CNG certificate support to NCL code in System.dll. [195318]
 * An AccessViolationException gets thrown in HttpListenerRequest.GetTlsTokenBindingRequestInfo() if the RequestBuffer of the HttpListenerRequest has been moved by the garbage collector. This AccessViolation is caused by the fact that HttpListenerRequest is dereferencing a pointer inside RequestBuffer, without adjusting the pointer address the way other HttpListenerRequest methods do. This is now fixed. [204580]
 
-ASP.NET
--------
+## ASP.NET
+
 * Fixed deadlock in AspNetSynchronizationContext [152944]
 * Add support for sorting Model binding items by nested property names [173528]
 * Fix Unhandled non-serializable exceptions in ASP.NET [160528]
@@ -109,8 +108,8 @@ ASP.NET
 * Enable customers using the Session State Store Providers with task returning methods. [179604]
 * Enabling task returning methods to be used with the OutputCache Providers, to allow ASP.Net customers to get the scalability benefits of async. [187841]
 
-WPF
----
+## WPF
+
 * Nested Markup Expressions scenarios, where the parent markup extension is locally defined, have been fixed now. Developers can use markup extension within their custom defined markup extensions without causing a compiler error. [117193]
 * Fixed potential periodic hangs or poor performance of a WPF application running on a device that has touch support.  This is mostly seen when running over a touch-enabled remote desktop or other touch enabled remote access solutions.  [146399]
 * Enable automatic invocation and dismissal of the touch keyboard in WPF applications without disabling WPF stylus/touch support on Windows 10 [178044]
@@ -144,10 +143,10 @@ WPF
 * Fixed ArgumentException when scrolling a virtualized ItemsControl after adding new items [194726].
 * Avoid unnecessary iteration through all items displayed in a virtualized ItemsControl with ScrollUnit=Item [202599].
 * Fixed XPS printing crash when InvariantCulture is used. [143947]
-* Fixed truncation of contents during copy & paste in HTML format when WPF’s DataGrid control contains full width characters, for e.g. Japanese. [104825]
+* Fixed truncation of contents during copy & paste in HTML format when WPFï¿½s DataGrid control contains full width characters, for e.g. Japanese. [104825]
 
-WCF
----
+## WCF
+
 * Added a new option for client to find best matching WCF service endpoint using NetNamePipeBinding.[157498]
 * CryptoConfig.CreateName(string algorithm) is now updated to understand SHA256 algorithms. [195341]
 * Fixed a reliability issue in DataContractCriticalHelper which throws as a SerializationException when reading objects concurrently. [146940]
@@ -161,18 +160,18 @@ WCF
 * Fixed DataContractJsonSerializer producing wrong date/time data after having installed KB3093503 when the time zone is (UTC+2) Istanbul. [187509]
 * Fixed Performance in AppServices Throughput. [201205]
 * Fixed issue that could occur with tracing enabled on WCF async service; failed call generated double OperationFaulted traces. [208167]
-* Fix for ArgumentException when opening service host when user’s certificate has invalid key usage data. [223670]
+* Fix for ArgumentException when opening service host when userï¿½s certificate has invalid key usage data. [223670]
 * Fixed WCF SslStreamSecurity DNS Identity Check failure while targeting .NET Framework 4.6 when Alt subject is not present [182336]
 
-Workflow
---------
-* Workflow designer now supports “prepared for update” dynamic update XAML [98185]
+## Workflow
+
+* Workflow designer now supports ï¿½prepared for updateï¿½ dynamic update XAML [98185]
 * Fixed a FIPS compliance issue when using workflow tracking in WF3. [181434]
 * Added Workflow/System.Messaging/System.Transactions Telemetry. [198681]
 * Fixed transaction failure for SQLCLR usage of System.Transactions to promote a local SQL transaction to a distributed transaction. [206276]
 
-Windows Forms
--------------
+## Windows Forms
+
 * Fixed a crash in Windows Forms designer related to switching windows themes [172691]
 * "Smart Tag" dialog processes "enter" key press properly and is same as in Visual Studio 2013 [174771]
 * Enabled shortcut keys in the preferences dialog in mageui.exe tool [184655]
@@ -182,7 +181,7 @@ Windows Forms
 * Fixed potential race condition in System.Windows.Forms.Application.ThreadContext  [146065]
 * Fixed a control in MageUI tool that is not accessible by a keyboard shortcut because the same shortcut letter is used for two controls [146678]
 * Fixed a memory leak in Control.DrawToBitmap method. [188396]
-* Fixed control text truncations issue in “Items Collection Editor” dialog in Visual Studio. [187716]
+* Fixed control text truncations issue in ï¿½Items Collection Editorï¿½ dialog in Visual Studio. [187716]
 * Fixed a crash in Windows Forms Designer in Visual Studio related to adjusting TableLayoutPanel control. [190415]
 * Fixed a crash in Windows Forms Designer in Visual Studio [190416]
 * Fix in bulletin MS16-019. [174623]
@@ -193,8 +192,8 @@ Windows Forms
 * Added Long path support for Windows 10 Anniversary Update in ClientConfigPath. [202970]
 * Fixed X1 Professional Client "ok" button is gray and disabled after select Desktop in browse for folder. [207279]
 
-SQL
----
+## SQL
+
 * Added Parameter Caching and CEK TTL improvements. [200050]
 * Removed connection pool blocking period for Azure SQL DBs. [200140]
 * Fixed incorrect error message in SqlClient when a Command Execution fails on Azure. [201189]
@@ -202,12 +201,12 @@ SQL
 * Fix in bulletin MS16-091. [222831]
 * Fix for a crash that may occur when the connection pool is being replenished and during replenishment of the pool, the connection to SQL server fails. [229717]
 
-ClickOnce
----------
+## ClickOnce
+
 * Added support for TLS1.1/1.2 in ClickOnce runtime. [193676]
 * Fixed string truncations issue on ClickOnce security dialog. [176656]
 * Added ClickOnce support for installation from web-sites that require Client Certificate to be supplied. [197343]
 
-Active Directory Services
--------------------------
+## Active Directory Services
+
 * On calls made to System.DirectoryServices.AccountManagement UserPrincipal.GetAuthorizationGroups method against an Active Directory forest which contains SID History values for migrated users, an empty GroupPrincipal will be added to the list returned by GetAuthorizationGroups for every group with a migrated user SID. [191563]

@@ -5,7 +5,7 @@
 
 Post-release servicing updates are also included, appended to the end of each product area. The following servicing updates have been included:
 
-- [May 2017](https://blogs.msdn.com/dotnet)
+- [May 2017](https://blogs.msdn.microsoft.com/dotnet/2017/05/17/net-framework-may-2017-preview-of-quality-rollup/)
 
 ## Active Directory Services
 

@@ -3,6 +3,10 @@
 
 .NET Framework release notes describe product improvements grouped by product area. Each change includes a Microsoft-internal VSTS bug number, which acts as a useful unique ID for each change (can be used to report issues or when calling Microsoft Support).
 
+Post-release servicing updates are also included, appended to the end of each product area. The following servicing updates have been included:
+
+- [May 2017](https://blogs.msdn.com/dotnet)
+
 ## Active Directory Services
 
 * On calls made to System.DirectoryServices.AccountManagement UserPrincipal.GetAuthorizationGroups method against an Active Directory forest which contains SID History values for migrated users, an empty GroupPrincipal will be added to the list returned by GetAuthorizationGroups for every group with a migrated user SID. [191563]
@@ -19,6 +23,53 @@
 * Improve error message localization for DataAnnotationValidiation in ASP.NET model binding and Dynamic data. [176731]
 * Enable customers using the Session State Store Providers with task returning methods. [179604]
 * Enabling task returning methods to be used with the OutputCache Providers, to allow ASP.Net customers to get the scalability benefits of async. [187841]
+* After installing 4.6.2, the max-age value in the following requests coming from Cache is incorrectly set. The issue is not preventing OutputCache on the server side to functional but will cause confusions and problems if customer applications looked at the max-age in the cache control headers.  [288340] [Added: May 2017]
+* In the following scenarios, ASP.NET may duplicate the cookie in response headers:
+    - Before a request cookie is loaded, the response cookie is added.
+    - A response cookie is added, and then a native module sets the response cookie.
+    
+    With the fix, ASP.NET makes sure that response cookies are not duplicated. [364615] [Added: May 2017]
+* Issue #1:  Users might obtain a NULL result when calling OperationContext.Current
+
+  This issue occurs when one creates an OperationContextScope and proceeds to call OperationContext.Current within the using clause.  A common pattern that is prone to this failure is the following:
+  
+  ```csharp
+  using (new OperationContextScope(OperationContext.Current))
+  {
+      OperationContext context = OperationContext.Current;  //OperationContext.Current returns null
+      // ...
+  }
+   ```
+
+  To work around this issue, one needs to change the code to something similar to the following:
+ 
+  ``` csharp
+  OperationContext ocx = OperationContext.Current;
+  using (new OperationContextScope(OperationContext.Current))
+  {
+      OperationContext.Current = new OperationContext(ocx.Channel);
+      // ...
+  }
+  ```
+  Issue #2:  Users might run into a deadlock when using Reentrant services.
+
+  This issue occurs when one creates a Reentrant service ? which restricts instances of the service to one thread of execution at a time.  Users prone to running into this problem will have the following ServiceBehaviorAttribute in their code:
+
+  ```csharp
+  [ServiceBehavior(ConcurrencyMode = ConcurrencyMode.Reentrant)]
+  ```
+  To work around this issue, users should set the ConcurrencyMode of their service to ConcurrencyMode.Single or ConcurrencyMode.Multiple, and provide the appropriate synchronization primitives to ensure a single thread can execute a single method at a time.
+
+  We have rolled out an update of System.ServiceModel.dll and we strongly encourage users to patch their existing .NET 4.6.2 framework.  The patch fixes Issue #1, disables the flow of OperationContext.Current by default, and provides an Opt-In option to enables feature.
+
+  To enable the flow of OperationContext.Current across multiple threads in async operations, use the following AppSettings key:
+  
+  ```xml
+  <appSettings>
+    <add key="Switch.System.ServiceModel.DisableOperationContextAsyncFlow" value="false"/>
+  </appSettings>
+  ```
+  Setting the value of Switch.System.ServiceModel.DisableOperationContextAsyncFlow to true will disable the flow of the ExecutionContext in OperationContext.Current and will effectively revert the behavior to pre-4.6.2, which is the default behavior after this patch.  Setting the value to false will enable the feature and should not be used in Reentrant services. [253477] [Added: May 2017]
 
 ## BCL
 
@@ -62,6 +113,13 @@
 * Fixed potential errors with String comparison hitting before the AppDomain is fully initialized. [200330] and [201338]
 * Fixed file path syntax to correctly handle device path syntaxes (\\.\, \\?\) [202926]
 * Fix for StringBuilder overflow and the length becoming negative when > 2GB of data is added/inserted. [216203]
+* Users of SignedXml may get an exception like the following when running in some modes on older versions of Windows (for example, executing without loading the user profile on Windows Server 2008r2).
+
+    ```console
+    System.Security.Cryptography.CryptographicException: Object was not found.
+    at System.Security.Cryptography.NCryptNative.CreatePersistedKey(SafeNCryptProviderHandle provider, String algorithm, String name, CngKeyCreationOptions options)
+    ```
+     [372920] [Added: May 2017]
 
 ## ClickOnce
 
@@ -108,6 +166,38 @@
 * Allowed the debugger to determine the layout of types without an instance of the type. [211562]
 * Reduced events are being sent for telemetry to the CLR for Windows Server OSes. [211794]
 * Support resolving Windows Runtime references through simple name in .NET SDK. [219126]
+* Reliability improvements in RYUJIT complier code generation due to a missed AVX encoding case. [259784] [Added: May 2017]
+* On a machine with many processors, there might a desire to have some processes use only some processes with Server GC. For example if you have a 40-proc machine, you might want to have process 0 use only 10 procs and process 1 use only 6. So process 0 gets 10 GC heaps/threads and process 1 gets 6. Below is an example of using these Server GC configs:
+
+    ```xml
+    <configuration>
+    <runtime>
+        <gcServer enabled="true"/>
+        <GCHeapCount enabled="6"/>
+        <GCNoAffinitize enabled="true"/>
+        <GCHeapAffinitizeMask enabled="144"/>
+    </runtime>
+    </configuration>
+    ```
+
+   `<GCNoAffinitize enabled="true"/>` specifies to not affinitize the Server GC threads with CPUs.
+    `<GCHeapCount enabled="6"/>` 6 specifies you want 6 heaps. The actual # of heaps is the min of what you specify and what your proces is allowed to use.
+    `<GCHeapAffinitizeMask enabled="144"/>` the # is in decimal so this is 0x90, meaning you want to use those 2 bits as your process mask. The actual # of heaps is the min of what you specify, what your proces is allowed to use and the # of set bits in this mask you specify. [274126] [Added: May 2017]
+* If you are marshaling array of struct A and also array of struct B as SAFEARRAY, and struct A/B has identical GUIDs, you may run into a memory leak.  [365349] [Added: May 2017]
+* If you are marshaling array of struct A and also array of struct B as SAFEARRAY, and struct A/B has identical GUIDs, you may run into a memory leak.  [424243] [Added: May 2017]
+* If you are marshaling array of struct A and also array of struct B as SAFEARRAY, and struct A/B has identical GUIDs, you may run into a memory leak.  [431586] [Added: May 2017]
+* Rare crashes or deadlocks can happen if a GC occurs while another thread is running NGen'ed code which is making the initial call into a static method within the same module where one or more parameter types involve type-forwarded valuetypes. [378601] [Added: May 2017]
+* Applications that frequently queue bursts of work items to the .NET ThreadPool, with idle or light activity between bursts, may be shown using PerfView to spend a significant amount of CPU time in clr!ThreadpoolMgr::UnfairSemaphore::Wait in a spin-wait. A new configuration variable is exposed to configure the spinning limit. The environment variable COMPlus_ThreadPool_UnfairSemaphoreSpinLimit may be set to a lower value (default is 0x32) to reduce the amount of spinning done, or zero (0) to disable spinning, before launching the application. Note that changes to this configuration variable may negatively affect the performance of applications, and such changes are not supported. [381905] [Added: May 2017]
+
+## Entity Framework
+
+* When there are more than 1000 queries in the EF 4.x application, the application may experience slowness due to exceeding the size limit of the query cache. With this fix, you can change the query cache size through the following AppSetting.
+    ```xml
+    <appSettings>
+        <add key="EntityFramework_QueryCacheSize" value="3000"/>
+    </appSettings>
+    ```
+     [379134] [Added: May 2017]
 
 ## Networking
 
@@ -115,6 +205,7 @@
 * Fix in bulletin MS16-065. [186985]
 * Added CNG certificate support to NCL code in System.dll. [195318]
 * An AccessViolationException gets thrown in HttpListenerRequest.GetTlsTokenBindingRequestInfo() if the RequestBuffer of the HttpListenerRequest has been moved by the garbage collector. This AccessViolation is caused by the fact that HttpListenerRequest is dereferencing a pointer inside RequestBuffer, without adjusting the pointer address the way other HttpListenerRequest methods do. This is now fixed. [204580]
+* When attempting to access token bindings from the GetTlsTokenBindings API, an Access Violation exception can be thrown if managed memory has moved during the request. Pointers are now updated to reflect any memory movement.  [267430] [Added: May 2017]
 
 ## SQL
 
@@ -124,6 +215,7 @@
 * Disallowed WAM option in native ADAL for AAD authorization. [201411]
 * Fix in bulletin MS16-091. [222831]
 * Fix for a crash that may occur when the connection pool is being replenished and during replenishment of the pool, the connection to SQL server fails. [229717]
+* An OverflowException or IndexOutOfRangeException may be thrown during the prelogin phase of opening a SQL Connection due to receiving a TDS packet that is smaller than expected. [395584, 395586, 395589, 395592] [Added: May 2017]
 
 ## WCF
 
@@ -164,6 +256,7 @@
 * Fixed printing delay in previewing the document with a network printer. [197824]
 * Added Long path support for Windows 10 Anniversary Update in ClientConfigPath. [202970]
 * Fixed X1 Professional Client "ok" button is gray and disabled after select Desktop in browse for folder. [207279]
+* A windows Forms Application with MDI parent form under certain conditions will remove active child forms from the MDI child windows list. This happens when the closing of the child form is canceled by the user and the child windows list menu item is opened. [388401] [Added: May 2017]
 
 ## Workflow
 
@@ -178,9 +271,9 @@
 * Fixed potential periodic hangs or poor performance of a WPF application running on a device that has touch support.  This is mostly seen when running over a touch-enabled remote desktop or other touch enabled remote access solutions.  [146399]
 * Enable automatic invocation and dismissal of the touch keyboard in WPF applications without disabling WPF stylus/touch support on Windows 10 [178044]
 * Fixed missing glyph symbol display issues for those WPF applications that render text in the following ranges using a font that does not contain these ranges. [165725]
-  Ranges: 
-  Unicode = "0000-052F, 0590-06FF, 0750-077F, 08A0-08FF, 1D00-1FFF, 2C60-2C7F, A720-A7FF, FB00-FB0F, FB1D-FBFF"
-  Unicode = "FC00-FDCF, FDF0-FDFF, FE20-FE2F, FE70-FEFE"
+   Ranges: 
+   - Unicode = "0000-052F, 0590-06FF, 0750-077F, 08A0-08FF, 1D00-1FFF, 2C60-2C7F, A720-A7FF, FB00-FB0F, FB1D-FBFF"
+   - Unicode = "FC00-FDCF, FDF0-FDFF, FE20-FE2F, FE70-FEFE"
 * Developers of WPF applications on .NET 4.6.1 may notice that the number of promotions from a touch move event to a mouse move event do not correspond 1:1.  This change ensures that there is a corresponding mouse move promotion for every applicable touch move. [169470]
 * Enable WPF Applications to look and feel great in multi DPI environments. This means crisper text, sharper images and general polish. [191569]
 * WPF applications that allocate large numbers of bitmaps over time can possibly see performance issues such as frequent pauses and large numbers of garbage collections.  This fix changes the bitmap garbage collection strategy to help alleviate these issues. [121913]
@@ -208,3 +301,9 @@
 * Avoid unnecessary iteration through all items displayed in a virtualized ItemsControl with ScrollUnit=Item [202599].
 * Fixed XPS printing crash when InvariantCulture is used. [143947]
 * Fixed truncation of contents during copy & paste in HTML format when the WPF DataGrid control contains full width characters, for e.g. Japanese. [104825]
+* In some situations, it is possible that WPF attempts to process a touch/stylus input with a null StylusDevice.  This can cause a NullReferenceException.  This fix checks for this issue and guards against it. [381810] [Added: May 2017]
+* In some situations, it is possible that WPF attempts to process a touch/stylus input with a null StylusDevice.  This can cause a NullReferenceException.  This fix checks for this issue and guards against it. [378292] [Added: May 2017]
+* There is a memory leak when a WPF application includes a D3DImage control, changes both the size and the content of the image, and runs with software rendering (e.g. running over Remote Desktop). [261136] [Added: May 2017]
+* A WPF application with a virtualizing list control (ListBox, DataGrid, TreeView, etc.) can encounter an ArgumentNullException when scrolling to an item whose size has substantially decreased since the last time it was re-virtualized. [273803, 282662, 282664, 367282, 367285] [Added: May 2017]
+* A WPF application that repeatedly changes the Template of a TextBox can encounter a memory leak of TextBoxView objects. The Template change can happen implicitly, for example by moving the TextBox in and out of the main visual tree, or by moving it between scopes of different implicitly-defined Styles. [245230] [Added: May 2017]
+* A WPF application can encounter an ArugmentOutOfRangeException if it uses a DataGrid with column virtualization enabled, calls DataGrid.ScrollIntoView(row, column) before the column widths are known, then immediately changes the DataGrid.Columns collection before the DataGrid has rendered. [271673] [Added: May 2017]

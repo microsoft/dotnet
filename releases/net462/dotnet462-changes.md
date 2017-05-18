@@ -181,8 +181,8 @@ Post-release servicing updates are also included, appended to the end of each pr
     ```
 
    `<GCNoAffinitize enabled="true"/>` specifies to not affinitize the Server GC threads with CPUs.
-    `<GCHeapCount enabled="6"/>` 6 specifies you want 6 heaps. The actual # of heaps is the min of what you specify and what your proces is allowed to use.
-    `<GCHeapAffinitizeMask enabled="144"/>` the # is in decimal so this is 0x90, meaning you want to use those 2 bits as your process mask. The actual # of heaps is the min of what you specify, what your proces is allowed to use and the # of set bits in this mask you specify. [274126] [Added: May 2017]
+    `<GCHeapCount enabled="6"/>` 6 specifies you want 6 heaps. The actual # of heaps is the min of what you specify and what your process is allowed to use.
+    `<GCHeapAffinitizeMask enabled="144"/>` the # is in decimal so this is 0x90, meaning you want to use those 2 bits as your process mask. The actual # of heaps is the min of what you specify, what your process is allowed to use and the # of set bits in this mask you specify. [274126] [Added: May 2017]
 * If you are marshaling array of struct A and also array of struct B as SAFEARRAY, and struct A/B has identical GUIDs, you may run into a memory leak.  [365349] [Added: May 2017]
 * If you are marshaling array of struct A and also array of struct B as SAFEARRAY, and struct A/B has identical GUIDs, you may run into a memory leak.  [424243] [Added: May 2017]
 * If you are marshaling array of struct A and also array of struct B as SAFEARRAY, and struct A/B has identical GUIDs, you may run into a memory leak.  [431586] [Added: May 2017]
@@ -306,4 +306,4 @@ Post-release servicing updates are also included, appended to the end of each pr
 * There is a memory leak when a WPF application includes a D3DImage control, changes both the size and the content of the image, and runs with software rendering (e.g. running over Remote Desktop). [261136] [Added: May 2017]
 * A WPF application with a virtualizing list control (ListBox, DataGrid, TreeView, etc.) can encounter an ArgumentNullException when scrolling to an item whose size has substantially decreased since the last time it was re-virtualized. [273803, 282662, 282664, 367282, 367285] [Added: May 2017]
 * A WPF application that repeatedly changes the Template of a TextBox can encounter a memory leak of TextBoxView objects. The Template change can happen implicitly, for example by moving the TextBox in and out of the main visual tree, or by moving it between scopes of different implicitly-defined Styles. [245230] [Added: May 2017]
-* A WPF application can encounter an ArugmentOutOfRangeException if it uses a DataGrid with column virtualization enabled, calls DataGrid.ScrollIntoView(row, column) before the column widths are known, then immediately changes the DataGrid.Columns collection before the DataGrid has rendered. [271673] [Added: May 2017]
+* A WPF application can encounter an ArgumentOutOfRangeException if it uses a DataGrid with column virtualization enabled, calls DataGrid.ScrollIntoView(row, column) before the column widths are known, then immediately changes the DataGrid.Columns collection before the DataGrid has rendered. [271673] [Added: May 2017]

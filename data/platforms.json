@@ -87,6 +87,7 @@
       },
       "popular": true,
       "info": "https://blogs.msdn.microsoft.com/dotnet/2017/05/10/announcing-net-core-2-0-preview-1/",
+      "includedIn": [],
       "supportedBy": [
         "VS2017"
       ],

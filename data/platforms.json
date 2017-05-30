@@ -134,7 +134,7 @@
         {
           "name": ".NET Framework 4.7",
           "link": "http://go.microsoft.com/fwlink/?LinkId=825299",
-          "directLink": "http://go.microsoft.com/fwlink/?LinkId=825302&source=dotnet"
+          "directLink": "http://go.microsoft.com/fwlink/?LinkId=825302&source=getdotnet&desc=dotnet47"
         }
       ],
       "tools": [
@@ -166,7 +166,7 @@
         {
           "name": ".NET Framework 4.6.2",
           "link": "http://go.microsoft.com/fwlink/?LinkId=780597",
-          "directLink": "http://go.microsoft.com/fwlink/?LinkID=780596&source=dotnet"
+          "directLink": "http://go.microsoft.com/fwlink/?LinkID=780596&source=getdotnet&desc=dotnet462"
         }
       ],
       "tools": [
@@ -258,7 +258,7 @@
         {
           "name": ".NET Framework 4.5.2",
           "link": "http://go.microsoft.com/fwlink/?LinkId=397674",
-          "directLink": "http://go.microsoft.com/fwlink/?LinkId=328855&source=dotnet"
+          "directLink": "http://go.microsoft.com/fwlink/?LinkId=328855&source=getdotnet&desc=dotnet452"
         }
       ],
       "tools": [
@@ -294,7 +294,7 @@
         {
           "name": ".NET Framework 3.5 SP1",
           "link": "http://go.microsoft.com/fwlink/?LinkID=229190",
-          "directLink": "http://download.microsoft.com/download/2/0/E/20E90413-712F-438C-988E-FDAA79A8AC3D/dotnetfx35.exe"
+          "directLink": "http://download.microsoft.com/download/2/0/E/20E90413-712F-438C-988E-FDAA79A8AC3D/dotnetfx35.exe?source=getdotnet&desc=dotnet35"
         },
         {
           "name": ".NET Framework 3.5 SP1 (Windows 8+)",

@@ -25,7 +25,7 @@ should be able to negotiate a connection using at least TLS1.0.
 If Ssl3 is required, use one of the following configuration mechanisms to add
 Ssl3 to the list of negotiated protocols.
 
-* <xref:System.ServiceModel.Channels.SslStreamSecurityBindingElement.SslProtocolso>
+* <xref:System.ServiceModel.Channels.SslStreamSecurityBindingElement.SslProtocols>
 * <xref:System.ServiceModel.TcpTransportSecurity.SslProtocols>
 * [\<transport\> section of \<netTcpBinding\>](https://docs.microsoft.com/en-us/dotnet/articles/framework/configure-apps/file-schema/wcf/transport-of-nettcpbinding)
 * [\<sslStreamSecurity\> section of \<customBinding\>](https://docs.microsoft.com/en-us/dotnet/articles/framework/configure-apps/file-schema/wcf/sslstreamsecurity)

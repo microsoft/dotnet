@@ -24,7 +24,7 @@ explicit interface implementations,
 
 When re-building an ADO.NET database provider, these differences will require
 the 'override' keyword to be applied to the Precision and Scale properties. This
-is only needed when re-building the components; exisiting binaries will continue
+is only needed when re-building the components; existing binaries will continue
 to work.
 
 ### Affected APIs

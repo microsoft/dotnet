@@ -18,9 +18,9 @@ For applications that target an earlier version of the .NET Framework, the defau
 - [ ] Build-time break
 
 ### Recommended Action
-This changes affects applications that target the .NET Framework 4.7 or later versions. 
+This change affects applications that target the .NET Framework 4.7 or later versions. 
 
-You can prefer to use a defined protocol rather than relying on the system default, you can explicitly set the value of the  <xref:System.Net.ServicePointManager.SecurityProtocol?displayProperty=fullName> property.
+If you prefer to use a defined protocol rather than relying on the system default, you can explicitly set the value of the  <xref:System.Net.ServicePointManager.SecurityProtocol?displayProperty=fullName> property.
 
 ### Affected APIs
 - `P:System.Net.ServicePointManager.SecurityProtocol`

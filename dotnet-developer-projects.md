@@ -244,6 +244,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [OmniDB](https://github.com/OmniDB/OmniDB) - Web tool for database management and conversion. [Site](http://omnidb.com.br)
   * [Outcomes.Net](https://github.com/kinetiq/Ether.Outcomes/) - Fluent wrapper that eliminates plumbing code around failure-prone functions.
   * [Paket](https://github.com/fsprojects/Paket) - Dependency manager for .NET and Mono projects, which is designed to work well with NuGet packages and also enables referencing files directly from GitHub repositories.
+  * [Polly](https://github.com/App-vNext/Polly) - A resilience and transient-fault-handling library that allows developers to express policies such as Retry, Circuit Breaker, Timeout, Bulkhead Isolation, and Fallback in a fluent and thread-safe manner.
   * [Protobuf-net](https://code.google.com/p/protobuf-net/) - A .NET implementation of protobuf, allowing you to serialize your .NET objects efficiently and easily.
   * [Quick Diagram Tool for C#](https://github.com/realvizu/QuickDiagram) - Code visualization tool for C#.
   * [scriptcs](https://github.com/scriptcs/scriptcs) - scriptcs makes it easy to write and execute C# with a simple text editor.

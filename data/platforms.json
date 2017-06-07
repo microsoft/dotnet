@@ -298,7 +298,7 @@
         },
         {
           "name": ".NET Framework 3.5 SP1 (Windows 8+)",
-          "link": "http://msdn.microsoft.com/library/hh506443.aspx"
+          "link": "https://docs.microsoft.com/dotnet/framework/install/dotnet-35-windows-10"
         }
       ],
       "tools": []

@@ -20,7 +20,7 @@ printing stack will still continue to work just as before in older Windows
 versions.
 
 - [ ] Quirked
-- [X] Build-time break
+- [ ] Build-time break
 
 ### Recommended Action
 

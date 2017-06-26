@@ -74,6 +74,7 @@ Please help us improve the [.NET Framework Application Compatibility documents](
 - [Exception message has changed for failed DataContract serialization in case of an unknown type](exception-message-has-changed-for-failed-datacontract-serialization-in-case-of-an-unknown-type.md)
 - [HtmlTextWriter does not render `<br/>` element correctly](htmltextwriter-does-not-render-br-element-correctly.md)
 - [IL ret not allowed in a try region](il-ret-not-allowed-in-a-try-region.md)
+- [New 64-bit JIT compiler in the .NET Framework 4.6](new-64-bit-jit-compiler.md)
 - [Only Tls 1.0, 1.1 and 1.2 protocols supported in System.Net.ServicePointManager and System.Net.Security.SslStream](only-tls-1_0-1_1-and-1_2-protocols-supported-in-system_net_servicepointmanager-and-system_net_security_sslstream.md)
 - [Persian calendar now uses the Hijri solar algorithm](persian-calendar-now-uses-the-hijri-solar-algorithm.md)
 - [Reflection objects can no longer be passed from managed code to out-of-process DCOM clients](reflection-objects-can-no-longer-be-passed-from-managed-code-to-out-of-process-dcom-clients.md)

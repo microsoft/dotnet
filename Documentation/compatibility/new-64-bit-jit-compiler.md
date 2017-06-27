@@ -27,7 +27,7 @@ The known differences include the following:
 - [ ] Build-time break
 
 ### Recommended Action
-**Mitigation of known issues**
+**Mitigation of known issues**   
 If you encounter the issues listed above, you can address them by doing any of the following:  
   
 - Upgrade to the .NET Framework 4.6.2. The new 64-bit compiler included with the .NET Framework 4.6.2 addresses each of these known issues.  

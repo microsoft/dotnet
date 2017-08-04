@@ -6,6 +6,11 @@ You can learn about Microsoft.NETCore.UniversalWindowsPlatform [releases](#relea
 
 You can see what was included in each Microsoft.NETCore.UniversalWindowsPlatform release.
 
+### 5.3.4 (August 4, 2017)
+When using Visual Studio this package requires Visual Studio 2017 or later.
+
+- Corrected an issue where System.Threading.Thread.MemoryBarrier was implemented as no-op on x86 release builds.
+
 ### 5.3.3 (April 24, 2017)
 When using Visual Studio this package requires Visual Studio 2017 or later.
 

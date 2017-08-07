@@ -1,4 +1,6 @@
-# .NET Framework 4.7.1 Early Access Build-2538 Release Notes
+# .NET Framework 4.7.1 Release Notes
+
+> These release notes are current for .NET Framework 4.7.1 build 2538, released 2017-08-07.
 
 You can learn about the changes made in the .NET Framework 4.7.1 build-2538.
 

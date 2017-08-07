@@ -1,6 +1,8 @@
 # .NET Framework 4.7.1 Release Notes
 
-These release notes are current for .NET Framework 4.7.1 build 2538, released 2017-08-07.
+> These release notes are current for .NET Framework 4.7.1 build 2538, released 2017-08-07.
+
+You can learn about the changes made in the .NET Framework 4.7.1.
 
 .NET Framework release notes describe product improvements grouped by product area. Each change includes a Microsoft-internal VSTS bug ID, the primary binary that was updated and whether the change was a bug or a feature.
 

@@ -24,7 +24,7 @@ You can learn about the changes made in the .NET Framework 4.7.1.
 
 ## BCL
 
-* Fixed a race condition in resource manager which leads to multiple CultureInfo getting created and presented to the client code. This is also fixed in .NET Core -  [https://github.com/dotnet/coreclr/pull/8656](https://github.com/dotnet/coreclr/pull/8656)  [99146, mscorlib.dll, Bug]
+* Fixed a race condition in resource manager which leads to multiple CultureInfo getting created and presented to the client code. This is also fixed in .NET Core -  [dotnet/coreclr #8656](https://github.com/dotnet/coreclr/pull/8656)  [99146, mscorlib.dll, Bug]
 * Improved reliability of Parallel.For on x86 systems. [99779, mscorlib.dll, Bug]
 * Fixed an issue where two threads attempting to load the same assembly may crash the process. [211676, mscorlib.dll, Bug]
 * Fixed an issue in ReaderWriterLockSlim where an attempt to enter a write lock that times out does not release waiting attempts to acquire read or upgradeable read locks [216022, System.Core.dll, Bug]
@@ -49,7 +49,7 @@ You can learn about the changes made in the .NET Framework 4.7.1.
 ## CLR
 
 * Managed threads that exit don't get finalized until a GC of an appropriate generation is triggered. Applications that are mostly idle but occasionally create threads or have timers with long periods may accumulate a large number of handles as shown by Task Manager. This issue is fixed by triggering a GC of an appropriate generation based on the number of threads. [134926, clr.dll, Bug]
-* Fixed reliability problem for using string hashing before initializing the appdomain which used to crash the apps. This is also fixed in .NET Core - [https://github.com/dotnet/coreclr/issues/10843](https://github.com/dotnet/coreclr/issues/10843) [213531, clr.dll, Bug]
+* Fixed reliability problem for using string hashing before initializing the appdomain which used to crash the apps. This is also fixed in .NET Core - [dotnet/coreclr #10843](https://github.com/dotnet/coreclr/issues/10843) [213531, clr.dll, Bug]
 * Exceptions from services that fail to start will now be propagated from ServiceBase.Run. [226883, System.ServiceProcess.dll, Bug]
 * Fixed a silent bad code generation issue in RyuJit. The conditions for the silent bad code generation are as follows: [282492, clrjit.dll, Bug]
   * The method has a tail call that the JIT decides to dispatch as a fast tail call (without calling a helper).
@@ -134,12 +134,11 @@ You can learn about the changes made in the .NET Framework 4.7.1.
 * Fixed rendering error in Workflow designer in Sharepoint.  [361982, System.Activities.Presentation.dll, Bug]
 * Improved accessibility in Workflow designer. Specifically there are fixes in high contrast mode, focus  of different controls and dialogs and name properties  [407062, 407067, 407068, 407069, 407070, 407072, 407075, 407076, 407080, 407085, 407086, 407097, 407407, 407408, 407411, 407414, 407415, 407428, 407436, 407442, 407444, 407450, 407462, 407463, 407467, 408030, 408035, 408043, 408073, 408077, 408158, 408282, 408315, 408329, 409027, 409645, 409719, 409723, 409731, 434137, 445109, 447654, System.Activities.Presentation.dll, Bug]
 * New enumerator values are added for System.Messaging.HashAlgorithm to allow developers to choose SHA256, SHA384, and SHA512. Also, the default hashing algorithm if one is not specified is SHA512. For backward compatibility where customers must continue to use MD5, the following must be added to the app.config file for the application: [394583, System.Messaging.dll, Feature]
-
-```
-<runtime>
-<AppContextSwitchOverrides value=""Switch.System.Messaging.UseMD5ForDefaultHashAlgorithm=true;Switch.System.Messaging.UseRC2ForDefaultEncryptionAlgorithm=true"" />
-</runtime>
-``` 
+    ```xml
+    <runtime>
+    <AppContextSwitchOverrides value=""Switch.System.Messaging.UseMD5ForDefaultHashAlgorithm=true;Switch.System.Messaging.UseRC2ForDefaultEncryptionAlgorithm=true"" />
+    </runtime>
+    ```
 
 ## WPF
 

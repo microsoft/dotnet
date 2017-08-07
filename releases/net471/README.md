@@ -1,13 +1,15 @@
-# Early Access to .NET Framework 4.7.1 Build-2538 Release Notes
+# .NET Framework 4.7.1 Release Notes
 
-You can learn about the changes made in the .NET Framework 4.7.1 build-2538.
+> These release notes are current for .NET Framework 4.7.1 build 2538, released 2017-08-07.
+
+You can learn about the changes made in the .NET Framework 4.7.1, as of build 2538.
 
 - [Download](https://github.com/Microsoft/dotnet-framework-earlyaccess)
-- [Early Access to .NET Framework 4.7.1 build-2538 announcement blog post](https://blogs.msdn.microsoft.com/dotnet/2017/08/07/welcome-to-the-net-framework-4-7-1-early-access/)
+- [Announcement blog post](https://blogs.msdn.microsoft.com/dotnet/2017/08/07/welcome-to-the-net-framework-4-7-1-early-access/)
 - [Release notes](dotnet471-changes.md)
 - [Known issues](dotnet471-known-issues.md) 
 
-# Release Notes by Product Area
+## Release Notes by Product Area
 
 - [ASP.NET](dotnet471-changes.md#aspnet)
 - [BCL](dotnet471-changes.md#bcl)

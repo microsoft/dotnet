@@ -19,7 +19,7 @@ You can learn about the changes made in the .NET Framework 4.7.1, as of build 25
    ```csharp
    static bool HttpCookie.TryParse(string s, out HttpCookie result) [402902, System.Web.dll, Feature]
    ```
-* Added support for SHA-2 hash algorthims for ASP.NET Forms Authentication password format. [405231, System.Web.dll, Feature]
+* Added support for SHA-2 hash algorithms for ASP.NET Forms Authentication password format. [405231, System.Web.dll, Feature]
 * HttpApplication.OnExecuteStep provides extensibility to ASP.NET pipeline to make it easy for developers to implement features in ambient context pattern and build libraries that cares about ASP.NET execution flow. [406437, System.Web.dll, Feature]
 
 ## BCL

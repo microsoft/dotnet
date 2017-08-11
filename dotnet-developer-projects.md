@@ -167,7 +167,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [SmartIrc4net](https://github.com/meebey/SmartIrc4net) - IRC C# Library
   * [Spartacus](https://github.com/wind39/spartacus) - Multi-purpose C# library, containing: 1) classes to access many types of databases in a fast, generic way; 2) classes to work with XLSX, CSV and DBF files; 3) PDF report engine.
   * [Splat](https://github.com/paulcbetts/splat) - A library to make things cross-platform that should be.
-  * [SSH.NET](https://sshnet.codeplex.com/) - A client-side library for SSH, SCP and SFTP.
+  * [SSH.NET](https://github.com/sshnet/SSH.NET) - A client-side library for SSH, SCP and SFTP.
   * [Strongly Typed Client API Generators for ASP.NET Web API](https://webapiclientgen.codeplex.com/) - Strongly Typed Client API Generators generate strongly typed client API in TypeScript and C# codes supporting desktop, Universal Windows, Android and iOS.
   * [Stuntman](https://github.com/ritterim/stuntman) - OWIN middleware for quickly mocking authentication/authorization use case scenarios locally. Supports Cookie Authentication and Bearer Token Authentication.
   * [SuperSocket](https://github.com/kerryjiang/SuperSocket) - An extensible socket server engine which supports .NET and Mono

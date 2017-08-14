@@ -4,7 +4,7 @@ You can see what was included in each .NET Native 1.7 ([Microsoft.NETCore.Univer
 
 When using Visual Studio these packages require Visual Studio 2017 or later.
 
-### 5.4.0 (TBD)
+### 5.4.0 (August 11, 2017)
 
 
 #### Improved Diagnostics and Better Support for Portable PDBs

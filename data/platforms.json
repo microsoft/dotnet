@@ -40,6 +40,26 @@
   ],
   "platforms": [
     {
+      "platform": ".NET Core 2.0",
+      "category": "netcore",
+      "supportInfo": {
+        "support": "Supported",
+        "link": ""
+      },
+      "popular": true,
+      "info": "https://blogs.msdn.microsoft.com/dotnet/2017/08/14/announcing-net-core-2-0/",
+      "includedIn": [],
+      "supportedBy": [
+        "VS2017"
+      ],
+      "runtime": [
+        {
+          "name": ".NET Core 2.0",
+          "link": "https://github.com/dotnet/core/blob/master/release-notes/download-archives/2.0.0-download.md"
+        }
+      ]
+    },    
+    {
       "platform": ".NET Core 1.0 and 1.1",
       "category": "netcore",
       "supportInfo": {
@@ -59,61 +79,9 @@
         {
           "name": ".NET Core 1.1",
           "link": "https://github.com/dotnet/core/releases/tag/1.1.1"
-        },
-        {
-          "name": "ASP.NET Core",
-          "link": "http://www.asp.net/get-started"
-        }
-      ],
-      "tools": [
-        {
-          "name": ".NET Core SDK",
-          "link": "https://www.microsoft.com/net/download/core",
-          "description": "The .NET Core SDK 1.0 for Windows, macOS and Linux."
-        },
-        {
-          "name": ".NET Core SDK 1.0 (for Docker)",
-          "link": "https://www.microsoft.com/net/core#dockercmd",
-          "description": "The .NET Core docker images, for Windows and Linux."
         }
       ]
     },
-    {
-      "platform": ".NET Core 2.0 Preview 1",
-      "category": "netcore",
-      "supportInfo": {
-        "support": "Supported",
-        "link": ""
-      },
-      "popular": true,
-      "info": "https://blogs.msdn.microsoft.com/dotnet/2017/05/10/announcing-net-core-2-0-preview-1/",
-      "includedIn": [],
-      "supportedBy": [
-        "VS2017"
-      ],
-      "runtime": [
-        {
-          "name": ".NET Core 2.0 Preview 1",
-          "link": "https://github.com/dotnet/core/releases/tag/v2.0.0-preview1"
-        },
-        {
-          "name": "ASP.NET Core 2.0 Preview 1",
-          "link": "https://blogs.msdn.microsoft.com/webdev/2017/05/10/aspnet-2-preview-1/"
-        }
-      ],
-      "tools": [
-        {
-          "name": ".NET Core SDK",
-          "link": "https://www.microsoft.com/net/core/preview",
-          "description": "The .NET Core SDK 2.0 Preview 1 for Windows, macOS and Linux."
-        },
-        {
-          "name": ".NET Core SDK (for Docker)",
-          "link": "https://www.microsoft.com/net/core/preview#dockercmd",
-          "description": "The .NET Core 2.0 Preview 1 Docker images, for Windows and Linux."
-        }
-      ]
-    },    
     {
       "platform": ".NET Framework 4.7",
       "alias": "net47",

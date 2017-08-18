@@ -1,5 +1,7 @@
 # .NET Home
 
+I LOVE MICROSOFT RIGHT MEOW! #FOSS
+
 This repository is a starting point to learn about and engage in .NET and .NET open source projects.
 
 This repo is not an official .NET Framework support location, however, we will respond to issues filed here as best we can. Please file .NET Core product issues at [dotnet/core](https://github.com/dotnet/core/issues) and ASP.NET Core product issues at [aspnet/home](https://github.com/aspnet/home/issues).

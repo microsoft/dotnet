@@ -16,3 +16,7 @@ You can see what was included in each .NET Native (Microsoft.NETCore.UniversalWi
 - [Microsoft.NETCore.UniversalWindowsPlatform NuGet Package Details](https://www.nuget.org/packages/Microsoft.NETCore.UniversalWindowsPlatform)
 - [Windows Dev Center](https://developer.microsoft.com/en-us/windows/apps/getstarted)
 - [Downloads and tools for Windows 10](https://developer.microsoft.com/en-us/windows/downloads)
+
+## Provide Feedback
+
+Please continue to send questions and suggestions to dotnetnative@microsoft.com.  We look forward to hearing from you and seeing what great things you will build.

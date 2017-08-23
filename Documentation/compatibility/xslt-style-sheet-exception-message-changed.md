@@ -22,7 +22,7 @@ same, so this change should have no real impact.
 
 ### Recommended Action
 
-Update any app code depending on the excepton message from this error condition
+Update any app code depending on the exception message from this error condition
 to expect the new message, or (even better) update the code to depend only on
 the exception type (<xref:System.Xml.Xsl.XsltException?displayProperty=name>),
 which has not changed.

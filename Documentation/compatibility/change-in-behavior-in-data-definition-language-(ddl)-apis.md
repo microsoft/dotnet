@@ -12,8 +12,8 @@ Available
 ### Change Description
 The behavior of DDL APIs when AttachDBFilename is specified has changed as follows:
 * Connection strings need not specify an Initial Catalog value. Previously, both AttachDBFilename and Initial Catalog were required.
-* If both AttatchDBFilename and Initial Catalog are specified and the given MDF file exists, the ObjectContext.DatabaseExists method returns true. Previously, it returned false.
-* If both AttatchDBFilename and Initial Catalog are specified and the given MDF file exists, calling the ObjectContext.DeleteDatabase method deletes the files.
+* If both AttachDBFilename and Initial Catalog are specified and the given MDF file exists, the ObjectContext.DatabaseExists method returns true. Previously, it returned false.
+* If both AttachDBFilename and Initial Catalog are specified and the given MDF file exists, calling the ObjectContext.DeleteDatabase method deletes the files.
 * If ObjectContext.DeleteDatabase is called when the connection string specifies an AttachDBFilename value with an MDF that doesn't exist and an Initial Catalog that doesn't exist, the method throws an InvalidOperationException exception. Previously, it threw a SqlException exception.
 
 - [ ] Quirked

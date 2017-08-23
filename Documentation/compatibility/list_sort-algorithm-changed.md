@@ -11,7 +11,7 @@ Not planned
 
 ### Change Description
 
-Begining in .NET Framework 4.5,
+Beginning in .NET Framework 4.5,
 <xref:System.Collections.Generic.List`1?displayProperty=name>'s sort algorithm
 has changed (to be an introspective sort instead of a quick sort).
 <xref:System.Collections.Generic.List`1?displayProperty=name>'s sort has never

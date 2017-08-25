@@ -18,7 +18,7 @@ applied at the assembly level will automatically run using the semantics
 that all binaries be explicitly attributed with a
 <xref:System.Runtime.Versioning.TargetFrameworkAttribute?displayProperty=name>
 indicating the version of the .NET Framework they were built with. Note that
-using a target framework moniker in a project file will caues MSBuild to
+using a target framework moniker in a project file will cause MSBuild to
 automatically apply a
 <xref:System.Runtime.Versioning.TargetFrameworkAttribute?displayProperty=name>.
 

@@ -16,7 +16,7 @@ This change applies to an
 own virtualization in the direction orthogonal to the main scrolling direction
 (the chief example is
 <xref:System.Windows.Controls.DataGrid?displayProperty=name> with
-EnableColumnVirtualization="True").  The outcome of certain horizontal scolling
+EnableColumnVirtualization="True").  The outcome of certain horizontal scrolling
 operations has been changed to produce results that are more intuitive and more
 analogous to the results of comparable vertical operations.
 

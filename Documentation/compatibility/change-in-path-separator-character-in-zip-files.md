@@ -16,7 +16,7 @@ Decompressing a zip file created by an app that targets a previous version of th
 
 
 - [X] Quirked
-- [ ] Build-time break 
+- [ ] Build-time break
 
 ### Recommended Action
 
@@ -25,21 +25,23 @@ The impact of this change on .ZIP files that are decompressed on the Windows ope
 If this change is undesirable, you can opt out of it by adding a configuration setting to the [`<runtime>`](https://docs.microsoft.com/dotnet/framework/configure-apps/file-schema/runtime/runtime-element.md) section of your application configuration file. The following example shows both the `<runtime` section and the `Switch.System.IO.Compression.ZipFile.UseBackslash` opt-out switch:
 
 ```xml
-<runtime>  
-   <AppContextSwitchOverrides value="Switch.System.IO.Compression.ZipFile.UseBackslash=true" />  
+<runtime>
+   <AppContextSwitchOverrides value="Switch.System.IO.Compression.ZipFile.UseBackslash=true" />
 </runtime>
-``` 
+```
 
 In addition, apps that target previous versions of the .NET Framework but are running on the .NET Framework 4.6.1 and later versions can opt in to this behavior by adding a configuration setting to the [`<runtime>`](https://docs.microsoft.com/dotnet/framework/configure-apps/file-schema/runtime/runtime-element.md) section of the application configuration file. The following shows both the `<runtime>` section and the `Switch.System.IO.Compression.ZipFile.UseBackslash` opt-in switch.
 
 ```xml
-<runtime>  
-   <AppContextSwitchOverrides value="Switch.System.IO.Compression.ZipFile.UseBackslash=false" />  
+<runtime>
+   <AppContextSwitchOverrides value="Switch.System.IO.Compression.ZipFile.UseBackslash=false" />
 </runtime>
-``` 
+```
 
 ### Affected APIs
-* M:System.IO.Compression.ZipFile.CreateFromDirectory
+* `M:System.IO.Compression.ZipFile.CreateFromDirectory(System.String,System.String)`
+* `M:System.IO.Compression.ZipFile.CreateFromDirectory(System.String,System.String,System.IO.Compression.CompressionLevel,System.Boolean)`
+* `M:System.IO.Compression.ZipFile.CreateFromDirectory(System.String,System.String,System.IO.Compression.CompressionLevel,System.Boolean,System.Text.Encoding)`
 
 ### Category
 Core

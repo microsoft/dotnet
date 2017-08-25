@@ -9,7 +9,7 @@
 //A description of the Scope values can be found at https://docs.microsoft.com/en-us/dotnet/articles/framework/migration-guide/net-compatibility-diagnostics
 
 ### Version Introduced
-[|Version in which the breaking change first occured|]
+[|Version in which the breaking change first occurred|]
 
 ### Version Reverted
 [|Version in which the breaking change was reverted. If not applicable, please remove|]

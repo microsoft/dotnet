@@ -1,4 +1,4 @@
-## AesCrytpServiceProvider decryptor provides a reusable transform
+## AesCryptoServiceProvider decryptor provides a reusable transform
 
 ### Scope
 Minor

@@ -1,4 +1,4 @@
-## [|ID - Chose next available number|]: [|Breaking Change Title|]
+## [|ID - Choose next available number|]: [|Breaking Change Title|]
 
 // There is no built in way to do comments in Markdown, so this C# style comment used to mark comments. Please remove all of these before submission
 // Please use proper markdown syntax for code snippets. See http://daringfireball.net/projects/markdown/syntax for examples

@@ -43,7 +43,7 @@ __Support for UI Automation__
  
 __Improvements to PropertyBrowser control__
 - Added UIA Expand/Collapse pattern, state and name change notifications and ControlType property with value "Button" to the "Details" button in the error dialog that is displayed when the user enters incorect value in the `T:System.Windows.Forms.PropertyGrid` control 
-- Changed [AccessibleRole](https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.accessiblerole?view=netframework-4.7) of rows in PropertyGrid control from "Row" to "Cell", which maps to UIA ControlType "DataItem", in order to support appropriate keyboard shortcuts and Narrator announcements and UIA ControlType "DataItem"
+- Changed [AccessibleRole](https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.accessiblerole?view=netframework-4.7) of rows in PropertyGrid control from "Row" to "Cell", which maps to UIA ControlType "DataItem", in order to support appropriate keyboard shortcuts and Narrator announcements
 - Improved keyboard navigation between the grid and the ToolBar above it. Pressing "Shift-Tab" now selects the first ToolBar button, instead of the whole ToolBar
 
 __Support for High Contrast themes__

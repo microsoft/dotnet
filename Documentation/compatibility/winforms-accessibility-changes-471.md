@@ -18,7 +18,7 @@ Windows Forms Framework is improving how it works with accessibility technologie
 ### Recommended Action
 __How to opt in or out of these changes__
   
-In order for the application to benefit from these changes, it should run on the 4.7.1 version of the Framework and be either re-compiled against the 4.7.1 .Net Framework, or application should opt out from the legacy, or 4.7 and below, accessibility behaviors by setting the following [AppContext Switch](https://msdn.microsoft.com/en-us/library/system.appcontext(v=vs.110).aspx) is a .Net compatibility mechanism.  to false. Add an app.confog file to your application and add the following switch to the '<runtime/>' section:
+In order for the application to benefit from these changes, it should run on the 4.7.1 version of the Framework and be either re-compiled against the 4.7.1 .Net Framework, or application should opt out from the legacy, or 4.7 and below, accessibility behaviors by setting the following [AppContext Switch](https://docs.microsoft.com/en-us/dotnet/framework/configure-apps/file-schema/runtime/appcontextswitchoverrides-element) is a .Net compatibility mechanism.  to false. Add an app.confog file to your application and add the following switch to the '<runtime/>' section:
 
     <?xml version="1.0" encoding="utf-8"?>
     <configuration>
@@ -35,15 +35,15 @@ If an application targets version 4.7.1 or above and has preserve the legacy acc
 
 __Support for UI Automation__
 - Added [UIA](https://docs.microsoft.com/en-us/dotnet/framework/ui-automation/ui-automation-overview) [Expand/Collapse pattern](https://docs.microsoft.com/en-us/dotnet/framework/ui-automation/implementing-the-ui-automation-expandcollapse-control-pattern) to `T:System.Windows.Forms.ToolStripSplitButton`
-- Added UIA [ControlType](https://msdn.microsoft.com/en-us/library/windows/desktop/ee671197(v=vs.85).aspx) property value "MenuItem" to `T:System.Windows.Forms.ToolStripMenuItem`
-- Added UIA [Name](https://msdn.microsoft.com/en-us/library/dd757479(v=vs.85).aspx) property and Expand/Collapse pattern to `T:System.Windows.Forms.ToolStripItem`
-- Added [AccessibleEvents](https://msdn.microsoft.com/en-us/library/system.windows.forms.accessibleevents(v=vs.110).aspx) indicating StateChange and NameChange when drop down is expanded or collapsed to `T:System.Windows.Forms.ToolStripDropDownItem`
+- Added UIA [ControlType](https://docs.microsoft.com/en-us/dotnet/framework/ui-automation/ui-automation-support-for-the-menubar-control-type) property value "MenuItem" to `T:System.Windows.Forms.ToolStripMenuItem`
+- Added UIA [Name](https://docs.microsoft.com/en-us/dotnet/api/system.windows.automation.automationelement.nameproperty?view=netframework-4.7) property and Expand/Collapse pattern to `T:System.Windows.Forms.ToolStripItem`
+- Added [AccessibleEvents](https://docs.microsoft.com/fr-fr/dotnet/api/system.windows.forms.accessibleevents?view=netframework-4.7) indicating StateChange and NameChange when drop down is expanded or collapsed to `T:System.Windows.Forms.ToolStripDropDownItem`
 - Added UIA ControlType property value "Button" to `T:System.Windows.Forms.ToolStripDropDownButton`
-- Added UIA [Toggle pattern](https://msdn.microsoft.com/en-us/library/system.windows.automation.togglepattern(v=vs.110).aspx) to `T:System.Windows.Forms.DataGridViewCheckBoxCell`
+- Added UIA [TogglePattern](https://docs.microsoft.com/en-us/dotnet/api/system.windows.automation.togglepattern?view=netframework-4.7) to `T:System.Windows.Forms.DataGridViewCheckBoxCell`
  
 __Improvements to PropertyBrowser control__
 - Added UIA Expand/Collapse pattern, state and name change notifications and ControlType property with value "Button" to the "Details" button in the error dialog that is displayed when the user enters incorect value in the `T:System.Windows.Forms.PropertyGrid` control 
-- Changed [AccessibleRole](https://msdn.microsoft.com/en-us/library/system.windows.forms.control.accessiblerole(v=vs.110).aspx) of rows in PropertyGrid control from "Row" to "Cell", which maps to UIA ControlType "DataItem", in order to support appropriate keyboard shortcuts and Narrator announcements and UIA ControlType "DataItem"
+- Changed [AccessibleRole](https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.accessiblerole?view=netframework-4.7) of rows in PropertyGrid control from "Row" to "Cell", which maps to UIA ControlType "DataItem", in order to support appropriate keyboard shortcuts and Narrator announcements and UIA ControlType "DataItem"
 - Improved keyboard navigation between the grid and the ToolBar above it. Pressing "Shift-Tab" now selects the first ToolBar button, instead of the whole ToolBar
 
 __Support for High Contrast themes__
@@ -51,7 +51,6 @@ __Support for High Contrast themes__
 __Improved keyboard navigation__
 
 ### Affected APIs
-Added new public override methods or properties
 * `M:System.Windows.Forms.ToolStripDropDownButton.CreateAccessibilityInstance`
 * `P:System.Windows.Forms.DomainUpDown.DomainUpDownAccessibleObject.Name`
 

@@ -23,7 +23,7 @@ The recommended alternatives are
 <xref:System.Web.Security.MachineKey.Protect(System.Byte[],System.String[])>
 and
 <xref:System.Web.Security.MachineKey.Unprotect(System.Byte[],System.String[])>.
-Alternatively, the build warnings can be suppressed or they can be avoided by
+Alternatively, the build warnings can be suppressed, or they can be avoided by
 using an older compiler. The APIs are still supported.
 
 ### Affected APIs

@@ -8,6 +8,7 @@ To get up-to-date with the latest versions of .NET Framework and Visual Studio, 
 
 You can see what was included in each .NET Framework release. Some releases are now unsupported, as called out.
 
+- [.NET Framework 4.7.1](net471/README.md) (pre-release)
 - [.NET Framework 4.7](net47/README.md)
 - [.NET Framework 4.6.2](net462/README.md)
 - [.NET Framework 4.6.1](net461/README.md)
@@ -21,6 +22,7 @@ You can see what was included in each .NET Framework release. Some releases are 
 ## Resources
 
 - [.NET Framework Breaking Changes](../Documentation/compatibility/README.md)
+- [.NET Framework Known Issues](../Documentation/KnownIssues/README.md)
 - [.NET Framework Docs](https://docs.microsoft.com/dotnet) 
 - [.NET Framework Docs Source (dotnet/docs)](https://github.com/dotnet/docs)
 - [.NET Framework Reference Source](https://referencesource.microsoft.com/)

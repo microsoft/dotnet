@@ -2,7 +2,8 @@
 
 You can learn about the changes made in the .NET Framework 4.7.
 
-- [.NET Framework 4.7 announcement blog post](https://blogs.msdn.microsoft.com/dotnet/2017/04/05/announcing-the-net-framework-4-7/)
+- [Download](http://go.microsoft.com/fwlink/?LinkId=825299)
+- [.NET Framework 4.7 announcement blog post](https://blogs.msdn.microsoft.com/dotnet/2017/05/02/announcing-the-net-framework-4-7-general-availability/)
 - [What's new in the .NET Framework 4.7](https://docs.microsoft.com/dotnet/articles/framework/whats-new/index#v47)
 - [Release notes](dotnet47-changes.md)
 - [Application compatibility](../../Documentation/compatibility/README.md#net-framework-47)

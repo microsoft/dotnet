@@ -1,13 +1,13 @@
-.NET Framework 4.6.1 list of changes
-====================================
+.NET Framework 4.6.1 Release Notes
+==================================
 
-.NET Framework 4.6.1 contains dozens of bug fixes and improvements.
-This list details those changes, grouped by feature area.
-Each change includes our TFS bug numbers at the end of the line.
-Please include those numbers in your communication if you wish to contact us to obtain more information.
+.NET Framework release notes describe product improvements grouped by product area. Each change includes a Microsoft-internal VSTS bug number, which acts as a useful unique ID for each change (can be used to report issues or when calling Microsoft Support).
 
-ASP.NET
--------
+Post-release servicing updates are also included, appended to the end of each product area. The following servicing updates have been included:
+
+- [May 2017](https://blogs.msdn.microsoft.com/dotnet/2017/05/17/net-framework-may-2017-preview-of-quality-rollup/)
+
+## ASP.NET
 
 * TreeNode.ImageTooltip is rendered as title attribute [101518]
 * Access to WebAdminFiles re-enabled [144513]
@@ -15,9 +15,13 @@ ASP.NET
 * MaintainScrollPositionOnPostBack works with zoom on Chrome [120243]
 * RegEx can be opted out for EmailAddresses, Phone, and URL attributes [142685]
 * Added a MatchTimeout property to RegularExpressionAttribute [142685]
+* In the following scenarios, ASP.NET may duplicate the cookie in response headers:
+    - Before a request cookie is loaded, the response cookie is added.
+    - A response cookie is added, and then a native module sets the response cookie.
+    
+    With the fix, ASP.NET makes sure that response cookies are not duplicated. [359376] [Added: May 2017]
 
-BCL
----
+## BCL
 
 * System.Diagnostics.Process v4.1.0.0 supported in desktop implementation assemblies [142838]
 * System.ServiceProcess.ServiceController exposes a StartType property [145866]
@@ -51,9 +55,9 @@ BCL
 * Uri constructor doesn't throw ArgumentOutOfRangeException when parsing certain URIs with escaped international characters [123235]
 * Fixed a bug that prevented some localized text from displaying properly [145634]
 * Fixed a bug that caused the Exception Catch event to get the incorrect source line [142525]
+* When using RSACng (or another class which directly or indirectly uses RSACng) to perform encryption using RSAEncryptionPadding.Pkcs1 when the private key is stored on a smartcard (or other hardware security module) an exception of System.Security.Cryptography.CryptographicException: The parameter is incorrect. at System.Security.Cryptography.NCryptNative.DecryptData[T](SafeNCryptKeyHandle key, Byte[] data, T& paddingInfo, AsymmetricPaddingMode paddingMode, NCryptDecryptor`1 decryptor)  [299303] [Added: May 2017]
 
-CLR
----
+## CLR
 
 * Ngen emits debug section mapping IL to native [145669]
 * ICorProfiler implementations can apply metadata changes during rejit [145801]
@@ -105,8 +109,7 @@ CLR
 * Fixed an issue that caused local variables not to show up in X++ Debugging [145571]
 * Fixed RyuJIT optimizer causing incorrect result [110557]  
   
-WCF
----
+## WCF
 
 * ServiceThrottle uses double-checked locking pattern for calls, sessions, and dynamic properties [96934]
 * MessageLogger.LogInternal doesn't call TraceXPathNavigator.ToString() [127642]
@@ -119,8 +122,7 @@ WCF
 * Fixed a null reference exception in System.Runtime.Serialization when ETW is enabled [105266]
 * Fixed IdentityModel.Claims to support multiple DNS entries [140718]
 
-Windows Forms
--------------
+## Windows Forms
 
 * CTRL+A works in multiline text boxes [145670]
 * Vertical scrollbar's Maximum is in sync with DataGridView's total height if the grid is populated while disabled [127329]
@@ -132,16 +134,14 @@ Windows Forms
 * Fixed the size of the text for the Generating Previews dialog of the PrintPreviewControl from being cropped when scaling up to 500% in HDPI mode [145775]
 * Fixed the icons in the toolbox when scaling above 100% [145824]
 
-Workflow
---------
+## Workflow
 
 * Sys.Tx APIs enable distributed transactions with a non-MSDTC coordinator [145813]
 * A user of EnlistPromotableSinglePhase can promote transactions to a non-MSDTC distributed transaction coordinator [145770, 142891, 142992]
 * System.Transaction allows for snapshot isolation for non-MSDTC promoter types [146607]
 * Sql implementation handles transient faults properly [113390]
 
-WPF
----
+## WPF
 
 * Listbox items can be selected by touch on high precision touch panel [141237]
 * Underline can be applied after strikethrough [141662]
@@ -188,3 +188,7 @@ WPF
 * Fixed an issue with partial trust applications running on a machine with a touch device [151160]
 * Fixed a bug caused by loading multiple Microsoft Visual Studio Tools for Office (VSTO) addins on touch enabled devices [142484]
 * Fixed a bug that caused Visual Studio to hang when saving a XAML file [110669] 
+* If two WPF applications that target Side by Side (SxS) .NET versions (3.5 and 4.X) are loaded in the same process issues can occur on touch/stylus enabled machines.  A common example of this is loading VSTO add-ins written in WPF.  This is due to an issue with choosing the correct PenIMC.dll version for each application.  This fix allows WPF to properly differentiate between both DLLs and function correctly. [362710] [Added: May 2017]
+* If two WPF applications that target Side by Side (SxS) .NET versions (3.5 and 4.X) are loaded in the same process issues can occur on touch/stylus enabled machines.  A common example of this is loading VSTO add-ins written in WPF.  This is due to an issue with choosing the correct PenIMC.dll version for each application.  This fix allows WPF to properly differentiate between both DLLs and function correctly. [377649] [Added: May 2017]
+* In some situations, it is possible that WPF attempts to process a touch/stylus input with a null StylusDevice.  This can cause a NullReferenceException.  This fix checks for this issue and guards against it. [378295] [Added: May 2017]
+* A WPF application with a virtualizing list control (ListBox, DataGrid, TreeView, etc.) can encounter an ArgumentNullException when scrolling to an item whose size has substantially decreased since the last time it was re-virtualized. [273803, 282662, 282664, 367282, 367285] [Added: May 2017]

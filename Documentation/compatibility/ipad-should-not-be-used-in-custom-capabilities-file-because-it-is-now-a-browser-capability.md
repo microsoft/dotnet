@@ -10,7 +10,7 @@ Edge
 Planned
 
 ### Change Description
-Beginning in .NET 4.5, iPad is an identifier in the default ASP.NET browser capabilities file, so it should not be used in a custom capabilties file
+Beginning in .NET 4.5, iPad is an identifier in the default ASP.NET browser capabilities file, so it should not be used in a custom capabilities file
 
 - [ ] Quirked
 - [ ] Build-time break

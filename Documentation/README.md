@@ -3,6 +3,7 @@
 The following documents are available in this repo:
 
 - [.NET Framework Application Compatibility](compatibility/README.md)
+- [.NET Framework Known Issues](KnownIssues/README.md)
 - [.NET Framework Release Notes](../releases/README.md)
 - [Testing with RyuJIT](testing-with-ryujit.md)
 

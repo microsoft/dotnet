@@ -1,13 +1,13 @@
-.NET Framework 4.6 list of changes
-==================================
+.NET Framework 4.6 Release Notes
+================================
 
-.NET Framework 4.6 contains hundreds of bug fixes and improvements.
-This list details those changes, grouped by feature area.
-Each change includes our TFS bug numbers at the end of the line.
-Please include those numbers in your communication if you wish to contact us to obtain more information.
+.NET Framework release notes describe product improvements grouped by product area. Each change includes a Microsoft-internal VSTS bug number, which acts as a useful unique ID for each change (can be used to report issues or when calling Microsoft Support).
 
-ASP.NET
--------
+Post-release servicing updates are also included, appended to the end of each product area. The following servicing updates have been included:
+
+- [May 2017](https://blogs.msdn.microsoft.com/dotnet/2017/05/17/net-framework-may-2017-preview-of-quality-rollup/)
+
+## ASP.NET
 
 * State Service startup type is correctly persisted. [1038077]
 * Registry settings preserved during upgrade. [1038147]
@@ -45,8 +45,7 @@ ASP.NET
 * Overloads of HttpUtility.UrlEncode and UrlEncodeToBytes taking (byte[] bytes, int offset, int count) respects the offset and count parameter values. [912606]
 * Setting culture to auto:* in web.config doesn't cause CultureNotFoundException. [714999]
 
-BCL
----
+## BCL
 
 * Projected DirectX value types can be marshalled to WinRT. [1166515]
 * New WeakReference<T>() doesn't cause COMException. [973791]
@@ -150,9 +149,9 @@ BCL
 * Fixed the size of Vector<T>. [1020874]
 * System.Drawing.Icon.ToBitmap() supports PNG framed icons. [1084802]
 * Uri constructor doesn't throw ArgumentOutOfRangeException when parsing certain URIs with escaped international characters. [1173958]
+* When using RSACng (or another class which directly or indirectly uses RSACng) to perform encryption using RSAEncryptionPadding.Pkcs1 when the private key is stored on a smartcard (or other hardware security module) an exception of System.Security.Cryptography.CryptographicException: The parameter is incorrect. at System.Security.Cryptography.NCryptNative.DecryptData[T](SafeNCryptKeyHandle key, Byte[] data, T& paddingInfo, AsymmetricPaddingMode paddingMode, NCryptDecryptor`1 decryptor)  [299303] [Added: May 2017]
 
-CLR
----
+## CLR
 
 * AppContext values can be overridden by registry settings. [1076165]
 * Asmx service references can be added to store apps. [1078198]
@@ -203,13 +202,11 @@ CLR
 * .NET Framework Setup UI correctly scales controls in high DPI. [968115]
 * SIMD types in System.Numerics.dll are recognized by the JIT. [1168471]
 
-Entity Framework
-----------------
+##  Entity Framework
 
 * Entity data source can be configured without causing an exception about the provider not returning a ProviderManifest instance. [810937]
 
-WCF
----
+## WCF
 
 * Adding a service reference to a class library doesn't cause compilation errors. [1063611]
 * CustomBinding honors security header layout mode of Lax / LaxTimeStampLast. [1136398]
@@ -226,8 +223,7 @@ WCF
 * Added a keep-alive timeout on WCF ServiceHost. [948289]
 * Fixed a null reference exception in System.Runtime.Serialization when ETW is enabled. [1137758]
 
-Windows Forms
--------------
+## Windows Forms
 
 * Icon.ToBitmap() supports PNG framed icons. [1074253]
 * Adding large image to resource file doesn't cause error in 300% high DPI mode. [1096726]
@@ -238,8 +234,7 @@ Windows Forms
 * WIT grid's sorting arrows scale for high DPI. [745286]
 * NumericUpDown scroll buttons scale for high DPI. [906184]
 
-Workflow
---------
+## Workflow
 
 * WorkflowService design-time validation can be cancelled. [1162560]
 * ActivityExecutor.OnExecuteWorkItem has improved performance on RyuJIT. [1136333], [1136377]
@@ -248,8 +243,7 @@ Workflow
 * Default TransactionException extended to include the distributed transaction ID in error message. [954268]
 * Workflow Foundation implementation for SQL better handles transient database errors. [1152472]
 
-WPF
----
+## WPF
 
 * Selecting a XAML element with an empty start tag doesn't select its first child instead. [1117943]
 * Retrieving the font family name for DengXian in WPF doesn't cause an argument exception. [1153238]
@@ -291,3 +285,4 @@ WPF
 * Window chrome doesn't turn black on maximize with GlassFrameThickness -1. [1176703]
 * Improved RichTextBox typing performance on low-end GPUs. [1177602]
 * Applications continue to promote touch events to click after digitizer is removed and reconnected while touching the digitizer. [1186170]
+* A WPF application with a virtualizing list control (ListBox, DataGrid, TreeView, etc.) can encounter an ArgumentNullException when scrolling to an item whose size has substantially decreased since the last time it was re-virtualized. [273803, 282662, 282664, 367282, 367285] [Added: May 2017]

@@ -14,7 +14,7 @@ Available
 Previously, this method would throw if `true` was passed for the verbose
 parameter and there were certificates installed that weren't supported by the
 .NET Framework. Now, the method will succeed and return a valid string that
-omits the inaccessible portions of the certifiate.
+omits the inaccessible portions of the certificate.
 
 - [ ] Quirked
 - [ ] Build-time break

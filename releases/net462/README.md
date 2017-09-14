@@ -2,6 +2,7 @@
 
 You can learn about the changes made in the .NET Framework 4.6.2.
 
+- [Download](http://go.microsoft.com/fwlink/?LinkId=780597)
 - [.NET Framework 4.6.2 announcement blog post](https://blogs.msdn.microsoft.com/dotnet/2016/08/02/announcing-net-framework-4-6-2/)
 - [What's new in the .NET Framework 4.6.2](https://docs.microsoft.com/dotnet/articles/framework/whats-new/index#v462)
 - [Release notes](dotnet462-changes.md)

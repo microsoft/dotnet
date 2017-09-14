@@ -78,7 +78,8 @@ for .NET 4.6 and above applications running on .NET 4.7 or higher framework.
 * `N:System.Net.Http`
 
 ### Category
-Networking, Security
+Networking
+Security
 
 <!--
     Bug 274590:SslStream TLS Alerts implementation

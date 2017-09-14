@@ -19,7 +19,7 @@ parameter. If a call to a Dispatcher.Invoke overload with a @System.Delegate
 parameter is resolved as a call to a Dispatcher.Invoke overload with an
 @System.Action parameter, the following differences in behavior may occur:
 
-- If an exception occurs, the <xref:System.Windows.Threading.<xref:System.Windows.Threading.Dispatcher.UnhandledException>Filter> and <xref:System.Windows.Threading.Dispatcher.UnhandledException> events are not raised. Instead, exceptions are handled by the <xref:System.Threading.Tasks.TaskScheduler.UnobservedTaskException?displayProperty=name> event.
+- If an exception occurs, the <xref:System.Windows.Threading.Dispatcher.UnhandledExceptionFilter> and <xref:System.Windows.Threading.Dispatcher.UnhandledException> events are not raised. Instead, exceptions are handled by the <xref:System.Threading.Tasks.TaskScheduler.UnobservedTaskException?displayProperty=name> event.
 - Calls to some members, such as <xref:System.Windows.Threading.DispatcherOperation.Result>, block until the operation has completed.
 
 - [ ] Quirked

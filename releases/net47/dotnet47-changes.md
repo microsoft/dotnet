@@ -1,9 +1,7 @@
-.NET Framework 4.7 List of Changes
-============================================
+.NET Framework 4.7 Release Notes
+================================
 
-.NET Framework 4.7 contains dozens of bug fixes and improvements. 
-This list details those changes, grouped by feature area. 
-Each change includes our TFS bug numbers at the end of the line. Please include those numbers in your communication if you wish to contact us to obtain more information.
+.NET Framework release notes describe product improvements grouped by product area. Each change includes a Microsoft-internal VSTS bug number, which acts as a useful unique ID for each change (can be used to report issues or when calling Microsoft Support).
 
 ## ASP.NET
 

@@ -10,7 +10,7 @@ Major
 Available
 
 ### Change Description
-Beginning with C# 5 (Visual Studio 2012), foreach iterator variables are scoped within the iteration. This can cause breaks if code was previously depending on the variables to not be included in the foreach's closure. The symptom of this change will be that an iterator variable passed to a delagate will be treated as the value it had at the time the delegate was created, rather than the value it had at the time the delegate was invoked.
+Beginning with C# 5 (Visual Studio 2012), `foreach` iterator variables are scoped within the iteration. This can cause breaks if code was previously depending on the variables to not be included in the `foreach`'s closure. The symptom of this change is that an iterator variable passed to a delegate is treated as the value it has at the time the delegate is created, rather than the value it has at the time the delegate is invoked.
 
 - [ ] Quirked
 - [x] Build-time break
@@ -23,7 +23,6 @@ Ideally, code should be updated to expect the new compiler behavior. If the old 
 
 ### Categories
 Core
-C#
 
 [More information](http://blogs.msdn.com/b/ericlippert/archive/2009/11/12/closing-over-the-loop-variable-considered-harmful.aspx)
 

@@ -22,7 +22,7 @@ elements.
 
 ### Recommended Action
 
-UI Auomation tests for this app may need updated to account for the UIA tree now
+UI Automation tests for this app may need updated to account for the UIA tree now
 including previously invisible
 <xref:System.Windows.DataTemplate?displayProperty=name> elements. For example,
 tests that expect some elements to be next to each other may now need to expect

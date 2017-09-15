@@ -53,19 +53,23 @@ The .NET Framework 4.7.1 adds support for the fillowing UI automation patterns a
 - The `T:System.Windows.Forms.ToolStripDropDownItem` control supports [AccessibleEvents](https://docs.microsoft.com/dotnet/api/system.windows.forms.accessibleevents) indicating StateChange and NameChange when drop down is expanded or collapsed.
 - The `T:System.Windows.Forms.ToolStripDropDownButton` control has a [ControlType](https://docs.microsoft.com/dotnet/framework/ui-automation/ui-automation-support-for-the-menubar-control-type) property value of <xref:System.Windows.Automation.ControlType.MenuItem?displayProperty=fullName>
 - The `T:System.Windows.Forms.DataGridViewCheckBoxCell` control supports the [Toggle Pattern](https://docs.microsoft.com/dotnet/api/system.windows.automation.togglepattern)
+- The `T:System.Windows.Forms.NumericUpDown` and `T:System.Windows.Forms.DomainUpDown` controls support the [Name](https://docs.microsoft.com/dotnet/api/system.windows.automation.automationelement.nameproperty) and have a [ControlType](https://docs.microsoft.com/dotnet/framework/ui-automation/ui-automation-support-for-the-spinner-control-type) of <xref:System.Windows.Automation.ControlType.Spinner?displayProperty=fullName> and have support for the 
 
 __Improvements to PropertyBrowser control__
 
 The .NET Framework 4.7.1 adds the following improvements to the PropertyBrowser control: 
-- The __Details__ button in the error dialog that is displayed when the user enters an incorrect value in the T:System.Windows.Forms.PropertyGrid control supports the Expand/Collapse pattern, state and name change notifications, and a [ControlType](https://docs.microsoft.com/dotnet/framework/ui-automation/ui-automation-support-for-the-menubar-control-type) property with a value of <xref:System.Windows.Automation.ControlType.MenuItem?displayProperty=fullName>.
+- The __Details__ button in the error dialog that is displayed when the user enters an incorrect value in the `T:System.Windows.Forms.PropertyGrid` control supports the Expand/Collapse pattern, state and name change notifications, and a [ControlType](https://docs.microsoft.com/dotnet/framework/ui-automation/ui-automation-support-for-the-menubar-control-type) property with a value of <xref:System.Windows.Automation.ControlType.MenuItem?displayProperty=fullName>.
 - The [AccessibleRole](https://docs.microsoft.com/dotnet/api/system.windows.forms.accessiblerole) of rows in PropertyGrid control have changed from "Row" to "Cell". The cell maps to UIA ControlType "DataItem", which allows it to support appropriate keyboard shortcuts and Narrator announcements.
 - Improved keyboard navigation between the grid and the toolbar above it. Pressing "Shift-Tab" now selects the first ToolBar button, instead of the whole ToolBar
 
 __Use of OS-defined colors in High Contrast themes__
 
-- `T:System.Windows.Forms.Button` and `T:System.Windows.Forms.CheckBox` controls with `P:System.Windows.Forms.Control.FlatStyle` set to `F:System.Windows.Forms.FlatStyle.Standard`, which is the default style, now use OS-defined colors in High Contrast theme when selected. Previously, test and background colors were not contrasting and were hard to read.
-- `T:System.Windows.Forms.Button`, `T:System.Windows.Forms.CheckBox`, `T:System.Windows.Forms.RadioButton`, `T:System.Windows.Forms.Label`, `T:System.Windows.Forms.LinkLabel` and `T:System.Windows.Forms.GroupBox` with`P:System.Windows.Forms.Control.Enabled` set to _false_, used a shaded color to rendered text in High Contrast themes, resulting in low contrast against the background. Now these controls use "Disabled Text" color defined by the OS. This fix applies to control with `P:System.Windows.Forms.Control.FlatStyle` set value other than `F:System.Windows.Forms.FlatStyle.System`. The latter controls are rendered by the OS.
+- `T:System.Windows.Forms.Button` and `T:System.Windows.Forms.CheckBox` controls with `P:System.Windows.Forms.Control.FlatStyle` set to `F:System.Windows.Forms.FlatStyle.Standard`, which is the default style, now use OS-defined colors in High Contrast theme when selected. Previously, text and background colors were not contrasting and were hard to read.
+- `T:System.Windows.Forms.Button`, `T:System.Windows.Forms.CheckBox`, `T:System.Windows.Forms.RadioButton`, `T:System.Windows.Forms.Label`, `T:System.Windows.Forms.LinkLabel` and `T:System.Windows.Forms.GroupBox` with`P:System.Windows.Forms.Control.Enabled` set to _false_, used a shaded color to rendered text in High Contrast themes, resulting in low contrast against the background. Now these controls use "Disabled Text" color defined by the OS. This fix applies to control with `P:System.Windows.Forms.Control.FlatStyle` property set to a value other than `F:System.Windows.Forms.FlatStyle.System`. The latter controls are rendered by the OS.
 - `T:System.Windows.Forms.DataGridView` now renders a visible rectangle around the content of the cell which has the current focus. Previously, this was not visible in certain High Contrast themes.
+- `T:System.Windows.Forms.ToolStripMenuItem` controls with a `P:System.Windows.Forms.ToolStripItem.Enabled` property set to _false_ now use the "Disabled Text" color defined by the OS. 
+- `T:System.Windows.Forms.ToolStripMenuItem` controls with a `P:System.Windows.Forms.ToolStripItem.Checked` property set to _true_ now render the associated check mark in a contrasting system color.  Previously the check mark color was not contrasting enough and not visible in High Contrast themes.
+- 
 
 NOTE: Windows10 has changed values for some high contrast system colors. Windows Forms Framework is based on the Win32 framework. For the best experience, run on the latest version of Windows and opt in to the latest OS changes by adding an app.manifest file in a test application and uncommenting the following code:
 ```
@@ -77,7 +81,13 @@ __Improved keyboard navigation__
 - When a `T:System.Windows.Forms.ComboBox` control has `P:System.Windows.Forms.ComboBox.DropDownStyle` set to `F:System.Windows.Forms.DropDownStyle.DropDownList` and is the first control in the tab order on the form, it now displays a focus rectangle when the parent form is opened using the keyboard. Before this change, keyboard focus was on this control, but a focus indicator was not rendered.
 
 __Improved Narrator support__
-- The `T:Sysetm.Windows.Forms.MonthCalendar`control has added support for assistive technologies to access the control, inclding the ability for Narrator to read the value of the control when previously it could not.
+- The `T:System.Windows.Forms.MonthCalendar` control has added support for assistive technologies to access the control, including the ability for Narrator to read the value of the control when previously it could not.
+- The `T:System.Windows.Forms.CheckedListBox` control now notifies Narrator when the `P:System.Windows.Forms.CheckState` property has been changed. Previously, Narrator did not recieve notification and as a result users would not be informed that the `P:System.Windows.Forms.CheckState` had been updated.
+- The `T:System.Windows.Forms.LinkLabel` control has changed the way it notifies Narrator of the text of in the control. Previously, Narrator announced this text twice and read "&" symbols as real text even though they are not visible to a user. The duplicated text was removed from the Narrator announcements, as well as unnecessary & symbols.
+- The `T:System.Windows.Forms.DataGridViewCell` control types now correctly report the read-only status to Narrator and other assistive technologies.
+- Narrator is now able to read the System Menu of child windows in [Multiple-Document Interface](https://docs.microsoft.com/en-us/dotnet/framework/winforms/advanced/multiple-document-interface-mdi-applications) applications.
+- Narrator is now able to read `T:System.Windows.Forms.ToolStripMenuItem` controls with a `P:System.Windows.Forms.ToolStripItem.Enabled` property set to _false_. Previously, Narrator was unable to focus on disabled menu items to read hte content. 
+- 
 
 
 ### Affected APIs

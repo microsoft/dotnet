@@ -55,12 +55,21 @@ The .NET Framework 4.7.1 adds support for the fillowing UI automation patterns a
 - The `T:System.Windows.Forms.DataGridViewCheckBoxCell` control supports the [Toggle Pattern](https://docs.microsoft.com/dotnet/api/system.windows.automation.togglepattern)
 - The `T:System.Windows.Forms.NumericUpDown` and `T:System.Windows.Forms.DomainUpDown` controls support the [Name](https://docs.microsoft.com/dotnet/api/system.windows.automation.automationelement.nameproperty) and have a [ControlType](https://docs.microsoft.com/dotnet/framework/ui-automation/ui-automation-support-for-the-spinner-control-type) of <xref:System.Windows.Automation.ControlType.Spinner?displayProperty=fullName> and have support for the 
 
-__Improvements to PropertyBrowser control__
+__Improvements to PropertyGrid control__
 
 The .NET Framework 4.7.1 adds the following improvements to the PropertyBrowser control: 
-- The __Details__ button in the error dialog that is displayed when the user enters an incorrect value in the `T:System.Windows.Forms.PropertyGrid` control supports the Expand/Collapse pattern, state and name change notifications, and a [ControlType](https://docs.microsoft.com/dotnet/framework/ui-automation/ui-automation-support-for-the-menubar-control-type) property with a value of <xref:System.Windows.Automation.ControlType.MenuItem?displayProperty=fullName>.
-- The [AccessibleRole](https://docs.microsoft.com/dotnet/api/system.windows.forms.accessiblerole) of rows in PropertyGrid control have changed from "Row" to "Cell". The cell maps to UIA ControlType "DataItem", which allows it to support appropriate keyboard shortcuts and Narrator announcements.
+- The __Details__ button in the error dialog that is displayed when the user enters an incorrect value in the `T:System.Windows.Forms.PropertyGrid` control supports the [Expand/Collapse pattern](https://docs.microsoft.com/dotnet/framework/ui-automation/implementing-the-ui-automation-expandcollapse-control-pattern), state and name change notifications, and a [ControlType](https://docs.microsoft.com/dotnet/framework/ui-automation/ui-automation-support-for-the-menubar-control-type) property with a value of <xref:System.Windows.Automation.ControlType.MenuItem?displayProperty=fullName>.
+- The message pane displayed when the __Details__ button of the error dialog is now keyboard accessible and allows Narrator to announce the content of the error message.
+- The [AccessibleRole](https://docs.microsoft.com/dotnet/api/system.windows.forms.accessiblerole) of rows in `T:System.Windows.Forms.PropertyGrid` control have changed from "Row" to "Cell". The cell maps to UIA ControlType "DataItem", which allows it to support appropriate keyboard shortcuts and Narrator announcements.
+- The `T:System.Windows.Forms.PropertyGrid` control rows which represent header items when the has a `P:System.Windows.Forms.PropertySort` property set to `F:System.Windows.Forms.PropertySory.Categorized` have a [ControlType](https://docs.microsoft.com/dotnet/framework/ui-automation/ui-automation-support-for-the-menubar-control-type) property value <xref:System.Windows.Automation.ControlType.Button?displayProperty=fullName>
+- The `T:System.Windows.Forms.PropertyGrid` control rows which represent header items when the has a `P:System.Windows.Forms.PropertySort` property set to `F:System.Windows.Forms.PropertySory.Categorized` support the [Expand/Collapse pattern](https://docs.microsoft.com/dotnet/framework/ui-automation/implementing-the-ui-automation-expandcollapse-control-pattern).
 - Improved keyboard navigation between the grid and the toolbar above it. Pressing "Shift-Tab" now selects the first ToolBar button, instead of the whole ToolBar
+- `T:System.Windows.Forms.PropertyGrid` controls displayed in High Contrast mode will now draw a focus rectangle around the toolstrip button which corresponds to the current `P:System.Windows.Forms.PropertySort` property value.
+- `T:System.Windows.Forms.PropertyGrid` controls displayed in High Contrast mode and with a `P:System.Windows.Forms.PropertySort` property set to `F:System.Windows.Forms.PropertySory.Categorized` will now display the background of category headers in a highly contrasting color.
+- `T:System.Windows.Forms.PropertyGrid` controls better differentiates between toolstrip items with focus and the toolstrip item which indicates the current value of the `P:System.Windows.Forms.PropertySort` property. This fix consists of a High Contrast change and a change for non-High Contrast scenarios.
+- `T:System.Windows.Forms.PropertyGrid` control toolstrip items which indicates the current value of the `P:System.Windows.Forms.PropertySort` property support the [Toggle Pattern](https://docs.microsoft.com/dotnet/api/system.windows.automation.togglepattern).
+- Improved Narrator support for distinguishing the selected alignment in the Alignment Picker.
+- When an empty `T:System.Windows.Forms.PropertyGrid` control is displayed on a form, it will now receive focus where previously it would not.
 
 __Use of OS-defined colors in High Contrast themes__
 
@@ -69,7 +78,7 @@ __Use of OS-defined colors in High Contrast themes__
 - `T:System.Windows.Forms.DataGridView` now renders a visible rectangle around the content of the cell which has the current focus. Previously, this was not visible in certain High Contrast themes.
 - `T:System.Windows.Forms.ToolStripMenuItem` controls with a `P:System.Windows.Forms.ToolStripItem.Enabled` property set to _false_ now use the "Disabled Text" color defined by the OS. 
 - `T:System.Windows.Forms.ToolStripMenuItem` controls with a `P:System.Windows.Forms.ToolStripItem.Checked` property set to _true_ now render the associated check mark in a contrasting system color.  Previously the check mark color was not contrasting enough and not visible in High Contrast themes.
-- 
+
 
 NOTE: Windows10 has changed values for some high contrast system colors. Windows Forms Framework is based on the Win32 framework. For the best experience, run on the latest version of Windows and opt in to the latest OS changes by adding an app.manifest file in a test application and uncommenting the following code:
 ```

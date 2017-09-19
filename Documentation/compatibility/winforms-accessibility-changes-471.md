@@ -46,6 +46,8 @@ For an overview of UI automation, see the [UI Automation Overview](https://docs.
 
 __Added support for UI Automation patterns and properties__
 
+Accessibility clients can take advantage of new WinForms accessibility functionality by using common, publicly described invocation patterns. These is not WinForms-specific. For instance, accessibility clients can call the QueryInterface method on the IAccessible interface (MAAS) to obtain an IServiceProvider interface. If this interface is available, clients can use its QueryService method to request an IAccessibleEx interface. For more information, see [Using IAccessibleEx from a Client](https://msdn.microsoft.com/en-us/library/windows/desktop/dd561924(v=vs.85).aspx). Starting with the .NET Framework 4.7.1, IServiceProvider and [IAccessibleEx]( https://msdn.microsoft.com/en-us/library/windows/desktop/dd561898(v=vs.85).aspx) (where applicable) are available for WinForms accessibility objects.
+
 The .NET Framework 4.7.1 adds support for the fillowing UI automation patterns and properties:
 - The `T:System.Windows.Forms.ToolStripSplitButton` and `T:System.Windows.Forms.ComboBox` controls support the [Expand/Collapse pattern](https://docs.microsoft.com/dotnet/framework/ui-automation/implementing-the-ui-automation-expandcollapse-control-pattern)
 - The `T:System.Windows.Forms.ToolStripMenuItem` control has a [ControlType](https://docs.microsoft.com/dotnet/framework/ui-automation/ui-automation-support-for-the-menubar-control-type) property value <xref:System.Windows.Automation.ControlType.MenuItem?displayProperty=fullName>

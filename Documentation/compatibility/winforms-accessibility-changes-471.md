@@ -26,7 +26,7 @@ Windows Forms Framework is improving how it works with accessibility technologie
 __How to opt in or out of these changes__
   
 In order for the application to benefit from these changes, it must run on the .NET Framework 4.7.1 or later. The application can benefit from these changes in either of the following ways:
-- It is recompiled to target the .NET Framework 4.7.1.
+- It is recompiled to target the .NET Framework 4.7.1. These accessibility changes are enabled by default on Windows Forms applications that target the .NET Framework 4.7.1 or later.
 - It opts out of the legacy accessibility behaviors by adding the following [AppContext Switch](https://docs.microsoft.com/dotnet/framework/configure-apps/file-schema/runtime/appcontextswitchoverrides-element) to the ```<runtime>``` section of the app config file and setting it to false, as the following example shows.
 ```
     <?xml version="1.0" encoding="utf-8"?>
@@ -46,7 +46,7 @@ For an overview of UI automation, see the [UI Automation Overview](https://docs.
 
 __Added support for UI Automation patterns and properties__
 
-Accessibility clients can take advantage of new WinForms accessibility functionality by using common, publicly described invocation patterns. These is not WinForms-specific. For instance, accessibility clients can call the QueryInterface method on the IAccessible interface (MAAS) to obtain an IServiceProvider interface. If this interface is available, clients can use its QueryService method to request an IAccessibleEx interface. For more information, see [Using IAccessibleEx from a Client](https://msdn.microsoft.com/en-us/library/windows/desktop/dd561924(v=vs.85).aspx). Starting with the .NET Framework 4.7.1, IServiceProvider and [IAccessibleEx]( https://msdn.microsoft.com/en-us/library/windows/desktop/dd561898(v=vs.85).aspx) (where applicable) are available for WinForms accessibility objects.
+Accessibility clients can take advantage of new WinForms accessibility functionality by using common, publicly described invocation patterns. These patterns are not WinForms-specific. For instance, accessibility clients can call the QueryInterface method on the IAccessible interface (MAAS) to obtain an IServiceProvider interface. If this interface is available, clients can use its QueryService method to request an IAccessibleEx interface. For more information, see [Using IAccessibleEx from a Client](https://msdn.microsoft.com/en-us/library/windows/desktop/dd561924(v=vs.85).aspx). Starting with the .NET Framework 4.7.1, IServiceProvider and [IAccessibleEx]( https://msdn.microsoft.com/en-us/library/windows/desktop/dd561898(v=vs.85).aspx) (where applicable) are available for WinForms accessibility objects.
 
 The .NET Framework 4.7.1 adds support for the fillowing UI automation patterns and properties:
 - The `T:System.Windows.Forms.ToolStripSplitButton` and `T:System.Windows.Forms.ComboBox` controls support the [Expand/Collapse pattern](https://docs.microsoft.com/dotnet/framework/ui-automation/implementing-the-ui-automation-expandcollapse-control-pattern)
@@ -101,11 +101,11 @@ __Improved Narrator support__
 - 
 
 
-### Affected APIs
+### Affected APIs not detectable via API analysis
 * `M:System.Windows.Forms.ToolStripDropDownButton.CreateAccessibilityInstance`
 * `P:System.Windows.Forms.DomainUpDown.DomainUpDownAccessibleObject.Name`
 * `T:Sysetm.Windows.Forms.MonthCalendar.MonthCalendarAccessibleObject` 
-* 
+
 
 ### Category
 Windows Forms

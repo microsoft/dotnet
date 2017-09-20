@@ -1,4 +1,7 @@
-e## ASP.NET Accessibility Improvement in .NET 4.7.1
+
+ Quirked
+
+ Build-time breake## ASP.NET Accessibility Improvement in .NET 4.7.1
 
 ### Scope
 Minor
@@ -17,6 +20,9 @@ ASP.NET is improving how ASP.NET Web Controls work with accessibility technology
 - Changes to implement missing UI accessbility patterns in controls, like the Add Field dialog in the Details View wizard.
 - Changes to improve the display in High Contrast mode, like the Data Pager Fields Editor.
 - Changes to improve the keyboard navigation experiences for controls, like the Configure Object Context Window or the Configure Data Source Window.
+
+- [x] Quirked 
+- [ ] Build-time break 
 
 
 ### Recommended Action

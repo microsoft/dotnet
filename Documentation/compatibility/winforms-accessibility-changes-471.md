@@ -98,7 +98,6 @@ __Improved Narrator support__
 - The `T:System.Windows.Forms.DataGridViewCell` control types now correctly report the read-only status to Narrator and other assistive technologies.
 - Narrator is now able to read the System Menu of child windows in [Multiple-Document Interface](https://docs.microsoft.com/en-us/dotnet/framework/winforms/advanced/multiple-document-interface-mdi-applications) applications.
 - Narrator is now able to read `T:System.Windows.Forms.ToolStripMenuItem` controls with a `P:System.Windows.Forms.ToolStripItem.Enabled` property set to _false_. Previously, Narrator was unable to focus on disabled menu items to read hte content. 
-- 
 
 
 ### Affected APIs not detectable via API analysis

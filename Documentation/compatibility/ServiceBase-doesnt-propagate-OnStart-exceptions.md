@@ -14,9 +14,9 @@ NotPlanned
 
 ### Change Description
 
-In the .NET Framework 4.7 and earlier versions, exceptions thrown on service startup are not propagated to the caller of xref:System.ServiceProcess.Servicebase.Run.
+In the .NET Framework 4.7 and earlier versions, exceptions thrown on service startup are not propagated to the caller of <xref:System.ServiceProcess.Servicebase.Run?displayProperty=nameWithType>.
 
-Starting with applications that target the .NET Framework 4.7.1, the runtime propagates exceptions to <xref:System.ServiceProcess.Servicebase.Run:> for services that fail to start.
+Starting with applications that target the .NET Framework 4.7.1, the runtime propagates exceptions to <xref:System.ServiceProcess.Servicebase.Run?displayProperty=nameWithType> for services that fail to start.
 
 - [x] Quirked
 - [ ] Build-time break
@@ -26,11 +26,15 @@ On service start, if there is an exception, that exception will be propagated. T
 
 If this behavior is undesirable, you can opt out of it by adding the following <AppContextSwitchOverrides> element to the <runtime> section of your application configuration file:
 
-`<AppContextSwitchOverrides value="Switch.System.ServiceProcess.DontThrowExceptionsOnStart=true" />`
+```xml
+<AppContextSwitchOverrides value="Switch.System.ServiceProcess.DontThrowExceptionsOnStart=true" />
+```xml
 
-If your application is targeting an earlier version than 4.7.1 but you want to have this behavior, add the following <AppContextSwitchOverrides> element to the <runtime> section of your application configuration file:
+If your application targets an earlier version than 4.7.1 but you want to have this behavior, add the following <AppContextSwitchOverrides> element to the <runtime> section of your application configuration file:
 
-`<AppContextSwitchOverrides value="Switch.System.ServiceProcess.DontThrowExceptionsOnStart=false" />`
+```xml
+<AppContextSwitchOverrides value="Switch.System.ServiceProcess.DontThrowExceptionsOnStart=false" />
+```
 
 ### Affected APIs
 * `M:System.ServiceProcess.ServiceBase.Run`

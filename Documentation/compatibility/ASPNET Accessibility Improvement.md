@@ -1,7 +1,4 @@
-
- Quirked
-
- Build-time breake## ASP.NET Accessibility Improvement in .NET 4.7.1
+## ASP.NET Accessibility Improvement in .NET 4.7.1
 
 ### Scope
 Minor

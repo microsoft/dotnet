@@ -12,7 +12,6 @@ NotPlanned
 ### Change Description
 SignedXML and SignedCMS both default to SHA1 for some operations. This isn't a regression since it's been using SHA1 for ages, but with SHA1 no longer being secure it's necessary to update the default.
 
-// Replace the space with an 'x' if applicable
 - [X] Quirked
 - [ ] Build-time break
 

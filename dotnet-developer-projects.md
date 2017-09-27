@@ -171,8 +171,8 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [Strongly Typed Client API Generators for ASP.NET Web API](https://webapiclientgen.codeplex.com/) - Strongly Typed Client API Generators generate strongly typed client API in TypeScript and C# codes supporting desktop, Universal Windows, Android and iOS.
   * [Stuntman](https://github.com/ritterim/stuntman) - OWIN middleware for quickly mocking authentication/authorization use case scenarios locally. Supports Cookie Authentication and Bearer Token Authentication.
   * [SuperSocket](https://github.com/kerryjiang/SuperSocket) - An extensible socket server engine which supports .NET and Mono
+  * [surging](https://github.com/dotnetcore/surging) - The distributed micro service framework based on .NET Core provides high-performance RPC Communications
   * [Sweet.Jayson](https://github.com/ocdogan/Sweet.Jayson) - Fast, reliable, easy to use, fully json.org compliant, thread safe C# JSON library for server side and desktop operations.
-  * [surging](https://github.com/dotnetcore/surging) -The distributed micro service framework based on.NET Core provides high-performance RPC Communications
   * [VkSharp](https://github.com/kasthack/vksharp) - VK client library
   * [TomP2P.NET](https://github.com/tomp2p/TomP2P.NET) - A P2P-based high performance key-value pair storage library for .NET
   * [WampSharp](https://github.com/Code-Sharp/WampSharp) - A C# implementation of [The Web Application Messaging Protocol](http://wamp.ws) - a protocol that provides messaging patterns of Remote Procedure Calls and Publish/Subscribe over WebSockets.

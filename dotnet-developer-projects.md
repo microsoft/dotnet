@@ -100,6 +100,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [ArcGIS.PCL](https://github.com/davetimmins/ArcGIS.PCL) - Call ArcGIS Server REST API resources. You can also convert between ArcGIS features and GeoJSON.
   * [Argument](https://github.com/ashmind/Argument) - Argument validation microframework that does one thing in the simplest way possible.
   * [AshMind.Extensions](https://github.com/ashmind/ashmind-extensions) - A set of very conservative extension methods most of which closely follow naming and design patterns of .NET Base Class Library.
+  * [AspectCore](https://github.com/dotnetcore/AspectCore-Framework) - AspectCore is an Aspect-Oriented Programming based cross platform framework for .NET Core and .NET Framework.
   * [ASP.NET MVC Boilerplate Framework](https://github.com/ASP-NET-MVC-Boilerplate/Framework) - ASP.NET MVC Extensions and Helper NuGet packages.
   * [AsyncCollections](https://github.com/HellBrick/AsyncCollections) - A set of lock-free thread-safe collections designed to be used asynchronously.
   * [Automatonymous](https://github.com/MassTransit/Automatonymous) - An asynchronous state machine engine with messaging support. 

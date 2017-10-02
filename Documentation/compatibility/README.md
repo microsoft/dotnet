@@ -30,7 +30,7 @@ Please help us improve the [.NET Framework Application Compatibility documents](
 
 ## .NET Framework 4.6.2
 
-- [AesCrytpServiceProvider decryptor provides a reusable transform](aescryptoserviceprovider-decryptor-provides-a-reusable-transform.md)
+- [AesCryptoServiceProvider decryptor provides a reusable transform](aescryptoserviceprovider-decryptor-provides-a-reusable-transform.md)
 - [Calls to ClaimsIdentity constructors](calls-to-claimsidentity-constructors.md)
 - [Changes in path normalization](changes-in-path-normalization.md)
 - [Changing the IsEnabled property of the parent of a TextBlock control affects any child controls](changing-the-isenabled-property-of-the-parent-of-a-textblock-control-affects-any-child-controls.md)

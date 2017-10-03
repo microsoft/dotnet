@@ -11,36 +11,36 @@ NotPlanned
 
 ### Change Description
 The Windows Workflow Foundation (WF) workflow designer is improving how it works with accessibility technologies. These improvements include the following changes:
-- Tab order changed to left->right & top->bottom in some controls
-  - Initialize correlation window for setting correlation data for the InitializeCorrelation activity
-  - Content definition window for Receive, Send, SendReply, and ReceiveReply activities
-- More functions available via keyboard
-  - When editing the properties of an activity, fixed an issue where property groups could not be collapsed by keyboard the first time they are focused
-  - Warning icons are now accessible by keyboard
-  - More Properties button in properties window is no accessible by keyboard
-  - Keyboard users now can access the header items in the arguments and variables panes of the workflow designer
-- Improved visibility of focused items such as when
-  - Adding rows to data grids used by the workflow designer and activity designers
-  - Tabbing through fields in the ReceiveReply and SendReply activities
+- The tab order is changed to left to right and top to bottom in some controls:
+  - The initialize correlation window for setting correlation data for the `T:System.ServiceModel.Activities.InitializeCorrelation` activity
+  - The content definition window for the `T:System.ServiceModel.Activities.Receive`, `T:System.ServiceModel.Activities.Send`, `T:System.ServiceModel.Activities.SendReply`, and `T:System.ServiceModel.Activities.ReceiveReply` activities
+- More functions available via the keyboard:
+  - When editing the properties of an activity, property groups can be collapsed by keyboard the first time they are focused.
+  - Warning icons are now accessible by keyboard.
+  - The More Properties button in the Properties window is now accessible by keyboard.
+  - Keyboard users now can access the header items in the Arguments and Variables panes of the Workflow Designer
+- Improved visibility of items with focus such as when:
+  - Adding rows to data grids used by the Workflow Designer and activity designers
+  - Tabbing through fields in the `T:System.ServiceModel.Activities.ReceiveReply` and `T:System.ServiceModel.Activities.SendReply` activities
   - Setting default values for variables or arguments
-- Users of screen readers will see several improvements where the screen reader can now correctly recognize
-  - Breakpoints set in the workflow designer
-  - FlowSwitch, FlowDecision, and CorrelationScope activities
-  - Contents of the Receive activity
-  - Target type for the InvokeMethod activity
-  - Exception combobox and Finally section in the TryCatch activity
-  - Message type combobox, splitter in Add Correlation Initializers window, Content Definition window, and CorrelatesOn Defintion window in messaging activities
-  - State machine transitions and transitions destinations
-  - Annotations and connectors on FlowDecision activities
-  - Context (right-click) menus for activities
-  - Property value editors, clear search button, By Category and Alphabetical sort buttons, and expression editing dialog in the properties grid
-  - Zoom percentage in the workflow designer
-  - Separator in parallel and pick activities
-  - InvokeDelegate activity
-  - Select Types window for Dictionary activities
-  - Browse and Select .NET Type window
-  - Breadcrumbs in workflow designer
-- Users who choose High Contrast themes will see many improvements in the visibility of the workflow designer and its controls
+- Screen readers can now correctly recognize:
+  - Breakpoints set in the workflow designer.
+  - The `T:System.Activities.Statements.FlowSwitch`, `T:System.Activities.Statements.FlowDecision`, and `T:System.ServiceModel.Activities.CorrelationScope` activities.
+  - The contents of the `T:System.ServiceModel.Activities.Receive` activity.
+  - The Target Type for the `T:System.Activities.Statements.InvokeMethod` activity.
+  - The Exception combobox and the Finally section in the `T:System.Activities.Statements.TryCatch` activity.
+  - The Message Type combobox, the splitter in the Add Correlation Initializers window, the Content Definition window, and the CorrelatesOn Defintion window in the messaging activities (`T:System.ServiceModel.Activities.Receive`, `T:System.ServiceModel.Activities.Send`, `T:System.ServiceModel.Activities.SendReply`, and `T:System.ServiceModel.Activities.ReceiveReply`).
+  - State machine transitions and transitions destinations.
+  - Annotations and connectors on `T:System.Activities.Statements.FlowDecision` activities.
+  - The context (right-click) menus for activities.
+  - The property value editors, the Clear Search button, the By Category and Alphabetical sort buttons, and the Expression Editor dialog in the properties grid.
+  - The zoom percentage in the Workflow Designer.
+  - The separator in `T:System.Activities.Statements.Parallel` and `T:System.Activities.Statements.Pick` activities.
+  - The `T:System.Activities.Statements.InvokeDelegate` activity.
+  - The Select Types window for dictionary activities (`T:Microsoft.Activities.AddToDictionary`, `T:Microsoft.Activities.RemoveFromDictionary`, etc.).
+  - The Browse and Select .NET Type window.
+  - Breadcrumbs in the Workflow Designer.
+- Users who choose High Contrast themes will see many improvements in the visibility of the Workflow Designer and its controls like better contrast ratios between elements and more noticeable selection boxes used for focus elements.
 
 
 - [x] Quirked
@@ -48,8 +48,8 @@ The Windows Workflow Foundation (WF) workflow designer is improving how it works
 
 ### Recommended Action
 If you have an application with a re-hosted workflow designer, your application can benefit from these changes by performing either of these actions:
-- Recompile your application targeting .NET Framework 4.7.1. These accessibility changes are enabled by default.
-- Opt out of the legacy accessibility behaviors by adding the following [AppContext switch](https://docs.microsoft.com/dotnet/framework/configure-apps/file-schema/runtime/appcontextswitchoverrides-element) to the `<runtime>` section of the app.config file and set it to `false`, as the following example shows.
+- Recompile your application to target the .NET Framework 4.7.1. These accessibility changes are enabled by default.
+- If your application targets the .NET Framework 4.7 or earlier but is running on the .NET Framework 4.7.1, you can opt out of these legacy accessibility behaviors by adding the following [AppContext switch](https://docs.microsoft.com/dotnet/framework/configure-apps/file-schema/runtime/appcontextswitchoverrides-element) to the `<runtime>` section of the app.config file and set it to `false`, as the following example shows.
 ```
     <?xml version="1.0" encoding="utf-8"?>
     <configuration>

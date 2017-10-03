@@ -7,21 +7,26 @@ Minor
 ###Source Analyzer Status
 NotPlanned
 ###Change Description
-In .NET Framework 4.7 and earlier versions, there is a bug in one of the public constructors of AddressHeaderCollection where elements of the IEnumerable argument aren’t checked for null. Starting with .NET 4.7.1 the public constructor of AddressHeaderCollection(IEnumerable<AddressHeader> addressHeaders) now throws an ArgumentException if one of the elements is null.
+Starting with the .NET Framework 4.7.1, the `M:System.ServiceModel.Channels.AddressHeaderCollection.#ctor(System.Collections.Generic.IEnumerable{System.ServiceModel.Channels.AddressHeader})` constructor throws an `T:System.ArgumentException` if one of the elements is `null`. In the .NET Framework 4.7 and earlier versions, no exception is thrown.
+
 ###Recommended Action:
-If you run into compatibility issue with this change on .Net 4.7.1 or later version, you may opt-out the change by adding the following configuration in App config file:
+If you encounter compatibility issues with this change on the .NET Framework 4.7.1 or a later version, you can opt-out of it by adding the following line to the `<runtime>` section of the app.config file::
 
-    <configuration>
-	    <runtime>
-		    <AppContextSwitchOverrides value="Switch.System.ServiceModel.DisableAddressHeaderCollectionValidation=true" />
-		</runtime> 
-	</configuration>
-
+```xml
+<configuration>
+    <runtime>
+	    <AppContextSwitchOverrides value="Switch.System.ServiceModel.DisableAddressHeaderCollectionValidation=true" />
+	</runtime> 
+</configuration>
+```
   
 ##Affected APIs
-* Not detectable via API analysis
+* `M:System.ServiceModel.Channels.AddressHeaderCollection.#ctor(System.Collections.Generic.IEnumerable{System.ServiceModel.Channels.AddressHeader})`
+
+### Category
+* Windows Communication Foundation (WCF)
 
 <!--
     ### Original Bug
     [275879] (https://devdiv.visualstudio.com/web/wi.aspx?pcguid=011b8bdf-6d56-4f87-be0d-0092136884d9&id=275879)
-    -->
+-->

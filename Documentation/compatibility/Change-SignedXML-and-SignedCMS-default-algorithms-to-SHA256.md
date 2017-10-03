@@ -1,4 +1,5 @@
-## Change SignedXML and SignedCMS default algorithms to SHA256
+
+<!--## Change SignedXML and SignedCMS default algorithms to SHA256
 
 ### Scope
 Minor
@@ -30,3 +31,7 @@ T:System.Security.Cryptography.Xml.Reference
 
 ### Category
 Security
+
+<!--
+Bug ID # 397307 and # 397641 
+-->

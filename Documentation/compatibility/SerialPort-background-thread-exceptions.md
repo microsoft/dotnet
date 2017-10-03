@@ -10,7 +10,7 @@ Minor
 NotPlanned
 
 ### Change Description
-Background threads created with System.IO.Ports.SerialPort streams no longer terminate the process when OS exceptions are thrown.
+Background threads created with `T:System.IO.Ports.SerialPort` streams no longer terminate the process when OS exceptions are thrown.
 
 In applications that target the .NET Framework 4.7 and earlier versions, a process is terminated when an operating system exception is thrown on a background thread created with a T:System.IO.Ports.SerialPort stream.
 

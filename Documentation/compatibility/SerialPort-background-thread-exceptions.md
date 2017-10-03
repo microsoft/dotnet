@@ -10,7 +10,11 @@ Minor
 NotPlanned
 
 ### Change Description
-Background threads created with System.IO.Ports.SerialPort streams no longer terminate the process when OS exceptions are thrown. These background threads wait for OS events related to the active serial port and could crash in some cases, such as sudden removal of the serial port. 
+Background threads created with System.IO.Ports.SerialPort streams no longer terminate the process when OS exceptions are thrown.
+
+In applications that target the .NET Framework 4.7 and earlier versions, a process is terminated when an operating system exception is thrown on a background thread created with a T:System.IO.Ports.SerialPort stream.
+
+In applications that target the .NET Framework 4.7.1 or a later version, background threads wait for OS events related to the active serial port and could crash in some cases, such as sudden removal of the serial port. 
 
 - [X] Quirked
 - [ ] Build-time break

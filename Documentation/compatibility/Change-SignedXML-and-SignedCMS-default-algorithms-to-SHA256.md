@@ -11,23 +11,34 @@ Minor
 NotPlanned
 
 ### Change Description
-SignedXML and SignedCMS both default to SHA1 for some operations. This isn't a regression since it's been using SHA1 for ages, but with SHA1 no longer being secure it's necessary to update the default.
+In .NET 4.7 and earlier, SignedXML and SignedCMS default to SHA1 for some operations.
+
+Starting with the .NET Framework 4.7.1, SHA256 is enabled by default for these operations. This change is necessary because SHA1 is no longer considered to be secure.
 
 - [X] Quirked
 - [ ] Build-time break
 
 ### Recommended Action
-There are two new context switch values to toggle the new default value:
+There are two new context switch values to control whether SHA1 (insecure) or SHA256 is used by default:
 
-Switch.System.Security.Cryptography.Xml.UseInsecureHashAlgorithms
-Switch.System.Security.Cryptography.Pkcs.UseInsecureHashAlgorithms
+- Switch.System.Security.Cryptography.Xml.UseInsecureHashAlgorithms
+- Switch.System.Security.Cryptography.Pkcs.UseInsecureHashAlgorithms
 
-When targetting .NET versions before 4.7.1, the default value of the above switches is "true" i.e. enabled, meaning that SHA1 will be used. Only when on 4.7.1+ or when manually enabling the above switches will the new default SHA256 be used.
+For applications that target the .NET Framework 4.7.1 and later versions, if the use of SHA256 is undesirable, you can restore the default to SHA1 by adding the following configuration switch to the [runtime](https://docs.microsoft.com/en-us/dotnet/framework/configure-apps/file-schema/runtime/runtime-element) section of your app config file:
+
+```xml
+<AppContextSwitchOverrides value="Switch.System.Security.Cryptography.Xml.UseInsecureHashAlgorithms=true;Switch.System.Security.Cryptography.Pkcs.UseInsecureHashAlgorithms=true" /> 
+```
+For applications that target the .NET Framework 4.7 and earlier versions, you can opt into this change by adding the following configuration switch to the [runtime](https://docs.microsoft.com/en-us/dotnet/framework/configure-apps/file-schema/runtime/runtime-element) section of your app config file:
+
+```xml
+<AppContextSwitchOverrides value="Switch.System.Security.Cryptography.Xml.UseInsecureHashAlgorithms=false;Switch.System.Security.Cryptography.Pkcs.UseInsecureHashAlgorithms=false" /> 
+```
 
 ### Affected APIs
-T:System.Security.Cryptography.Pkcs.CmsSigner
-T:System.Security.Cryptography.Xml.SignedXml
-T:System.Security.Cryptography.Xml.Reference
+* `T:System.Security.Cryptography.Pkcs.CmsSigner`
+* `T:System.Security.Cryptography.Xml.SignedXml`
+* `T:System.Security.Cryptography.Xml.Reference`
 
 ### Category
 Security

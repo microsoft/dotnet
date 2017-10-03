@@ -1,5 +1,4 @@
-
-<!--## Change SignedXML and SignedCMS default algorithms to SHA256
+## Change SignedXML and SignedCMS default algorithms to SHA256
 
 ### Scope
 Minor

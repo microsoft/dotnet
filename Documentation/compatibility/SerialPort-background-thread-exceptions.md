@@ -43,3 +43,7 @@ For apps that target earlier versions of the .NET Framework but run on the .NET 
 
 ### Category
 Core
+
+<!--
+Bug #428461
+-->

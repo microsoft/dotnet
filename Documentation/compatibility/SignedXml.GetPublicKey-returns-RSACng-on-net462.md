@@ -26,3 +26,7 @@ M:System.Security.Cryptography.SignedXml.CheckSignatureReturningKey(System.Secur
 
 ### Category
 Security
+
+<!--
+Bug # 432261 
+-->

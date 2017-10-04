@@ -13,7 +13,7 @@ Edge
 NotPlanned
 
 ### Change Description
-Starting with the .NET Framework 4.6.2, the concrete type of the object returned by the <xref:System.Security.Cryptography.Xml.SignedXml.GetPublicKey%2A?displayProperty=nameWithType> method changed (without a quirk) from a CryptoServiceProvider implementation to a Cng implementation. This is because the implementation changed from using certificate.PublicKey.Key to using the internal certificate.GetAnyPublicKey which forwards to <xref:System.Security.Cryprography.X509Certificates.RSACertificateExtensions.GetRSAPublicKey%2A?displayProperty=nameWithType>.
+Starting with the .NET Framework 4.6.2, the concrete type of the object returned by the `<xref:System.Security.Cryptography.Xml.SignedXml.GetPublicKey%2A?displayProperty=nameWithType>` method changed (without a quirk) from a CryptoServiceProvider implementation to a Cng implementation. This is because the implementation changed from using certificate.PublicKey.Key to using the internal certificate.GetAnyPublicKey which forwards to `<xref:System.Security.Cryprography.X509Certificates.RSACertificateExtensions.GetRSAPublicKey%2A?displayProperty=nameWithType>`.
 
 - [x] Quirked
 - [ ] Build-time break

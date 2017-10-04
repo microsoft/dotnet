@@ -12,24 +12,24 @@ NotPlanned
 ### Change Description
 __High Contrast improvements__
 
-- The focus for the T:System.Windows.Controls.Expander control is now visible. In previous versions of the .NET Framework, it was not.
-- The text in T:System.Windows.Controls.CheckBox and T:System.Windows.Controls.RadioButton controls when they are selected is now easier to see than in previous .NET Framework versions.
-- The border of a disabled T:System.Windows.Controls.ComboBox is now the same color as the disabled text. In previous versions of the .NET Framework, it was not.
+- The focus for the `T:System.Windows.Controls.Expander` control is now visible. In previous versions of the .NET Framework, it was not.
+- The text in `T:System.Windows.Controls.CheckBox` and `T:System.Windows.Controls.RadioButton` controls when they are selected is now easier to see than in previous .NET Framework versions.
+- The border of a disabled `T:System.Windows.Controls.ComboBox` is now the same color as the disabled text. In previous versions of the .NET Framework, it was not.
 - Disabled and focused buttons now use the correct theme color. In previous versions of the .NET Framework, they did not.
-- The dropdown button is now visible when a T:System.Windows.Controls.ComboBox control's style is set to <xref:System.Windows.Controls.ToolBar.ComboBoxStyleKey?displayProperty=typeWithName>, In previous versions of the .NET Framework, it was not.
-- The sort indicator arrow in a T:System.Windows.Controls.DataGrid control now uses theme colors. In previous versions of the .NET Framework, it did not.
+- The dropdown button is now visible when a `T:System.Windows.Controls.ComboBox` control's style is set to <xref:System.Windows.Controls.ToolBar.ComboBoxStyleKey?displayProperty=typeWithName>, In previous versions of the .NET Framework, it was not.
+- The sort indicator arrow in a `T:System.Windows.Controls.DataGrid` control now uses theme colors. In previous versions of the .NET Framework, it did not.
 - The default hyperlink style now changes to the correct theme color on mouse over. In previous versions of the .NET Framework, it did not.
 - The Keyboard focus on radio buttons is now visible. In previous versions of the .NET Framework, it was not.
-- The T:System.Windows.Controls.DataGrid control's checkbox column now uses the expected colors for keyboard focus feedback. In previous versions of the .NET Framework, it did not.
-- the Keyboard focus visuals are now visible on T:System.Windows.Controls.ComboBox and T:System.Windows.Controls.ListBox. In previous versions of the .NET Framework, it was not.
+- The `T:System.Windows.Controls.DataGrid` control's checkbox column now uses the expected colors for keyboard focus feedback. In previous versions of the .NET Framework, it did not.
+- the Keyboard focus visuals are now visible on `T:System.Windows.Controls.ComboBox` and `T:System.Windows.Controls.ListBox`. In previous versions of the .NET Framework, it was not.
 
 
 __Screen reader interaction improvements__
 
-- T:System.Windows.Controls.Expander controls are now correctly announced as groups (expand/collapse) by screen readers.
-- T:System.Windows.Controls.DataGridCell controls are now correctly announced as data grid cell (localized) by screen readers.
-- Screen readers will now announce the name of an editable T:System.Windows.Controls.ComboBox.
-- T:System.Windows.Controls.PasswordBox controls are no longer announced as “no item in view” by screen readers.
+- `T:System.Windows.Controls.Expander` controls are now correctly announced as groups (expand/collapse) by screen readers.
+- `T:System.Windows.Controls.DataGridCell` controls are now correctly announced as data grid cell (localized) by screen readers.
+- Screen readers will now announce the name of an editable `T:System.Windows.Controls.ComboBox`.
+- `T:System.Windows.Controls.PasswordBox` controls are no longer announced as “no item in view” by screen readers.
 
 
 __LiveRegion support__

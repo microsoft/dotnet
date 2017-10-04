@@ -13,15 +13,13 @@ Edge
 NotPlanned
 
 ### Change Description
-We let an object return type change in net462 without quirking it. This change adds a quirk to use the old method of getting the return value (certificate.PublicKey.Key) instead of the new method (certificate.GetAnyPublicKey)
-
-The concrete type of the object returned by the SignedXml.GetPublicKey method changed (without a quirk) from a CryptoServiceProvider implementation to a Cng implementation in 4.6.2. This is because the implementation changed from usingcertificate.PublicKey.Key to using the internal certificate.GetAnyPublicKey in 4.6.2 which forwards e.g. to RSACertificateExtensions.GetRSAPublicKey.
+Starting with the .NET Framework 4.6.2, the concrete type of the object returned by the <xref:System.Security.Cryptography.Xml.SignedXml.GetPublicKey%2A?displayProperty=nameWithType> method changed (without a quirk) from a CryptoServiceProvider implementation to a Cng implementation. This is because the implementation changed from using certificate.PublicKey.Key to using the internal certificate.GetAnyPublicKey which forwards to <xref:System.Security.Cryprography.X509Certificates.RSACertificateExtensions.GetRSAPublicKey%2A?displayProperty=nameWithType>.
 
 - [x] Quirked
 - [ ] Build-time break
 
 ### Recommended Action
-To force usage of the CryptoServiceProvider implementations for SignedXml.GetPublicKey, you can add the following configuration switch to the [runtime](https://docs.microsoft.com/en-us/dotnet/framework/configure-apps/file-schema/runtime/runtime-element) section of your app config file:
+Starting with apps running on the .NET Framework 4.7.1, you can use the CryptoServiceProvider implementation used by default in the .NET Framework 4.6.1 and earlier versions by adding the following configuration switch to the [runtime](https://docs.microsoft.com/en-us/dotnet/framework/configure-apps/file-schema/runtime/runtime-element) section of your app config file:
 
 ```xml
 <AppContextSwitchOverrides value="Switch.System.Security.Cryptography.Xml.SignedXmlUseLegacyCertificatePrivateKey=true" /> 

@@ -13,7 +13,7 @@ Edge
 NotPlanned
 
 ### Change Description
-CngLightup (used in several higher-level crypto apis, such as EncryptedXML) and RSACng have several cases where they rely on full trust, including calling P/Invokes without asserting UnmanagedCode permission and code paths where CngKey has demands for UnmanagedCode. In 4.6.2, CngLightup was used to switch to RSACng wherever possible. This means that partial trust apps that could successfully use EncryptedXML and the other APIs before now fail with SecurityExceptions. 
+CngLightup (used in several higher-level crypto apis, such as T:System.Security.Cryptography.Xml.EncryptedXml) and T:System.Security.Cryptography.RSACng in some cases rely on full trust. These include P/Invokes without asserting F:System.Security.Permissions.SecurityPermissionFlag.UnmanagedCode permissions, and code paths where T:System.Security.Cryptography.CngKey has permission demands for F:System.Security.Permissions.SecurityPermissionFlag.UnmanagedCode. Starting with the .NET Framework 4.6.2, CngLightup was used to switcdh to RSACng wherever possible. As a result, partial trust apps that successfully used T:System.Security.Cryptography.Xml.EncryptedXml began to fail and throw T:System.Security.SecurityException exceptions.
 
 This change adds the required asserts so that all functions using CngLightup have the required permissions.
 

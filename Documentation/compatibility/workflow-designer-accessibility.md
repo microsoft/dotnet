@@ -1,4 +1,4 @@
-## Accessibility improvements in WF workflow designer
+## Accessibility improvements in Windows Workflow Foundation (WF) workflow designer
 
 ### Scope
 Minor
@@ -14,14 +14,14 @@ The Windows Workflow Foundation (WF) workflow designer is improving how it works
 - The tab order is changed to left to right and top to bottom in some controls:
   - The initialize correlation window for setting correlation data for the `T:System.ServiceModel.Activities.InitializeCorrelation` activity
   - The content definition window for the `T:System.ServiceModel.Activities.Receive`, `T:System.ServiceModel.Activities.Send`, `T:System.ServiceModel.Activities.SendReply`, and `T:System.ServiceModel.Activities.ReceiveReply` activities
-- More functions available via the keyboard:
+- More functions are available via the keyboard:
   - When editing the properties of an activity, property groups can be collapsed by keyboard the first time they are focused.
   - Warning icons are now accessible by keyboard.
   - The More Properties button in the Properties window is now accessible by keyboard.
-  - Keyboard users now can access the header items in the Arguments and Variables panes of the Workflow Designer
-- Improved visibility of items with focus such as when:
-  - Adding rows to data grids used by the Workflow Designer and activity designers
-  - Tabbing through fields in the `T:System.ServiceModel.Activities.ReceiveReply` and `T:System.ServiceModel.Activities.SendReply` activities
+  - Keyboard users now can access the header items in the Arguments and Variables panes of the Workflow Designer.
+- Improved visibility of items with focus, such as when:
+  - Adding rows to data grids used by the Workflow Designer and activity designers.
+  - Tabbing through fields in the `T:System.ServiceModel.Activities.ReceiveReply` and `T:System.ServiceModel.Activities.SendReply` activities.
   - Setting default values for variables or arguments
 - Screen readers can now correctly recognize:
   - Breakpoints set in the workflow designer.

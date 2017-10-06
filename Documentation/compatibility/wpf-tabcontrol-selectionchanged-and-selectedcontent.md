@@ -10,16 +10,17 @@ Minor
 NotPlanned
 
 ### Change Description
-When its selection changes, a `T:System.Windows.Controls.TabControl` now updates the value of its
+Starting with the .NET Framework 4.7.1, a `T:System.Windows.Controls.TabControl` updates the value of its
 `P:System.Windows.Controls.TabControl.SelectedContent` property before raising the
-`E:System.Windows.Controls.Primitives.Selector.SelectionChanged` event.
+`E:System.Windows.Controls.Primitives.Selector.SelectionChanged` event, when its selection changes.
+
+In the .NET Framework 4.7 and earlier versions, the update to SelectedContent happened after the event.
 
 - [X] Quirked
 - [ ] Build-time break
 
 ### Recommended Action
 Apps that target the .NET Framework 4.7.1 or later can opt out of this change and use legacy behavior
-(updating SelectedContent after raising the SelectionChanged event)
 by adding the following to the `<runtime>` section of the application configuration file:
 
    ```xml
@@ -28,7 +29,7 @@ by adding the following to the `<runtime>` section of the application configurat
    </runtime>
    ```
 
-Apps that target the .NET Framework 4.7 or earlier but are running on the .NET Framework 4.7.1 or later can enable the changes to path normalization by adding the following line to the `<runtime>` section of the application .configuration file:
+Apps that target the .NET Framework 4.7 or earlier but are running on the .NET Framework 4.7.1 or later can enable the new behavior by adding the following line to the `<runtime>` section of the application .configuration file:
 
    ```xml
    <runtime>

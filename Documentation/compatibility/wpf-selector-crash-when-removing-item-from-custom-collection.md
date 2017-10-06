@@ -13,11 +13,13 @@ Minor
 NotPlanned
 
 ### Change Description
-An InvalidOperationException can occur in the following scenario:
-  * A `T:System.Windows.Controls.Primitives.Selector`'s ItemSource is a collection with a custom
+An 'T:System.InvalidOperationException` can occur in the following scenario:
+  * The ItemsSource for a `T:System.Windows.Controls.Primitives.Selector` is a collection with a custom
 	implementation of `T:System.Collections.Specialized.INotifyCollectionChanged`.
   * The selected item is removed from the collection.
-  * The `T:System.Collections.Specialized.NotifyCollectionChangedEventArgs` has OldStartingIndex = -1 (indicating "unknown position").
+  * The `T:System.Collections.Specialized.NotifyCollectionChangedEventArgs` has 
+    `P:System.Collections.Specialized.NotifyCollectionChangedEventArgs.OldStartingIndex` = -1 
+	(indicating an unknown position).
 
 The exception's callstack begins
    at System.Windows.Threading.Dispatcher.VerifyAccess()

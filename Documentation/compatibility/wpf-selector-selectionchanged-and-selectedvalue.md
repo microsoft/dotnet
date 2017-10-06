@@ -10,12 +10,14 @@ Minor
 NotPlanned
 
 ### Change Description
-When its selection changes, a `T:System.Windows.Controls.Primitives.Selector` now updates the value of its
+Starting with the .Net Framework 4.7.1, a `T:System.Windows.Controls.Primitives.Selector` always updates the value of its
 `P:System.Windows.Controls.Primitives.Selector.SelectedValue` property before raising the
-`E:System.Windows.Controls.Primitives.Selector.SelectionChanged` event.
-This makes the SelectedValue property consistent with the other selection properties (SelectedItem and SelectedIndex), which are updated before raising the event.
+`E:System.Windows.Controls.Primitives.Selector.SelectionChanged` event, when its selection changes.
+This makes the SelectedValue property consistent with the other selection properties 
+(`P:System.Windows.Controls.Primitives.Selector.SelectedItem` and 
+`P:System.Windows.Controls.Primitives.Selector.SelectedIndex`), which are updated before raising the event.
 
-Prior to this fix, the update to SelectedValue happened before the event in most cases, but happened
+In the .NET Framework 4.7 and earlier versions, the update to SelectedValue happened before the event in most cases, but it happened
 after the event if the selection change was caused by changing the 
 `P:System.Windows.Controls.Primitives.Selector.SelectedValue` property.
 

@@ -20,7 +20,7 @@ circumstances:
 * Content of the *-rows doesn't exceed the corresponding MaxHeight
 * The Grid's available height is exceeded by the first MinHeight (plus any other fixed or Auto rows)
 * The app targets .Net 4.7, or opts in to the 4.7 allocation algorithm by setting
-   Switch.System.Windows.Controls.Grid.StarDefinitionsCanExceedAvailableSpace=false
+   `Switch.System.Windows.Controls.Grid.StarDefinitionsCanExceedAvailableSpace=false`
 
 The loop would also happen with more than two rows, or in the analogous case for columns.
 

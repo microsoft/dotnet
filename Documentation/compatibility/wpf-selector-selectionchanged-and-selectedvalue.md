@@ -26,7 +26,6 @@ after the event if the selection change was caused by changing the
 
 ### Recommended Action
 Apps that target the .NET Framework 4.7.1 or later can opt out of this change and use legacy behavior
-(updating SelectedValue after raising the SelectionChanged event, in the case when the selection was changed by setting SelectedValue)
 by adding the following to the `<runtime>` section of the application configuration file:
 
    ```xml
@@ -35,7 +34,7 @@ by adding the following to the `<runtime>` section of the application configurat
    </runtime>
    ```
 
-Apps that target the .NET Framework 4.7 or earlier but are running on the .NET Framework 4.7.1 or later can enable the changes to path normalization by adding the following line to the `<runtime>` section of the application .configuration file:
+Apps that target the .NET Framework 4.7 or earlier but are running on the .NET Framework 4.7.1 or later can enable the new behavior by adding the following line to the `<runtime>` section of the application .configuration file:
 
    ```xml
    <runtime>

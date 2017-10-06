@@ -12,7 +12,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [Banshee](https://github.com/GNOME/banshee) - A cross-platform multimedia player
  * [Espera](https://github.com/flagbug/Espera) - A media player that plays your music, YouTube videos, SoundCloud songs, has a special "party mode" and an Android remote control.
  * [Simple Music Player](https://github.com/punker76/simple-music-player) SimpleMP or Simple Music Player is a simple and easy to use music player for free. It plays the most common music files (mp3, ogg, wma, wav) in a simple way.
- * [Waf Music Manager](http://wmm.codeplex.com) – is a simple and fast application that makes fun to manage the local music collection.
+ * [Waf Music Manager](https://jbe2277.github.io/musicmanager) – is a simple and fast application that makes fun to manage the local music collection.
 
 ## Internet/Chat Applications
  * [Smuxi IM](https://github.com/meebey/smuxi) - free, distributed and user-friendly IRC / Twitter / XMPP / Campfire / JabbR client for Linux, Windows and Mac OS X 

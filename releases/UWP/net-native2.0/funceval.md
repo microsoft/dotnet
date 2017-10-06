@@ -1,6 +1,6 @@
 # .NET Native 2.0 Function Evaluation Debugger Support (Preview)
 
-As part o the [.NET Native 2.0 release](README.md), we have shipped a preview of the FuncEval feature that aims to improve diagnostics and overall debugging experience for UWP Applications compiled with the .NET Native 2.0 toolchain.  Please note that since this is only a public preview of the feature, it is turned off by default and can be turned on by setting a registry key.  Once FuncEval support is enabled, you should be able to inspect WinRT Properties under the debugger, that you previously could not.
+As part of the [.NET Native 2.0 release](README.md), we have shipped a preview of the FuncEval feature that aims to improve diagnostics and overall debugging experience for UWP Applications compiled with the .NET Native 2.0 toolchain.  Please note that since this is only a public preview of the feature, it is turned off by default and can be turned on by setting a registry key.  Once FuncEval support is enabled, you should be able to inspect WinRT Properties under the debugger, that you previously could not.
 
 ## How to use Function Evaluation (FuncEval) in Visual Studio 2017 15.4
 

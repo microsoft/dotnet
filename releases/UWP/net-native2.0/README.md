@@ -2,7 +2,7 @@
 
 You can see what was included in each .NET Native 2.0 ([Microsoft.NETCore.UniversalWindowsPlatform 6.0.x](https://www.nuget.org/packages/Microsoft.NETCore.UniversalWindowsPlatform)) release, below.
 
-When using Visual Studio these packages require Visual Studio version 15.4 or later.
+When using Visual Studio these packages require Visual Studio 2017 Version 15.4 or later.
 
 ### 6.0.1 (October 5, 2017)
 
@@ -14,7 +14,7 @@ When using Visual Studio these packages require Visual Studio version 15.4 or la
 
 #### Improvements to Program Optimization, Throughput and Debuggability.
 
-- This release of the .NET Native code generator includes substantial improvements to optimization, throughput and debuggability. This includes many new features from the Visual C++ compiler in Visual Studio 2017.  For example, a new SSA optimizer has been enabled and adapted to managed code and carefully tuned.
+- This release of the .NET Native code generator includes substantial improvements to optimization, throughput and debuggability. This includes many new features from the Visual C++ compiler in Visual Studio 2017 Version 15.4.  For example, a new SSA optimizer has been enabled and adapted to managed code and carefully tuned.
 - This release also includes .NET language targeted improvements in
     - native pointer tracking
     - static initialization of scalars and arrays

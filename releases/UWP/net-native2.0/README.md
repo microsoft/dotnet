@@ -56,8 +56,8 @@ When using Visual Studio these packages require Visual Studio version 15.4 or la
 - **Build Warnings and other Compilation Changes**
     - App developers encountering an OutOfMemoryException during Release compilation can specify ```<SingleThreadNUTC>true</SingleThreadNUTC>``` in their project properties.  This will run part of the toolchain on a single thread reducing the amount of memory used, and it may prevent the exception.
     - App sizes and build times have increased by approximately 20% due to support for additional .NET Standard 2.0 APIs
-    - MCG0004:InternalAssert Assert Failed: unexpectedly found non-native type during [UNKNOWN] Caused by an interop-eligible struct(outer) containing a second struct(inner) as a field with explicit layout and one or more static fields. The workaround is to declare all the static fields of the inner struct before the instance fields. [484367]
-    - Clicking "Enable static analysis for .NET Native" option in UWP project properties fails with the error: Could not find file 'x86\ilc\lib\Facades'
+    - ```MCG0004:InternalAssert Assert Failed: unexpectedly found non-native type during [UNKNOWN] Caused by an interop-eligible struct(outer) containing a second struct(inner) as a field with explicit layout and one or more static fields.``` The workaround is to declare all the static fields of the inner struct before the instance fields. [484367]
+    - Clicking ```"Enable static analysis for .NET Native"``` option in UWP project properties fails with the error: ```Could not find file 'x86\ilc\lib\Facades'```
         - Workaround: Uncheck the ```"Enable static analysis for .NET Native"``` option in project properties under the Build pane
 
 ## Resources

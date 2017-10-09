@@ -5,7 +5,7 @@ Minor
 
 
 ### Version Introduced
-.NET 4.7.1
+4.7.1
 
 
 ### Source Analyzer Status
@@ -18,8 +18,8 @@ Starting with the .NET Framework 4.7.1, ASP.NET has improved how ASP.NET Web Con
 - Changes to improve the display in High Contrast mode, like the Data Pager Fields Editor.
 - Changes to improve the keyboard navigation experiences for controls, like the Fields dialog in the Edit Pager Fields wizard of the DataPager control, the Configure ObjectContext dialog, or the Configure Data Selction dialog of the Configure Data Source wizard.
 
-- [x] Quirked 
-- [ ] Build-time break 
+- [x] Quirked
+- [ ] Build-time break
 
 
 ### Recommended Action

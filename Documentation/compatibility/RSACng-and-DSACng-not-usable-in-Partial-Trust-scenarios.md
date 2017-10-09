@@ -31,8 +31,8 @@ If this change in the .NET Framework 4.6.2 has negatively impacted your partial 
 * `M:System.Security.Cryptography.DSACng.VerifySignature(System.Byte[],System.Byte[])`
 * `M:System.Security.Cryptography.RSACng.#ctor(System.Security.Cryptography.CngKey)`
 * `P:System.Security.Cryptography.RSACng.Key`
-* `M:System.Security.Cryptography.RSACng.Decrypt(System.Byte[], System.Security.Cryptography.RSAEncryptionPadding)`
-* `M:System.Security.Cryptography.RSACng.SignHash(System.Byte[], System.Security.Cryptography.HashAlgorithmName, System.Security.Cryptography.RSASignaturePadding)`
+* `M:System.Security.Cryptography.RSACng.Decrypt(System.Byte[],System.Security.Cryptography.RSAEncryptionPadding)`
+* `M:System.Security.Cryptography.RSACng.SignHash(System.Byte[],System.Security.Cryptography.HashAlgorithmName,System.Security.Cryptography.RSASignaturePadding)`
 
 ### Category
 Security

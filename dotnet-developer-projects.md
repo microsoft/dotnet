@@ -223,7 +223,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [Radical](https://github.com/RadicalFx/radical) - An infrastructure framework whose primary role is to help in the development of composite WPF/Silverlight/WP/WinRT applications based on the Model View ViewModel pattern.
   * [ReactiveUI](https://github.com/reactiveui/ReactiveUI) - An MVVM framework that integrates with the Reactive Extensions for .NET to create elegant, testable User Interfaces that run on any mobile or desktop platform.
   * [Simple Mvvm Toolkit](http://simplemvvmtoolkit.codeplex.com/) - Provides a simple framework and set of tools for getting up to speed quickly with applications based on the MVVM design pattern. 
-  * [WPF Application Framework (WAF)](http://waf.codeplex.com) - A lightweight Framework that helps you to create well structured WPF Applications. It supports you in applying a Layered Architecture and the Model-View-ViewModel pattern.
+  * [Win Application Framework (WAF)](https://github.com/jbe2277/waf) - A lightweight Framework that helps you to create well structured XAML Applications. It supports you in applying a Layered Architecture and the Model-View-ViewModel pattern.
 
 ## Tools
   * [API Port](https://github.com/microsoft/dotnet-apiport) - A tool that will analyze code for compatability issues when migrating between .NET Framework releases.  
@@ -254,7 +254,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [Snoop WPF](https://github.com/cplotts/snoopwpf) - Snoop - The WPF Spy Utility
   * [Sql Bulk Copy Sync](https://github.com/WCOMAB/SqlBulkSync)
   * [Vagabond](https://github.com/nessos/Vagabond) - Automated dependency resolution and dynamic assembly compilation framework.
-  * [Waf DotNetPad](http://dotnetpad.codeplex.com) - The Waf DotNetPad is a simple and fast code editor that makes fun program with C# or Visual Basic.
+  * [Waf DotNetPad](https://jbe2277.github.io/dotnetpad) - The Waf DotNetPad is a simple and fast code editor that makes fun program with C# or Visual Basic.
   * [Weighted Selector](https://github.com/kinetiq/Ether.WeightedSelector/) - Easy to use (but high performance!) weighted selection implementation.
   * [XDav](https://github.com/rezabazargan/xDav) -  A .net server mudole for webdav standard.
   * [ZeroToNine](https://github.com/ploeh/ZeroToNine) - A tool for maintaining .NET Assembly versions across multiple files.

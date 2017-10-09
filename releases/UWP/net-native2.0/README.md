@@ -15,7 +15,7 @@ When using Visual Studio these packages require Visual Studio 2017 Version 15.4 
 #### Improvements to Program Optimization, Throughput and Debuggability.
 
 - This release of the .NET Native code generator includes substantial improvements to optimization, throughput and debuggability. This includes many new features from the Visual C++ compiler in Visual Studio 2017 Version 15.4.  For example, a new SSA optimizer has been enabled and adapted to managed code and carefully tuned.
-- This release also includes .NET language targeted improvements in
+- This release also includes targeted improvements in
     - native pointer tracking
     - static initialization of scalars and arrays
     - loop unrolling and vectorization

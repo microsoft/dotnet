@@ -5,7 +5,7 @@ Minor
 
 
 ### Version Introduced
-.NET 4.7.1
+4.7.1
 
 
 ### Source Analyzer Status
@@ -18,8 +18,8 @@ ASP.NET is improving how ASP.NET Web Controls work with accessibility technology
 - Changes to improve the display in High Contrast mode, like the Data Pager Fields Editor.
 - Changes to improve the keyboard navigation experiences for controls, like the Configure Object Context Window or the Configure Data Source Window.
 
-- [x] Quirked 
-- [ ] Build-time break 
+- [x] Quirked
+- [ ] Build-time break
 
 
 ### Recommended Action

@@ -22,15 +22,15 @@ Starting with the .NET Framework 4.6.2, the concrete type of the object returned
 Starting with apps running on the .NET Framework 4.7.1, you can use the CryptoServiceProvider implementation used by default in the .NET Framework 4.6.1 and earlier versions by adding the following configuration switch to the [runtime](https://docs.microsoft.com/en-us/dotnet/framework/configure-apps/file-schema/runtime/runtime-element) section of your app config file:
 
 ```xml
-<AppContextSwitchOverrides value="Switch.System.Security.Cryptography.Xml.SignedXmlUseLegacyCertificatePrivateKey=true" /> 
+<AppContextSwitchOverrides value="Switch.System.Security.Cryptography.Xml.SignedXmlUseLegacyCertificatePrivateKey=true" />
 ```
 
 ### Affected APIs
-* `M:System.Security.Cryptography.SignedXml.CheckSignatureReturningKey(System.Security.Cryptography.AsymmetricAlgorithm)`
+* `M:System.Security.Cryptography.Xml.SignedXml.CheckSignatureReturningKey(System.Security.Cryptography.AsymmetricAlgorithm@)`
 
 ### Category
 Security
 
 <!--
-Bug # 432261 
+Bug # 432261
 -->

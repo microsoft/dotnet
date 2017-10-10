@@ -4,6 +4,7 @@ The following documents provide information on .NET Framework application compat
 
 Please help us improve the [.NET Framework Application Compatibility documents](https://github.com/Microsoft/dotnet/tree/master/Documentation/compatibility). In particular, better titles will improve the index below, both in content and the sort.
 
+- [.NET Framework 4.7.1](#net-framework-471)
 - [.NET Framework 4.7](#net-framework-47)
 - [.NET Framework 4.6.2](#net-framework-462)
 - [.NET Framework 4.6.1](#net-framework-461)
@@ -11,6 +12,17 @@ Please help us improve the [.NET Framework Application Compatibility documents](
 - [.NET Framework 4.5.2](#net-framework-452)
 - [.NET Framework 4.5.1](#net-framework-451)
 - [.NET Framework 4.5](#net-framework-45)
+
+## .NET Framework 4.7.1
+
+- [Accessibility improvements in Windows Forms controls](winforms-accessibility-changes-471.md)
+- [ASP.NET Accessibility Improvement in .NET 4.7.1](ASPNET Accessibility Improvement.md)
+- [ASP.NET Accessibility Improvement in .NET 4.7.1](ASPNET-accessibility-improvement.md)
+- [Default SignedXML and SignedXMS algorithms changed to SHA256](Change-SignedXML-and-SignedCMS-default-algorithms-to-SHA256.md)
+- [SerialPort background thread exceptions](SerialPort-background-thread-exceptions.md)
+- [WCF AddressHeaderCollection now throws an ArgumentException if an addressHeader element is null](WCF-AddressHeaderCollection-now-throws-an-ArgumentException-if-an-addressHeader-element-is-null.md)
+- [WCF MsmqSecureHashAlgorithm default value is now SHA256](WCF-MsmqSecureHashAlgorithm-default-value-is-now-SHA256.md)
+- [WCF PipeConnection.GetHashAlgorithm now uses SHA256](WCF-PipeConnection.GetHashAlgorithm-now-uses-SHA256.md)
 
 ## .NET Framework 4.7
 
@@ -45,9 +57,11 @@ Please help us improve the [.NET Framework Application Compatibility documents](
 - [Path colon checks are stricter](path-colon-checks-are-stricter.md)
 - [Remove Ssl3 from the WCF TransportDefaults](remove-ssl3-from-the-wcf-transportdefaults.md)
 - [RibbonGroup background is set to transparent in localized builds](ribbongroup-background-is-set-to-transparent-in-localized-builds.md)
+- [RSACng and DSACng are once again usable in Partial Trust scenarios](RSACng-and-DSACng-not-usable-in-Partial-Trust-scenarios.md)
 - [RSACng now correctly loads RSA keys of non-standard key size](rsacng-now-correctly-loads-rsa-keys-of-non-standard-keysize.md)
 - [RSACng.VerifyHash now returns False for any verification failure](rsacng_verifyhash-now-returns-false-for-any-verification-failure.md)
 - [SignedXml and EncryptedXml Breaking Changes](xml-documents-are-now-consider-invalid-if-they-contains-transforms-that-are-not-allowed-on-digital-signatures.md)
+- [SignedXml.GetPublicKey returns RSACng on net462 (or lightup) without retargeting change](SignedXml.GetPublicKey-returns-RSACng-on-net462.md)
 - [Unicode standard version 8.0 categories now supported](unicode-data-now-support-standard-v8_0-categories.md)
 - [WCF transport security supports certificates stored using CNG](wcf-transport-security-supports-certificates-stored-using-cng.md)
 
@@ -136,6 +150,8 @@ Please help us improve the [.NET Framework Application Compatibility documents](
 - [Change in behavior in Data Definition Language (DDL) APIs](change-in-behavior-in-data-definition-language-(ddl)-apis.md)
 - [Compiler support for type forwarding when multi-targeting mscorlib](compiler-support-for-type-forwarding-when-multi-targeting-mscorlib.md)
 - [ConcurrentQueue&lt;T&gt;.TryPeek can return an erroneous null via its out parameter](concurrentqueue_trypeek-can-return-an-erroneous-null-via-its-out-parameter.md)
+- [Data written to PrintSystemJobInfo.JobStream must be in XPS format](data-written-to-printsystemjobinfo-jobstream-must-be-in-xps-format.md)
+- [Deserialization of MailMessage objects serialized under the .NET Framework 4.5 may fail](serialization-deserialization-of-mailmessage-objects.md)
 - [Different exception handling for ObjectContext.CreateDatabase and DbProviderServices.CreateDatabase methods](different-exception-handling-for-objectcontext_createdatabase-and-dbproviderservices_createdatabase-methods.md)
 - [EncoderParameter ctor is obsolete](encoderparameter-ctor-is-obsolete.md)
 - [Entity Framework version must match the .NET Framework version](ef-version-must-match-netfx-version.md)

@@ -1,4 +1,4 @@
-## 195: Accessibility improvements in Windows Forms controls
+## Accessibility improvements in Windows Forms controls
 
 ### Scope
 Major

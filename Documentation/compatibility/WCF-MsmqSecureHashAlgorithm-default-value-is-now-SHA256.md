@@ -1,15 +1,15 @@
-##WCF MsmqSecureHashAlgorithm default value is now SHA256
+## WCF MsmqSecureHashAlgorithm default value is now SHA256
 
-###Scope
+### Scope
 Minor
-###Version Introduced
-.NET Framework 4.7.1
-###Source Analyzer Status
+### Version Introduced
+4.7.1
+### Source Analyzer Status
 NotPlanned
-###Change Description
+### Change Description
 Starting with the .NET Framework 4.7.1, the default message signing algorithm in WCF for Msmq messages is SHA256. In the .NET Framework 4.7 and earlier versions, the default message signing algorithm is SHA1.
 
-###Recommended Action:
+### Recommended Action:
 If you run into compatibility issues with this change on the .NET Framework 4.7.1 or later, you can opt-out the change by adding the following line to the `<runtime>`section of your app.config file:
 
 
@@ -21,7 +21,7 @@ If you run into compatibility issues with this change on the .NET Framework 4.7.
 </configuration>
 ```
   
-##Affected APIs
+## Affected APIs
 * Not detectable via API analysis
 
 ### Category

@@ -7,6 +7,4 @@ On a touch or stylus-enabled machine, WPF applications may sometimes corrupt mem
 This is due to the release of a COM object that is later used in the WPF touch stack.
 
 ### Resolution
-The fix for this is expected in future servicing update for Windows 10.
-
-### More information
+This issue is fixed for all supported OS platforms prior to Windows 10 Fall Creators Update. The fix for Windows 10 Fall Creators Update is expected in future servicing update. 

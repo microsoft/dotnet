@@ -10,7 +10,7 @@ Major
 NotPlanned
 
 ### Change Description
-Windows Forms Framework is improving how it works with accessibility technologies to better support Windows Forms customers. These include the following changes:
+Windows Forms is improving how it works with accessibility technologies to better support Windows Forms customers. These include the following changes:
 - Changes to improve display during High Contrast mode.
 - Changes to improve the property browser experience. Property browser improvements include: 
   - Better keyboard navigation through the various drop-down selection windows.
@@ -27,19 +27,21 @@ __How to opt in or out of these changes__
   
 In order for the application to benefit from these changes, it must run on the .NET Framework 4.7.1 or later. The application can benefit from these changes in either of the following ways:
 - It is recompiled to target the .NET Framework 4.7.1. These accessibility changes are enabled by default on Windows Forms applications that target the .NET Framework 4.7.1 or later.
-- It opts out of the legacy accessibility behaviors by adding the following [AppContext Switch](https://docs.microsoft.com/dotnet/framework/configure-apps/file-schema/runtime/appcontextswitchoverrides-element) to the ```<runtime>``` section of the app.config file and setting it to false, as the following example shows.
+- It opts out of the legacy accessibility behaviors by adding the following [AppContext Switch](https://docs.microsoft.com/dotnet/framework/configure-apps/file-schema/runtime/appcontextswitchoverrides-element) to the ```<runtime>``` section of the app.config file and setting it to `false`, as the following example shows.
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <startup>
+    <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.7"/>
+  </startup>
+  <runtime>
+    <!-- AppContextSwitchOverrides value attribute is in the form of 'key1=true|false;key2=true|false  -->
+    <AppContextSwitchOverrides value="Switch.UseLegacyAccessibilityFeatures=false" />
+  </runtime>
+</configuration>
 ```
-    <?xml version="1.0" encoding="utf-8"?>
-    <configuration>
-      <startup>
-        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.7"/>
-      </startup>
-      <runtime>
-        <!-- AppContextSwitchOverrides value attribute is in the form of 'key1=true|false;key2=true|false  -->
-        <AppContextSwitchOverrides value="Switch.UseLegacyAccessibilityFeatures=false" />
-      </runtime>
-    </configuration>
-```
+
 Applications that target the .NET Framework 4.7.1 or later and want to preserve the legacy accessibility behavior can opt in to the use of legacy accessibility features by explicitly setting this AppContext switch to ```true```.
 
 For an overview of UI automation, see the [UI Automation Overview](https://docs.microsoft.com/dotnet/framework/ui-automation/ui-automation-overview).

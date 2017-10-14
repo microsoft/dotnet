@@ -41,7 +41,7 @@
 * Added an attribute System.Runtime.CompilerServices.IsRefLikeAttribute [429642, mscorlib.dll, Feature]
 * Enabled interop between StorageFile / StorageFolder and .NET types for filesystem access [433898, mscorlib.dll, Feature]
 * System.Runtime.CompilerServices.RuntimeFeature.IsSupported allows to check whether the runtime supports displaying source line information for stack frames in assemblies built with portable symbols (PDBs). This is common for libraries that are built targeting .Net standard. [436315, mscorlib.dll, Feature]
-* During the .NET Standard 2.0 work a type was missed because of a mismatch between the contracts we have in full .NET and the ones we shipped as part of .NET Standard 1.*. [468256, System.Net.NetworkInformation.dll, Bug]
+* During the .NET Standard 2.0 work a type was missed because of a mismatch between the contracts we have in the full .NET Framework and the ones we shipped as part of .NET Standard 1.*. [468256, System.Net.NetworkInformation.dll, Bug]
 
 ## CLR
 
@@ -68,7 +68,7 @@
 * Fixed infinite loop in the jit which happens in certain cases where cgt.un is used to implement a null check.  [453201, clrjit.dll, Bug]
 * Fixed a silent bad codegen problem in JIT that results in incorrect results from XslCompiledTransform. [461649, clrjit.dll, Bug]
 * Fixed potential crash during CLR shutdown [437163, clr.dll, Bug]
-* Fixed a codegen bug  in the code that deals with intrinsics implemented by user calls. [499714, clrjit.dll, Bug]
+* Fixed a codegen bug in the code that deals with intrinsics implemented by user calls. [499714, clrjit.dll, Bug]
 
 ## Compiler and Managed Languages
 

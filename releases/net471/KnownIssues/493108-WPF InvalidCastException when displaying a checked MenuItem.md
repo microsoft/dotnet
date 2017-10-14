@@ -30,4 +30,4 @@ the reference resolves to the ribbon library's resource.  This effectively sets 
 of Path.Data to an object of type Style.  The next measure pass then encounters the exception.
 
 ### Resolution
-This issue is fixed for all supported OS platforms prior to Windows 10 Fall Creators Update. The fix for Windows 10 Fall Creators Update is expected in future servicing update. 
+This issue is fixed for all supported OS platforms prior to Windows 10 Fall Creators Update. The fix for Windows 10 Fall Creators Update is expected in a future servicing update. 

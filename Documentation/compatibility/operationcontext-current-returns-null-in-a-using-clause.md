@@ -13,13 +13,13 @@ Investigating
 
 ### Change Description
 
-<xref:System.ServiceModel.OperationContext.Current?displayProperty=fullName> may return `null` and a <xref:System.NullReferenceException> may result if all of the following conditions are true:
+<xref:System.ServiceModel.OperationContext.Current?displayProperty=nameWithType> may return `null` and a <xref:System.NullReferenceException> may result if all of the following conditions are true:
 
-- You retrieve the value of the <xref:System.ServiceModel.OperationContext.Current?displayProperty=fullName> property in a method that returns a <xref:System.Threading.Tasks.Task> or <xref:System.Threading.Tasks.Task%601>.
+- You retrieve the value of the <xref:System.ServiceModel.OperationContext.Current?displayProperty=nameWithType> property in a method that returns a <xref:System.Threading.Tasks.Task> or <xref:System.Threading.Tasks.Task%601>.
 
 - You instantiate the <xref:System.ServiceModel.OperationContextScope> object in a `using` clause.
 
-- You retrieve the value of the <xref:System.ServiceModel.OperationContext.Current?displayProperty=fullName> property within the `using statement`. For example:
+- You retrieve the value of the <xref:System.ServiceModel.OperationContext.Current?displayProperty=nameWithType> property within the `using statement`. For example:
 
    ```csharp
    using (new OperationContextScope(OperationContext.Current))
@@ -47,7 +47,7 @@ To address this issue, you can do the following:
    }
    ```
 
-- Install the latest update to the .NET Framework 4.6.2, or upgrade to a later version of the .NET Framework. This disables the flow of the <xref:System.Threading.ExecutionContext> in <xref:System.ServiceModel.OperationContext.Current?displayProperty=fullName> and restores the behavior of WCF applications in the .NET Framework 4.6.1 and earlier versions. This behavior is configurable; it is equivalent to adding the following app setting to your configuration file:
+- Install the latest update to the .NET Framework 4.6.2, or upgrade to a later version of the .NET Framework. This disables the flow of the <xref:System.Threading.ExecutionContext> in <xref:System.ServiceModel.OperationContext.Current?displayProperty=nameWithType> and restores the behavior of WCF applications in the .NET Framework 4.6.1 and earlier versions. This behavior is configurable; it is equivalent to adding the following app setting to your configuration file:
 
    ```xml
    <appSettings>

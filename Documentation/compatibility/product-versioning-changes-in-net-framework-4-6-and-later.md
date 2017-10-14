@@ -21,7 +21,7 @@ The following are the detailed changes:
 
 - The <xref:System.Reflection.AssemblyFileVersionAttribute> and <xref:System.Reflection.AssemblyInformationalVersionAttribute> attributes for managed assemblies have Version values in the form 4.6.X.0 for the .NET Framework 4.6 and its point releases, and 4.7.X.0 for the .NET Framework 4.7.
 
-- In the .NET Framework 4.6, 4.6.1, 4.6.2, and 4.7, the <System.Environment.Version?displayProperty=fullName> property returns the fixed version string `4.0.30319.42000`. In the .NET Framework 4, 4.5, 4.5.1, and 4.5.2, it returns version strings in the format `4.0.30319.xxxxx` (for example, "4.0.30319.18010"). Note that we do not recommend application code taking any new dependency on the Environment.Version property.
+- In the .NET Framework 4.6, 4.6.1, 4.6.2, and 4.7, the <System.Environment.Version?displayProperty=nameWithType> property returns the fixed version string `4.0.30319.42000`. In the .NET Framework 4, 4.5, 4.5.1, and 4.5.2, it returns version strings in the format `4.0.30319.xxxxx` (for example, "4.0.30319.18010"). Note that we do not recommend application code taking any new dependency on the Environment.Version property.
 
 - [ ] Quirked // Uses some mechanism to turn the feature on or off, usually using runtime targeting, AppContext or config files. Needs to be turned on automatically for some situations.
 - [ ] Build-time break // Causes a break if attempted to recompile
@@ -36,9 +36,9 @@ In general, applications should depend on the recommended techniques for detecti
 > [!IMPORTANT]
 > The subkey name is `NET Framework Setup`, not `.NET Framework Setup`.
 
-- To determine the directory path to the .NET Framework common language runtime, call the <xref:System.Runtime.InteropServices.RuntimeEnvironment.GetRuntimeDirectory?displayProperty=fullName> method.
+- To determine the directory path to the .NET Framework common language runtime, call the <xref:System.Runtime.InteropServices.RuntimeEnvironment.GetRuntimeDirectory?displayProperty=nameWithType> method.
 
-- To get the CLR version, call the <xref:System.Runtime.InteropServices.RuntimeEnvironment.GetSystemVersion?displayProperty=fullName> method. For the .NET Framework 4 and its point releases (the .NET Framework 4.5, 4.5.1, 4.5.2, and .NET Framework 4.6, 4.6.1, 4.6.2, and 4.7), it returns the string v4.0.30319.
+- To get the CLR version, call the <xref:System.Runtime.InteropServices.RuntimeEnvironment.GetSystemVersion?displayProperty=nameWithType> method. For the .NET Framework 4 and its point releases (the .NET Framework 4.5, 4.5.1, 4.5.2, and .NET Framework 4.6, 4.6.1, 4.6.2, and 4.7), it returns the string v4.0.30319.
 
 ### Affected APIs
 * Not detectable via API analysis

@@ -23,11 +23,14 @@ Windows Forms is improving how it works with accessibility technologies to bette
 - [ ] Build-time break
 
 ### Recommended Action
-__How to opt in or out of these changes__
+
+**How to opt in or out of these changes**
   
 In order for the application to benefit from these changes, it must run on the .NET Framework 4.7.1 or later. The application can benefit from these changes in either of the following ways:
+
 - It is recompiled to target the .NET Framework 4.7.1. These accessibility changes are enabled by default on Windows Forms applications that target the .NET Framework 4.7.1 or later.
-- It opts out of the legacy accessibility behaviors by adding the following [AppContext Switch](https://docs.microsoft.com/dotnet/framework/configure-apps/file-schema/runtime/appcontextswitchoverrides-element) to the ```<runtime>``` section of the app.config file and setting it to `false`, as the following example shows.
+
+- It opts out of the legacy accessibility behaviors by adding the following [AppContext Switch](https://docs.microsoft.com/dotnet/framework/configure-apps/file-schema/runtime/appcontextswitchoverrides-element) to the `<runtime>` section of the app.config file and setting it to `false`, as the following example shows.
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -46,7 +49,7 @@ Applications that target the .NET Framework 4.7.1 or later and want to preserve 
 
 For an overview of UI automation, see the [UI Automation Overview](https://docs.microsoft.com/dotnet/framework/ui-automation/ui-automation-overview).
 
-__Added support for UI Automation patterns and properties__
+**Added support for UI Automation patterns and properties**
 
 Accessibility clients can take advantage of new WinForms accessibility functionality by using common, publicly described invocation patterns. These patterns are not WinForms-specific. For instance, accessibility clients can call the QueryInterface method on the IAccessible interface (MAAS) to obtain an IServiceProvider interface. If this interface is available, clients can use its QueryService method to request an IAccessibleEx interface. For more information, see [Using IAccessibleEx from a Client](https://msdn.microsoft.com/en-us/library/windows/desktop/dd561924(v=vs.85).aspx). Starting with the .NET Framework 4.7.1, IServiceProvider and [IAccessibleEx]( https://msdn.microsoft.com/en-us/library/windows/desktop/dd561898(v=vs.85).aspx) (where applicable) are available for WinForms accessibility objects.
 
@@ -59,11 +62,11 @@ The .NET Framework 4.7.1 adds support for the fillowing UI automation patterns a
 - The `T:System.Windows.Forms.DataGridViewCheckBoxCell` control supports the [Toggle Pattern](https://docs.microsoft.com/dotnet/api/system.windows.automation.togglepattern).
 - The `T:System.Windows.Forms.NumericUpDown` and `T:System.Windows.Forms.DomainUpDown` controls support the [Name](https://docs.microsoft.com/dotnet/api/system.windows.automation.automationelement.nameproperty) and have a [ControlType](https://docs.microsoft.com/dotnet/framework/ui-automation/ui-automation-support-for-the-spinner-control-type) of <xref:System.Windows.Automation.ControlType.Spinner?displayProperty=nameWithType>.
 
-__Improvements to PropertyGrid control__
+**Improvements to the PropertyGrid control**
 
 The .NET Framework 4.7.1 adds the following improvements to the PropertyBrowser control: 
-- The __Details__ button in the error dialog that is displayed when the user enters an incorrect value in the `T:System.Windows.Forms.PropertyGrid` control supports the [Expand/Collapse pattern](https://docs.microsoft.com/dotnet/framework/ui-automation/implementing-the-ui-automation-expandcollapse-control-pattern), state and name change notifications, and a [ControlType](https://docs.microsoft.com/dotnet/framework/ui-automation/ui-automation-support-for-the-menubar-control-type) property with a value of <xref:System.Windows.Automation.ControlType.MenuItem?displayProperty=nameWithType>.
-- The message pane displayed when the __Details__ button of the error dialog is expanded is now keyboard accessible and allows Narrator to announce the content of the error message.
+- The **Details** button in the error dialog that is displayed when the user enters an incorrect value in the `T:System.Windows.Forms.PropertyGrid` control supports the [Expand/Collapse pattern](https://docs.microsoft.com/dotnet/framework/ui-automation/implementing-the-ui-automation-expandcollapse-control-pattern), state and name change notifications, and a [ControlType](https://docs.microsoft.com/dotnet/framework/ui-automation/ui-automation-support-for-the-menubar-control-type) property with a value of <xref:System.Windows.Automation.ControlType.MenuItem?displayProperty=nameWithType>.
+- The message pane displayed when the **Details** button of the error dialog is expanded is now keyboard accessible and allows Narrator to announce the content of the error message.
 - The [AccessibleRole](https://docs.microsoft.com/dotnet/api/system.windows.forms.accessiblerole) of rows in `T:System.Windows.Forms.PropertyGrid` control have changed from "Row" to "Cell". The cell maps to UIA ControlType "DataItem", which allows it to support appropriate keyboard shortcuts and Narrator announcements.
 - The `T:System.Windows.Forms.PropertyGrid` control rows which represent header items when the `T:System.Windows.Forms.PropertyGrid` control has a `P:System.Windows.Forms.PropertySort` property set to `F:System.Windows.Forms.PropertySory.Categorized` have a [ControlType](https://docs.microsoft.com/dotnet/framework/ui-automation/ui-automation-support-for-the-menubar-control-type) property value of <xref:System.Windows.Automation.ControlType.Button?displayProperty=nameWithType>
 - The `T:System.Windows.Forms.PropertyGrid` control rows which represent header items when the `T:System.Windows.Forms.PropertyGrid` control has a `P:System.Windows.Forms.PropertySort` property set to `F:System.Windows.Forms.PropertySory.Categorized` support the [Expand/Collapse pattern](https://docs.microsoft.com/dotnet/framework/ui-automation/implementing-the-ui-automation-expandcollapse-control-pattern).
@@ -75,7 +78,7 @@ The .NET Framework 4.7.1 adds the following improvements to the PropertyBrowser 
 - Improved Narrator support for distinguishing the selected alignment in the Alignment Picker.
 - When an empty `T:System.Windows.Forms.PropertyGrid` control is displayed on a form, it will now receive focus where previously it would not.
 
-__Use of OS-defined colors in High Contrast themes__
+**Use of OS-defined colors in High Contrast themes**
 
 - `T:System.Windows.Forms.Button` and `T:System.Windows.Forms.CheckBox` controls with `P:System.Windows.Forms.Control.FlatStyle` set to <xref:System.Windows.Forms.FlatStyle.System?displayProperty=nameWithType>, which is the default style, now use OS-defined colors in High Contrast theme when selected. Previously, text and background colors were not contrasting and were hard to read.
 - `T:System.Windows.Forms.Button`, `T:System.Windows.Forms.CheckBox`, `T:System.Windows.Forms.RadioButton`, `T:System.Windows.Forms.Label`, `T:System.Windows.Forms.LinkLabel` and `T:System.Windows.Forms.GroupBox` with`P:System.Windows.Forms.Control.Enabled` set to _false_, used a shaded color to render text in High Contrast themes, resulting in low contrast against the background. Now these controls use "Disabled Text" color defined by the OS. This fix applies to controls with `P:System.Windows.Forms.Control.FlatStyle` property set to a value other than `F:System.Windows.Forms.FlatStyle.System`. The latter controls are rendered by the OS.
@@ -89,11 +92,11 @@ NOTE: Windows10 has changed values for some high contrast system colors. Windows
     <!-- Windows 10 -->
     <supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />
 ```
-__Improved keyboard navigation__
+**Improved keyboard navigation**
 
 - When a `T:System.Windows.Forms.ComboBox` control has `P:System.Windows.Forms.ComboBox.DropDownStyle` set to `F:System.Windows.Forms.DropDownStyle.DropDownList` and is the first control in the tab order on the form, it now displays a focus rectangle when the parent form is opened using the keyboard. Before this change, keyboard focus was on this control, but a focus indicator was not rendered.
 
-__Improved Narrator support__
+**Improved Narrator support**
 - The `T:System.Windows.Forms.MonthCalendar` control has added support for assistive technologies to access the control, including the ability for Narrator to read the value of the control when previously it could not.
 - The `T:System.Windows.Forms.CheckedListBox` control now notifies Narrator when the `P:System.Windows.Forms.CheckState` property has been changed. Previously, Narrator did not recieve notification and as a result users would not be informed that the `P:System.Windows.Forms.CheckState` had been updated.
 - The `T:System.Windows.Forms.LinkLabel` control has changed the way it notifies Narrator of the text of in the control. Previously, Narrator announced this text twice and read "&" symbols as real text even though they are not visible to a user. The duplicated text was removed from the Narrator announcements, as well as unnecessary "&" symbols.

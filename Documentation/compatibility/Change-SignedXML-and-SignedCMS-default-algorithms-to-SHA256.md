@@ -21,6 +21,7 @@ Starting with the .NET Framework 4.7.1, SHA256 is enabled by default for these o
 There are two new context switch values to control whether SHA1 (insecure) or SHA256 is used by default:
 
 - Switch.System.Security.Cryptography.Xml.UseInsecureHashAlgorithms
+ 
 - Switch.System.Security.Cryptography.Pkcs.UseInsecureHashAlgorithms
 
 For applications that target the .NET Framework 4.7.1 and later versions, if the use of SHA256 is undesirable, you can restore the default to SHA1 by adding the following configuration switch to the [runtime](https://docs.microsoft.com/en-us/dotnet/framework/configure-apps/file-schema/runtime/runtime-element) section of your app config file:
@@ -28,6 +29,7 @@ For applications that target the .NET Framework 4.7.1 and later versions, if the
 ```xml
 <AppContextSwitchOverrides value="Switch.System.Security.Cryptography.Xml.UseInsecureHashAlgorithms=true;Switch.System.Security.Cryptography.Pkcs.UseInsecureHashAlgorithms=true" /> 
 ```
+
 For applications that target the .NET Framework 4.7 and earlier versions, you can opt into this change by adding the following configuration switch to the [runtime](https://docs.microsoft.com/en-us/dotnet/framework/configure-apps/file-schema/runtime/runtime-element) section of your app config file:
 
 ```xml

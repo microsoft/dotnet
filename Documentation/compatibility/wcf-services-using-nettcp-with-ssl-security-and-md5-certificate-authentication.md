@@ -48,7 +48,7 @@ You can work around this issue so that a WCF client can connect to a WCF server 
     </configuration>  
     ```
 
-- If the binding is dynamically configured in source code, update the <xref:System.ServiceModel.TcpTransportSecurity.SslProtocols?displayProperty=fullName> property to use TLS 1.1 (<xref:System.Security.Authentication.SslProtocols.Tls11?displayProperty=fullName> or an earlier version of the protocol in the source code.
+- If the binding is dynamically configured in source code, update the <xref:System.ServiceModel.TcpTransportSecurity.SslProtocols?displayProperty=nameWithType> property to use TLS 1.1 (<xref:System.Security.Authentication.SslProtocols.Tls11?displayProperty=nameWithType> or an earlier version of the protocol in the source code.
 
    > [!WARNING]
    > This workaround is not recommended, since a certificate with the MD5 hash algorithm is considered insecure.

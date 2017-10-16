@@ -20,7 +20,7 @@ Decompressing a zip file created by an app that targets a previous version of th
 
 ### Recommended Action
 
-The impact of this change on .ZIP files that are decompressed on the Windows operating system by APIs in the .NET Framework <xref:System.IO?displayProperty=fullName> namespace should be minimal, since these APIs can seamlessly handle either a slash ("/") or a backslash ("\\") as the path separator character.
+The impact of this change on .ZIP files that are decompressed on the Windows operating system by APIs in the .NET Framework <xref:System.IO?displayProperty=nameWithType> namespace should be minimal, since these APIs can seamlessly handle either a slash ("/") or a backslash ("\\") as the path separator character.
 
 If this change is undesirable, you can opt out of it by adding a configuration setting to the [`<runtime>`](https://docs.microsoft.com/dotnet/framework/configure-apps/file-schema/runtime/runtime-element.md) section of your application configuration file. The following example shows both the `<runtime` section and the `Switch.System.IO.Compression.ZipFile.UseBackslash` opt-out switch:
 

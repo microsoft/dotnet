@@ -28,6 +28,7 @@ Please help us improve the [.NET Framework Application Compatibility documents](
 
 - [CspParameters.ParentWindowHandle now expects HWND value](cspparameters_parentwindowhandle-now-expects-hwnd-value.md)
 - [Default value of ServicePointManager.SecurityProtocol is SecurityProtocolType.System.Default](servicepointmanager.securityprotocol-defaults-to-securityprotocoltype.systemdefault.md)
+- [Incorrect code generation when passing and comparing UInt16 values](incorrect-code-generation-when-passing-and-comparing-uint16-values.md)
 - [NullReferenceException in exception handling code from ImageSourceConverter.ConvertFrom](wpf-nullreferenceexception-in-exception-handling-code-from-imagesourceconverter_convertfrom.md)
 - [Serialization of control characters with DataContractJsonSerializer is now compatible with ECMAScript V6 and V8](serialization-of-control-characters-with-datacontractjsonserializer-is-now-compatible-with-ecmascript-v6-and-v8.md)
 - [SslStream supports TLS Alerts](sslstream-support-for-tls-alerts.md)

@@ -16,20 +16,28 @@ Please help us improve the [.NET Framework Application Compatibility documents](
 ## .NET Framework 4.7.1
 
 - [Accessibility improvements in Windows Forms controls](winforms-accessibility-changes-471.md)
-- [ASP.NET Accessibility Improvement in .NET 4.7.1](ASPNET Accessibility Improvement.md)
-- [ASP.NET Accessibility Improvement in .NET 4.7.1](ASPNET-accessibility-improvement.md)
+- [Accessibility improvements in Windows Workflow Foundation (WF) workflow designer](workflow-designer-accessibility.md)
+- [Accessibility improvements in WPF](wpf-accessibility-improvements.MD)
+- [ASP.NET Accessibility Improvements in .NET 4.7.1](ASPNET-accessibility-improvement.md)
+- [Chained Popups with StaysOpen=False ](wpf-chained-popups-with-StaysOpen-false.md)
 - [Default SignedXML and SignedXMS algorithms changed to SHA256](Change-SignedXML-and-SignedCMS-default-algorithms-to-SHA256.md)
+- [Selector SelectionChanged event and SelectedValue property](wpf-selector-selectionchanged-and-selectedvalue.md)
 - [SerialPort background thread exceptions](SerialPort-background-thread-exceptions.md)
+- [ServiceBase doesn't propagate OnStart exceptions](ServiceBase-doesnt-propagate-OnStart-exceptions.md)
+- [TabControl SelectionChanged event and SelectedContent property](wpf-tabcontrol-selectionchanged-and-selectedcontent.md)
+- [The default hash algorithm for WPF PackageDigitalSignatureManager is now SHA256](wpf-PackageDigitalSignatureManager.DefaultHashAlgorithm-is-now-SHA256.md)
 - [WCF AddressHeaderCollection now throws an ArgumentException if an addressHeader element is null](WCF-AddressHeaderCollection-now-throws-an-ArgumentException-if-an-addressHeader-element-is-null.md)
 - [WCF MsmqSecureHashAlgorithm default value is now SHA256](WCF-MsmqSecureHashAlgorithm-default-value-is-now-SHA256.md)
 - [WCF PipeConnection.GetHashAlgorithm now uses SHA256](WCF-PipeConnection.GetHashAlgorithm-now-uses-SHA256.md)
 
 ## .NET Framework 4.7
 
+- [Crash in Selector when removing an item from a custom INCC collection](wpf-selector-crash-when-removing-item-from-custom-collection.md)
 - [CspParameters.ParentWindowHandle now expects HWND value](cspparameters_parentwindowhandle-now-expects-hwnd-value.md)
 - [Default value of ServicePointManager.SecurityProtocol is SecurityProtocolType.System.Default](servicepointmanager.securityprotocol-defaults-to-securityprotocoltype.systemdefault.md)
 - [Incorrect code generation when passing and comparing UInt16 values](incorrect-code-generation-when-passing-and-comparing-uint16-values.md)
 - [NullReferenceException in exception handling code from ImageSourceConverter.ConvertFrom](wpf-nullreferenceexception-in-exception-handling-code-from-imagesourceconverter_convertfrom.md)
+- [Resizing a Grid can hang](wpf-hang-when-resizing-a-grid.md)
 - [Serialization of control characters with DataContractJsonSerializer is now compatible with ECMAScript V6 and V8](serialization-of-control-characters-with-datacontractjsonserializer-is-now-compatible-with-ecmascript-v6-and-v8.md)
 - [SslStream supports TLS Alerts](sslstream-support-for-tls-alerts.md)
 - [Throttle concurrent requests per session](throttle-concurrent-requests-per-session.md)

@@ -1,4 +1,4 @@
-## 195: Accessibility improvements in WPF
+## Accessibility improvements in WPF
 
 ### Scope
 Major

@@ -30,22 +30,22 @@ In order for the application to benefit from these changes, it must run on the .
 
 - It is recompiled to target the .NET Framework 4.7.1. These accessibility changes are enabled by default on Windows Forms applications that target the .NET Framework 4.7.1 or later.
 
-- It opts out of the legacy accessibility behaviors by adding the following [AppContext Switch](https://docs.microsoft.com/dotnet/framework/configure-apps/file-schema/runtime/appcontextswitchoverrides-element) to the `<runtime>` section of the app.config file and setting it to `false`, as the following example shows.
+- It opts out of the legacy accessibility behaviors by adding the following [AppContext switch](https://docs.microsoft.com/dotnet/framework/configure-apps/file-schema/runtime/appcontextswitchoverrides-element) to the `<runtime>` section of the app.config file and setting it to `false`, as the following example shows.
 
-```xml
-<?xml version="1.0" encoding="utf-8"?>
-<configuration>
-  <startup>
-    <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.7"/>
-  </startup>
-  <runtime>
-    <!-- AppContextSwitchOverrides value attribute is in the form of 'key1=true|false;key2=true|false  -->
-    <AppContextSwitchOverrides value="Switch.UseLegacyAccessibilityFeatures=false" />
-  </runtime>
-</configuration>
-```
+   ```xml
+   <?xml version="1.0" encoding="utf-8"?>
+   <configuration>
+     <startup>
+       <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.7"/>
+     </startup>
+     <runtime>
+       <!-- AppContextSwitchOverrides value attribute is in the form of 'key1=true|false;key2=true|false  -->
+       <AppContextSwitchOverrides value="Switch.UseLegacyAccessibilityFeatures=false" />
+     </runtime>
+   </configuration>
+   ```
 
-Applications that target the .NET Framework 4.7.1 or later and want to preserve the legacy accessibility behavior can opt in to the use of legacy accessibility features by explicitly setting this AppContext switch to ```true```.
+Applications that target the .NET Framework 4.7.1 or later and want to preserve the legacy accessibility behavior can opt in to the use of legacy accessibility features by explicitly setting this AppContext switch to `true`.
 
 For an overview of UI automation, see the [UI Automation Overview](https://docs.microsoft.com/dotnet/framework/ui-automation/ui-automation-overview).
 
@@ -53,7 +53,8 @@ For an overview of UI automation, see the [UI Automation Overview](https://docs.
 
 Accessibility clients can take advantage of new WinForms accessibility functionality by using common, publicly described invocation patterns. These patterns are not WinForms-specific. For instance, accessibility clients can call the QueryInterface method on the IAccessible interface (MAAS) to obtain an IServiceProvider interface. If this interface is available, clients can use its QueryService method to request an IAccessibleEx interface. For more information, see [Using IAccessibleEx from a Client](https://msdn.microsoft.com/en-us/library/windows/desktop/dd561924(v=vs.85).aspx). Starting with the .NET Framework 4.7.1, IServiceProvider and [IAccessibleEx]( https://msdn.microsoft.com/en-us/library/windows/desktop/dd561898(v=vs.85).aspx) (where applicable) are available for WinForms accessibility objects.
 
-The .NET Framework 4.7.1 adds support for the fillowing UI automation patterns and properties:
+The .NET Framework 4.7.1 adds support for the following UI automation patterns and properties:
+
 - The `T:System.Windows.Forms.ToolStripSplitButton` and `T:System.Windows.Forms.ComboBox` controls support the [Expand/Collapse pattern](https://docs.microsoft.com/dotnet/framework/ui-automation/implementing-the-ui-automation-expandcollapse-control-pattern).
 - The `T:System.Windows.Forms.ToolStripMenuItem` control has a [ControlType](https://docs.microsoft.com/dotnet/framework/ui-automation/ui-automation-support-for-the-menubar-control-type) property value <xref:System.Windows.Automation.ControlType.MenuItem?displayProperty=nameWithType>.
 - The `T:System.Windows.Forms.ToolStripItem` control supports the [Name](https://docs.microsoft.com/dotnet/api/system.windows.automation.automationelement.nameproperty) property and [Expand/Collapse pattern](https://docs.microsoft.com/dotnet/framework/ui-automation/implementing-the-ui-automation-expandcollapse-control-pattern).

@@ -1,12 +1,13 @@
 # .NET Framework 4.7.1 Release Notes
 
-> These release notes are current for .NET Framework 4.7.1 build 2539, released 2017-09-13.
+You can learn about the changes made in the .NET Framework 4.7.1.
 
-You can learn about the changes made in the .NET Framework 4.7.1, as of build 2539.
-
-- [Download](https://github.com/Microsoft/dotnet-framework-earlyaccess)
-- [Announcement blog post](https://blogs.msdn.microsoft.com/dotnet/2017/08/07/welcome-to-the-net-framework-4-7-1-early-access/)
+- [Download](http://go.microsoft.com/fwlink/?LinkId=852095)
+- [.NET Framework 4.7.1 Announcement blog post](http://go.microsoft.com/fwlink/?LinkId=852091)
 - [Release notes](dotnet471-changes.md)
+- [Application compatibility](http://go.microsoft.com/fwlink/?LinkId=852106)
+- [API changes](dotnet471-api-changes.md)
+- [Reference Source](http://go.microsoft.com/fwlink/?LinkId=852103)
 - [Known issues](dotnet471-known-issues.md) 
 
 ## Release Notes by Product Area

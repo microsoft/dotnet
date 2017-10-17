@@ -7,6 +7,4 @@ On a touch or stylus-enabled machine, WPF applications may see a loss of touch o
 A change to disposal of HwndSource in .NET 4.7 caused Popups to not correctly cleanup touch resources.  This eventually can lead to loss of touch/stylus interaction.
 
 ### Resolution
-The fix for this is expected in future servicing update for Windows 10.
-
-### More information
+This issue is fixed for all supported OS platforms prior to Windows 10 Fall Creators Update. The fix for Windows 10 Fall Creators Update is expected in a future servicing update. 

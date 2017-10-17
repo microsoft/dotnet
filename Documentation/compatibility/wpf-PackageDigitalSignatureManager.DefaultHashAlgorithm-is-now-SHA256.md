@@ -4,7 +4,7 @@
 Edge
 
 ### Version Introduced
-.NET 4.7.1
+4.7.1
 
 ### Source Analyzer Status
 NotPlanned

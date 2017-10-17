@@ -1,9 +1,5 @@
 # .NET Framework 4.7.1 Release Notes
 
-> These release notes are current for .NET Framework 4.7.1 build 2539, released 2017-09-13.
-
-You can learn about the changes made in the .NET Framework 4.7.1, as of build 2539.
-
 .NET Framework release notes describe product improvements grouped by product area. Each change includes a Microsoft-internal VSTS bug ID, the primary binary that was updated and whether the change was a bug or a feature.
 
 ## ASP.NET
@@ -45,6 +41,7 @@ You can learn about the changes made in the .NET Framework 4.7.1, as of build 25
 * Added an attribute System.Runtime.CompilerServices.IsRefLikeAttribute [429642, mscorlib.dll, Feature]
 * Enabled interop between StorageFile / StorageFolder and .NET types for filesystem access [433898, mscorlib.dll, Feature]
 * System.Runtime.CompilerServices.RuntimeFeature.IsSupported allows to check whether the runtime supports displaying source line information for stack frames in assemblies built with portable symbols (PDBs). This is common for libraries that are built targeting .Net standard. [436315, mscorlib.dll, Feature]
+* During the .NET Standard 2.0 work a type was missed because of a mismatch between the contracts we have in the full .NET Framework and the ones we shipped as part of .NET Standard 1.*. [468256, System.Net.NetworkInformation.dll, Bug]
 
 ## CLR
 
@@ -71,6 +68,7 @@ You can learn about the changes made in the .NET Framework 4.7.1, as of build 25
 * Fixed infinite loop in the jit which happens in certain cases where cgt.un is used to implement a null check.  [453201, clrjit.dll, Bug]
 * Fixed a silent bad codegen problem in JIT that results in incorrect results from XslCompiledTransform. [461649, clrjit.dll, Bug]
 * Fixed potential crash during CLR shutdown [437163, clr.dll, Bug]
+* Fixed a codegen bug in the code that deals with intrinsics implemented by user calls. [499714, clrjit.dll, Bug]
 
 ## Compiler and Managed Languages
 
@@ -139,6 +137,8 @@ You can learn about the changes made in the .NET Framework 4.7.1, as of build 25
     <AppContextSwitchOverrides value=""Switch.System.Messaging.UseMD5ForDefaultHashAlgorithm=true;Switch.System.Messaging.UseRC2ForDefaultEncryptionAlgorithm=true"" />
     </runtime>
     ```
+* Fixed an issue where screen readers would consider the arrows in the workflow designer navigation breadcrumbs as part of the list.  [408282, System.Activities.Presentation.dll, Bug]
+* Fixed an issue where screen readers would read non-descriptive names of edit boxes in the workflow designer properties window. [459631, System.Activities.Presentation.dll, Bug]
 
 ## WPF
 
@@ -172,3 +172,7 @@ You can learn about the changes made in the .NET Framework 4.7.1, as of build 25
 * Added ability to tell whether a property value inside a template is a dynamic resource reference. [406807, PresentationFramework.dll, Feature]
 * Provided source info for elements in template created by XamlReader.Load [406808, PresentationFramework.dll, Feature]
 * Enabled VisualTree notifications for debugging [406811, PresentationFramework.dll, Feature]
+* A WPF app that implements an event handler for the Selector.SelectionChanged event should see the new values for the SelectedIndex, SelectedItem and SelectedValue properties.  This worked correctly in all cases except for one: when the selection change was caused by changing SelectedValue and the handler queried the SelectedValue property, it saw the old value.   This has been fixed. [96884, PresentationFramework,dll, Bug]
+* A WPF app with an event handler for the TabControl.SelectionChanged sees the wrong (old) value for TabControl.SelectedContent.  Also, if the selection change occurs while keyboard focus is in the content area, the focus should remain in the content area (provided the new selected content has a focusable element).  This has been fixed. [208019, PresentationFramework,dll, Bug]
+* Fixed an issue for touch or stylus-enabled machines, where repeated use of popups in WPF applications can cause loss of touch and stylus support. [479874, PresentationCore.dll, Bug]
+* Fixed an issue for touch or stylus-enabled machines, where WPF applications may throw a NullReferenceException in WispLogic.ProcessInputReport. [481090, PresentationCore.dll, Bug]

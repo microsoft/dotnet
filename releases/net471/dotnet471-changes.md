@@ -74,7 +74,7 @@
 
 * Removed unnecessary ITuple constraint from TRest on ValueTuple 8.  [363866, mscorlib.dll, Bug]
 * Support for dynamic pattern matching types. [295579, mscorlib.dll, Feature]
-* Added serializable attribute on each ValueTuple types. [378419, mscorlib.dll, Feature]
+* Added serializable attribute on each ValueTuple type. [378419, mscorlib.dll, Feature]
 
 ## Configuration
 

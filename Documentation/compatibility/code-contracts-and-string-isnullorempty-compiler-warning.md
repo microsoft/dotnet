@@ -10,7 +10,7 @@ Minor
 Investigating
 
 ### Change Description
-For apps that target the .NET Framework 4.6.1, if the invariant contract for <xref:System.Diagnostics.Invariant%2A?displayProperty=fullName> or the precondition contract for <xref:System.Diagnostics.Requires%2A?displayProperty=fullName)> calls the <xref:System.String.IsNullOrEmpty?displayProperty=fullName> method, the rewriter emits compiler warning CC1036: "Detected call to method 'System.String.IsNullOirWhteSpace(System.String)' without [Pure] in method." This is a compiler warning rather than a compiler error.
+For apps that target the .NET Framework 4.6.1, if the invariant contract for <xref:System.Diagnostics.Contracts.Contract.Invariant%2A?displayProperty=nameWithType> or the precondition contract for <xref:System.Diagnostics.Contracts.Contract.Requires%2A?displayProperty=nameWithType)> calls the <xref:System.String.IsNullOrEmpty%2A?displayProperty=nameWithType> method, the rewriter emits compiler warning CC1036: "Detected call to method 'System.String.IsNullOrWhteSpace(System.String)' without [Pure] in method." This is a compiler warning rather than a compiler error.
 
 - [ ] Quirked 
 - [ ] Build-time break 

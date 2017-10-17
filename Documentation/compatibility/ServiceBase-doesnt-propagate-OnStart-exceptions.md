@@ -5,7 +5,6 @@
 Minor
 
 ### Version Introduced
-
 4.7.1
 
 ### Source Analyzer Status

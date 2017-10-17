@@ -7,7 +7,7 @@ Edge
 4.6.2
 
 ### Version Reverted
-4.6.3
+4.7
 
 ### Source Analyzer Status
 NotPlanned

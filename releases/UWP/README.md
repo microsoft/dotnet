@@ -6,6 +6,7 @@ You can learn about Microsoft.NETCore.UniversalWindowsPlatform [releases](#relea
 
 You can see what was included in each .NET Native (Microsoft.NETCore.UniversalWindowsPlatform) release.
 
+- [.NET Native 2.0 (UWP 6.0.x)](net-native2.0/README.md)
 - [.NET Native 1.7 (UWP 5.4.x)](net-native1.7/README.md)
 - [.NET Native 1.6 (UWP 5.3.x)](net-native1.6/README.md)
 - [.NET Native 1.4 (UWP 5.2.x)](net-native1.4/README.md)

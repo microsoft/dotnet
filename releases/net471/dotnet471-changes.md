@@ -1,8 +1,8 @@
 # .NET Framework 4.7.1 Release Notes
 
-> These release notes are current for .NET Framework 4.7.1 build 2538, released 2017-08-07.
+> These release notes are current for .NET Framework 4.7.1 build 2539, released 2017-09-13.
 
-You can learn about the changes made in the .NET Framework 4.7.1, as of build 2538.
+You can learn about the changes made in the .NET Framework 4.7.1, as of build 2539.
 
 .NET Framework release notes describe product improvements grouped by product area. Each change includes a Microsoft-internal VSTS bug ID, the primary binary that was updated and whether the change was a bug or a feature.
 
@@ -76,7 +76,7 @@ You can learn about the changes made in the .NET Framework 4.7.1, as of build 25
 
 * Removed unnecessary ITuple constraint from TRest on ValueTuple 8.  [363866, mscorlib.dll, Bug]
 * Support for dynamic pattern matching types. [295579, mscorlib.dll, Feature]
-* Added serializable attribute on each ValueTuple types. [378419, mscorlib.dll, Feature]
+* Added serializable attribute on each ValueTuple type. [378419, mscorlib.dll, Feature]
 
 ## Configuration
 

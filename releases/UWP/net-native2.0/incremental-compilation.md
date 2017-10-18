@@ -24,7 +24,7 @@ Currently the new build mode is only supported in Debug configurations of UWP ap
 
 To go back and forth between .NET Native and .NET Core just use the checkbox in the build configuration tab of the project.
 
-The incremental build is only supported on .NET Native 2.0, which in turn is only used if the app has its minimum target version of Windows SDK set to the Windows Fall Creators Update SDK preview.
+The incremental build is only supported on .NET Native 2.0, which in turn is only used if the app has its minimum target version of Windows SDK set to the Windows Fall Creators Update SDK.
 
 ## Known Issues
 

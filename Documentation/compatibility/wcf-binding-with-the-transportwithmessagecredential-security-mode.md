@@ -16,12 +16,13 @@ By default, unsigned "to" headers will continue to be rejected in .NET 4.6.1. Th
 
 Because this is an opt-in feature, it should not affect the behavior of existing apps.
 
-- [ ] Quirked
+- [X] Quirked
 - [ ] Build-time break
 
 ### Recommended Action
 Because this is an opt-in feature, it should not affect the behavior of existing apps. To control whether the new behavior is used or not, use the following configuration setting:
-```
+
+```xml
 <runtime>
     <AppContextSwitchOverrides value="Switch.System.ServiceModel.AllowUnsignedToHeader=true" />
 </runtime>

@@ -4,6 +4,9 @@ You can see what was included in each .NET Native 1.7 ([Microsoft.NETCore.Univer
 
 When using Visual Studio these packages require Visual Studio 2017 or later.
 
+### 5.4.1 (October 9, 2017)
+- Fixed an issue with Microsoft.NetNative.targets that prevented C++ hybrid apps from compiling; apps would fail to compile due to an attempt to write a file to a folder that does not exist. [511674]
+
 ### 5.4.0 (August 11, 2017)
 
 

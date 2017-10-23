@@ -37,3 +37,6 @@ If your application targets an earlier version than 4.7.1 but you want to have t
 
 ### Affected APIs
 * `M:System.ServiceProcess.ServiceBase.Run`
+
+### Category
+Core

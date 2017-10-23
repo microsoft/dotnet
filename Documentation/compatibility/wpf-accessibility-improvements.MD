@@ -67,11 +67,12 @@ For an overview of UI automation, see the [UI Automation Overview](https://docs.
 ### Affected APIs
 * `F:System.Windows.Automation.AutomationElementIdentifiers.LiveSettingProperty`
 * `F:System.Windows.Automation.AutomationElementIdentifiers.LiveRegionChangedEvent`
-* `F:System.Windows.Automation.AutomationProperties.LiveSetting`
-* `M:System.Windows.Automation.AutomationProperties.SetLiveSetting`
-* `M:System.Windows.Automation.AutomationProperties.GetLiveSetting`
-* `M:System.Windows.Automation.Peers.AutomationPeer.GetLiveSettingCore`
 * `T:System.Windows.Automation.AutomationLiveSetting`
+* `F:System.Windows.Automation.AutomationProperties.LiveSettingProperty`
+* `M:System.Windows.Automation.AutomationProperties.SetLiveSetting(System.Windows.DependencyObject,System.Windows.Automation.AutomationLiveSetting)`
+* `M:System.Windows.Automation.AutomationProperties.GetLiveSetting(System.Windows.DependencyObject)`
+* `M:System.Windows.Automation.Peers.AutomationPeer.GetLiveSettingCore`
+
 
 
 ### Category

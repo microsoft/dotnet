@@ -26,6 +26,9 @@ In order to get all the accessibility fixes in these tools, you can add App conf
 ### Affected APIs
 * Not detectable via API analysis
 
+### Category
+Windows Communication Foundation (WCF)
+
 <!--
     ### Original Bug
     [492954] (https://devdiv.visualstudio.com/web/wi.aspx?pcguid=011b8bdf-6d56-4f87-be0d-0092136884d9&id=492954)

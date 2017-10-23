@@ -21,7 +21,7 @@ If you run into compatibility issues with this change on the .NET Framework 4.7.
 </configuration>
 ```
 
-## Affected APIs
+### Affected APIs
 * Not detectable via API analysis
 
 ### Category

@@ -23,7 +23,7 @@ If you encounter compatibility issues with this change on the .NET Framework 4.7
 </configuration>
 ```
 
-## Affected APIs
+### Affected APIs
 * `M:System.ServiceModel.Channels.AddressHeaderCollection.#ctor(System.Collections.Generic.IEnumerable{System.ServiceModel.Channels.AddressHeader})`
 
 ### Category

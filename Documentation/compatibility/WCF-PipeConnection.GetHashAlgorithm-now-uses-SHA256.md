@@ -20,7 +20,7 @@ If you run into compatibility issue with this change on the .NET Framework 4.7.1
 </configuration>
 ```
 
-## Affected APIs
+### Affected APIs
 * Not detectable via API analysis
 
 ### Category

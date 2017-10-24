@@ -8,49 +8,46 @@ Applications that target the .NET Framework 4.6.1 and use .NET Standard librarie
 
 The .NET Framework 4.7.1 adds support for .NET Standard in-box. As part of this change, a few assemblies that used to ship independently from the .NET Framework have now been added to the .NET Framework. As these .NET Standard assemblies were not part of the .NET Framework prior to .NET 4.7.1, they were deployed with the application, and a binding redirect was added to the application's app.config file.
 
-When running on the .NET Framework 4.7.1, where the assemblies are now part of the Framework, the application now has two types with different identities, and that leads to a <xref:TypeLoadException>. One type comes from the app-local assembly, and the other one comes from the .NET Framework assembly.
+When running on the .NET Framework 4.7.1, where the assemblies are now part of the Framework, the application now has two types with different identities, and that leads to a <xref:System.TypeLoadException>. One type comes from the app-local assembly, and the other one comes from the .NET Framework assembly.
 
 Also reported here: https://github.com/Microsoft/dotnet-framework-early-access/issues/9
 
 ## Impact
 
 The following types are potentially impacted by this issue.
-
-```
-System.Data.Common.DbColumn
-System.Data.Common.DbDataReaderExtensions
-System.Data.Common.IDbColumnSchemaGenerator
-System.Diagnostics.StackFrameExtensions
-System.Globalization.GlobalizationExtensions
-System.Net.Sockets.SocketReceiveFromResult
-System.Net.Sockets.SocketReceiveMessageFromResult
-System.Net.Sockets.SocketTaskExtensions
-System.Runtime.CompilerServices.TupleElementNamesAttribute
-System.Runtime.InteropServices.Architecture
-System.Runtime.InteropServices.OSPlatform
-System.Runtime.InteropServices.RuntimeInformation
-System.Runtime.Serialization.DataContractSerializerExtensions
-System.Runtime.Serialization.ISerializationSurrogateProvider
-System.Security.Cryptography.ECCurve
-System.Security.Cryptography.ECParameters
-System.Security.Cryptography.ECPoint
-System.Security.Cryptography.IncrementalHash
-System.Security.SecureStringMarshal
-System.StringNormalizationExtensions
-System.Threading.PreAllocatedOverlapped
-System.Threading.ThreadPoolBoundHandle
-System.TupleExtensions
-System.ValueTuple
-System.ValueTuple`1
-System.ValueTuple`2
-System.ValueTuple`3
-System.ValueTuple`4
-System.ValueTuple`5
-System.ValueTuple`6
-System.ValueTuple`7
-System.ValueTuple`8
-System.Xml.XPath.XDocumentExtensions
-```
+- `T:System.Data.Common.DbColumn`
+- `T:System.Data.Common.DbDataReaderExtensions`
+- `T:System.Data.Common.IDbColumnSchemaGenerator`
+- `T:System.Diagnostics.StackFrameExtensions`
+- `T:System.Globalization.GlobalizationExtensions`
+- `T:System.Net.Sockets.SocketReceiveFromResult`
+- `T:System.Net.Sockets.SocketReceiveMessageFromResult`
+- `T:System.Net.Sockets.SocketTaskExtensions`
+- `T:System.Runtime.CompilerServices.TupleElementNamesAttribute`
+- `T:System.Runtime.InteropServices.Architecture`
+- `T:System.Runtime.InteropServices.OSPlatform`
+- `T:System.Runtime.InteropServices.RuntimeInformation`
+- `T:System.Runtime.Serialization.DataContractSerializerExtensions`
+- `T:System.Runtime.Serialization.ISerializationSurrogateProvider`
+- `T:System.Security.Cryptography.ECCurve`
+- `T:System.Security.Cryptography.ECParameters`
+- `T:System.Security.Cryptography.ECPoint`
+- `T:System.Security.Cryptography.IncrementalHash`
+- `T:System.Security.SecureStringMarshal`
+- `T:System.StringNormalizationExtensions`
+- `T:System.Threading.PreAllocatedOverlapped`
+- `T:System.Threading.ThreadPoolBoundHandle`
+- `T:System.TupleExtensions`
+- `T:System.ValueTuple`
+- `T:System.ValueTuple`1`
+- `T:System.ValueTuple`2`
+- `T:System.ValueTuple`3`
+- `T:System.ValueTuple`4`
+- `T:System.ValueTuple`5`
+- `T:System.ValueTuple`6`
+- `T:System.ValueTuple`7`
+- `T:System.ValueTuple`8`
+- `T:System.Xml.XPath.XDocumentExtensions`
 
 ## Workarounds
 

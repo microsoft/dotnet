@@ -1,4 +1,4 @@
-f# Applications targeting .NET 4.6.1 that use .NET Standard libraries might be broken when running on .NET 4.7.1
+# Applications targeting .NET 4.6.1 that use .NET Standard libraries might be broken when running on .NET 4.7.1
 
 ## Symptoms
 

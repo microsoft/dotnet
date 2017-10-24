@@ -44,7 +44,7 @@ The LiveSetting property also lets the screen reader know how important it is to
 
 ### Recommended Action
 __How to opt in or out of these changes__
-  
+
 In order for the application to benefit from these changes, it must run on the .NET Framework 4.7.1 or later. The application can benefit from these changes in either of the following ways:
 - It is recompiled to target the .NET Framework 4.7.1. These accessibility changes are enabled by default on WPF applications that target the .NET Framework 4.7.1 or later.
 - It opts out of the legacy accessibility behaviors by adding the following [AppContext Switch](https://docs.microsoft.com/dotnet/framework/configure-apps/file-schema/runtime/appcontextswitchoverrides-element) in the ```<runtime>``` section of the app config file and setting it to false, as the following example shows.
@@ -64,14 +64,15 @@ Applications that target the .NET Framework 4.7.1 or later and want to preserve 
 
 For an overview of UI automation, see the [UI Automation Overview](https://docs.microsoft.com/dotnet/framework/ui-automation/ui-automation-overview).
 
-### Affected APIs 
-* `F:System.windows.Automation.AutomationElementIdentifiers.LiveSettingProperty`
-* `F:System.windows.Automation.AutomationElementIdentifiers.LiveRegionChangedEvent` 
-* `F:System.Windows.Automation.AutomationProperties.LiveSetting`
-* `M:System.Windows.Automation.AutomationProperties.SetLiveSetting` 
-* `M:System.Windows.Automation.AutomationProperties.GetLiveSetting`  
-* `M:System.Windows.Automation.Peers.AutomationPeer.GetLiveSettingCore` 
-* `T:System.Windows.Automation.AutomationLiveSetting` 
+### Affected APIs
+* `F:System.Windows.Automation.AutomationElementIdentifiers.LiveSettingProperty`
+* `F:System.Windows.Automation.AutomationElementIdentifiers.LiveRegionChangedEvent`
+* `T:System.Windows.Automation.AutomationLiveSetting`
+* `F:System.Windows.Automation.AutomationProperties.LiveSettingProperty`
+* `M:System.Windows.Automation.AutomationProperties.SetLiveSetting(System.Windows.DependencyObject,System.Windows.Automation.AutomationLiveSetting)`
+* `M:System.Windows.Automation.AutomationProperties.GetLiveSetting(System.Windows.DependencyObject)`
+* `M:System.Windows.Automation.Peers.AutomationPeer.GetLiveSettingCore`
+
 
 
 ### Category
@@ -90,7 +91,7 @@ WPF
 437421
 436104
 430176
-	
+
 429415
 453792
 404634

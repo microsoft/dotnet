@@ -1,8 +1,8 @@
-# Applications targeting .NET 4.6.1 that use .NET Standard libraries might be broken when running on .NET 4.7.1
+f# Applications targeting .NET 4.6.1 that use .NET Standard libraries might be broken when running on .NET 4.7.1
 
 ## Symptoms
 
-Applications that target the .NET Framework 4.6.1 and use .NET Standard libraries may experience <xref:System.TypeLoadExceptions> exceptions when running on the .NET Framework 4.7.1
+Applications that target the .NET Framework 4.6.1 and use .NET Standard libraries may experience <xref:System.TypeLoadException> exceptions when running on the .NET Framework 4.7.1
 
 ## Cause
 

@@ -12,6 +12,45 @@ When running on the .NET Framework 4.7.1, where the assemblies are now part of t
 
 Also reported here: https://github.com/Microsoft/dotnet-framework-early-access/issues/9
 
+## Impact
+
+The following types are potentially impacted by this issue.
+
+```
+System.Data.Common.DbColumn
+System.Data.Common.DbDataReaderExtensions
+System.Data.Common.IDbColumnSchemaGenerator
+System.Diagnostics.StackFrameExtensions
+System.Globalization.GlobalizationExtensions
+System.Net.Sockets.SocketReceiveFromResult
+System.Net.Sockets.SocketReceiveMessageFromResult
+System.Net.Sockets.SocketTaskExtensions
+System.Runtime.CompilerServices.TupleElementNamesAttribute
+System.Runtime.InteropServices.Architecture
+System.Runtime.InteropServices.OSPlatform
+System.Runtime.InteropServices.RuntimeInformation
+System.Runtime.Serialization.DataContractSerializerExtensions
+System.Runtime.Serialization.ISerializationSurrogateProvider
+System.Security.Cryptography.ECCurve
+System.Security.Cryptography.ECParameters
+System.Security.Cryptography.ECPoint
+System.Security.Cryptography.IncrementalHash
+System.Security.SecureStringMarshal
+System.StringNormalizationExtensions
+System.Threading.PreAllocatedOverlapped
+System.Threading.ThreadPoolBoundHandle
+System.TupleExtensions
+System.ValueTuple
+System.ValueTuple`1
+System.ValueTuple`2
+System.ValueTuple`3
+System.ValueTuple`4
+System.ValueTuple`5
+System.ValueTuple`6
+System.ValueTuple`7
+System.ValueTuple`8
+System.Xml.XPath.XDocumentExtensions
+```
 
 ## Workarounds
 

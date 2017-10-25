@@ -9,7 +9,7 @@ When using Visual Studio these packages require Visual Studio 2017 Version 15.4 
 
 #### .NET Standard 2.0 Support
 
-- The Windows Fall Creators Update brings support for .NET Standard 2.0 to UWP development. In order to leverage the new APIs with .NET Standard 2.0, you need to set the minimum version target of your application to the Windows Fall Creators Update SDK preview. You will then have the ability to reference .NET Standard 2.0 NuGet packages, class libraries, and APIs directly from your UWP application.
+- The Windows Fall Creators Update brings support for .NET Standard 2.0 to UWP development. In order to leverage the new APIs with .NET Standard 2.0, you need to set the minimum version target of your application to the Windows Fall Creators Update SDK. You will then have the ability to reference .NET Standard 2.0 NuGet packages, class libraries, and APIs directly from your UWP application.
 - More information is available on .NET Standard 2.0 support [here](https://docs.microsoft.com/en-us/dotnet/standard/net-standard).
 
 #### Improvements to Program Optimization, Throughput and Debuggability.

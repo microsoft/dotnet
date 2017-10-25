@@ -21,6 +21,7 @@ Please help us improve the [.NET Framework Application Compatibility documents](
 - [ASP.NET Accessibility Improvements in .NET 4.7.1](ASPNET-accessibility-improvement.md)
 - [Chained Popups with StaysOpen=False ](wpf-chained-popups-with-StaysOpen-false.md)
 - [Default SignedXML and SignedXMS algorithms changed to SHA256](Change-SignedXML-and-SignedCMS-default-algorithms-to-SHA256.md)
+- [Improved accessibility for some .NET SDK tools](WCFSDKToolsAccessibilityChangesIn4.7.1.md)
 - [Selector SelectionChanged event and SelectedValue property](wpf-selector-selectionchanged-and-selectedvalue.md)
 - [SerialPort background thread exceptions](SerialPort-background-thread-exceptions.md)
 - [ServiceBase doesn't propagate OnStart exceptions](ServiceBase-doesnt-propagate-OnStart-exceptions.md)

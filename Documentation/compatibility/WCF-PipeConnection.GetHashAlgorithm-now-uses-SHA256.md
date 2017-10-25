@@ -24,7 +24,7 @@ If you run into compatibility issue with this change on the .NET Framework 4.7.1
 * Not detectable via API analysis
 
 ### Category
-* Windows Communication Foundation (WCF)
+Windows Communication Foundation (WCF)
 
 <!--
     ### Original Bug

@@ -35,6 +35,6 @@ Ssl3 to the list of negotiated protocols.
 * `P:System.ServiceModel.TcpTransportSecurity.SslProtocols`
 
 ### Category
-* Windows Communication Foundation (WCF)
+Windows Communication Foundation (WCF)
 
 <!-- breaking change id: 149 -->

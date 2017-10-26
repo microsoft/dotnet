@@ -54,5 +54,5 @@ The following types are potentially impacted by this issue.
 
 There are two ways to work around this issue:
  - When running on .NET Framework 4.7.1, remove the binding redirects from the app.config file for the assemblies that are now part of the .NET Framework.
- - Re-target your application to target the .NET Framwork 4.7.1
+ - Re-target your application to target the .NET Framwork 4.7 or .NET Framework 4.7.1.
  

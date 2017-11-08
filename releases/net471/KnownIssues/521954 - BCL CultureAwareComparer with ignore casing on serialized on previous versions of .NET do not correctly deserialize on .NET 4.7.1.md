@@ -13,4 +13,10 @@ When that type, coming from a version of .NET Framework prior to 4.7.1 is deseri
 
 ## Impact
 
+Using the following 2 comparers are susceptible to this issue:
+StringComparer.InvariantCultureIgnoreCase
+StringComparer.CurrentCultureIgnoreCase
+
 ## Workarounds
+
+Update both sides of the serialization to use .NET Framework 4.7.1.

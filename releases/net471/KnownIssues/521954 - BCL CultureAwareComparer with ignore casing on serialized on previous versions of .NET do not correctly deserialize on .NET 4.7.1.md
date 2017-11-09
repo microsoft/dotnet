@@ -1,22 +1,22 @@
-# CultureAwareComparer with ignore casing serialized on previous versions of .NET Framework do not correctly deserialize on .NET Framework 4.7.1 
+# CultureAwareComparer with ignore casing serialized on previous versions of .NET Framework does not correctly deserialize on .NET Framework 4.7.1 
 
 ## Symptoms
 
-When deserialzing a CultureAwareCompare that was serialized using ignore case on a previous version of .NET Framework on a machine running .NET Framework 4.7.1 the comparer will become a case sensitive comparer.
+When deserialzing a CultureAwareComparer that was serialized using ignore case on a previous version of .NET Framework on a machine running .NET Framework 4.7.1, the comparer becomes case sensitive.
 
 ## Cause
 
-In .NET Framework 4.7.1 we added the ability to specify more comparer options when doing a culture-aware comparison. 
-As part of that changed we introduced a new field on the comparer that hold the information about what kind of comparison is requested.
+In the .NET Framework 4.7.1 we added the ability to specify more comparer options when doing a culture-aware comparison. 
+As part of that change we introduced a new field on the comparer that holds the information about what kind of comparison is requested.
 
-When that type, coming from a version of .NET Framework prior to 4.7.1 is deserialized on a .NET Framework 4.7.1 machine, the private field introduced in .NET 4.7.1 is reset to zero which turns the comparer into a case sensitive comparer.
+When that type, coming from a version of .NET Framework prior to 4.7.1 is deserialized on a .NET Framework 4.7.1 machine, the private field introduced in the .NET Framework 4.7.1 is reset to zero, which makes the comparer case sensitive.
 
 ## Impact
 
-Using the following 2 comparers are susceptible to this issue:
-StringComparer.InvariantCultureIgnoreCase
-StringComparer.CurrentCultureIgnoreCase
+The following 2 comparers are susceptible to this issue. These comparers are usually used with collection types like Dictionary and Hashtable.
+P:System.StringComparer.InvariantCultureIgnoreCase
+P:System.StringComparer.CurrentCultureIgnoreCase
 
 ## Workarounds
 
-Update both sides of the serialization to use .NET Framework 4.7.1.
+Ensure that both serialization and deserialization occurs on systems running a version of the .NET Framework starting with 4.7.1.

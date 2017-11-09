@@ -2,7 +2,7 @@
 
 ## Symptoms
 
-When deserialzing a CultureAwareComparer that was serialized using ignore case on a previous version of .NET Framework on a machine running .NET Framework 4.7.1, the comparer becomes case sensitive.
+When deserializing a CultureAwareComparer that was serialized using ignore case on a previous version of .NET Framework on a machine running .NET Framework 4.7.1, the comparer becomes case sensitive.
 
 ## Cause
 

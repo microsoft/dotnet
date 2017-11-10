@@ -21,4 +21,8 @@ P:System.StringComparer.CurrentCultureIgnoreCase
 
 Ensure that both serialization and deserialization occurs on systems running a version of the .NET Framework starting with 4.7.1.
 
-We are actively working on an update to address this issue and we will update this document with a link to it once it becomes available.
+If you are running on Windows Fall Creators Update, an update is available that addresses this issue. Select one of the following links based on your processor architecture:
+
+x86: https://go.microsoft.com/fwlink/?linkid=862758
+
+x64: https://go.microsoft.com/fwlink/?linkid=862762

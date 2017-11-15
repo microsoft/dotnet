@@ -368,6 +368,8 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [Orleans](https://github.com/dotnet/orleans) - Framework that provides a straight-forward approach to building distributed high-scale computing applications using virtual actor model.
   
 ## Windows Workflow
+  * [Core WF](https://github.com/dmetzgar/corewf) - WF runtime ported to work on .NET Core.
+  * [Orleans.Activities](https://github.com/OrleansContrib/Orleans.Activities) - WF over [Microsoft Orleans](https://github.com/dotnet/orleans) framework.
   * [Workflow Extractor](https://github.com/punitganshani/WorkflowExtractor) - Document Windows Workflow logic into a Word document or Excel sheet. 
 
 ## Amazon Echo/Alexa Integration

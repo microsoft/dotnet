@@ -11,7 +11,7 @@ NotPlanned
 
 ### Change Description
 
-Starting with the .NET Framework 4.7.2, the implementation of decompression in the `T:System.IO.Compression.DeflateStream` class has changed to use native Windows APIs by default. This results in an average performance improvement of approximately 300%. All .NET applications running on machines with versions of the .NET Framework starting with version 4.7.2 will now use the native implementation. 
+Starting with the .NET Framework 4.7.2, the implementation of decompression in the `T:System.IO.Compression.DeflateStream` class has changed to use native Windows APIs by default. Typically, this results in a substantial performance improvement. All .NET applications running on machines with versions of the .NET Framework starting with version 4.7.2 will now use the native implementation. 
 
 This change might result in some differences in behavior, which include:
 

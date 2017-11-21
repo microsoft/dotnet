@@ -7,7 +7,7 @@ When using Visual Studio these packages require Visual Studio 2017 Version 15.4 
 ### UWP 6.0.2 (.NET Native 2.0.1) (November 20, 2017)
 
 #### Quality fixes
-- Fixes an issue when building UWP apps that target RS3 and referenced the Microsoft Store Services SDK and  Microsoft Advertising SDK or Store Engagement SDK [514498]
+- Fixes an issue when building UWP apps that target RS3 and reference the Microsoft Store Services SDK and Microsoft Advertising SDK or Store Engagement SDK [514498]
 - Fixes Crashes due to an error in the compiler's garbage collection reporting (affects ARM apps built with .NET Native) [507618]
 - Improves performance for creating new New UWP Projects. [512775]
 - Fixes issues that enable Windows Application Packaging (Centennial) projects publishing scenarios [521438]

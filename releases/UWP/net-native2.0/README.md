@@ -4,7 +4,7 @@ You can see what was included in each .NET Native 2.0 ([Microsoft.NETCore.Univer
 
 When using Visual Studio these packages require Visual Studio 2017 Version 15.4 or later.
 
-### UWP 6.0.2 (.NET Native 2.0.2) (November 20, 2017)
+### UWP 6.0.2 (.NET Native 2.0.1) (November 20, 2017)
 
 #### Quality fixes
 - Fixes an issue when building UWP apps that target RS3 and referenced the Microsoft Store Services SDK and  Microsoft Advertising SDK or Store Engagement SDK [514498]

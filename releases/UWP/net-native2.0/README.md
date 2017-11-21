@@ -8,8 +8,8 @@ When using Visual Studio these packages require Visual Studio 2017 Version 15.4 
 
 #### Quality fixes
 - Fixes an issue when building UWP apps that target RS3 and reference the Microsoft Store Services SDK and Microsoft Advertising SDK or Store Engagement SDK [514498]
-- Fixes Crashes due to an error in the compiler's garbage collection reporting (affects ARM apps built with .NET Native) [507618]
-- Improves performance for creating new New UWP Projects. [512775]
+- Fixes crashes due to an error in the compiler's garbage collection reporting (affects ARM apps built with .NET Native) [507618]
+- Improves performance for creating new UWP Projects. [512775]
 - Fixes issues that enable Windows Application Packaging (Centennial) projects publishing scenarios [521438]
 - Enables a P/Invoke feature for WindowsSDK Store in RS3 [518300]
 

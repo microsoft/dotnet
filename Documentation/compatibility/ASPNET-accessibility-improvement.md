@@ -27,20 +27,20 @@ Starting with the .NET Framework 4.7.1, ASP.NET has improved how ASP.NET Web Con
 
 ### Recommended Action
 
-**How to opt in or out of these changes**
-
+**How to opt in or out of these changes** 
+  
 In order for the Visual Studio Designer to benefit from these changes, it must run on the .NET Framework 4.7.1 or later. The web application can benefit from these changes in either of the following ways:
 
 - Install Visual Studio 2017 15.3 or later, which supports the new accessibility features with the following AppContext Switch by default.
 
-- Opt out of the legacy accessibility behaviors by adding the `Switch.UseLegacyAccessibility` AppContext switch to the `<runtime>` section in the devenv.exe.config file and setting it to `false`, as the following example shows.
+- Opt out of the legacy accessibility behaviors by adding the `Switch.UseLegacyAccessibilityFeatures` AppContext switch to the `<runtime>` section in the devenv.exe.config file and setting it to `false`, as the following example shows.
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <configuration>
   <runtime>
     ...
-    <!-- AppContextSwitchOverrides value attribute is in the form of 'key1=true|false;key2=true|false  -->
+    <!-- AppContextSwitchOverrides value attribute is in the form of `key1=true|false;key2=true|false`  -->
     <AppContextSwitchOverrides value="...;Switch.UseLegacyAccessibilityFeatures=false" />
     ...
   </runtime>

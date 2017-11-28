@@ -10,7 +10,7 @@ Minor
 NotPlanned
 
 ### Change Description
-In the .NET Framework 4.7 and earlier, SignedXML and SignedCMS default to SHA1 for some operations.
+In the .NET Framework 4.7 and earlier, SignedXML and SignedCMS default to SHA1 for some operations.  
 
 Starting with the .NET Framework 4.7.1, SHA256 is enabled by default for these operations. This change is necessary because SHA1 is no longer considered to be secure.
 

@@ -1,7 +1,7 @@
-## WCF services that use NETTCP with SSL sercurity and MD5 certificate authentication
+## WCF services that use NETTCP with SSL security and MD5 certificate authentication
 
 ### Scope
-Minor|
+Minor
 
 ### Version Introduced
 4.6

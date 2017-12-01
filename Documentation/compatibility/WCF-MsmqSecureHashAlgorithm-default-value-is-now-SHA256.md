@@ -9,7 +9,7 @@ NotPlanned
 ### Change Description
 Starting with the .NET Framework 4.7.1, the default message signing algorithm in WCF for Msmq messages is SHA256. In the .NET Framework 4.7 and earlier versions, the default message signing algorithm is SHA1.
 
-- [X] Quirked
+- [ ] Quirked
 - [ ] Build-time break
  
 ### Recommended Action

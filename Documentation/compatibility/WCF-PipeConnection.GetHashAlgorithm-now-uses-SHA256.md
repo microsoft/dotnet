@@ -9,7 +9,7 @@ NotPlanned
 ### Change Description
 Starting with the .NET Framework 4.7.1, Windows Communication Foundation uses a SHA256 hash to generate random names for named pipes. In the .NET Framework 4.7 and earlier versions, it used a SHA1 hash.
 
-- [X] Quirked
+- [ ] Quirked
 - [ ] Build-time break
  
 ### Recommended Action

@@ -1,8 +1,14 @@
-# .NET Native 1.7 (UWP 5.4.x) Release Notes
+# .NET native tools 1.7 Release Notes
 
 You can see what was included in each .NET Native 1.7 ([Microsoft.NETCore.UniversalWindowsPlatform 5.4.x](https://www.nuget.org/packages/Microsoft.NETCore.UniversalWindowsPlatform)) release, below.
 
 When using Visual Studio these packages require Visual Studio 2017 or later.
+
+### UWP 6.0.4 (.NET native tools 1.7.2) (December 4th, 2017)
+Quality fixes
+- Fix an unhandled exception when ClientWebSocket loses connection to server. [518456]
+- Fix regression in the 1.7 toolchain causing winmd file corruption, when the file stream is left open. [496929]
+
 
 ### 5.4.1 (October 9, 2017)
 - Fixed an issue with Microsoft.NetNative.targets that prevented C++ hybrid apps from compiling; apps would fail to compile due to an attempt to write a file to a folder that does not exist. [511674]

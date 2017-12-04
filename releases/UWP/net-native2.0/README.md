@@ -1,4 +1,4 @@
-# .NET native tools 2.0 (UWP 6.0.x) Release Notes
+﻿# .NET native tools 2.0 (UWP 6.0.x) Release Notes
 
 You can see what was included in each .NET Native 2.0 ([Microsoft.NETCore.UniversalWindowsPlatform 6.0.x](https://www.nuget.org/packages/Microsoft.NETCore.UniversalWindowsPlatform)) release, below.
 
@@ -6,10 +6,10 @@ When using Visual Studio these packages require Visual Studio 2017 Version 15.4 
 
 ### UWP 6.0.4 (.NET native tools 2.0.2) (December 4th, 2017)
 #### Quality fixes				
-- Fix crash in debug config with static analysis enabled in project properties. [473689]
-- Improvements in telemetry included in ILC crashes that enable reverse engineering failure causes. [521523]
-- Fix for GC memory leak. [506391]
-- Updates to the .NET native 1.7 tool chain. [.NET Native 1.7 (UWP 5.4.x) Release Notes](https://github.com/Microsoft/dotnet/blob/master/releases/UWP/net-native1.7/README.md).
+- Fixes a crash in debug config with static analysis enabled in project properties. [473689]
+- Improves telemetry included in ILC crashes, enabling failure determination. [521523]
+- Fixes for a GC memory leak. [506391]
+- Updates the .NET native 1.7 tool chain to 1.7.2. [.NET Native 1.7 (UWP 5.4.x) Release Notes](https://github.com/Microsoft/dotnet/blob/master/releases/UWP/net-native1.7/README.md).
 
 ### UWP 6.0.2 (.NET native tools 2.0.1) (November 20, 2017)
 

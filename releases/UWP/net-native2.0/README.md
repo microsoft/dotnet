@@ -1,6 +1,6 @@
 ﻿# .NET native tools 2.0 (UWP 6.0.x) Release Notes
 
-You can see what was included in each .NET Native 2.0 ([Microsoft.NETCore.UniversalWindowsPlatform 6.0.x](https://www.nuget.org/packages/Microsoft.NETCore.UniversalWindowsPlatform)) release, below.
+You can see what was included in each .NET Native 2.0 ([Microsoft.NETCore.UniversalWindowsPlatform 6.0.x](https://www.nuget.org/packages/Microsoft.NETCore.UniversalWindowsPlatform)) release below.
 
 When using Visual Studio these packages require Visual Studio 2017 Version 15.4 or later.
 

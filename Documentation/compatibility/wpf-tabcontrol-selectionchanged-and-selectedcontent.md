@@ -10,9 +10,9 @@ Minor
 NotPlanned
 
 ### Change Description
-Starting with the .NET Framework 4.7.1, a `T:System.Windows.Controls.TabControl` updates the value of its
-`P:System.Windows.Controls.TabControl.SelectedContent` property before raising the
-`E:System.Windows.Controls.Primitives.Selector.SelectionChanged` event, when its selection changes.
+Starting with the .NET Framework 4.7.1, a <xref:System.Windows.Controls.TabControl> updates the value of its
+<xref:System.Windows.Controls.TabControl.SelectedContent> property before raising the
+<xref:System.Windows.Controls.Primitives.Selector.SelectionChanged> event, when its selection changes.
 
 In the .NET Framework 4.7 and earlier versions, the update to SelectedContent happened after the event.
 

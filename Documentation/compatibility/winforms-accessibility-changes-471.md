@@ -106,10 +106,10 @@ NOTE: Windows10 has changed values for some high contrast system colors. Windows
 - Narrator is now able to read `T:System.Windows.Forms.ToolStripMenuItem` controls with a `P:System.Windows.Forms.ToolStripItem.Enabled` property set to _false_. Previously, Narrator was unable to focus on disabled menu items to read hte content. 
 
 
-### Affected APIs not detectable via API analysis
+### Affected APIs
 * `M:System.Windows.Forms.ToolStripDropDownButton.CreateAccessibilityInstance`
 * `P:System.Windows.Forms.DomainUpDown.DomainUpDownAccessibleObject.Name`
-* `T:Sysetm.Windows.Forms.MonthCalendar.MonthCalendarAccessibleObject` 
+* `T:System.Windows.Forms.MonthCalendar.MonthCalendarAccessibleObject` 
 
 
 ### Category

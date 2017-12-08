@@ -12,8 +12,8 @@ NotPlanned
 ### Change Description
 The Windows Workflow Foundation (WF) workflow designer is improving how it works with accessibility technologies. These improvements include the following changes:
 - The tab order is changed to left to right and top to bottom in some controls:
-  - The initialize correlation window for setting correlation data for the `T:System.ServiceModel.Activities.InitializeCorrelation` activity
-  - The content definition window for the `T:System.ServiceModel.Activities.Receive`, `T:System.ServiceModel.Activities.Send`, `T:System.ServiceModel.Activities.SendReply`, and `T:System.ServiceModel.Activities.ReceiveReply` activities
+  - The initialize correlation window for setting correlation data for the <xref:System.ServiceModel.Activities.InitializeCorrelation> activity
+  - The content definition window for the <xref:System.ServiceModel.Activities.Receive>, <xref:System.ServiceModel.Activities.Send>, <xref:System.ServiceModel.Activities.SendReply>, and <xref:System.ServiceModel.Activities.ReceiveReply> activities
 - More functions are available via the keyboard:
   - When editing the properties of an activity, property groups can be collapsed by keyboard the first time they are focused.
   - Warning icons are now accessible by keyboard.
@@ -21,23 +21,23 @@ The Windows Workflow Foundation (WF) workflow designer is improving how it works
   - Keyboard users now can access the header items in the Arguments and Variables panes of the Workflow Designer.
 - Improved visibility of items with focus, such as when:
   - Adding rows to data grids used by the Workflow Designer and activity designers.
-  - Tabbing through fields in the `T:System.ServiceModel.Activities.ReceiveReply` and `T:System.ServiceModel.Activities.SendReply` activities.
+  - Tabbing through fields in the <xref:System.ServiceModel.Activities.ReceiveReply> and <xref:System.ServiceModel.Activities.SendReply> activities.
   - Setting default values for variables or arguments
 - Screen readers can now correctly recognize:
   - Breakpoints set in the workflow designer.
-  - The `T:System.Activities.Statements.FlowSwitch`, `T:System.Activities.Statements.FlowDecision`, and `T:System.ServiceModel.Activities.CorrelationScope` activities.
-  - The contents of the `T:System.ServiceModel.Activities.Receive` activity.
-  - The Target Type for the `T:System.Activities.Statements.InvokeMethod` activity.
-  - The Exception combobox and the Finally section in the `T:System.Activities.Statements.TryCatch` activity.
-  - The Message Type combobox, the splitter in the Add Correlation Initializers window, the Content Definition window, and the CorrelatesOn Defintion window in the messaging activities (`T:System.ServiceModel.Activities.Receive`, `T:System.ServiceModel.Activities.Send`, `T:System.ServiceModel.Activities.SendReply`, and `T:System.ServiceModel.Activities.ReceiveReply`).
+  - The <xref:System.Activities.Statements.FlowSwitch>, <xref:System.Activities.Statements.FlowDecision>, and <xref:System.ServiceModel.Activities.CorrelationScope> activities.
+  - The contents of the <xref:System.ServiceModel.Activities.Receive> activity.
+  - The Target Type for the <xref:System.Activities.Statements.InvokeMethod> activity.
+  - The Exception combobox and the Finally section in the <xref:System.Activities.Statements.TryCatch> activity.
+  - The Message Type combobox, the splitter in the Add Correlation Initializers window, the Content Definition window, and the CorrelatesOn Defintion window in the messaging activities (<xref:System.ServiceModel.Activities.Receive>, <xref:System.ServiceModel.Activities.Send>, <xref:System.ServiceModel.Activities.SendReply>, and <xref:System.ServiceModel.Activities.ReceiveReply>).
   - State machine transitions and transitions destinations.
-  - Annotations and connectors on `T:System.Activities.Statements.FlowDecision` activities.
+  - Annotations and connectors on <xref:System.Activities.Statements.FlowDecision> activities.
   - The context (right-click) menus for activities.
   - The property value editors, the Clear Search button, the By Category and Alphabetical sort buttons, and the Expression Editor dialog in the properties grid.
   - The zoom percentage in the Workflow Designer.
-  - The separator in `T:System.Activities.Statements.Parallel` and `T:System.Activities.Statements.Pick` activities.
-  - The `T:System.Activities.Statements.InvokeDelegate` activity.
-  - The Select Types window for dictionary activities (`T:Microsoft.Activities.AddToDictionary`, `T:Microsoft.Activities.RemoveFromDictionary`, etc.).
+  - The separator in <xref:System.Activities.Statements.Parallel> and <xref:System.Activities.Statements.Pick> activities.
+  - The <xref:System.Activities.Statements.InvokeDelegate> activity.
+  - The Select Types window for dictionary activities (<xref:Microsoft.Activities.AddToDictionary>, <xref:Microsoft.Activities.RemoveFromDictionary>, etc.).
   - The Browse and Select .NET Type window.
   - Breadcrumbs in the Workflow Designer.
 - Users who choose High Contrast themes will see many improvements in the visibility of the Workflow Designer and its controls like better contrast ratios between elements and more noticeable selection boxes used for focus elements.

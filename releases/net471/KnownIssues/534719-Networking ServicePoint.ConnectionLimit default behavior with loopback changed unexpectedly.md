@@ -2,15 +2,15 @@
 
 ## Symptoms
 The limit for HTTP connections per endpoint is controlled by the `ServicePointManager.DefaultConnectionLimit` property.
-This value defaults to 2. The behavior for .NET Framework prior to .NET 4.7.1 was that the limit applied only for 
-non-loopback addresses such as http://www.microsoft.com.  For loopback addresses such as http://localhost, the limit
-for connections was always int.MaxValue (2,147,483,647) unless changed by calling `ServicePoint` class specific APIs.
+This value defaults to 2. In the .NET Framework 4.7 and earlier versions, the limit applied only to non-loopback 
+addresses such as http://www.microsoft.com.  For loopback addresses such as http://localhost, the limit for connections
+was always int.MaxValue (2,147,483,647) unless changed by calling the `ServicePoint.ConnectionLimit` API.
 
-Due to this bug, when using HttpClient APIs, the connection limit for loopback addresses will now match the limit for
-non-loopback addresses. Thus, the default limit would be 2. This can cause applications to run slower or hang when
+In the .NET Framework 4.7.1 when using HttpClient APIs, the connection limit for loopback addresses now matches the limit
+for non-loopback addresses. Thus, the default limit is 2. This can cause applications to run slower or hang when
 doing multiple, parallel, requests to the http://localhost addresses.
 
-Here is code that can show the problem:
+Here is code that shows the problem:
 
 ```c#
 using System;
@@ -67,7 +67,7 @@ This code should be added before calling any HttpClient APIs.
 ServicePointManager.DefaultConnectionLimit = 20; // Actual value should be based on your requirements.
 ```
 
-Note: This will also change the limits for non-loopback addresses as well.
+Note: This will also change the limits for non-loopback addresses.
 
 ## More information
-This problem is planned to be fixed with a future .NET Framework Quality Rollup release.
+We will fix this problem in a future .NET Framework Quality Rollup release.

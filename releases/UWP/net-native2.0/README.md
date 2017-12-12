@@ -4,6 +4,11 @@ You can see what was included in each .NET Native 2.0 ([Microsoft.NETCore.Univer
 
 When using Visual Studio these packages require Visual Studio 2017 Version 15.4 or later.
 
+### UWP 6.0.5 (.NET native tools 2.0.2) (December 12th, 2017)
+
+#### Quality fixes
+- Updates the .NET native 1.7 tool chain to 1.7.3 [.NET Native 1.7 (UWP 5.4.x) Release Notes](https://github.com/Microsoft/dotnet/blob/master/releases/UWP/net-native1.7/README.md).
+
 ### UWP 6.0.4 (.NET native tools 2.0.2) (December 4th, 2017)
 #### Quality fixes				
 - Fixes a crash in debug config with static analysis enabled in project properties. [473689]

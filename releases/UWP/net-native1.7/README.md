@@ -4,14 +4,17 @@ You can see what was included in each .NET Native 1.7 ([Microsoft.NETCore.Univer
 
 When using Visual Studio these packages require Visual Studio 2017 or later.
 
+### UWP 6.0.5 (.NET native tools 1.7.3) (December 12th, 2017)
+- Fixes for a GC memory leak. [506391]
+
 ### UWP 6.0.4 (.NET native tools 1.7.2) (December 4th, 2017)
 - Fixed an unhandled exception when ClientWebSocket loses connection to server. [518456]
 - Fixed a regression in the 1.7 toolchain causing winmd file corruption when the file stream is left open. [496929]
 
-### 5.4.1 (October 9, 2017)
+### UWP 5.4.1 (.NET native tools 1.7.1) (October 9th, 2017)
 - Fixed an issue with Microsoft.NetNative.targets that prevented C++ hybrid apps from compiling; apps would fail to compile due to an attempt to write a file to a folder that does not exist. [511674]
 
-### 5.4.0 (August 11, 2017)
+### UWP 5.4.0 (.NET native tools 1.7.0) (August 11th, 2017)
 
 #### Improved Diagnostics and Better Support for Portable PDBs
 - In .NET Native 1.7, we added support for the new [Portable PDB format](https://github.com/dotnet/corefx/blob/master/src/System.Reflection.Metadata/specs/PortablePdb-Metadata.md) for representing symbol information in the .NET Native UWP compiler. The portable PDB format was originally developed to support cross-platform symbol information for managed code as well as drastically reduce the size of debug info - the format makes use of the MSIL module metadata instead of duplicating it and, because of this, it is typically an order of magnitude shorter than the equivalent Windows PDB.  In addition to that, the portable PDB format supports an "embedded" flavor in which the symbol information is directly attached to the MSIL executable in form of a binary blob, making it much easier to deploy such managed binaries, not having to care about two different files (with all the related problems of mutual compatibility, signing etc.). The debugging experience is on par with Windows PDB's - we encode the same debug information just in a more compact manner.  The previous version of the .NET Native toolchain was oblivious of the portable PDB format. [1640097]

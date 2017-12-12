@@ -21,7 +21,7 @@ In applications that target the .NET Framework 4.7.1 or a later version, backgro
 
 ### Recommended Action
 
-For apps that target the .NET Framework 4.7.1, you can opt out of the exception handling if it is not desirable by adding the following to to the `<runtime>` section of your `app.config` file:
+For apps that target the .NET Framework 4.7.1, you can opt out of the exception handling if it is not desirable by adding the following to the `<runtime>` section of your `app.config` file:
 
 ```xml
 <runtime>
@@ -29,7 +29,7 @@ For apps that target the .NET Framework 4.7.1, you can opt out of the exception 
 </runtime>
 ```
 
-For apps that target earlier versions of the .NET Framework but run on the .NET Framework 4.7.1 or later, you can opt in to the exception handling by adding the following to to the `<runtime>` section of your `app.config` file:
+For apps that target earlier versions of the .NET Framework but run on the .NET Framework 4.7.1 or later, you can opt in to the exception handling by adding the following to the `<runtime>` section of your `app.config` file:
 
 ```xml
 <runtime>

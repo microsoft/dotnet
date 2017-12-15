@@ -25,7 +25,7 @@ The Windows Workflow Foundation (WF) workflow designer is improving how it works
   - Setting default values for variables or arguments
 - Screen readers can now correctly recognize:
   - Breakpoints set in the workflow designer.
-  - The <xref:System.Activities.Statements.FlowSwitch>, <xref:System.Activities.Statements.FlowDecision>, and <xref:System.ServiceModel.Activities.CorrelationScope> activities.
+  - The <xref:System.Activities.Statements.FlowSwitch%601>, <xref:System.Activities.Statements.FlowDecision>, and <xref:System.ServiceModel.Activities.CorrelationScope> activities.
   - The contents of the <xref:System.ServiceModel.Activities.Receive> activity.
   - The Target Type for the <xref:System.Activities.Statements.InvokeMethod> activity.
   - The Exception combobox and the Finally section in the <xref:System.Activities.Statements.TryCatch> activity.
@@ -37,7 +37,7 @@ The Windows Workflow Foundation (WF) workflow designer is improving how it works
   - The zoom percentage in the Workflow Designer.
   - The separator in <xref:System.Activities.Statements.Parallel> and <xref:System.Activities.Statements.Pick> activities.
   - The <xref:System.Activities.Statements.InvokeDelegate> activity.
-  - The Select Types window for dictionary activities (<xref:Microsoft.Activities.AddToDictionary>, <xref:Microsoft.Activities.RemoveFromDictionary>, etc.).
+  - The Select Types window for dictionary activities (`Microsoft.Activities.AddToDictionary<TKey,TValue>`, `Microsoft.Activities.RemoveFromDictionary<TKey,TValue>`, etc.).
   - The Browse and Select .NET Type window.
   - Breadcrumbs in the Workflow Designer.
 - Users who choose High Contrast themes will see many improvements in the visibility of the Workflow Designer and its controls like better contrast ratios between elements and more noticeable selection boxes used for focus elements.

@@ -11,13 +11,15 @@ NotPlanned
 
 ### Change Description
 
-Starting with the .NET Framework 4.7.2, the implementation of decompression in the `T:System.IO.Compression.DeflateStream` class has changed to use native Windows APIs by default. Typically, this results in a substantial performance improvement. All .NET applications running on machines with versions of the .NET Framework starting with version 4.7.2 will now use the native implementation. 
+Starting with the .NET Framework 4.7.2, the implementation of decompression in the `T:System.IO.Compression.DeflateStream` class has changed to use native Windows APIs by default. Typically, this results in a substantial performance improvement. All .NET applications targetting .NET Framework version 4.7.2 or higher will now use the native implementation.
 
 This change might result in some differences in behavior, which include:
 
 - Exception messages may be different. However, the type of exception thrown remains the same.
- 
 - Some special situations, such as not having enough memory to complete an operation, may be handled differently.
+- There are known differences for parsing gzip header (note: only `GZipStream` set for decompression is affected):
+  - Exceptions during parsing invalid headers may be thrown at different times.
+  - Native implementation enforces that values for some reserved flags inside the gzip header (i.e. [FLG](http://www.zlib.org/rfc-gzip.html#header-trailer)) are set according to specification which may cause it to throw an exception where previously invalid values were ignored.
  
 - [X] Quirked 
 - [ ] Build-time break 

@@ -16,4 +16,6 @@ Call the [System.Diagnostics.StackTrace.#ctor(Boolean)](https://docs.microsoft.c
 regressed.
 
 ## Resolution
-The fix for this issue is expected in a future servicing update. 
+
+[09-Jan-2018] The fix for this issue is included  in the [Update for .NET Framework 4.7.1 - KB4054856](http://go.microsoft.com/fwlink/?LinkId=866028).
+

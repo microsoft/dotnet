@@ -29,4 +29,4 @@ If you are running on Windows 10 Fall Creators Update, an update is available th
 
     x64: https://go.microsoft.com/fwlink/?linkid=862762
 
-[09-Jan-2018] The fix for this issue is included  in the [Update for .NET Framework 4.7.1 - KB4054856](http://go.microsoft.com/fwlink/?LinkId=866028).
+[09-Jan-2018] The fix for this issue is included  in the [Update for .NET Framework 4.7.1 - KB4054856](http://go.microsoft.com/fwlink/?LinkId=866028) for all platforms except Windows 10 Fall Creators Update.

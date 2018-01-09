@@ -56,3 +56,6 @@ There are two ways to work around this issue:
  - When running on .NET Framework 4.7.1, remove the binding redirects from the app.config file for the assemblies that are now part of the .NET Framework.
  - Re-target your application to target the .NET Framwork 4.7 or .NET Framework 4.7.1.
  
+## Resolution
+
+[09-Jan-2018] The fix for this issue is included  in the [Update for .NET Framework 4.7.1 - KB4054856](http://go.microsoft.com/fwlink/?LinkId=866028) for all platforms except Windows 10 Fall Creators Update.

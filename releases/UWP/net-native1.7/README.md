@@ -1,11 +1,13 @@
 # .NET native tools 1.7 Release Notes
-
 You can see what was included in each .NET Native 1.7 ([Microsoft.NETCore.UniversalWindowsPlatform 5.4.x](https://www.nuget.org/packages/Microsoft.NETCore.UniversalWindowsPlatform)) release below.
 
 When using Visual Studio these packages require Visual Studio 2017 or later.
 
+### UWP 5.4.2 (.NET native tools 1.7.3) (January 9th, 2018)
+- Fixed CVE-2018-0786: Security Feature Bypass in X509 Certificate Validation: https://github.com/Microsoft/dotnet/issues/597
+
 ### UWP 6.0.5 (.NET native tools 1.7.3) (December 12th, 2017)
-- Fixes for a GC memory leak. [506391]
+- Fixed a GC memory leak. [506391]
 
 ### UWP 6.0.4 (.NET native tools 1.7.2) (December 4th, 2017)
 - Fixed an unhandled exception when ClientWebSocket loses connection to server. [518456]

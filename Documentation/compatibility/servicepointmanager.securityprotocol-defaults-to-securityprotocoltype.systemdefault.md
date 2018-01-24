@@ -22,6 +22,14 @@ This change affects applications that target the .NET Framework 4.7 or later ver
 
 If you prefer to use a defined protocol rather than relying on the system default, you can explicitly set the value of the <xref:System.Net.ServicePointManager.SecurityProtocol?displayProperty=nameWithType> property.
 
+If this change is undesirable, you can opt out of it by adding a configuration setting to the [`<runtime>`](https://docs.microsoft.com/dotnet/framework/configure-apps/file-schema/runtime/runtime-element) section of your application configuration file. The following example shows both the `<runtime>` section and the `Switch.System.Net.DontEnableSystemDefaultTlsVersions` opt-out switch:
+
+```xml
+<runtime>
+   <AppContextSwitchOverrides value="Switch.System.Net.DontEnableSystemDefaultTlsVersions=true" />
+</runtime>
+```
+
 ### Affected APIs
 - `P:System.Net.ServicePointManager.SecurityProtocol`
 

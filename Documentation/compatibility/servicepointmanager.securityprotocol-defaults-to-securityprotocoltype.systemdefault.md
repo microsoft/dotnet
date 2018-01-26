@@ -12,7 +12,7 @@ NotPlanned
 ### Change Description
 Starting with apps that target the .NET Framework 4.7, the default value of the <xref:System.Net.ServicePointManager.SecurityProtocol?displayProperty=nameWithType> property is <xref:System.Net.SecurityProtocolType.SystemDefault?displayProperty=nameWithType>. This change allows .NET Framework networking APIs based on SslStream (such as FTP, HTTPS, and SMTP) to inherit the default security protocols from the operating system instead of using hard-coded values defined by the .NET Framework. The default varies by operating system and any custom configuration performed by the system administrator. For information on the default SChannel protocol in each version of the Windows operating system, see [Protocols in TLS/SSL (Schannel SSP)](https://msdn.microsoft.com/library/windows/desktop/mt808159.aspx).
 
-For applications that target an earlier version of the .NET Framework, the default value of the <xref:System.Net.ServicePointManager.SecurityProtocol?displayProperty=nameWithType> property depends on the version of the .NET Framework targeted. See [Retargeting Changes in the .NET Framework 4.6](docs.microsoft.com/dotnet/framework/migration-guide/retargeting) for more information.
+For applications that target an earlier version of the .NET Framework, the default value of the <xref:System.Net.ServicePointManager.SecurityProtocol?displayProperty=nameWithType> property depends on the version of the .NET Framework targeted. See the [Networking section of Retargeting Changes for Migration from .NET Framework 4.5.2 to 4.6](https://docs.microsoft.com/en-us/dotnet/framework/migration-guide/retargeting/4.5.2-4.6#Networking) for more information.
 
 - [X] Quirked 
 - [ ] Build-time break
@@ -20,7 +20,15 @@ For applications that target an earlier version of the .NET Framework, the defau
 ### Recommended Action
 This change affects applications that target the .NET Framework 4.7 or later versions. 
 
-If you prefer to use a defined protocol rather than relying on the system default, you can explicitly set the value of the  <xref:System.Net.ServicePointManager.SecurityProtocol?displayProperty=nameWithType> property.
+If you prefer to use a defined protocol rather than relying on the system default, you can explicitly set the value of the <xref:System.Net.ServicePointManager.SecurityProtocol?displayProperty=nameWithType> property.
+
+If this change is undesirable, you can opt out of it by adding a configuration setting to the [`<runtime>`](https://docs.microsoft.com/dotnet/framework/configure-apps/file-schema/runtime/runtime-element) section of your application configuration file. The following example shows both the `<runtime>` section and the `Switch.System.Net.DontEnableSystemDefaultTlsVersions` opt-out switch:
+
+```xml
+<runtime>
+   <AppContextSwitchOverrides value="Switch.System.Net.DontEnableSystemDefaultTlsVersions=true" />
+</runtime>
+```
 
 ### Affected APIs
 - `P:System.Net.ServicePointManager.SecurityProtocol`

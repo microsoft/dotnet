@@ -20,5 +20,5 @@ regressed.
 
 ## Resolution
 
-[09-Jan-2018] The fix for this issue is included  in the [Update for .NET Framework 4.7.1 - KB4054856](http://go.microsoft.com/fwlink/?LinkId=866028) for all platforms except Windows 10 Fall Creators Update.
+[09-Jan-2018] The fix for this issue is included  in the [Update for .NET Framework 4.7.1 - KB4054856](http://go.microsoft.com/fwlink/?LinkId=866028) for all platforms except Windows 10 Fall Creators Update. This fix removes the Portable PDB functionality from 4.7.1. In 4.7.2 we anticipate having an improved fix available which both performs well and re-enables the portable PDB functionality.
 

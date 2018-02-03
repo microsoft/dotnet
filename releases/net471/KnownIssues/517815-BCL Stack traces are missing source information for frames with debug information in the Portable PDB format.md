@@ -3,7 +3,7 @@
 ## Symptoms
 
 An application that formats stack traces is missing source information for some or all frames. This includes stack traces formatted via [System.Exception.ToString()](https://docs.microsoft.com/en-us/dotnet/api/system.exception.tostring?view=netframework-4.7.1), [System.Exception.StackTrace](https://docs.microsoft.com/en-us/dotnet/api/system.exception.stacktrace?view=netframework-4.7.1) and [System.Diagnostics.StackTrace.ToString()](https://docs.microsoft.com/en-us/dotnet/api/system.diagnostics.stacktrace.tostring?view=netframework-4.7.1).
-The frames missing source information must reside in assemblies that have pdbs in the [Portable PDB format](https://github.com/dotnet/core/blob/master/Documentation/diagnostics/portable_pdb.md) present on disk.
+The frames missing source information reside in assemblies that have pdbs in the [Portable PDB format](https://github.com/dotnet/core/blob/master/Documentation/diagnostics/portable_pdb.md) present on disk.
 
 ## Cause
 

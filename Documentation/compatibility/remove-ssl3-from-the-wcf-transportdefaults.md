@@ -27,8 +27,8 @@ Ssl3 to the list of negotiated protocols.
 
 * <xref:System.ServiceModel.Channels.SslStreamSecurityBindingElement.SslProtocols>
 * <xref:System.ServiceModel.TcpTransportSecurity.SslProtocols>
-* [\<transport\> section of \<netTcpBinding\>](https://docs.microsoft.com/en-us/dotnet/articles/framework/configure-apps/file-schema/wcf/transport-of-nettcpbinding)
-* [\<sslStreamSecurity\> section of \<customBinding\>](https://docs.microsoft.com/en-us/dotnet/articles/framework/configure-apps/file-schema/wcf/sslstreamsecurity)
+* [\<transport> section of \<netTcpBinding>](https://docs.microsoft.com/en-us/dotnet/articles/framework/configure-apps/file-schema/wcf/transport-of-nettcpbinding)
+* [\<sslStreamSecurity> section of \<customBinding>](https://docs.microsoft.com/en-us/dotnet/articles/framework/configure-apps/file-schema/wcf/sslstreamsecurity)
 
 ### Affected APIs
 * `P:System.ServiceModel.Channels.SslStreamSecurityBindingElement.SslProtocols`

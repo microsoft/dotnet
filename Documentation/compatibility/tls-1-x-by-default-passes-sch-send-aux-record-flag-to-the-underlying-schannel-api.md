@@ -20,7 +20,7 @@ In rare cases, this breaks communication between clients and existing servers th
 
 ### Recommended Action
 
-If this changes break communication with an existing server, you can disable sending the [`SCH_SEND_AUX_RECORD`](https://msdn.microsoft.com/en-us/library/windows/desktop/aa379810(v=vs.85).aspx) flag and restore the previous behavior of not splitting data into separate records by adding the following switch to the [`\<AppContextSwitchOverrides>` element](https://docs.microsoft.com/en-us/dotnet/framework/configure-apps/file-schema/runtime/appcontextswitchoverrides-element) in the [`\<runtime> section](https://docs.microsoft.com/en-us/dotnet/framework/configure-apps/file-schema/runtime/runtime-element) of your app configuration file:
+If this change breaks communication with an existing server, you can disable sending the [`SCH_SEND_AUX_RECORD`](https://msdn.microsoft.com/en-us/library/windows/desktop/aa379810(v=vs.85).aspx) flag and restore the previous behavior of not splitting data into separate records by adding the following switch to the [`\<AppContextSwitchOverrides>` element](https://docs.microsoft.com/en-us/dotnet/framework/configure-apps/file-schema/runtime/appcontextswitchoverrides-element) in the [`\<runtime> section](https://docs.microsoft.com/en-us/dotnet/framework/configure-apps/file-schema/runtime/runtime-element) of your app configuration file:
 
 ```xml
 <runtime>
@@ -32,7 +32,12 @@ If this changes break communication with an existing server, you can disable sen
 > This setting is provided for backward compatibility only. Its use is otherwise not recommended.
 
 ### Affected APIs
-* T:System.Net.SecurityProtocolType
+* `T:System.Net.Security.SslStream`
+* `T:System.Net.ServicePointManager`
+* `T:System.Net.Http.HttpClient`
+* `T:System.Net.Mail.SmtpClient`
+* `T:System.Net.HttpWebRequest`
+* `T:System.Net.FtpWebRequest`
 
 ### Category
 Networking

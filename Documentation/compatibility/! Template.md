@@ -1,32 +1,35 @@
-## [|Breaking Change Title|]
-
-// There is no built in way to do comments in Markdown, so this C# style comment used to mark comments. Please remove all of these before submission
-// Please use proper markdown syntax for code snippets. See http://daringfireball.net/projects/markdown/syntax for examples
-// Entries with [| ... |] are fields that must be updated.
+## TLS 1.x by default passes the SCH_SEND_AUX_RECORD flag to the underlying SCHANNEL API
 
 ### Scope
-[|Major|Minor|Edge|Transparent|]
-//A description of the Scope values can be found at https://docs.microsoft.com/en-us/dotnet/articles/framework/migration-guide/net-compatibility-diagnostics
+Edge
 
 ### Version Introduced
-[|Version in which the breaking change first occurred|]
-
-### Version Reverted
-[|Version in which the breaking change was reverted. If not applicable, please remove|]
+4.6
 
 ### Source Analyzer Status
-// Flag that specifies whether an analyzer for Microsoft.DotNet.FrameworkCompatibilityDiagnostics has been or will be written
-// For more information on the diagnostics, see this blog: https://blogs.msdn.microsoft.com/dotnet/2016/03/03/net-framework-compatibility-diagnostics/
-[|Investigating|Planned|Available|NotPlanned|]
+NotPlanned
 
 ### Change Description
-[|Description of what a change does and how it may affect someone|]
 
-// Replace the space with an 'x' if applicable
-- [ ] Quirked // Uses some mechanism to turn the feature on or off, usually using runtime targeting, AppContext or config files. Needs to be turned on automatically for some situations.
-- [ ] Build-time break // Causes a break if attempted to recompile
+When using TLS 1.x, the .NET Framework relies on the underlying Windows SCHANNEL API. Starting with .NET Framework 4.6, the [`SCH_SEND_AUX_RECORD`](https://msdn.microsoft.com/en-us/library/windows/desktop/aa379810(v=vs.85).aspx) flag is passed by default to SCHANNEL. This causes SCHANNEL to split data to be encrypted into two separate records, the first as a single byte and the second as *n*-1 bytes.   
+
+In rare cases, this breaks communication between clients and existing servers that make the assumption that the data resides in a single record.
+
+- [X] ] Quirked
+- [ ] Build-time break
 
 ### Recommended Action
+
+If this changes breaks communication with an existing server, you can prevent the [`SCH_SEND_AUX_RECORD`](https://msdn.microsoft.com/en-us/library/windows/desktop/aa379810(v=vs.85).aspx) flag from being uses and restore the previous behavior of not splitting data into separate records by adding the following switch to the [`\<AppContextSwitchOverrides>` element](https://docs.microsoft.com/en-us/dotnet/framework/configure-apps/file-schema/runtime/appcontextswitchoverrides-element) in the [`\<runtime> section](https://docs.microsoft.com/en-us/dotnet/framework/configure-apps/file-schema/runtime/runtime-element) of your app configuration file:
+
+```xml
+<runtime>
+   <AppContextSwitchOverrides   
+          value="Switch.System.Net.DontEnableSchSendAuxRecord=true" /> 
+</runtime>
+```
+
+
 [|
   Suggested steps if user is affected go here:
 
@@ -51,14 +54,10 @@
 //  * Not detectable via API analysis
 
 ### Category
-[|Pick a category from BreakingChangesCategories.json|]
-
-// If no link is available, please remove this line
-[More information]([|LinkForMoreInformation|])
+Networking
 
 <!--
-    ### Original Bug
-    Bug link goes here
+    ### Original Bug #186985
 -->
 
 

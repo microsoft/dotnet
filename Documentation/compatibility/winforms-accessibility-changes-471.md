@@ -1,4 +1,4 @@
-## Accessibility improvements in Windows Forms controls
+﻿## Accessibility improvements in Windows Forms controls
 
 ### Scope
 Major
@@ -109,7 +109,7 @@ NOTE: Windows10 has changed values for some high contrast system colors. Windows
 ### Affected APIs
 * `M:System.Windows.Forms.ToolStripDropDownButton.CreateAccessibilityInstance`
 * `P:System.Windows.Forms.DomainUpDown.DomainUpDownAccessibleObject.Name`
-* `T:System.Windows.Forms.MonthCalendar.MonthCalendarAccessibleObject` 
+* `T:System.Windows.Forms.MonthCalendar.AccessibilityObject` 
 
 
 ### Category

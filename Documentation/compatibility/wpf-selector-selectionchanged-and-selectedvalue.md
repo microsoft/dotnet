@@ -12,7 +12,7 @@ NotPlanned
 ### Change Description
 Starting with the .Net Framework 4.7.1, a <xref:System.Windows.Controls.Primitives.Selector> always updates the value of its
 <xref:System.Windows.Controls.Primitives.Selector.SelectedValue%2A> property before raising the
-<xref:System.Windows.Controls.Primitives.Selector.SelectionChanged%2A> event, when its selection changes.
+<xref:System.Windows.Controls.Primitives.Selector.SelectionChanged> event, when its selection changes.
 This makes the SelectedValue property consistent with the other selection properties 
 (<xref:System.Windows.Controls.Primitives.Selector.SelectedItem%2A> and 
 <xref:System.Windows.Controls.Primitives.Selector.SelectedIndex%2A>), which are updated before raising the event.  

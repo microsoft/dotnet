@@ -15,7 +15,7 @@ When using TLS 1.x, the .NET Framework relies on the underlying Windows SCHANNEL
 
 In rare cases, this breaks communication between clients and existing servers that make the assumption that the data resides in a single record.
 
-- [X] ] Quirked
+- [X] Quirked
 - [ ] Build-time break
 
 ### Recommended Action

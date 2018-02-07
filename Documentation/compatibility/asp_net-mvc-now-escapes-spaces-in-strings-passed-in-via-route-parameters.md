@@ -19,7 +19,7 @@ In order to conform to RFC 2396, spaces in route paths are now escaped when popu
 Code should be updated to unescape string parameters from a route. If the original URI is needed, it can be accessed with the <xref:System.Net.HttpWebRequest.RequestUri>.OriginalString API.
 
 ### Affected APIs
-* `M:System.Web.Http.RouteAttribute.#ctor(System.String)`
+* `M:System.Web.Http.RouteAttribute.%23ctor(System.String)`
 
 ### Category
 ASP.NET

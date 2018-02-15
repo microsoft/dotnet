@@ -13,8 +13,8 @@ The .NET Framework 4.7.1 added support for detecting and parsing the Portable PD
 ## Workarounds
 
 - If you control the build process for the problematic assemblies you may be able to configure it to generate the classic Windows PDB format instead.
-- You could use the [PDB conversion tool](https://github.com/dotnet/symreader-converter) to convert the Portable PDBs into the classic Windows PDB format and deploy those with the application instead.
+- You can use the [PDB conversion tool](https://github.com/dotnet/symreader-converter) to convert the Portable PDBs into the classic Windows PDB format and deploy those with the application instead.
 
 ## Resolution
 
-A fix is anticipated in .NET Framework 4.7.2, in the near future, that restores Portable PDB functionality with greatly improved performance.
+A fix is anticipated in .NET Framework 4.7.2 in the near future that restores Portable PDB functionality with greatly improved performance.

@@ -32,6 +32,6 @@ Apps that target the .NET Framework 4.6 but want WPF controls to render using th
 ### Category
 Windows Presentation Foundation (WPF)
 
-[More information](https://docs.microsoft.com/en-us/dotnet/articles/framework/migration-guide/mitigation-wpf-layout)
+[More information](~/docs/framework/migration-guide/mitigation-wpf-layout.md)
 
 <!-- breaking change id: 139 -->

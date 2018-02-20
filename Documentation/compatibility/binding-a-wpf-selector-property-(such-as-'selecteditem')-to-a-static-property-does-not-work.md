@@ -27,7 +27,7 @@ This behavior was reverted in a servicing update for the .NET Framework 4.5. Ple
 ### Category
 Windows Presentation Foundation (WPF)
 
-[More information](https://social.msdn.microsoft.com/Forums/vstudio/en-US/56ff3199-5abc-454e-87f7-bafff43e7422/net-45-critical-selecteditem-not-setting-binding-item?forum=wpf)
+[More information](https://social.msdn.microsoft.com/Forums/vstudio/56ff3199-5abc-454e-87f7-bafff43e7422/net-45-critical-selecteditem-not-setting-binding-item?forum=wpf)
 
 <!--
     ### Notes

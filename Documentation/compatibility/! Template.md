@@ -6,7 +6,7 @@
 
 ### Scope
 [|Major|Minor|Edge|Transparent|]
-//A description of the Scope values can be found at https://docs.microsoft.com/en-us/dotnet/articles/framework/migration-guide/net-compatibility-diagnostics
+//A description of the Scope values can be found at https://docs.microsoft.com/dotnet/articles/framework/migration-guide/net-compatibility-diagnostics
 
 ### Version Introduced
 [|Version in which the breaking change first occurred|]
@@ -39,7 +39,7 @@
 [| List of APIs affected by change referred to using docids|]
 
 // For details on how to generate docids, please look at other change files or
-// see https://msdn.microsoft.com/en-us/library/fsbx0t7x.aspx for the spec.
+// see https://msdn.microsoft.com/library/fsbx0t7x.aspx for the spec.
 //
 // For example, if all members of System.Xml.XmlTextReader is affected, we would have the following item:
 // * `T:System.Xml.XmlTextReader`

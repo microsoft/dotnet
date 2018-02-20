@@ -18,7 +18,7 @@ Starting with .NET Framework 4.6, the <xref:System.Net.Security.SslStream> or <x
 
 ### Recommended Action
 
-If this change is undesirable, you can disable certificate EKU OID validation by adding the following switch to the [`\<AppContextSwitchOverrides>` element](https://docs.microsoft.com/en-us/dotnet/framework/configure-apps/file-schema/runtime/appcontextswitchoverrides-element) in the [`\<runtime> section](https://docs.microsoft.com/en-us/dotnet/framework/configure-apps/file-schema/runtime/runtime-element) of your app configuration file:
+If this change is undesirable, you can disable certificate EKU OID validation by adding the following switch to the [`\<AppContextSwitchOverrides>` element](~/docs/framework/configure-apps/file-schema/runtime/appcontextswitchoverrides-element.md) in the [`\<runtime> section](~/docsframework/configure-apps/file-schema/runtime/runtime-element.md) of your app configuration file:
 
 ```xml
 <runtime>

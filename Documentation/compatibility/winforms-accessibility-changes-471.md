@@ -51,7 +51,7 @@ For an overview of UI automation, see the [UI Automation Overview](https://docs.
 
 **Added support for UI Automation patterns and properties**
 
-Accessibility clients can take advantage of new WinForms accessibility functionality by using common, publicly described invocation patterns. These patterns are not WinForms-specific. For instance, accessibility clients can call the QueryInterface method on the IAccessible interface (MAAS) to obtain an IServiceProvider interface. If this interface is available, clients can use its QueryService method to request an IAccessibleEx interface. For more information, see [Using IAccessibleEx from a Client](https://msdn.microsoft.com/en-us/library/windows/desktop/dd561924(v=vs.85).aspx). Starting with the .NET Framework 4.7.1, IServiceProvider and [IAccessibleEx]( https://msdn.microsoft.com/en-us/library/windows/desktop/dd561898(v=vs.85).aspx) (where applicable) are available for WinForms accessibility objects.
+Accessibility clients can take advantage of new WinForms accessibility functionality by using common, publicly described invocation patterns. These patterns are not WinForms-specific. For instance, accessibility clients can call the QueryInterface method on the IAccessible interface (MAAS) to obtain an IServiceProvider interface. If this interface is available, clients can use its QueryService method to request an IAccessibleEx interface. For more information, see [Using IAccessibleEx from a Client](https://msdn.microsoft.com/library/windows/desktop/dd561924.aspx). Starting with the .NET Framework 4.7.1, IServiceProvider and [IAccessibleEx]( https://msdn.microsoft.com/library/windows/desktop/dd561898.aspx) (where applicable) are available for WinForms accessibility objects.
 
 The .NET Framework 4.7.1 adds support for the following UI automation patterns and properties:
 
@@ -102,14 +102,14 @@ NOTE: Windows10 has changed values for some high contrast system colors. Windows
 - The `T:System.Windows.Forms.CheckedListBox` control now notifies Narrator when the `P:System.Windows.Forms.CheckState` property has been changed. Previously, Narrator did not recieve notification and as a result users would not be informed that the `P:System.Windows.Forms.CheckState` had been updated.
 - The `T:System.Windows.Forms.LinkLabel` control has changed the way it notifies Narrator of the text of in the control. Previously, Narrator announced this text twice and read "&" symbols as real text even though they are not visible to a user. The duplicated text was removed from the Narrator announcements, as well as unnecessary "&" symbols.
 - The `T:System.Windows.Forms.DataGridViewCell` control types now correctly report the read-only status to Narrator and other assistive technologies.
-- Narrator is now able to read the System Menu of child windows in [Multiple-Document Interface](https://docs.microsoft.com/en-us/dotnet/framework/winforms/advanced/multiple-document-interface-mdi-applications) applications.
+- Narrator is now able to read the System Menu of child windows in [Multiple-Document Interface]~/docs/framework/winforms/advanced/multiple-document-interface-mdi-applications.md) applications.
 - Narrator is now able to read `T:System.Windows.Forms.ToolStripMenuItem` controls with a `P:System.Windows.Forms.ToolStripItem.Enabled` property set to _false_. Previously, Narrator was unable to focus on disabled menu items to read hte content. 
 
 
 ### Affected APIs
 * `M:System.Windows.Forms.ToolStripDropDownButton.CreateAccessibilityInstance`
 * `P:System.Windows.Forms.DomainUpDown.DomainUpDownAccessibleObject.Name`
-* `T:System.Windows.Forms.MonthCalendar.AccessibilityObject` 
+* [MonthCalendar.AccessibilityObject](xref:System.Windows.Forms.Control.AccessibilityObject) 
 
 
 ### Category

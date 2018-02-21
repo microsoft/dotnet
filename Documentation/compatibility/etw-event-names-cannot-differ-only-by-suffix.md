@@ -16,8 +16,8 @@ NotPlanned
 ### Change Description
 In the .NET Framework 4.6 and 4.6.1, the runtime throws an <xref:System.ArgumentException> when two Event Tracing for Windows (ETW) event names differ only by a "Start" or "Stop" suffix (as when one event is named `LogUser` and another is named `LogUserStart`). In this case, the runtime cannot construct the event source, which cannot emit any logging.
 
-- [X] Quirked // Uses some mechanism to turn the feature on or off, usually using runtime targeting, AppContext or config files. Needs to be turned on automatically for some situations.
-- [ ] Build-time break // Causes a break if attempted to recompile
+- [X] Quirked 
+- [ ] Build-time break 
 
 ### Recommended Action
 

@@ -51,8 +51,8 @@ after a horizontal scroll, whether invoked by the end user or by an explicit
 call to
 <xref:System.Windows.Controls.Primitives.IScrollInfo.SetHorizontalOffset(System.Double)>.
 
-- [ ] Quirked // Uses some mechanism to turn the feature on or off, usually using runtime targeting, AppContext or config files. Needs to be turned on automatically for some situations.
-- [ ] Build-time break // Causes a break if attempted to recompile
+- [ ] Quirked 
+- [ ] Build-time break
 
 ### Recommended Action
 

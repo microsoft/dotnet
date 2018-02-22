@@ -14,8 +14,8 @@ The .NET Framework 4.6 adds TLS 1.1 and TLS 1.2 to the WCF SSL default protocol 
 
 TLS 1.2 does not support MD5 certificate authentication. As a result, if a customer uses an MD5 certificate, the WCF client will fail to connect to the WCF service. 
 
-- [ ] Quirked // Uses some mechanism to turn the feature on or off, usually using runtime targeting, AppContext or config files. Needs to be turned on automatically for some situations.
-- [ ] Build-time break // Causes a break if attempted to recompile
+- [ ] Quirked 
+- [ ] Build-time break
 
 ### Recommended Action
 You can work around this issue so that a WCF client can connect to a WCF server by doing any of the following:

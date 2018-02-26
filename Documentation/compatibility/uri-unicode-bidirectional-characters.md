@@ -14,6 +14,8 @@ Unicode specifies several special control characters used to specify the orienta
 In previous versions of the .NET Framework, these characters would be incorrectly stripped
 from all URIs. The characters would be stripped even if they were present in their percent
 encoded form. In order to better follow [RFC 3987](http://tools.ietf.org/html/rfc3987), we now allow these characters in URIs.
+When found un-encoded in a URI they will be percent encoded. When found percent encoded they
+will be left as-is.
 
 - [x] Quirked
 - [ ] Build-time break

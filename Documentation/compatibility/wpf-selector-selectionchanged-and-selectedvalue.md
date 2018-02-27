@@ -10,16 +10,16 @@ Minor
 NotPlanned
 
 ### Change Description
-Starting with the .Net Framework 4.7.1, a `T:System.Windows.Controls.Primitives.Selector` always updates the value of its
-`P:System.Windows.Controls.Primitives.Selector.SelectedValue` property before raising the
-`E:System.Windows.Controls.Primitives.Selector.SelectionChanged` event, when its selection changes.
+Starting with the .Net Framework 4.7.1, a <xref:System.Windows.Controls.Primitives.Selector> always updates the value of its
+<xref:System.Windows.Controls.Primitives.Selector.SelectedValue%2A> property before raising the
+<xref:System.Windows.Controls.Primitives.Selector.SelectionChanged> event, when its selection changes.
 This makes the SelectedValue property consistent with the other selection properties 
-(`P:System.Windows.Controls.Primitives.Selector.SelectedItem` and 
-`P:System.Windows.Controls.Primitives.Selector.SelectedIndex`), which are updated before raising the event.
+(<xref:System.Windows.Controls.Primitives.Selector.SelectedItem%2A> and 
+<xref:System.Windows.Controls.Primitives.Selector.SelectedIndex%2A>), which are updated before raising the event.  
 
 In the .NET Framework 4.7 and earlier versions, the update to SelectedValue happened before the event in most cases, but it happened
 after the event if the selection change was caused by changing the 
-`P:System.Windows.Controls.Primitives.Selector.SelectedValue` property.
+<xref:System.Windows.Controls.Primitives.Selector.SelectedValue%2A> property.
 
 - [X] Quirked
 - [ ] Build-time break
@@ -30,7 +30,8 @@ by adding the following to the `<runtime>` section of the application configurat
 
    ```xml
    <runtime>
-      <AppContextSwitchOverrides value="Switch.System.Windows.Controls.TabControl.SelectionPropertiesCanLagBehindSelectionChangedEvent=true" />
+      <AppContextSwitchOverrides 
+         value="Switch.System.Windows.Controls.TabControl.SelectionPropertiesCanLagBehindSelectionChangedEvent=true" />
    </runtime>
    ```
 

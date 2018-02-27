@@ -14,7 +14,7 @@ Available
 When you create a Windows Metadata library (.winmd file), the
 <xref:System.ObsoleteAttribute?displayProperty=name> attribute is exported as
 both <xref:System.ObsoleteAttribute?displayProperty=name> and
-[Windows.Foundation.DeprecatedAttribute](https://docs.microsoft.com/en-us/uwp/api/windows.foundation.metadata.deprecatedattribute).
+[Windows.Foundation.DeprecatedAttribute](https://docs.microsoft.com/uwp/api/windows.foundation.metadata.deprecatedattribute).
 
 - [ ] Quirked
 - [x] Build-time break
@@ -27,7 +27,7 @@ warnings when consuming that code from C++/CX or JavaScript.
 
 We do not recommend applying both
 <xref:System.ObsoleteAttribute?displayProperty=name> and
-[Windows.Foundation.DeprecatedAttribute](https://docs.microsoft.com/en-us/uwp/api/windows.foundation.metadata.deprecatedattribute) to code in managed assemblies; it may
+[Windows.Foundation.DeprecatedAttribute](https://docs.microsoft.com/uwp/api/windows.foundation.metadata.deprecatedattribute) to code in managed assemblies; it may
 result in build warnings.
 
 ### Affected APIs

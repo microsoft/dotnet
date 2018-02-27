@@ -13,9 +13,9 @@ NotPlanned
 
 ### Change Description
 
-In the .NET Framework 4.7 and earlier versions, exceptions thrown on service startup are not propagated to the caller of <xref:System.ServiceProcess.Servicebase.Run?displayProperty=nameWithType>.
+In the .NET Framework 4.7 and earlier versions, exceptions thrown on service startup are not propagated to the caller of <xref:System.ServiceProcess.ServiceBase.Run%2A?displayProperty=nameWithType>.
 
-Starting with applications that target the .NET Framework 4.7.1, the runtime propagates exceptions to <xref:System.ServiceProcess.Servicebase.Run?displayProperty=nameWithType> for services that fail to start.
+Starting with applications that target the .NET Framework 4.7.1, the runtime propagates exceptions to <xref:System.ServiceProcess.ServiceBase.Run%2A?displayProperty=nameWithType> for services that fail to start.
 
 - [x] Quirked
 - [ ] Build-time break

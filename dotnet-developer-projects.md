@@ -68,6 +68,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [DotVVM](https://github.com/riganti/dotvvm) - MVVM framework for people who don't like to write JavaScript, with OWIN and ASP.NET Core support and a free extension for Visual Studio 2015 and 2017.
   * [Nancy](https://github.com/NancyFx/Nancy) - A lightweight, low-ceremony, framework for building HTTP based services on .NET and Mono.
   * [NemerleWeb](https://github.com/NemerleWeb/NemerleWeb) - Web MVVM library for .Net. It uses reactive data model which allows creating rich internet applications.
+  * [ServiceStack](https://servicestack.net) - Comprehensive and lightning fast message-based framework including ORM, caching, authentication, templating, SPA integrations, etc.
 
 ## Static Site Generators
   * [FsBlog](https://github.com/fsprojects/FsBlog/) - Blog aware, static site generation using F#.
@@ -342,6 +343,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [Material Design in XAML Toolkit](https://github.com/ButchersBoy/MaterialDesignInXamlToolkit) - WPF/XAML resources, styles & templates for creating applications using Material Design
   * [Mono XWT](https://github.com/mono/xwt) - A cross-platform UI toolkit for creating desktop apps
   * [UWP Community Toolkit](https://github.com/Microsoft/UWPCommunityToolkit) - The UWP Community Toolkit is a collection of helper functions, custom controls, and app services. It simplifies and demonstrates common developer tasks building UWP apps for Windows 10.
+  * [Neutronium](https://github.com/NeutroniumCore/Neutronium) - Neutronium is a library to create .NET desktop applications using HTML, CSS and javascript. It uses the MVVM pattern exactly the same way as WPF applications.
  
 ## Windows Services
   * [King.Service](https://github.com/jefking/King.Service) - Task scheduling for Azure and Windows
@@ -367,6 +369,8 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [Orleans](https://github.com/dotnet/orleans) - Framework that provides a straight-forward approach to building distributed high-scale computing applications using virtual actor model.
   
 ## Windows Workflow
+  * [Core WF](https://github.com/dmetzgar/corewf) - WF runtime ported to work on .NET Core.
+  * [Orleans.Activities](https://github.com/OrleansContrib/Orleans.Activities) - WF over [Microsoft Orleans](https://github.com/dotnet/orleans) framework.
   * [Workflow Extractor](https://github.com/punitganshani/WorkflowExtractor) - Document Windows Workflow logic into a Word document or Excel sheet. 
 
 ## Amazon Echo/Alexa Integration

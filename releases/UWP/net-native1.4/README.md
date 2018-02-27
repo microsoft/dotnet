@@ -4,8 +4,10 @@ You can see what was included in each .NET Native 1.4 ([Microsoft.NETCore.Univer
 
 When using Visual Studio these packages require Visual Studio 2015 Update 3 or later.
 
-### 5.2.3 (March 7, 2017)
+### 5.2.4 (January 9th, 2018)
+- Fixed CVE-2018-0786: Security Feature Bypass in X509 Certificate Validation: https://github.com/Microsoft/dotnet/issues/597
 
+### 5.2.3 (March 7, 2017)
 - Fixed an [issue](https://github.com/dotnet/corefx/issues/10374) that caused DataContractJsonSerializer to fail to serialize any [DataContract] type whose default constructor is not public.
 - Fixed a regression in 5.2.2 where [4 Libraries were accidently no longer referenced by default](https://github.com/dotnet/corefx/issues/10338)
     - System.Collections.NonGeneric
@@ -21,7 +23,6 @@ You can read more about these changes in the Visual Studio 2015 Update 3 blog [p
 - Improved runtime performance for XAML applications and Unity games. 
 
 ## Resources
-
 - [Getting Started with .NET Native](https://docs.microsoft.com/en-us/dotnet/framework/net-native/getting-started-with-net-native)
 - [Microsoft.NETCore.UniversalWindowsPlatform NuGet Package Details](https://www.nuget.org/packages/Microsoft.NETCore.UniversalWindowsPlatform)
 - [Windows Dev Center](https://developer.microsoft.com/en-us/windows/apps/getstarted)

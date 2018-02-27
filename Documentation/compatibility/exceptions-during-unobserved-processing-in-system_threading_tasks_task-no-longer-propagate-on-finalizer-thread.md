@@ -29,7 +29,7 @@ finalizer thread, the previous behavior can be restored by providing an
 appropriate handler for the
 <xref:System.Threading.Tasks.TaskScheduler.UnobservedTaskException>
 event, or by setting a
-[runtime configuration element](https://docs.microsoft.com/en-us/dotnet/articles/framework/configure-apps/file-schema/runtime/throwunobservedtaskexceptions-element).
+[runtime configuration element](~/docs/framework/configure-apps/file-schema/runtime/throwunobservedtaskexceptions-element.md).
 
 ### Affected APIs
 * `M:System.Threading.Tasks.Task.Run(System.Action)`

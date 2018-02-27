@@ -22,8 +22,8 @@ reflect the state of the
 <xref:System.Windows.UIElement.IsEnabled?displayProperty=name> property of the
 <xref:System.Windows.Controls.TextBlock?displayProperty=name> parent.
 
-- [ ] Quirked // Uses some mechanism to turn the feature on or off, usually using runtime targeting, AppContext or config files. Needs to be turned on automatically for some situations.
-- [ ] Build-time break // Causes a break if attempted to recompile
+- [ ] Quirked
+- [ ] Build-time break 
 
 ### Recommended Action
 None. This change conforms to the expected behavior for controls inside a <xref:System.Windows.Controls.TextBlock?displayProperty=name> control.

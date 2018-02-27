@@ -1,11 +1,31 @@
-# .NET Native 2.0 (UWP 6.0.x) Release Notes
+# .NET native tools 2.0 (UWP 6.0.x) Release Notes
 
-You can see what was included in each .NET Native 2.0 ([Microsoft.NETCore.UniversalWindowsPlatform 6.0.x](https://www.nuget.org/packages/Microsoft.NETCore.UniversalWindowsPlatform)) release, below.
+You can see what was included in each .NET Native 2.0 ([Microsoft.NETCore.UniversalWindowsPlatform 6.0.x](https://www.nuget.org/packages/Microsoft.NETCore.UniversalWindowsPlatform)) release below.
 
 When using Visual Studio these packages require Visual Studio 2017 Version 15.4 or later.
+### UWP 6.0.7 (.NET native tools 2.0.3) (February 7th, 2018)
+- Updated ILC to copy all .pdb files to the output .appxsyms, including ones that do not have matching binaries. [524755]
+
+### UWP 6.0.6 (.NET native tools 2.0.2) (January 9th, 2018)
+- Fixed CVE-2018-0786: Security Feature Bypass in X509 Certificate Validation: https://github.com/Microsoft/dotnet/issues/597
+
+### UWP 6.0.5 (.NET native tools 2.0.2) (December 12th, 2017)
+- Updated the .NET native 1.7 tool chain to 1.7.3 [.NET Native 1.7 (UWP 5.4.x) Release Notes](https://github.com/Microsoft/dotnet/blob/master/releases/UWP/net-native1.7/README.md).
+
+### UWP 6.0.4 (.NET native tools 2.0.2) (December 4th, 2017)			
+- Fixed a crash in debug config with static analysis enabled in project properties. [473689]
+- Improved telemetry included in ILC crashes, enabling failure determination. [521523]
+- Fixed for a GC memory leak. [506391]
+- Updated the .NET native 1.7 tool chain to 1.7.2. [.NET Native 1.7 (UWP 5.4.x) Release Notes](https://github.com/Microsoft/dotnet/blob/master/releases/UWP/net-native1.7/README.md).
+
+### UWP 6.0.2 (.NET native tools 2.0.1) (November 20, 2017)
+- Fixed an issue when building UWP apps that target RS3 and reference the Microsoft Store Services SDK and Microsoft Advertising SDK or Store Engagement SDK [514498]
+- Fixed crashes due to an error in the compiler's garbage collection reporting (affects ARM apps built with .NET Native) [507618]
+- Improved performance for creating new UWP Projects. [512775]
+- Fixed issues that enable Windows Application Packaging (Centennial) projects publishing scenarios [521438]
+- Enabled a P/Invoke feature for WindowsSDK Store in RS3 [518300]
 
 ### 6.0.1 (October 5, 2017)
-
 
 #### .NET Standard 2.0 Support
 

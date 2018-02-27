@@ -35,7 +35,7 @@ exceeds 260 characters.
 ### Recommended Action
 
 For apps that target the .NET Framework 4.6.2, you can opt out of long path
-support if it is not desirable by adding the following to to the `<runtime>`
+support if it is not desirable by adding the following to the `<runtime>`
 section of your `app.config` file:
 
    ```xml
@@ -46,7 +46,7 @@ section of your `app.config` file:
 
 For apps that target earlier versions of the .NET Framework but run on the .NET
 Framework 4.6.2 or later, you can opt in to long path support by adding the
-following to to the `<runtime>` section of your `app.config` file:
+following to the `<runtime>` section of your `app.config` file:
 
    ```xml
    <runtime>

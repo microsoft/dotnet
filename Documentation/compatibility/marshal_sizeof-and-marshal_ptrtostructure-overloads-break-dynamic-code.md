@@ -29,7 +29,7 @@ have been added that may be ambiguous to the scripting engines.
 
 Update scripts to clearly indicate which overload should be used. This can
 typically done by explicitly casting the methods' type parameters as
-<xref:System.Type>. See [this link](https://support.microsoft.com/en-us/kb/2909958/)
+<xref:System.Type>. See [this link](https://support.microsoft.com/kb/2909958/)
 for more detail and examples of how to workaround the issue.
 
 ### Affected APIs
@@ -38,7 +38,7 @@ for more detail and examples of how to workaround the issue.
 ### Category
 Core
 
-[More information](https://support.microsoft.com/en-us/kb/2909958/)
+[More information](https://support.microsoft.com/kb/2909958/)
 
 <!--
     ### Notes

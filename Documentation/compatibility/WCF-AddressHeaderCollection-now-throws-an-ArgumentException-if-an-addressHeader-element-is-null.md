@@ -10,7 +10,7 @@ Minor
 NotPlanned
 
 ### Change Description
-Starting with the .NET Framework 4.7.1, the `M:System.ServiceModel.Channels.AddressHeaderCollection.#ctor(System.Collections.Generic.IEnumerable{System.ServiceModel.Channels.AddressHeader})` constructor throws an `T:System.ArgumentException` if one of the elements is `null`. In the .NET Framework 4.7 and earlier versions, no exception is thrown.
+Starting with the .NET Framework 4.7.1, the <xref:System.ServiceModel.Channels.AddressHeaderCollection.#ctor(System.Collections.Generic.IEnumerable{System.ServiceModel.Channels.AddressHeader})> constructor throws an <xref:System.ArgumentException> if one of the elements is `null`. In the .NET Framework 4.7 and earlier versions, no exception is thrown.
 
 ### Recommended Action
 If you encounter compatibility issues with this change on the .NET Framework 4.7.1 or a later version, you can opt-out of it by adding the following line to the `<runtime>` section of the app.config file::
@@ -27,7 +27,7 @@ If you encounter compatibility issues with this change on the .NET Framework 4.7
 * `M:System.ServiceModel.Channels.AddressHeaderCollection.#ctor(System.Collections.Generic.IEnumerable{System.ServiceModel.Channels.AddressHeader})`
 
 ### Category
-* Windows Communication Foundation (WCF)
+Windows Communication Foundation (WCF)
 
 <!--
     ### Original Bug

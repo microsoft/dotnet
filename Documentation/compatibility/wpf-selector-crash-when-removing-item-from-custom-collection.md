@@ -13,7 +13,7 @@ Minor
 NotPlanned
 
 ### Change Description
-An 'T:System.InvalidOperationException` can occur in the following scenario:
+An `T:System.InvalidOperationException` can occur in the following scenario:
   * The ItemsSource for a `T:System.Windows.Controls.Primitives.Selector` is a collection with a custom
 	implementation of `T:System.Collections.Specialized.INotifyCollectionChanged`.
   * The selected item is removed from the collection.

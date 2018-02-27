@@ -55,7 +55,7 @@
       "runtime": [
         {
           "name": ".NET Core 2.0",
-          "link": "https://github.com/dotnet/core/blob/master/release-notes/download-archives/2.0.0-download.md"
+          "link": "https://github.com/dotnet/core/blob/master/release-notes/download-archives/2.0.3.md"
         }
       ]
     },    
@@ -74,11 +74,11 @@
       "runtime": [
         {
           "name": ".NET Core 1.0",
-          "link": "https://github.com/dotnet/core/releases/tag/1.0.4"
+          "link": "https://github.com/dotnet/core/releases/tag/1.0.8"
         },
         {
           "name": ".NET Core 1.1",
-          "link": "https://github.com/dotnet/core/releases/tag/1.1.1"
+          "link": "https://github.com/dotnet/core/releases/tag/1.1.5"
         }
       ]
     },

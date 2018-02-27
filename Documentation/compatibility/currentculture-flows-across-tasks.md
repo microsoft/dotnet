@@ -39,7 +39,7 @@ as the first operation in an async Task. Alternatively, the old behavior (of not
 flowing <xref:System.Globalization.CultureInfo.CurrentCulture?displayProperty=name>/<xref:System.Globalization.CultureInfo.CurrentUICulture?displayProperty=name>)
 may be opted into by setting the following compatibility switch:
 
-```C#
+```csharp
 AppContext.SetSwitch("Switch.System.Globalization.NoAsyncCurrentCulture", true);
 ```
 

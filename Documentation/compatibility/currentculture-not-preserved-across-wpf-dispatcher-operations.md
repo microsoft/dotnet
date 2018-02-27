@@ -62,7 +62,7 @@ can be avoided by targeting the .NET Framework 4.5.2.
 Apps that target .NET Framework 4.6 or later can also work around this by
 setting the following compatibility switch:
 
-    ```
+    ```csharp
     AppContext.SetSwitch("Switch.System.Globalization.NoAsyncCurrentCulture", true);
     ```
 

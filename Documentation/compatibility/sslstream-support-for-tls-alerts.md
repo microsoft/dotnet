@@ -47,13 +47,13 @@ for .NET 4.6 and above applications running on .NET 4.7 or higher framework.
 
 	Must be the very first thing the application does since ServicePointManager will initialize only once:
 	 
-```C#
+```csharp
     AppContext.SetSwitch("TestSwitch.LocalAppContext.DisableCaching", true);
     AppContext.SetSwitch("Switch.System.Net.DontEnableTlsAlerts", true); // Set to 'false' to enable the feature in .NET 4.6 - 4.6.2.
 ```
 * AppConfig:
 
-```XML
+```xml
 		<runtime>
 			<AppContextSwitchOverrides value="Switch.System.Net.DontEnableTlsAlerts=true"/>
 			<!-- Set to 'false' to enable the feature in .NET 4.6 - 4.6.2. -->

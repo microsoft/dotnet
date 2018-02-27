@@ -20,7 +20,7 @@ Starting with apps that target the .NET Framework 4.7, a Windows Forms
 application can set the <xref:System.Security.Cryptography.CspParameters.ParentWindowHandle>
 property with code like the following:
 
-```C#
+```csharp
 cspParameters.ParentWindowHandle = form.Handle;
 ```
 
@@ -37,7 +37,7 @@ effect, but on Windows 8 and later versions, it results in a
 ### Recommended Action
 Applications targeting .NET 4.7 or higher wishing to register a parent window relationship are encouraged to use the simplified form:
 
-```C#
+```csharp
 cspParameters.ParentWindowHandle = form.Handle;
 ```
 

@@ -10,7 +10,7 @@ Minor
 Available
 
 ### Change Description
-Task.WaitAll behavior was made more consistent in .NET 4.5.
+<xref:System.Threading.Tasks.Task.WaitAll%2A?displayProperty=nameWithType> behavior was made more consistent in .NET Framework 4.5.
 
 In the .NET Framework 4, these methods behaved inconsistently. When the time-out
 expired, if one or more tasks were completed or canceled before the method call,
@@ -28,7 +28,7 @@ call) and no other tasks are still running.
 - [ ] Build-time break
 
 ### Recommended Action
-If an <xref:System.AggregateException?displayProperty=name> was being caught as a means of detecting a task that was cancelled prior to the WaitAll call being invoked, that code should instead do the same detection via the IsCanceled property (for example: .Any(t =&gt; t.IsCanceled)) since .NET 4.6 will only throw in that case if all awaited tasks are completed prior to the timeout.
+If an <xref:System.AggregateException?displayProperty=name> was being caught as a means of detecting a task that was cancelled prior to the <xref:System.Threading.Tasks.Task.WaitAll%2A> call being invoked, that code should instead do the same detection via the  <xref:System.Threading.Tasks.Task.IsCanceled%2A> property (for example: .Any(t =&gt; t.IsCanceled)) since .NET Framework 4.6 will only throw in that case if all awaited tasks are completed prior to the timeout.
 
 ### Affected APIs
 * `M:System.Threading.Tasks.Task.WaitAll(System.Threading.Tasks.Task[],System.Int32)`

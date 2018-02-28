@@ -37,37 +37,39 @@ should handle <xref:System.IO.IOException> or
 <xref:System.TimeoutException?displayProperty=name>.
 
 The TLS Alerts feature is enabled by default starting with .NET 4.7.
-Applications targeting .NET 4.0 - .NET 4.6.2 running on a .NET 4.7 or higher
+Applications targeting versions of the .NET Framework from 4.0 through 4.6.2 running on a .NET Framework 4.7 or higher
 system will have the feature disabled to preserve compatibility.
 
 The following configuration API is available to enable or disable the feature
-for .NET 4.6 and above applications running on .NET 4.7 or higher framework.
+for .NET Framework 4.6 and later applications running on .NET Framework 4.7 or later.
 
 * Programmatically:
 
 	Must be the very first thing the application does since ServicePointManager will initialize only once:
-	 
-```csharp
+    
+    ```csharp
     AppContext.SetSwitch("TestSwitch.LocalAppContext.DisableCaching", true);
     AppContext.SetSwitch("Switch.System.Net.DontEnableTlsAlerts", true); // Set to 'false' to enable the feature in .NET 4.6 - 4.6.2.
-```
+    ```
+
 * AppConfig:
 
-```xml
-		<runtime>
-			<AppContextSwitchOverrides value="Switch.System.Net.DontEnableTlsAlerts=true"/>
-			<!-- Set to 'false' to enable the feature in .NET 4.6 - 4.6.2. -->
-		</runtime>
-```
+    ```xml
+    <runtime>
+        <AppContextSwitchOverrides value="Switch.System.Net.DontEnableTlsAlerts=true"/>
+        <!-- Set to 'false' to enable the feature in .NET 4.6 - 4.6.2. -->
+    </runtime>
+    ```
+
 * Registry key (machine global):
 
-	Set the Value to 'false' to enable the feature in .NET 4.6 - 4.6.2.
+    Set the Value to 'false' to enable the feature in .NET 4.6 - 4.6.2.
 
-```
-			Key = HKLM\SOFTWARE\[Wow6432Node\]Microsoft\.NETFramework\AppContext\Switch.System.Net.DontEnableTlsAlerts
-			Type = String
-			Value = "true"
-```
+    ```
+    Key = HKLM\SOFTWARE\[Wow6432Node\]Microsoft\.NETFramework\AppContext\Switch.System.Net.DontEnableTlsAlerts
+    Type = String
+    Value = "true"
+    ```
 
 ### Affected APIs
 * `T:System.Net.Security.SslStream`

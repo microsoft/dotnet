@@ -1,4 +1,4 @@
-## ASP.NET Accessibility Improvements in .NET 4.7.1
+## ASP.NET Accessibility Improvements in .NET Framework 4.7.1
 
 ### Scope
 Minor

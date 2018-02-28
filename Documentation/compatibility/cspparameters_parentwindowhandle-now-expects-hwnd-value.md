@@ -35,7 +35,7 @@ effect, but on Windows 8 and later versions, it results in a
 - [ ] Build-time break
 
 ### Recommended Action
-Applications targeting .NET 4.7 or higher wishing to register a parent window relationship are encouraged to use the simplified form:
+Applications targeting .NET Framework 4.7 or higher wishing to register a parent window relationship are encouraged to use the simplified form:
 
 ```csharp
 cspParameters.ParentWindowHandle = form.Handle;

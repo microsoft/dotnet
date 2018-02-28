@@ -1,4 +1,4 @@
-## ICommand.CanExecuteChanged event behaviour changed in .NET 4.5
+## ICommand.CanExecuteChanged event behaviour changed in .NET Framework 4.5
 
 ### Scope
 Minor

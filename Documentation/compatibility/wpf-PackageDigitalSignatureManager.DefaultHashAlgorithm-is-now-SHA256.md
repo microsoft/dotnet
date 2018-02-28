@@ -17,7 +17,7 @@ used for signing parts of a package was SHA1.  Due to recent security concerns w
 - [ ] Build-time break
 
 ### Recommended Action
-A developer who wants to utilize this change while targeting a framework version below .NET 4.7.1 or a developer who requires the previous functionality while targeting .NET 4.7.1 or greater 
+A developer who wants to utilize this change while targeting a framework version below .NET Framework 4.7.1 or a developer who requires the previous functionality while targeting .NET Framework 4.7.1 or greater 
 can set the following AppContext flag appropriately.  A value of true will result in SHA1 being used as the default algorithm; false results in SHA256.
 
 ```xml

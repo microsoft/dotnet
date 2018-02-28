@@ -12,7 +12,7 @@ Not planned
 ### Change Description
 Beginning in the .NET Framework 4.6.1, WCF binding that uses the TransportWithMessageCredential security mode can be set up to receive messages with unsigned "to" headers for asymmetric security keys.
 
-By default, unsigned "to" headers will continue to be rejected in .NET 4.6.1. They will only be accepted if an application opts into this new mode of operation using the Switch.System.ServiceModel.AllowUnsignedToHeader configuration switch.
+By default, unsigned "to" headers will continue to be rejected in .NET Framework 4.6.1. They will only be accepted if an application opts into this new mode of operation using the Switch.System.ServiceModel.AllowUnsignedToHeader configuration switch.
 
 Because this is an opt-in feature, it should not affect the behavior of existing apps.
 

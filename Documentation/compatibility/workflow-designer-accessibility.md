@@ -49,7 +49,7 @@ The Windows Workflow Foundation (WF) workflow designer is improving how it works
 ### Recommended Action
 If you have an application with a re-hosted workflow designer, your application can benefit from these changes by performing either of these actions:
 - Recompile your application to target the .NET Framework 4.7.1. These accessibility changes are enabled by default.
-- If your application targets the .NET Framework 4.7 or earlier but is running on the .NET Framework 4.7.1, you can opt out of these legacy accessibility behaviors by adding the following [AppContext switch](https://docs.microsoft.com/dotnet/framework/configure-apps/file-schema/runtime/appcontextswitchoverrides-element) to the `<runtime>` section of the app.config file and set it to `false`, as the following example shows.
+- If your application targets the .NET Framework 4.7 or earlier but is running on the .NET Framework 4.7.1, you can opt out of these legacy accessibility behaviors by adding the following [AppContext switch](~/docs/framework/configure-apps/file-schema/runtime/appcontextswitchoverrides-element.md) to the `<runtime>` section of the app.config file and set it to `false`, as the following example shows.
 ```
     <?xml version="1.0" encoding="utf-8"?>
     <configuration>

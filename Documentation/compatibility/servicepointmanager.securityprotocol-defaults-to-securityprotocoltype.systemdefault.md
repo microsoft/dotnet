@@ -18,11 +18,11 @@ For applications that target an earlier version of the .NET Framework, the defau
 - [ ] Build-time break
 
 ### Recommended Action
-This change affects applications that target the .NET Framework 4.7 or later versions.
+This change affects applications that target the .NET Framework 4.7 or later versions.   
 
-If you prefer to use a defined protocol rather than relying on the system default, you can explicitly set the value of the <xref:System.Net.ServicePointManager.SecurityProtocol?displayProperty=nameWithType> property.
+If you prefer to use a defined protocol rather than relying on the system default, you can explicitly set the value of the <xref:System.Net.ServicePointManager.SecurityProtocol?displayProperty=nameWithType> property.   
 
-If this change is undesirable, you can opt out of it by adding a configuration setting to the [`<runtime>`](https://docs.microsoft.com/dotnet/framework/configure-apps/file-schema/runtime/runtime-element) section of your application configuration file. The following example shows both the `<runtime>` section and the `Switch.System.Net.DontEnableSystemDefaultTlsVersions` opt-out switch:
+If this change is undesirable, you can opt out of it by adding a configuration setting to the [`<runtime>`](~/docs/framework/configure-apps/file-schema/runtime/runtime-element.md) section of your application configuration file. The following example shows both the `<runtime>` section and the `Switch.System.Net.DontEnableSystemDefaultTlsVersions` opt-out switch:
 
 ```xml
 <runtime>

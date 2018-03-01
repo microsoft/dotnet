@@ -20,7 +20,7 @@ In the .NET Framework 4.5, non-pooled SQL connections which are not explicitly e
 
 ### Recommended Action
 
-This issue is fixed in a .NET Framework 4.5 servicing update. Please update the
+This issue is fixed in a .NET Framework 4.5 servicing update. Update the
 .NET Framework 4.5, or upgrade to .NET Framework 4.5.1 or later, to fix this
 issue. Alternatively, this issue may be avoided by using the
 <xref:System.Data.SqlClient.SqlConnection?displayProperty=name> in a 'using'

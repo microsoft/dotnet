@@ -39,7 +39,7 @@ Developers who wish to enable this stack can add/merge the following to their ap
 
 Removing this or setting the value to false will turn this optional stack off.  
 
-Please note that this stack is available only on Windows 10 Creators Update and above.
+Note that this stack is available only on Windows 10 Creators Update and above.
 
 ### Affected APIs
 Not detectable via API analysis

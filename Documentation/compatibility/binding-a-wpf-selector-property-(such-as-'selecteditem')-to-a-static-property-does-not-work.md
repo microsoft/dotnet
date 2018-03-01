@@ -19,7 +19,7 @@ In the .NET Framework 4.5, WPF Selector properties (such as 'SelectedItem' on <x
 - [ ] Build-time break
 
 ### Recommended Action
-This behavior was reverted in a servicing update for the .NET Framework 4.5. Please update the .NET Framework 4.5, or upgrade to .NET Framework 4.5.1 or later, to fix this issue.
+This behavior was reverted in a servicing update for the .NET Framework 4.5. To fix this issue, update the .NET Framework 4.5, or upgrade to .NET Framework 4.5.1 or later.
 
 ### Affected APIs
 * Not detectable via API analysis

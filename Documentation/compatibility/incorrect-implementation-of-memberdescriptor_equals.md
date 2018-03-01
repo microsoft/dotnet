@@ -28,11 +28,11 @@ are equivalent, and you are targeting 4.6.2 version of the .NET Framework, you h
 running Equals method.
 2. Opt out from this change by adding the following value to the app.config file:
 
-```xml
-<runtime>
-  <AppContextSwitchOverrides value="Switch.System.MemberDescriptorEqualsReturnsFalseIfEquivalent=true" />
-</runtime>
-```
+   ```xml
+   <runtime>
+      <AppContextSwitchOverrides value="Switch.System.MemberDescriptorEqualsReturnsFalseIfEquivalent=true" />
+   </runtime>
+   ```
 
 If your application targets 4.6.1 or lower version of the .NET Framework, and you want this change 
 enabled, you can set the compatibility switch to false by adding the following value to the 
@@ -40,7 +40,7 @@ app.config file:
 
 ```xml
 <runtime>
-  <AppContextSwitchOverrides value="Switch.System.MemberDescriptorEqualsReturnsFalseIfEquivalent=false" />
+   <AppContextSwitchOverrides value="Switch.System.MemberDescriptorEqualsReturnsFalseIfEquivalent=false" />
 </runtime>
 ```
 

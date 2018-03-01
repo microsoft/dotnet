@@ -23,7 +23,7 @@ can be mapped to the TLS Alert from the remote party using this
 For more information, see
 [RFC 2246: Section 7.2.2 Error alerts](https://tools.ietf.org/html/rfc2246#section-7.2.2)
 
-The behavior in .NET 4.6.2 and below is that the transport channel (usually TCP
+The behavior in .NET Framework 4.6.2 and earlier is that the transport channel (usually TCP
 connection) will timeout during either Write or Read if the other party failed
 the handshake and immediately afterwards rejected the connection.
 
@@ -36,38 +36,40 @@ Applications calling network I/O APIs such as <xref:System.IO.Stream.Read(System
 should handle <xref:System.IO.IOException> or
 <xref:System.TimeoutException?displayProperty=name>.
 
-The TLS Alerts feature is enabled by default starting with .NET 4.7.
-Applications targeting .NET 4.0 - .NET 4.6.2 running on a .NET 4.7 or higher
+The TLS Alerts feature is enabled by default starting with .NET Framework 4.7.
+Applications targeting versions of the .NET Framework from 4.0 through 4.6.2 running on a .NET Framework 4.7 or higher
 system will have the feature disabled to preserve compatibility.
 
 The following configuration API is available to enable or disable the feature
-for .NET 4.6 and above applications running on .NET 4.7 or higher framework.
+for .NET Framework 4.6 and later applications running on .NET Framework 4.7 or later.
 
 * Programmatically:
 
 	Must be the very first thing the application does since ServicePointManager will initialize only once:
-	 
-```csharp
+    
+    ```csharp
     AppContext.SetSwitch("TestSwitch.LocalAppContext.DisableCaching", true);
-    AppContext.SetSwitch("Switch.System.Net.DontEnableTlsAlerts", true); // Set to 'false' to enable the feature in .NET 4.6 - 4.6.2.
-```
+    AppContext.SetSwitch("Switch.System.Net.DontEnableTlsAlerts", true); // Set to 'false' to enable the feature in .NET Framework 4.6 - 4.6.2.
+    ```
+
 * AppConfig:
 
-```xml
-		<runtime>
-			<AppContextSwitchOverrides value="Switch.System.Net.DontEnableTlsAlerts=true"/>
-			<!-- Set to 'false' to enable the feature in .NET 4.6 - 4.6.2. -->
-		</runtime>
-```
+    ```xml
+    <runtime>
+        <AppContextSwitchOverrides value="Switch.System.Net.DontEnableTlsAlerts=true"/>
+        <!-- Set to 'false' to enable the feature in .NET Framework 4.6 - 4.6.2. -->
+    </runtime>
+    ```
+
 * Registry key (machine global):
 
-	Set the Value to 'false' to enable the feature in .NET 4.6 - 4.6.2.
+    Set the Value to 'false' to enable the feature in .NET Framework 4.6 - 4.6.2.
 
-```
-			Key = HKLM\SOFTWARE\[Wow6432Node\]Microsoft\.NETFramework\AppContext\Switch.System.Net.DontEnableTlsAlerts
-			Type = String
-			Value = "true"
-```
+    ```
+    Key = HKLM\SOFTWARE\[Wow6432Node\]Microsoft\.NETFramework\AppContext\Switch.System.Net.DontEnableTlsAlerts
+    Type = String
+    Value = "true"
+    ```
 
 ### Affected APIs
 * `T:System.Net.Security.SslStream`

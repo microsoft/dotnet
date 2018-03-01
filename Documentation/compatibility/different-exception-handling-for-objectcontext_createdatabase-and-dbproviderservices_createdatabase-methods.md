@@ -11,11 +11,11 @@ Available
 
 ### Change Description
 
-Beginning in .NET 4.5, if database creation fails, `CreateDatabase` methods will
+Beginning in .NET Framework 4.5, if database creation fails, `CreateDatabase` methods will
 attempt to drop the empty database. If that operation succeeds, the original
 <xref:System.Data.SqlClient.SqlException?displayProperty=name> will be
 propagated (instead of the <xref:System.InvalidOperationException?displayProperty=name>
-that was always thrown in .NET 4.0)
+that was always thrown in .NET Framework 4.0)
 
 - [ ] Quirked
 - [ ] Build-time break

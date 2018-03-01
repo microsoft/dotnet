@@ -26,8 +26,8 @@ asynchronous work happens, an
 ### Recommended Action
 
 Any one of the following:
-1. Upgrade to .NET 4.7.
-2. Install the latest servicing patch for .NET 4.6.2.
+1. Upgrade to .NET Framework 4.7.
+2. Install the latest servicing patch for .NET Framework 4.6.2.
 3. Avoid removing columns until the asynchronous response to <xref:System.Windows.Controls.DataGrid.ScrollIntoView(System.Object)> has completed.
 
 ### Affected APIs

@@ -29,7 +29,7 @@ parameter is resolved as a call to a Dispatcher.Invoke overload with an
 
 To avoid ambiguity (and potential differences in exception handling or blocking
 behaviors), code calling Dispatcher.Invoke can pass an empty object[] as a
-second parameter to the Invoke call to be sure of resolving to the .NET 4.0
+second parameter to the Invoke call to be sure of resolving to the .NET Framework 4.0
 method overload.
 
 ### Affected APIs

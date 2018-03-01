@@ -24,7 +24,7 @@ constraints.
 
 ### Recommended Action
 
-This issue was fixed in a servicing update. Please update the .NET Framework
+This issue was fixed in a servicing update. Update the .NET Framework
 4.5, or upgrade to .NET Framework 4.5.1 or later, to fix this issue.
 Alternatively, avoid using IsAssignableFrom with generic types that have
 constraints on generic parameters. Reflection APIs can be used as a work-around.

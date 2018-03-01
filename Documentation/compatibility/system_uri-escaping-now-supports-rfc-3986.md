@@ -11,7 +11,7 @@ Available
 
 ### Change Description
 
-URI escaping has changed in .NET 4.5 to support
+URI escaping has changed in .NET Framework 4.5 to support
 [RFC 3986](http://tools.ietf.org/html/rfc3986). Specific changes include:
 
 - <xref:System.Uri.EscapeDataString(System.String)?displayProperty=name> escapes reserved characters based on RFC 3986.
@@ -24,7 +24,7 @@ URI escaping has changed in .NET 4.5 to support
 
 ### Recommended Action
 * Update applications to not rely on <xref:System.Uri.UnescapeDataString(System.String)?displayProperty=name> to throw in the case of an invalid escape sequence. Such sequences must be detected directly now.
-* Similarly, expect that Escaped and Unescaped URI and Data strings may vary from .NET 4.0 and .NET 4.5 and should not be compared across .NET versions directly. Instead, they should be parsed and normalized in a single .NET version before any comparisons are made.
+* Similarly, expect that Escaped and Unescaped URI and Data strings may vary from .NET Framework 4.0 and .NET Framework 4.5 and should not be compared across .NET versions directly. Instead, they should be parsed and normalized in a single .NET version before any comparisons are made.
 
 ### Affected APIs
 * `M:System.Uri.EscapeDataString(System.String)`

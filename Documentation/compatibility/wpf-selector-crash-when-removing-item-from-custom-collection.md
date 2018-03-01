@@ -26,15 +26,15 @@ The exception's callstack begins
    at System.Windows.DependencyObject.GetValue(DependencyProperty dp)
    at System.Windows.Controls.Primitives.Selector.GetIsSelected(DependencyObject element)
 
-This exception can occur in .Net 4.5 if the application has more than one Dispatcher thread.
-In .Net 4.7 the exception can also occur in applications with a single Dispatcher thread.
-The issue is fixed in .Net 4.7.1.
+This exception can occur in .NET Framework 4.5 if the application has more than one Dispatcher thread.
+In .NET Framework 4.7 the exception can also occur in applications with a single Dispatcher thread.
+The issue is fixed in .NET Framework 4.7.1.
 
 - [ ] Quirked
 - [ ] Build-time break
 
 ### Recommended Action
-Upgrade to .Net 4.7.1.
+Upgrade to .NET Framework 4.7.1.
 
 ### Affected APIs
  * Not detectable via API analysis

@@ -37,7 +37,7 @@ If you encounter the issues listed above, you can address them by doing any of t
 **Mitigation of other issues**  
 If you encounter any other difference in behavior between code compiled with the older 64-bit compiler and the new 64-bit JIT compiler, or between the debug and release versions of your app that are both compiled with the new 64-bit JIT compiler, you can do the following to compile your app with the older 64-bit JIT compiler:  
   
-- On a per-application basis, you can add the [\<useLegacyJit>](https://docs.microsoft.com/dotnet/framework/configure-apps/file-schema/runtime/uselegacyjit-element) element to your application's configuration file. The following disables compilation with the new 64-bit JIT compiler and instead uses the legacy 64-bit JIT compiler.  
+- On a per-application basis, you can add the [\<useLegacyJit>](~/docs/framework/configure-apps/file-schema/runtime/uselegacyjit-element.md) element to your application's configuration file. The following disables compilation with the new 64-bit JIT compiler and instead uses the legacy 64-bit JIT compiler.  
   
    ```xml  
    <?xml version ="1.0"?>  

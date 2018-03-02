@@ -24,7 +24,7 @@ Windows Forms is improving how it works with accessibility technologies to bette
 
 ### Recommended Action
 
-**How to opt in or out of these changes**
+**How to opt in or out of these changes**</br>
   
 In order for the application to benefit from these changes, it must run on the .NET Framework 4.7.1 or later. The application can benefit from these changes in either of the following ways:
 
@@ -45,13 +45,13 @@ In order for the application to benefit from these changes, it must run on the .
    </configuration>
    ```
 
-Applications that target the .NET Framework 4.7.1 or later and want to preserve the legacy accessibility behavior can opt in to the use of legacy accessibility features by explicitly setting this AppContext switch to `true`.   
+</br>Applications that target the .NET Framework 4.7.1 or later and want to preserve the legacy accessibility behavior can opt in to the use of legacy accessibility features by explicitly setting this AppContext switch to `true`.</p>
 
-For an overview of UI automation, see the [UI Automation Overview](~/docs/framework/ui-automation/ui-automation-overview.md).   
+For an overview of UI automation, see the [UI Automation Overview](~/docs/framework/ui-automation/ui-automation-overview.md).</p> 
 
-**Added support for UI Automation patterns and properties**   
+**Added support for UI Automation patterns and properties**</br>
 
-Accessibility clients can take advantage of new WinForms accessibility functionality by using common, publicly described invocation patterns. These patterns are not WinForms-specific. For instance, accessibility clients can call the QueryInterface method on the IAccessible interface (MAAS) to obtain an IServiceProvider interface. If this interface is available, clients can use its QueryService method to request an IAccessibleEx interface. For more information, see [Using IAccessibleEx from a Client](https://msdn.microsoft.com/library/windows/desktop/dd561924.aspx). Starting with the .NET Framework 4.7.1, IServiceProvider and [IAccessibleEx]( https://msdn.microsoft.com/library/windows/desktop/dd561898.aspx) (where applicable) are available for WinForms accessibility objects.
+Accessibility clients can take advantage of new WinForms accessibility functionality by using common, publicly described invocation patterns. These patterns are not WinForms-specific. For instance, accessibility clients can call the QueryInterface method on the IAccessible interface (MAAS) to obtain an IServiceProvider interface. If this interface is available, clients can use its QueryService method to request an IAccessibleEx interface. For more information, see [Using IAccessibleEx from a Client](https://msdn.microsoft.com/library/windows/desktop/dd561924.aspx). Starting with the .NET Framework 4.7.1, IServiceProvider and [IAccessibleEx]( https://msdn.microsoft.com/library/windows/desktop/dd561898.aspx) (where applicable) are available for WinForms accessibility objects.</br>
 
 The .NET Framework 4.7.1 adds support for the following UI automation patterns and properties:
 
@@ -61,9 +61,9 @@ The .NET Framework 4.7.1 adds support for the following UI automation patterns a
 - The <xref:System.Windows.Forms.ToolStripDropDownItem> control supports [AccessibleEvents](xref:System.Windows.Forms.AccessibleEvents) indicating StateChange and NameChange when drop down is expanded or collapsed.
 - The <xref:System.Windows.Forms.ToolStripDropDownButton> control has a [ControlType](~/docs/framework/ui-automation/ui-automation-support-for-the-menubar-control-type.md) property value of <xref:System.Windows.Automation.ControlType.MenuItem?displayProperty=nameWithType>.
 - The <xref:System.Windows.Forms.DataGridViewCheckBoxCell> control supports the [Toggle Pattern](~/docs/api/system.windows.automation.togglepattern.md).
-- The <xref:System.Windows.Forms.NumericUpDown> and <xref:System.Windows.Forms.DomainUpDown> controls support the [Name](xref:System.Windows.Automation.AutomationElement.NameProperty) property and have a [ControlType](~/docs/framework/ui-automation/ui-automation-support-for-the-spinner-control-type.md) of <xref:System.Windows.Automation.ControlType.Spinner?displayProperty=nameWithType>.
+- The <xref:System.Windows.Forms.NumericUpDown> and <xref:System.Windows.Forms.DomainUpDown> controls support the [Name](xref:System.Windows.Automation.AutomationElement.NameProperty) property and have a [ControlType](~/docs/framework/ui-automation/ui-automation-support-for-the-spinner-control-type.md) of <xref:System.Windows.Automation.ControlType.Spinner?displayProperty=nameWithType>.</p>
 
-**Improvements to the PropertyGrid control**   
+**Improvements to the PropertyGrid control**</br>
 
 The .NET Framework 4.7.1 adds the following improvements to the PropertyBrowser control: 
 - The **Details** button in the error dialog that is displayed when the user enters an incorrect value in the <xref:System.Windows.Forms.PropertyGrid> control supports the [Expand/Collapse pattern](~/docs/framework/ui-automation/implementing-the-ui-automation-expandcollapse-control-pattern.md), state and name change notifications, and a [ControlType]~/docs/framework/ui-automation/ui-automation-support-for-the-menubar-control-type.md) property with a value of <xref:System.Windows.Automation.ControlType.MenuItem?displayProperty=nameWithType>.
@@ -77,9 +77,9 @@ The .NET Framework 4.7.1 adds the following improvements to the PropertyBrowser 
 - <xref:System.Windows.Forms.PropertyGrid> controls better differentiates between ToolBar items with focus and the ToolBar items which indicate the current value of the <xref:System.Windows.Forms.PropertyGrid.PropertySort> property. This fix consists of a High Contrast change and a change for non-High Contrast scenarios.
 - <xref:System.Windows.Forms.PropertyGrid> control ToolBar items which indicates the current value of the <xref:System.Windows.Forms.PropertyGrid.PropertySort> property support the [Toggle Pattern](xref:System.Windows.Automation.TogglePattern).
 - Improved Narrator support for distinguishing the selected alignment in the Alignment Picker.
-- When an empty <xref:System.Windows.Forms.PropertyGrid> control is displayed on a form, it will now receive focus where previously it would not.
+- When an empty <xref:System.Windows.Forms.PropertyGrid> control is displayed on a form, it will now receive focus where previously it would not.</p>
 
-**Use of OS-defined colors in High Contrast themes**
+**Use of OS-defined colors in High Contrast themes**</br>
 
 - The <xref:System.Windows.Forms.Button> and <xref:System.Windows.Forms.CheckBox> controls with their <xref:System.Windows.Forms.Control.FlatStyle> property set to <xref:System.Windows.Forms.FlatStyle.System?displayProperty=nameWithType>, which is the default style, now use OS-defined colors in High Contrast theme when selected. Previously, text and background colors were not contrasting and were hard to read.
 - The <xref:System.Windows.Forms.Button>, <xref:System.Windows.Forms.CheckBox>, <xref:System.Windows.Forms.RadioButton>, <xref:System.Windows.Forms.Label>, <xref:System.Windows.Forms.LinkLabel> and <xref:System.Windows.Forms.GroupBox> controls with their <xref:System.Windows.Forms.Control.Enabled> property set to **false** used a shaded color to render text in High Contrast themes, resulting in low contrast against the background. Now these controls use the "Disabled Text" color defined by the OS. This fix applies to controls with the <xref:System.Windows.Forms.Control.FlatStyle> property set to a value other than <xref:System.Windows.Forms.FlatStyle.System?displayProperty=nameWithType>. The latter controls are rendered by the OS.
@@ -89,12 +89,13 @@ The .NET Framework 4.7.1 adds the following improvements to the PropertyBrowser 
 
 
 NOTE: Windows 10 has changed values for some high contrast system colors. Windows Forms Framework is based on the Win32 framework. For the best experience, run on the latest version of Windows and opt in to the latest OS changes by adding an app.manifest file in a test application and uncommenting the following code:
-```
+
+```xml
     <!-- Windows 10 -->
     <supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />
 ```
 
-**Improved keyboard navigation**
+</br>**Improved keyboard navigation**
 
 - When a <xref:System.Windows.Forms.ComboBox> control has its <xref:System.Windows.Forms.ComboBox.DropDownStyle> property set to <xref:System.Windows.Forms.DropDownStyle.DropDownList?displayProperty=nameWithType> and is the first control in the tab order on the form, it now displays a focus rectangle when the parent form is opened using the keyboard. Before this change, keyboard focus was on this control, but a focus indicator was not rendered.
 
@@ -108,8 +109,8 @@ NOTE: Windows 10 has changed values for some high contrast system colors. Window
 
 
 ### Affected APIs
-* `M:System.Windows.Forms.ToolStripDropDownButton.CreateAccessibilityInstance`   
-* `P:System.Windows.Forms.DomainUpDown.DomainUpDownAccessibleObject.Name`   
+* `M:System.Windows.Forms.ToolStripDropDownButton.CreateAccessibilityInstance`
+* `P:System.Windows.Forms.DomainUpDown.DomainUpDownAccessibleObject.Name`
 * [MonthCalendar.AccessibilityObject](xref:System.Windows.Forms.Control.AccessibilityObject) 
 
 

@@ -3,6 +3,9 @@
 You can see what was included in each .NET Native 2.0 ([Microsoft.NETCore.UniversalWindowsPlatform 6.0.x](https://www.nuget.org/packages/Microsoft.NETCore.UniversalWindowsPlatform)) release below.
 
 When using Visual Studio these packages require Visual Studio 2017 Version 15.4 or later.
+### UWP 6.0.8 (.NET native tools 2.0.3) (March 5th, 2018)
+- Fixed a packaging and publishing issue. [570878]
+
 ### UWP 6.0.7 (.NET native tools 2.0.3) (February 7th, 2018)
 - Updated ILC to copy all .pdb files to the output .appxsyms, including ones that do not have matching binaries. [524755]
 

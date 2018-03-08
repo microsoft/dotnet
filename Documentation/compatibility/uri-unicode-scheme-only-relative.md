@@ -11,7 +11,7 @@ NotPlanned
 
 ### Change Description
 
-<xref:System.Uri> will no longer throw a NullReferenceException when calling <xref:System.Uri.TryCreate> on unusual relative URIs containing Unicode.
+<xref:System.Uri> will no longer throw a NullReferenceException when calling <xref:System.Uri.TryCreate> on certain relative URIs containing Unicode.
 
 The simplest reproduction of the <xref:System.NullReferenceException> is below, with the two statements being equivalent:
  ```C#

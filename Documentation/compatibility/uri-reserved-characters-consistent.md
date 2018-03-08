@@ -10,7 +10,7 @@ Minor
 NotPlanned
 
 ### Change Description
-In System.Uri, certain percent encoded characters that were sometimes decoded are now consistently left encoded. This occurs across the properties and methods that access the path, query, fragment, or userinfo components of the URI. 
+In <xref:System.Uri?displayProperty=fullName>, certain percent encoded characters that were sometimes decoded are now consistently left encoded. This occurs across the properties and methods that access the path, query, fragment, or userinfo components of the URI. 
 The behavior will change only when both of the following are true:
   - The URI contains the encoded form of any of the following reserved characters: " : ", " ' ", " ( ",  " ) ", " ! " or " * ".
   - The URI contains a Unicode or encoded non-reserved character.

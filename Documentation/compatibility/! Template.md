@@ -51,7 +51,7 @@
 //  * Not detectable via API analysis
 
 ### Category
-[|Pick a category from BreakingChangesCategories.json|]
+[|Pick a category from [the list of supported categories](!categories.md)|]
 
 // If no link is available, please remove this line
 [More information]([|LinkForMoreInformation|])

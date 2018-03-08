@@ -14,7 +14,7 @@ NotPlanned
 <xref:System.Uri> will no longer throw a <xref:System.NullReferenceException> when calling <xref:System.Uri.TryCreate%2A> on certain relative URIs containing Unicode.
 
 The simplest reproduction of the <xref:System.NullReferenceException> is below, with the two statements being equivalent:
- ```C#
+ ```csharp
 bool success = Uri.TryCreate("http:%C3%A8", UriKind.RelativeOrAbsolute, out Uri href);
 bool success = Uri.TryCreate("http:è", UriKind.RelativeOrAbsolute, out Uri href);
  ```

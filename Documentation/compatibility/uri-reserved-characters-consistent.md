@@ -1,7 +1,7 @@
 ## Ensure System.Uri uses a consistent reserved character set
 
 ### Scope
-Major
+Minor
 
 ### Version Introduced
 4.7.2

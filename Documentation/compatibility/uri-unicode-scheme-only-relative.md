@@ -26,7 +26,7 @@ To reproduce the <xref:System.NullReferenceException>, the following items must 
 - [ ] Build-time break
 
 ### Recommended Action
-Users depending on this behavior to disallow relative URIs should instead specify <xref:System.UriKind.Absolute?displayProperty=fullName> when creating a URI.
+Users depending on this behavior to disallow relative URIs should instead specify <xref:System.UriKind.Absolute?displayProperty=nameWithType> when creating a URI.
 
 ### Affected APIs
 * `Overload:System.Uri.TryCreate`

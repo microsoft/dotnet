@@ -13,7 +13,7 @@ NotPlanned
 
 System.Uri will no longer throw a NullReferenceException when calling TryCreate on unusual relative URIs containing Unicode.
 
-The simplest reproduction of the NRE is below, with the two statements being equivalent:
+The simplest reproduction of the NullReferenceException is below, with the two statements being equivalent:
  ```C#
 bool success = Uri.TryCreate("http:%C3%A8", UriKind.RelativeOrAbsolute, out Uri href);
 bool success = Uri.TryCreate("http:è", UriKind.RelativeOrAbsolute, out Uri href);

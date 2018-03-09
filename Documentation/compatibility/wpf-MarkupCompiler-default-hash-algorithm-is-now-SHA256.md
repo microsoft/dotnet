@@ -11,7 +11,7 @@ NotPlanned
 
 ### Change Description
 The WPF MarkupCompiler provides compilation services for XAML markup files.  In the .NET Framework 4.7.1 and earlier versions, the default hash algorithm used for checksums was SHA1.
-Due to recent security concerns with SHA1, this default has been changed to SHA256 starting with the .NET Framework 4.7.2.  This change affects all checksum generation for markup files during compilation steps.
+Due to recent security concerns with SHA1, this default has been changed to SHA256 starting with the .NET Framework 4.7.2.  This change affects all checksum generation for markup files during compilation.
 
 - [X] Quirked
 - [ ] Build-time break

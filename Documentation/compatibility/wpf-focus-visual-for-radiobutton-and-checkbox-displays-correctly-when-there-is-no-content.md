@@ -12,14 +12,14 @@ NotPlanned
 ### Change Description
 In the .NET Framework 4.7.1 and earlier versions, WPF `System.Windows.Controls.CheckBox` and `System.Windows.Controls.RadioButton` have inconsistent and, in Classic and High Contrast themes,
 incorrect FocusVisuals.  These issues occur in cases where the controls do not have any content set.  This can make the transition between themes confusing and the FocusVisual hard to see.
-In the .NET Framework 4.7.2, these visual are now more consistent across themes and more easily visible in Classic and High Contrast themes.
+In the .NET Framework 4.7.2, these visuals are now more consistent across themes and more easily visible in Classic and High Contrast themes.
 
 - [X] Quirked
 - [ ] Build-time break
 
 ### Recommended Action
 A developer who wants to utilize this change while targeting a framework version below .NET 4.7.2 or a developer who requires the previous functionality while targeting .NET 4.7.2 or greater 
-can set the following set of AppContext flags appropriately.  Values of false for all of them will result in this change being enabled.
+can set the following set of AppContext flags appropriately.
 
 Note that all the flags must be set appropriately.  WPF applications are required to opt in to all earlier accessibility improvements to get the later improvements. 
 To do this, ensure that if the AppContext switch 'Switch.UseLegacyAccessibilityFeatures.N' is set to 'false', then 'Switch.UseLegacyAccessibilityFeatures' and all 
@@ -29,7 +29,7 @@ its value is determined by the target framework version. You can remedy this by 
 ```xml
 <configuration>
     <runtime>
-        <AppContextSwitchOverrides value="Switch.UseLegacyAccessibilityFeatures=false;Switch.UseLegacyAccessibilityFeatures.2=false;Switch.UseLegacyAccessibilityFeatures.3=false;"/>
+        <AppContextSwitchOverrides value="Switch.UseLegacyAccessibilityFeatures=false;Switch.UseLegacyAccessibilityFeatures.2=false;"/>
     </runtime>
 </configuration>
 ```

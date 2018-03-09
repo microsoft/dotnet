@@ -15,12 +15,10 @@ Improved chain trust certificate validation when using certificate authenticatio
 This change is on by default, and can be turn off by config setting.
 
 ### Recommended Action
-  Suggested steps if user is affected go here:
-
-  - Validate if your server and client certification has the required EKU, if not update your certification
+  - Validate if your server and client certification has the required EKU, if not, update your certification
   - Validate if your root certificate is invalid, if so, update the root certificate 
   - How to opt out of change:
-  If you can't update the certificate and need to work around the breaking change temporarily, you can use the config setting documented [here](https://support.microsoft.com/en-us/help/4055269/security-only-update-for-net-framework-3-5-1-4-5-2-4-6-4-6-1-4-6-2-4-7) to opt out. However, opt out the change will leave your system to be vulnerable to the security issue.
+  If you can't update the certificate and need to work around the breaking change temporarily, you can use the config setting documented [here](https://support.microsoft.com/en-us/help/4055269/security-only-update-for-net-framework-3-5-1-4-5-2-4-6-4-6-1-4-6-2-4-7) to opt out. However, opting out of the change will leave your system vulnerable to the security issue.
 
 ### Affected APIs
 

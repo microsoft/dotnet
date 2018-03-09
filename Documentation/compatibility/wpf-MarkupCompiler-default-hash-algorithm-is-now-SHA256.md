@@ -17,7 +17,7 @@ Due to recent security concerns with SHA1, this default has been changed to SHA2
 - [ ] Build-time break
 
 ### Recommended Action
-A developer who wants to utilize this change while targeting a framework version below .NET 4.7.1 or a developer who requires the previous functionality while targeting .NET 4.7.1 or greater 
+A developer who wants to utilize this change while targeting a framework version below .NET 4.7.2 or a developer who requires the previous functionality while targeting .NET 4.7.2 or greater 
 can set the following AppContext flag appropriately.  A value of true will result in SHA1 being used as the default algorithm; false results in SHA256.
 
 ```xml
@@ -27,6 +27,9 @@ can set the following AppContext flag appropriately.  A value of true will resul
     </runtime>
 </configuration>
 ```
+
+### Affected APIs
+Not detectable via API analysis
 
 ### Category
 Windows Presentation Foundation (WPF)

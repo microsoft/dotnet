@@ -11,7 +11,7 @@ NotPlanned
 
 ### Change Description
 In <xref:System.Uri?displayProperty=fullName>, constructing a file URI containing both a UNC share name and Unicode characters will no longer result in a URI with invalid internal state. The behavior will change only when all of the following are true:
-  - The URI has the scheme `file`, and is followed by four or more slashes.
+  - The URI has the scheme `file:`, and is followed by four or more slashes.
   - The host name begins with an underscore or other non-reserved symbol.
   - The URI contains Unicode characters.
 

@@ -12,7 +12,7 @@ NotPlanned
 ### Change Description
 Improved chain trust certificate validation when using certificate authentication with transport security with WCF. With this improvement client certificates that are used to authenticate to a server must be configured for Client Authentication.  Similarly server certificates that are for the authenticating a server must be configured for Server Authentication. With this change if the root certificate is disabled, the certificate chain validation will fail. 
 
-This change is on by default, and can be turn off by config setting.
+This change is on by default, and can be turned off by config setting.
 
 ### Recommended Action
   - Validate if your server and client certification has the required EKU, if not, update your certification

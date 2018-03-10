@@ -10,7 +10,7 @@ Edge
 NotPlanned
 
 ### Change Description
-Keytips behavior has been modified to bring parity with behavior on Microsoft Word and Windows Explorer. By checking whether keytip state is enabled or not in the case of a [SystemKey](xref:System.Windows.Input.KeyEventArgs.SystemKey%2A) (in particular, [Alt](xref:System.Windows.Input.Key) or [F11](xref:System.Windows.Input.Key.F11)) being pressed, WPF handles keytip keys appropriately. Keytips now dismiss a menu even when it is opened by mouse.
+Keytips behavior has been modified to bring parity with behavior on Microsoft Word and Windows Explorer. By checking whether keytip state is enabled or not in the case of a [SystemKey](xref:System.Windows.Input.KeyEventArgs.SystemKey) (in particular, [Alt](xref:System.Windows.Input.Key) or [F11](xref:System.Windows.Input.Key.F11)) being pressed, WPF handles keytip keys appropriately. Keytips now dismiss a menu even when it is opened by mouse.
 
 - [ ] Quirked
 - [ ] Build-time break

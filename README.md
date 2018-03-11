@@ -4,7 +4,7 @@ This repository is a starting point to learn about and engage in .NET and .NET o
 
 This repo is not an official .NET Framework support location, however, we will respond to issues filed here as best we can. Please file .NET Core product issues at [dotnet/core](https://github.com/dotnet/core/issues) and ASP.NET Core product issues at [aspnet/home](https://github.com/aspnet/home/issues).
 
-You can try out the .NET Framework 4.7.2 at the [.NET Framework Early Access](https://github.com/microsoft/dotnet-framework-early-access) site.
+You can try out an early access release of the .NET Framework at the [.NET Framework Early Access](https://github.com/microsoft/dotnet-framework-early-access) site.
 
 ## In this repository
 

@@ -28,6 +28,8 @@ A developer who wants to utilize this change while targeting a framework version
 </configuration>
 ```
 
+WPF applications must opt in to all early accessibility improvements to get the later improvements. In other words, both the `Switch.UseLegacyAccessibilityFeatures` and the `Switch.UseLegacyAccessibilityFeatures.2` switches must be set
+
 A developer who requires the previous functionality while targeting .NET 4.7.2 or greater can set the following AppContext flag to true for the change to be disabled.
 
 ```xml
@@ -37,9 +39,6 @@ A developer who requires the previous functionality while targeting .NET 4.7.2 o
     </runtime>
 </configuration>
 ```
-
-Note that all the flags must be set appropriately.  WPF applications are required to opt in to all earlier accessibility improvements to get the later improvements. To do this, ensure that if the AppContext switch 'Switch.UseLegacyAccessibilityFeatures.2' is set to 'false', and that 'Switch.UseLegacyAccessibilityFeatures' evaluates to false as well. Note that, if a switch for a particular set of accessibility improvements is not present, its value is determined by the target framework version. You can remedy this by adding these switches and setting their value to false.
-
 
 ### Affected APIs
 Not detectable via API analysis

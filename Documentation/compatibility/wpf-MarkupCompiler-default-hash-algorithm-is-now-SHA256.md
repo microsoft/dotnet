@@ -17,13 +17,22 @@ Due to recent security concerns with SHA1, this default has been changed to SHA2
 - [ ] Build-time break
 
 ### Recommended Action
-A developer who wants to utilize this change while targeting a framework version below .NET 4.7.2 or a developer who requires the previous functionality while targeting .NET 4.7.2 or greater 
-can set the following AppContext flag appropriately.  A value of true will result in SHA1 being used as the default algorithm; false results in SHA256.
+A developer who targets .NET Framework 4.7.2 or greater and wants to revert to SHA1 hashing behavior must set the below AppContext flag.
 
 ```xml
 <configuration>
     <runtime>
         <AppContextSwitchOverrides value="Switch.System.Windows.Markup.DoNotUseSha256ForMarkupCompilerChecksumAlgorithm=true"/>
+    </runtime>
+</configuration>
+```
+
+A developer who wants to utilize SHA256 hashing while targeting a framework version below .NET 4.7.2 must set the below AppContext flag.  Note that the installed version of the .NET Framework must be 4.7.2 or greater.
+
+```xml
+<configuration>
+    <runtime>
+        <AppContextSwitchOverrides value="Switch.System.Windows.Markup.DoNotUseSha256ForMarkupCompilerChecksumAlgorithm=false
     </runtime>
 </configuration>
 ```

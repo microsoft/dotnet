@@ -10,21 +10,30 @@ Edge
 NotPlanned
 
 ### Change Description
-In the .NET Framework 4.7.1 and earlier versions, WPF `System.Windows.Controls.CheckBox` and `System.Windows.Controls.RadioButton` have inconsistent and, in Classic and High Contrast themes,
-incorrect FocusVisuals.  These issues occur in cases where the controls do not have any content set.  This can make the transition between themes confusing and the FocusVisual hard to see.
+In the .NET Framework 4.7.1 and earlier versions, WPF <xref:System.Windows.Controls.CheckBox?displayProperty=nameWIthType> and <xref:System.Windows.Controls.RadioButton?displayProperty=nameWIthType> have inconsistent and, in Classic and High Contrast themes,
+incorrect focus visuals.  These issues occur in cases where the controls do not have any content set.  This can make the transition between themes confusing and the focus visual hard to see.
 In the .NET Framework 4.7.2, these visuals are now more consistent across themes and more easily visible in Classic and High Contrast themes.
 
 - [X] Quirked
 - [ ] Build-time break
 
 ### Recommended Action
-A developer who wants to utilize this change while targeting a framework version below .NET 4.7.2 or a developer who requires the previous functionality while targeting .NET 4.7.2 or greater 
-can set the following set of AppContext flags appropriately.
+A developer targeting .NET Framework 4.7.2 that wants to revert to the behavior in .NET 4.7.1 will need to set the following AppContext flag.
 
-Note that all the flags must be set appropriately.  WPF applications are required to opt in to all earlier accessibility improvements to get the later improvements. 
-To do this, ensure that if the AppContext switch 'Switch.UseLegacyAccessibilityFeatures.N' is set to 'false', then 'Switch.UseLegacyAccessibilityFeatures' and all 
-'Switch.UseLegacyAccessibilityFeatures.M' switches, when M < N, evaluate to false as well. Note that, if a switch for a particular set of accessibility improvements is not present, 
-its value is determined by the target framework version. You can remedy this by adding these switches and setting their value to false.
+```xml
+<configuration>
+    <runtime>
+        <AppContextSwitchOverrides value="Switch.UseLegacyAccessibilityFeatures.2=true;"/>
+    </runtime>
+</configuration>
+```
+
+A developer who wants to utilize this change while targeting a framework version below .NET 4.7.2 must set the following AppContext flags.
+
+Note that all the flags must be set appropriately and the installed version of the .NET Framework must be 4.7.2 or greater.  
+
+WPF applications are required to opt in to all earlier accessibility improvements to get the latest improvements. 
+To do this, ensure that both the AppContext switches 'Switch.UseLegacyAccessibilityFeatures' and 'Switch.UseLegacyAccessibilityFeatures.2' are set to false.
 
 ```xml
 <configuration>

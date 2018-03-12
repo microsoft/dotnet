@@ -28,7 +28,6 @@ In order for the application to benefit from these changes, it must run on the .
 </runtime>
 ``` 
 
-
 ### Affected APIs
 * Not detectable via API analysis
 

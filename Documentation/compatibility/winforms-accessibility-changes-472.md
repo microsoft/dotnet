@@ -35,15 +35,16 @@ In order for the application to benefit from these changes, it must run on the .
         <AppContextSwitchOverrides value="Switch.UseLegacyAccessibilityFeatures=false;Switch.UseLegacyAccessibilityFeatures.2=false" />
       </runtime>
     </configuration>
-```
-Applications that target the .NET Framework 4.7.2 or later and want to preserve the legacy accessibility behavior can opt in to the use of legacy accessibility features by explicitly setting this AppContext switch to ```true```.
+```    
+Note that to opt in to the accessibility features added in .NET Framework 4.7.2, you must also opt in to accessibility features of .NET Framework 4.7.1 as well.
+Applications that target the .NET Framework 4.7.2 or later and want to preserve the legacy accessibility behavior can opt in to the use of legacy accessibility features by explicitly setting this AppContext switch to `true`.
 
 __Use of OS-defined colors in High Contrast themes__
-- The drop down arrow arrow of the `T:System.Windows.Forms.ToolStripDropDownButton` now has uses now use OS-defined colors in High Contrast theme.
-- `T:System.Windows.Forms.Button`, `T:System.Windows.Forms.RadioButton` and `T:System.Windows.Forms.CheckBox` controls with `P:System.Windows.Forms.Control.FlatStyle` set to <xref:System.Windows.Forms.FlatStyle.Flat?displayProperty=nameWithType> or <xref:System.Windows.Forms.FlatStyle.Popup?displayProperty=nameWithType> now use OS-defined colors in High Contrast theme when selected. Previously, text and background colors were not contrasting and were hard to read.
-- Controls contained within a `System.Windows.Forms.GroupBox` which has its `P:System.Windows.Forms.Enabled` property set to _false_ will now use OS-defined colors in High Contrast theme.
-- `T:System.Windows.Forms.ToolStripButton`, `T:System.Windows.Forms.ToolStripComboBox`, and `T:System.Windows.Forms.ToolStripDropDownButton` controls have an increased luminosity contrast ratio in High Contrast Mode. 
-- `T:System.Windows.Forms.DataGridViewLinkColumn` will by default use OS-defined colors in High Contrast mode for the `P:System.Windows.Forms.DataGridViewLinkColumn.LinkColor` property.
+- The drop down arrow arrow of the <xref:System.Windows.Forms.ToolStripDropDownButton> now uses OS-defined colors in High Contrast theme.
+- <xref:System.Windows.Forms.Button>, <xref:System.Windows.Forms.RadioButton> and <xref:System.Windows.Forms.CheckBox> controls with <xref:System.Windows.Forms.Control.FlatStyle?displayProperty=nameWithType> set to <xref:System.Windows.Forms.FlatStyle.Flat?displayProperty=nameWithType> or <xref:System.Windows.Forms.FlatStyle.Popup?displayProperty=nameWithType> now use OS-defined colors in High Contrast theme when selected. Previously, text and background colors were not contrasting and were hard to read.
+- Controls contained within a <xref:System.Windows.Forms.GroupBox> that has its <xref:System.Windows.Forms.Control.Enabled> property set to 'false' will now use OS-defined colors in High Contrast theme.
+- <xref:System.Windows.Forms.ToolStripButton>, <xref:System.Windows.Forms.ToolStripComboBox>, and <xref:System.Windows.Forms.ToolStripDropDownButton> controls have an increased luminosity contrast ratio in High Contrast Mode. 
+- <xref:System.Windows.Forms.DataGridViewLinkButton> will by default use OS-defined colors in High Contrast mode for the <xref:System.Windows.Forms.DataGridViewLinkButton.LinkColordisplayProperty=nameWithType> property.
 
 NOTE: Windows 10 has changed values for some high contrast system colors. Windows Forms Framework is based on the Win32 framework. For the best experience, run on the latest version of Windows and opt in to the latest OS changes by adding an app.manifest file in a test application and uncommenting the following code:
 ```
@@ -52,28 +53,28 @@ NOTE: Windows 10 has changed values for some high contrast system colors. Window
 ```
 
 __Improved Narrator support__
-- Narrator will now announce the value of the `P:System.Windows.Forms.Keys.ShortcutKeys` property when announcing the text of a `T:System.Windows.Forms.ToolStripMenuItem`. 
-- Narrator will now indicate when a `T:System.Windows.Forms.ToolStripMenuItem` has its `P:System.Windows.Forms.ToolStripMenuItem.Enabled` property to _false_.
-- Narrator will now give feedback on the state of a check box when the `P:System.Windows.Forms.ListView.CheckBoxes` property is set to _true_.
+- Narrator now announces the value of the <xref:System.Windows.Forms.Keys.ShortcutKeys?displayProperty=nameWithType> property when announcing the text of a <xref:System.Windows.Forms.ToolStripMenuItem>. 
+- Narrator now indicates when a <xref:System.Windows.Forms.ToolStripMenuItem> has its <xref:System.Windows.Forms.Control.Enabled> property to 'false'.
+- Narrator now gives feedback on the state of a check box when the <xref:System.Windows.Forms.ListView.CheckBoxes?displayProperty=fullName> property is set to 'true'.
 - Narrator Scan Mode focus order is now consistent with the visual order of the controls on the ClickOnce download dialog window.
 
 __Improved DataGridView Accessibility support__
-- Rows in a `T:Systm.Windows.Forms.DataGridView` can now be sorted using the keyboard. Now a user can use the F3 key in order to sort by the current column.
-- When the `P:System.Windows.Forms.DataGridView.SelectionMode` property of a `T:System.Windows.Forms.DataGridView` is set to <xref:System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect?displayProperty=nameWithType> the column header will change color to indicate the current column as the user tabs through the cells in the current row.
-- The `P:System.Windows.Forms.DataGridViewCell.DataGridViewCellAccessibleObject.Parent` property of a `T:System.Windows.Forms.DataGridViewCell.DataGridViewCellAccessibleObject` now returns the correct parent control.
+- Rows in a <xref:System.Windows.Forms.DataGridView> can now be sorted using the keyboard. Now a user can use the F3 key in order to sort by the current column.
+- When the <xref:System.Windows.Forms.DataGridView.SelectionMode?displayProperty=nameWithType> is set to <xref:System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect?displayProperty=nameWithType> the column header will change color to indicate the current column as the user tabs through the cells in the current row.
+- The <xref::System.Windows.Forms.DataGridViewCell.DataGridViewCellAccessibleObject.Parent?displayProperty=nameWithType> property of a <xref:System.Windows.Forms.DataGridViewCell.DataGridViewCellAccessibleObject> now returns the correct parent control.
 
 __Improved Visual cues__
-- `T:System.Windows.Forms.RadioButton` and `T:System.Windows.Forms.CheckBox` controls with an empty Text property will now display a focus indicator when they recieve focus.
+- <xref:System.Windows.Forms.RadioButton> and <xref:System.Windows.Forms.CheckBox> controls with an empty Text:<xref:System.Windows.Forms.ButtonBase.Text> property will now display a focus indicator when they recieve focus.
 
 __Improved Property Grid Support__
-- The `T:System.Windows.Forms.PropertyGrid` control child elements will now return a _true_ for the [IsEnabled](https://docs.microsoft.com/en-us/dotnet/api/system.windows.automation.automationelement.isenabledproperty) property only when a PropertyGrid element is enabled.
-- The `T:System.Windows.Forms.PropertyGrid` control child elements will now return a _false_ for the [IsReadOnly](https://docs.microsoft.com/en-us/dotnet/api/system.windows.automation.valuepattern.isreadonlyproperty) property only when a PropertyGrid element can be changed by the user.
+- The <xref:System.Windows.Forms.PropertyGrid> control child elements now return a 'true' for the  <xref:System.Windows.Automation.ValuePattern.IsReadOnlyProperty> property only when a PropertyGrid element is enabled.
+- The <xref:System.Windows.Forms.PropertyGrid> control child elements now return a 'false' for the <xref:System.Windows.Automation.AutomationElement.IsEnabledProperty>property only when a PropertyGrid element can be changed by the user.
 
 For an overview of UI automation, see the [UI Automation Overview](https://docs.microsoft.com/dotnet/framework/ui-automation/ui-automation-overview).
 
 
 __Improved keyboard navigation__
-- `T:System.Windows.Forms.ToolStripButton` now allows focus when contained within a `T:System.Windows.Forms.ToolStripPanel` which has the `P:System.Windows.Forms.TabStop` property set to _true_
+- <xref:System.Windows.Forms.ToolStripButton> now allows focus when contained within a <xref:System.Windows.Forms.ToolStripPanel> that has the <xref:System.Windows.Forms.ToolStripPanel.TabStop> property set to 'true'
 
 
 

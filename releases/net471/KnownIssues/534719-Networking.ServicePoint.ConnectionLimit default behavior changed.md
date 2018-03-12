@@ -2,7 +2,7 @@
 
 ## Symptoms
 The limit for HTTP connections per endpoint is controlled by the `ServicePointManager.DefaultConnectionLimit` property.
-This value defaults to 2. This can be overriden programatically or in configuration for either specific hosts or for all hosts. In the .NET Framework 4.7.1 any usage of HttpClient APIs reverts any host-specific overrides to the default value of 2. This can cause applications to run slower or hang when doing multiple, parallel, requests.
+This value defaults to 2. This can be overriden programatically or in configuration for either specific hosts or for all hosts. In the .NET Framework 4.7.1, any usage of HttpClient APIs reverts any host-specific overrides to the default value of 2. This can cause applications to run slower or hang when doing multiple parallel requests.
 
 Note: This bug also changes the http://localhost host default from Int32.MaxValue to 2.
 

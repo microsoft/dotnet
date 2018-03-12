@@ -1,14 +1,10 @@
-# ServicePoint.ConnectionLimit default behavior with loopback changed unexpectedly
+# Changes to ServicePoint.ConnectionLimit are overriden by usage of HttpClient
 
 ## Symptoms
 The limit for HTTP connections per endpoint is controlled by the `ServicePointManager.DefaultConnectionLimit` property.
-This value defaults to 2. In the .NET Framework 4.7 and earlier versions, the limit applied only to non-loopback 
-addresses such as http://www.microsoft.com.  For loopback addresses such as http://localhost, the limit for connections
-was always int.MaxValue (2,147,483,647) unless changed by calling the `ServicePoint.ConnectionLimit` API.
+This value defaults to 2. This can be overriden programatically or in configuration for either specific hosts or for all hosts. In the .NET Framework 4.7.1 any usage of HttpClient APIs reverts any host-specific overrides to the default value of 2. This can cause applications to run slower or hang when doing multiple, parallel, requests.
 
-In the .NET Framework 4.7.1 when using HttpClient APIs, the connection limit for loopback addresses now matches the limit
-for non-loopback addresses. Thus, the default limit is 2. This can cause applications to run slower or hang when
-doing multiple, parallel, requests to the http://localhost addresses.
+Note: This bug also changes the http://localhost host default from Int32.MaxValue to 2.
 
 Here is code that shows the problem:
 
@@ -25,33 +21,30 @@ namespace ConsoleApp
         {
             Console.WriteLine($"ServicePointManager.DefaultConnectionLimit: {ServicePointManager.DefaultConnectionLimit}");
 
-            var uriLoopback = new Uri("http://localhost");
-            var uriExternal = new Uri("http://www.microsoft.com");
+            var uri = new Uri("http://www.microsoft.com"); ;
 
-            Console.WriteLine("Before using HttpClient APIs");
-            ServicePoint spLoopback = ServicePointManager.FindServicePoint(uriLoopback);
-            Console.WriteLine($"{uriLoopback.AbsoluteUri}, ConnectionLimit (should be {int.MaxValue}): {spLoopback.ConnectionLimit}");
-
-            ServicePoint spExternal = ServicePointManager.FindServicePoint(uriExternal);
-            Console.WriteLine($"{uriExternal.AbsoluteUri}, ConnectionLimit (should be {ServicePointManager.DefaultConnectionLimit}): {spExternal.ConnectionLimit}");
+            Console.WriteLine("Before using HttpClient APIs, before changing ConnectionLimit");
+            ServicePoint sp = ServicePointManager.FindServicePoint(uri);
+            Console.WriteLine($"{uri.AbsoluteUri}, ConnectionLimit (should be {ServicePointManager.DefaultConnectionLimit}): {sp.ConnectionLimit}");
+            sp.ConnectionLimit = 10;
+            Console.WriteLine("Before using HttpClient APIs, after changing ConnectionLimit");
+            Console.WriteLine($"{uri.AbsoluteUri}, ConnectionLimit (should be 10): {sp.ConnectionLimit}");
 
             Console.WriteLine("Use HttpClient APIs");
             var client = new HttpClient();
             try
             {
-                HttpResponseMessage response = client.GetAsync(uriLoopback).Result;
+                HttpResponseMessage response = client.GetAsync(uri).Result;
             }
             catch (Exception)
             {
-                // Ignore any network error since there is probably not a loopback server present.
+                // Ignore any network error
             }
 
             Console.WriteLine("After using HttpClient APIs");
 
-            // BUG - due to the bug in .NET Framework 4.7.1, the ConnectionLimit for this loopback ServicePoint is changed
-            // unexpectedly.
-            Console.WriteLine($"{uriLoopback.AbsoluteUri}, ConnectionLimit (should be {int.MaxValue}): {spLoopback.ConnectionLimit}");
-        }
+            // BUG - due to the bug in .NET Framework 4.7.1, the ConnectionLimit for this ServicePoint is changed
+            Console.WriteLine($"{uri.AbsoluteUri}, ConnectionLimit (should be 10): {sp.ConnectionLimit}");
     }
 }
 ```
@@ -60,14 +53,12 @@ namespace ConsoleApp
 Changes in .NET Framework 4.7.1 to the `System.Net.Http.HttpClientHandler` class caused this problem.
 
 ## Resolution
-To work around the problem using HttpClient APIs, you can use the following code to increase the connection limit.
+To work around the problem using HttpClient APIs, you can use the following code to increase the default connection limit for all endpoints.  This will affect all connections in the process.
 This code should be added before calling any HttpClient APIs.
 
 ```c#
 ServicePointManager.DefaultConnectionLimit = 20; // Actual value should be based on your requirements.
 ```
-
-Note: This will also change the limits for non-loopback addresses.
 
 ## More information
 We will fix this problem in a future .NET Framework Quality Rollup release.

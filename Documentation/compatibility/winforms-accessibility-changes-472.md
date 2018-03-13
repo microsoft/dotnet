@@ -62,14 +62,14 @@ __Improved Narrator support__
 __Improved DataGridView Accessibility support__
 - Rows in a <xref:System.Windows.Forms.DataGridView> can now be sorted using the keyboard. Now a user can use the F3 key in order to sort by the current column.
 - When the <xref:System.Windows.Forms.DataGridView.SelectionMode?displayProperty=nameWithType> is set to <xref:System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect?displayProperty=nameWithType> the column header will change color to indicate the current column as the user tabs through the cells in the current row.
-- The <xref::System.Windows.Forms.DataGridViewCell.DataGridViewCellAccessibleObject.Parent?displayProperty=nameWithType> property of a <xref:System.Windows.Forms.DataGridViewCell.DataGridViewCellAccessibleObject> now returns the correct parent control.
+- The <xref::System.Windows.Forms.DataGridViewCell.DataGridViewCellAccessibleObject.Parent?displayProperty=nameWithType> property now returns the correct parent control.
 
 __Improved Visual cues__
-- <xref:System.Windows.Forms.RadioButton> and <xref:System.Windows.Forms.CheckBox> controls with an empty Text:<xref:System.Windows.Forms.ButtonBase.Text> property will now display a focus indicator when they recieve focus.
+- The <xref:System.Windows.Forms.RadioButton> and <xref:System.Windows.Forms.CheckBox> controls with an empty <xref:System.Windows.Forms.ButtonBase.Text> property will now display a focus indicator when they recieve focus.
 
 __Improved Property Grid Support__
-- The <xref:System.Windows.Forms.PropertyGrid> control child elements now return a 'true' for the  <xref:System.Windows.Automation.ValuePattern.IsReadOnlyProperty> property only when a PropertyGrid element is enabled.
-- The <xref:System.Windows.Forms.PropertyGrid> control child elements now return a 'false' for the <xref:System.Windows.Automation.AutomationElement.IsEnabledProperty>property only when a PropertyGrid element can be changed by the user.
+- The <xref:System.Windows.Forms.PropertyGrid> control child elements now return a `true` for the  <xref:System.Windows.Automation.ValuePattern.IsReadOnlyProperty> property only when a PropertyGrid element is enabled.
+- The <xref:System.Windows.Forms.PropertyGrid> control child elements now return a `false` for the <xref:System.Windows.Automation.AutomationElement.IsEnabledProperty> property only when a PropertyGrid element can be changed by the user.
 
 For an overview of UI automation, see the [UI Automation Overview](https://docs.microsoft.com/dotnet/framework/ui-automation/ui-automation-overview).
 

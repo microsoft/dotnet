@@ -23,8 +23,9 @@ __How to opt in or out of these changes__
   
 In order for the application to benefit from these changes, it must run on the .NET Framework 4.7.2 or later. The application can benefit from these changes in either of the following ways:
 - It is recompiled to target the .NET Framework 4.7.2. These accessibility changes are enabled by default on Windows Forms applications that target the .NET Framework 4.7.2 or later.
-- It opts out of the legacy accessibility behaviors by adding the following [AppContext Switch](https://docs.microsoft.com/dotnet/framework/configure-apps/file-schema/runtime/appcontextswitchoverrides-element) to the ```<runtime>``` section of the app config file and setting it to false, as the following example shows.
-```
+- It opts out of the legacy accessibility behaviors by adding the following [AppContext Switch](https://docs.microsoft.com/dotnet/framework/configure-apps/file-schema/runtime/appcontextswitchoverrides-element) to the `<runtime>` section of the app config file and setting it to `false`, as the following example shows.
+
+```xml
     <?xml version="1.0" encoding="utf-8"?>
     <configuration>
       <startup>

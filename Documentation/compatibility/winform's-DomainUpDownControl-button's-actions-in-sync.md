@@ -13,9 +13,10 @@ Not planned
 The <xref:System.Windows.Forms.DomainUpDown> 
 control's <xref:System.Windows.Forms.DomainUpDown.UpButton?displayProperty=nameWithType>
 action is currently ignored when control text is present and the developer is required to use <xref:System.Windows.Forms.DomainUpDown.DownButton?displayProperty=nameWithType> action on the control before using <xref:System.Windows.Forms.DomainUpDown.UpButton?displayProperty=nameWithType> action.
-This change is to make both <xref:System.Windows.Forms.DomainUpDown.UpButton?displayProperty=nameWithType> and <xref:System.Windows.Forms.DomainUpDown.DownButton?displayProperty=nameWithType> actions work independantly in this scenario and are in sync.
+This change is to make both <xref:System.Windows.Forms.DomainUpDown.UpButton?displayProperty=nameWithType> and <xref:System.Windows.Forms.DomainUpDown.DownButton?displayProperty=nameWithType> actions work independently in this scenario and remain in sync.
 
-- [ ] Quirked
+- [X] Quirked
+- [ ] Not Quirked
 
 ### Recommended Action
 
@@ -29,7 +30,9 @@ In order for the application to benefit from these changes, it must run on the .
 ``` 
 
 ### Affected APIs
-* Not detectable via API analysis
+System.Windows.Forms.DomainUpDown.UpButton
+System.Windows.Forms.DomainUpDown.DownButton
+
 
 ### Category
 Windows Forms

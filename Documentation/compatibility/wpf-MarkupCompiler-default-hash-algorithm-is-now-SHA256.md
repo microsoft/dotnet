@@ -17,7 +17,7 @@ Due to recent security concerns with SHA1, this default has been changed to SHA2
 - [ ] Build-time break
 
 ### Recommended Action
-A developer who targets .NET Framework 4.7.2 or greater and wants to revert to SHA1 hashing behavior must set the below AppContext flag.
+A developer who targets .NET Framework 4.7.2 or greater and wants to revert to SHA1 hashing behavior must set the following AppContext flag.
 
 ```xml
 <configuration>

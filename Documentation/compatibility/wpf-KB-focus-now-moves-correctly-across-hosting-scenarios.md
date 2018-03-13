@@ -41,7 +41,7 @@ A developer who requires the previous functionality while targeting .NET 4.7.2 o
 ```
 
 ### Affected APIs
-Not detectable via API analysis
+* Not detectable via API analysis
 
 ### Category
 Windows Presentation Foundation (WPF)

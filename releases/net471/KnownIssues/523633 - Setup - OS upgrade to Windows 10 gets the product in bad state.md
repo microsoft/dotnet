@@ -20,4 +20,4 @@ Applications may experience unexpected crashes in certain scenarios.
 Note: This issue does not occur when you do an upgrade from Windows 10 Anniversary Update (version 1607) to Windows 10 Fall Creators Update (version 1709).
 
 ## Resolution
-To get the .NET Framework 4.7.1 product into a working state, you need to reinstall .NET 4.7.1.
+To get the .NET Framework 4.7.1 product into a working state, you need to reinstall [.NET Framework 4.7.1](http://go.microsoft.com/fwlink/?LinkId=852107).

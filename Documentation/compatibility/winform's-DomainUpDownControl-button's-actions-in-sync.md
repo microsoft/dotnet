@@ -16,7 +16,7 @@ action is ignored when control text is present, and the developer is required to
 Starting with the .NET Framework 4.7.2 both the <xref:System.Windows.Forms.DomainUpDown.UpButton?displayProperty=nameWithType> and <xref:System.Windows.Forms.DomainUpDown.DownButton?displayProperty=nameWithType> actions work independently in this scenario and remain in sync.
 
 - [X] Quirked
-- [ ] Not Quirked
+- [ ] Build-time break
 
 ### Recommended Action
 

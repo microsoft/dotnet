@@ -24,7 +24,7 @@ previously would have.
 
 If looser .NET Framework 4.0 validation is needed, the validating application
 can target version 4.5 (or earlier) of the .NET Framework. When retargeting to
-.NET 4.6, however, code review should be done to be sure that duplicate compound
+.NET Framework 4.6, however, code review should be done to be sure that duplicate compound
 keys (as described in this issue's description) are not expected to validate.
 
 ### Affected APIs

@@ -11,7 +11,7 @@ Available
 
 ### Change Description
 
-Beginning in .NET 4.5,
+Beginning in .NET Framework 4.5,
 <xref:System.Linq.Enumerable.Empty``1> always
 returns a cached internal instance
 <xref:System.Collections.Generic.IEnumerable`1>.

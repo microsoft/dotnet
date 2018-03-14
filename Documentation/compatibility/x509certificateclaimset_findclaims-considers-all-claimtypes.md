@@ -27,7 +27,7 @@ method attempts to match the claimType argument only with the last DNS entry.
 
 This change only affects applications targeting the .NET Framework 4.6.1. This
 change may be disabled (or enabled if targetting pre-4.6.1) with the
-[DisableMultipleDNSEntries](https://docs.microsoft.com/en-us/dotnet/articles/framework/migration-guide/mitigation-x509certificateclaimset-findclaims-method#mitigation)
+[DisableMultipleDNSEntries](~/docs/framework/migration-guide/mitigation-x509certificateclaimset-findclaims-method.md#mitigation)
 compatibility switch.
 
 ### Affected APIs

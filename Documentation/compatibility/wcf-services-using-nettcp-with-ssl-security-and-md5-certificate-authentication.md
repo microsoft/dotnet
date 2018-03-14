@@ -1,7 +1,7 @@
-## WCF services that use NETTCP with SSL sercurity and MD5 certificate authentication
+## WCF services that use NETTCP with SSL security and MD5 certificate authentication
 
 ### Scope
-Minor|
+Minor
 
 ### Version Introduced
 4.6
@@ -14,8 +14,8 @@ The .NET Framework 4.6 adds TLS 1.1 and TLS 1.2 to the WCF SSL default protocol 
 
 TLS 1.2 does not support MD5 certificate authentication. As a result, if a customer uses an MD5 certificate, the WCF client will fail to connect to the WCF service. 
 
-- [ ] Quirked // Uses some mechanism to turn the feature on or off, usually using runtime targeting, AppContext or config files. Needs to be turned on automatically for some situations.
-- [ ] Build-time break // Causes a break if attempted to recompile
+- [ ] Quirked 
+- [ ] Build-time break
 
 ### Recommended Action
 You can work around this issue so that a WCF client can connect to a WCF server by doing any of the following:
@@ -48,7 +48,7 @@ You can work around this issue so that a WCF client can connect to a WCF server 
     </configuration>  
     ```
 
-- If the binding is dynamically configured in source code, update the <xref:System.ServiceModel.TcpTransportSecurity.SslProtocols?displayProperty=fullName> property to use TLS 1.1 (<xref:System.Security.Authentication.SslProtocols.Tls11?displayProperty=fullName> or an earlier version of the protocol in the source code.
+- If the binding is dynamically configured in source code, update the <xref:System.ServiceModel.TcpTransportSecurity.SslProtocols?displayProperty=nameWithType> property to use TLS 1.1 (<xref:System.Security.Authentication.SslProtocols.Tls11?displayProperty=nameWithType> or an earlier version of the protocol in the source code.
 
    > [!WARNING]
    > This workaround is not recommended, since a certificate with the MD5 hash algorithm is considered insecure.

@@ -18,7 +18,7 @@ The known differences include the following:
 - In some cases, execution of production code in a large method body may throw a <xref:System.StackOverflowException>.
 - Under certain conditions, structures passed to a method are treated as reference types rather than as value types in Release builds. One of the manifestations of this issue is that the individual items in a collection appear in an unexpected order.
 - Under certain conditions, the comparison of <xref:System.UInt16> values with their high bit set is incorrect if optimization is enabled.
-- Under certain conditions, particularly when initializing array values, memory initialization by the <xref:System.Reflection.Emit.OpCodes.Initblk?displayProperty=fullName> IL instruction may initialize memory with an incorrect value. This can result either in an unhandled exception or incorrect output.  
+- Under certain conditions, particularly when initializing array values, memory initialization by the <xref:System.Reflection.Emit.OpCodes.Initblk?displayProperty=nameWithType> IL instruction may initialize memory with an incorrect value. This can result either in an unhandled exception or incorrect output.  
 - Under certain rare conditions, a conditional bit test can return the incorrect <xref:System.Boolean> value or throw an exception if compiler optimizations are enabled.  
 - Under certain conditions, if an `if` statement is used to test for a condition before entering  a `try` block and in the exit from the `try` block, and the same condition is evaluated in the `catch` or `finally` block, the new 64-bit JIT compiler removes the `if` condition from the `catch` or `finally` block when it optimizes code. As a result, code inside the `if` statement in the `catch` or `finally` block is executed unconditionally.  
   
@@ -37,7 +37,7 @@ If you encounter the issues listed above, you can address them by doing any of t
 **Mitigation of other issues**  
 If you encounter any other difference in behavior between code compiled with the older 64-bit compiler and the new 64-bit JIT compiler, or between the debug and release versions of your app that are both compiled with the new 64-bit JIT compiler, you can do the following to compile your app with the older 64-bit JIT compiler:  
   
-- On a per-application basis, you can add the [<useLegacyJit\>](https://docs.microsoft.com/dotnet/framework/configure-apps/file-schema/runtime/uselegacyjit-element) element to your application's configuration file. The following disables compilation with the new 64-bit JIT compiler and instead uses the legacy 64-bit JIT compiler.  
+- On a per-application basis, you can add the [\<useLegacyJit>](~/docs/framework/configure-apps/file-schema/runtime/uselegacyjit-element.md) element to your application's configuration file. The following disables compilation with the new 64-bit JIT compiler and instead uses the legacy 64-bit JIT compiler.  
   
    ```xml  
    <?xml version ="1.0"?>  

@@ -29,12 +29,12 @@ when a type is being loaded from an assembly loaded in a different context, a
 ### Recommended Action
 If this exception is seen, the `Binder` property of the <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter?displayProperty=name> can be set to a custom binder that will find the correct type.
 
-```C#
+```csharp
 var formatter = new BinaryFormatter { Binder = new TypeFinderBinder() }
 ```
 
 And then the custom binder:
-```C#
+```csharp
 public class TypeFinderBinder : SerializationBinder
 {
 	private static readonly string s_assemblyName = Assembly.GetExecutingAssembly().FullName;

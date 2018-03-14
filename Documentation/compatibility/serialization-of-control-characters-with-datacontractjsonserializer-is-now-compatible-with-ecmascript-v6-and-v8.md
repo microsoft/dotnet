@@ -39,6 +39,6 @@ following line to the `<runtime>` section of the app.config or web.config file:
 * `M:System.Runtime.Serialization.Json.DataContractJsonSerializer.WriteObject(System.Xml.XmlWriter,System.Object)`
 
 ### Category
-* Windows Communication Foundation (WCF)
+Windows Communication Foundation (WCF)
 
 <!-- breaking change id: 168 -->

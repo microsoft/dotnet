@@ -29,7 +29,7 @@ After scrolling to the new offset, the notion of "here" or "right edge" may have
 changed because newly de-virtualized content has changed the value of
 <xref:System.Windows.Controls.Primitives.IScrollInfo.ExtentWidth?displayProperty=name>.
 
-Prior to .Net 4.6.2, the scroll operation simply uses the candidate offset, even
+Prior to .NET Framework 4.6.2, the scroll operation simply uses the candidate offset, even
 though it may not be "here" or at the "right edge" any more.  This results in
 effects like "bouncing" the scroll thumb, best illustrated by example. Suppose a
 <xref:System.Windows.Controls.DataGrid?displayProperty=name> has
@@ -51,8 +51,8 @@ after a horizontal scroll, whether invoked by the end user or by an explicit
 call to
 <xref:System.Windows.Controls.Primitives.IScrollInfo.SetHorizontalOffset(System.Double)>.
 
-- [ ] Quirked // Uses some mechanism to turn the feature on or off, usually using runtime targeting, AppContext or config files. Needs to be turned on automatically for some situations.
-- [ ] Build-time break // Causes a break if attempted to recompile
+- [ ] Quirked 
+- [ ] Build-time break
 
 ### Recommended Action
 

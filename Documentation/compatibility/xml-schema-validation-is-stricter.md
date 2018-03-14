@@ -16,7 +16,7 @@ In the .NET Framework 4.5, XML schema validation is more strict. If you use xsd:
 - [ ] Build-time break
 
 ### Recommended Action
-If looser .NET Framework 4.0 validation is needed, the validating application can target version 4.0 of the .NET Framework. When retargeting to .NET 4.5, however, code review should be done to be sure that invalid URIs (with spaces) are not expected as attribute values with the anyURI data type.
+If looser .NET Framework 4.0 validation is needed, the validating application can target version 4.0 of the .NET Framework. When retargeting to .NET Framework 4.5, however, code review should be done to be sure that invalid URIs (with spaces) are not expected as attribute values with the anyURI data type.
 
 ### Affected APIs
 * Not detectable via API analysis

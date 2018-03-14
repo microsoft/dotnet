@@ -4,44 +4,37 @@
 Edge
 
 ### Version Introduced
-4.7.3
+4.7.2
 
 ### Source Analyzer Status
 NotPlanned
 
 ### Change Description
-ContextMenuStrip.SourceControl property now correctly returns the expected control source in nested ToolStripMenuItem cases.
+In the .NET Framework 4.7.1 and previous versions, the <xref:System.Windows.Forms.ContextMenuStrip.SourceControl?displayProperty=nameWithType> property incorrectly returns null when the user opens the menu from nested <xref:System.Windows.Forms.ToolStripMenuItem> controls. 
+In the .NET Framework 4.7.2 and later <xref:System.Windows.Forms.ContextMenuStrip.SourceControl> property is always sett to the actual source control.
 
 - [X] Quirked
 - [ ] Build-time break
 
 ### Recommended Action
-[|
-  Suggested steps if user is affected go here:
+__How to opt in or out of these changes__
 
-  - Example of code changes to handle change
-  - How to opt out of change
-  - For earlier versions, how to opt in to change
-|]
+In order for an application to benefit from these changes, it must run on the .NET Framework 4.7.2 or later. The application can benefit from these changes in either of the following ways:
+- It is recompiled to target the .NET Framework 4.7.2. This change is enabled by default on Windows Forms applications that target the .NET Framework 4.7.2 or later.
+- It targets the .NET Framework 4.7.1 or an earlier version and opts out of the legacy accessibility behaviors by adding the following [AppContext Switch](https://docs.microsoft.com/dotnet/framework/configure-apps/file-schema/runtime/appcontextswitchoverrides-element) to the `<runtime>` section of the app.config file and setting it to `false`, as the following example shows.
+```
+<runtime>
+  <AppContextSwitchOverrides value="Switch.System.Windows.Forms.UseLegacyContextMenuStripSourceControlValue=false"/>
+</runtime>
+``` 
+Applications that target the .NET Framework 4.7.2 or later and want to preserve the legacy behavior can opt in to the use of legacy source control value by explicitly setting this AppContext switch to `true`. 
+
 
 ### Affected APIs
-[| List of APIs affected by change referred to using docids|]
-
-// For details on how to generate docids, please look at other change files or
-// see https://msdn.microsoft.com/library/fsbx0t7x.aspx for the spec.
-//
-// For example, if all members of System.Xml.XmlTextReader is affected, we would have the following item:
-// * `T:System.Xml.XmlTextReader`
-//
-// Notice that only the type is included, as everything contained with it will be included as well. This works for any level of the type
-// hierarchy and allows for whole namespaces to be included if needed.
-//
-// If no specific API is affected, use the following entry:
-//  * Not detectable via API analysis
+ * `P:System.Windows.Forms.ContextMenuStrip.SourceControl`
 
 ### Category
 Windows Forms
-
 
 <!--
     ### 460662 

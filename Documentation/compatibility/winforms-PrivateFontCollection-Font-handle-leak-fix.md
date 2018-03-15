@@ -27,7 +27,7 @@ In order for an application to benefit from these changes, it must run on the .N
   <AppContextSwitchOverrides value="Switch.System.Drawing.Text.DoNotRemoveGdiFontsResourcesFromFontCollection=false"/>
 </runtime>
 ``` 
-Applications that target the .NET Framework 4.7.2 or later and want to preserve the legacy behavior can opt in to not release font resources by explicitly setting this AppContext switch to `true`. 
+Applications that target the .NET Framework 4.7.2 or later, and want to preserve the legacy behavior can opt in to not release font resources by explicitly setting this AppContext switch to `true`. 
 
 
 ### Affected APIs

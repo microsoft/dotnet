@@ -11,7 +11,7 @@ NotPlanned
 
 ### Change Description
 In the .NET Framework 4.7.1 and previous versions, the <xref:System.Windows.Forms.ContextMenuStrip.SourceControl?displayProperty=nameWithType> property incorrectly returns null when the user opens the menu from nested <xref:System.Windows.Forms.ToolStripMenuItem> controls. 
-In the .NET Framework 4.7.2 and later <xref:System.Windows.Forms.ContextMenuStrip.SourceControl> property is always sett to the actual source control.
+In the .NET Framework 4.7.2 and later <xref:System.Windows.Forms.ContextMenuStrip.SourceControl> property is always set to the actual source control.
 
 - [X] Quirked
 - [ ] Build-time break
@@ -27,7 +27,7 @@ In order for an application to benefit from these changes, it must run on the .N
   <AppContextSwitchOverrides value="Switch.System.Windows.Forms.UseLegacyContextMenuStripSourceControlValue=false"/>
 </runtime>
 ``` 
-Applications that target the .NET Framework 4.7.2 or later and want to preserve the legacy behavior can opt in to the use of legacy source control value by explicitly setting this AppContext switch to `true`. 
+Applications that target the .NET Framework 4.7.2 or later, and want to preserve the legacy behavior can opt in to the use of the legacy source control value by explicitly setting this AppContext switch to `true`. 
 
 
 ### Affected APIs

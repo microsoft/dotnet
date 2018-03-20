@@ -2,7 +2,7 @@
 
 ## Symptoms
 
-When building an application that uses SGEN you will get an error similar to this one:
+When building an application that uses the XML Serializer Generator Tools ([SGen.exe](https://docs.microsoft.com/en-us/dotnet/standard/serialization/xml-serializer-generator-tool-sgen-exe)), you get an error similar to this one:
 
 ```
 An attempt was made to load an assembly with an incorrect format: C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.1\Facades\System.IO.Compression.ZipFile.dll. 
@@ -18,12 +18,12 @@ This causes the assembly to not be correctly unified by the .NET Framework and i
 
 ## Impact
 
-This problem occurs during the build of applications that use the SGEN tool.
+This problem occurs when building the applications that use the SGEN tool.
 
 ## Workaround
 
 Add the following targets to the project that is experiencing this issue. 
-The targets will remove the reference assemblies from the ReferecenPath set that SGEN uses before the serialization assemblies are produced and will add them back after they are produced.
+The targets remove the reference assemblies from the ReferencePath set that SGEN uses before the serialization assemblies are produced and adds them back after they are produced.
 
 ```xml
 <Target Name="RemoveDesignTimeFacadesBeforeSGen" BeforeTargets="GenerateSerializationAssemblies">

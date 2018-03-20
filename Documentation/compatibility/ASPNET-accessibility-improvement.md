@@ -41,7 +41,7 @@ In order for the Visual Studio Designer to benefit from these changes, it must r
   <runtime>
     ...
     <!-- AppContextSwitchOverrides value attribute is in the form of `key1=true|false;key2=true|false`  -->
-    <AppContextSwitchOverrides value="...;Switch.UseLegacyAccessibilityFeatures=false" />
+    <AppContextSwitchOverrides value="Switch.UseLegacyAccessibilityFeatures=false" />
     ...
   </runtime>
 </configuration>

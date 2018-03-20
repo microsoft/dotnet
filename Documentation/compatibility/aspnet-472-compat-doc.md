@@ -1,4 +1,4 @@
-## Appsetting "dataAnnotations:dataTypeAttribute:disableRegEx" is On by Default in .NET Framework 4.7.2
+## "dataAnnotations:dataTypeAttribute:disableRegEx" app setting is on by default in .NET Framework 4.7.2
 
 ### Scope
 Minor 
@@ -16,7 +16,7 @@ In .NET Framework 4.6.1, this app setting to disable RegEx usage was set to `fal
 
 
 ### Recommended Action
-If you find that regular expressions in your web application do not work after upgrading to .NET Framework 4.7.2, you can update the value of the `"dataAnnotations:dataTypeAttribute:disableRegEx"` setting to `false` to revert back to the previous behavior.
+If you find that regular expressions in your web application do not work after upgrading to .NET Framework 4.7.2, you can update the value of the `"dataAnnotations:dataTypeAttribute:disableRegEx"` setting to `false` to revert to the previous behavior.
 
 ```xml
     <configuration>

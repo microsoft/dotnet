@@ -4,7 +4,7 @@
 Minor 
 
 ### Version Introduced
-4.6.2
+4.7.2
 
 ### Change Description
 In .NET Framework 4.6.1, an app setting (`"dataAnnotations:dataTypeAttribute:disableRegEx"`) was introduced that allows users to disable the use of regular expressions in data type attributes (such as <xref:System.ComponentModel.DataAnnotations.EmailAddressAttribute?displayProperty=nameWithType>, <xref:System.ComponentModel.DataAnnotations.UrlAttribute?displayProperty=nameWithType>, and <xref:System.ComponentModel.DataAnnotations.PhoneAttribute?displayProperty=nameWithType>). This helps to reduce security vulnerability such as avoiding the possibility of a Denial of Service attack using specific regular expressions.<br/>

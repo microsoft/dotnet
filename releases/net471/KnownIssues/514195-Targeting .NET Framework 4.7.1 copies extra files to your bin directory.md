@@ -13,11 +13,11 @@ This results in the bin output of your application being larger and including mo
 
 ## Impact
 
-This problem occurs when building an applications that targets .NET Framework 4.7.1 and consumes .NET Standard-based assets.
+This problem occurs when building an application that targets .NET Framework 4.7.1 and consumes .NET Standard-based assets.
 
 ## Workaround
 
-The workaround was to copy these extra 12 assemblies (runtime facades) to your bin directory. This is done automatically for you on Visual Studio 15.6.3. With them, and with some binding redirects that get generated automatically, we ensure that all of the .NET Standard types would re-map correctly when running on .NET Framework 4.7.1 or greater.
+There is no way to remove the extra assemblies on your bin directory when targeting .NET Framework 4.7.1. The only way to remove them would be to re-target to a more recent version of the Framework that does not require them anymore (.NET Framework 4.7.2).
 
 ## Resolution
 

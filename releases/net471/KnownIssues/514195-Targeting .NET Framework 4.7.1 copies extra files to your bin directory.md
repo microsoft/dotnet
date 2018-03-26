@@ -17,7 +17,7 @@ This problem occurs when building an application that targets .NET Framework 4.7
 
 ## Workaround
 
-There is no way to remove the extra assemblies on your bin directory when targeting .NET Framework 4.7.1. The only way to remove them would be to re-target to a more recent version of the Framework that does not require them anymore (.NET Framework 4.7.2).
+There is no way to remove the extra assemblies in your bin directory when targeting .NET Framework 4.7.1. The only workaround is to recompile your app to target the .NET Framework 4.7.2 or later, where this issue has been addressed.
 
 ## Resolution
 

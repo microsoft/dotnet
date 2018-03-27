@@ -15,7 +15,7 @@ Note:  Windows 10 Anniversary Update (version 1607) comes pre-installed with .NE
 This issue occurs because the .NET Framework 4.7.1 product installation gets into a corrupted state after the OS upgrade.  The OS upgrade preserves all the .NET 4.7.1 assemblies in the GAC as is, but the in-box assemblies are reverted to the in-box version (4.7). Due to this mixed state, the .NET applications exhibit unexpected behaviors.
 
 ## Impact
-Applications may experience unexpected crashes in certain scenarios.
+Applications may experience unexpected crashes in certain scenarios. For example, Visual Studio will experience a crash soon after opening a C# or VB project when .NET is in this corrupted state.
 
 Note: This issue does not occur when you do an upgrade from Windows 10 Anniversary Update (version 1607) to Windows 10 Fall Creators Update (version 1709).
 

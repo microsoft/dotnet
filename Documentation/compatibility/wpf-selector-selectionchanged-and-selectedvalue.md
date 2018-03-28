@@ -15,7 +15,7 @@ Starting with the .NET Framework 4.7.1, a <xref:System.Windows.Controls.Primitiv
 <xref:System.Windows.Controls.Primitives.Selector.SelectionChanged> event, when its selection changes.
 This makes the SelectedValue property consistent with the other selection properties 
 (<xref:System.Windows.Controls.Primitives.Selector.SelectedItem%2A> and 
-<xref:System.Windows.Controls.Primitives.Selector.SelectedIndex%2A>), which are updated before raising the event.  
+<xref:System.Windows.Controls.Primitives.Selector.SelectedIndex%2A>), which are updated before raising the event.<p/>  
 
 In the .NET Framework 4.7 and earlier versions, the update to SelectedValue happened before the event in most cases, but it happened
 after the event if the selection change was caused by changing the 

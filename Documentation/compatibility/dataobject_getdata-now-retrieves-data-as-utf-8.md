@@ -14,7 +14,7 @@ Available
 For apps that target the .NET Framework 4 or that run on the .NET Framework
 4.5.1 or earlier versions, `DataObject.GetData` retrieves HTML-formatted data as
 an ASCII string. As a result, non-ASCII characters (characters whose ASCII codes
-are greater than 0x7F) are represented by two random characters.
+are greater than 0x7F) are represented by two random characters.<p/>
 
 For apps that target the .NET Framework 4.5 or later and run on the .NET
 Framework 4.5.2, `DataObject.GetData` retrieves HTML-formatted data as UTF-8,

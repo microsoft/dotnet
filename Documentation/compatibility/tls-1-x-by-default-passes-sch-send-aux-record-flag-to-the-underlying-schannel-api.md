@@ -28,6 +28,7 @@ If this change breaks communication with an existing server, you can disable sen
           value="Switch.System.Net.DontEnableSchSendAuxRecord=true" /> 
 </runtime>
 ```
+
 > [!IMPORTANT] 
 > This setting is provided for backward compatibility only. Its use is otherwise not recommended.
 

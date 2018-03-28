@@ -23,8 +23,7 @@ Framework 4.6.2 this issue has been fixed. Similarly,
 <xref:System.Security.Cryptography.RSA.ImportParameters(System.Security.Cryptography.RSAParameters)>
 and
 <xref:System.Security.Cryptography.RSACng.ImportParameters(System.Security.Cryptography.RSAParameters)>
-now work with non-standard key sizes without throwing
-<xref:System.Security.Cryptography.CryptographicException?displayProperty=name>s.
+now work with non-standard key sizes without throwing a <xref:System.Security.Cryptography.CryptographicException?displayProperty=name>.
 
 - [X] Quirked
 - [ ] Build-time break

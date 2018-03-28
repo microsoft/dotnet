@@ -20,7 +20,7 @@ which called
 or <xref:System.Windows.Forms.Application.RemoveMessageFilter(System.Windows.Forms.IMessageFilter)?displayProperty=name>
 (while also calling
 <xref:System.Windows.Forms.Application.DoEvents>)
-would cause an <xref:System.IndexOutOfRangeException?displayProperty=name>.
+would cause an <xref:System.IndexOutOfRangeException?displayProperty=name>.<p/>
 
 Beginning with applications targeting the .NET Framework 4.6.1, this exception is no longer thrown, and re-entrant filters as described above may be used.
 

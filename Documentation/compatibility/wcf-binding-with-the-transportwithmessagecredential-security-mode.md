@@ -14,13 +14,13 @@ Beginning in the .NET Framework 4.6.1, WCF binding that uses the TransportWithMe
 
 By default, unsigned "to" headers will continue to be rejected in .NET Framework 4.6.1. They will only be accepted if an application opts into this new mode of operation using the Switch.System.ServiceModel.AllowUnsignedToHeader configuration switch.
 
-Because this is an opt-in feature, it should not affect the behavior of existing apps.
-
 - [X] Quirked
 - [ ] Build-time break
 
 ### Recommended Action
-Because this is an opt-in feature, it should not affect the behavior of existing apps. To control whether the new behavior is used or not, use the following configuration setting:
+Because this is an opt-in feature, it should not affect the behavior of existing apps.<br/>
+
+To control whether the new behavior is used or not, use the following configuration setting:
 
 ```xml
 <runtime>

@@ -10,7 +10,7 @@ Major
 NotPlanned
 
 ### Change Description
-Windows Forms is improving how it works with accessibility technologies to better support Windows Forms customers. These include the following changes:
+Windows Forms is improving how it works with accessibility technologies to better support Windows Forms customers. These include the following changes starting with the .NET Framework 4.7.1:
 - Changes to improve display during High Contrast mode.
 - Changes to improve the property browser experience. Property browser improvements include: 
   - Better keyboard navigation through the various drop-down selection windows.
@@ -45,13 +45,13 @@ In order for the application to benefit from these changes, it must run on the .
    </configuration>
    ```
 
-</br>Applications that target the .NET Framework 4.7.1 or later and want to preserve the legacy accessibility behavior can opt in to the use of legacy accessibility features by explicitly setting this AppContext switch to `true`.</p>
+</br>Applications that target the .NET Framework 4.7.1 or later and want to preserve the legacy accessibility behavior can opt in to the use of legacy accessibility features by explicitly setting this AppContext switch to `true`.<p/>
 
-For an overview of UI automation, see the [UI Automation Overview](~/docs/framework/ui-automation/ui-automation-overview.md).</p> 
+For an overview of UI automation, see the [UI Automation Overview](~/docs/framework/ui-automation/ui-automation-overview.md).</p/><p/> 
 
-**Added support for UI Automation patterns and properties**</br>
+**Added support for UI Automation patterns and properties**<br/>
 
-Accessibility clients can take advantage of new WinForms accessibility functionality by using common, publicly described invocation patterns. These patterns are not WinForms-specific. For instance, accessibility clients can call the QueryInterface method on the IAccessible interface (MAAS) to obtain an IServiceProvider interface. If this interface is available, clients can use its QueryService method to request an IAccessibleEx interface. For more information, see [Using IAccessibleEx from a Client](https://msdn.microsoft.com/library/windows/desktop/dd561924.aspx). Starting with the .NET Framework 4.7.1, IServiceProvider and [IAccessibleEx]( https://msdn.microsoft.com/library/windows/desktop/dd561898.aspx) (where applicable) are available for WinForms accessibility objects.</br>
+Accessibility clients can take advantage of new WinForms accessibility functionality by using common, publicly described invocation patterns. These patterns are not WinForms-specific. For instance, accessibility clients can call the QueryInterface method on the IAccessible interface (MAAS) to obtain an IServiceProvider interface. If this interface is available, clients can use its QueryService method to request an IAccessibleEx interface. For more information, see [Using IAccessibleEx from a Client](https://msdn.microsoft.com/library/windows/desktop/dd561924.aspx). Starting with the .NET Framework 4.7.1, IServiceProvider and [IAccessibleEx]( https://msdn.microsoft.com/library/windows/desktop/dd561898.aspx) (where applicable) are available for WinForms accessibility objects.<p/>
 
 The .NET Framework 4.7.1 adds support for the following UI automation patterns and properties:
 

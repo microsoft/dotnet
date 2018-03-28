@@ -12,7 +12,7 @@ Available
 ### Change Description
 
 Beginning in the .NET Framework 4.5, calling
-`System.Windows.Forms.MessageBox.Show` from a
+<xref:System.Windows.Forms.MessageBox.Show?displayProperty=nameWithType> from a
 <xref:System.Windows.UIElement.PreviewLostKeyboardFocus>
 handler will cause the handler to re-fire when the message box is closed,
 potentially resulting in an infinite loop of message boxes.
@@ -21,10 +21,11 @@ potentially resulting in an infinite loop of message boxes.
 - [ ] Build-time break
 
 ### Recommended Action
-There are two options to work around this issue -
+There are two options to work around this issue:
 
 1. It may be avoided by calling `System.Windows.MessageBox.Show` instead of `System.Windows.Forms.MessageBox.Show`.
-2. It may be avoided by showing the message box from a <xref:System.Windows.UIElement.LostKeyboardFocus> event handler (as opposed to a <xref:System.Windows.UIElement.PreviewLostKeyboardFocus?displayProperty=name> event handler).
+2. 
+3. It may be avoided by showing the message box from a <xref:System.Windows.UIElement.LostKeyboardFocus> event handler (as opposed to a <xref:System.Windows.UIElement.PreviewLostKeyboardFocus?displayProperty=name> event handler).
 
 ### Affected APIs
 * `M:System.Windows.ContentElement.add_PreviewLostKeyboardFocus(System.Windows.Input.KeyboardFocusChangedEventHandler)`

@@ -11,7 +11,7 @@ and `System.Windows.Controls.FlowDocumentPageViewer`.
 ## Resolution
 This issue will be fixed in the next version of .NET.
 
-To work around this problem, developers can explicitly set the selection opacity to the correct value of ".4".  Once this is done, the selected text will again be visible underneath the text selection.
+To work around this problem, developers can explicitly set the selection opacity to the correct value of .4.  Once this is done, the selected text is again visible underneath the text selection.
 
 ```xml 
 <FlowDocumentScrollViewer SelectionOpacity=".4" />

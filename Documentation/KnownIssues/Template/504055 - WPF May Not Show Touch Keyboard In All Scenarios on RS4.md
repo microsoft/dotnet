@@ -1,9 +1,7 @@
 # WPF May Not Show Touch Keyboard In All Scenarios on Windows 10 RS4
 
 ## Symptoms
-On Windows 10 RS4 running .NET Framework 4.7.2, WPF applications may not immediately show the touch keyboard in some specific scenarios.  
-
-Generally, these involve variations of the following:
+In the .NET Framework 4.7.2 runnin on Windows 10 RS4, WPF applications may not immediately show the touch keyboard in some specific scenarios.  Generally, these involve variations of the following.
 
 1. Tap a text box and note the touch keyboard shows.
 2. Tap another text box.

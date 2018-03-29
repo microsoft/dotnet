@@ -1,12 +1,12 @@
-# WPF Non-Adorner Text Selection Occludes Text in FlowDocumentScrollViewer, FlowDocumentReader, and SinglePageViewer.
+# WPF Non-Adorner Text Selection Occludes Text in FlowDocumentScrollViewer, FlowDocumentReader, and FlowDocumentPageViewer.
 
 ## Symptoms
 When the WPF Non-Adorner text selection feature is enabled on .NET Framework 4.7.2 (see snippet below), text selections in `System.Windows.Controls.FlowDocumentScrollViewer`, `System.Windows.Controls.FlowDocumentReader`,
-and `System.Windows.Controls.SinglePageViewer` will occlude the selected text.
+and `System.Windows.Controls.FlowDocumentPageViewer` will occlude the selected text.
 
 ## Cause
 The root cause of this issue is an incorrect default selection opacity value being applied to `System.Windows.Controls.FlowDocumentScrollViewer`, `System.Windows.Controls.FlowDocumentReader`,
-and `System.Windows.Controls.SinglePageViewer`.
+and `System.Windows.Controls.FlowDocumentPageViewer`.
 
 ## Resolution
 This issue will be fixed in the next version of .NET.

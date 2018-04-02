@@ -2,7 +2,7 @@
 
 ## Symptoms
 
-When a XAML Browser Application (XBAP) that targets .NET Framework 3.5 is launched, it is loaded in CLR v4 incorrectly instead of being launched under CLR v2.0 as is expected. Along with the incorrect CLR, the .NET Framework libraries are also loaded from the latest version of .NET (.NET 4.x), and not .NET 3.5. Many XBAP applications launch and work normally under CLR v4, but some XBAP's would fail. The failure-mode would be specific to the individual application and cannot be easily generalized. 
+When a XAML Browser Application (XBAP) that targets .NET Framework 3.5 is launched, it is loaded in CLR v4 incorrectly instead of being launched under CLR v2.0 as is expected. Along with the incorrect CLR, the .NET Framework libraries are also loaded from the latest version of .NET (.NET 4.x), and not .NET 3.5. Many XBAP applications launch and work normally under CLR v4, but some XBAP's fail. The failure-mode is specific to the individual application and cannot be easily generalized. 
 
 ## Resolution
 

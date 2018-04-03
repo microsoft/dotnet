@@ -107,7 +107,6 @@ NOTE: Windows 10 has changed values for some high contrast system colors. Window
 - Narrator is now able to read the System Menu of child windows in [Multiple-Document Interface]~/docs/framework/winforms/advanced/multiple-document-interface-mdi-applications.md) applications.
 - Narrator is now able to read <xref:System.Windows.Forms.ToolStripMenuItem> controls with a <xref:System.Windows.Forms.ToolStripItem.Enabled?displayProperty=nameWithType> property set to **false**. Previously, Narrator was unable to focus on disabled menu items to read the content.
 
-
 ### Affected APIs
 * `M:System.Windows.Forms.ToolStripDropDownButton.CreateAccessibilityInstance`
 * `P:System.Windows.Forms.DomainUpDown.DomainUpDownAccessibleObject.Name`

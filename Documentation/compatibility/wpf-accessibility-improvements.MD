@@ -23,7 +23,6 @@ __High Contrast improvements__</br>
 - The <xref:System.Windows.Controls.DataGrid> control's checkbox column now uses the expected colors for keyboard focus feedback. In previous versions of the .NET Framework, it did not.
 - the Keyboard focus visuals are now visible on <xref:System.Windows.Controls.ComboBox> and <xref:System.Windows.Controls.ListBox> controls. In previous versions of the .NET Framework, it was not.</p>
 
-
 __Screen reader interaction improvements__</br>
 
 - <xref:System.Windows.Controls.Expander> controls are now correctly announced as groups (expand/collapse) by screen readers.
@@ -36,6 +35,14 @@ __LiveRegion support__</br>
 
 Screen readers such as Narrator help people know the UI contents of an application, usually by describing something about the UI that's currently focused, because that is probably the element of most interest to the user. However, if a UI element changes somewhere in the screen and it does not have the focus, the user may not be informed and miss important information.
 LiveRegions are meant to solve this problem. A developer can use them to inform the screen reader or any other [UI Automation](~/docs/framework/ui-automation/ui-automation-overview.md) client that an important change has been made to a UI element. The screen reader can then decide how and when to inform the user of this change.
+=======
+- <xref:System.Windows.Controls.PasswordBox> controls are no longer announced as "no item in view" by screen readers.
+
+
+__LiveRegion support__   
+
+Screen readers such as Narrator help people know the UI contents of an application, usually by describing something about the UI that's currently focused, because that is probably the element of most interest to the user. However, if a UI element changes somewhere in the screen and it does not have the focus, the user may not be informed and miss important information.
+LiveRegions are meant to solve this problem. A developer can use them to inform the screen reader or any other [UI Automation][UI Automation Overview](https://docs.microsoft.com/dotnet/framework/ui-automation/ui-automation-overview) client that an important change has been made to a UI element. The screen reader can then decide how and when to inform the user of this change.
 The LiveSetting property also lets the screen reader know how important it is to inform the user of the change made to the UI.
 
 

@@ -1,4 +1,4 @@
-## GlyphRun.ComputeInkBoundingBox() and FormattedText.Extent return different values beginning in .NET 4.5
+## GlyphRun.ComputeInkBoundingBox() and FormattedText.Extent return different values beginning in .NET Framework 4.5
 
 ### Scope
 Edge

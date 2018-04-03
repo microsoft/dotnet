@@ -18,7 +18,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [Smuxi IM](https://github.com/meebey/smuxi) - free, distributed and user-friendly IRC / Twitter / XMPP / Campfire / JabbR client for Linux, Windows and Mac OS X 
 
 ## Utilities 
- * [Gmail Notifier Plus](https://github.com/shellscape/Gmail-Notifier-Plus) - An app to monitor multiple Gmail and Google Apps for Work Gmail accounts from a single, compact point, sitting in Windows 7/8/8.1 taskbar.
+ * [Gmail Notifier Plus](https://github.com/shellscape/Gmail-Notifier-Plus) - An app to monitor multiple Gmail accounts from a single, compact point, sitting in Windows 7/8/8.1 taskbar.
  * [YouCast](https://github.com/I3arnon/YouCast) - YouCast allows you to subscribe to video feeds on YouTube as podcasts in any standard podcatcher like iTunes, BeyondPod on Adroid or even Zune PC and so forth.
  * [Ember](https://github.com/Embershot/Ember) - Simple & Beautiful Screenshot App
  * [Waf Stopwatch](http://wafstopwatch.codeplex.com) - is an advanced stopwatch with a lap recording feature. Additionally, it provides a Countdown with alert sound.

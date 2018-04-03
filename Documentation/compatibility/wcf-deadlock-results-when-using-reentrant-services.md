@@ -36,7 +36,8 @@ To address this issue, you can do the following:
    <appSettings>
       <add key="Switch.System.ServiceModel.DisableOperationContextAsyncFlow" value="true" />
    </appSettings>
-
+   ```
+   
    The value of `Switch.System.ServiceModel.DisableOperationContextAsyncFlow` should never be set to `false` for Rentrant services. 
 
 ### Affected APIs

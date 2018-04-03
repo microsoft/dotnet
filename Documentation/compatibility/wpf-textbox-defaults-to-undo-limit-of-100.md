@@ -10,7 +10,7 @@ Edge
 Planned
 
 ### Change Description
-In .NET 4.5, the default undo limit for a WPF textbox is 100 (as opposed to being unlimited in .NET 4.0)
+In .NET Framework 4.5, the default undo limit for a WPF textbox is 100 (as opposed to being unlimited in .NET Framework 4.0)
 
 - [ ] Quirked
 - [ ] Build-time break

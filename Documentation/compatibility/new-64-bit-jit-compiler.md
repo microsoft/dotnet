@@ -27,17 +27,17 @@ The known differences include the following:
 - [ ] Build-time break
 
 ### Recommended Action
-**Mitigation of known issues**   
+**Mitigation of known issues** <br/>   
 If you encounter the issues listed above, you can address them by doing any of the following:  
   
 - Upgrade to the .NET Framework 4.6.2. The new 64-bit compiler included with the .NET Framework 4.6.2 addresses each of these known issues.  
 - Ensure that your version of Windows is up to date by running Windows Update. Service updates to the .NET Framework 4.6 and 4.6.1 address each of these issues except the <xref:System.NullReferenceException> in an unboxing operation.  
 - Compile with the older 64-bit JIT compiler. See the **Mitigation of other issues** section for more information on how to do this.  
   
-**Mitigation of other issues**  
+**Mitigation of other issues** <br/> 
 If you encounter any other difference in behavior between code compiled with the older 64-bit compiler and the new 64-bit JIT compiler, or between the debug and release versions of your app that are both compiled with the new 64-bit JIT compiler, you can do the following to compile your app with the older 64-bit JIT compiler:  
   
-- On a per-application basis, you can add the [\<useLegacyJit>](https://docs.microsoft.com/dotnet/framework/configure-apps/file-schema/runtime/uselegacyjit-element) element to your application's configuration file. The following disables compilation with the new 64-bit JIT compiler and instead uses the legacy 64-bit JIT compiler.  
+- On a per-application basis, you can add the [\<useLegacyJit>](~/docs/framework/configure-apps/file-schema/runtime/uselegacyjit-element.md) element to your application's configuration file. The following disables compilation with the new 64-bit JIT compiler and instead uses the legacy 64-bit JIT compiler.  
   
    ```xml  
    <?xml version ="1.0"?>  

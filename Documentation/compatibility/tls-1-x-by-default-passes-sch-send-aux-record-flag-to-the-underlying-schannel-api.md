@@ -20,7 +20,7 @@ In rare cases, this breaks communication between clients and existing servers th
 
 ### Recommended Action
 
-If this change breaks communication with an existing server, you can disable sending the [`SCH_SEND_AUX_RECORD`](https://msdn.microsoft.com/library/windows/desktop/aa379810.aspx) flag and restore the previous behavior of not splitting data into separate records by adding the following switch to the [`\<AppContextSwitchOverrides>` element](~/docs/framework/configure-apps/file-schema/runtime/appcontextswitchoverrides-element.md) in the [`\<runtime> section](~/docs/framework/configure-apps/file-schema/runtime/runtime-element.md) of your app configuration file:
+If this change breaks communication with an existing server, you can disable sending the [`SCH_SEND_AUX_RECORD`](https://msdn.microsoft.com/library/windows/desktop/aa379810.aspx) flag and restore the previous behavior of not splitting data into separate records by adding the following switch to the [`<AppContextSwitchOverrides>`](~/docs/framework/configure-apps/file-schema/runtime/appcontextswitchoverrides-element.md) element in the [`<runtime>`](~/docs/framework/configure-apps/file-schema/runtime/runtime-element.md) section of your app configuration file:
 
 ```xml
 <runtime>
@@ -28,6 +28,7 @@ If this change breaks communication with an existing server, you can disable sen
           value="Switch.System.Net.DontEnableSchSendAuxRecord=true" /> 
 </runtime>
 ```
+
 > [!IMPORTANT] 
 > This setting is provided for backward compatibility only. Its use is otherwise not recommended.
 

@@ -21,8 +21,8 @@ fails to serialize or deserialize due to missing 'known types' has been clarifie
 
 ### Recommended Action
 
-Apps should not depend on specific exception messages. If an app depending on
-this message, please either update it to expect the new message or (preferably)
+Apps should not depend on specific exception messages. If an app depends on
+this message, either update it to expect the new message or (preferably)
 change it to depend only on the exception type.
 
 ### Affected APIs

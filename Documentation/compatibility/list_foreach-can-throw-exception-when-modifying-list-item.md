@@ -11,7 +11,7 @@ Available
 
 ### Change Description
 
-Beginning in .NET 4.5, a
+Beginning in .NET Framework 4.5, a
 <xref:System.Collections.Generic.List`1.ForEach(System.Action{`0})>
 enumerator will throw an
 <xref:System.InvalidOperationException?displayProperty=name> exception if an
@@ -25,7 +25,7 @@ an exception but could lead to race conditions.
 
 Ideally, code should be fixed to not modify lists while enumerating their
 elements because that is never a safe operation. To revert to the previous
-behavior, though, an app may target .NET 4.0.
+behavior, though, an app may target .NET Framework 4.0.
 
 ### Affected APIs
 * ``M:System.Collections.Generic.List`1.ForEach(System.Action{`0})``

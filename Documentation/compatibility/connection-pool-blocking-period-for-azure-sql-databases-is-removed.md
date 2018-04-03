@@ -11,14 +11,14 @@ Investigating
 
 ### Change Description
 Starting with the .NET Framework 4.6.2, for connection open requests to known
-Azure SQL databases (*.database.windows.net, *.database.chinacloudapi.cn,
-*.database.usgovcloudapi.net, *.database.cloudapi.de), the connection pool
+Azure SQL databases (\*.database.windows.net, \*.database.chinacloudapi.cn,
+\*.database.usgovcloudapi.net, \*.database.cloudapi.de), the connection pool
 blocking period is removed, and connection open errors are not cached. Attempts
 to retry connection open requests will occur almost immediately after transient
 connection errors. This change allows the connection open attempt to be retried
 immediately for Azure SQL databases, thereby improving the performance of cloud-
 enabled apps. For all other connection attempts, the connection pool blocking
-period continues to be enforced.
+period continues to be enforced.<p/>
 
 In the .NET Framework 4.6.1 and earlier versions, when an app encounters a
 transient connection failure when connecting to a database, the connection

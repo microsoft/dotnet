@@ -30,7 +30,7 @@ contains items that are no longer in the data source.
 - [ ] Build-time break
 
 ### Recommended Action
-Upgrade if possible to .NET 4.6.2.
+Upgrade if possible to .NET Framework 4.6.2.
 
 ### Affected APIs
 * `P:System.Windows.Controls.Primitives.MultiSelector.SelectedItems`

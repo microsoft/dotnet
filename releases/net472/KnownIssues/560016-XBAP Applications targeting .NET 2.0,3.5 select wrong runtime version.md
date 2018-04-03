@@ -10,7 +10,7 @@ A fix will be released shortly for .NET Framework 4.7.2 on Windows 10 Version 18
 
 The fix for this issue must be enabled by customers who have problems running XBAP applications that target .NET Framework 3.5 under CLR v4. The fix can be enabled by setting the following registry keys: 
 
-    <table>
+<table>
         <tr>
             <th>Platform Architecture</th>
             <th>Registry Key</th>
@@ -49,7 +49,7 @@ The fix for this issue must be enabled by customers who have problems running XB
             <td><code>1</code>, or any non-zero value</td>
             <td>XBAP applications that target .NET Framework 3.5 will be launched under CLR v2, and XBAP applications that target .NET Framework 4.x will be launched under CLR v4</td>
         </tr>
-    </table>
+</table>
 
 ## More information
 .NET Framework 4.6.2, .NET Framework 4.7, and .NET Framework 4.7.1 are also affected by this issue. A fix for these versions of .NET Frameworks will be released shortly. 

@@ -45,7 +45,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
 
 ## Security / Identity Management
   * [NWebsec](https://github.com/NWebsec/NWebsec) - Security headers for ASP.NET applications.
-  * [IdentityManager](https://github.com/IdentityManager/IdentityManager)
+  * [IdentityManager](https://github.com/IdentityManager/IdentityManager) - (No Longer Maintained) IdentityManager is a tool for developers and/or administrators to manage the identity information for users of their applications.
   * [IdentityServer](https://github.com/IdentityServer/IdentityServer3)
   * [SKGL - Serial Key Generating Library](https://skgl.codeplex.com/)
 

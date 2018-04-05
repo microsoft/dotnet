@@ -6,7 +6,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
 
 ## .NET Implementations
   * [.NET Core](https://github.com/dotnet/core) - Core .NET Framework
-  * [C# Native](https://csnative.codeplex.com) - Compiles C# to native.
+  * [C# Native](https://csnative.codeplex.com) - (No Recent Updates - Still on CodePlex - 4/2018) Compiles C# to native.
   * [Cosmos](https://github.com/CosmosOS/Cosmos) - C# Open Source Managed Operating System, an operating system "construction kit".
   * [Fling OS](https://github.com/FlingOS/FlingOS) - [C# Operating System](http://www.flingos.co.uk/) designed for people to learn low-level development from.
   * [Mono](https://github.com/mono/mono) - Cross-platform implementation of .NET Framework.
@@ -27,18 +27,18 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [Cobra](http://cobra-language.com/source/) - Clean, high-level syntax (Boo/Python-like). Static and dynamic binding. First class support for unit tests and contracts. Compiled performance with scripting conveniences. Lambdas and closures. Extensions and mixins
   * [Dynamic Language Runtime](http://www.github.com/IronLanguages/main) - A toolkit for building dynamic languages for .NET.
   * [Eagle](https://eagle.to) - A .NET implementation of the [Tcl](https://www.tcl.tk) programming language, built on the CLR.
-  * [Essence#](https://essencesharp.codeplex.com/) - Essence# is a fully dynamic and highly polymorphic programming language which features pervasive message passing, pervasive dynamic and strong typing, pervasive and deep reflection and pervasive object orientation.
+  * [Essence#](https://github.com/EssenceSharp/cSharp) - Essence# is a fully dynamic and highly polymorphic programming language which features pervasive message passing, pervasive dynamic and strong typing, pervasive and deep reflection and pervasive object orientation.
   * [F#](https://github.com/fsharp/fsharp) - A mature, open source, cross-platform, functional-first programming language.
   * [F*](https://github.com/FStarLang/FStar) - An ML-like language with a type system for program verification.
   * [IronPython](https://github.com/IronLanguages/main/tree/master/Languages/IronPython) - A .NET implementation of the [Python](https://www.python.org) programming language, built on the DLR. [IronPython Site](http://ironpython.net).
   * [IronRuby](https://github.com/IronLanguages/main/tree/master/Languages/Ruby) - A .NET implementation of the [Ruby](https://www.ruby-lang.org) programming language, built on the DLR. [IronRuby Site](http://ironruby.net).
-  * [IronScheme](http://ironscheme.codeplex.com) - A R6RS conforming Scheme-like implementation based on the Microsoft DLR.
-  * [Irony](https://irony.codeplex.com/) - a development kit for implementing languages on .NET platform
+  * [IronScheme](https://github.com/leppie/IronScheme) - A R6RS conforming Scheme-like implementation based on the Microsoft DLR.
+  * [Irony](https://github.com/IronyProject/) - a development kit for implementing languages on .NET platform
   * [MoonSharp](https://github.com/xanathar/moonsharp/) - A Lua interpreter and remote debugger, written entirely in C#, easily embeddable in any application running on .NET 3.5+ and Mono.
   * [Nemerle](https://github.com/rsdn/nemerle) - A high-level statically-typed programming language which offers functional, object-oriented and imperative features and has a simple C# like syntax and a powerful meta-programming system.
   * [NiL.JS](https://github.com/nilproject/NiL.JS) - A .NET implementation of the ECMAScript language and runtime.
   * [Phalanger](https://github.com/DEVSENSE/Phalanger) - full-featured PHP runtime & compiler for .NET/Mono frameworks. Phalanger is modern open-source implementation of PHP, compatible with the vast array of existing PHP code.
-  * [Roslyn (.NET Compiler Platform)](https://roslyn.codeplex.com/) - Open-source C# and Visual Basic compilers with rich code analysis APIs.
+  * [Roslyn (.NET Compiler Platform)](https://github.com/dotnet/roslyn) - Open-source C# and Visual Basic compilers with rich code analysis APIs.
  
 ## Quality Assurance
   * [C# Coding Guidelines](https://github.com/dennisdoomen/CSharpGuidelines) - A set of coding guidelines for C# 3.0, 4.0 and 5.0 that extend StyleCop and can be forked and adapted for internal use. 
@@ -47,11 +47,11 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [NWebsec](https://github.com/NWebsec/NWebsec) - Security headers for ASP.NET applications.
   * [IdentityManager](https://github.com/IdentityManager/IdentityManager) - (No Longer Maintained) IdentityManager is a tool for developers and/or administrators to manage the identity information for users of their applications.
   * [IdentityServer](https://github.com/IdentityServer/IdentityServer3)
-  * [SKGL - Serial Key Generating Library](https://skgl.codeplex.com/)
+  * [SKGL - Serial Key Generating Library](https://github.com/SerialKeyManager/SKGL)
 
 ## Web CMS
   * [Composite C1](https://github.com/Orckestra/C1-CMS) - Web content management platform (CMS).
-  * [DNN (formerly DotNetNuke)](https://dotnetnuke.codeplex.com/) - Web content management platform (CMS).
+  * [DNN (formerly DotNetNuke)](https://github.com/dnnsoftware/Dnn.Platform) - Web content management platform (CMS).
   * [Kaliko CMS](https://github.com/KalikoCMS/KalikoCMS.Core) - Flexible and extensible CMS framework supporting both ASP.NET MVC and WebForms.
   * [N2CMS](https://github.com/n2cms/n2cms) - Open source, lightweight, code-first CMS able to seamlessly integrate into any MVC project.
   * [Orchard](https://github.com/OrchardCMS/Orchard) - A community-focused Content Management System built on the ASP.NET MVC platform.
@@ -149,52 +149,52 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [Lucene.Net](https://github.com/apache/lucene.net)
   * [MahApps.Metro.IconPacks](https://github.com/MahApps/MahApps.Metro.IconPacks) - Some awesome icons for `WPF` and `UWP` all together. The library contains controls to use icons from [Material Design](https://materialdesignicons.com/), [Material Design Icons Light](https://github.com/Templarian/MaterialDesignLight), [Font Awesome](http://fontawesome.io/icons/), [GitHub Octicons](https://octicons.github.com/), [Modern](http://modernuiicons.com/), [Entypo+](http://www.entypo.com/) and [Simple Icons](https://simpleicons.org/).
   * [Math.NET Numerics](https://github.com/mathnet/mathnet-numerics) - Provides methods and algorithms for numerical computations in science, engineering and every day use.
-  * [Mathos Core Libary](http://mathos.codeplex.com/) - A library with algorithms for numerical calcultations in finance, statistics, pattern recognition, and more.
+  * [Mathos Core Libary](https://github.com/MathosProject/Mathos-Project) - A library with algorithms for numerical calcultations in finance, statistics, pattern recognition, and more.
   * [Mathos Parser](https://github.com/MathosProject/Mathos-Project) - A simple parser for mathematical expressions before and at runtime.
   * [Mjolnir](https://github.com/hudl/Mjolnir) - [Hystrix](https://github.com/Netflix/Hystrix)-inspired fault tolerance with circuit breakers and thread pools.
-  * [MoreLINQ](https://code.google.com/p/morelinq/) - LINQ to Objects is missing a few desirable features. This project will enhance LINQ to Objects with extra methods, in a manner which keeps to the spirit of LINQ.
+  * [MoreLINQ](https://morelinq.github.io/) - LINQ to Objects is missing a few desirable features. This project will enhance LINQ to Objects with extra methods, in a manner which keeps to the spirit of LINQ.
   * [NAudio](https://github.com/naudio/NAudio) - An open source .NET audio and MIDI library.
   * [NetTopologySuite](https://github.com/NetTopologySuite) - A .NET port of the JTS Topology Suite.
   * [NEST](https://github.com/elastic/elasticsearch-net) - The official .NET client library for Elasticsearch.
   * [NHunspell](http://sourceforge.net/projects/nhunspell/) - Spell Checker, Hyphenation an Theasaurus
   * [NModbus4](https://github.com/NModbus4/NModbus4) - Implementation of the Modbus protocol
-  * [NodaTime](https://code.google.com/p/noda-time/) - A better date and time API for .NET
-  * [NPOI](https://npoi.codeplex.com) - An Office file formats (xls, xlsx, docx) read/write library for .NET
-  * [OneDriveRestAPI](https://github.com/saguiitay/OneDriveRestAPI) - OneDrive .Net Client Library using the REST API.
+  * [NodaTime](https://nodatime.org/) - A better date and time API for .NET
+  * [NPOI](https://github.com/tonyqus/npoi) - An Office file formats (xls, xlsx, docx) read/write library for .NET
+  * [OneDriveRestAPI](https://github.com/saguiitay/OneDriveRestAPI) - (No Updates in 3 Years) OneDrive .Net Client Library using the REST API.
   * [OsmSharp](https://github.com/OsmSharp) - Mapping & Routing library.
-  * [PocketSharp](https://github.com/ceee/PocketSharp)
+  * [PocketSharp](https://github.com/ceee/PocketSharp) - (No Updates in 2 Years) Library for the Pocket API.
   * [PortableRest](https://github.com/AdvancedREI/PortableRest) - Portable library for building cross-platform REST API Clients for .NET and Xamarin.
   * [RestSharp](https://github.com/restsharp/RestSharp) - Simple REST and HTTP API Client for .NET
   * [SharpCompress](https://github.com/adamhathcock/sharpcompress) - SharpCompress is a fully managed cross-platform C# library to deal with many compression types and formats: Zip, GZip, RAR, TAR, 7Zip, etc.
-  * [SharpMap](https://sharpmap.codeplex.com/) - An easy-to-use mapping library for use in web and desktop applications
-  * [SharpSnmpLib](https://sharpsnmplib.codeplex.com) - An easy-to-use SNMP library for use on all platforms (.NET/Mono/Xamarin)
+  * [SharpMap](https://github.com/SharpMap) - An easy-to-use mapping library for use in web and desktop applications
+  * [SharpSnmpLib](https://docs.sharpsnmp.com/en/latest/) - An easy-to-use SNMP library for use on all platforms (.NET/Mono/Xamarin)
   * [Shielded](https://github.com/jbakic/Shielded) - Software Transactional Memory for .NET
   * [SmartIrc4net](https://github.com/meebey/SmartIrc4net) - IRC C# Library
   * [Spartacus](https://github.com/wind39/spartacus) - Multi-purpose C# library, containing: 1) classes to access many types of databases in a fast, generic way; 2) classes to work with XLSX, CSV and DBF files; 3) PDF report engine.
   * [Splat](https://github.com/paulcbetts/splat) - A library to make things cross-platform that should be.
   * [SSH.NET](https://github.com/sshnet/SSH.NET) - A client-side library for SSH, SCP and SFTP.
-  * [Strongly Typed Client API Generators for ASP.NET Web API](https://webapiclientgen.codeplex.com/) - Strongly Typed Client API Generators generate strongly typed client API in TypeScript and C# codes supporting desktop, Universal Windows, Android and iOS.
+  * [Strongly Typed Client API Generators for ASP.NET Web API](https://github.com/zijianhuang/webapiclientgen) - Strongly Typed Client API Generators generate strongly typed client API in TypeScript and C# codes supporting desktop, Universal Windows, Android and iOS.
   * [Stuntman](https://github.com/ritterim/stuntman) - OWIN middleware for quickly mocking authentication/authorization use case scenarios locally. Supports Cookie Authentication and Bearer Token Authentication.
   * [SuperSocket](https://github.com/kerryjiang/SuperSocket) - An extensible socket server engine which supports .NET and Mono
   * [surging](https://github.com/dotnetcore/surging) - The distributed micro service framework based on .NET Core provides high-performance RPC Communications
   * [Sweet.Jayson](https://github.com/ocdogan/Sweet.Jayson) - Fast, reliable, easy to use, fully json.org compliant, thread safe C# JSON library for server side and desktop operations.
   * [VkSharp](https://github.com/kasthack/vksharp) - VK client library
-  * [TomP2P.NET](https://github.com/tomp2p/TomP2P.NET) - A P2P-based high performance key-value pair storage library for .NET
+  * [TomP2P.NET](https://github.com/tomp2p/TomP2P.NET) - (No Updated in 3 Years - 4/2018) A P2P-based high performance key-value pair storage library for .NET
   * [WampSharp](https://github.com/Code-Sharp/WampSharp) - A C# implementation of [The Web Application Messaging Protocol](http://wamp.ws) - a protocol that provides messaging patterns of Remote Procedure Calls and Publish/Subscribe over WebSockets.
   * [WebApiProxy](https://github.com/faniereynders/WebApiProxy) - An automatic proxy provider for RESTful services built on ASP.NET Web API. Includes JavaScript & C# client generation.
-  * [WebSocket4Net](https://websocket4net.codeplex.com/) - A C# websocket client for .NET, Mono and Xamarin
+  * [WebSocket4Net](https://github.com/kerryjiang/WebSocket4Net) - A C# websocket client for .NET, Mono and Xamarin
   * [WinFsp](https://github.com/billziss-gh/winfsp) - FUSE for Windows - Develop file systems in .NET
   * [WpfToolkit](https://github.com/dotnetprojects/wpftoolkit) - Fork of the MS WPF Toolkit
-  * [XamlEssentials](https://github.com/AdvancedREI/XamlEssentials) - Collection of helpers for Microsoft's XAML platforms.
-  * [Zlib.Portable](https://github.com/AdvancedREI/Zlib.Portable) - A Portable Class Library port of the Zlib library from http://dotnetzip.codeplex.com.
+  * [XamlEssentials](https://github.com/AdvancedREI/XamlEssentials) - (No Updates in 4 Years - 4/2018)cCollection of helpers for Microsoft's XAML platforms.
+  * [Zlib.Portable](https://github.com/AdvancedREI/Zlib.Portable) - (No Updates in 3 Years - 4/2018) A Portable Class Library port of the Zlib library from http://dotnetzip.codeplex.com.
   * [ExtCore](https://github.com/ExtCore/ExtCore) - Free, open source and cross-platform framework for creating modular and extendable web applications based on ASP.NET Core 1.1.
 
 ## Data Mine/Data Extraction/Machine Learning/AI
   * [AForge.NET](http://www.aforgenet.com/) - a C# framework designed for developers and researchers in the fields of Computer Vision and Artificial Intelligence - image processing, neural networks, genetic algorithms, machine learning, robotics
   * [Accord.NET Framework](https://github.com/accord-net/framework) - The Accord.NET Framework is a .NET machine learning framework combined with audio and image processing libraries completely written in C#.
-  * [Nepy](http://nepy.codeplex.com) - A collection of NLP parsers for .NET
-  * [SharpNLP](http://sharpnlp.codeplex.com) - SharpNLP is a collection of natural language processing tools written in C#
-  * [Toxy](http://toxy.codeplex.com) - An data/text extraction framework for .NET, similar to Tika in Java.
+  * [Nepy](https://github.com/tonyqus/nepy) - (No Updates in 3 Years - 4/2018) A collection of NLP parsers for .NET
+  * [SharpNLP](http://sharpnlp.codeplex.com) - (No Recent Updates - Still On Codeplex - 4/2018) SharpNLP is a collection of natural language processing tools written in C#
+  * [Toxy](https://github.com/tonyqus/toxy) - (No Updates in 2 Years - 4/2018) An data/text extraction framework for .NET, similar to Tika in Java.
  
 ## Graphics & Server-side Image Processing
   * [DynamicImage](https://github.com/tgjones/dynamic-image) - WPF-based server-side image rendering system - lots of visual effects implemented as high-performance shaders. Has URL api, several plugins available.
@@ -202,9 +202,9 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [ImageProcessor](https://github.com/jimbobsquarepants/imageprocessor/) - A fluent wrapper around System.Drawing for the processing of image files (NET 4.5+ GDI+ based).
   * [ImageResizer](https://github.com/imazen/resizer) - Add commands to image URLs to get altered versions in milliseconds. Edit, filter, touch-up images in real-time. (multiple backends - FreeImage, C++/CLI, GDI+, WIC). 45+ plugins available.
   * [King.Azure.Imaging](https://github.com/jefking/King.Azure.Imaging) - Scalable image uploading and processing for Azure.
-  * [Magick.NET](https://magick.codeplex.com) - The .NET (Core/Framework) wrapper for the [ImageMagick](https://www.imagemagick.org) library that supports over [100 major file formats](https://www.imagemagick.org/script/formats.php).
+  * [Magick.NET](https://github.com/dlemstra/Magick.NET) - The .NET (Core/Framework) wrapper for the [ImageMagick](https://www.imagemagick.org) library that supports over [100 major file formats](https://www.imagemagick.org/script/formats.php).
   * [MonoGame](http://www.monogame.net/) - MonoGame is a cross-platform, open-source implementation of the XNA Game Framework.
-  * [.NET Image Processor](http://dotnetimageprocessor.codeplex.com/) - Extensible, chainable image processing library (GDI+ based).
+  * [.NET Image Processor](https://github.com/elkdanger/image-processor) - Extensible, chainable image processing library (GDI+ based).
   * [OpenTK](https://github.com/opentk/opentk) - OpenTK is a low-level, cross-platform binding to OpenGL, OpenGL ES, OpenCL and OpenAL, available for Windows, Linux, Mac OS X, BSD, Android and iOS.
   * [SharpDX](https://github.com/sharpdx/SharpDX) - SharpDX is a project delivering the full DirectX API for .NET on all Windows platforms.
   * [numl](http://numl.net) - numl is a general purpose machine learning framework meant to simplify the data analysis process
@@ -226,7 +226,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [Prism](https://github.com/PrismLibrary/Prism) - A cross-platform desktop and mobile MVVM development framework.
   * [Radical](https://github.com/RadicalFx/radical) - An infrastructure framework whose primary role is to help in the development of composite WPF/Silverlight/WP/WinRT applications based on the Model View ViewModel pattern.
   * [ReactiveUI](https://github.com/reactiveui/ReactiveUI) - An MVVM framework that integrates with the Reactive Extensions for .NET to create elegant, testable User Interfaces that run on any mobile or desktop platform.
-  * [Simple Mvvm Toolkit](http://simplemvvmtoolkit.codeplex.com/) - Provides a simple framework and set of tools for getting up to speed quickly with applications based on the MVVM design pattern. 
+  * [Simple Mvvm Toolkit](https://github.com/SimpleMvvm) - Provides a simple framework and set of tools for getting up to speed quickly with applications based on the MVVM design pattern. 
   * [Win Application Framework (WAF)](https://github.com/jbe2277/waf) - A lightweight Framework that helps you to create well structured XAML Applications. It supports you in applying a Layered Architecture and the Model-View-ViewModel pattern.
 
 ## Tools
@@ -238,7 +238,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [FlubuCore](https://github.com/flubu-core/flubu.core) - Fluent builder is A C# library for building projects and executing deployment scripts using C# code.
   * [Fody](https://github.com/Fody/Fody) - Extensible tool for weaving .NET assemblies.
   * [Crawler-Lib Build Tools](http://download.crawler-lib.net/BuildTools/) -  [A PowerShell based toolbox](http://www.crawler-lib.net/build-tools) for automating the software build process, autmated testing and integration.
-  * [FsEye](https://code.google.com/p/fseye/) - A visual object tree inspector for the F# Interactive.
+  * [FsEye](https://github.com/swensensoftware/fseye) - A visual object tree inspector for the F# Interactive.
   * [FsharpLint](https://github.com/fsprojects/FSharpLint) - Lint tool for F#.
   * [FsPickler](https://github.com/nessos/FsPickler) - Serialization library that facilitates the distribution of .NET objects.
   * [GitLink](https://github.com/GitTools/GitLink) - Command-line tool to make .NET open source accessible without the need for a symbols server
@@ -248,12 +248,12 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [Mini Profiler](https://github.com/MiniProfiler/dotnet) - A simple but effective mini-profiler for .NET.
   * [Node.js Tools For Visual Studio](https://github.com/Microsoft/nodejstools) -  Plugin that turns Visual Studio into a Node.js IDE
   * [NsDepCop](https://github.com/realvizu/NsDepCop) - Static code analysis tool to enforce namespace dependency rules in C# projects.
-  * [Obfuscar](https://obfuscar.codeplex.com) - MSIL obfuscation utility for .NET assemblies.
+  * [Obfuscar](https://www.obfuscar.com/) - MSIL obfuscation utility for .NET assemblies.
   * [OmniDB](https://github.com/OmniDB/OmniDB) - Web tool for database management and conversion. [Site](http://omnidb.com.br)
   * [Outcomes.Net](https://github.com/kinetiq/Ether.Outcomes/) - Fluent wrapper that eliminates plumbing code around failure-prone functions.
   * [Paket](https://github.com/fsprojects/Paket) - Dependency manager for .NET and Mono projects, which is designed to work well with NuGet packages and also enables referencing files directly from GitHub repositories.
   * [Polly](https://github.com/App-vNext/Polly) - A resilience and transient-fault-handling library that allows developers to express policies such as Retry, Circuit Breaker, Timeout, Bulkhead Isolation, and Fallback in a fluent and thread-safe manner.
-  * [Protobuf-net](https://code.google.com/p/protobuf-net/) - A .NET implementation of protobuf, allowing you to serialize your .NET objects efficiently and easily.
+  * [Protobuf-net](https://github.com/mgravell/protobuf-net) - A .NET implementation of protobuf, allowing you to serialize your .NET objects efficiently and easily.
   * [Quick Diagram Tool for C#](https://github.com/realvizu/QuickDiagram) - Code visualization tool for C#.
   * [scriptcs](https://github.com/scriptcs/scriptcs) - scriptcs makes it easy to write and execute C# with a simple text editor.
   * [Snoop WPF](https://github.com/cplotts/snoopwpf) - Snoop - The WPF Spy Utility
@@ -280,7 +280,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [NUnit](https://github.com/nunit/nunit) - NUnit is a unit-testing framework for all .NET languages.
   * [Shouldly](https://github.com/shouldly/shouldly) - Should style test assertion library with great error messages.
   * [SpecFlow](https://github.com/techtalk/specflow) - Cucumber clone for .NET for writing acceptance tests in natural language. [Site](http://www.specflow.org/) 
-  * [tickspec](http://tickspec.codeplex.com/) - A lightweight Behaviour Driven Development (BDD) framework.
+  * [tickspec](https://github.com/fsprojects/TickSpec) - A lightweight Behaviour Driven Development (BDD) framework.
   * [TestStack.BDDfy](https://github.com/TestStack/TestStack.BDDfy) - BDDfy is the simplest BDD framework to use, customize and extend!
   * [TestStack.FluentMvcTesting](https://github.com/TestStack/TestStack.FluentMVCTesting) - Simple, terse, fluent unit testing for ASP.NET MVC Controllers.
   * [TestStack.Seleno](https://github.com/TestStack/TestStack.Seleno) - Seleno helps you write automated UI tests in the right way by implementing Page Objects and Page Components and by reading from and writing to web pages using strongly typed view models.
@@ -294,8 +294,8 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [DI Feature Tests](https://github.com/ashmind/net-feature-tests) - Tests that track commmon DI features among multiple containers
   * [dI.Hook](https://github.com/punitganshani/dI.Hook) - DI container that allows invocation using AOP
   * [DryIoc](https://bitbucket.org/dadhi/dryioc) - DryIoc is small, fast, capable IoC Container for .NET
-  * [fFastInjector](https://ffastinjector.codeplex.com/) - fFastInjector is a high-performing dependency injector, service locator, and/or IOC (inversion of control) container.
-  * [Funq](https://funq.codeplex.com/) - A fast DI container you can understand.
+  * [fFastInjector](https://github.com/Grax32/fFastInjector/) - fFastInjector is a high-performing dependency injector, service locator, and/or IOC (inversion of control) container.
+  * [Funq](https://funq.codeplex.com/) - (No Recent Updates - Still on CodePlex - 4/2018) A fast DI container you can understand.
   * [Grace](https://github.com/ipjohnson/Grace) - Grace is a feature rich Dependency Injection container in a portable class library 
   * [Griffin](https://github.com/jgauffin/griffin.container) - Inversion of control container with (almost) zero configuration
   * [HaveBox](https://bitbucket.org/Have/havebox/wiki/Home) - HaveBox is a very fast and lightweight IoC containter. The goal is to keep it fast and light, and at the same time easy to use.
@@ -303,17 +303,17 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [IfInjector](https://github.com/iamahern/IfInjector) - High performance mobile micro-IoC container.
   * [LightCore](https://peterbucher.kilnhg.com/Code/LightCore/Group/Default?nr=) - [A lightweight dependency injection container](http://lightcore.ch/en/default.aspx) that can be used as a service locator and despite its simplicity and ease boasts numerous features.
   * [LightInject](https://github.com/seesharper/LightInject) - A ultra lightweight IoC container
-  * [MicroSliver](https://microsliver.codeplex.com/) - MicroSliver is a micro, non-bloat, non-intimidating and speedy .NET (ASP.NET, Silverlight, RIA Services, WPF, Forms and Metro!) 
-  * [Mugen Injection](http://mugeninjection.codeplex.com/) - The MugeniInjection is a lightweight and fast managed IoC (Inversion of Control) and DI (Dependency Injection) with support for constructor, property and method call injection
+  * [MicroSliver](https://microsliver.codeplex.com/) - (No Recent Updates - Still on CodePlex - 4/2018) MicroSliver is a micro, non-bloat, non-intimidating and speedy .NET (ASP.NET, Silverlight, RIA Services, WPF, Forms and Metro!) 
+  * [Mugen Injection](http://mugeninjection.codeplex.com/) - (No Recent Updates - Still on CodePlex - 4/2018) The MugeniInjection is a lightweight and fast managed IoC (Inversion of Control) and DI (Dependency Injection) with support for constructor, property and method call injection
   * [Ninject for Desktop](https://github.com/ninject/ninject) - Dependency injector for .NET
   * [Ninject for Portable Class Libraries, Universal apps and Xamarin](https://github.com/onovotny/ninject)
   * [QuickInject](https://github.com/isabgol/QuickInject) - QuickInject is a Unity 3.5 based IoC container that aims to give the Unity container a performance advantage in basic scenarios. 
   * [Simple Injector](https://github.com/simpleinjector/SimpleInjector/) - Simple Injector is an easy-to-use Dependency Injection library for .NET 4+ that supports Silverlight 4+, Windows Phone 8, Windows 8 including Universal apps and Mono.
   * [Spring.NET](https://github.com/spring-projects/spring-net) - Spring.NET is an open source application framework that makes building  enterprise .NET applications easier.  
   * [StructureMap](https://github.com/structuremap/structuremap) - StructureMap is a Dependency Injection / Inversion of Control tool for .Net that can be used to improve the architectural qualities of an object oriented system by reducing the mechanical costs of good design techniques.
-  * [StyleMVVM](https://stylemvvm.codeplex.com/) - Style MVVM is a toolkit designed for the Windows Store platform around the idea of being light weight and fast.
+  * [StyleMVVM](https://stylemvvm.codeplex.com/) - No Recent Updates - Still on CodePlex - 4/2018) Style MVVM is a toolkit designed for the Windows Store platform around the idea of being light weight and fast.
   * [TinyIoC](https://github.com/grumpydev/TinyIoC) - An easy to use, hassle free, Inversion of Control Container for small projects, libraries and beginners alike.
-  * [Unity Container](http://unity.codeplex.com/) - The Unity Container (Unity) is a lightweight, extensible dependency injection container with optional support for instance and type interception.
+  * [Unity Container](https://github.com/unitycontainer) - The Unity Container (Unity) is a lightweight, extensible dependency injection container with optional support for instance and type interception.
 
 ## Data Access
   * [Dapper](https://github.com/StackExchange/dapper-dot-net) - Dapper is a single file you can drop in to your project that will extend your IDbConnection interface.
@@ -387,7 +387,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [ASP.NET Core & Mvc/Angular5 Startup Template](https://github.com/aspnetboilerplate/module-zero-core-template) - This is a template to create ASP.NET Core MVC / Angular based startup projects for [ASP.NET Boilerplate](https://github.com/aspnetboilerplate/aspnetboilerplate). This project also supports multi-tenancy.
   * [ASP.NET MVC Boilerplate](https://github.com/ASP-NET-MVC-Boilerplate/Templates) - Professional ASP.NET MVC templates for building secure, fast, robust and adaptable web applications or sites. It provides the minimum amount of code required on top of the default MVC template provided by Microsoft.
  
-This list is just a starting point - also take a look at all the projects on [CodePlex](http://www.codeplex.com/) and on [GitHub Trending C#](https://github.com/trending?l=csharp).
+This list is just a starting point - also take a look at all the projects on [GitHub Trending C#](https://github.com/trending?l=csharp).
 
 [@quozd](http://twitter.com/quozd "@quozd on Twitter") hosts an [Awesome .NET!](https://github.com/quozd/awesome-dotnet) list. Also worth checking out.
 

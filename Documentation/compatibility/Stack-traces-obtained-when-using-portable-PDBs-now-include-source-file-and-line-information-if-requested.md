@@ -10,10 +10,10 @@ Edge
 NotPlanned
 
 ### Change Description
-Stack traces obtained when using portable PDBs will now include source file and line information when requested. In versions prior to 4.7.2 source file and line information would be unavailable when using portable PDBs even if explicitly requested.
+Starting with .NET Framework 4.7.2, stack traces obtained when using portable PDBs include source file and line information when requested. In versions prior to .NET Framework 4.7.2, source file and line information would be unavailable when using portable PDBs even if explicitly requested.
 
-- [x] Quirked // Uses some mechanism to turn the feature on or off, usually using runtime targeting, AppContext or config files. Needs to be turned on automatically for some situations.
-- [ ] Build-time break // Causes a break if attempted to recompile
+- [x] Quirked
+- [ ] Build-time break
 
 ### Recommended Action
 For applications that target the .NET Framework 4.7.2, you can opt out of the source file and line information when using portable PDBs if it is not desirable by adding the following to the `<runtime>` section of your `app.config` file:
@@ -35,8 +35,8 @@ For applications that target earlier versions of the .NET Framework but run on t
 
 ### Affected APIs
 * `M:System.Diagnostics.StrackTrace.#ctor(System.Boolean)`
-* `M:System.Diagnostics.StrackTrace.#ctor(System.Exception, System.Boolean)`
-* `M:System.Diagnostics.StrackTrace.#ctor(System.Exception, System.Int32, System.Boolean)`
+* `M:System.Diagnostics.StrackTrace.#ctor(System.Exception,System.Boolean)`
+* `M:System.Diagnostics.StrackTrace.#ctor(System.Exception,System.Int32,System.Boolean)`
 
 
 ### Category

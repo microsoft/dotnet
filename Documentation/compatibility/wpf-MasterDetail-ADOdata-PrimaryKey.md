@@ -30,9 +30,9 @@ ADO automatically changes the `OrderID` of each of the affected records in the D
 
 - New behavior:  Collection D is unchanged.   Each of its items raises a change notification for the `OrderID` property.  The ListBox continues to use collection D, and displays the details with the new `OrderID`.
 
-WPF achieves the new behavior by creating collection D in a different way:  calling the ADO method
-`DataRowView.CreateChildView` with the `followParent` argument set to `true`.
-(See https://docs.microsoft.com/en-us/dotnet/api/system.data.datarowview.createchildview?view=netframework-4.7.1#System_Data_DataRowView_CreateChildView_System_String_System_Boolean_ .)
+WPF implements the new behavior by creating collection D in a different way:  by calling the ADO method
+<xref:System.Data.DataRowView.CreateChildView(System.Data.DataRelation,System.Boolean)?displayProperty=nameWithType>
+with the `followParent` argument set to `true`.
 
 - [X] Quirked
 - [ ] Build-time break

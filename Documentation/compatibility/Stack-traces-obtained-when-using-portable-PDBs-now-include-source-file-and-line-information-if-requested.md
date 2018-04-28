@@ -34,9 +34,9 @@ For applications that target earlier versions of the .NET Framework but run on t
 
 
 ### Affected APIs
-* `M:System.Diagnostics.StrackTrace.#ctor(System.Boolean)`
-* `M:System.Diagnostics.StrackTrace.#ctor(System.Exception,System.Boolean)`
-* `M:System.Diagnostics.StrackTrace.#ctor(System.Exception,System.Int32,System.Boolean)`
+* `M:System.Diagnostics.StackTrace.#ctor(System.Boolean)`
+* `M:System.Diagnostics.StackTrace.#ctor(System.Exception,System.Boolean)`
+* `M:System.Diagnostics.StackTrace.#ctor(System.Exception,System.Int32,System.Boolean)`
 
 
 ### Category

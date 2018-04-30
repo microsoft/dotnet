@@ -6,7 +6,7 @@ When a XAML Browser Application (XBAP) that targets .NET Framework 3.5 is launch
 
 ## Resolution
 
-A fix will be released shortly for .NET Framework 4.7.2 on Windows 10 Version 1804. .NET Framework 4.7.2 on all other OS platforms already has this fix. 
+A fix will be released shortly for .NET Framework 4.7.2 on Windows 10 Spring Creators Update. .NET Framework 4.7.2 on all other OS platforms already has this fix. 
 
 The fix for this issue must be enabled by customers who have problems running XBAP applications that target .NET Framework 3.5 under CLR v4. The fix can be enabled by setting the following registry keys: 
 

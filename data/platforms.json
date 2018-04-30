@@ -82,6 +82,37 @@
         }
       ]
     },
+    {
+      "platform": ".NET Framework 4.7.2",
+      "alias": "net472",
+      "category": "netfx",
+      "supportInfo": {
+        "support": "Supported",
+        "link": ""
+      },
+      "popular": true,
+      "info": "http://go.microsoft.com/fwlink/?LinkId=863281",
+      "includedIn": [
+        "VS2017"
+      ],
+      "supportedBy": [
+        "VS2015"
+      ],
+      "runtime": [
+        {
+          "name": ".NET Framework 4.7.2",
+          "link": "http://go.microsoft.com/fwlink/?LinkId=863262",
+          "directLink": "http://go.microsoft.com/fwlink/?LinkId=863262&source=getdotnet&desc=dotnet472"
+        }
+      ],
+      "tools": [
+        {
+          "name": ".NET Framework 4.7.2 Developer Pack",
+          "link": "http://go.microsoft.com/fwlink/?LinkId=863261",
+          "description": "The .NET 4.7.2 Developer pack includes 4.7.2 reference assemblies needed by Visual Studio and msbuild."
+        }
+      ]
+    },
      {
       "platform": ".NET Framework 4.7.1",
       "alias": "net471",

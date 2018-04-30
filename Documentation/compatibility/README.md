@@ -4,6 +4,7 @@ The following documents provide information on .NET Framework application compat
 
 Please help us improve the [.NET Framework Application Compatibility documents](https://github.com/Microsoft/dotnet/tree/master/Documentation/compatibility). In particular, better titles will improve the index below, both in content and the sort.
 
+- [.NET Framework 4.7.2](#net-framework-472)
 - [.NET Framework 4.7.1](#net-framework-471)
 - [.NET Framework 4.7](#net-framework-47)
 - [.NET Framework 4.6.2](#net-framework-462)
@@ -13,12 +14,34 @@ Please help us improve the [.NET Framework Application Compatibility documents](
 - [.NET Framework 4.5.1](#net-framework-451)
 - [.NET Framework 4.5](#net-framework-45)
 
+## .NET Framework 4.7.2
+
+- ["dataAnnotations:dataTypeAttribute:disableRegEx" app setting is on by default in .NET Framework 4.7.2](aspnet-472-compat-doc.md)
+- [Accessibility improvements in Windows Forms controls for .NET 4.7.2](winforms-accessibility-changes-472.md)
+- [Allow Unicode Bidirectional Control Characters in URIs](uri-unicode-bidirectional-characters.md)
+- [Allow Unicode in URIs that resemble UNC shares](uri-unc-shares-normalized.md)
+- [Avoiding endless recursion for IWorkflowInstanceManagement.TransactedCancel and IWorkflowInstanceManagement.TransactedTerminate](wcf-avoid-endless-recursion-in-two-iworkflowinstancemanagement-apis.md)
+- [ContextMenuStrip.SourceControl property contains a valid control in the case of nested ToolStripMenuItems](winforms-ContextMenuStrip-SourceControl-property-change.md)
+- [DeflateStream uses native APIs for decompression](deflatestream-uses-native-apis-for-decompression.md)
+- [Ensure System.Uri uses a consistent reserved character set](uri-reserved-characters-consistent.md)
+- [Improved WCF chain trust certificate validation for Net.Tcp certificate authentication](WCF-Improved-WCF-chain-trust-certificate-validation-for-Net.Tcp-certificate-authentication.md)
+- [Keyboard focus now moves correctly across multiple layers of WinForms/WPF hosting ](wpf-KB-focus-now-moves-correctly-across-hosting-scenarios.md)
+- [Keytips behavior improved in WPF](Keytips behavior improved in WPF.md)
+- [PrivateFontCollection.AddFontFile method releases Font resources](winforms-PrivateFontCollection-Font-handle-leak-fix.md)
+- [Stack traces obtained when using portable PDBs now include source file and line information if requested](Stack-traces-obtained-when-using-portable-PDBs-now-include-source-file-and-line-information-if-requested.md)
+- [Support special relative URI notation when Unicode is present](uri-unicode-scheme-only-relative.md)
+- [The default hash algorithm for WPF's Markup Compiler is now SHA256](wpf-MarkupCompiler-default-hash-algorithm-is-now-SHA256.md)
+- [WinForm's Domain upbutton and downbutton actions are in sync now](winform's-DomainUpDownControl-button's-actions-in-sync.md)
+- [WPF Changing a primary key when displaying ADO data in a Master/Detail scenario](wpf-MasterDetail-ADOdata-PrimaryKey.md)
+- [WPF FocusVisual for RadioButton and CheckBox Now Displays Correctly When The Controls Have No Content](wpf-focus-visual-for-radiobutton-and-checkbox-displays-correctly-when-there-is-no-content.md)
+- [WPF TextBox/PasswordBox Text Selection Does Not Follow System Colors](wpf-TextBox-PasswordBox-text-selection-does-not-follow-system-colors.md)
+
 ## .NET Framework 4.7.1
 
 - [Accessibility improvements in Windows Forms controls](winforms-accessibility-changes-471.md)
 - [Accessibility improvements in Windows Workflow Foundation (WF) workflow designer](workflow-designer-accessibility.md)
 - [Accessibility improvements in WPF](wpf-accessibility-improvements.MD)
-- [ASP.NET Accessibility Improvements in .NET 4.7.1](ASPNET-accessibility-improvement.md)
+- [ASP.NET Accessibility Improvements in .NET Framework 4.7.1](ASPNET-accessibility-improvement.md)
 - [Chained Popups with StaysOpen=False ](wpf-chained-popups-with-StaysOpen-false.md)
 - [Default SignedXML and SignedXMS algorithms changed to SHA256](Change-SignedXML-and-SignedCMS-default-algorithms-to-SHA256.md)
 - [Improved accessibility for some .NET SDK tools](WCFSDKToolsAccessibilityChangesIn4.7.1.md)
@@ -116,7 +139,7 @@ Please help us improve the [.NET Framework Application Compatibility documents](
 - [WPF layout rounding of margins has changed](wpf-layout-rounding-of-margins-has-changed.md)
 - [WPF spell checking in text-enabled controls will not work in Windows 10 for languages not in the OS's input language list](wpf-spell-checking-in-text-enabled-controls-will-not-work-in-windows-10-for-languages-not-in-the-input-language-list.md)
 - [WPF windows are rendered without clipping when extending outside a single monitor](wpf-windows-are-rendered-without-clipping-when-extending-outside-a-single-monitor.md)
-- [X509Certificate2.ToString(bool) does not throw now when .NET cannot handle the certificate](x509certificate2_tostring(bool)-does-not-throw-now-when-_net-cannot-handle-the-certificate.md)
+- [X509Certificate2.ToString(Boolean) does not throw now when .NET cannot handle the certificate](x509certificate2_tostring(bool)-does-not-throw-now-when-_net-cannot-handle-the-certificate.md)
 - [XmlWriter throws on invalid surrogate pairs](xmlwriter-throws-on-invalid-surrogate-pairs.md)
 - [XSD Schema validation now correctly detects violations of unique constraints if compound keys are used and one key is empty](xsd-schema-validation-now-correctly-detects-violations-of-unique-constraints-if-compound-keys-are-used-and-one-key-is-empty.md)
 
@@ -132,7 +155,7 @@ Please help us improve the [.NET Framework Application Compatibility documents](
 
 ## .NET Framework 4.5.1
 
-- [A ConcurrentDictionary serialized in .NET 4.5 with NetDataContractSerializer cannot be deserialized by .NET 4.5.1 or 4.5.2](a-concurrentdictionary-serialized-in-_net-4_5-with-netdatacontractserializer-cannot-be-deserialized-by-_net-4_5_1-or-4_5_2.md)
+- [A ConcurrentDictionary serialized in .NET Framework 4.5 with NetDataContractSerializer cannot be deserialized by .NET Framework 4.5.1 or 4.5.2](a-concurrentdictionary-serialized-in-_net-4_5-with-netdatacontractserializer-cannot-be-deserialized-by-_net-4_5_1-or-4_5_2.md)
 - [ADO.NET now attempts to automatically reconnect broken SQL connections](ado_net-now-attempts-to-automatically-reconnect-broken-sql-connections.md)
 - [Building an Entity Framework edmx with Visual Studio 2013 can fail with error MSB4062 if using the EntityDeploySplit or EntityClean tasks](building-an-entity-framework-edmx-with-visual-studio-2013-can-fail-with-error-msb4062-if-using-the-entitydeploysplit-or-entityclean-tasks.md)
 - [COR_PRF_GC_ROOT_HANDLEs are not being enumerated by profilers](cor_prf_gc_root_handles-are-not-being-enumerated-by-profilers.md)
@@ -174,12 +197,12 @@ Please help us improve the [.NET Framework Application Compatibility documents](
 - [Exceptions during unobserved processing in System.Threading.Tasks.Task no longer propagate on finalizer thread](exceptions-during-unobserved-processing-in-system_threading_tasks_task-no-longer-propagate-on-finalizer-thread.md)
 - [FlowDocument may show an extra line of text](flowdocument-may-show-an-extra-line-of-text.md)
 - [Foreach iterator variable is now scoped within the iteration, so closure capturing semantics are different (in C#5)](foreach-iterator-variable-is-now-scoped-within-the-iteration.md)
-- [GlyphRun.ComputeInkBoundingBox() and FormattedText.Extent return different values beginning in .NET 4.5](glyphrun_computeinkboundingbox()-and-formattedtext_extent-return-different-values-beginning-in-_net-4_5.md)
+- [GlyphRun.ComputeInkBoundingBox() and FormattedText.Extent return different values beginning in .NET Framework 4.5](glyphrun_computeinkboundingbox()-and-formattedtext_extent-return-different-values-beginning-in-_net-4_5.md)
 - [GridViews with AllowCustomPaging set to true may fire the PageIndexChanging event when leaving the final page of the view](gridviews-with-allowcustompaging-set-to-true-may-fire-the-pageindexchanging-event-when-leaving-the-final-page-of-the-view.md)
 - [HttpRequest.ContentEncoding property prohibits UTF7](httprequest_contentencoding-property-prohibits-utf7.md)
 - [HttpUtility.JavaScriptStringEncode escapes ampersand](httputility_javascriptstringencode-escapes-ampersand.md)
 - [IAsyncResult.CompletedSynchronously property must be correct for the resulting task to complete](iasyncresult_completedsynchronously-property-must-be-correct-for-the-resulting-task-to-complete.md)
-- [ICommand.CanExecuteChanged event behaviour changed in .NET 4.5](icommand_canexecutechanged-event-behaviour-changed-in-_net-4_5.md)
+- [ICommand.CanExecuteChanged event behaviour changed in .NET Framework 4.5](icommand_canexecutechanged-event-behaviour-changed-in-_net-4_5.md)
 - [Intermittently unable to scroll to bottom item in ItemsControls (like ListBox and DataGrid) when using custom DataTemplates](intermittently-unable-to-scroll-to-bottom-item-in-itemscontrols-when-using-customer-datatemplates.md)
 - [IPad should not be used in custom capabilities file because it is now a browser capability](ipad-should-not-be-used-in-custom-capabilities-file-because-it-is-now-a-browser-capability.md)
 - [Items.Clear does not remove duplicates from SelectedItems](items_clear-does-not-remove-duplicates-from-selecteditems.md)

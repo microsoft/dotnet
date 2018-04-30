@@ -14,7 +14,7 @@ You can learn about the changes made in the .NET Framework 4.7.2.
 - [ASP.NET](dotnet472-changes.md#aspnet)
 - [BCL](dotnet472-changes.md#bcl)
 - [CLR](dotnet472-changes.md#clr)
-- [ClickOnce](dotnet472-changes.md#ClickOnce)
+- [ClickOnce](dotnet472-changes.md#clickonce)
 - [Networking](dotnet472-changes.md#networking)
 - [SQL](dotnet472-changes.md#sql)
 - [WCF](dotnet472-changes.md#wcf)

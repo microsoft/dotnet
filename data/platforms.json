@@ -55,7 +55,7 @@
       "runtime": [
         {
           "name": ".NET Core 2.0",
-          "link": "https://github.com/dotnet/core/blob/master/release-notes/download-archives/2.0.0-download.md"
+          "link": "https://github.com/dotnet/core/blob/master/release-notes/download-archives/2.0.3.md"
         }
       ]
     },    
@@ -74,11 +74,42 @@
       "runtime": [
         {
           "name": ".NET Core 1.0",
-          "link": "https://github.com/dotnet/core/releases/tag/1.0.4"
+          "link": "https://github.com/dotnet/core/releases/tag/1.0.8"
         },
         {
           "name": ".NET Core 1.1",
-          "link": "https://github.com/dotnet/core/releases/tag/1.1.1"
+          "link": "https://github.com/dotnet/core/releases/tag/1.1.5"
+        }
+      ]
+    },
+     {
+      "platform": ".NET Framework 4.7.1",
+      "alias": "net471",
+      "category": "netfx",
+      "supportInfo": {
+        "support": "Supported",
+        "link": ""
+      },
+      "popular": true,
+      "info": "http://go.microsoft.com/fwlink/?LinkId=852091",
+      "includedIn": [
+        "VS2017"
+      ],
+      "supportedBy": [
+        "VS2015"
+      ],
+      "runtime": [
+        {
+          "name": ".NET Framework 4.7.1",
+          "link": "http://go.microsoft.com/fwlink/?LinkId=852095",
+          "directLink": "http://go.microsoft.com/fwlink/?LinkId=852092&source=getdotnet&desc=dotnet471"
+        }
+      ],
+      "tools": [
+        {
+          "name": ".NET Framework 4.7.1 Developer Pack",
+          "link": "http://go.microsoft.com/fwlink/?LinkId=852105",
+          "description": "The .NET 4.7.1 Developer pack includes 4.7.1 reference assemblies needed by Visual Studio and msbuild."
         }
       ]
     },

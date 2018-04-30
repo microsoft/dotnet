@@ -16,7 +16,7 @@ In some cases, when an app uses two or more app domains with different applicati
 - [ ] Build-time break
 
 ### Recommended Action
-See [Mitigation: Deserialization of Objects Across App Domains](https://docs.microsoft.com/en-us/dotnet/articles/framework/migration-guide/mitigation-deserialization-of-objects-across-app-domains)
+See [Mitigation: Deserialization of Objects Across App Domains](~/docs/framework/migration-guide/mitigation-deserialization-of-objects-across-app-domains.md)
 
 ### Affected APIs
 * Not detectable via API analysis

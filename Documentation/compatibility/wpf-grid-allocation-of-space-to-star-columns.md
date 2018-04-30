@@ -24,7 +24,7 @@ a number of cases:
 
 - When layout rounding is enabled, and the effective display DPI is sufficiently high.
 
-In the first two cases, the widths produced by the new algorithm can be significantly different from those produced by the old algorithm; in the last case, the difference will be at most one or two pixels.
+In the first two cases, the widths produced by the new algorithm can be significantly different from those produced by the old algorithm; in the last case, the difference will be at most one or two pixels.<p/>
 
 The new algorithm fixes several bugs present in the old algorithm:
 
@@ -42,17 +42,17 @@ The new algorithm fixes several bugs present in the old algorithm:
 
 7. Adjustments for layout rounding are incorrect at sufficiently high DPI.
 
-The new algorithm produces results that meet the following criteria:
+The new algorithm produces results that meet the following criteria:<p/>
 
-A. The actual width assigned to a *-column is never less than its minimum width nor greater than its maximum width.
+A. The actual width assigned to a *-column is never less than its minimum width nor greater than its maximum width.<br/>
 
-B. Each *-column that is not assigned its minimum or maximum width is assigned a width proportional to its *-weight. To be precise, if two columns are declared with width x* and y* respectively, and if neither column receives its minimum or maximum width, the actual widths v and w assigned to the columns are in the same proportion: v / w == x / y.
+B. Each *-column that is not assigned its minimum or maximum width is assigned a width proportional to its *-weight. To be precise, if two columns are declared with width x* and y* respectively, and if neither column receives its minimum or maximum width, the actual widths v and w assigned to the columns are in the same proportion: v / w == x / y.<br/>
 
-C. The total width allocated to "proportional" *-columns is equal to the space available after allocating to the constrained columns (fixed, auto, and *-columns that are allocated their min or max width). This might be zero, for instance if the sum of the minimum widths exceeds the Grid's availbable width.
+C. The total width allocated to "proportional" *-columns is equal to the space available after allocating to the constrained columns (fixed, auto, and *-columns that are allocated their min or max width). This might be zero, for instance if the sum of the minimum widths exceeds the Grid's availbable width.<br/>
 
-D. All these statements are to be interpreted with respect to the "ideal" layout. When layout rounding is in effect, the actual widths can differ from the ideal widths by as much as one pixel.
+D. All these statements are to be interpreted with respect to the "ideal" layout. When layout rounding is in effect, the actual widths can differ from the ideal widths by as much as one pixel.<br/>
 
-The old algorithm honored (A) but failed to honor the other criteria in the cases outlined above.
+The old algorithm honored (A) but failed to honor the other criteria in the cases outlined above.<p/>
 
 Everything said about columns and widths in this article applies as well to rows and heights.
 
@@ -61,7 +61,7 @@ Everything said about columns and widths in this article applies as well to rows
 
 ### Recommended Action
 
-By default, apps that target versions of the .NET Framework starting with the .NET Framework 4.7 will see the new algorithm, while apps that target the .NET Framework 4.6.2 or earlier versions will see the old algorithm.
+By default, apps that target versions of the .NET Framework starting with the .NET Framework 4.7 will see the new algorithm, while apps that target the .NET Framework 4.6.2 or earlier versions will see the old algorithm.<p/>
 
 To override the default, use the following configuration setting:
 
@@ -71,7 +71,7 @@ To override the default, use the following configuration setting:
 </runtime>
 ```
 
-The value 'true' selects the old algorithm, 'false' selects the new algorithm.
+The value `true` selects the old algorithm, `false` selects the new algorithm.
 
 ### Affected APIs
 * Not detectable via API analysis

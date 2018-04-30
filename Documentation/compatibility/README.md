@@ -4,6 +4,8 @@ The following documents provide information on .NET Framework application compat
 
 Please help us improve the [.NET Framework Application Compatibility documents](https://github.com/Microsoft/dotnet/tree/master/Documentation/compatibility). In particular, better titles will improve the index below, both in content and the sort.
 
+- [.NET Framework 4.7.2](#net-framework-472)
+- [.NET Framework 4.7.1](#net-framework-471)
 - [.NET Framework 4.7](#net-framework-47)
 - [.NET Framework 4.6.2](#net-framework-462)
 - [.NET Framework 4.6.1](#net-framework-461)
@@ -12,11 +14,54 @@ Please help us improve the [.NET Framework Application Compatibility documents](
 - [.NET Framework 4.5.1](#net-framework-451)
 - [.NET Framework 4.5](#net-framework-45)
 
+## .NET Framework 4.7.2
+
+- ["dataAnnotations:dataTypeAttribute:disableRegEx" app setting is on by default in .NET Framework 4.7.2](aspnet-472-compat-doc.md)
+- [Accessibility improvements in Windows Forms controls for .NET 4.7.2](winforms-accessibility-changes-472.md)
+- [Allow Unicode Bidirectional Control Characters in URIs](uri-unicode-bidirectional-characters.md)
+- [Allow Unicode in URIs that resemble UNC shares](uri-unc-shares-normalized.md)
+- [Avoiding endless recursion for IWorkflowInstanceManagement.TransactedCancel and IWorkflowInstanceManagement.TransactedTerminate](wcf-avoid-endless-recursion-in-two-iworkflowinstancemanagement-apis.md)
+- [ContextMenuStrip.SourceControl property contains a valid control in the case of nested ToolStripMenuItems](winforms-ContextMenuStrip-SourceControl-property-change.md)
+- [DeflateStream uses native APIs for decompression](deflatestream-uses-native-apis-for-decompression.md)
+- [Ensure System.Uri uses a consistent reserved character set](uri-reserved-characters-consistent.md)
+- [Improved WCF chain trust certificate validation for Net.Tcp certificate authentication](WCF-Improved-WCF-chain-trust-certificate-validation-for-Net.Tcp-certificate-authentication.md)
+- [Keyboard focus now moves correctly across multiple layers of WinForms/WPF hosting ](wpf-KB-focus-now-moves-correctly-across-hosting-scenarios.md)
+- [Keytips behavior improved in WPF](Keytips behavior improved in WPF.md)
+- [PrivateFontCollection.AddFontFile method releases Font resources](winforms-PrivateFontCollection-Font-handle-leak-fix.md)
+- [Stack traces obtained when using portable PDBs now include source file and line information if requested](Stack-traces-obtained-when-using-portable-PDBs-now-include-source-file-and-line-information-if-requested.md)
+- [Support special relative URI notation when Unicode is present](uri-unicode-scheme-only-relative.md)
+- [The default hash algorithm for WPF's Markup Compiler is now SHA256](wpf-MarkupCompiler-default-hash-algorithm-is-now-SHA256.md)
+- [WinForm's Domain upbutton and downbutton actions are in sync now](winform's-DomainUpDownControl-button's-actions-in-sync.md)
+- [WPF Changing a primary key when displaying ADO data in a Master/Detail scenario](wpf-MasterDetail-ADOdata-PrimaryKey.md)
+- [WPF FocusVisual for RadioButton and CheckBox Now Displays Correctly When The Controls Have No Content](wpf-focus-visual-for-radiobutton-and-checkbox-displays-correctly-when-there-is-no-content.md)
+- [WPF TextBox/PasswordBox Text Selection Does Not Follow System Colors](wpf-TextBox-PasswordBox-text-selection-does-not-follow-system-colors.md)
+
+## .NET Framework 4.7.1
+
+- [Accessibility improvements in Windows Forms controls](winforms-accessibility-changes-471.md)
+- [Accessibility improvements in Windows Workflow Foundation (WF) workflow designer](workflow-designer-accessibility.md)
+- [Accessibility improvements in WPF](wpf-accessibility-improvements.MD)
+- [ASP.NET Accessibility Improvements in .NET Framework 4.7.1](ASPNET-accessibility-improvement.md)
+- [Chained Popups with StaysOpen=False ](wpf-chained-popups-with-StaysOpen-false.md)
+- [Default SignedXML and SignedXMS algorithms changed to SHA256](Change-SignedXML-and-SignedCMS-default-algorithms-to-SHA256.md)
+- [Improved accessibility for some .NET SDK tools](WCFSDKToolsAccessibilityChangesIn4.7.1.md)
+- [Selector SelectionChanged event and SelectedValue property](wpf-selector-selectionchanged-and-selectedvalue.md)
+- [SerialPort background thread exceptions](SerialPort-background-thread-exceptions.md)
+- [ServiceBase doesn't propagate OnStart exceptions](ServiceBase-doesnt-propagate-OnStart-exceptions.md)
+- [TabControl SelectionChanged event and SelectedContent property](wpf-tabcontrol-selectionchanged-and-selectedcontent.md)
+- [The default hash algorithm for WPF PackageDigitalSignatureManager is now SHA256](wpf-PackageDigitalSignatureManager.DefaultHashAlgorithm-is-now-SHA256.md)
+- [WCF AddressHeaderCollection now throws an ArgumentException if an addressHeader element is null](WCF-AddressHeaderCollection-now-throws-an-ArgumentException-if-an-addressHeader-element-is-null.md)
+- [WCF MsmqSecureHashAlgorithm default value is now SHA256](WCF-MsmqSecureHashAlgorithm-default-value-is-now-SHA256.md)
+- [WCF PipeConnection.GetHashAlgorithm now uses SHA256](WCF-PipeConnection.GetHashAlgorithm-now-uses-SHA256.md)
+
 ## .NET Framework 4.7
 
+- [Crash in Selector when removing an item from a custom INCC collection](wpf-selector-crash-when-removing-item-from-custom-collection.md)
 - [CspParameters.ParentWindowHandle now expects HWND value](cspparameters_parentwindowhandle-now-expects-hwnd-value.md)
 - [Default value of ServicePointManager.SecurityProtocol is SecurityProtocolType.System.Default](servicepointmanager.securityprotocol-defaults-to-securityprotocoltype.systemdefault.md)
+- [Incorrect code generation when passing and comparing UInt16 values](incorrect-code-generation-when-passing-and-comparing-uint16-values.md)
 - [NullReferenceException in exception handling code from ImageSourceConverter.ConvertFrom](wpf-nullreferenceexception-in-exception-handling-code-from-imagesourceconverter_convertfrom.md)
+- [Resizing a Grid can hang](wpf-hang-when-resizing-a-grid.md)
 - [Serialization of control characters with DataContractJsonSerializer is now compatible with ECMAScript V6 and V8](serialization-of-control-characters-with-datacontractjsonserializer-is-now-compatible-with-ecmascript-v6-and-v8.md)
 - [SslStream supports TLS Alerts](sslstream-support-for-tls-alerts.md)
 - [Throttle concurrent requests per session](throttle-concurrent-requests-per-session.md)
@@ -30,7 +75,7 @@ Please help us improve the [.NET Framework Application Compatibility documents](
 
 ## .NET Framework 4.6.2
 
-- [AesCrytpServiceProvider decryptor provides a reusable transform](aescryptoserviceprovider-decryptor-provides-a-reusable-transform.md)
+- [AesCryptoServiceProvider decryptor provides a reusable transform](aescryptoserviceprovider-decryptor-provides-a-reusable-transform.md)
 - [Calls to ClaimsIdentity constructors](calls-to-claimsidentity-constructors.md)
 - [Changes in path normalization](changes-in-path-normalization.md)
 - [Changing the IsEnabled property of the parent of a TextBlock control affects any child controls](changing-the-isenabled-property-of-the-parent-of-a-textblock-control-affects-any-child-controls.md)
@@ -45,9 +90,11 @@ Please help us improve the [.NET Framework Application Compatibility documents](
 - [Path colon checks are stricter](path-colon-checks-are-stricter.md)
 - [Remove Ssl3 from the WCF TransportDefaults](remove-ssl3-from-the-wcf-transportdefaults.md)
 - [RibbonGroup background is set to transparent in localized builds](ribbongroup-background-is-set-to-transparent-in-localized-builds.md)
+- [RSACng and DSACng are once again usable in Partial Trust scenarios](RSACng-and-DSACng-not-usable-in-Partial-Trust-scenarios.md)
 - [RSACng now correctly loads RSA keys of non-standard key size](rsacng-now-correctly-loads-rsa-keys-of-non-standard-keysize.md)
 - [RSACng.VerifyHash now returns False for any verification failure](rsacng_verifyhash-now-returns-false-for-any-verification-failure.md)
 - [SignedXml and EncryptedXml Breaking Changes](xml-documents-are-now-consider-invalid-if-they-contains-transforms-that-are-not-allowed-on-digital-signatures.md)
+- [SignedXml.GetPublicKey returns RSACng on net462 (or lightup) without retargeting change](SignedXml.GetPublicKey-returns-RSACng-on-net462.md)
 - [Unicode standard version 8.0 categories now supported](unicode-data-now-support-standard-v8_0-categories.md)
 - [WCF transport security supports certificates stored using CNG](wcf-transport-security-supports-certificates-stored-using-cng.md)
 
@@ -69,6 +116,7 @@ Please help us improve the [.NET Framework Application Compatibility documents](
 - [Attempting a TCP/IP connection to a SQL Server database that resolves to `localhost` fails](sql-server-database-connection-that-resolves-to-localhost.md)
 - [Calling Attribute.GetCustomAttributes on an indexer property no longer throws AmbiguousMatchException if the ambiguity can be resolved by index's type](calling-attribute_getcustomattributes-on-an-indexer-property-no-longer-throws-ambiguousmatchexception.md)
 - [Calling CreateDefaultAuthorizationContext with a null argument has changed](calling-createdefaultauthorizationcontext-with-a-null-argument-has-changed.md)
+- [Certificate EKU OID validation](certificate-eku-oid-validation.md)
 - [ClickOnce supports SHA-256 on 4.0-targeted apps](clickonce-supports-sha-256-on-4_0-targeted-apps.md)
 - [CoerceIsSelectionBoxHighlighted](coerceisselectionboxhighlighted.md)
 - [ContentDisposition DateTimes returns slightly different string](contentdisposition-datetimes-returns-slightly-different-string.md)
@@ -86,11 +134,12 @@ Please help us improve the [.NET Framework Application Compatibility documents](
 - [Reflection objects can no longer be passed from managed code to out-of-process DCOM clients](reflection-objects-can-no-longer-be-passed-from-managed-code-to-out-of-process-dcom-clients.md)
 - [TargetFrameworkName for default app domain no longer defaults to null if not set](targetframeworkname-for-default-app-domain-no-longer-defaults-to-null-if-not-set.md)
 - [The .NET Framework 4.6 does not use a 4.5.x.x version when registering itself in the registry](the-_net-framework-4_6-does-not-use-a-4_5_x_x-version-when-registering-itself-in-the-registry.md)
-- [WCF services that use NETTCP with SSL sercurity and MD5 certificate authentication](wcf-services-using-nettcp-with-ssl-security-and-md5-certificate-authentication.md)
+- [TLS 1.x by default passes the SCH_SEND_AUX_RECORD flag to the underlying SCHANNEL API](tls-1-x-by-default-passes-sch-send-aux-record-flag-to-the-underlying-schannel-api.md)
+- [WCF services that use NETTCP with SSL security and MD5 certificate authentication](wcf-services-using-nettcp-with-ssl-security-and-md5-certificate-authentication.md)
 - [WPF layout rounding of margins has changed](wpf-layout-rounding-of-margins-has-changed.md)
 - [WPF spell checking in text-enabled controls will not work in Windows 10 for languages not in the OS's input language list](wpf-spell-checking-in-text-enabled-controls-will-not-work-in-windows-10-for-languages-not-in-the-input-language-list.md)
 - [WPF windows are rendered without clipping when extending outside a single monitor](wpf-windows-are-rendered-without-clipping-when-extending-outside-a-single-monitor.md)
-- [X509Certificate2.ToString(bool) does not throw now when .NET cannot handle the certificate](x509certificate2_tostring(bool)-does-not-throw-now-when-_net-cannot-handle-the-certificate.md)
+- [X509Certificate2.ToString(Boolean) does not throw now when .NET cannot handle the certificate](x509certificate2_tostring(bool)-does-not-throw-now-when-_net-cannot-handle-the-certificate.md)
 - [XmlWriter throws on invalid surrogate pairs](xmlwriter-throws-on-invalid-surrogate-pairs.md)
 - [XSD Schema validation now correctly detects violations of unique constraints if compound keys are used and one key is empty](xsd-schema-validation-now-correctly-detects-violations-of-unique-constraints-if-compound-keys-are-used-and-one-key-is-empty.md)
 
@@ -106,7 +155,7 @@ Please help us improve the [.NET Framework Application Compatibility documents](
 
 ## .NET Framework 4.5.1
 
-- [A ConcurrentDictionary serialized in .NET 4.5 with NetDataContractSerializer cannot be deserialized by .NET 4.5.1 or 4.5.2](a-concurrentdictionary-serialized-in-_net-4_5-with-netdatacontractserializer-cannot-be-deserialized-by-_net-4_5_1-or-4_5_2.md)
+- [A ConcurrentDictionary serialized in .NET Framework 4.5 with NetDataContractSerializer cannot be deserialized by .NET Framework 4.5.1 or 4.5.2](a-concurrentdictionary-serialized-in-_net-4_5-with-netdatacontractserializer-cannot-be-deserialized-by-_net-4_5_1-or-4_5_2.md)
 - [ADO.NET now attempts to automatically reconnect broken SQL connections](ado_net-now-attempts-to-automatically-reconnect-broken-sql-connections.md)
 - [Building an Entity Framework edmx with Visual Studio 2013 can fail with error MSB4062 if using the EntityDeploySplit or EntityClean tasks](building-an-entity-framework-edmx-with-visual-studio-2013-can-fail-with-error-msb4062-if-using-the-entitydeploysplit-or-entityclean-tasks.md)
 - [COR_PRF_GC_ROOT_HANDLEs are not being enumerated by profilers](cor_prf_gc_root_handles-are-not-being-enumerated-by-profilers.md)
@@ -136,6 +185,8 @@ Please help us improve the [.NET Framework Application Compatibility documents](
 - [Change in behavior in Data Definition Language (DDL) APIs](change-in-behavior-in-data-definition-language-(ddl)-apis.md)
 - [Compiler support for type forwarding when multi-targeting mscorlib](compiler-support-for-type-forwarding-when-multi-targeting-mscorlib.md)
 - [ConcurrentQueue&lt;T&gt;.TryPeek can return an erroneous null via its out parameter](concurrentqueue_trypeek-can-return-an-erroneous-null-via-its-out-parameter.md)
+- [Data written to PrintSystemJobInfo.JobStream must be in XPS format](data-written-to-printsystemjobinfo-jobstream-must-be-in-xps-format.md)
+- [Deserialization of MailMessage objects serialized under the .NET Framework 4.5 may fail](serialization-deserialization-of-mailmessage-objects.md)
 - [Different exception handling for ObjectContext.CreateDatabase and DbProviderServices.CreateDatabase methods](different-exception-handling-for-objectcontext_createdatabase-and-dbproviderservices_createdatabase-methods.md)
 - [EncoderParameter ctor is obsolete](encoderparameter-ctor-is-obsolete.md)
 - [Entity Framework version must match the .NET Framework version](ef-version-must-match-netfx-version.md)
@@ -146,12 +197,12 @@ Please help us improve the [.NET Framework Application Compatibility documents](
 - [Exceptions during unobserved processing in System.Threading.Tasks.Task no longer propagate on finalizer thread](exceptions-during-unobserved-processing-in-system_threading_tasks_task-no-longer-propagate-on-finalizer-thread.md)
 - [FlowDocument may show an extra line of text](flowdocument-may-show-an-extra-line-of-text.md)
 - [Foreach iterator variable is now scoped within the iteration, so closure capturing semantics are different (in C#5)](foreach-iterator-variable-is-now-scoped-within-the-iteration.md)
-- [GlyphRun.ComputeInkBoundingBox() and FormattedText.Extent return different values beginning in .NET 4.5](glyphrun_computeinkboundingbox()-and-formattedtext_extent-return-different-values-beginning-in-_net-4_5.md)
+- [GlyphRun.ComputeInkBoundingBox() and FormattedText.Extent return different values beginning in .NET Framework 4.5](glyphrun_computeinkboundingbox()-and-formattedtext_extent-return-different-values-beginning-in-_net-4_5.md)
 - [GridViews with AllowCustomPaging set to true may fire the PageIndexChanging event when leaving the final page of the view](gridviews-with-allowcustompaging-set-to-true-may-fire-the-pageindexchanging-event-when-leaving-the-final-page-of-the-view.md)
 - [HttpRequest.ContentEncoding property prohibits UTF7](httprequest_contentencoding-property-prohibits-utf7.md)
 - [HttpUtility.JavaScriptStringEncode escapes ampersand](httputility_javascriptstringencode-escapes-ampersand.md)
 - [IAsyncResult.CompletedSynchronously property must be correct for the resulting task to complete](iasyncresult_completedsynchronously-property-must-be-correct-for-the-resulting-task-to-complete.md)
-- [ICommand.CanExecuteChanged event behaviour changed in .NET 4.5](icommand_canexecutechanged-event-behaviour-changed-in-_net-4_5.md)
+- [ICommand.CanExecuteChanged event behaviour changed in .NET Framework 4.5](icommand_canexecutechanged-event-behaviour-changed-in-_net-4_5.md)
 - [Intermittently unable to scroll to bottom item in ItemsControls (like ListBox and DataGrid) when using custom DataTemplates](intermittently-unable-to-scroll-to-bottom-item-in-itemscontrols-when-using-customer-datatemplates.md)
 - [IPad should not be used in custom capabilities file because it is now a browser capability](ipad-should-not-be-used-in-custom-capabilities-file-because-it-is-now-a-browser-capability.md)
 - [Items.Clear does not remove duplicates from SelectedItems](items_clear-does-not-remove-duplicates-from-selecteditems.md)

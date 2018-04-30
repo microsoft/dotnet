@@ -25,6 +25,6 @@ In the .NET Framework 4.7, support for TLS1.1 and TLS1.2 in WCF message security
    ```   
 
 ### Category
-* Windows Communication Foundation (WCF)
+Windows Communication Foundation (WCF)
 
 <!-- breaking change id: 167 -->

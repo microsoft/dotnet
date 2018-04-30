@@ -22,9 +22,17 @@ By default, this new layout is enabled only for apps that target the .NET Framew
 - [ ] Build-time break
 
 ### Recommended Action
-Since this modification tends to eliminate clipping of the right or bottom of WPF controls at high DPIs, apps that target earlier versions of the .NET Framework but are running on the .NET Framework 4.6 can opt into this new behavior by adding the following line to the `<runtime>` section of the app.config file: `<AppContextSwitchOverrides value="Switch.MS.Internal.DoNotApplyLayoutRoundingToMarginsAndBorderThickness=false" />`
+Since this modification tends to eliminate clipping of the right or bottom of WPF controls at high DPIs, apps that target earlier versions of the .NET Framework but are running on the .NET Framework 4.6 can opt into this new behavior by adding the following line to the `<runtime>` section of the app.config file: 
 
-Apps that target the .NET Framework 4.6 but want WPF controls to render using the previous layout algorithm can do so by adding the following line to the `<runtime>` section of the app.config file: `<AppContextSwitchOverrides value="Switch.MS.Internal.DoNotApplyLayoutRoundingToMarginsAndBorderThickness=true" />`.
+```xml
+<AppContextSwitchOverrides value="Switch.MS.Internal.DoNotApplyLayoutRoundingToMarginsAndBorderThickness=false" />`
+```
+
+Apps that target the .NET Framework 4.6 but want WPF controls to render using the previous layout algorithm can do so by adding the following line to the `<runtime>` section of the app.config file: 
+
+```xml
+<AppContextSwitchOverrides value="Switch.MS.Internal.DoNotApplyLayoutRoundingToMarginsAndBorderThickness=true" />`.
+```
 
 ### Affected APIs
 * Not detectable via API analysis
@@ -32,6 +40,6 @@ Apps that target the .NET Framework 4.6 but want WPF controls to render using th
 ### Category
 Windows Presentation Foundation (WPF)
 
-[More information](https://docs.microsoft.com/en-us/dotnet/articles/framework/migration-guide/mitigation-wpf-layout)
+[More information](~/docs/framework/migration-guide/mitigation-wpf-layout.md)
 
 <!-- breaking change id: 139 -->

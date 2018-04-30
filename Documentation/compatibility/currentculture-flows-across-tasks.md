@@ -39,13 +39,13 @@ as the first operation in an async Task. Alternatively, the old behavior (of not
 flowing <xref:System.Globalization.CultureInfo.CurrentCulture?displayProperty=name>/<xref:System.Globalization.CultureInfo.CurrentUICulture?displayProperty=name>)
 may be opted into by setting the following compatibility switch:
 
-```C#
+```csharp
 AppContext.SetSwitch("Switch.System.Globalization.NoAsyncCurrentCulture", true);
 ```
 
 This issue has been fixed by WPF in .NET Framework 4.6.2. It has also been fixed
-in .NET Frameworks 4.6, 4.6.1 through [KB 3139549](https://support.microsoft.com/en-us/kb/3139549).
-Applications targeting .NET 4.6 or later will automatically get the right
+in .NET Frameworks 4.6, 4.6.1 through [KB 3139549](https://support.microsoft.com/kb/3139549).
+Applications targeting .NET Framework 4.6 or later will automatically get the right
 behavior in WPF applications -
 <xref:System.Globalization.CultureInfo.CurrentCulture?displayProperty=name>/<xref:System.Globalization.CultureInfo.CurrentUICulture?displayProperty=name>)
 would be preserved across Dispatcher operations.
@@ -59,6 +59,6 @@ would be preserved across Dispatcher operations.
 ### Category
 Core
 
-[More information](https://docs.microsoft.com/en-us/dotnet/api/system.globalization.cultureinfo#Async)
+[More information](https://docs.microsoft.com/dotnet/api/system.globalization.cultureinfo#Async)
 
 <!-- breaking change id: 146 -->

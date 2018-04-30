@@ -20,7 +20,7 @@ and its data source can result in a <xref:System.NullReferenceException?displayP
 - [ ] Build-time break
 
 ### Recommended Action
-If possible, please upgrade to .NET 4.6.2.
+If possible, upgrade to .NET Framework 4.6.2.
 
 ### Affected APIs
 * `P:System.Windows.Controls.ComboBox.IsSelectionBoxHighlighted`

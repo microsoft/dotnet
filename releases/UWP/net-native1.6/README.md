@@ -4,20 +4,19 @@ You can see what was included in each .NET Native 1.6 ([Microsoft.NETCore.Univer
 
 When using Visual Studio these packages require Visual Studio 2017 or later.
 
-### 5.3.4 (August 4, 2017)
+### 5.3.5 (January 9th, 2018)
+- Fixed CVE-2018-0786: Security Feature Bypass in X509 Certificate Validation: https://github.com/Microsoft/dotnet/issues/597
 
+### 5.3.4 (August 4, 2017)
 - Corrected an issue where System.Threading.Thread.MemoryBarrier was implemented as no-op on x86 release builds.
 
 ### 5.3.3 (April 24, 2017)
-
 - Corrected an [issue](http://stackoverflow.com/questions/43530071/how-to-fix-app-submission-error-of-1300) for projects that have Visual Studio configuration values that are not "DEBUG" or "RELEASE" that causes Windows Store submission failure (error code 1300). For example, most Unity apps use a configuration named "Master". 
 
 ### 5.3.2 (April 6, 2017)
-
 - Fixed an issue that caused MAKEPRI build warnings to be emitted when building app packages for UWP projects.
 
 ### 5.3.1 (March 7, 2017)
-
 - Fixed an [issue](https://github.com/dotnet/corefx/issues/10374) that caused DataContractJsonSerializer to fail to serialize any [DataContract] type whose default constructor is not public.
 - Fixed a regression in 5.3.0 where [4 Libraries were accidently no longer referenced by default](https://github.com/dotnet/corefx/issues/10338)
     - System.Collections.NonGeneric

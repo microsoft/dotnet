@@ -11,9 +11,9 @@ Available
 
 ### Change Description
 
-URI parsing has changed in several ways in .NET 4.5. Note, however, that these
-changes only affect code targeting .NET 4.5. If a binary targets .NET 4.0, the
-old behavior will be observed. Changes to URI parsing in .NET 4.5 include:
+URI parsing has changed in several ways in .NET Framework 4.5. Note, however, that these
+changes only affect code targeting .NET Framework 4.5. If a binary targets .NET Framework 4.0, the
+old behavior will be observed. Changes to URI parsing in .NET Framework 4.5 include:
 
 - URI parsing will perform normalization and character checking according to the latest IRI rules in RFC 3987.
 - Unicode normalization form C will only be performed on the host portion of the URI.
@@ -28,8 +28,8 @@ old behavior will be observed. Changes to URI parsing in .NET 4.5 include:
 
 ### Recommended Action
 
-If the old .NET 4.0 URI parsing semantics are necessary (they often aren't),
-they can be used by targeting .NET 4.0. This can be accomplished by using a
+If the old .NET Framework 4.0 URI parsing semantics are necessary (they often aren't),
+they can be used by targeting .NET Framework 4.0. This can be accomplished by using a
 <xref:System.Runtime.Versioning.TargetFrameworkAttribute?displayProperty=name>
 on the assembly, or through Visual Studio's project system UI in the 'project
 properties' page.

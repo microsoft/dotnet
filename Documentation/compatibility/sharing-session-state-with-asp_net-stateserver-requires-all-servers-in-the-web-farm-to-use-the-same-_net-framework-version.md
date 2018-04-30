@@ -34,7 +34,7 @@ ASP.NET
 
 <!--
     ### Notes
-    Source analysis will be more useful than binary here; we'll want to look in the web.config for StateServer usage (https://msdn.microsoft.com/en-us/subscriptions/downloads/h6bb9cz9(v=vs.71).aspx)
+    Source analysis will be more useful than binary here; we'll want to look in the web.config for StateServer usage (https://msdn.microsoft.com/subscriptions/downloads/h6bb9cz9(v=vs.71).aspx)
 -->
 
 <!-- breaking change id: 128 -->

@@ -20,7 +20,7 @@ which called
 or <xref:System.Windows.Forms.Application.RemoveMessageFilter(System.Windows.Forms.IMessageFilter)?displayProperty=name>
 (while also calling
 <xref:System.Windows.Forms.Application.DoEvents>)
-would cause an <xref:System.IndexOutOfRangeException?displayProperty=name>.
+would cause an <xref:System.IndexOutOfRangeException?displayProperty=name>.<p/>
 
 Beginning with applications targeting the .NET Framework 4.6.1, this exception is no longer thrown, and re-entrant filters as described above may be used.
 
@@ -38,7 +38,7 @@ Framework 4.6.1.
 
 Apps targeting the .NET Framework 4.6.1 can opt out of this change (or apps
 targeting older Frameworks may opt in) by using the
-[DontSupportReentrantFilterMessage](https://docs.microsoft.com/en-us/dotnet/articles/framework/migration-guide/mitigation-custom-imessagefilter-prefiltermessage-implementations#mitigation)
+[DontSupportReentrantFilterMessage](~/docs/framework/migration-guide/mitigation-custom-imessagefilter-prefiltermessage-implementations.md#mitigation)
 compatibility switch.
 
 ### Affected APIs

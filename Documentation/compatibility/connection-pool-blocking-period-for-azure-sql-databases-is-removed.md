@@ -11,20 +11,20 @@ Investigating
 
 ### Change Description
 Starting with the .NET Framework 4.6.2, for connection open requests to known
-Azure SQL databases (*.database.windows.net, *.database.chinacloudapi.cn,
-*.database.usgovcloudapi.net, *.database.cloudapi.de), the connection pool
+Azure SQL databases (\*.database.windows.net, \*.database.chinacloudapi.cn,
+\*.database.usgovcloudapi.net, \*.database.cloudapi.de), the connection pool
 blocking period is removed, and connection open errors are not cached. Attempts
 to retry connection open requests will occur almost immediately after transient
 connection errors. This change allows the connection open attempt to be retried
 immediately for Azure SQL databases, thereby improving the performance of cloud-
 enabled apps. For all other connection attempts, the connection pool blocking
-period continues to be enforced.
+period continues to be enforced.<p/>
 
 In the .NET Framework 4.6.1 and earlier versions, when an app encounters a
 transient connection failure when connecting to a database, the connection
 attempt cannot be retried quickly, because the connection pool caches the error
 and re-throws it for 5 seconds to 1 minute. For more information, see
-[SQL Server Connection Pooling (ADO.NET)](https://docs.microsoft.com/en-us/dotnet/articles/framework/data/adonet/sql-server-connection-pooling).
+[SQL Server Connection Pooling (ADO.NET)](~/docs/framework/data/adonet/sql-server-connection-pooling.md).
 This behavior is problematic for connections to Azure SQL databases, which often
 fail with transient errors that are typically recovered from within a few
 seconds. The connection pool blocking feature means that the app cannot connect

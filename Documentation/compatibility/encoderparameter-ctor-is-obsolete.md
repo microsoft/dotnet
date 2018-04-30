@@ -21,7 +21,7 @@ Although the
 <xref:System.Drawing.Imaging.EncoderParameter.#ctor(System.Drawing.Imaging.Encoder,System.Int32,System.Int32,System.Int32,System.Int32)>
 
 constructor will continue to work, the following constructor should be used
-instead to avoid the obsolete build warning when re-compiling code with .NET 4.5
+instead to avoid the obsolete build warning when re-compiling code with .NET Framework  4.5
 tools:
 <xref:System.Drawing.Imaging.EncoderParameter.#ctor(System.Drawing.Imaging.Encoder,System.Int32,System.Drawing.Imaging.EncoderParameterValueType,System.IntPtr)>.
 

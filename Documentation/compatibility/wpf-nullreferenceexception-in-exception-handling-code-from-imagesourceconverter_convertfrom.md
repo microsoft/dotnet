@@ -14,17 +14,15 @@ NotPlanned
 An error in the exception handling code for
 <xref:System.Windows.Media.ImageSourceConverter.ConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object)>
 caused an incorrect <xref:System.NullReferenceException?displayProperty=name> to
-be thrown instead of the intended exception (e.g.
-<xref:System.IO.DirectoryNotFoundException?displayProperty=name>,
-<xref:System.IO.FileNotFoundException?displayProperty=name>), this change
-corrects that error so that the method now throws the right exception.
+be thrown instead of the intended exception (
+<xref:System.IO.DirectoryNotFoundException?displayProperty=name> or 
+<xref:System.IO.FileNotFoundException?displayProperty=name>). This change
+corrects that error so that the method now throws the right exception. <p/>
 
-By default all applications targeting .NET Framework 4.6.2 and below will
-continue to throw <xref:System.NullReferenceException?displayProperty=name> for
-compatibility, developers targeting .NET Framework 4.7 and above should see the
+By default all applications targeting .NET Framework 4.6.2 and earlier continue to throw <xref:System.NullReferenceException?displayProperty=name> for
+compatibility. Developers targeting .NET Framework 4.7 and above should see the
 right exceptions.
 
-// Replace the space with an 'x' if applicable
 - [x] Quirked
 - [ ] Build-time break
 
@@ -32,7 +30,7 @@ right exceptions.
 
 Developers who wish to revert to getting
 <xref:System.NullReferenceException?displayProperty=name> when targeting .NET
-Framework 4.7 can add/merge the following to their application's App.config
+Framework 4.7 or later can add/merge the following to their application's App.config
 file:
 
 ```xml

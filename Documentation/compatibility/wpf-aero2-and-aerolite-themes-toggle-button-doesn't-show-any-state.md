@@ -19,7 +19,7 @@ In the .NET Framework 4.5, WPF's Aero2 and AeroLite themes do not show a differe
 - [ ] Build-time break
 
 ### Recommended Action
-This issue was fixed in a servicing update. Please update the .NET Framework 4.5, or upgrade to .NET Framework 4.5.1 or later, to fix this issue. Alternatively, toggle buttons may be explicitly styled to work around this issue.
+This issue was fixed in a servicing update. Update the .NET Framework 4.5, or upgrade to .NET Framework 4.5.1 or later, to fix this issue. Alternatively, toggle buttons may be explicitly styled to work around this issue.
 
 ### Affected APIs
 * T:System.Windows.Controls.Primitives.ToggleButton

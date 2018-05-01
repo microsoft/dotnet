@@ -26,7 +26,7 @@ Please help us improve the [.NET Framework Application Compatibility documents](
 - [Ensure System.Uri uses a consistent reserved character set](uri-reserved-characters-consistent.md)
 - [Improved WCF chain trust certificate validation for Net.Tcp certificate authentication](WCF-Improved-WCF-chain-trust-certificate-validation-for-Net.Tcp-certificate-authentication.md)
 - [Keyboard focus now moves correctly across multiple layers of WinForms/WPF hosting ](wpf-KB-focus-now-moves-correctly-across-hosting-scenarios.md)
-- [Keytips behavior improved in WPF](Keytips behavior improved in WPF.md)
+- [Keytips behavior improved in WPF](keytips-behavior-improved-in-wpf.md)
 - [PrivateFontCollection.AddFontFile method releases Font resources](winforms-PrivateFontCollection-Font-handle-leak-fix.md)
 - [Stack traces obtained when using portable PDBs now include source file and line information if requested](Stack-traces-obtained-when-using-portable-PDBs-now-include-source-file-and-line-information-if-requested.md)
 - [Support special relative URI notation when Unicode is present](uri-unicode-scheme-only-relative.md)

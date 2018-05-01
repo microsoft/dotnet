@@ -122,7 +122,7 @@
 * This prevents connection hang that happens when users try to connect to mirrored SQL Server with timeout set to 0.  [498136, System.Data.dll, Bug]
 * This change adds a try-finally wrapper around AbortTransaction() calls in SqlBulkCopy. WriteRowSourceToServerAsync(). The finally block ensures a lock is properly released in case AbortTransaction throws an exception due to a closed underlying connection. Not releasing the lock can lead to hangs later on in SqlConnection.Dispose() and Close(). [499706, System.Data.dll, Bug]
 * Fixed failure to get return value from stored procedure in SQL Server when the return value type is VARCHAR(8000) and output string has length longer than 3,999. [504075, System.Data.dll, Bug]
-* Fixed error connecting to read only secondary via routing table when connecting using the AOAG listener and specifying Column Encryption Setting=Enabled and ApplicaationIntent=Readonly. [510851, System.Data.dll, Bug]
+* Fixed error connecting to read only secondary via routing table when connecting using the AOAG listener and specifying Column Encryption Setting=Enabled and ApplicationIntent=Readonly. [510851, System.Data.dll, Bug]
 * Integrating Azure AD Universal and Multi-factor authentication (MFA) support with SQL .NET driver. [521874, System.Data.dll, Feature]
 * Signature verification results are now cached improving query execution times for enclave-based queries. [552762, System.Data.dll, Feature]
 

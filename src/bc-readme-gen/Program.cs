@@ -27,7 +27,7 @@ namespace bc_readme_gen
 
             foreach(var changeFile in bcdir.GetFiles("*.md"))
             {
-                if (changeFile.Name == "! Template.md" || changeFile.Name == "README.md")
+                if (changeFile.Name == "! Template.md" || changeFile.Name == "README.md" || changeFile.Name == "!categories.md")
                 {
                     continue;
                 }

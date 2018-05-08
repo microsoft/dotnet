@@ -6,11 +6,15 @@ You can learn about Microsoft.NETCore.UniversalWindowsPlatform [releases](#relea
 
 You can see what was included in each .NET Native (Microsoft.NETCore.UniversalWindowsPlatform) release.
 
-- .NET Native 2.1 (UWP 6.1.x) is coming in early May 2018! Preview bits are available on [Nuget](https://www.nuget.org/packages/Microsoft.NETCore.UniversalWindowsPlatform) or [Visual Studio Update 15.7 Preview 5](https://docs.microsoft.com/en-us/visualstudio/releasenotes/vs2017-preview-relnotes#15.7_Preview5)
+- [.NET Native 2.1 (UWP 6.1.x)](net-native2.1/README.md)
 - [.NET Native 2.0 (UWP 6.0.x)](net-native2.0/README.md)
 - [.NET Native 1.7 (UWP 5.4.x)](net-native1.7/README.md)
 - [.NET Native 1.6 (UWP 5.3.x)](net-native1.6/README.md)
 - [.NET Native 1.4 (UWP 5.2.x)](net-native1.4/README.md)
+
+## Preview Notes
+
+- [.NET Native 2.2 (UWP 6.2.x)](net-native2.2/README.md)
 
 ## Resources
 

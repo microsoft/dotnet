@@ -4,7 +4,7 @@ You can see what was included in each .NET Native 2.1 ([Microsoft.NETCore.Univer
 
 When using Visual Studio these packages require Visual Studio 2017 Version 15.7 or later.
 
-### UWP 6.1.2 (.NET native tools 2.1.3) (May 7th, 2018)
+### UWP 6.1.4 (.NET native tools 2.1.8) (May 7th, 2018)
 - Adds support for [Optional packages with executable code](https://docs.microsoft.com/en-us/windows/uwp/packaging/optional-packages-with-executable-code)
 - Fixes multiple errors caused by low memory issues when compiling .NET native apps [521825, 574099, 574102]
 - Fixes Binding issues when using ReactiveUI [406415 and 406417]

@@ -6,13 +6,13 @@ When an application tries to set the `ConnectionString` property of the `SqlConn
 
 ## Cause
 
-.NET Framework 4.7.2 includes change which increases the default connection retry count for connections to Azure SQL Database to two. 
+.NET Framework 4.7.2 includes a change that increases the default connection retry count for connections to Azure SQL Database to two. 
 This change sets the internal value of the retry count without validating if the `ConnectionString` is a non-null or non-empty value, 
 which results in the `NullReferenceException`.
 
 ## Impact
 
-The impact is limited to applications using `SqlConnection.ConnectionString` API to set an empty connection string, which now throws an  exception.
+The impact is limited to applications using the `SqlConnection.ConnectionString` API to set an empty connection string, which now throws an  exception.
 
 ## Workarounds
 

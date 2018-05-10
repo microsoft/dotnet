@@ -10,6 +10,9 @@
 ## Cause
 [|Description of the root cause(s)|]
 
+## Workaround 
+[|Description of the workaround, if available|]
+
 ## Resolution
 [|Description of the resolution|]
 // Add the steps that will allow users to resolve the underlying problem including any workarounds. 

@@ -12,11 +12,11 @@ which results in the `NullReferenceException`.
 
 ## Impact
 
-The impact is limited to applications using `SqlConnection.ConnectionString` API to set an empty connection string that will now receive an exception.
+The impact is limited to applications using `SqlConnection.ConnectionString` API to set an empty connection string, that will now result in an exception.
 
 ## Workarounds
 
-No Known workarounds with .NET 4.7.2.
+No known workarounds with .NET 4.7.2.
 
 ## Resolution
 

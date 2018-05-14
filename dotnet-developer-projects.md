@@ -136,6 +136,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [FluentValidation](https://github.com/JeremySkinner/FluentValidation) - A small validation library for .NET that uses a fluent interface and lambda expressions for building validation rules.
   * [Flurl](https://github.com/tmenier/Flurl) - A fluent, portable, testable URL builder and HTTP client library.
   * [Font-Awesome-WPF](https://github.com/charri/Font-Awesome-WPF) - WPF controls for the iconic font and CSS toolkit [Font Awesome](http://fortawesome.github.io/Font-Awesome/).
+  * [GeoTimeZone](https://github.com/mj1856/GeoTimeZone) - Provides an IANA time zone identifier from latitude and longitude coordinates. 
   * [GongSolutions.Wpf.DragDrop](https://github.com/punker76/gong-wpf-dragdrop) - A drag'n'drop framework for WPF.
   * [GeckoFX](https://bitbucket.org/geckofx) - Mozilla's Gecko layout engine wrapper in .NET.
   * [HudlFfmpeg](https://github.com/hudl/HudlFfmpeg) - A/V transcoding framework that helps build complex FFmpeg commands.
@@ -169,6 +170,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [SharpMap](https://github.com/SharpMap) - An easy-to-use mapping library for use in web and desktop applications
   * [SharpSnmpLib](https://docs.sharpsnmp.com/en/latest/) - An easy-to-use SNMP library for use on all platforms (.NET/Mono/Xamarin)
   * [Shielded](https://github.com/jbakic/Shielded) - Software Transactional Memory for .NET
+  * [SimpleImpersonation](https://github.com/mj1856/SimpleImpersonation) - Allows you to impersonate a user, given their credentials.
   * [SmartIrc4net](https://github.com/meebey/SmartIrc4net) - IRC C# Library
   * [Spartacus](https://github.com/wind39/spartacus) - Multi-purpose C# library, containing: 1) classes to access many types of databases in a fast, generic way; 2) classes to work with XLSX, CSV and DBF files; 3) PDF report engine.
   * [Splat](https://github.com/paulcbetts/splat) - A library to make things cross-platform that should be.
@@ -179,6 +181,8 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [surging](https://github.com/dotnetcore/surging) - The distributed micro service framework based on .NET Core provides high-performance RPC Communications.
   * [Sweet.Jayson](https://github.com/ocdogan/Sweet.Jayson) - Fast, reliable, easy to use, fully json.org compliant, thread safe C# JSON library for server side and desktop operations.
   * [VkSharp](https://github.com/kasthack/vksharp) - VK client library.
+  * [TimeZoneConverter](https://github.com/mj1856/TimeZoneConverter) - Lightweight library to convert quickly between IANA, Windows, and Rails time zone names.
+  * [TimeZoneNames](https://github.com/mj1856/TimeZoneNames) - Provides a complete source of localized time zone names and abbreviations.
   * [TomP2P.NET](https://github.com/tomp2p/TomP2P.NET) - A P2P-based high performance key-value pair storage library for .NET. (Not Updated in 3 Years - 4/2018)
   * [WampSharp](https://github.com/Code-Sharp/WampSharp) - A C# implementation of [The Web Application Messaging Protocol](http://wamp.ws) - a protocol that provides messaging patterns of Remote Procedure Calls and Publish/Subscribe over WebSockets.
   * [WebApiProxy](https://github.com/faniereynders/WebApiProxy) - An automatic proxy provider for RESTful services built on ASP.NET Web API. Includes JavaScript & C# client generation.

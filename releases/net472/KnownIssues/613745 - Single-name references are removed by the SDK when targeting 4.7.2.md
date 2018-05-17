@@ -11,7 +11,7 @@ Candidate assemblies that might run into this issue are `System.Diagnostics.Trac
 ## Cause
 This issue occurs when a project has two references to the same assembly, one to the platform implementation (that is, the assembly that ships with the .NET Framework) and one to the package implementation. What ends up happening is that two different MSBuild targets conflict with each other, and each one removes one of the two references, so that when the call to the compiler is made, none of the references remain. NuGet targets remove the platform implementation because they assume that the package implementation should always be preferred. After this, the SDK targets remove the package implementation because they check that the platform assembly version is higher than the package one and, if it is, the platform assembly is preferred.
 
-## Resolution
+## Workaround
 The workaround is to add an extra package reference to your project file and exclude all of its assets in order to make sure that the package implementation is never preferred. This ensures that the platform version wins and is not removed by the NuGet targets. Here is an example of how to do this for the `System.Net.Http.dll` case:
 
 ```xml
@@ -21,3 +21,6 @@ The workaround is to add an extra package reference to your project file and exc
     </PackageReference>
   </ItemGroup>
 ```
+
+## Resolution
+A proper fix in the MSBuild SDK will ship in the coming versions of Visual Studio. This known issue will be updated with more details when that happens.

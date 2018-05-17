@@ -23,4 +23,4 @@ The workaround is to add an extra package reference to your project file and exc
 ```
 
 ## Resolution
-A proper fix on the MSBuild SDK will ship in the comming versions of Visual Studio. This Known issue will be updated with more details when that happens.
+A proper fix in the MSBuild SDK will ship in the coming versions of Visual Studio. This known issue will be updated with more details when that happens.

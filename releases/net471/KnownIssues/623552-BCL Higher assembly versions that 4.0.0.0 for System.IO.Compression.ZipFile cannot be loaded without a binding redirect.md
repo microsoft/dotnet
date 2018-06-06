@@ -2,7 +2,7 @@
 
 ## Symptoms
 
-When building an application that targets .NET Framework 4.7.1, referencing a .NET Standard library and use types from the `ZipFile` assembly you will get a runtime error similar to this one:
+When building an application that targets .NET Framework 4.7.1, if you reference a .NET Standard 1.x library that uses types from the ZipFile assembly, a runtime error like the following results:
 
 ```
 Error: Exception: System.IO.FileNotFoundException, Could not load file or assembly 'System.IO.Compression.ZipFile, Version=4.0.3.0, Culture=neutral, PublicKeyToken=b77a5c561934e089' or one of its dependencies. The system cannot find the file specified.
@@ -10,7 +10,7 @@ Error: Exception: System.IO.FileNotFoundException, Could not load file or assemb
 
 ## Cause
 
-The issues is caused by a bug in the runtime unification table for .NET Framework 4.7.1 for this assembly. The bug is preventing the unification of the 4.0.3.0 version of the assembly to the 4.0.0.0 version that is present in the machine.
+The issue is caused by a bug in the runtime unification table for .NET Framework 4.7.1 for this assembly. The bug prevents the unification of the 4.0.3.0 version of the assembly to the 4.0.0.0 version that is present on the machine.
 
 ## Impact
 
@@ -18,7 +18,7 @@ This problem occurs when building an application that targets .NET Framework 4.7
 
 ## Workaround
 
-To address this problem you can manually introduce the following binding redirect in your applications' config file:
+To address this problem, you can manually add the following binding redirect in your application's config file:
 
 ```xml
   <runtime>

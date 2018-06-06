@@ -1,4 +1,4 @@
-# Higher assembly versions that 4.0.0.0 for System.IO.Compression.ZipFile cannot be loaded without a binding redirect
+# Assembly versions higher than 4.0.0.0 for System.IO.Compression.ZipFile cannot be loaded without a binding redirect
 
 ## Symptoms
 

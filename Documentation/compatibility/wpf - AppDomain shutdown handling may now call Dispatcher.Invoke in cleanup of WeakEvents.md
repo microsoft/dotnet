@@ -20,7 +20,7 @@ shut down dispatchers running on worker threads prior to process or AppDomain sh
 - [ ] Build-time break
 
 ### Recommended Action
-In .NET Framework 4.7.2 and later versions, developers can disable this fix in order to help alleviate (but not eliminate) timing issues that may occur due to the cleanup change.  
+In .NET Framework 4.7.2 and later versions, developers can disable this fix in order to help alleviate (but not eliminate) timing issues that may occur due to the cleanup change.
 
 To disable the change in cleanup, use the following AppContext flag.
 

@@ -32,6 +32,7 @@ Please help us improve the [.NET Framework Application Compatibility documents](
 - [Support special relative URI notation when Unicode is present](uri-unicode-scheme-only-relative.md)
 - [The default hash algorithm for WPF's Markup Compiler is now SHA256](wpf-MarkupCompiler-default-hash-algorithm-is-now-SHA256.md)
 - [WinForm's Domain upbutton and downbutton actions are in sync now](winform's-DomainUpDownControl-button's-actions-in-sync.md)
+- [WPF AppDomain Shutdown Handling May Now Call Dispatcher.Invoke in Cleanup of Weak Events](wpf-AppDomain-shutdown-handling-may-now-call-Dispatcher.Invoke-in-cleanup-of-WeakEvents.md)
 - [WPF Changing a primary key when displaying ADO data in a Master/Detail scenario](wpf-MasterDetail-ADOdata-PrimaryKey.md)
 - [WPF FocusVisual for RadioButton and CheckBox Now Displays Correctly When The Controls Have No Content](wpf-focus-visual-for-radiobutton-and-checkbox-displays-correctly-when-there-is-no-content.md)
 - [WPF TextBox/PasswordBox Text Selection Does Not Follow System Colors](wpf-TextBox-PasswordBox-text-selection-does-not-follow-system-colors.md)

@@ -3,7 +3,8 @@
 You can learn about the changes made in the .NET Framework 4.7.2.
 
 - [Download](http://go.microsoft.com/fwlink/?LinkId=863262)
-- [.NET Framework 4.7.2 Announcement blog post](https://go.microsoft.com/fwlink/?linkid=863281)
+- [.NET Framework 4.7.2 RTM Announcement blog post](https://go.microsoft.com/fwlink/?linkid=863281)
+- [.NET Framework 4.7.2 Windows Update release blog post](https://go.microsoft.com/fwlink/?LinkId=2005309)
 - [Release notes](dotnet472-changes.md)
 - [Application compatibility](https://go.microsoft.com/fwlink/?linkid=863254)
 - [API changes](dotnet472-api-changes.md)

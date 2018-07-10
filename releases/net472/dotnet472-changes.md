@@ -126,7 +126,7 @@
 * Integrating Azure AD Universal and Multi-factor authentication (MFA) support with SQL .NET driver. [521874, System.Data.dll, Feature]
 * Signature verification results are now cached improving query execution times for enclave-based queries. [552762, System.Data.dll, Feature]
 * Fixes an issue where while using SqlConnection.ConnectionString to set a null or empty connection string a NRE exception would be thrown by the usage of the API while using .Net Framework 4.7.2. [611802, System.Data.dll, Bug]
-* While connecting to Azure SQL DB and using MultipleActiveResultSets=true in the connection string with System.Data.SqlClient.SqlConnection, the async query operations would lead to bad TDS protocol request stream to be sent from the client, causing the Async Query APIs to fail. This is now fixed.  [620109, System.Data.dll , Bug]
+* While connecting to Azure SQL DB and using MultipleActiveResultSets=true in the connection string with System.Data.SqlClient.SqlConnection, the async query operations would lead to bad TDS protocol request stream to be sent from the client, causing the Async Query APIs to fail. This is now fixed. [620109, System.Data.dll , Bug]
 
 ## WCF
 * Fixed service response problems owing to deadlock in SharedTcpTransportManager.OnClose and OnReceiveComplete. [455781, System.ServiceModel.dll, Bug]
@@ -221,6 +221,6 @@
 * Fixed a problem where a WPF application that changes TreeView.IsEnabled and (at the same time) changes the underlying collection(s) could experience a spurious ElementNotAvailableException. [581149, PresentationCore.dll, PresentationFramework.dll, Bug]
 * Fixed a problem where a WPF application can crash with NullReferenceException when changing a property used by a DataTrigger whose host element has been removed from the visual tree.  This crash only occurs if the host element is garbage-collected during a small window of time during the property-change notification. [581151, PresentationCore.dll, Bug]
 * Fixed a problem that causes XAML Browser Applications (XBAP’s) targeting .NET 3.5 to sometimes be loaded using .NET 4.x runtime incorrectly. This fix requires the setting of an opt-in registry key described at https://github.com/Microsoft/dotnet/blob/net472/releases/net472/KnownIssues/560016-XBAP%20Applications%20targeting%20.NET%202.0%2C3.5%20select%20wrong%20runtime%20version.md [581487, PresentationHost_v0400.dll, Bug]
-* Adds an AppContext switch that opts out of some work done during AppDomain or process shutdown.   This can reduce (but not eliminate) the chance of a crash in apps that make unwarranted assumptions about the timing of the finalizer thread. [593963, WindowsBase.dll, Bug]
+* Adds an AppContext switch that opts out of some work done during AppDomain or process shutdown. This can reduce (but not eliminate) the chance of a crash in apps that make unwarranted assumptions about the timing of the finalizer thread. [593963, WindowsBase.dll, Bug]
 * Fixes a crash in WPF when replacing multiple characters with a single character (in a different language than replaced text) using IMEPad. [605996, PresentationFramework.dll, Bug]
 * ComboBox grouped items now report children correctly via UIAutomation. [605922, PresentationFramework.dll, Bug]

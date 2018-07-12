@@ -7,9 +7,20 @@ intermittent crashes that did not occur when running on other .NET Framework ver
 
 ## Cause
 
-.NET Framework 4.7.1 includes changes that improve background GC performance.
-Because of these changes, a rare combination of factors can cause the background GC
-to reclaim a large object while the program is still using it.
+.NET Framework 4.7.1 includes changes that improve background GC performance. It allows large object allocations during part of the BGC sweep phase and the large objects allocated during this time must be marked correctly in the allocator or it will be erroneously reclaimed. A GC can be triggered during the large object allocator code path and if the following happens this bug will be triggered:
+
+- this is a BGC 
+
+- the range for BGC changed from the previous range (ie, a new segment is allocated outside of the previous range)
+
+- the new large object is in the region that didn't exist in the previous range
+
+- the new large object did its marking during the BGC sweep phase
+
+which makes this bug very rare.
+
+Since GC doesn't shrink the range, it means this bug usually is only seen very early on during a process or when you suddenly allocate more large objects than before which requires acquiring a new segment that's outside the heap range.
+
 
 ## Impact
 
@@ -26,7 +37,7 @@ The most practical workaround is to disable the background GC by setting the ena
   <runtime> section of your application configuration file to false.
     
 The only other workaround is to change the application to allocate and free large objects
-at a much lower rate.
+at a much lower rate. However, please note that this workaround do not provide a guarantee - it just makes the chance of this bug happening smaller.
 
 ## Resolution
 

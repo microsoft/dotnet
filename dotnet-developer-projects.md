@@ -118,6 +118,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [ColorSharp](https://github.com/Litipk/ColorSharp) - Library to handle color spaces and light spectrums.
   * [ComparerExtensions](https://github.com/jehugaleahsa/comparerextensions) - Build IComparer and IEqualityComparer objects using natural language syntax.
   * [Comparers](https://github.com/StephenCleary/Comparers) - Fluent syntax for building comparers (and equality comparers) and implementing object comparison.
+  * [CoordinateSharp](https://github.com/Tronald/CoordinateSharp) - Parse or convert geographic coordinate formats and calculate location based solar / lunar information.
   * [Cricket](https://github.com/fsprojects/Cricket) - Actor library.
   * [DateTimeExtensions](https://github.com/kappy/DateTimeExtensions) - Common Date Time operations on the form of extensions to System.DateTime, including holidays and working days calculations on several culture locales.
   * [DeveelDB](https://github.com/deveel/deveeldb) - SQL-99 embeddable database engine for .NET.

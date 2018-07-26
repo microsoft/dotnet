@@ -49,5 +49,6 @@ Please sort projects alphabetically and provide a one-line description. Where po
 * [Azure SDK for .NET](https://www.visualstudio.com/features/azure-tools-vs) - Easily build, manage, and deploy cloud-scale apps with Visual Studio and Azure.
 
 ## Misc
-* [Crowdin](https://crowdin.com/page/open-source-project-setup-request) - Localisation management platform.
-* [Transifex](https://www.transifex.com/pricing/) - Localisation management platform.
+
+* [Crowdin](https://crowdin.com/page/open-source-project-setup-request) - Localization management platform.
+* [Transifex](https://www.transifex.com/pricing/) - Localization management platform.

@@ -3,6 +3,9 @@ You can see what was included in each .NET Native 1.7 ([Microsoft.NETCore.Univer
 
 When using Visual Studio these packages require Visual Studio 2017 or later.
 
+### UWP 6.1.7 (.NET native tools 1.7.3) (July 27th, 2018)
+- Fixed CVE-2018-8356: Security Feature Bypass in X509 Certificate Validation: https://github.com/dotnet/announcements/issues/73
+
 ### UWP 6.0.6 (.NET native tools 1.7.3) (January 9th, 2018)
 - Fixed CVE-2018-0786: Security Feature Bypass in X509 Certificate Validation: https://github.com/Microsoft/dotnet/issues/597
 

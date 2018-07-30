@@ -33,7 +33,7 @@ This problem is rare and is more likely to occur when running on the x86 version
 
 ## Workarounds
 
-The most practical workaround is to disable background GC by setting the `enabled` attribute of the [<gcConcurrent> element](https://docs.microsoft.com/en-us/dotnet/framework/configure-apps/file-schema/runtimea/gcconcurrent-element) in the
+The most practical workaround is to disable background GC by setting the `enabled` attribute of the [<gcConcurrent> element](https://docs.microsoft.com/en-us/dotnet/framework/configure-apps/file-schema/runtime/gcconcurrent-element) in the
   <runtime> section of your application configuration file to `false`.
     
 The only other workaround is to change the application to allocate and free large objects

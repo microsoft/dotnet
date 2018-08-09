@@ -4,7 +4,9 @@ Provide a descriptive title.
 
 # Version info 
 
-Provide the .NET Framework build # and your Windows version (output of `winver`).
+Provide the .NET Framework Release key value and your Windows version (output of `winver`).
+
+HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\NET Framework Setup\NDP\v4\Full, Release 
 
 # General
 

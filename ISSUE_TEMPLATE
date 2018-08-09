@@ -1,0 +1,37 @@
+# Issue Title
+
+
+
+Provide a descriptive title.
+
+
+
+# Version info 
+
+
+
+Provide the .NET Framework Early Access build # and your Windows version (output of `winver`).
+
+
+
+# General
+
+
+
+Provide details on the problem you are experiencing, including step by step instructions to reproduce the issue.
+
+
+
+Please provide a code sample for your issue if it is relevant, either inline, link to a gist (or similar) or as a zipped attachment.
+
+
+
+For UI problems please provide screenshots inline or as a zipped attachment.
+
+
+
+# Early Access ID
+
+
+
+Some users have been given a .NET Framework Early Access ID. Please provide the ID if you have one.

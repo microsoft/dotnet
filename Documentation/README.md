@@ -11,3 +11,4 @@ The following .NET Framework documentation is available from Microsoft:
 
 - [.NET Framework Documentation](https://docs.microsoft.com/dotnet/articles/framework/)
 - [.NET Core Documentation](https://docs.microsoft.com/dotnet/articles/core/)
+- [.NET Standard and General .NET Development](https://docs.microsoft.com/dotnet/standard/)

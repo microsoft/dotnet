@@ -61,4 +61,5 @@ ServicePointManager.DefaultConnectionLimit = 20; // Actual value should be based
 ```
 
 ## More information
-We will fix this problem in a future .NET Framework Quality Rollup release.
+This issue was fixed in the [August 2018 Security and Quality Rollup](https://blogs.msdn.microsoft.com/dotnet/2018/08/14/august-2018-security-and-quality-rollup/).
+Installing this or later updates will correct the problem.

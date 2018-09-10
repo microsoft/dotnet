@@ -1,4 +1,4 @@
-# Errors occur in applications that combine transaction flow and remote calls after the July 2018 .NET Framework Security and Quality Rollups are installed.
+# Errors occur in applications that combine transaction flow and remote calls.
 
 ## Symptoms
 In .NET 4.7.2, you notice errors in .NET Framework applications that meet the following criteria:

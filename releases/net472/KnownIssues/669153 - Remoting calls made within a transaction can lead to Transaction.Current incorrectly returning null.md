@@ -1,7 +1,7 @@
 # Errors occur in applications that combine transaction flow and remote calls after the July 2018 .NET Framework Security and Quality Rollups are installed.
 
 ## Symptoms
-After you install the July 2018 .NET Framework Security and Quality Rollups that apply to .NET Framework 4.6, 4.6.1, 4.6.2, 4.7, 4.7.1, and 4.7.2 on Windows 7 Service Pack 1 (SP1), Windows Server 2008 R2 SP1 or Windows Server 2008 SP2, you notice errors in .NET Framework applications that meet the following criteria:
+In .NET 4.7.2, you notice errors in .NET Framework applications that meet the following criteria:
 - The application uses instances of the **System.Transaction.TransactionScope** class where transaction flow is enabled by passing **TransactionScopeAsyncFlowOption.Enabled** to the constructor. 
 
 - The application makes one or more remote calls while one of these transaction scopes is active, where a remote call is any call that travels through a transparent proxy before reaching the server object. Examples of remote calls include calls to other application domains and calls made through remoting channels such as the client channels defined in the **System.Runtime.Remoting.Channels** namespaces.

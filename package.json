@@ -10,6 +10,7 @@
   "dependencies": {
     "integrity": "^0.0.4",
     "license": "^0.0.3",
+    "lint": "^1.1.2",
     "mit": "^0.1.3"
   }
 }

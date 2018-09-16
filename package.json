@@ -8,6 +8,8 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "integrity": "^0.0.4"
+    "integrity": "^0.0.4",
+    "license": "^0.0.3",
+    "mit": "^0.1.3"
   }
 }

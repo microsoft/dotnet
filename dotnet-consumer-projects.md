@@ -28,4 +28,4 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [OpenJudgeSystem](https://github.com/NikolayIT/OpenJudgeSystem) - an open source system for online algorithm competitions. The algorithm competitions (currently available in C#, C++, JavaScript, Java and PHP programming languages) are timed contests where all contestants compete online and are given the same algorithmic problems to solve under the same time and memory constraints.
 
 This list is just a starting point - also take a look at all the projects on [CodePlex](http://www.codeplex.com/) and on [GitHub Trending C#](https://github.com/trending?l=csharp).
-Thanks to [@scottisafool](https://twitter.com/scottisafool) for providing the initial list.
+Thanks to [@scottisafool](https://twitter.com/scottisafool) 

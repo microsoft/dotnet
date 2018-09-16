@@ -1,5 +1,4 @@
 ## AppDomainSetup.DynamicBase is no longer randomized by UseRandomizedStringHashAlgorithm
-
 ### Scope
 Edge
 
@@ -7,7 +6,7 @@ Edge
 4.6
 
 ### Source Analyzer Status
-Planned
+Non Planned
 
 ### Change Description
 
@@ -21,10 +20,8 @@ return a stable result between different instances of an app running, and
 between different app domains. Dynamic bases will still differ for different
 apps; this change only removes the random naming element for different instances
 of the same app.
-
 - [ ] Quirked
 - [ ] Build-time break
-
 ### Recommended Action
 
 Be aware that enabling `UseRandomizedStringHashAlgorithm` will not result in
@@ -36,11 +33,4 @@ rather than via this API.
 * `P:System.AppDomainSetup.DynamicBase`
 
 ### Category
-Core
-
-<!--
-    ### Notes
-    Should be easy to look for DynamicBase use while UseRandomizedStringHashAlgorithm is set
--->
-
-<!-- breaking change id: 115 -->
+.net core

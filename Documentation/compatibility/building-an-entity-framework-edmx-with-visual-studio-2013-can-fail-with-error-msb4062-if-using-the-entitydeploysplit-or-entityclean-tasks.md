@@ -1,7 +1,7 @@
 ## Building an Entity Framework edmx with Visual Studio 2013 can fail with error MSB4062 if using the EntityDeploySplit or EntityClean tasks
 
 ### Scope
-Major
+Minor
 
 ### Version Introduced
 4.5.1
@@ -35,4 +35,4 @@ Entity Framework
 
 [More information](http://stackoverflow.com/questions/20400054/entitydeploysplit-error-microsoft-data-entity-build-tasks-dll-missing/24249247#24249247)
 
-<!-- breaking change id: 109 -->
+##breaking change id: 109 

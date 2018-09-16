@@ -1,13 +1,13 @@
 ## BinaryFormatter can fail to find type from LoadFrom context
 
 ### Scope
-Edge
+Minor
 
 ### Version Introduced
 4.5
 
 ### Source Analyzer Status
-Planned
+Is Planned
 
 ### Change Description
 As of .NET Framework 4.5, a number of <xref:System.Xml.Serialization.XmlSerializer?displayProperty=name>
@@ -28,11 +28,9 @@ when a type is being loaded from an assembly loaded in a different context, a
 
 ### Recommended Action
 If this exception is seen, the `Binder` property of the <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter?displayProperty=name> can be set to a custom binder that will find the correct type.
-
 ```csharp
 var formatter = new BinaryFormatter { Binder = new TypeFinderBinder() }
 ```
-
 And then the custom binder:
 ```csharp
 public class TypeFinderBinder : SerializationBinder
@@ -50,8 +48,6 @@ public class TypeFinderBinder : SerializationBinder
 * `T:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter`
 * `M:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Deserialize(System.IO.Stream)`
 * `M:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Deserialize(System.IO.Stream,System.Runtime.Remoting.Messaging.HeaderHandler)`
-
 ### Category
-Serialization
-
+Monetizacion
 <!-- breaking change id: 147 -->

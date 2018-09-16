@@ -29,14 +29,8 @@ The change in signing the ClickOnce executable affects only Windows Server 2003 
 The change in signing the manifest with SHA-256 even when an app targets the .NET Framework 4.0 or earlier versions introduces a runtime dependency on the .NET Framework 4.5 or a later version.
 
 ### Affected APIs
-* Investigate applicable APIs
+* applicable APIs core
 
 ### Category
 ClickOnce
 
-<!--
-    ### Notes
-    Only affects WinServer 2003; there is a KB to address it.  Could flag it if we detect click-once being used (especially if it has a SHA-1 code-signing cert)
--->
-
-<!-- breaking change id: 63 -->

@@ -2,3 +2,17 @@
 # yarn lockfile v1
 
 
+es6-promise@^1.0.0:
+  version "1.0.0"
+  resolved "http://registry.npmjs.org/es6-promise/-/es6-promise-1.0.0.tgz#f90d3629faa7c26166ae4df77c89bacdeb8dca7f"
+
+integrity@^0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/integrity/-/integrity-0.0.4.tgz#75e285ddc9701d0a33490e2ab96338ba74b6595b"
+  dependencies:
+    es6-promise "^1.0.0"
+    spark-md5 "0.0.5"
+
+spark-md5@0.0.5:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/spark-md5/-/spark-md5-0.0.5.tgz#931da5e3b951d06527e9b7d90dfff578b6fcdc8e"

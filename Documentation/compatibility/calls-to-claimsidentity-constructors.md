@@ -22,7 +22,6 @@ property is attached by using the <xref:System.Security.Claims.ClaimsIdentity.Cl
 method. In the Framework 4.6.1 and earlier versions, the
 <xref:System.Security.Claims.ClaimsIdentity.Actor?displayProperty=name>
 property is attached as an existing reference.
-
 Because of this change, starting with the .NET Framework 4.6.2, the
 <xref:System.Security.Claims.ClaimsIdentity.Actor?displayProperty=name> property
 of the new <xref:System.Security.Claims.ClaimsIdentity>
@@ -55,9 +54,6 @@ add the following to the `<runtime>` section of your web.config file:
 ### Category
 Core
 
-<!--
-    ### Original Bug
-    227024
--->
+##<!--  ### Original Bug227024-->
 
-<!-- breaking change id: 164 -->
+##<!-- breaking change id: 164 -->

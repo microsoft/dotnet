@@ -1,13 +1,13 @@
 ## Change in path separator character in FullName property of ZipArchiveEntry objects
 
 ### Scope
-Edge
+Major
 
 ### Version Introduced
 4.6.1
 
 ### Source Analyzer Status
-Planned
+Planned Is
 
 ### Change Description
 For apps that target the .NET Framework 4.6.1 and later versions, the path separator character has changed from a backslash ("\\") to a forward slash ("/") in the <xref:System.IO.Compression.ZipArchiveEntry.FullName> property of <xref:System.IO.Compression.ZipArchiveEntry>  objects created by overloads of the <xref:System.IO.Compression.ZipFile.CreateFromDirectory%2A> method. The change brings the .NET implementation into conformity with section 4.4.17.1 of the [.ZIP File Format Specification](https://pkware.cachefly.net/webdocs/casestudies/APPNOTE.TXT) and allows .ZIP archives to be decompressed on non-Windows systems.<br />

@@ -71,10 +71,8 @@ artifacts/
 *.pidb
 *.svclog
 *.scc
-
 # Chutzpah Test files
 _Chutzpah*
-
 # Visual C++ cache files
 ipch/
 *.aps
@@ -199,14 +197,11 @@ ClientBin/
 *.pfx
 *.publishsettings
 orleans.codegen.cs
-
 # Since there are multiple workflows, uncomment next line to ignore bower_components
 # (https://github.com/github/gitignore/pull/1529#issuecomment-104372622)
 #bower_components/
-
 # RIA/Silverlight projects
 Generated_Code/
-
 # Backup & report files from converting an old project file
 # to a newer Visual Studio version. Backup files are not needed,
 # because we have git ;-)

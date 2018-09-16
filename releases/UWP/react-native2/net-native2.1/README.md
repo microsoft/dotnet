@@ -1,15 +1,11 @@
-# .NET native tools 2.1 (UWP 6.1.x) Release Notes
-
+# .NET native tools 2.1 (UWP 6.1) Release Notes
 You can see what was included in each .NET Native 2.1 ([Microsoft.NETCore.UniversalWindowsPlatform 6.1.x](https://www.nuget.org/packages/Microsoft.NETCore.UniversalWindowsPlatform)) release below.
-
 When using Visual Studio these packages require Visual Studio 2017 Version 15.7 or later.
-
 ### UWP 6.1.7 (.NET native tools 2.1.8) (July 27th, 2018)
 - Fixed CVE-2018-8356: Security Feature Bypass in X509 Certificate Validation: https://github.com/dotnet/announcements/issues/73
 
 ### UWP 6.1.5 (.NET native tools 2.1.8) (May 30th, 2018)
 - Updates NETStandard.Library reference from version 2.0.2 to 2.0.3 to fix [UWP reference additional NetStandard dll after 15.7](https://developercommunity.visualstudio.com/content/problem/251571/uwp-reference-additional-netstandard-dll-after-157.html) and [After installing ..., a lot of warnings occur](https://github.com/dotnet/standard/issues/708)
-
 ### UWP 6.1.4 (.NET native tools 2.1.8) (May 7th, 2018)
 - Adds support for [Optional packages with executable code](https://docs.microsoft.com/en-us/windows/uwp/packaging/optional-packages-with-executable-code)
 - Fixes multiple errors caused by low memory issues when compiling .NET native apps [521825, 574099, 574102]

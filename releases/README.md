@@ -1,13 +1,9 @@
 # .NET Framework Releases
 
 You can learn about .NET Framework [releases](#releases), below. See [resources](#resources) for additional information.
-
 To get up-to-date with the latest versions of .NET Framework and Visual Studio, see [Install the .NET Framework](https://www.microsoft.com/net/framework/versions) and  [Install Visual Studio](https://www.visualstudio.com/vs/). See [Targeting .NET Platforms](https://www.microsoft.com/net/targeting) to find additional tools.
-
 ## Release Notes
-
 You can see what was included in each .NET Framework release. Some releases are now unsupported, as called out.
-
 - [.NET Framework 4.7.2](net472/README.md)
 - [.NET Framework 4.7.1](net471/README.md)
 - [.NET Framework 4.7](net47/README.md)

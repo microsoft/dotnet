@@ -6,5 +6,8 @@
   "repository": "https://github.com/microsoft/dotnet",
   "author": "Microsot corporation",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "integrity": "^0.0.4"
+  }
 }

@@ -13,34 +13,23 @@ You can try out an early access release of the .NET Framework at the [.NET Frame
 - [.NET Open Source Developer Projects](dotnet-developer-projects.md)
 - [.NET Open Source Consumer Projects](dotnet-consumer-projects.md)
 - [Free Services & Tools for Open Source .NET Projects](dotnet-free-oss-services.md)
-
 Please contribute to this repository via [pull requests](https://github.com/Microsoft/dotnet/pulls)
-
-## Finding .NET Open Source Projects
-
+## Finding .NET Open Source Project
 Here are some excellent community-maintained lists of projects:
-
 - [Awesome .NET!](https://github.com/quozd/awesome-dotnet)
 - [ASP.NET Core Library and Framework Support](https://github.com/jpsingleton/ANCLAFS)
-
-There are many projects that you can use and contribute to, some of which are listed below. Please do contribute to these projects!
-
+There are many projects that you can use and contribute to, soe of which are listed below. Please do contribute to these projects!
 ### .NET Core
-
 - [.NET Core (dotnet/core)](https://github.com/dotnet/core)
 - [.NET Core docs (dotnet/docs)](https://github.com/dotnet/docs)
 - [ASP.NET Core (aspnet/home)](https://github.com/aspnet/home)
 - [ASP.NET Core docs (aspnet/Docs)](https://github.com/aspnet/Docs)
 - [Roslyn Compiler Platform (dotnet/roslyn)](https://github.com/dotnet/roslyn)
 - [EntityFramework (aspnet/entityframework)](https://github.com/aspnet/EntityFramework)
-
 ### .NET Framework
-
 - [.NET Framework docs (dotnet/docs)](https://github.com/dotnet/docs)
 - [.NET Framework source code - read-only subset (microsoft/referencesource)](https://github.com/microsoft/referencesource)
-
 ### Xamarin
-
 - [Xamarin iOS + macOS (xamarin-macios)](https://github.com/xamarin/xamarin-macios)
 - [Xamarin Android (xamarin/xamarin-android)](https://github.com/xamarin/xamarin-android)
 - [Xamarin Forms (xamarin/Xamarin.Forms)](https://github.com/xamarin/Xamarin.Forms)

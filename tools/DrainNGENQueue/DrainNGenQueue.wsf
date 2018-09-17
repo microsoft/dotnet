@@ -1,18 +1,15 @@
 <package><job id="DrainNGenQueue.wsf">
 <script language="JScript">    
-    var wsh = WScript.CreateObject("WScript.Shell");
-    var fso = WScript.CreateObject("Scripting.FileSystemObject");
-    var is64bit = function () {
+    var wsh = WScript.CreateObject("WScript.Shell"),
+        fso = WScript.CreateObject("Scripting.FileSystemObject"),
+        is64bit = function () {
         if (wsh.ExpandEnvironmentStrings("%PROCESSOR_ARCHITECTURE%").indexOf("64") > 0)
             return true;
         return (wsh.ExpandEnvironmentStrings("%PROCESSOR_ARCHITEW6432%").indexOf("64") > 0);
-    }();
-    var isV4Installed = function () {
+    }(),isV4Installed = function () {
         var v4NgenLoc = wsh.ExpandEnvironmentStrings("%windir%\\Microsoft.NET\\Framework\\v4.0.30319\\ngen.exe");
         return fso.FileExists(v4NgenLoc);
-    }();
-    // Run an exe, collecting its exit code, stdout & stderr, optionally echoing the results to the window
-    var runToCompletion = function (exe, arguments, echo) {
+    }(),runToCompletion = function (exe, arguments, echo) {
         var makeResult = function (exitCode, stdOut, stdErr) {
             return { ExitCode: exitCode, StdOut: stdOut, StdErr: stdErr };
         }
@@ -25,9 +22,9 @@
             }
             return line;
         }
-        var process = wsh.Exec(exe + " " + arguments);
-        var output = "";
-        var error = "";
+        var process = wsh.Exec(exe + " " + arguments),
+            output = "",
+            error = "";
         while (process.Status == 0) {
             WScript.Sleep(50);
             output += getStream(process.StdOut);
@@ -38,20 +35,18 @@
         return makeResult(process.ExitCode, output, error);
     }
     var ver = function () {
-        var ver = runToCompletion(wsh.ExpandEnvironmentStrings("%windir%\\system32\\cmd.exe"), "/C ver");
-        var rgx = / ([0-9]+)\.([0-9]+)\.[0-9]+/;
-        var res = rgx.exec(ver.StdOut);
+        var ver = runToCompletion(wsh.ExpandEnvironmentStrings("%windir%\\system32\\cmd.exe"), "/C ver"),
+            rgx = / ([0-9]+)\.([0-9]+)\.[0-9]+/,
+            res = rgx.exec(ver.StdOut);
         return {major: res[1], minor :res[2]};
     }();
     // true if the OS version is 6.2 or later
-    var isOSWin8OrLater = (ver.major == 6 && ver.minor >= 2) || (ver.major > 6);
-    var preVista = (ver.major < 6);
-
+    var isOSWin8OrLater = (ver.major == 6 && ver.minor >= 2) || (ver.major > 6),
+        preVista = (ver.major < 6);
     // This re-launches the script under an elevated cscript window if it's either
     // not already running as elevated, or it's running under wscript.exe instead.
     // Note that is doesn't pass any arguments, because this particular script doesn't have any
     var validateElevatedCScript = function () {
-
         // Return "Elevated", "Not elevated", "Unknown", or "Error" regarding elevation status
         var elevatedStatus = function () {
             if (preVista)
@@ -93,25 +88,20 @@
         var getNGenBinary = function (is64Bit, ver) {
             return dotNetRoot + (is64Bit ? "64" : "") + "\\" + ver + "\\ngen.exe";
         }
-        var ngen32 = getNGenBinary(false, ver);
-        var ngen64 = getNGenBinary(true, ver);
-        var argument = "executeQueuedItems";
-
+        var ngen32 = getNGenBinary(false, ver),
+            ngen64 = getNGenBinary(true, ver),
+            argument = "executeQueuedItems";
         runToCompletion(ngen32, argument, true);
         if (is64bit)
             runToCompletion(ngen64, argument, true);
     }
     var drainAppStoreQueue = function () {
-        var schTasks = wsh.ExpandEnvironmentStrings("%windir%\\System32\\schtasks.exe");
-        var arguments = "/run /Tn \"\\Microsoft\\Windows\\.NET Framework\\.NET Framework NGEN v4.0.30319";
+        var schTasks = wsh.ExpandEnvironmentStrings("%windir%\\System32\\schtasks.exe"),
+            arguments = "/run /Tn \"\\Microsoft\\Windows\\.NET Framework\\.NET Framework NGEN v4.0.30319";
         runToCompletion(schTasks, arguments + "\"", true);
         if (is64bit)
             runToCompletion(schTasks, arguments + " 64\"", true);
     }
-
     drainNGenQueue(isV4Installed ? "v4.0.30319" : "v2.0.50727");
-    if (isOSWin8OrLater) {
-        drainAppStoreQueue();
-    }
-</script>
-</job></package>
+    if (isOSWin8OrLater) {   drainAppStoreQueue();}
+</script></job></package>

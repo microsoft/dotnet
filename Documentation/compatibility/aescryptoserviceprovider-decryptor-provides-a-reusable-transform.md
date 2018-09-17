@@ -49,11 +49,4 @@ In addition, applications that target a previous version of the .NET Framework b
 - `M:System.Security.Cryptography.AesCryptoServiceProvider.CreateDecryptor`
 
 ### Category
-Core
-
-<!--
-    ### Original Bug
-    205301
--->
-
-<!-- breaking change id: 165 -->
+.Net

@@ -2,7 +2,6 @@
 # Set default behavior to automatically normalize line endings.
 ###############################################################################
 * text=auto encoding=UTF-8
-
 # csc/vbc are shell scripts and should always have unix line endings
 # These shell scripts are included in the toolset packages. Normally, the shell
 # scripts in our repo are only run by cloning onto a Linux/Mac machine, and git
@@ -12,7 +11,6 @@
 # files must be hard-coded to be cloned with LF
 src/Compilers/CSharp/CscCore/csc text eol=lf
 src/Compilers/VisualBasic/VbcCore/vbc text eol=lf
-
 ###############################################################################
 # Set default behavior for command prompt diff.
 #
@@ -22,7 +20,6 @@ src/Compilers/VisualBasic/VbcCore/vbc text eol=lf
 ###############################################################################
 *.cs     diff=csharp text 
 *.vb     text
-
 ###############################################################################
 # Set the merge driver for project and solution files
 #
@@ -54,7 +51,6 @@ src/Compilers/VisualBasic/VbcCore/vbc text eol=lf
 #*.jpg   binary
 #*.png   binary
 #*.gif   binary
-
 ###############################################################################
 # diff behavior for common document formats
 # 

@@ -1,7 +1,7 @@
 ## Binding a WPF selector property (such as 'SelectedItem') to a static property does not work
 
 ### Scope
-Minor
+Major
 
 ### Version Introduced
 4.5
@@ -29,9 +29,7 @@ Windows Presentation Foundation (WPF)
 
 [More information](https://social.msdn.microsoft.com/Forums/vstudio/56ff3199-5abc-454e-87f7-bafff43e7422/net-45-critical-selecteditem-not-setting-binding-item?forum=wpf)
 
-<!--
+
     ### Notes
     We could look for FrameworkElement.SetBinding calls, but this is such a corner case of that (selected properties and static properties) that it would probably be too noisy. A xaml analyzer is probably our best bet, and that's not even going to be perfect
--->
 
-<!-- breaking change id: 99 -->

@@ -34,5 +34,3 @@ after calling <xref:System.Windows.Controls.DataGrid.CommitEdit?displayProperty=
 
 ### Category
 Windows Presentation Foundation (WPF)
-
-<!-- breaking change id: 124 -->

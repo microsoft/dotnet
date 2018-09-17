@@ -1,10 +1,10 @@
 ## Change in behavior in Data Definition Language (DDL) APIs
 
 ### Scope
-Minor
+Edge
 
 ### Version Introduced
-4.5
+4.8
 
 ### Source Analyzer Status
 Available

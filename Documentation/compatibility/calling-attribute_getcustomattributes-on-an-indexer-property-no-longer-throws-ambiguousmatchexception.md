@@ -1,7 +1,7 @@
 ## Calling Attribute.GetCustomAttributes on an indexer property no longer throws AmbiguousMatchException if the ambiguity can be resolved by index's type
 
 ### Scope
-Edge
+Minor
 
 ### Version Introduced
 4.6
@@ -41,6 +41,6 @@ Be aware that GetCustomAttribute(s) will work more frequently now. If an app was
 * `M:System.Reflection.CustomAttributeExtensions.GetCustomAttributes``1(System.Reflection.MemberInfo,System.Boolean)`
 
 ### Category
-Core
+dotnet
 
-<!-- breaking change id: 112 -->
+##breaking change id: 112 -->

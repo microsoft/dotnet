@@ -1,0 +1,16 @@
+{
+  "name": "dotnet",
+  "version": "7",
+  "description": ".net framework for develops applications",
+  "main": "inde.html",
+  "repository": "https://github.com/microsoft/dotnet",
+  "author": "Microsot corporation",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "integrity": "^0.0.4",
+    "license": "^0.0.3",
+    "lint": "^1.1.2",
+    "mit": "^0.1.3"
+  }
+}

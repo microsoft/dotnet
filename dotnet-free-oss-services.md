@@ -1,22 +1,15 @@
 # Free Services & Tools for Open Source .NET Projects
-
 This community maintained list showcases free tools and services for open source software development on .NET. If you know of any additions to this list PR a change. This list focuses on services specifically supporting .NET development - a list covering a wide range of platforms is available at [OSS Perks](http://ossperks.com/).
-
 Please sort projects alphabetically and provide a one-line description. Where possible links should be to a page showing free open source plans (for example a web page, blog post or pricing page with open source plan detailed). Create new sections, as appropriate.
-
 ## IDEs
-
-* [ReSharper](https://www.jetbrains.com/buy/opensource/?product=resharper) - Visual Studio extension providing code analysis, formatting, refactoring and more.
-* [Visual Studio Community](http://www.visualstudio.com/en-gb/products/visual-studio-community-vs) - Full version of Visual Studio available free
+* [ReSharper](https://www.jetbrains.com/buy/opensource/?product=resharper) - Visual Studio extension providing code analysis, formatting, refactoring and more.(http://www.visualstudio.com/en-gb/products/visual-studio-community-vs) - Full version of Visual Studio available free
 * [VS Anywhere](https://vsanywhere.com/open_source_students_and_educational_centers.aspx) - Visual Studio extension for in IDE collaborative development.
-
 ## Cross Platform Development
-
-* [Xamarin](http://resources.xamarin.com/open-source-contributor.html) - Share .Net code across Windows, iOS, Android and Mac.
+(http://resources.xamarin.com/open-source-contributor.html) - Share .Net code across Windows, iOS, Android and Mac.
 
 ## Hosted Build and Continous Integration
 
-* [AppVeyor](http://www.appveyor.com/pricing) - Windows based cloud build/CI servers tailored for .Net developers.
+* (http://www.appveyor.com/pricing) - Windows based cloud build/CI servers tailored for .Net developers.
 * [TeamCity at CodeBetter](http://codebetter.com/codebetter-ci) - JetBrains TeamCity CI server made available for open source projects by CodeBetter.
 * [TravisCI](https://travis-ci.com/plans) - Hosted CI service supporting .Net builds via Mono on Linux.
 
@@ -27,8 +20,7 @@ Please sort projects alphabetically and provide a one-line description. Where po
 * [dotTrace](https://www.jetbrains.com/buy/opensource/?product=profiler) - Performance profiler for .Net applications
 
 ## Aspect Oriented Programming
-
-* [PostSharp](http://www.postsharp.net/purchase#discounts) - Aspect-oriented programming tool to eradicate boilerplate code.
+(http://www.postsharp.net/purchase#discounts) - Aspect-oriented programming tool to eradicate boilerplate code.
 
 ## Code Analysis
 

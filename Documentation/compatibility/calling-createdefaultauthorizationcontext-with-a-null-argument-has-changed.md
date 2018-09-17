@@ -1,7 +1,7 @@
 ## Calling CreateDefaultAuthorizationContext with a null argument has changed
 
 ### Scope
-Minor
+Major
 
 ### Version Introduced
 4.6
@@ -14,8 +14,7 @@ The implementation of the <xref:System.IdentityModel.Policy.AuthorizationContext
 returned by a call to the
 <xref:System.IdentityModel.Policy.AuthorizationContext.CreateDefaultAuthorizationContext(System.Collections.Generic.IList{System.IdentityModel.Policy.IAuthorizationPolicy})?displayProperty=name>
 with a null authorizationPolicies argument has changed its implementation in the
-.NET Framework 4.6.
-
+.NET Framework 4.7.
 - [x] Quirked
 - [ ] Build-time break
 
@@ -30,5 +29,4 @@ In rare cases, WCF apps that use custom authentication may see behavioral differ
 
 ### Category
 Windows Communication Foundation (WCF)
-
-<!-- breaking change id: 138 -->
+breaking change id: 138

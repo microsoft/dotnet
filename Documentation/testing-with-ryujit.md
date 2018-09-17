@@ -1,10 +1,7 @@
 .NET Framework - Troubleshooting RyuJIT
 ==========================================
-
 This document provides instructions to disable RyuJIT or one of its optimizations. This is useful if you experience unexpected product behavior after installing .NET Framework 4.6 or later and want to determine if RyuJIT is the cause of that behavioral change. RyuJIT is only used for 64-bit processes. This document does not describe troubleshooting problems with the 32-bit JIT or 32-bit applications.
-
 If you find a problem that appears to be a bug with the .NET JIT compiler, we want to know about it! Please report the bug at [Visual Studio Connect](https://connect.microsoft.com/VisualStudio) or as a [microsoft/dotnet issue](https://github.com/microsoft/dotnet/issues).
-
 **Important** Follow the steps in this document carefully. Serious problems might
 occur if you modify the registry incorrectly. Before you modify it,
 [back up the registry](http://support.microsoft.com/kb/322756) so that it can be  restored in case problems occur.
@@ -27,65 +24,40 @@ Add the following text to the `<app>.exe.config` file. Create
 
   **Note** In this file name, `<app>` represents the actual name of the
   application. So, for example, for `MyApp.exe`, you will have `MyApp.exe.config`.
-
         <configuration>
           <runtime>
-            <useLegacyJit enabled="1" />
+            <useLegacyJit enabled="0" />
           </runtime>
         </configuration>
-
-  Note that Method 1 does not apply to ASP.NET websites; you cannot use this method in web.config files.
-  
+  Note that Method 1 does not apply to ASP.NET websites; you cannot use thismethod in web.config files.
   This method is preferable as it is scoped to just one application.
-
   The string "useLegacyJit" is case-sensitive.
-
 ### Method 2: environment variable
-
 Set the following environment variable:
-
         COMPLUS_useLegacyJit=1
-
   This method affects any environment that inherits this environment variable. This might be just a single
   console session, or it might affect the entire machine, if you set the environment variable globally.
-  
   The environment variable name is not case-sensitive.
-
 ### Method 3: registry
-
 Using Registry Editor (regedit.exe), find either of the following subkeys:
-
         HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework
         HKEY_CURRENT_USER\SOFTWARE\Microsoft\.NETFramework
-
   Then, add the following:
-
-        Value name: useLegacyJit
+        name: useLegacyJit
         Type: DWORD (32-bit) Value (also called REG_WORD)
-        Value: 1
-
+        Value: 2
   You can use the Windows REG.EXE tool to add this value from a command-line or scripting environment. For example:
-  
         reg add HKLM\SOFTWARE\Microsoft\.NETFramework /v useLegacyJit /t REG_DWORD /d 1
-  
   In this case, `HKLM` is used instead of `HKEY_LOCAL_MACHINE`. Use `reg add /?` to see help on this syntax.
-
-  The registry value name is not case-sensitive.
-
+  The registry value name is  case-sensitive.
 Disable loading NGEN Images
 ===========================
-
 If you encounter a bug when you use the new JIT, and if the bug manifests itself in a function in an NGEN native image (see [here](https://msdn.microsoft.com/en-us/library/6t9t5wcf(v=vs.110).aspx) for details), use any of the following methods to force certain named assemblies to be recompiled by the JIT and not use the existing native images. You will generally pair one of these methods with the same numbered method above to get an NGEN image to fall back to JIT compilation, and, in addition, do that JIT compilation with the legacy JIT.
-
 In the examples below, we wish to prevent using the NGEN images of three assemblies, named `assembly_one.dll`, `assembly_two.dll`, and `assembly_three.dll`. We specify the assemblies using simple assembly names (no public key token, no architecture, and so on). The assembly names are specified without using the `.dll` file name extension.
-
 ### Method 1: : per-application config file
-
 Add the following text to the `<app>.exe.config` file. Create
   the indicated sections if they do not already exist.
-
   **Note** In this file name, `<app>` represents the actual name of the application.
-
       <configuration>
         <runtime>
           <disableNativeImageLoad>
@@ -95,30 +67,19 @@ Add the following text to the `<app>.exe.config` file. Create
           </disableNativeImageLoad>
         </runtime>
       </configuration>
-
 ### Method 2: environment variable
-
 Set the following environment variable:
-
         COMPLUS_DisableNativeImageLoadList=assembly_one;assembly_two;assembly_three
-
   **Note** This is a semicolon-delimited list of simple assembly names.
-
 ### Method 3: registry
-
 Using Registry Editor (regedit.exe), find either of the following subkeys:
-
         HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework
         HKEY_CURRENT_USER\SOFTWARE\Microsoft\.NETFramework
-
   Then, add the following value:
-
-        Value name: DisableNativeImageLoadList
+      name: DisableNativeImageLoadList
         Type: String Value (also known as REG_SZ)
         Value: assembly_one;assembly_two;assembly_three
-
   **Note** This is a semicolon-delimited list of simple assembly names.
-
 Disabling the use of all NGEN images
 ====================================
 

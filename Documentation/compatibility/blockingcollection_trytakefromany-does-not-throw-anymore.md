@@ -35,4 +35,4 @@ If TryTakeFromAny returning -1 or TakeFromAny throwing were used for control-flo
 ### Category
 Core
 
-<!-- breaking change id: 18 -->
+##breaking change id: 18

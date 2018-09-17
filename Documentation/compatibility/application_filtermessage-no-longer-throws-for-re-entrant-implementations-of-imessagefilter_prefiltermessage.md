@@ -7,7 +7,7 @@ Edge
 4.6.1
 
 ### Source Analyzer Status
-Planned
+Non Planned
 
 ### Change Description
 
@@ -45,13 +45,5 @@ compatibility switch.
 * `M:System.Windows.Forms.Application.FilterMessage(System.Windows.Forms.Message@)`
 
 ### Category
-Windows Forms
+Windows Forms for visual studio 
 
-<!--
-    ### Notes
-    It's unclear if this one will be better analyzed by Application.FilterMessage callers (who would have seen the exception previously)
-    or the IMessageFilter.PreFilterMessage implementers (who caused the exception previously). Unfortunately, the analyzer on the caller is probably
-    more useful, even though it would be easier to be 'precise' if we analyzed the interface implementer.
--->
-
-<!-- breaking change id: 144 -->

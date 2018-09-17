@@ -1,13 +1,13 @@
 ## Change in behavior for Task.WaitAll methods with time-out arguments
 
 ### Scope
-Minor
+Major
 
 ### Version Introduced
 4.5
 
 ### Source Analyzer Status
-Available
+Non Available
 
 ### Change Description
 <xref:System.Threading.Tasks.Task.WaitAll%2A?displayProperty=nameWithType> behavior was made more consistent in .NET Framework 4.5.

@@ -97,6 +97,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [MassTransit](https://github.com/MassTransit/MassTransit) - A distributed application framework for RabbitMQ and Azure Service Bus.
   * [NServiceBus](https://github.com/Particular/NServiceBus) - The most popular service bus for .NET.
   * [RestBus](https://github.com/tenor/RestBus) - Easy Asynchronous Messaging and Queueing for .NET.
+  * [Rebus](https://github.com/rebus-org/Rebus) - Rebus is a lean service bus implementation for .NET. 
   
 ## Libraries
   * [Albedo](https://github.com/ploeh/Albedo) - A .NET library targeted at making Reflection programming more consistent, using a common set of abstractions and utilities.

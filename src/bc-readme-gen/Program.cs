@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.IO;
 using System.Collections.Generic;
 using System.Text;
@@ -16,9 +16,10 @@ namespace bc_readme_gen
             }
             
             string bcpath = args[0];
+            const string[] excludedFileList = { "! Template.md", "README.md", "!categories.md" };
 
             var bcList = new Dictionary<string,List<BreakingChange>>();
-            var template = "README-template.md";
+            string template = "README-template.md";
             string templateText = null;
             string bcpathREADME = Path.Combine(bcpath, "README.md");
             var bcdir = new DirectoryInfo(bcpath);
@@ -27,7 +28,7 @@ namespace bc_readme_gen
 
             foreach(var changeFile in bcdir.GetFiles("*.md"))
             {
-                if (changeFile.Name == "! Template.md" || changeFile.Name == "README.md" || changeFile.Name == "!categories.md")
+                if (Array.IndexOf(excludedFileList, changeFile.Name) > -1)
                 {
                     continue;
                 }

@@ -64,10 +64,10 @@ There are additional templates available for `dotnet new`. For more info see [Av
 ## .NET Foundation
 
 Many .NET open source projects are part of the
-[.NET Foundation](http://www.dotnetfoundation.org/projects). Microsoft has contributed many projects, including ASP.NET Core and 
+[.NET Foundation](http://www.dotnetfoundation.org/projects). Microsoft has contributed many projects, including ASP.NET Core and
 .NET Core. You may want to consider [joining the .NET Foundation](https://dotnetfoundation.org/get-involved).
 
-Check out the [.NET Foundation Forums](http://forums.dotnetfoundation.org/) to see what others are talking about or start a new discussion to ask a question or make a point. 
+Check out the [.NET Foundation Forums](http://forums.dotnetfoundation.org/) to see what others are talking about, or start a new discussion to ask a question or make a point. 
 
 ## License
 

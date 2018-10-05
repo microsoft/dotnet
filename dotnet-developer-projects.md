@@ -132,6 +132,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [DotNetOpenAuth](https://github.com/DotNetOpenAuth) - Library that adds support for your site visitors to login with their OpenIDs by just dropping an ASP.NET control onto your page.
   * [DropboxRestAPI](https://github.com/saguiitay/DropboxRestAPI) - DropBox .Net Client Library.
   * [DynamicData](https://github.com/RolandPheasant/DynamicData) - Brings the power of Rx to collections.
+  * [Enums.NET](https://github.com/TylerBrinkley/Enums.NET) - High-performance type-safe .NET enum utility library.
   * [Excel-DNA](https://github.com/Excel-DNA/ExcelDna) - Create high-performance, easy to deploy Excel add-ins with .NET - [Home](http://excel-dna.net)
   * [ExtCore](https://github.com/ExtCore/ExtCore) - Free, open source and cross-platform framework for creating modular and extendable web applications based on ASP.NET Core 1.1.
   * [ExtraLINQ](https://github.com/mariusschulz/ExtraLINQ) - Various extension methods for working with .NET collections.

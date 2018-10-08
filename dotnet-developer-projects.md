@@ -39,6 +39,9 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [NiL.JS](https://github.com/nilproject/NiL.JS) - A .NET implementation of the ECMAScript language and runtime.
   * [Phalanger](https://github.com/DEVSENSE/Phalanger) - full-featured PHP runtime & compiler for .NET/Mono frameworks. Phalanger is modern open-source implementation of PHP, compatible with the vast array of existing PHP code.
   * [Roslyn (.NET Compiler Platform)](https://github.com/dotnet/roslyn) - Open-source C# and Visual Basic compilers with rich code analysis APIs.
+
+## Tutorials
+  * [Docker with .NET Core](https://github.com/mindems/Docker.NET) - A tutorial trilogy designed to get you up and running quickly.
  
 ## Quality Assurance
   * [C# Coding Guidelines](https://github.com/dennisdoomen/CSharpGuidelines) - A set of coding guidelines for C# 3.0, 4.0 and 5.0 that extend StyleCop and can be forked and adapted for internal use. 
@@ -94,6 +97,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [MassTransit](https://github.com/MassTransit/MassTransit) - A distributed application framework for RabbitMQ and Azure Service Bus.
   * [NServiceBus](https://github.com/Particular/NServiceBus) - The most popular service bus for .NET.
   * [RestBus](https://github.com/tenor/RestBus) - Easy Asynchronous Messaging and Queueing for .NET.
+  * [Rebus](https://github.com/rebus-org/Rebus) - Rebus is a lean service bus implementation for .NET. 
   
 ## Libraries
   * [Albedo](https://github.com/ploeh/Albedo) - A .NET library targeted at making Reflection programming more consistent, using a common set of abstractions and utilities.
@@ -118,6 +122,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [ColorSharp](https://github.com/Litipk/ColorSharp) - Library to handle color spaces and light spectrums.
   * [ComparerExtensions](https://github.com/jehugaleahsa/comparerextensions) - Build IComparer and IEqualityComparer objects using natural language syntax.
   * [Comparers](https://github.com/StephenCleary/Comparers) - Fluent syntax for building comparers (and equality comparers) and implementing object comparison.
+  * [CoordinateSharp](https://github.com/Tronald/CoordinateSharp) - Parse or convert geographic coordinate formats and calculate location based solar/lunar information.
   * [Cricket](https://github.com/fsprojects/Cricket) - Actor library.
   * [DateTimeExtensions](https://github.com/kappy/DateTimeExtensions) - Common Date Time operations on the form of extensions to System.DateTime, including holidays and working days calculations on several culture locales.
   * [DeveelDB](https://github.com/deveel/deveeldb) - SQL-99 embeddable database engine for .NET.
@@ -127,6 +132,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [DotNetOpenAuth](https://github.com/DotNetOpenAuth) - Library that adds support for your site visitors to login with their OpenIDs by just dropping an ASP.NET control onto your page.
   * [DropboxRestAPI](https://github.com/saguiitay/DropboxRestAPI) - DropBox .Net Client Library.
   * [DynamicData](https://github.com/RolandPheasant/DynamicData) - Brings the power of Rx to collections.
+  * [Enums.NET](https://github.com/TylerBrinkley/Enums.NET) - High-performance type-safe .NET enum utility library.
   * [Excel-DNA](https://github.com/Excel-DNA/ExcelDna) - Create high-performance, easy to deploy Excel add-ins with .NET - [Home](http://excel-dna.net)
   * [ExtCore](https://github.com/ExtCore/ExtCore) - Free, open source and cross-platform framework for creating modular and extendable web applications based on ASP.NET Core 1.1.
   * [ExtraLINQ](https://github.com/mariusschulz/ExtraLINQ) - Various extension methods for working with .NET collections.
@@ -240,7 +246,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [CppSharp](https://github.com/mono/CppSharp) - C/C++ bindings generation for .NET.
   * [Crawler-Lib Build Tools](http://download.crawler-lib.net/BuildTools/) -  [A PowerShell based toolbox](http://www.crawler-lib.net/build-tools) for automating the software build process, autmated testing and integration.
   * [FAKE](http://fsharp.github.io/FAKE/) - Build automation system with capabilities which are similar to make and rake.
-  * [FlubuCore](https://github.com/flubu-core/flubu.core) - Fluent builder is A C# library for building projects and executing deployment scripts using C# code.
+  * [FlubuCore](https://github.com/flubu-core/flubu.core) - A cross platform build and deployment automation system for building projects and executing deployment scripts using C# code.
   * [Fody](https://github.com/Fody/Fody) - Extensible tool for weaving .NET assemblies.
   * [FsEye](https://github.com/swensensoftware/fseye) - A visual object tree inspector for the F# Interactive.
   * [FsharpLint](https://github.com/fsprojects/FSharpLint) - Lint tool for F#.

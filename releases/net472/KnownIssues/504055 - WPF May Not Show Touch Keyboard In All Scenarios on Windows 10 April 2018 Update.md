@@ -13,6 +13,4 @@ A WPF change in .NET Framework 4.7.2 is preventing WPF from requesting the touch
 keyboard in all scenarios.
 
 ## Resolution
-This will be fixed in an upcoming update for Windows 10 April 2018 Update.
-
-In the meantime, users can tap another text box within the application or they can explicitly tap the touch keyboard button on the start bar to ensure the keyboard shows.
+A fix for this issue is available in [KB4103721](https://support.microsoft.com/en-us/help/4103721/windows-10-update-kb4103721).

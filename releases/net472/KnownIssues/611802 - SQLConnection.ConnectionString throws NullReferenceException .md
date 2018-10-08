@@ -20,4 +20,6 @@ No known workarounds with .NET Framework 4.7.2.
 
 ## Resolution
 
-The .NET team is working on a fix that will be available in a future update.
+This issue has been fixed in the [latest update to .NET Framework 4.7.2](https://go.microsoft.com/fwlink/?LinkId=2005309) for all platforms except Windows 10 April 2018 Update. 
+
+For Windows 10 April 2018 Update, the fix will be available in the upcoming Cumulative Update.

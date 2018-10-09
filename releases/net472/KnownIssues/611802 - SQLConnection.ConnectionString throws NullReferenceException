@@ -1,0 +1,22 @@
+# NullReferenceException while setting `SqlConnection.ConnectionString` to an empty string or null.
+## Symptoms
+
+When an application tries to set the `ConnectionString` property of the `SqlConnection` object a `NullReferenceException` is thrown
+
+## Cause
+
+.NET Framework 4.7.2 includes changes for increasing the default retry count to Azure SQL DB to 2. 
+The code change sets the internal value of retry count without validating if the ConnectionString is a non-null or non-empty value
+which results in the NullReferenceException
+
+## Impact
+
+The applications using SqlConnection.ConnectionString API to set an empty connection string will receive an exception.
+
+## Workarounds
+
+No Known workarounds yet with .Net 4.7.2.
+
+## Resolution
+
+Product team working on code fix. 

@@ -4,6 +4,9 @@ You can see what was included in each .NET Native 2.1 ([Microsoft.NETCore.Univer
 
 When using Visual Studio these packages require Visual Studio 2017 Version 15.7 or later.
 
+### UWP 6.1.9 (.NET native tools 2.1.8) (October 9th, 2018)
+- Fixed CVE-2018-8292:.NET Information Disclosure Vulnerability: https://github.com/dotnet/announcements/issues/88 
+
 ### UWP 6.1.7 (.NET native tools 2.1.8) (July 27th, 2018)
 - Fixed CVE-2018-8356: Security Feature Bypass in X509 Certificate Validation: https://github.com/dotnet/announcements/issues/73
 

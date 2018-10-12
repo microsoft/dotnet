@@ -23,7 +23,7 @@ Here are some excellent community-maintained lists of projects:
 - [Awesome .NET!](https://github.com/quozd/awesome-dotnet)
 - [ASP.NET Core Library and Framework Support](https://github.com/jpsingleton/ANCLAFS)
 
-There are many projects that you can use and contribute to, some of which are listed below. Please do contribute to these projects!
+There are many projects that you can use and contribute to, some of which are listed below. Please do contribute to these projects!.
 
 ### .NET Core
 

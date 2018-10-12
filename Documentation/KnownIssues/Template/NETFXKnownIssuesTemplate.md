@@ -4,7 +4,7 @@
 // Entries with [| ... |] are fields that must be updated.
 
 ## Symptoms
-[|Description of the symtopms|]
+[|Description of the symptom(s)|]
 // A description of the symptom(s) that exhibit due to the  underlying issue. 
 
 ## Cause

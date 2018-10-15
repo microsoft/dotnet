@@ -5,7 +5,7 @@ This document provides instructions to disable RyuJIT or one of its optimization
 
 If you find a problem that appears to be a bug with the .NET JIT compiler, we want to know about it! Please report the bug at [Visual Studio Connect](https://connect.microsoft.com/VisualStudio) or as a [microsoft/dotnet issue](https://github.com/microsoft/dotnet/issues).
 
-**Important** Follow the steps in this document carefully. Serious problems might
+**Important** Follow these steps in this document carefully. Serious problems might be
 occur if you modify the registry incorrectly. Before you modify it,
 [back up the registry](http://support.microsoft.com/kb/322756) so that it can be  restored in case problems occur.
 
@@ -77,7 +77,7 @@ Disable loading NGEN Images
 
 If you encounter a bug when you use the new JIT, and if the bug manifests itself in a function in an NGEN native image (see [here](https://msdn.microsoft.com/en-us/library/6t9t5wcf(v=vs.110).aspx) for details), use any of the following methods to force certain named assemblies to be recompiled by the JIT and not use the existing native images. You will generally pair one of these methods with the same numbered method above to get an NGEN image to fall back to JIT compilation, and, in addition, do that JIT compilation with the legacy JIT.
 
-In the examples below, we wish to prevent using the NGEN images of three assemblies, named `assembly_one.dll`, `assembly_two.dll`, and `assembly_three.dll`. We specify the assemblies using simple assembly names (no public key token, no architecture, and so on). The assembly names are specified without using the `.dll` file name extension.
+In the examples below, we wish to prevent using the NGEN images of three assemblies, named `assembly_one.dll`, `assembly_two.dll`, and `assembly_three.dll`. We specify these assemblies using simple assembly names (no public key token, no architecture, and so on). The assembly names are specified without using the `.dll` file name extension.
 
 ### Method 1: : per-application config file
 
@@ -168,7 +168,7 @@ Using Registry Editor (regedit.exe), find either of the following subkeys:
         Type: DWORD (32-bit) Value (also called REG_WORD)
         Value: 1
 
-  **Note** Windows has both 32-bit and 64-bit registry sections. The addresses shown above use the 64-bit registry path, so are appropriate for troubleshooting RyuJIT and not affecting 32-bit .NET applications. On a 64-bit machine, the 32-bit registry path for the `HKEY_LOCAL_MACHINE` case is `HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework`.
+  **Note** Windows has both 32-bit and 64-bit registry sections. The addresses shown above use the 64-bit registry path, so they are appropriate for troubleshooting RyuJIT and not affecting 32-bit .NET applications. On a 64-bit machine, the 32-bit registry path for the `HKEY_LOCAL_MACHINE` case is `HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework`.
 
 Disable Tail Call Optimization
 ==============================

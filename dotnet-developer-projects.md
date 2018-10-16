@@ -116,6 +116,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [Castle Windsor ASP.NET Core / Microsoft.Extensions.DependencyInjection Adapter](https://github.com/volosoft/castle-windsor-ms-adapter) - This library is a Castle Windsor adapter for the Microsoft.Extensions.DependencyInjection NuGet package.
   * [Cecil](https://github.com/jbevain/cecil) - A popular library to read, modify and write .NET binaries.
   * [Cimbalino Toolkit](https://github.com/Cimbalino/Cimbalino-Toolkit) - A set of useful and powerful tools that will help you build your Windows Platform applications.
+  * [Cinchoo ETL](https://github.com/Cinchoo/ChoETL) - ETL Framework for .NET (Parser / Writer for CSV, Flat, Xml, JSON, Key-Value formatted files).  
   * [CodeJam](https://github.com/rsdn/CodeJam) - Set of handy reusable .NET components that can simplify your daily work and save your time when you copy and paste your favorite helper methods and classes from one project to another. 
   * [Coding4Fun Toolkit](https://github.com/Coding4FunProjects/Coding4FunToolkit)
   * [ColoredConsole](https://github.com/colored-console/colored-console) - Add some color to your console.

@@ -63,13 +63,11 @@ for .NET Framework 4.6 and later applications running on .NET Framework 4.7 or l
 
 - Registry key (machine global):
 
-    Set the Value to `false` to enable the feature in .NET Framework 4.6 - 4.6.2.
+   Set the Value to `false` to enable the feature in .NET Framework 4.6 - 4.6.2.
 
-    ```
-    Key = HKLM\SOFTWARE\[Wow6432Node\]Microsoft\.NETFramework\AppContext\Switch.System.Net.DontEnableTlsAlerts
-    Type = String
-    Value = "true"
-    ```
+     - Key: HKLM\SOFTWARE\Wow6432Node\Microsoft\\.NETFramework\AppContext\Switch.System.Net.DontEnableTlsAlerts
+     - Type: String
+     - Value: "true"
 
 ### Affected APIs
 * `T:System.Net.Security.SslStream`

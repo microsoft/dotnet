@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.IO;
 using System.Collections.Generic;
 using System.Text;
@@ -11,7 +11,7 @@ namespace bc_readme_gen
         {
             if (args == null || args.Length == 0)
             {
-                Console.WriteLine("Bad argument.");
+                Console.WriteLine($"{Globals.Errors["BAD_ARG"]}");
                 Console.WriteLine("You need to specify location of breaking change documents.");
             }
             
@@ -93,13 +93,13 @@ namespace bc_readme_gen
                     }
 
                     var hashLink = $"net-framework-{hashVersion.ToString()}";
-                    writer.WriteLine($"- [.NET Framework {ver}](#{hashLink})");
+                    writer.WriteLine($"- [{Globals.Framework} {ver}](#{hashLink})");
                 }
 
                 foreach(var ver in keysArray)
                 {
                     writer.WriteLine();
-                    writer.WriteLine($"## .NET Framework {ver}");
+                    writer.WriteLine($"## {Globals.Framework} {ver}");
                     writer.WriteLine();
 
                     var breaks = bcList[ver];

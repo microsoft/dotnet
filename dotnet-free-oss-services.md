@@ -14,7 +14,7 @@ Please sort projects alphabetically and provide a one-line description. Where po
 
 * [Xamarin](http://resources.xamarin.com/open-source-contributor.html) - Share .Net code across Windows, iOS, Android and Mac.
 
-## Hosted Build and Continous Integration
+## Hosted Build and Continuous Integration
 
 * [AppVeyor](http://www.appveyor.com/pricing) - Windows based cloud build/CI servers tailored for .Net developers.
 * [TeamCity at CodeBetter](http://codebetter.com/codebetter-ci) - JetBrains TeamCity CI server made available for open source projects by CodeBetter.

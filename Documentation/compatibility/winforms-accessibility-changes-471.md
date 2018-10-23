@@ -47,7 +47,7 @@ In order for the application to benefit from these changes, it must run on the .
 
 </br>Applications that target the .NET Framework 4.7.1 or later and want to preserve the legacy accessibility behavior can opt in to the use of legacy accessibility features by explicitly setting this AppContext switch to `true`.<p/>
 
-For an overview of UI automation, see the [UI Automation Overview](~/docs/framework/ui-automation/ui-automation-overview.md).</p/><p/> 
+For an overview of UI automation, see the [UI Automation Overview](~/docs/framework/ui-automation/ui-automation-overview.md).<p/> 
 
 **Added support for UI Automation patterns and properties**<br/>
 

@@ -47,7 +47,7 @@ In order for the application to benefit from these changes, it must run on the .
 
 </br>Applications that target the .NET Framework 4.7.1 or later and want to preserve the legacy accessibility behavior can opt in to the use of legacy accessibility features by explicitly setting this AppContext switch to `true`.<p/>
 
-For an overview of UI automation, see the [UI Automation Overview](~/docs/framework/ui-automation/ui-automation-overview.md).</p/><p/> 
+For an overview of UI automation, see the [UI Automation Overview](~/docs/framework/ui-automation/ui-automation-overview.md).<p/> 
 
 **Added support for UI Automation patterns and properties**<br/>
 
@@ -66,7 +66,7 @@ The .NET Framework 4.7.1 adds support for the following UI automation patterns a
 **Improvements to the PropertyGrid control**</br>
 
 The .NET Framework 4.7.1 adds the following improvements to the PropertyBrowser control: 
-- The **Details** button in the error dialog that is displayed when the user enters an incorrect value in the <xref:System.Windows.Forms.PropertyGrid> control supports the [Expand/Collapse pattern](~/docs/framework/ui-automation/implementing-the-ui-automation-expandcollapse-control-pattern.md), state and name change notifications, and a [ControlType]~/docs/framework/ui-automation/ui-automation-support-for-the-menubar-control-type.md) property with a value of <xref:System.Windows.Automation.ControlType.MenuItem?displayProperty=nameWithType>.
+- The **Details** button in the error dialog that is displayed when the user enters an incorrect value in the <xref:System.Windows.Forms.PropertyGrid> control supports the [Expand/Collapse pattern](~/docs/framework/ui-automation/implementing-the-ui-automation-expandcollapse-control-pattern.md), state and name change notifications, and a [ControlType](~/docs/framework/ui-automation/ui-automation-support-for-the-menubar-control-type.md) property with a value of <xref:System.Windows.Automation.ControlType.MenuItem?displayProperty=nameWithType>.
 - The message pane displayed when the **Details** button of the error dialog is expanded is now keyboard accessible and allows Narrator to announce the content of the error message.
 - The [AccessibleRole](xref:System.Windows.Forms.AccessibleRole) of rows in the <xref:System.Windows.Forms.PropertyGrid> control have changed from "Row" to "Cell". The cell maps to UIA ControlType "DataItem", which allows it to support appropriate keyboard shortcuts and Narrator announcements.
 - The <xref:System.Windows.Forms.PropertyGrid> control rows that represent header items when the <xref:System.Windows.Forms.PropertyGrid> control has a <xref:System.Windows.Forms.PropertyGrid.PropertySort> property set to <xref:System.Windows.Forms.PropertySort.Categorized?displayProperty=nameWithType> have a [ControlType](~/docs/framework/ui-automation/ui-automation-support-for-the-menubar-control-type.md) property value of <xref:System.Windows.Automation.ControlType.Button?displayProperty=nameWithType>.

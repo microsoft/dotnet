@@ -9,9 +9,11 @@
 
 ## Cause
 [|Description of the root cause(s)|]
+//A description of the root cause(s) that leads to the issue
 
 ## Workaround 
 [|Description of the workaround, if available|]
+//A way to workaround the issue (if any)
 
 ## Resolution
 [|Description of the resolution|]

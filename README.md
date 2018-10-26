@@ -40,7 +40,7 @@ There are many projects that you can use and contribute to, some of which are li
 - [.NET Framework source code - read-only subset (microsoft/referencesource)](https://github.com/microsoft/referencesource)
 
 ### Xamarin
-
+Xamarin is a Microsoft-owned San Francisco, California-based software company founded in May 2011 by the engineers that created Mono, Mono for Android and MonoTouch, which are cross-platform implementations of the Common Language Infrastructure and Common Language Specifications.
 - [Xamarin iOS + macOS (xamarin-macios)](https://github.com/xamarin/xamarin-macios)
 - [Xamarin Android (xamarin/xamarin-android)](https://github.com/xamarin/xamarin-android)
 - [Xamarin Forms (xamarin/Xamarin.Forms)](https://github.com/xamarin/Xamarin.Forms)

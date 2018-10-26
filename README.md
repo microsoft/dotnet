@@ -62,7 +62,7 @@ Here is a short list of projects to check out:
 There are additional templates available for `dotnet new`. For more information, see [Available templates for dotnet new](https://github.com/dotnet/templating/wiki/Available-templates-for-dotnet-new)
 
 ## .NET Foundation
-
+The .NET Foundation is an independent organization, incorporated on March 31, 2014, by Microsoft, to improve open-source software development and collaboration around the .NET Framework. It was launched at the annual Build 2014 conference held by Microsoft.
 Many .NET open source projects are part of the
 [.NET Foundation](http://www.dotnetfoundation.org/projects). Microsoft has contributed many projects, including ASP.NET Core and
 .NET Core. You may want to consider [joining the .NET Foundation](https://dotnetfoundation.org/get-involved).

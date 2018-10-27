@@ -18,8 +18,8 @@ Please contribute to this repository via [pull requests](https://github.com/Micr
 
 ## Finding .NET Open Source Projects
 
-Here are some excellent community-maintained lists of projects:
-
+Here are some excellent community-maintained lists of projects:      
+     
 - [Awesome .NET!](https://github.com/quozd/awesome-dotnet)
 - [ASP.NET Core Library and Framework Support](https://github.com/jpsingleton/ANCLAFS)
 

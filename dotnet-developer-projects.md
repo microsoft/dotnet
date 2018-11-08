@@ -125,6 +125,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [Comparers](https://github.com/StephenCleary/Comparers) - Fluent syntax for building comparers (and equality comparers) and implementing object comparison.
   * [CoordinateSharp](https://github.com/Tronald/CoordinateSharp) - Parse or convert geographic coordinate formats and calculate location based solar/lunar information.
   * [Cricket](https://github.com/fsprojects/Cricket) - Actor library.
+  * [DalSoft.RestClient](https://restclient.dalsoft.io/) - An extensible, dynamic and fluent Rest Client. Create frictionless code whilst still using the HttpClient you already know.
   * [DateTimeExtensions](https://github.com/kappy/DateTimeExtensions) - Common Date Time operations on the form of extensions to System.DateTime, including holidays and working days calculations on several culture locales.
   * [DeveelDB](https://github.com/deveel/deveeldb) - SQL-99 embeddable database engine for .NET.
   * [Deveel Math](https://github.com/deveel/deveel-math) - A port of Google's Harmony library of the Math components to .NET for the computation of astonomic decimals (numbers with more than 1 million decimal digits).

@@ -1,4 +1,4 @@
-# Setup fails to install files on OS when upgraded from Windows 7 SP1 or Windows Server 2008 R2 with .NET Framework 4.7.2 .
+# Setup fails to install files on OS when upgraded from Windows 7 SP1 or Windows Server 2008 R2 with .NET Framework 4.7.2
 
 ## Symptoms
 When you install the .NET Framework 4.7.2 on Windows 10 version 1803 or lower and your system was upgraded from Windows 7 SP1 with .NET Framework 4.7.2 , .NET 4.7.2 setup installation reports success but fails to install .NET 4.7.2 files on the machine.

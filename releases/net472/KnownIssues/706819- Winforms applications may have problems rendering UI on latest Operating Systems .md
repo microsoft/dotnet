@@ -1,7 +1,8 @@
- # Winforms application may have problems rendering the application UI and instead, may render a white screen with a red ‘X’ mark across. The issue is caused by a change in Windows 10 October 2018 Update that exposed a bug in .NET Framework 4.7.2.
+ # WinForms applications may have problems rendering the application UI and instead may render a white screen with a red ‘X’ symbol. The issue is caused by a change in Windows 10 October 2018 Update that exposed a bug in .NET Framework 4.7.2.
 
 ## Symptoms
-Winforms application may have problems rendering the application UI and instead, may render a white screen with a red ‘X’ mark across. The issue is caused by a change in Windows 10 October 2018 Update that exposed a bug in .NET Framework 4.7.2.
+WinForms applications may have problems rendering the application UI and instead may render a white screen with a red ‘X’ symbol. The issue is caused by a change in Windows 10 October 2018 Update that exposed a bug in .NET Framework 4.7.2.
+
 ## Cause
 The issue is caused by a change in Windows 10 October 2018 Update that exposed a bug in .NET Framework 4.7.2. Latest Windows 10 October 2018 Update is now adds a new flag to VisualStyle state when the application UI launches a child  dialog (i.e., a FileSaveDialog or PrintpreviewDialog) that causes .NET Framework to fail its VisualStyleState check and thus throw an exception while rendering the application UI.
 

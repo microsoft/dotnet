@@ -17,11 +17,11 @@ If you find that regular expressions in your web application do not work after u
 
 ```xml
     <configuration>
-      <appsettings>
+      <appSettings>
       ...
         <add key="dataAnnotations:dataTypeAttribute:disableRegEx" value="false"/>
       ...
-      </appsettings>
+      </appSettings>
     </configuration>
 ```
 

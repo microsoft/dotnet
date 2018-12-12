@@ -33,6 +33,8 @@ There are many projects that you can use and contribute to, some of which are li
 - [ASP.NET Core docs (aspnet/Docs)](https://github.com/aspnet/Docs)
 - [Roslyn Compiler Platform (dotnet/roslyn)](https://github.com/dotnet/roslyn)
 - [EntityFramework (aspnet/entityframework)](https://github.com/aspnet/EntityFramework)
+- [WPF (dotnet/wpf)](https://github.com/dotnet/wpf)
+- [Windows Forms (dotnet/winforms)](https://github.com/dotnet/winforms)
 
 ### .NET Framework
 

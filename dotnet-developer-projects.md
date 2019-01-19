@@ -348,8 +348,8 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [Duality](https://github.com/AdamsLair/duality) - An Open Source 2D Game Engine + Visual Editor written entirely in C#.
   * [MonoGame](https://github.com/mono/MonoGame) - One framework for creating powerful cross-platform games.
   * [OpenRA](https://github.com/OpenRA/OpenRA) - An open-source implementation of the Command & Conquer: Red Alert engine using .NET/Mono and OpenGL.
-  * [Paradox](https://github.com/SiliconStudio/paradox) - Paradox is a versatile and engaging game engine.
   * [WaveEngine](https://github.com/waveengine) - A powerful component based game engine for desktop and mobile platforms using C#.
+  * [Xenko](https://github.com/xenko3d/xenko) - Xenko is a versatile and engaging game engine.
  
 ## UI and Control libraries
   * [Callisto](https://github.com/timheuer/callisto) - UI Control Toolkit for WinRT apps.

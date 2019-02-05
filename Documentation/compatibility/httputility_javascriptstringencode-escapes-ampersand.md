@@ -21,7 +21,7 @@ escapes the ampersand (&amp;) character.
 
 If your app depends on the previous behavior of this method, you can add an
 aspnet:JavaScriptDoNotEncodeAmpersand setting to the
-[ASP.NET appSettings element](https://msdn.microsoft.com/library/hh975440.aspx)
+[ASP.NET appSettings element](https://docs.microsoft.com/previous-versions/aspnet/hh975440(v=vs.120))
 in your configuration file.
 
 ### Affected APIs

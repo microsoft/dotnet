@@ -26,7 +26,7 @@ cspParameters.ParentWindowHandle = form.Handle;
 
 In previous versions of the .NET Framework, the value was expected to be an <xref:System.IntPtr?displayProperty=name>
 representing a location in memory where the
-[HWND](https://msdn.microsoft.com/library/windows/desktop/aa383751.aspx#HWND) value resided.
+[HWND](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types#HWND) value resided.
 Setting the property to form.Handle on Windows 7 and earlier versions had no
 effect, but on Windows 8 and later versions, it results in a
 "<xref:System.Security.Cryptography.CryptographicException?displayProperty=name>: The parameter is incorrect."

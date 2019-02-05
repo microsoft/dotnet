@@ -25,7 +25,7 @@ Ideally, applications should be updated to not use UTF-7 encoding in
 <xref:System.Web.HttpRequest?displayProperty=name>s. Alternatively, legacy
 behavior can be restored by using the `aspnet:AllowUtf7RequestContentEncoding`
 attribute of the
-[appSettings](https://msdn.microsoft.com/library/hh975440(v=vs.110).aspx)
+[appSettings](~/docs/framework/configure-apps/file-schema/appsettings/appsettings-element-for-configuration.md)
 element.
 
 ### Affected APIs

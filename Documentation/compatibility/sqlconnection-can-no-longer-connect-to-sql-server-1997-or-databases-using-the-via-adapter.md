@@ -20,7 +20,7 @@ Also, connections to SQL Server 7 (1997) are no longer supported.
 - [ ] Build-time break
 
 ### Recommended Action
-The VIA protocol is deprecated, so an alternative protocol should be used to connect to SQL databases. The most common protocol used is TCP/IP. Instructions for enabling the TCP/IP protocol can be found [here](https://msdn.microsoft.com/library/bb909712.aspx). If the database is only accessed from within an intranet, the shared pipes protocol may provide better performance if the network is slow.
+The VIA protocol is deprecated, so an alternative protocol should be used to connect to SQL databases. The most common protocol used is TCP/IP. For more information about connecting through TCP/IP, see [Enable the TCP/IP protocol for a database instance](https://docs.microsoft.com/previous-versions/visualstudio/visual-studio-2008/bb909712(v=vs.90)). If the database is only accessed from within an intranet, the shared pipes protocol may provide better performance if the network is slow.
 
 ### Affected APIs
 * `M:System.Data.SqlClient.SqlConnection.#ctor(System.String)`

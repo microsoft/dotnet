@@ -39,6 +39,6 @@ that will deterministically sort the items in the desired order.
 ### Category
 Core
 
-[More information](http://stackoverflow.com/questions/12461328/behaviour-of-listt-sort-in-net-4-5-changed-from-net-4-0?rq=1)
+[More information](https://stackoverflow.com/questions/12461328/behaviour-of-listt-sort-in-net-4-5-changed-from-net-4-0?rq=1)
 
 <!-- breaking change id: 54 -->

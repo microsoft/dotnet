@@ -30,6 +30,6 @@ Upgrade to Entity Framework 5 for .NET Framework 4.5
 ### Category
 Entity Framework
 
-[More information](http://forums.asp.net/t/1779042.aspx)
+[More information](https://forums.asp.net/t/1779042.aspx)
 
 <!-- breaking change id: 25 -->

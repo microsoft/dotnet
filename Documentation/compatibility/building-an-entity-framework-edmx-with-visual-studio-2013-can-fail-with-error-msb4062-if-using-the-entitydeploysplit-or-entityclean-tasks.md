@@ -33,6 +33,6 @@ Entity Framework targets files are fixed to work with the new MSBuild layout beg
 ### Category
 Entity Framework
 
-[More information](http://stackoverflow.com/questions/20400054/entitydeploysplit-error-microsoft-data-entity-build-tasks-dll-missing/24249247#24249247)
+[More information](https://stackoverflow.com/questions/20400054/entitydeploysplit-error-microsoft-data-entity-build-tasks-dll-missing/24249247#24249247)
 
 <!-- breaking change id: 109 -->

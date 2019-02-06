@@ -15,8 +15,8 @@ String representations of
 <xref:System.Net.Mime.ContentDisposition?displayProperty=name>'s have been
 updated, beginning in 4.6, to always represent the hour component of a
 <xref:System.DateTime?displayProperty=name> with two digits. This is to comply
-with [RFC822](http://www.ietf.org/rfc/rfc0822.txt) and
-[RFC2822](http://www.ietf.org/rfc/rfc2822.txt). This causes
+with [RFC822](https://www.ietf.org/rfc/rfc0822.txt) and
+[RFC2822](https://www.ietf.org/rfc/rfc2822.txt). This causes
 <xref:System.Net.Mime.ContentDisposition.ToString>
 to return a slightly different string in 4.6 in scenarios where one of the
 disposition's time elements was before 10:00 AM. Note that

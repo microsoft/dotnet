@@ -20,7 +20,7 @@ https://dotnet.myget.org/feed/roslyn-tools/package/nuget/Microsoft.NETFramework.
 
 ## Latest release
 
-Version:	1.0.0-alpha-5
+Version:  1.0.0-alpha-5
 
-Releases:	Tue, 04 Dec 2018 00:13:27 GMT
+Date:  Tue, 04 Dec 2018 00:13:27 GMT
 

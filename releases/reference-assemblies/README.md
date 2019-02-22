@@ -12,6 +12,69 @@ The following scenarios and benefits are enabled for .NET Framework projects:
 
 Early preview.
 
+## Usage
+
+At the moment, packages are located on a non-default package feed. Until packages are moved to the default package feed, a change in your project's `NuGet.Config` file is needed. Add the following line to `<packageSources>` section:
+
+```xml
+<add key="roslyn-tools" value="https://dotnet.myget.org/f/roslyn-tools/api/v3/index.json" />
+```
+
+Sample `NuGet.Config` file:
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+<packageSources>
+    <add key="roslyn-tools" value="https://dotnet.myget.org/f/roslyn-tools/api/v3/index.json" />
+</packageSources>
+</configuration>
+```
+
+Make the following changes based on the type of project you are using.
+
+### SDK-style project
+
+Add `TargetFramework` property and a `PackageReference` like in the following example `csproj` file:
+
+```xml
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net472</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.0-alpha-5" />
+  </ItemGroup>
+
+</Project>
+```
+
+### Classic-style project
+
+Add `PackageReference` to your `csproj` file, the same way as in the SDK-style sample above.
+
+Add, or modify, `TargetFrameworkVersion` property in your `csproj` file:
+
+```xml
+<TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+```
+
+### Building your project
+
+1. Restore NuGet packages:
+
+```xml
+msbuild /t:restore
+```
+
+2. Build the project:
+
+```xml
+msbuild
+```
+
 ## Package location
 
 https://dotnet.myget.org/feed/roslyn-tools/package/nuget/Microsoft.NETFramework.ReferenceAssemblies

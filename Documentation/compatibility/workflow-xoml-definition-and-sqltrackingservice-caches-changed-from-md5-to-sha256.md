@@ -27,8 +27,8 @@ customers to revert back to usage of the legacy hashing algorithm, if necessary.
 ### Recommended Action
 If this change presents a problem when executing workflows, try setting one or both of
 the `AppContext` switches:
-"Switch.System.Workflow.Runtime.UseLegacyHashForWorkflowDefinitionDispenserCacheKey" to true.
-"Switch.System.Workflow.Runtime.UseLegacyHashForSqlTrackingCacheKey" to true.
+- "Switch.System.Workflow.Runtime.UseLegacyHashForWorkflowDefinitionDispenserCacheKey" to true.
+- "Switch.System.Workflow.Runtime.UseLegacyHashForSqlTrackingCacheKey" to true.
 
 In code:
 ```csharp
@@ -36,7 +36,7 @@ System.AppContext.SetSwitch("Switch.System.Workflow.Runtime.UseLegacyHashForWork
 System.AppContext.SetSwitch("Switch.System.Workflow.Runtime.UseLegacyHashForSqlTrackingCacheKey", true);
 ```
 
-Or in configuration (this needs to be in config file for the application that is creating the WorkflowRuntime object):
+Or in the configuration file (this needs to be in the config file for the application that is creating the <xref:System.Workflow.Runtime.WorkflowRuntime> object):
 ```xml
 <configuration>
    <runtime>

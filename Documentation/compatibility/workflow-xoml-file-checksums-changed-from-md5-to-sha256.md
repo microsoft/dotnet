@@ -12,7 +12,7 @@ NotPlanned
 ### Change Description
 To support debugging XOML-based workflows with Visual Studio,
 when workflow projects containing XOML files build, a checksum of the contents of the XOML file is included in the code
-generated as a WorkflowMarkupSourceAttribute.MD5Digest value.
+generated as a <xref:System.Workflow.ComponentModel.Compiler.WorkflowMarkupSourceAttribute.MD5Digest?displayProperty=nameWithType> value.
 In the .NET Framework 4.7.2 and earlier versions, this checksum hashing used the MD5 
 algorithm, which caused issues on FIPS-enabled systems. Starting with the .NET Framework 4.8, 
 the algorithm used is SHA256. To be compatibile with the WorkflowMarkupSourceAttribute.MD5Digest,
@@ -32,7 +32,7 @@ In code:
 System.AppContext.SetSwitch("Switch.System.Workflow.ComponentModel.UseLegacyHashForXomlFileChecksum", true);
 ```
 
-Or in configuration (this needs to be in MSBuild.exe.config for the MSBuild.exe that you are using):
+Or in a configuration file (this needs to be in MSBuild.exe.config for the MSBuild.exe that you are using):
 ```xml
 <configuration>
    <runtime>

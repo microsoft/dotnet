@@ -12,7 +12,7 @@ NotPlanned
 ### Change Description
 The Windows Workflow Foundation (WF) workflow designer is improving how it works with accessibility technologies. These improvements include the following changes:
 - Users using Narrator will see improvements in FlowSwitch case labels.
-- Users who choose High Contrast themes will see many improvements in the visibility of the Workflow Designer and its controls like better contrast ratios between elements and more noticeable selection boxes used for focus elements.
+- Users who choose High Contrast themes will see many improvements in the visibility of the Workflow Designer and its controls, like better contrast ratios between elements and more noticeable selection boxes used for focus elements.
 - Users using Narrator will see improvements in button descriptions.
 
 - [x] Quirked
@@ -20,9 +20,9 @@ The Windows Workflow Foundation (WF) workflow designer is improving how it works
 
 ### Recommended Action
 If you have an application with a re-hosted workflow designer, your application can benefit from these changes by performing either of these actions:
-- Recompile your application to target the .NET Framework 4.7.1. These accessibility changes are enabled by default.
-- If your application targets the .NET Framework 4.7 or earlier but is running on the .NET Framework 4.7.1, you can opt out of these legacy accessibility behaviors by adding the following [AppContext switch](~/docs/framework/configure-apps/file-schema/runtime/appcontextswitchoverrides-element.md) to the `<runtime>` section of the app.config file and set it to `false`, as the following example shows.
-```
+- Recompile your application to target the .NET Framework 4.8 or later. These accessibility changes are enabled by default.
+- If your application targets the .NET Framework 4.7.2 or earlier but is running on the .NET Framework 4.8 or later, you can opt out of these legacy accessibility behaviors by adding the following [AppContext switch](~/docs/framework/configure-apps/file-schema/runtime/appcontextswitchoverrides-element.md) to the `<runtime>` section of the app.config file and set it to `false`, as the following example shows.
+```xml
     <?xml version="1.0" encoding="utf-8"?>
     <configuration>
       <startup>
@@ -34,7 +34,7 @@ If you have an application with a re-hosted workflow designer, your application 
       </runtime>
     </configuration>
 ```
-Applications that target the .NET Framework 4.8 or later and want to preserve the legacy accessibility behavior can opt in to the use of legacy accessibility features by explicitly setting this AppContext switch to `true`.
+Applications that target the .NET Framework 4.8 and want to preserve the legacy accessibility behavior can opt in to the use of legacy accessibility features by explicitly setting this AppContext switch to `true`.
 
 
 ### Affected APIs

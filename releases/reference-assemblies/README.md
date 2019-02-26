@@ -33,6 +33,30 @@ Sample `NuGet.Config` file:
 
 Make the following changes based on the type of project you are using.
 
+### .NET Core project
+
+This sample uses a multi-targeting ClassLibrary project, that can be created using `dotnet new classlib`. Add or modify NuGet.config file as described above.
+
+Change `TargetFramework` property to `TargetFrameworks` and add a new .NET Framework target, like in the following example:
+
+```xml
+<TargetFrameworks>netstandard2.0;net472</TargetFrameworks>
+```
+
+Add Package reference:
+
+```xml
+  <ItemGroup Condition=" '$(TargetFramework)' == 'net472' ">
+    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.0-alpha-5" />
+  </ItemGroup>
+```
+
+Build as usual:
+
+```xml
+dotnet build
+```
+
 ### SDK-style project
 
 Add `TargetFramework` property and a `PackageReference` like in the following example `csproj` file:
@@ -61,7 +85,7 @@ Add, or modify, `TargetFrameworkVersion` property in your `csproj` file:
 <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
 ```
 
-### Building your project
+### Building your .NET Framework (SDK and Classic) project
 
 1. Restore NuGet packages:
 

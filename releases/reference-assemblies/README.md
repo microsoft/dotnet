@@ -46,14 +46,14 @@ Change `TargetFramework` property to `TargetFrameworks` and add a new .NET Frame
 Add Package reference:
 
 ```xml
-  <ItemGroup Condition=" '$(TargetFramework)' == 'net472' ">
-    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.0-alpha-5" />
-  </ItemGroup>
+<ItemGroup Condition=" '$(TargetFramework)' == 'net472' ">
+  <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.0-alpha-5" />
+</ItemGroup>
 ```
 
 Build as usual:
 
-```xml
+```console
 dotnet build
 ```
 
@@ -77,9 +77,9 @@ Add `TargetFramework` property and a `PackageReference` like in the following ex
 
 ### Classic-style project
 
-Add `PackageReference` to your `csproj` file, the same way as in the SDK-style sample above.
+1. Add `PackageReference` to your `csproj` file, the same way as in the SDK-style sample above.
 
-Add or modify the `TargetFrameworkVersion` property in your *csproj* file:
+2. Add or modify the `TargetFrameworkVersion` property in your *csproj* file:
 
 ```xml
 <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
@@ -89,13 +89,13 @@ Add or modify the `TargetFrameworkVersion` property in your *csproj* file:
 
 1. Restore NuGet packages:
 
-```xml
+```console
 msbuild /t:restore
 ```
 
 2. Build the project:
 
-```xml
+```console
 msbuild
 ```
 

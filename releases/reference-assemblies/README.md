@@ -79,7 +79,7 @@ Add `TargetFramework` property and a `PackageReference` like in the following ex
 
 Add `PackageReference` to your `csproj` file, the same way as in the SDK-style sample above.
 
-Add, or modify, `TargetFrameworkVersion` property in your `csproj` file:
+Add or modify the `TargetFrameworkVersion` property in your *csproj* file:
 
 ```xml
 <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>

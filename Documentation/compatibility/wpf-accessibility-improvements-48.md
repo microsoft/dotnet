@@ -69,7 +69,7 @@ This feature adds support for WPF applications to expose these two properties to
 ```
 3. __Automatic Values__<br/>Items in [ItemsControls](xref:System.Windows.Controls.ItemsControl) will provide a value for these properties automatically without additional action from the developer. If an ItemsControl is grouped, the collection of groups will be represented as a set and each group counted as a separate set, with each item inside that group providing it’s position inside that group as well as the size of the group. Automatic values are not affected by virtualization. Even if an item is not realized, it is still counted towards the total size of the set and affects the position in the set of it’s sibling items.
 
-##### ControllerFor property support</br>
+##### ControllerFor property support
 UIAutomation’s ControllerFor property returns an array of automation elements that are manipulated by the automation element that supports this property. This property is commonly used for Auto-suggest accessibility. ControllerFor is used when an automation element affects one or more segments of the application UI or the desktop. Otherwise, it is hard to associate the impact of the control operation with UI elements. This feature adds the ability for controls to provide a value for ControllerFor property.
 
 A new virtual method has been added to [AutomationPeer](xref:System.Windows.Automation.Peers.AutomationPeer):
@@ -105,6 +105,25 @@ public class AutoSuggestTextBox: TextBox
         }
     }
 ```
+
+##### Name Automation property is now correctly propagated for DatePicker and RibbonComboBox controls
+Fixed an accessibility problem where [DatePicker](xref:System.Windows.Controls.DatePicker) and [RibbonComboBox](xref:System.Windows.Controls.Ribbon.RibbonComboBox) wouldn't reflect the [AutomationProperties.Name](xref:System.Windows.Automation.AutomationProperties.Name) value assigned to it when read by a screen reader.
+
+##### Expanders in GroupItem headers are now announced by screen readers
+Fixed an accessibility problem where an [Expander](xref:System.Windows.Controls.Expander) in a re-templated [GroupItem's](xref:System.Windows.Controls.GroupItem) header was not being announced by screen readers.
+
+##### Improved focus move logic when WPF is hosted in Windows Forms
+Fixed an accessibility problem where focus loops inside a WPF [UserControl](xref:System.Windows.Controls.UserControl) instead of breaking out of it under some hosting scenarios
+
+##### Changed padding header in GridView to not focusable
+Fixed an accessibility problem where the automatically generated padding header in [GridView](xref:System.Windows.Controls.GridView) was focusable, creating a bad experience for keyboard-only users.
+
+##### Fixed automation tree for plain ItemsControl
+Fixed an accessibility problem where the automation tree exposed for a plain [ItemsControls](xref:System.Windows.Controls.ItemsControl) (as opposed to a derived class like ListBox, DataGrid, etc.) was not correct.
+
+##### Fixed bounding rectangles in Per-Monitor DPI.
+Fixed an accessibility problem where certain bounding rectangles around text are drawn incorrectly by Accessibility tools when WPF is run in Per-Monitor Aware mode.
+
 </br>
 
 - [x] Quirked
@@ -173,8 +192,14 @@ WPF
 
 <!--
     ### Original Bug
+        410007
         433560
         488213
         503411
+        520147
+        542626
+        559546
         614397
+        617457
+        646633
 -->

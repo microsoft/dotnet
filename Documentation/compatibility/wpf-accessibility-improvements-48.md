@@ -12,7 +12,7 @@ NotPlanned
 ### Change Description
 ##### Tooltips show on Keyboard focus
 Currently tooltips only display when a user hovers the mouse cursor over a control. In .NET Framework 4.8, WPF is adding a feature that enables tooltips to show on keyboard focus, as well as via a keyboard shortcut.
-To enable this feature, an application needs to target .NET Framework 4.8 or opt-in via AppContext switch “Switch.UseLegacyAccessibilityFeatures.3” and “Switch.UseLegacyToolTipDisplay”.
+To enable this feature, an application needs to target .NET Framework 4.8 or opt-in via [SystemColors.HighlightTextBrushKey](xref:System.Windows.SystemColors.HighlightTextBrushKey) “Switch.UseLegacyAccessibilityFeatures.3” and “Switch.UseLegacyToolTipDisplay”.
 ###### Sample App.config file: 
 ```xml
     
@@ -29,17 +29,17 @@ To enable this feature, an application needs to target .NET Framework 4.8 or opt
 
 Once enabled, all controls containing a tooltip will start to display it once the control receives keyboard focus. The tooltip can be dismissed over time or when keyboard focus changes. Users can also dismiss the tooltip manually via a new keyboard shortcut Ctrl + Shift + F10. Once the tooltip has been dismissed it can be displayed again via the same keyboard shortcut.
 
-Note: RibbonToolTips on Ribbon controls won’t show on keyboard focus – they will only show via the keyboard shortcut.
+Note: [RibbonToolTips](xref:System.Windows.Controls.Ribbon.RibbonToolTip) on [RibbonControls](xref:System.Windows.Controls.Ribbon.RibbonControl) won’t show on keyboard focus – they will only show via the keyboard shortcut.
 
 ##### Elements with Collapsed or Hidden visibility are no longer announced by screen readers
 User interfaces containing Collapsed or Hidden elements can be misrepresented by screen readers if such elements get announced to the user. In .NET Framework 4.8, WPF no longer includes Collapsed or Hidden elements in the Control View of the UIAutomation tree, so that screen readers no longer announce these elements.
 
 ##### SizeOfSet and PositionInSet Support
-Windows 10 introduced new UIAutomation properties SizeOfSet and PositionInSet which are used by applications to describe the count of items in a set. UIAutomation client applications such as screen readers can then query an application for these properties and announce an accurate representation of the application’s UI.
+Windows 10 introduced new [UIAutomation properties](https://docs.microsoft.com/en-us/windows/desktop/winauto/uiauto-automation-element-propids) SizeOfSet and PositionInSet which are used by applications to describe the count of items in a set. UIAutomation client applications such as screen readers can then query an application for these properties and announce an accurate representation of the application’s UI.
 
 This feature adds support for WPF applications to expose these two properties to UIAutomation. This can be accomplished in two ways:
 
-1. __Dependency Properties__</br> New DependencyProperties SizeOfSet and PositionInSet have been added to the System.Windows.Automation.AutomationProperties namespace. A developer can set their values via XAML:
+1. __Dependency Properties__</br> New [DependencyProperties](xref:System.Windows.DependencyProperty) [SizeOfSet](xref:System.Windows.Automation.AutomationProperties.SizeOfSetProperty) and [PositionInSet](xref:System.Windows.Automation.AutomationProperties.PositionInSetProperty) have been added to the System.Windows.Automation.AutomationProperties namespace. A developer can set their values via XAML:
 ```xml
     <Button AutomationProperties.SizeOfSet="3" 
             AutomationProperties.PositionInSet="1">Button 1</Button> 
@@ -50,7 +50,7 @@ This feature adds support for WPF applications to expose these two properties to
 ```
 
 
-2. __AutomationPeer virtual methods__</br> Virtual methods GetSizeOfSetCore and GetPositionInSetCore have also been added to the AutomationPeer class. A developer can provide values for SizeOfSet and PositionInSet by overriding these methods:
+2. __AutomationPeer virtual methods__</br> Virtual methods [GetSizeOfSetCore](xref:System.Windows.Automation.Peers.AutomationPeer.GetSizeOfSetCore) and [GetPositionInSetCore](xref:System.Windows.Automation.Peers.AutomationPeer.GetPositionInSetCore) have also been added to the [AutomationPeer](xref:System.Windows.Automation.Peers.AutomationPeer) class. A developer can provide values for SizeOfSet and PositionInSet by overriding these methods:
 ```csharp
     public class MyButtonAutomationPeer : ButtonAutomationPeer 
     { 
@@ -67,16 +67,16 @@ This feature adds support for WPF applications to expose these two properties to
         } 
     } 
 ```
-3. __Automatic Values__<br/>Items in ItemsControls will provide a value for these properties automatically without additional action from the developer. If an ItemsControl is grouped, the collection of groups will be represented as a set and each group counted as a separate set, with each item inside that group providing it’s position inside that group as well as the size of the group. Automatic values are not affected by virtualization. Even if an item is not realized, it is still counted towards the total size of the set and affects the position in the set of it’s sibling items.
+3. __Automatic Values__<br/>Items in [ItemsControls](xref:System.Windows.Controls.ItemsControl) will provide a value for these properties automatically without additional action from the developer. If an ItemsControl is grouped, the collection of groups will be represented as a set and each group counted as a separate set, with each item inside that group providing it’s position inside that group as well as the size of the group. Automatic values are not affected by virtualization. Even if an item is not realized, it is still counted towards the total size of the set and affects the position in the set of it’s sibling items.
 
 ##### ControllerFor property support</br>
 UIAutomation’s ControllerFor property returns an array of automation elements that are manipulated by the automation element that supports this property. This property is commonly used for Auto-suggest accessibility. ControllerFor is used when an automation element affects one or more segments of the application UI or the desktop. Otherwise, it is hard to associate the impact of the control operation with UI elements. This feature adds the ability for controls to provide a value for ControllerFor property.
 
-A new virtual method has been added to AutomationPeer:
+A new virtual method has been added to [AutomationPeer](xref:System.Windows.Automation.Peers.AutomationPeer):
 ```csharp
     virtual protected List<AutomationPeer> GetControlledPeersCore()
 ```
-To provide a value for the ControllerFor property, simply override this method and return a list of AutomationPeers for the controls being manipulated by this AutomationPeer:
+To provide a value for the ControllerFor property, simply override this method and return a list of [AutomationPeers](xref:System.Windows.Automation.Peers.AutomationPeer) for the controls being manipulated by this [AutomationPeer](xref:System.Windows.Automation.Peers.AutomationPeer):
 ```csharp
     
 public class AutoSuggestTextBox: TextBox

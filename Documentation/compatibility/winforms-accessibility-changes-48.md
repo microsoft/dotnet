@@ -83,7 +83,10 @@ __Improved Visual cues__
 
 For an overview of UI automation, see the [UI Automation Overview](https://docs.microsoft.com/dotnet/framework/ui-automation/ui-automation-overview).</p>
 
-
+__Invoking controls' ToolTips with a keyboard__
+ Control tooltip can now be invoked by focusing the control with keyboard. 
+ This feature needs to be enabled explicitly for the application (see section __"How to opt in or out of these changes"__)
+ 
 ### Affected APIs 
 
 

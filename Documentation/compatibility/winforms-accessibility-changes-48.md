@@ -64,7 +64,7 @@ __Improved ProgressBar Accessibility support__
 
 For an overview of UI automation events overview, including UI automation notification events, see the [UI Automation Events Overview](https://docs.microsoft.com/en-us/windows/desktop/WinAuto/uiauto-eventsoverview).
 
-__Improved Property Grid Accessibility support__
+__Improved PropertyGrid Accessibility support__
 - Enabled UI Automation support for <xref:System.Windows.Forms.PropertyGrid> control with ability to use UI Automation notifications and other UI Automation features.
 - The UI Automation element which corresponds to the currently edited property is now a child of the corresponding property item UI Automation element.
 - The UI Automation property item element is now a child of the corresponding category element if the parent <xref:System.Windows.Forms.PropertyGrid> control is set to category view.

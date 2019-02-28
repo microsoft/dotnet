@@ -59,7 +59,7 @@ __Improved DataGridView Accessibility support__
 __Improved LinkLabel Accessibility support__
 - Improved <xref:System.Windows.Forms.LinkLabel> control accessibility: Narrator announces the disabled state for the link if corresponding <xref:System.Windows.Forms.LinkLabel> control is disabled.
 
-__Improved Progress Bar Accessibility support__
+__Improved ProgressBar Accessibility support__
 - Enabled UI Automation support for <xref:System.Windows.Forms.ProgressBar> control with ability to use UI Automation notifications and other UI Automation features. Developers are now able to use UI Automation notifications which Narrator can announce to indicate the progress.
 
 For an overview of UI automation events overview, including UI automation notification events, see the [UI Automation Events Overview](https://docs.microsoft.com/en-us/windows/desktop/WinAuto/uiauto-eventsoverview).

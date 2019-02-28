@@ -17,7 +17,7 @@ In the [Microsoft Service Trace Viewer tool](~/docs/framework/wcf/service-trace-
 
 ### Recommended Action
    - How to opt out of change
-  If customer doesn't want to have the high contrast behavior change, they can work around by removing the following section from svcTraceViewer.exe.config.
+  If you don't want to have the high contrast behavior change, you can disable it by removing the following section from the svcTraceViewer.exe.config file:
 ```xml
 <AppContextSwitchOverrides value="Switch.UseLegacyAccessibilityFeatures=false;Switch.UseLegacyAccessibilityFeatures.2=false" />
 ```

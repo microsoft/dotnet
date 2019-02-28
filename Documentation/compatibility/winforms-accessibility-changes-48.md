@@ -62,6 +62,8 @@ __Improved Link Label Accessibility support__
 __Improved Progress Bar Accessibility support__
 - Enabled UI Automation support for <xref:System.Windows.Forms.ProgressBar> control with ability to use UI Automation notifications and other UI Automation features. Developers are now able to use UI Automation notifications which Narrator can announce to indicate the progress.
 
+For an overview of UI automation events overview, including UI automation notification events, see the [UI Automation Events Overview](https://docs.microsoft.com/en-us/windows/desktop/WinAuto/uiauto-eventsoverview).
+
 __Improved Property Grid Accessibility support__
 - Enabled UI Automation support for <xref:System.Windows.Forms.PropertyGrid> control with ability to use UI Automation notifications and other UI Automation features.
 - The UI Automation element which corresponds to the currently editing property is now a child of corresponding property item UI Automation element.

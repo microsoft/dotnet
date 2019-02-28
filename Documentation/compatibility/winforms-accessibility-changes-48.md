@@ -21,7 +21,7 @@ Windows Forms Framework is improving how it works with accessibility technologie
 ### Recommended Action
 __How to opt in or out of these changes__
   
-In order for the application to benefit from these changes, it must run on the .NET Framework 4.8. The application can benefit from these changes in either of the following ways:
+In order for the application to benefit from these changes, it must run on the .NET Framework 4.8. The application can opt in into these changes in either of the following ways:
 - It is recompiled to target the .NET Framework 4.8. These accessibility changes are enabled by default on Windows Forms applications that target the .NET Framework 4.8.
 - It targets the .NET Framework 4.7.2 or earlier version and opts out of the legacy accessibility behaviors by adding the following [AppContext Switch](https://docs.microsoft.com/dotnet/framework/configure-apps/file-schema/runtime/appcontextswitchoverrides-element) to the `<runtime>` section of the app config file and setting it to `false`, as the following example shows.
 

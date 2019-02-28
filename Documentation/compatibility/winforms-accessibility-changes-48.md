@@ -13,7 +13,7 @@ NotPlanned
 The Windows Forms Framework is continuing to improve how it works with accessibility technologies to better support Windows Forms customers. These include the following changes:
 - Changes to improve display during High Contrast mode.
 - Changes to interaction with Narrator.
-- Changes in Accessible hierarchy. (improving navigation through UI Automation tree)
+- Changes in the Accessible hierarchy (improving navigation through the UI Automation tree).
 
 - [x] Quirked
 - [ ] Build-time break

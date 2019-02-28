@@ -59,7 +59,7 @@ dotnet build
 
 ### SDK-style project
 
-Add `TargetFramework` property and a `PackageReference` like in the following example `csproj` file:
+Add the `TargetFramework` property and a `PackageReference` like in the following example `csproj` file:
 
 ```xml
 <Project Sdk="Microsoft.NET.Sdk">

@@ -35,7 +35,7 @@ User interfaces containing <xref:System.Windows.Visibility.Collapsed?displayProp
 **SizeOfSet and PositionInSet Support**
 Windows 10 introduced the  SizeOfSet and PositionInSet [UIAutomation properties](/windows/desktop/winauto/uiauto-automation-element-propids), which are used by applications to describe the count of items in a set. UIAutomation client applications such as screen readers can then query an application for these properties and announce an accurate representation of the application’s UI.
 
-This feature adds support for WPF applications to expose these two properties to UIAutomation. This can be accomplished in two ways:
+This feature adds support for WPF applications to expose these two properties to UIAutomation. These two properties can be exposed to UIAutomation in either of two ways:
 
 - __Dependency Properties__<br/> The  [SizeOfSet](xref:System.Windows.Automation.AutomationProperties.SizeOfSetProperty) and [PositionInSet](xref:System.Windows.Automation.AutomationProperties.PositionInSetProperty) [dependency properties](xref:System.Windows.DependencyProperty) have been added to the <xref:System.Windows.Automation.AutomationProperties> class. A developer can set their values via XAML:
 ```xaml
@@ -115,7 +115,7 @@ The focus no longer loops inside a WPF <xref:System.Windows.Controls.UserControl
 **Changed the padding header in GridView to not focusable**
 In the .NET Framework 4.7.2 and earlier versions, the automatically generated padding header in a <xref:System.Windows.Controls.GridView> control was focusable, creating a bad experience for keyboard-only users. Starting with .NET Framework 4.8, it is not focusable.
 
-##### Fixed automation tree for plain ItemsControl
+**Fixed automation tree for plain ItemsControl**
 Fixed an accessibility problem where the automation tree exposed for a plain <xref:System.Windows.Controls.ItemsControl> (as opposed to a derived class like ListBox or DataGrid) was not correct.
 
 **Fixed bounding rectangles in Per-Monitor DPI**

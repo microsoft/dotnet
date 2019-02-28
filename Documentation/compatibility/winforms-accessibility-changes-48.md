@@ -75,7 +75,7 @@ __Improved ToolStrip support__
 - In items mode Narrator focus does not disappear and does not go to hidden items.
 
 __Improved Visual cues__
-- An empty <xref:System.Windows.Forms.CheckedListBox> control now displays a focus indicator when receives focus.
+- An empty <xref:System.Windows.Forms.CheckedListBox> control now displays a focus indicator when it receives focus.
 
 For an overview of UI automation, see the [UI Automation Overview](https://docs.microsoft.com/dotnet/framework/ui-automation/ui-automation-overview).</p>
 

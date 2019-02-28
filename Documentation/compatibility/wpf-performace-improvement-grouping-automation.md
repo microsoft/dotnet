@@ -10,7 +10,7 @@ Major
 NotPlanned
 
 ### Change Description
-Improved the performance of rebuilding the automation tree of an [ItemsControl](xref:System.Windows.Controls.ItemsControl) (ListBox, DataGrid, etc.) in which grouping is enabled. 
+Improved the performance of rebuilding the automation tree of an <xref:System.Windows.Controls.ItemsControl>, such as a ListBox or DataGrid, in which grouping is enabled. 
 
 - [ ] Quirked
 - [ ] Build-time break

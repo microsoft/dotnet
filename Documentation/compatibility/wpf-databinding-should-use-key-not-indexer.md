@@ -16,7 +16,7 @@ Fixed [Binding's](xref:System.Windows.Data.Binding) incorrect use of IList index
 - [ ] Build-time break
 
 ### Recommended Action
-In order for the application to benefit from these changes, it must run on the .NET Framework 4.7.2 or later and it must opt-in to enable by setting the following [AppContext Switch](https://docs.microsoft.com/dotnet/framework/configure-apps/file-schema/runtime/appcontextswitchoverrides-element) to the `<runtime>` section of the app config file and setting it to `false`, as the following example shows.
+In order for the application to benefit from this change, it must run on the .NET Framework 4.7.2 or later, and it must opt in to the change by adding the following [AppContext switch](https://docs.microsoft.com/dotnet/framework/configure-apps/file-schema/runtime/appcontextswitchoverrides-element) to the `<runtime>` section of the app config file and setting it to `false`:
 
 ```xml
     <?xml version="1.0" encoding="utf-8"?>

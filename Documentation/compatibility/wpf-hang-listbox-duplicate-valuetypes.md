@@ -10,7 +10,7 @@ Major
 NotPlanned
 
 ### Change Description
-Fixed a problem where a virtualizing [ItemsControls](xref:System.Windows.Controls.ItemsControl) can hang during scrolling when its Items collection contains duplicate value-typed objects.
+Fixed a problem where a virtualizing<xref:System.Windows.Controls.ItemsControl> can hang during scrolling when its Items collection contains duplicate value-typed objects.
 
 - [ ] Quirked
 - [ ] Build-time break

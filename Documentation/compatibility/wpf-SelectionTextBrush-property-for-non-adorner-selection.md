@@ -16,10 +16,10 @@ In WPF applications using non-adorner based text selection for [TextBox](xref:Sy
 - [ ] Build-time break
 
 ### Recommended Action
-Once non-adorner based text selection is enabled, an application developer can use the new SelectionTextBrush property to change the appearance of the selected text, this can be achieved via XAML:
+Once non-adorner based text selection is enabled, you can use the <xref:System.Windows.Controls.PasswordBox.SelectionTextBrush?displayProperty=nameWithType> and [TextBox.SelectionTextBrush](xref:System.Windows.Controls.Primitives.TextBoxBase.SelectionTextBrush) property to change the appearance of the selected text. This can be achieved using XAML:
 
 
-```xml
+```xaml
         <TextBox SelectionBrush="Red" SelectionTextBrush="White"  SelectionOpacity="0.5"
                 Foreground="Blue" CaretBrush="Blue">
             This is some text.

@@ -72,7 +72,7 @@ __Improved PropertyGrid Accessibility support__
 __Improved ToolStrip support__
 - Enabled UI Automation support for the <xref:System.Windows.Forms.ToolStrip> control, with the ability to use UI Automation notifications and other UI Automation features.
 - Improved navigation through <xref:System.Windows.Forms.ToolStrip> items. 
-- In items mode Narrator focus does not disappear and does not go to hidden items.
+- In items mode, Narrator focus does not disappear and does not go to hidden items.
 
 __Improved Visual cues__
 - An empty <xref:System.Windows.Forms.CheckedListBox> control now displays a focus indicator when it receives focus.

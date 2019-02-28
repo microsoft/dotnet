@@ -47,7 +47,7 @@ __Improved Narrator support__
 - Narrator now announces the sort direction of the <xref:System.Windows.Forms.DataGridViewColumn> when announcing an accessible name of a <xref:System.Windows.Forms.DataGridViewCell>. 
 
 __Improved Checked ListBox Accessibility support__
-- Improved Narrator support for <xref:System.Windows.Forms.CheckedListBox> control. At this moment when navigating to the <xref:System.Windows.Forms.CheckedListBox> control using keyboard, Narrator focuses the <xref:System.Windows.Forms.CheckedListBox> item and announces it.
+- Improved Narrator support for the <xref:System.Windows.Forms.CheckedListBox> control. When navigating to the <xref:System.Windows.Forms.CheckedListBox> control using the keyboard, Narrator focuses the <xref:System.Windows.Forms.CheckedListBox> item and announces it.
 
 __Improved ComboBox Accessibility support__
 - Enabled UI Automation support for <xref:System.Windows.Forms.ComboBox> control with ability to use UI Automation notifications and other UI Automation features.

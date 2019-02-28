@@ -50,8 +50,9 @@ __Use of OS-defined colors in High Contrast themes__
 __Improved Narrator support__
 - Narrator now announces the sort direction of the <xref:System.Windows.Forms.DataGridViewColumn> when announcing an accessible name of a <xref:System.Windows.Forms.DataGridViewCell>. 
 
-__Improved Checked ListBox Accessibility support__
+__Improved CheckedListBox Accessibility support__
 - Improved Narrator support for the <xref:System.Windows.Forms.CheckedListBox> control. When navigating to the <xref:System.Windows.Forms.CheckedListBox> control using the keyboard, Narrator focuses the <xref:System.Windows.Forms.CheckedListBox> item and announces it.
+- An empty CheckedListBox control now has a focus rectangle drawn for a virtual first item when the control becomes focused.
 
 __Improved ComboBox Accessibility support__
 - Enabled UI Automation support for the <xref:System.Windows.Forms.ComboBox> control, with the ability to use UI Automation notifications and other UI Automation features.
@@ -84,8 +85,7 @@ __Improved Visual cues__
 For an overview of UI automation, see the [UI Automation Overview](https://docs.microsoft.com/dotnet/framework/ui-automation/ui-automation-overview).</p>
 
 __Invoking controls' ToolTips with a keyboard__
- Control tooltip can now be invoked by focusing the control with keyboard. 
- This feature needs to be enabled explicitly for the application (see section __"How to opt in or out of these changes"__)
+- Control tooltip can now be invoked by focusing the control with keyboard. This feature needs to be enabled explicitly for the application (see section __"How to opt in or out of these changes"__)
  
 ### Affected APIs 
 

@@ -50,7 +50,7 @@ __Improved Checked ListBox Accessibility support__
 - Improved Narrator support for the <xref:System.Windows.Forms.CheckedListBox> control. When navigating to the <xref:System.Windows.Forms.CheckedListBox> control using the keyboard, Narrator focuses the <xref:System.Windows.Forms.CheckedListBox> item and announces it.
 
 __Improved ComboBox Accessibility support__
-- Enabled UI Automation support for <xref:System.Windows.Forms.ComboBox> control with ability to use UI Automation notifications and other UI Automation features.
+- Enabled UI Automation support for the <xref:System.Windows.Forms.ComboBox> control, with the ability to use UI Automation notifications and other UI Automation features.
 
 __Improved DataGridView Accessibility support__
 - Enabled UI Automation support for <xref:System.Windows.Forms.DataGridView> control with ability to use UI Automation notifications and other UI Automation features.

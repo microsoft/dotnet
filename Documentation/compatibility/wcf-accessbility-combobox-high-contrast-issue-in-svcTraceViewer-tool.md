@@ -10,7 +10,7 @@ Edge
 NotPlanned
 
 ### Change Description
-In the Microsoft Service Trace Viewer tool, ComboBox controls were not displayed in the correct color in certain high contrast themes. The issue was fixed in 4.7.2 .NET Framework. However, due to .NET Framework SDK backward compatible requirement, it can't target 4.7.2 .NET Framework version, the fix was not visible to customer by default. An additional  fix is made in 4.8 to add the following configuration switch to svcTraceViewer.exe.config file
+In the [Microsoft Service Trace Viewer tool](~/docs/framework/wcf/service-trace-viewer-tool-svctraceviewer-exe.md), ComboBox controls were not displayed in the correct color in certain high contrast themes. The issue was fixed in .NET Framework 4.7.2. However, due to .NET Framework SDK backward compatibility requirements, the fix was not visible to customers by default. .NET 4.8 surfaces this change by adding the following [AppContext configuration switches](~/docs/framework/configure-apps/file-schema/runtime/appcontextswitchoverrides-element.md) to the svcTraceViewer.exe.config file:
 ```xml
 <AppContextSwitchOverrides value="Switch.UseLegacyAccessibilityFeatures=false;Switch.UseLegacyAccessibilityFeatures.2=false" />
 ```

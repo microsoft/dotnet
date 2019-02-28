@@ -57,7 +57,7 @@ __Improved DataGridView Accessibility support__
 - The UI Automation element which corresponds to the <xref:System.Windows.Forms.DataGridViewComboBoxEditingControl> or <xref:System.Windows.Forms.DataGridViewTextBoxEditingControl> is now a child of corresponding editing cell.
 
 __Improved LinkLabel Accessibility support__
-- Improved <xref:System.Windows.Forms.LinkLabel> control accessibility: Narrator announces the disabled state for the link if corresponding <xref:System.Windows.Forms.LinkLabel> control is disabled.
+- Improved <xref:System.Windows.Forms.LinkLabel> control accessibility: Narrator announces the disabled state for the link if the corresponding <xref:System.Windows.Forms.LinkLabel> control is disabled.
 
 __Improved ProgressBar Accessibility support__
 - Enabled UI Automation support for <xref:System.Windows.Forms.ProgressBar> control with ability to use UI Automation notifications and other UI Automation features. Developers are now able to use UI Automation notifications which Narrator can announce to indicate the progress.

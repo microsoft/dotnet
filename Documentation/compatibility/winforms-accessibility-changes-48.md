@@ -69,7 +69,7 @@ __Improved PropertyGrid Accessibility support__
 - The UI Automation element which corresponds to the currently edited property is now a child of the corresponding property item UI Automation element.
 - The UI Automation property item element is now a child of the corresponding category element if the parent <xref:System.Windows.Forms.PropertyGrid> control is set to category view.
 
-__Improved Tool Strip support__
+__Improved ToolStrip support__
 - Enabled UI Automation support for <xref:System.Windows.Forms.ToolStrip> control with ability to use UI Automation notifications and other UI Automation features.
 - Improved navigation through <xref:System.Windows.Forms.ToolStrip> items. 
 - In items mode Narrator focus does not disappear and does not go to hidden items.

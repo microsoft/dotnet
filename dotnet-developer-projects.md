@@ -65,7 +65,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [WebSharper](https://bitbucket.org/IntelliFactory/websharper) - Web programming platform including a compiler from F# code to JavaScript.
 
 ## Web Marketplace
-  * [BeYourMarket](https://github.com/beyourmarket/beyourmarket) - BeYourMarket is a peer-to-peer marketplace framework http://beyourmarket.com 
+  * [BeYourMarket](https://github.com/beyourmarket/beyourmarket) - BeYourMarket is a peer-to-peer marketplace framework.
 
 ## Web Frameworks
   * [ASP.NET Boilerplate](https://github.com/aspnetboilerplate/aspnetboilerplate) - ASP.NET Boilerplate is a general-purpose application framework specially designed for new modern web applications. It uses already familiar tools and implements best practices around them to provide you a solid development experience.

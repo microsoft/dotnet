@@ -45,7 +45,7 @@ Enabling the keyboard ToolTip invocation support requires adding the `Switch.Sys
 Note that enabling this feature requires opting in to the aforementioned accessibility features of .NET Framework 4.7.1 - 4.8.
 
 __Use of OS-defined colors in High Contrast themes__
-// To be filled.
+- Improved high-contrast themes.
 
 __Improved Narrator support__
 - Narrator now announces the sort direction of the <xref:System.Windows.Forms.DataGridViewColumn> when announcing an accessible name of a <xref:System.Windows.Forms.DataGridViewCell>. 
@@ -82,6 +82,7 @@ __Improved ToolStrip support__
 __Improved Visual cues__
 - An empty <xref:System.Windows.Forms.CheckedListBox> control now displays a focus indicator when it receives focus.
 
+Note: UI automation support is enabled for controls in runtime but is not used in design time.
 For an overview of UI automation, see the [UI Automation Overview](https://docs.microsoft.com/dotnet/framework/ui-automation/ui-automation-overview).</p>
 
 __Invoking controls' ToolTips with a keyboard__

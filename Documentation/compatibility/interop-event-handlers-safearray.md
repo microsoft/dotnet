@@ -10,15 +10,14 @@ Minor
 NotPlanned
 
 ### Change Description
-Prior to this change an ByRef SafeArray parameter on a COM event would fail to marshal back to native code.  With this change the SafeArray is now marshalled successfully.
+In the .NET Framework 4.7.2 and earlier versions, a ByRef [SafeArray](https://docs.microsoft.com/en-us/windows/desktop/api/oaidl/ns-oaidl-safearray) parameter on a COM event would fail to marshal back to native code.  With this change the [SafeArray](https://docs.microsoft.com/en-us/windows/desktop/api/oaidl/ns-oaidl-safearray) is now marshalled successfully.
 
 - [ x ] Quirked
 - [ ] Build-time break
 
 ### Recommended Action
-If properly marshalling ByRef SafeArray parameters on COM Events is thought to break execution, you can disable this code by setting the following configuration.
+If properly marshalling ByRef SafeArray parameters on COM Events breaks execution, you can disable this code by adding the following configuration switch to your application config:
 
-Add the following configuration switch to your application config:
 ```xml
 <appSettings>
     <add key="Switch.System.Runtime.InteropServices.DoNotMarshalOutByrefSafeArrayOnInvoke" value="true" />

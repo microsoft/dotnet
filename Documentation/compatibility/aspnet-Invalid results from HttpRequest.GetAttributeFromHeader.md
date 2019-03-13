@@ -4,7 +4,7 @@
 4.8
 
 ### Change Description
-When parsing an HTTP header value using `GetAttributeFromHeader`, ASP.Net might return a value that includes
+In applications that target .NET Framework 4.7.2 and earlier versions, ASP.Net might return a value that includes
 a trailing delimiter prior to 4.8. Applications that target 4.8 or later with `targetFrameworkVersion` will now
 have all delimiters stripped from return values.
 

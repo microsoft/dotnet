@@ -8,7 +8,7 @@ For applications that target .NET Framework 4.7.2 and earlier versions, <xref:Sy
 after postback. For applications that target .NET Framework 4.8 or later versions, they are preserved after postback.
 
 ### Recommended Action
-To use correct behavior for restoring attributes on postback, set `targetFrameworkVersion` to 4.8 or higher. Setting
+For the correct behavior for restoring attributes on postback, set the `targetFrameworkVersion` to 4.8 or higher. For example:
 it lower, or not at all, will preserve the old incorrect behavior.
 
 ```xml

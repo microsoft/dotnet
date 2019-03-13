@@ -6,7 +6,7 @@
 ### Change Description
 In applications that target .NET Framework 4.7.2 and earlier versions, ASP.Net might return a value that includes
 a trailing delimiter when parsing an HTTP header value using `GetAttributeFromHeader`. In applications that target .NET Framework 4.8 or later versions, 
-have all delimiters stripped from return values.
+all delimiters are stripped from return values.
 
 ### Recommended Action
 Starting with applications running on .NET Framework 4.8, when targeting .NET Framework 4.8 or later by using the `targetFrameworkVersion` element, the default behavior changes to strip

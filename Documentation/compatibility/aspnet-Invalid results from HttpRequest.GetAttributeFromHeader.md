@@ -9,7 +9,7 @@ a trailing delimiter prior to 4.8. Applications that target 4.8 or later with `t
 have all delimiters stripped from return values.
 
 ### Recommended Action
-Starting from .NET 4.8, when targeting 4.8 through `targetFrameworkVersion`, the default behavior changes to strip
+Starting with applications running on .NET Framework 4.8, when targeting .NET Framework 4.8 or later by using the `targetFrameworkVersion` element, the default behavior changes to strip
 delimiters. When targeting previous framework versions, or not using `targetFrameworkVersion`, trailing delimiters for
 some values will still be returned. Alternatively, this behavior can be explicitly controlled with an `appSetting`:
 

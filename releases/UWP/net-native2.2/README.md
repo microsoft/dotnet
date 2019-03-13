@@ -5,6 +5,9 @@ You can see what was included in each .NET Native 2.2 ([Microsoft.NETCore.Univer
 When using Visual Studio, these packages require Visual Studio 2019 or Visual Studio 2017 Version 15.9.
 
 ### UWP 6.2.8 (March 13th, 2019)
+- Fixes package publishing issues
+
+### UWP 6.2.7 (March 12th, 2019)
 - Adds support for ARM64
 - Improved performance for debugging scenarios (F5)
 - Addresses top customer issues with 6.1 and 6.2 Preview.

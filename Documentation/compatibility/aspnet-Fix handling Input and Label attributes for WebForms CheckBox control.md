@@ -4,7 +4,7 @@
 4.8
 
 ### Change Description
-InputAttributes and LabelAttributes that are programmatically added to a WebForms `CheckBox` control are lost
+For applications that target .NET Framework 4.7.2 and earlier versions, <xref:System.Web.UI.WebControls.CheckBox.InputAttributes?displayProperty=nameWithType> and <xref:System.Web.UI.WebControls.CheckBox.LabelAttributes?displayProperty=nameWithType> that are programmatically added to a WebForms  <xref:System.Web.UI.WebControls.CheckBox> control are lost
 after postback.
 
 ### Recommended Action

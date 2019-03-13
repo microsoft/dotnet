@@ -4,11 +4,11 @@
 4.8
 
 ### Change Description
-When using custom `DataAnnotations.ValidationAttribute`, `System.ComponentModel.DataAnnotations.ValidationContext.MemberName` returns null.  This issue is fixed in .NET 4.8.
+In .NET Framework 4.7.2 and earlier versions, when using a custom <xref:System.ComponentModel.DataAnnotations.ValidationAttribute?displayProperty=nameWithType>, the <xref:System.ComponentModel.DataAnnotations.ValidationContext.MemberName?displayProperty=nameWithType> property returns `null`.  In .NET Framework 4.8, it returns member name.
 
 
 ### Recommended Action
-Starting from .NET 4.8, the default behavior stays the same.  Please use the following appsettings to retrieve valud of `ValidationContext.MemberName` property:
+The default behavior of the <xref:System.ComponentModel.DataAnnotations.ValidationContext.MemberName?displayProperty=nameWithType> property remains the same.  To retrieve a valid value from the `ValidationContext.MemberName` property, add the following setting to your app config file:
 
 ```xml
     <configuration>

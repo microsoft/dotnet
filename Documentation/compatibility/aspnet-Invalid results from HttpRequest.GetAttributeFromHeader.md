@@ -1,0 +1,37 @@
+## ASP.NET System.Web.HttpRequest.GetAttributeFromHeader can return invalid results
+
+### Version Introduced
+4.8
+
+### Change Description
+When parsing an HTTP header value using `GetAttributeFromHeader`, ASP.Net might return a value that includes
+a trailing delimiter prior to 4.8. Applications that target 4.8 or later with `targetFrameworkVersion` will now
+have all delimiters stripped from return values.
+
+### Recommended Action
+Starting from .NET 4.8, when targeting 4.8 through `targetFrameworkVersion`, the default behavior changes to strip
+delimiters. When targeting previous framework versions, or not using `targetFrameworkVersion`, trailing delimiters for
+some values will still be returned. Alternatively, this behavior can be explicitly controlled with an `appSetting`:
+
+```xml
+    <configuration>
+      <appSettings>
+      ...
+        <add key="aspnet:UseLegacyMultiValueHeaderHandling"  value="true"/>
+      ...
+      </appSettings>
+    </configuration>
+```
+
+### Affected APIs
+`System.Web.HttpRequest.GetAttributeFromHeader`
+
+### Category
+ASP.NET
+
+<!--
+    ### 684397	<ASP.NET WebForms> Invalid results of the function GetAttributeFromHeader in System.Web.HttpRequest
+
+-->
+
+

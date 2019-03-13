@@ -9,7 +9,6 @@ after postback. For applications that target .NET Framework 4.8 or later version
 
 ### Recommended Action
 For the correct behavior for restoring attributes on postback, set the `targetFrameworkVersion` to 4.8 or higher. For example:
-it lower, or not at all, will preserve the old incorrect behavior.
 
 ```xml
     <configuration>
@@ -18,6 +17,8 @@ it lower, or not at all, will preserve the old incorrect behavior.
       </system.web>
     </configuration>
 ```
+
+Setting it lower, or not at all, will preserve the old incorrect behavior.
 
 ### Affected APIs
 `System.Web.UI.WebControls.CheckBox`

@@ -5,7 +5,7 @@
 
 ### Change Description
 In applications that target .NET Framework 4.7.2 and earlier versions, ASP.Net might return a value that includes
-a trailing delimiter prior to 4.8. Applications that target 4.8 or later with `targetFrameworkVersion` will now
+a trailing delimiter when parsing an HTTP header value using `GetAttributeFromHeader`. In applications that target .NET Framework 4.8 or later versions, 
 have all delimiters stripped from return values.
 
 ### Recommended Action

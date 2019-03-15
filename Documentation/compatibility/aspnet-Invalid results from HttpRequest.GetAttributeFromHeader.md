@@ -5,11 +5,11 @@
 
 ### Change Description
 In applications that target .NET Framework 4.7.2 and earlier versions, ASP.Net might incorrectly parse multipart boundary values, 
-resulting in form data being unavailable during request execution. Applications that target .NET Framework 4.8 or later versions, 
+resulting in form data being unavailable during request execution. Applications that target .NET Framework 4.8 or later versions 
 correctly parse multipart data, so form values are available during request execution.
 
 ### Recommended Action
-Starting with applications running on .NET Framework 4.8, when targeting .NET Framework 4.8 or later by using the `targetFrameworkVersion` element, the default behavior changes to strip delimiters. When targeting previous framework versions, or not using `targetFrameworkVersion`, trailing delimiters for
+Starting with applications running on .NET Framework 4.8, when targeting .NET Framework 4.8 or later by using the `targetFrameworkVersion` element, the default behavior changes to strip delimiters. When targeting previous framework versions or not using `targetFrameworkVersion`, trailing delimiters for
 some values are still returned. 
 
 This behavior can also be explicitly controlled with an `appSetting`:

@@ -1,16 +1,15 @@
-## ASP.NET System.Web.HttpRequest.GetAttributeFromHeader can return invalid results
+## ASP.NET Incorrect multipart handling may result in lost form data.
 
 ### Version Introduced
 4.8
 
 ### Change Description
-In applications that target .NET Framework 4.7.2 and earlier versions, ASP.Net might return a value that includes
-a trailing delimiter when parsing an HTTP header value using `GetAttributeFromHeader`. In applications that target .NET Framework 4.8 or later versions, 
-all delimiters are stripped from return values.
+In applications that target .NET Framework 4.7.2 and earlier versions, ASP.Net might incorrectly parse multipart boundary values, 
+resulting in form data being unavailable during request execution. Applications that target .NET Framework 4.8 or later versions, 
+correctly parse multipart data, so form values are available during request execution.
 
 ### Recommended Action
-Starting with applications running on .NET Framework 4.8, when targeting .NET Framework 4.8 or later by using the `targetFrameworkVersion` element, the default behavior changes to strip
-delimiters. When targeting previous framework versions, or not using `targetFrameworkVersion`, trailing delimiters for
+Starting with applications running on .NET Framework 4.8, when targeting .NET Framework 4.8 or later by using the `targetFrameworkVersion` element, the default behavior changes to strip delimiters. When targeting previous framework versions, or not using `targetFrameworkVersion`, trailing delimiters for
 some values are still returned. 
 
 This behavior can also be explicitly controlled with an `appSetting`:
@@ -26,7 +25,9 @@ This behavior can also be explicitly controlled with an `appSetting`:
 ```
 
 ### Affected APIs
-`System.Web.HttpRequest.GetAttributeFromHeader`
+`System.Web.HttpRequest.Form`
+`System.Web.HttpRequest.Files`
+`System.Web.HttpRequest.Encoding`
 
 ### Category
 ASP.NET

@@ -1,4 +1,3 @@
-
 ## [svcTraceViewer ComboBox high contrast change]
 
 ### Scope

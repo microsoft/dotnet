@@ -352,6 +352,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [Xenko](https://github.com/xenko3d/xenko) - Xenko is a versatile and engaging game engine.
  
 ## UI and Control libraries
+  * [AdonisUI](https://github.com/benruehl/adonis-ui) - Lightweight UI toolkit for WPF applications offering classic but enhanced Windows visuals.
   * [Callisto](https://github.com/timheuer/callisto) - UI Control Toolkit for WinRT apps.
   * [Dragablz](http://github.com/ButchersBoy/Dragablz) - A tearable TabControl for WPF which also provides easy-to-use and implement docking features.
   * [Eto](https://github.com/picoe/Eto) - Cross platform GUI Toolkit for desktop and mobile apps

@@ -18,6 +18,3 @@ extremely minimal. More private bytes consumption and/or more AppDomain recyclin
 
 ## Resolution
 A hotfix for this issue is planned for .Net 4.8. This page will be updated with a link to the hotfix when it becomes available.
-
-## More Information
-

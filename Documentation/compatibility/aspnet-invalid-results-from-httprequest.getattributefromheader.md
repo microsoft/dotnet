@@ -25,9 +25,9 @@ This behavior can also be explicitly controlled with an `appSetting`:
 ```
 
 ### Affected APIs
-`System.Web.HttpRequest.Form`
-`System.Web.HttpRequest.Files`
-`System.Web.HttpRequest.Encoding`
+* `System.Web.HttpRequest.Form`
+* `System.Web.HttpRequest.Files`
+* `System.Web.HttpRequest.ContentEncoding`
 
 ### Category
 ASP.NET

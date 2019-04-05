@@ -13,6 +13,8 @@ In the [Microsoft Service Trace Viewer tool](~/docs/framework/wcf/service-trace-
 ```xml
 <AppContextSwitchOverrides value="Switch.UseLegacyAccessibilityFeatures=false;Switch.UseLegacyAccessibilityFeatures.2=false" />
 ```
+- [ ] Quirked 
+- [ ] Build-time break
 
 ### Recommended Action
    - How to opt out of the change

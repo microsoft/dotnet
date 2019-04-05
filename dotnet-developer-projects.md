@@ -399,6 +399,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
 ## Project Templates
   * [ASP.NET Core & Mvc/Angular5 Startup Template](https://github.com/aspnetboilerplate/module-zero-core-template) - This is a template to create ASP.NET Core MVC / Angular based startup projects for [ASP.NET Boilerplate](https://github.com/aspnetboilerplate/aspnetboilerplate). This project also supports multi-tenancy.
   * [ASP.NET MVC Boilerplate](https://github.com/ASP-NET-MVC-Boilerplate/Templates) - Professional ASP.NET MVC templates for building secure, fast, robust and adaptable web applications or sites. It provides the minimum amount of code required on top of the default MVC template provided by Microsoft.
+  * [EISK](https://github.com/eisk) - provides project templates with simple use cases to build scalable applications on top of .net core with [architectural best pratices](https://docs.microsoft.com/en-us/dotnet/standard/modern-web-apps-azure-architecture/common-web-application-architectures) (DDD, onion architecture etc).  
  
 This list is just a starting point - also take a look at all the projects on [GitHub Trending C#](https://github.com/trending?l=csharp).
 

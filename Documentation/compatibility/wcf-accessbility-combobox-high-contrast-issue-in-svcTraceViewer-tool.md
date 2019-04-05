@@ -1,4 +1,4 @@
-## [svcTraceViewer ComboBox high contrast change]
+## svcTraceViewer ComboBox high contrast change
 
 ### Scope
 Edge

@@ -41,6 +41,7 @@ If this behavior is undesirable, you can opt out of it and restore the previous 
 * `T:System.Security.Cryptography.RC2CryptoServiceProvider`
 * `T:System.Security.Cryptography.RijndaelManaged`
 * `T:System.Security.Cryptography.RIPEMD160Managed`
+* `T:System.Security.Cryptography.SHA256Managed`
 
 ### Category
 Core

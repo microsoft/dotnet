@@ -28,6 +28,14 @@ If this behavior is undesirable, you can opt out of it and restore the previous 
 </runtime>
 ```
 
+If your application targets .NET Framework 4.7.2 or earlier, you can also opt into this change by adding the following [AppContextSwitchOverrides](~/docs/framework/configure-apps/file-schema/runtime/appcontextswitchoverrides-element.md) configuration setting to the [`<runtime>`](~/docs/framework/configure-apps/file-schema/runtime/runtime-element.md) section of your application configuration file:
+
+```xml
+<runtime>
+   <AppContextSwitchOverrides value="Switch.System.Security.Cryptography.UseLegacyFipsThrow=false" />
+</runtime>
+```
+
 ### Affected APIs
 
 * `T:System.Security.Cryptography.AesManaged`

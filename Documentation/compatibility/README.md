@@ -19,7 +19,6 @@ Please help us improve the [.NET Framework Application Compatibility documents](
 
 - [.NET COM successfully marshals ByRef SafeArray parameters on events](interop-event-handlers-safearray.md)
 - [.NET Interop will now QueryInterface for IAgileObject (a WinRT interface)](interop-enable-winrt-iagileobject.md)
-- [[svcTraceViewer ComboBox high contrast change]](wcf-accessbility-combobox-high-contrast-issue-in-svcTraceViewer-tool.md)
 - [Accessibility improvements in Windows Forms controls for .NET 4.8](winforms-accessibility-changes-48.md)
 - [Accessibility improvements in Windows Workflow Foundation (WF) workflow designer](workflow-designer-accessibility-4-8.md)
 - [Accessibility improvements in WPF](wpf-accessibility-improvements-48.md)
@@ -32,7 +31,9 @@ Please help us improve the [.NET Framework Application Compatibility documents](
 - [HwndHost now correctly resizes child-HWND during DPI changes](wpf-HwndHost-child-hwnd-correct-size-during-DPI-changes.md)
 - [Improvements to Grid star-rows space allocating algorithm](wpf-grid-row-size-allocation-with-collapsed-element.md)
 - [Keyboard navigation improvement in ListBox with Hyperlinks](wpf-keyboard-navigation-listbox-hyperlink.md)
+- [Managed cryptography classes do not throw a CryptographyException in FIPS mode](cryptographicexception-not-thrown-in-fips-mode.md)
 - [Performance improvement in Automation tree for grouping ItemsControls](wpf-performace-improvement-grouping-automation.md)
+- [svcTraceViewer ComboBox high contrast change](wcf-accessbility-combobox-high-contrast-issue-in-svcTraceViewer-tool.md)
 - [Workflow XAML checksums for symbols changed from SHA1 to SHA256](workflow-xaml-checksums-for-symbols-changed-from-sha1-to-sha256.md)
 - [Workflow XOML definition and SqlTrackingService cache keys changed from MD5 to SHA256](workflow-xoml-definition-and-sqltrackingservice-caches-changed-from-md5-to-sha256.md)
 - [Workflow XOML file checksums changed from MD5 to SHA256](workflow-xoml-file-checksums-changed-from-md5-to-sha256.md)

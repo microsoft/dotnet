@@ -1,7 +1,7 @@
 ## Managed cryptography classes do not throw a CryptographyException in FIPS mode
 
 ### Scope
-Major
+Edge
 
 ### Version Introduced
 4.8

@@ -7,6 +7,7 @@
 * Fix handling of InputAttributes and LabelAttributes for ASP.NET CheckBox control. [643614, System.Web.dll, Bug, Build:3646]
 * Fixed a perf issue in HttpApplication instances pool in HttpApplicationFactory class. [639421, system.web.dll, Bug, Build:3673]
 * Fixed NullReferenceException thrown from the page/control with only parameterized constructors with default values when targeting 4.7.2 [635479, System.Web.dll, Bug, Build:3673]
+* Hardened ASP.NET application services against malicious JSON attacks [684132, System.Web.Extensions.dll, System.Web.dll, Bug, Build:3673]
 * Fixed an issue with ValidationContext.MemberName when using custom DataAnnotation.ValidationAttribute. [563497, System.web.dll, Bug, Build:3694]
 * Fixed ArgumentOutOfRangeException in MemoryCache when using change monitors with non-existent files east of GMT. [684136, System.Web.dll, Bug, Build:3694]
 * Fix handling of multi-value HTTP headers that may affect multipart data processing. [684397, System.Web.dll, Bug, Build:3694]
@@ -19,7 +20,6 @@
 * Fixed deserialization of Collections which uses culture aware StringComparer. [566534, mscorlib.dll, Bug, Build:3621]
 * Fixed System.Runtime.CompilerServices.RuntimeFeature.IsSupported to correctly account for application compatibility quirk settings for the Portable PDB feature introduced in .NET Framework 4.7.1. [571206, mscorlib.dll, Bug, Build:3621]
 * Fixed the exception by parsing Japanese dates that have the year number exceeding the number of years in that date era. The behavior change will be noticed only if someone tries to parse a date containing some era and year while the year exceeds the last year in that era. [590659, mscorlib.dll, Bug, Build:3621]
-* By default, elevated processes will not read HKCU for managed COM activation information. [592187, clr.dll, Bug, Build:3621]
 * Fixed the serialization compatibility issue for CultureAwareComparer class. [621387, mscorlib.dll , Bug, Build:3632]
 * Upgraded the System.IO.Compression zlib (inside clrcompression.dll) to the latest zlib version 1.2.11 [532490, clrcompression.dll, Bug, Build:3646]
 * Fixed by reducing memory  allocations in hashing with the CAPI classes (SHA256CryptoServiceProvider, et al) [548940, System.Core.dll, Bug, Build:3646]
@@ -35,6 +35,7 @@ DateTime and DateTimeOffset operations will continue to work as it used to work,
 * Reduced the number of object finalizations that occur as a result of using X509Certificate2 and related types. [654137, mscorlib.dll, System.dll, System.Security.dll, Bug, Build:3673]
 * Fixed formatting of Japanese date with year 1 (as first year of any era), the date will be formatted using 元 character and not year number “1”.  Example of the new formatted date behavior: 平成元年11月21日compared to old formatted date behavior 平成1年11月21日 [670097, mscorlib.dll, Bug, Build:3673]
 * Fixed default settings used by RsaProtectedConfigurationProvider (use AES instead of 3DES, RSA is now using 2048bit key, OAEP is on by default), fixed encryption with OAEP so that it writes correct metadata. [549418, System.Configuration.dll, Bug, Build:3694]
+* By default, elevated processes will not read HKCU for managed COM activation information. [691317, clr.dll, Bug, Build:3694]
 * Add API to obtain certificate thumbprints with a caller-specified digest algorithm. [700365, mscorlib.dll, Feature, Build:3694]
 * Fixed an IndexOutOfRangeException thrown when asynchronously reading a process output with less than a character's worth of bytes is read at the beginning of a line. [724219, System.dll, Bug, Build:3707]
 * Mitigate compatibility breaks seen in some System.Data.SqlClient usage scenarios. [727701, System.Configuration.dll, Bug, Build:3707]
@@ -142,6 +143,7 @@ Added support for formatting the Japanese first year of era using Gannen 元 whe
   </appSettings> [695709, System.Servicemodel.dll, Bug, Build:3694]
 * Fixed a race condition with IIS hosted net.tcp services when the portsharing service is restarted which resulted in the service being unavailable. [695877, System.ServiceModel.WasHosting.dll, Bug, Build:3694]
 * Fixed broken WCF document links in the tracing log that were broken due to MSDN doc location change. [712450, System.ServiceModel.dll, Bug, Build:3707]
+* Fixed a security vulnerability in  SvcTraceViewer.exe associated with .stvproj file. [728568, System.ServiceModel.dll, Bug, Build:3707]
 * Made some format changes and added lang attribute to WCF service Health page (like http://localhost:83/Service1?health) and WCF service metadata page (like http://localhost:83/Service1) to improve accessibility. [777308, System.ServiceModel.dll, Bug, Build:3745]
 
 
@@ -220,6 +222,7 @@ App.config file content example:
   </runtime>
 </configuration>
 ```
+* Fixed vulnerability that might lead to remote code execution. [598032, Winres.exe, Bug, Build:3673]
 * Fixed DataGridView ComboBox accessible hierarchy. Introduced the support of ComboBox UIA notifications [642548, System.Windows.Forms.Dll, Bug, Build:3673]
 * Fixed localizable UI Automation Provider name for DataGridView EditingPanel.
 In order for the application to benefit from these changes, the application should be recompiled to target .NET framework 4.8 or the application should explicitly opt-in into all accessibility app context switches in the app.config file. [654115, System.Windows.Forms.Dll, Bug, Build:3673]
@@ -228,6 +231,7 @@ In order for the application to benefit from these changes, the application shou
 In order for an application that targets 4.8 to opt out from this change, use the following combination of switches:
 <AppContextSwitchOverrides value=""Switch.UseLegacyAccessibilityFeatures=false;Switch.UseLegacyAccessibilityFeatures.2=false;Switch.UseLegacyAccessibilityFeatures.3=true""/> [661319, System.Windows.Forms.Dll, Bug, Build:3673]
 * Fixed ToolStrip and MenuStrip control accessible hierarchy of inner menu/tool items. Enabled support of UI Automation notifications for ToolStrip and MenuStrip controls. In order for the application to benefit from these changes, the application should be recompiled to target .NET framework 4.8 or the application should explicitly opt-in into all accessibility app context switches in the app.config file as seen in the example for Bug 549360. [497307, System.Windows.Forms.dll, Bug, Build:3694]
+* Added a binder that blocks non-primitive types for certain formats that either should not go through binary formatter, as they are native or that actually are limited to primitive types(locale, string). Formats that don't invoke BinaryFormater.Deserialize, are not affected. [655431, System.Windows.Forms.dll, Bug, Build:3694]
 * The keyboard tooltips feature is "opt-in" now - it is no longer switched on implicitly when app targets .NET 4.8. "Switch.UseLegacyAccessibilityFeatures.3=false", which is a default value for .NET 4.8 apps, is still required by the feature. [686499, System.Windows.Forms.dll, Bug, Build:3694]
 App.config file content example with enabled keyboard tooltips for apps targeting .NET 4.7.2 or older:
   ```<?xml version=""1.0"" encoding=""utf-8""?>
@@ -330,6 +334,8 @@ On .NET Framework Versions 4.7.2 and older, applications must opt in to enable t
 * Fixed an infinite loop that can arise when setting the height of ListBox (or other ItemsControl) to zero. [448747, PresentationFramework.dll, Bug, Build:3707]
 * Fixed a reliability problem to reduce crashes with rapid window size changes when running in Software Rendering mode. [691364, wpfgfx_v0400.dll, Bug, Build:3707]
 * Fixed a crash arising when Visual Studio's diagnostic tools are enabled to debug an app that has a ResourceDictionary whose Source points to invalid XAML. [727642, PresentationFramework.dll, Bug, Build:3707]
+* Fixed a security vulnerability when pasting in WPF textboxes and in WPFs Clipboard APIs [678471, PresentationCore.dll, Bug, Build: 3707]
+* Fixed a security vulnerability when pasting in WPF RichTextbox and InkCanvas [678477, PresentationFramework.dll, Bug, Build: 3707]
 * Improved the memory allocation and cleanup scheduling behavior of the weak-event pattern. To opt-in to these improvements, set AppContext switches to 'true': Switch.MS.Internal.EnableWeakEventMemoryImprovements and Switch.MS.Internal.EnableCleanupSchedulingImprovements. [759824, WindowsBase.dll, PresentationFramework.dll, Bug, Build:3734]
 * Fixed context menus and popups that are sometimes dismissed unexpectedly when shown for the first-time on a non-primary High-DPI monitor [732853, PresentationFramework.dll, PresentationCore.dll, Bug, Build:3734]
 * Fixed a crash due to ElementNotAvailableException arising when scrolling and expanding/collapsing nodes in a TreeView with VirtualizationMode=Recycling, that changes its IsEnabled property while expanding nodes. This crash only occurs when there is a "partial automation client" running (and no full automation client); The chief example is running the app over RDP to a Win10 machine. [705448, PresentationCore.dll, Bug, Build:3734]

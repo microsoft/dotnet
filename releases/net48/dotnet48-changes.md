@@ -254,7 +254,7 @@ App.config file content example with enabled keyboard tooltips for apps targetin
 * Fixed providing accessibility information about ComboBox selected item: item selection is announced and accessible info is presented even the DropDownList is not opened and user selects the items using arrow keys. In ordr=er for the application to benefit from these changes, the application should explicitly opt-in into all accessibility app context switches in the app.config file as seen in the example for Bug 549360. [703373, System.Windows.Forms.dll, Bug, Build:3707] 
 * Added per monitor DPI awareness support to the PropertyGrid. [719232, System.Windows.Forms.dll, Bug, Build:3707]
 * Fixed a vulnerability in System.Windows.Froms.Clipboard APIs. This is a breaking change and is controlled by the following switch                      
-    <runtime>
+   ```<?xml version=""1.0"" encoding=""utf-8""?>  <runtime>
     <AppContextSwitchOverrides value = "Switch.System.Windows.Forms.EnableLegacyClipboardDeserialization=true" />
     </ runtime>
     [655431, System.Windows.Forms.dll, Bug, Build:3707]

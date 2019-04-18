@@ -143,7 +143,7 @@ Added support for formatting the Japanese first year of era using Gannen 元 whe
   </appSettings> [695709, System.Servicemodel.dll, Bug, Build:3694]
 * Fixed a race condition with IIS hosted net.tcp services when the portsharing service is restarted which resulted in the service being unavailable. [695877, System.ServiceModel.WasHosting.dll, Bug, Build:3694]
 * Fixed broken WCF document links in the tracing log that were broken due to MSDN doc location change. [712450, System.ServiceModel.dll, Bug, Build:3707]
-* Fixed a security vulnerability in  SvcTraceViewer.exe associated with .stvproj file. [728568, System.ServiceModel.dll, Bug, Build:3707]
+* Fixed a security vulnerability in  SvcTraceViewer.exe associated with .stvproj file. *Microsoft would like to thank 9sg Security Team for their responsible disclosure of a remote information vulnerability in the .NET Framework. [728568, System.ServiceModel.dll, Bug, Build:3707]
 * Made some format changes and added lang attribute to WCF service Health page (like http://localhost:83/Service1?health) and WCF service metadata page (like http://localhost:83/Service1) to improve accessibility. [777308, System.ServiceModel.dll, Bug, Build:3745]
 
 
@@ -253,14 +253,13 @@ App.config file content example with enabled keyboard tooltips for apps targetin
 * Fixed accessibility information about ComboBox DataGridView cell, including expanded/collapsed state of this cell. [657355, System.Windows.Forms.dll, Bug, Build:3707]
 * Fixed providing accessibility information about ComboBox selected item: item selection is announced and accessible info is presented even the DropDownList is not opened and user selects the items using arrow keys. In ordr=er for the application to benefit from these changes, the application should explicitly opt-in into all accessibility app context switches in the app.config file as seen in the example for Bug 549360. [703373, System.Windows.Forms.dll, Bug, Build:3707] 
 * Added per monitor DPI awareness support to the PropertyGrid. [719232, System.Windows.Forms.dll, Bug, Build:3707]
-* Fixed a vulnerability in System.Windows.Froms.Clipboard APIs. This is a breaking change and is controlled by the following switch                      
-   ```<?xml version=""1.0"" encoding=""utf-8""?>
-   <runtime>
+* Fixed a vulnerability in System.Windows.Froms.Clipboard APIs. This is a breaking change and is controlled by the following switch              
+```<?xml version=""1.0"" encoding=""utf-8""?>
+    <runtime>
     <AppContextSwitchOverrides value = "Switch.System.Windows.Forms.EnableLegacyClipboardDeserialization=true" />
-   </ runtime>
-
-[655431, System.Windows.Forms.dll, Bug, Build:3707]
-* Added Scroll UIA pattern to ListBox items in order to make the control accessible. [742319, System.Windows.Forms.dll, Bug, Build:3734]
+    </runtime>   
+[655431, System.Windows.Forms.dll, Bug, Build:3707] 
+Added Scroll UIA pattern to ListBox items in order to make the control accessible. [742319, System.Windows.Forms.dll, Bug, Build:3734]
 * Fixed ColorEditor, ContentAlignmentEditor, CursporEditor to respond to DPI changed messages and made changes in FontEditor to always open in the 'SystemAware' mode even when the application is in "per-monitor" mode. [746634, System.Windows.Forms.dll, System.Drawing.Design.dll, Bug, Build:3734]
 * Fixed providing correct accessibility information and correct accessible hierarchy of PropertyGrid control. [526702, system.windows.forms.dll, Bug, Build:3734]
 * The screen reader announcement of the WinForms' Menu and ToolStrip expandable subitems has been fixed to not read in items' and scan mode the hidden (collapsed) subitems until corresponding parent Menu item/ToolStrip DropDown item is expanded. In order for the application to benefit from these changes, the application should be recompiled to target .NET framework 4.8 or the application should explicitly opt-in into all accessibility app context switches in the app.config file. [560840, System.Windows.Forms.dll, Bug, Build:3734]

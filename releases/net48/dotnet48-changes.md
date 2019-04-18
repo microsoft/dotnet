@@ -257,7 +257,7 @@ App.config file content example with enabled keyboard tooltips for apps targetin
    ```<?xml version=""1.0"" encoding=""utf-8""?>  <runtime>
     <AppContextSwitchOverrides value = "Switch.System.Windows.Forms.EnableLegacyClipboardDeserialization=true" />
     </ runtime>
-    [655431, System.Windows.Forms.dll, Bug, Build:3707]
+[655431, System.Windows.Forms.dll, Bug, Build:3707]
 * Added Scroll UIA pattern to ListBox items in order to make the control accessible. [742319, System.Windows.Forms.dll, Bug, Build:3734]
 * Fixed ColorEditor, ContentAlignmentEditor, CursporEditor to respond to DPI changed messages and made changes in FontEditor to always open in the 'SystemAware' mode even when the application is in "per-monitor" mode. [746634, System.Windows.Forms.dll, System.Drawing.Design.dll, Bug, Build:3734]
 * Fixed providing correct accessibility information and correct accessible hierarchy of PropertyGrid control. [526702, system.windows.forms.dll, Bug, Build:3734]

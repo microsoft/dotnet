@@ -8,3 +8,4 @@ This document lists the known issues that you may experience after you install t
 
 - [780675 - WPF - Per-Monitor DPI-aware WPF applications position mouse cursor incorrectly when dragging between monitors](https://github.com/NKarnam15/dotnet/blob/user/nkarnam15/net48_new/releases/net48/KnownIssues/wpf-pma-window-drag.md)
 
+

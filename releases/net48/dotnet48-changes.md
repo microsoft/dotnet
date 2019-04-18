@@ -231,7 +231,6 @@ In order for the application to benefit from these changes, the application shou
 In order for an application that targets 4.8 to opt out from this change, use the following combination of switches:
 <AppContextSwitchOverrides value=""Switch.UseLegacyAccessibilityFeatures=false;Switch.UseLegacyAccessibilityFeatures.2=false;Switch.UseLegacyAccessibilityFeatures.3=true""/> [661319, System.Windows.Forms.Dll, Bug, Build:3673]
 * Fixed ToolStrip and MenuStrip control accessible hierarchy of inner menu/tool items. Enabled support of UI Automation notifications for ToolStrip and MenuStrip controls. In order for the application to benefit from these changes, the application should be recompiled to target .NET framework 4.8 or the application should explicitly opt-in into all accessibility app context switches in the app.config file as seen in the example for Bug 549360. [497307, System.Windows.Forms.dll, Bug, Build:3694]
-* Added a binder that blocks non-primitive types for certain formats that either should not go through binary formatter, as they are native or that actually are limited to primitive types(locale, string). Formats that don't invoke BinaryFormater.Deserialize, are not affected. [655431, System.Windows.Forms.dll, Bug, Build:3694]
 * The keyboard tooltips feature is "opt-in" now - it is no longer switched on implicitly when app targets .NET 4.8. "Switch.UseLegacyAccessibilityFeatures.3=false", which is a default value for .NET 4.8 apps, is still required by the feature. [686499, System.Windows.Forms.dll, Bug, Build:3694]
 App.config file content example with enabled keyboard tooltips for apps targeting .NET 4.7.2 or older:
   ```<?xml version=""1.0"" encoding=""utf-8""?>
@@ -254,6 +253,11 @@ App.config file content example with enabled keyboard tooltips for apps targetin
 * Fixed accessibility information about ComboBox DataGridView cell, including expanded/collapsed state of this cell. [657355, System.Windows.Forms.dll, Bug, Build:3707]
 * Fixed providing accessibility information about ComboBox selected item: item selection is announced and accessible info is presented even the DropDownList is not opened and user selects the items using arrow keys. In ordr=er for the application to benefit from these changes, the application should explicitly opt-in into all accessibility app context switches in the app.config file as seen in the example for Bug 549360. [703373, System.Windows.Forms.dll, Bug, Build:3707] 
 * Added per monitor DPI awareness support to the PropertyGrid. [719232, System.Windows.Forms.dll, Bug, Build:3707]
+* Fixed a vulnerability in System.Windows.Froms.Clipboard APIs. This is a breaking change and is controlled by the following switch                      
+    <runtime>
+    <AppContextSwitchOverrides value = "Switch.System.Windows.Forms.EnableLegacyClipboardDeserialization=true" />
+    </ runtime>
+    [655431, System.Windows.Forms.dll, Bug, Build:3707]
 * Added Scroll UIA pattern to ListBox items in order to make the control accessible. [742319, System.Windows.Forms.dll, Bug, Build:3734]
 * Fixed ColorEditor, ContentAlignmentEditor, CursporEditor to respond to DPI changed messages and made changes in FontEditor to always open in the 'SystemAware' mode even when the application is in "per-monitor" mode. [746634, System.Windows.Forms.dll, System.Drawing.Design.dll, Bug, Build:3734]
 * Fixed providing correct accessibility information and correct accessible hierarchy of PropertyGrid control. [526702, system.windows.forms.dll, Bug, Build:3734]

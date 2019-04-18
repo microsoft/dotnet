@@ -2,12 +2,23 @@
 
 You can learn about the changes made in the .NET Framework 4.8.
 
-- [Download .NET 4.8 Developer Pack build 3694](https://go.microsoft.com/fwlink/?linkid=2033281)
-- [.NET Framework 4.8 Early Access build 3694 Announcement blog post](https://blogs.msdn.microsoft.com/dotnet/2018/11/28/announcing-net-framework-4-8-early-access-build-3694/)
-- [Release notes](dotnet472-changes.md)
-- [Application compatibility](https://go.microsoft.com/fwlink/?linkid=863254)
+- [Download](http://go.microsoft.com/fwlink/?LinkId=2085155)
+- [.NET Framework 4.8 RTM Announcement blog post](https://go.microsoft.com/fwlink/?linkid=2054306)
+- [Release notes](dotnet48-changes.md)
+- [Application compatibility](https://go.microsoft.com/fwlink/?linkid=2053971)
 - [API changes](dotnet48-api-changes.md)
 - [Known issues](dotnet48-known-issues.md) 
 
 ## Release Notes by Product Area
+
+- [ASP.NET](dotnet48-changes.md#aspnet)
+- [BCL](dotnet48-changes.md#bcl)
+- [ClickOnce](dotnet48-changes.md#clickonce)
+- [CLR](dotnet48-changes.md#clr)
+- [Networking](dotnet48-changes.md#networking)
+- [SQL](dotnet48-changes.md#sql)
+- [WCF](dotnet48-changes.md#wcf)
+- [Windows Forms](dotnet48-changes.md#windows-forms)
+- [WPF](dotnet48-changes.md#wpf)
+- [Workflow](dotnet48-changes.md#workflow)
 

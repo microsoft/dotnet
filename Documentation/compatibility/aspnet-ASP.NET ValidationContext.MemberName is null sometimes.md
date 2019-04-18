@@ -21,7 +21,7 @@ The default behavior of the <xref:System.ComponentModel.DataAnnotations.Validati
 ```
 
 ### Affected APIs
-`System.ComponentModel.DataAnnotations.ValidationContext.MemberName`
+* `P:System.ComponentModel.DataAnnotations.ValidationContext.MemberName`
 
 ### Category
 ASP.NET

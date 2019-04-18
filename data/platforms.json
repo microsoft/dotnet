@@ -83,6 +83,35 @@
       ]
     },
     {
+      "platform": ".NET Framework 4.8",
+      "alias": "net48",
+      "category": "netfx",
+      "supportInfo": {
+        "support": "Supported",
+        "link": ""
+      },
+      "popular": true,
+      "info": "http://go.microsoft.com/fwlink/?LinkId=2054306",
+      "supportedBy": [
+        "VS2019",
+        "VS2017"
+      ],
+      "runtime": [
+        {
+          "name": ".NET Framework 4.8",
+          "link": "http://go.microsoft.com/fwlink/?LinkId=2085155",
+          "directLink": "http://go.microsoft.com/fwlink/?LinkId=2085155&source=getdotnet&desc=dotnet48"
+        }
+      ],
+      "tools": [
+        {
+          "name": ".NET Framework 4.8 Developer Pack",
+          "link": "http://go.microsoft.com/fwlink/?LinkId=2085167",
+          "description": "The .NET 4.8 Developer pack includes 4.8 reference assemblies needed by Visual Studio and msbuild."
+        }
+      ]
+    },
+    {
       "platform": ".NET Framework 4.7.2",
       "alias": "net472",
       "category": "netfx",
@@ -93,9 +122,10 @@
       "popular": true,
       "info": "http://go.microsoft.com/fwlink/?LinkId=863281",
       "includedIn": [
-        "VS2017"
+        "VS2019"
       ],
       "supportedBy": [
+        "VS2017",
         "VS2015"
       ],
       "runtime": [
@@ -316,6 +346,7 @@
       "info": "http://msdn.microsoft.com/library/w0x726c2(VS.90).aspx",
       "includedIn": [],
       "supportedBy": [
+        "VS2019",
         "VS2017",
         "VS2015",
         "VS2013"

@@ -40,7 +40,7 @@ DateTime and DateTimeOffset operations will continue to work as it used to work,
 * Fixed an IndexOutOfRangeException thrown when asynchronously reading a process output with less than a character's worth of bytes is read at the beginning of a line. [724219, System.dll, Bug, Build:3707]
 * Mitigate compatibility breaks seen in some System.Data.SqlClient usage scenarios. [727701, System.Configuration.dll, Bug, Build:3707]
 * Fixed a serialization exception that occurred when a huge amount of objects were serialized with BinaryFormatter. [761576, mscorlib.dll, Bug, Build:3734]
-* Added support for formatting the Japanese first year of era using Gannen 元 when the date pattern not having single quotes around 年. e.g. y年. [777279, mscorlib.dll, Bug, Build:3745]
+* Added support for formatting the Japanese first year of era using Gannen 元 when the date pattern does not have single quotes around 年 (e.g., y年). [777279, mscorlib.dll, Bug, Build:3745]
 * Changed the name of "Former Yugoslav Republic of Macedonia" to "North Macedonia" [802482, mscorlib.dll, Bug, Build:3761]
 
 

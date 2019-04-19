@@ -40,14 +40,14 @@ This sample uses a multi-targeting ClassLibrary project, that can be created usi
 Change `TargetFramework` property to `TargetFrameworks` and add a new .NET Framework target, like in the following example:
 
 ```xml
-<TargetFrameworks>netstandard2.0;net472</TargetFrameworks>
+<TargetFrameworks>netstandard2.0;net48</TargetFrameworks>
 ```
 
 Add Package reference:
 
 ```xml
 <ItemGroup Condition=" '$(TargetFramework)' == 'net472' ">
-  <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.0-alpha-5" />
+  <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.0-alpha.23" />
 </ItemGroup>
 ```
 
@@ -66,10 +66,10 @@ Add the `TargetFramework` property and a `PackageReference` like in the followin
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net472</TargetFramework>
+    <TargetFramework>net48</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.0-alpha-5" />
+    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.0-alpha.23" />
   </ItemGroup>
 
 </Project>
@@ -82,7 +82,7 @@ Add the `TargetFramework` property and a `PackageReference` like in the followin
 2. Add or modify the `TargetFrameworkVersion` property in your *csproj* file:
 
 ```xml
-<TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+<TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
 ```
 
 ### Building your .NET Framework (SDK and Classic) project
@@ -105,6 +105,6 @@ https://dotnet.myget.org/feed/roslyn-tools/package/nuget/Microsoft.NETFramework.
 
 ## Latest release
 
-Version:  1.0.0-alpha-5
+Version: 1.0.0-alpha.23
 
-Date:  Tue, 04 Dec 2018 00:13:27 GMT
+Date: Thu, 11 Apr 2019 18:11:29 GMT

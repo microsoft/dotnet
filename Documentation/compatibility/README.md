@@ -39,6 +39,9 @@ Please help us improve the [.NET Framework Application Compatibility documents](
 - [Workflow XAML checksums for symbols changed from SHA1 to SHA256](workflow-xaml-checksums-for-symbols-changed-from-sha1-to-sha256.md)
 - [Workflow XOML definition and SqlTrackingService cache keys changed from MD5 to SHA256](workflow-xoml-definition-and-sqltrackingservice-caches-changed-from-md5-to-sha256.md)
 - [Workflow XOML file checksums changed from MD5 to SHA256](workflow-xoml-file-checksums-changed-from-md5-to-sha256.md)
+- [System.Threading.Monitor lock acquision scalability improvement](system_threading_monitor_lock_acquisition_scalability_improvement.md)
+- [System.Threading.Timer lock contention improvement](system_threading_timer_lock_contention_improvement.md)
+- [CLR critical section spin-wait removal](clr_critical_section_spin_wait_removal.md)
 
 ## .NET Framework 4.7.2
 

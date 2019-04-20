@@ -2,8 +2,7 @@
 
 ### Scope
 
-Importance: Transparent
-Type: Runtime
+Transparent
 
 ### Version Introduced
 
@@ -12,27 +11,21 @@ Type: Runtime
 ### Source Analyzer Status
 
 NotPlanned
-(not applicable)
 
 ### Change Description
 
-The change is not expected to impact compatibility in the default mode (disabled).
+Timers use a lock, and multiple timers can contend with one another for a lock, which can result in excessive CPU usage.
 
-Issue
+For apps that run under .NET Framework 4.8, an opt-in configuration section may reduce the impact of timers contending for a lock. This change is especially important for high-performance applications.
 
-Timers use a lock and timers may contend with one another, causing excessive CPU usage.
-
-Change
-
-An alternate implementation of the Timer that fixes the issue to some degree has been provided for optional use.
-
-The change can be opted into by setting the following [AppContext switch](https://docs.microsoft.com/en-us/dotnet/api/system.appcontext?view=netframework-4.7.2#appcontext-for-library-consumers):
-  `Switch.System.Threading.UseNetCoreTimer=true`
+- [ ] Quirked
+- [ ] Build-time break
 
 ### Recommended Action
 
-None. Non-default modes do not receive as much testing as the default mode.
+Applications running on .NET Framework 4.8 can opt into this change by setting the following [`AppContext` switch](https://docs.microsoft.com/en-us/dotnet/api/system.appcontext?view=netframework-4.7.2#appcontext-for-library-consumers):
+  `Switch.System.Threading.UseNetCoreTimer=true`
 
 ### Affected APIs
 
-`System.Threading.Timer`
+* `T:System.Threading.Timer`

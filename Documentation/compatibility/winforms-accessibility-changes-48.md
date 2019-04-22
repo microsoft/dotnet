@@ -91,6 +91,9 @@ For an overview of UI automation, see the [UI Automation Overview](https://docs.
 
 __Invoking controls' ToolTips with a keyboard__
 - Control tooltip can now be invoked by focusing the control with keyboard. This feature needs to be enabled explicitly for the application (see section __"How to opt in or out of these changes"__)
+
+__Showing controls' ToolTips in multiple monitors__
+- ToolTip appearance in multi-monitor environments with different DPI scales is correct now and adapted to not truncate the begginnig of text in case the ToolTip text is too long.
  
 ### Affected APIs 
 
@@ -114,6 +117,7 @@ Windows Forms
 497307
 548792
 686499
+763329
 
 -->
 

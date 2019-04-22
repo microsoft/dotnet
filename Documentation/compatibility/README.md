@@ -17,6 +17,27 @@ Please help us improve the [.NET Framework Application Compatibility documents](
 
 ## .NET Framework 4.8
 
+- [.NET COM successfully marshals ByRef SafeArray parameters on events](interop-event-handlers-safearray.md)
+- [.NET Interop will now QueryInterface for IAgileObject (a WinRT interface)](interop-enable-winrt-iagileobject.md)
+- [Accessibility improvements in Windows Forms controls for .NET 4.8](winforms-accessibility-changes-48.md)
+- [Accessibility improvements in Windows Workflow Foundation (WF) workflow designer](workflow-designer-accessibility-4-8.md)
+- [Accessibility improvements in WPF](wpf-accessibility-improvements-48.md)
+- [Add SelectionTextBrush public property to TextBox/PasswordBox non-adorner selection](wpf-SelectionTextBrush-property-for-non-adorner-selection.md)
+- [ASP.NET Fix handling of InputAttributes and LabelAttributes for WebForms CheckBox control](aspnet-fix-handling-input-and-label-attributes-for-webforms-checkbox-control.md)
+- [ASP.NET Incorrect multipart handling may result in lost form data.](aspnet-invalid-results-from-httprequest.getattributefromheader.md)
+- [ASP.NET ValidationContext.MemberName is not NULL when using custom DataAnnotations.ValidationAttribute](aspnet-asp.net-validationcontext.membername-is-null-sometimes.md)
+- [Data Binding improvement for KeyedCollection](wpf-databinding-should-use-key-not-indexer.md)
+- [Fixed a hang when ListBox contains duplicate value-types](wpf-hang-listbox-duplicate-valuetypes.md)
+- [HwndHost now correctly resizes child-HWND during DPI changes](wpf-HwndHost-child-hwnd-correct-size-during-DPI-changes.md)
+- [Improvements to Grid star-rows space allocating algorithm](wpf-grid-row-size-allocation-with-collapsed-element.md)
+- [Keyboard navigation improvement in ListBox with Hyperlinks](wpf-keyboard-navigation-listbox-hyperlink.md)
+- [Managed cryptography classes do not throw a CryptographyException in FIPS mode](cryptographicexception-not-thrown-in-fips-mode.md)
+- [Performance improvement in Automation tree for grouping ItemsControls](wpf-performace-improvement-grouping-automation.md)
+- [svcTraceViewer ComboBox high contrast change](wcf-accessbility-combobox-high-contrast-issue-in-svcTraceViewer-tool.md)
+- [Workflow XAML checksums for symbols changed from SHA1 to SHA256](workflow-xaml-checksums-for-symbols-changed-from-sha1-to-sha256.md)
+- [Workflow XOML definition and SqlTrackingService cache keys changed from MD5 to SHA256](workflow-xoml-definition-and-sqltrackingservice-caches-changed-from-md5-to-sha256.md)
+- [Workflow XOML file checksums changed from MD5 to SHA256](workflow-xoml-file-checksums-changed-from-md5-to-sha256.md)
+
 ## .NET Framework 4.7.2
 
 - ["dataAnnotations:dataTypeAttribute:disableRegEx" app setting is on by default in .NET Framework 4.7.2](aspnet-472-compat-doc.md)
@@ -31,6 +52,7 @@ Please help us improve the [.NET Framework Application Compatibility documents](
 - [Keyboard focus now moves correctly across multiple layers of WinForms/WPF hosting ](wpf-KB-focus-now-moves-correctly-across-hosting-scenarios.md)
 - [Keytips behavior improved in WPF](keytips-behavior-improved-in-wpf.md)
 - [PrivateFontCollection.AddFontFile method releases Font resources](winforms-PrivateFontCollection-Font-handle-leak-fix.md)
+- [Resgen refuses to load content from the web](resgen-block-mark-of-the-web-content.md)
 - [Stack traces obtained when using portable PDBs now include source file and line information if requested](Stack-traces-obtained-when-using-portable-PDBs-now-include-source-file-and-line-information-if-requested.md)
 - [Support special relative URI notation when Unicode is present](uri-unicode-scheme-only-relative.md)
 - [The default hash algorithm for WPF's Markup Compiler is now SHA256](wpf-MarkupCompiler-default-hash-algorithm-is-now-SHA256.md)

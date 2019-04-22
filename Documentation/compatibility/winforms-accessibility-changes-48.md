@@ -94,6 +94,7 @@ __Invoking controls' ToolTips with a keyboard__
 
 __Showing controls' ToolTips in multiple monitors__
 - ToolTip appearance in multi-monitor environments with different DPI scales is correct now and adapted to not truncate the begginnig of text in case the ToolTip text is too long.
+
  
 ### Affected APIs 
 
@@ -117,7 +118,9 @@ Windows Forms
 497307
 548792
 686499
+
 763329
+
 
 -->
 

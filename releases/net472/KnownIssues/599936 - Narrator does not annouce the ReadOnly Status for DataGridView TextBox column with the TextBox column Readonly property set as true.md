@@ -1,4 +1,4 @@
- # Narrator does not annouce the ReadOnly Status for DataGridView TextBox column with the TextBox column Readonly property set as true
+ # Narrator does not announce the ReadOnly Status for DataGridView TextBox column with the TextBox column Readonly property set as true
 
 ## Symptoms
 Narrator does not announce the value of the ReadOnly property of the System.Windows.Forms.DataGridViewTextBoxColumn. This is the case regardless of the value of the ReadOnly property. This could cause confusion for Narrator users when editing content in a DataGridViewTextBoxColumn.

@@ -43,8 +43,8 @@ By including the runtime configuration option in <app>.exe.config. Example:
 * `M:System.Threading.Monitor.Enter(System.Object)`
 * `M:System.Threading.Monitor.Enter(System.Object,System.Boolean)`
 * `M:System.Threading.Monitor.TryEnter(System.Object)
-* `M:System.Threading.Monitor.TryEnter(System.Object,ref System.Boolean)
+* `M:System.Threading.Monitor.TryEnter(System.Object,System.Boolean@)
 * `M:System.Threading.Monitor.TryEnter(System.Object,System.Int32)
-* `M:System.Threading.Monitor.TryEnter(System.Object,System.Int32,ref System.Boolean)
+* `M:System.Threading.Monitor.TryEnter(System.Object,System.Int32,System.Boolean@)
 * `M:System.Threading.Monitor.TryEnter(System.Object,System.TimeSpan)
-* `M:System.Threading.Monitor.TryEnter(System.Object,System.TimeSpan,ref System.Boolean)
+* `M:System.Threading.Monitor.TryEnter(System.Object,System.TimeSpan,System.Boolean@)

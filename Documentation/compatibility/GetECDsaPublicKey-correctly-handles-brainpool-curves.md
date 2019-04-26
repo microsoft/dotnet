@@ -13,7 +13,7 @@ NotPlanned
 Starting with .NET Framework 4.8, the <xref:System.Security.Cryptography.X509Certificates.ECDsaCertificateExtensions.GetECDsaPublicKey%2A?displayProperty=nameWithtype> method correctly handles all named curves supported by the OS, including the Brainpool elliptic curves.
 
 ### Recommended Action
-If you encounter compatibility issues with this change on the .NET Framework 4.8 or a later version, you can opt-out of it by adding the following line to the <runtime> section of the app.config file:
+If you encounter compatibility issues with this change on the .NET Framework 4.8 or a later version, you can opt-out of it by adding the following line to the \<runtime> section of the app.config file:
 
 ```xml
 <appSettings>

@@ -1,17 +1,17 @@
-# WPF Binding stops working after item container leaves visual tree
+# WPF Binding stops working after an item container leaves the visual tree
 
 ## Symptoms
 This issue affects bindings whose path contains an explicit use of the `DataContext`
 property of an element that belongs to the subtree generated for an item within an
 `System.Windows.Controls.ItemsControl`.  When the element leaves the visual tree,
-the binding stops working - any subsequent changes to other properties mentioned in
+the binding stops working; any subsequent changes to other properties mentioned in
 the path are ignored.
 
-The visible symptoms depend on how the binding is used.  Here is an example.  An app
+The visible symptoms depend on how the binding is used. For example, an app
 may want to share a `System.Windows.Controls.ContextMenu` among the
 item containers within an `System.Windows.Controls.ItemsControl`, and have the
 content and behavior of the menu depend on the item container for which it is
-displayed.  This can be implemented by declaring the menu as a resource and binding its
+displayed. This can be implemented by declaring the menu as a resource and binding its
 `DataContext` to that of its `PlacementTarget`:
 
 ```xml
@@ -38,10 +38,10 @@ is displayed, its `PlacementTarget` is changed to be the `StackPanel`, the bindi
 `DataContext` to the data item, and the menu's content and behavior can depend on the data item.
 
 The issue arises if the app removes the item container from the visual tree while the menu
-is visible.  (There are many ways this can happen:  removing the data item from the underlying
+is visible. (There are many ways this can happen:  removing the data item from the underlying
 collection, replacing the `ItemsSource`, scrolling enough to re-virtualize the data item, etc.)
 When this happens, the binding stops working, and any subsequent changes to the `PlacementTarget`
-property are ignored.   The visible symptom is that right-clicking a different data item
+property are ignored. The visible symptom is that right-clicking a different data item
 will bring up the menu and reset its `PlacementTarget`, but its content and behavior are
 still attached to the original item rather than to the newly-chosen one.
 
@@ -52,4 +52,4 @@ mistakenly leaves itself in a state where it ignores subsequent changes to other
 along the path (such as `PlacementTarget` in the example).
 
 ## Resolution
-A hotfix for this issue is planned for .Net 4.8. This page will be updated with a link to the hotfix when it becomes available.
+A hotfix for this issue is planned for .Net Framework 4.8. This page will be updated with a link to the hotfix when it becomes available.

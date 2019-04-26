@@ -1,7 +1,7 @@
 ## ECDsaCertificateExtensions.GetECDsaPublicKey correctly handles Brainpool curves
 
 ### Scope
-Minor
+Edge case
 
 ### Version Introduced
 4.8
@@ -20,6 +20,10 @@ If you encounter compatibility issues with this change on the .NET Framework 4.8
     <add key="Switch.System.Security.Cryptography.X509Certificates.ECDsaCertificateExtensions.UseLegacyPublicKeyReader" value="true" />
 </appSettings>
 ```
+
+### Affected APIs
+
+* `M:System.Security.Cryptography.X509Certificates.ECDsaCertificateExtensions.GetECDsaPublicKey(System.Security.Cryptography.X509Certificates.X509Certificate2)`
 
 ### Category
 Security

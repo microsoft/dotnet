@@ -5,7 +5,6 @@
 Transparent
 
 ### Version Introduced
-
 4.8
 
 ### Source Analyzer Status

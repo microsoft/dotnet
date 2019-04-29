@@ -1,7 +1,7 @@
 ## ECDsaCertificateExtensions.GetECDsaPublicKey correctly handles Brainpool curves
 
 ### Scope
-Edge case
+Edge
 
 ### Version Introduced
 4.8

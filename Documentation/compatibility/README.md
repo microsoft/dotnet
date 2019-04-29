@@ -24,11 +24,11 @@ Please help us improve the [.NET Framework Application Compatibility documents](
 - [Accessibility improvements in WPF](wpf-accessibility-improvements-48.md)
 - [Add SelectionTextBrush public property to TextBox/PasswordBox non-adorner selection](wpf-SelectionTextBrush-property-for-non-adorner-selection.md)
 - [ASP.NET Fix handling of InputAttributes and LabelAttributes for WebForms CheckBox control](aspnet-fix-handling-input-and-label-attributes-for-webforms-checkbox-control.md)
-- [ASP.NET Fix handling of InputAttributes and LabelAttributes for WebForms CheckBox control](aspnet-Fix handling Input and Label attributes for WebForms CheckBox control.md)
 - [ASP.NET Incorrect multipart handling may result in lost form data.](aspnet-invalid-results-from-httprequest.getattributefromheader.md)
 - [ASP.NET ValidationContext.MemberName is not NULL when using custom DataAnnotations.ValidationAttribute](aspnet-asp.net-validationcontext.membername-is-null-sometimes.md)
-- [ASP.NET ValidationContext.MemberName is not NULL when using custom DataAnnotations.ValidationAttribute](aspnet-ASP.NET ValidationContext.MemberName is null sometimes.md)
+- [CLR critical section spin-wait removal](clr_critical_section_spin_wait_removal.md)
 - [Data Binding improvement for KeyedCollection](wpf-databinding-should-use-key-not-indexer.md)
+- [ECDsaCertificateExtensions.GetECDsaPublicKey correctly handles Brainpool curves](GetECDsaPublicKey-correctly-handles-brainpool-curves.md)
 - [Fixed a hang when ListBox contains duplicate value-types](wpf-hang-listbox-duplicate-valuetypes.md)
 - [HwndHost now correctly resizes child-HWND during DPI changes](wpf-HwndHost-child-hwnd-correct-size-during-DPI-changes.md)
 - [Improvements to Grid star-rows space allocating algorithm](wpf-grid-row-size-allocation-with-collapsed-element.md)
@@ -36,12 +36,11 @@ Please help us improve the [.NET Framework Application Compatibility documents](
 - [Managed cryptography classes do not throw a CryptographyException in FIPS mode](cryptographicexception-not-thrown-in-fips-mode.md)
 - [Performance improvement in Automation tree for grouping ItemsControls](wpf-performace-improvement-grouping-automation.md)
 - [svcTraceViewer ComboBox high contrast change](wcf-accessbility-combobox-high-contrast-issue-in-svcTraceViewer-tool.md)
+- [System.Threading.Monitor lock acquision scalability improvement](system_threading_monitor_lock_acquisition_scalability_improvement.md)
+- [System.Threading.Timer lock contention improvement](system_threading_timer_lock_contention_improvement.md)
 - [Workflow XAML checksums for symbols changed from SHA1 to SHA256](workflow-xaml-checksums-for-symbols-changed-from-sha1-to-sha256.md)
 - [Workflow XOML definition and SqlTrackingService cache keys changed from MD5 to SHA256](workflow-xoml-definition-and-sqltrackingservice-caches-changed-from-md5-to-sha256.md)
 - [Workflow XOML file checksums changed from MD5 to SHA256](workflow-xoml-file-checksums-changed-from-md5-to-sha256.md)
-- [System.Threading.Monitor lock acquision scalability improvement](system_threading_monitor_lock_acquisition_scalability_improvement.md)
-- [System.Threading.Timer lock contention improvement](system_threading_timer_lock_contention_improvement.md)
-- [CLR critical section spin-wait removal](clr_critical_section_spin_wait_removal.md)
 
 ## .NET Framework 4.7.2
 

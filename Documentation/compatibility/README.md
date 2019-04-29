@@ -23,7 +23,6 @@ Please help us improve the [.NET Framework Application Compatibility documents](
 - [Accessibility improvements in Windows Workflow Foundation (WF) workflow designer](workflow-designer-accessibility-4-8.md)
 - [Accessibility improvements in WPF](wpf-accessibility-improvements-48.md)
 - [Add SelectionTextBrush public property to TextBox/PasswordBox non-adorner selection](wpf-SelectionTextBrush-property-for-non-adorner-selection.md)
-- [ASP.NET Fix handling of InputAttributes and LabelAttributes for WebForms CheckBox control](aspnet-Fix handling Input and Label attributes for WebForms CheckBox control.md)
 - [ASP.NET Fix handling of InputAttributes and LabelAttributes for WebForms CheckBox control](aspnet-fix-handling-input-and-label-attributes-for-webforms-checkbox-control.md)
 - [ASP.NET Incorrect multipart handling may result in lost form data.](aspnet-invalid-results-from-httprequest.getattributefromheader.md)
 - [ASP.NET ValidationContext.MemberName is not NULL when using custom DataAnnotations.ValidationAttribute](aspnet-asp.net-validationcontext.membername-is-null-sometimes.md)

@@ -52,11 +52,11 @@ There are many projects that you can use and contribute to, some of which are li
 
 Here is a short list of projects to check out:
 
+* [.NET for Apache Spark](https://github.com/dotnet/spark)
 * [Orleans](https://github.com/dotnet/orleans)
 * [Exceptionless](https://github.com/exceptionless/Exceptionless)
 * [Glimpse](https://github.com/Glimpse/Glimpse)
 * [JSON.NET](https://github.com/JamesNK/Newtonsoft.Json)
-* [Mobius: C# API for Apache Spark](https://github.com/Microsoft/Mobius)
 * [MonoGame](https://github.com/MonoGame/MonoGame)
 * [MVVM Cross](https://github.com/MvvmCross/MvvmCross)
 * [ReactiveUI](https://github.com/reactiveui/ReactiveUI)

@@ -1,0 +1,84 @@
+## High DPI (HDPI) improvements in Windows Forms controls for .NET 4.8
+
+### Scope
+Major
+
+### Version Introduced
+4.8
+
+### Source Analyzer Status
+NotPlanned
+
+### Change Description
+The Windows Forms Framework is continuing to improve the scaling and rendering of its controls to better support Windows Forms customers on high resolution devices. These include the following changes:
+- Changes to improve the scaling of PropertyGrid when the DPI of the application changed.
+- Changes to improve the scaling of Toolstrip Menus/Buttons/Glyphs when the DPI of the application changed.
+- Changes to improve the scaling of RadioButton and CheckBox, when setting different styles on them and the DPI of the application changed.
+- Changes to improve the scaling of Font based controls when the DPI of the application changed.
+- Changes to improve the scaling of Button control when the DPI of the application changed.
+
+- [x] Quirked
+- [ ] Build-time break
+
+### Recommended Action
+__How to opt in or out of these changes__
+  
+In order for the application to benefit from these changes, it must run on the .NET Framework 4.8. The application can opt in into these changes in either of the following ways:
+- It is recompiled to target the .NET Framework 4.8. These high DPI improvement changes are enabled by default on Windows Forms applications that target the .NET Framework 4.8.
+- It targets the .NET Framework 4.7.2 or earlier version and opts in to this new behaviour by adding the following [Windows Forms Configuration Section](https://docs.microsoft.com/en-us/dotnet/framework/configure-apps/file-schema/winforms/) to the app config file and then the required flag to opt-in specific feature improvements.
+
+```xml
+    <?xml version="1.0" encoding="utf-8"?>
+    <configuration>
+      <startup>
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.7"/>
+      </startup>
+      <configuration>
+        <System.Windows.Forms.ApplicationConfigurationSection>
+        ...
+        </System.Windows.Forms.ApplicationConfigurationSection>
+      </configuration>
+    </configuration>
+```    
+-  High DPI improvements in each major category has its own setting to opt in. Applications can set the required setting by following instructions explained at [High DPI support in Windows Forms](https://docs.microsoft.com/en-us/dotnet/framework/winforms/high-dpi-support-in-windows-forms).
+
+Note that many of these improvements are enabled only on windows 10 and your application must be enabled to run in Windows 10 compatible mode. You can set this in the application manifest file as defined in [High DPI support in Windows Forms](https://docs.microsoft.com/en-us/dotnet/framework/winforms/high-dpi-support-in-windows-forms)
+
+Applications that target the .NET Framework 4.8 and want to preserve the legacy high dpi behavior can opt in to the use of legacy behaviour by explicitly setting the required switch to `true`.
+
+__Improved PropertyGrid scaling when DPI changed.__
+- Improved scaling of PropertyGrid and its child controls when the DPI of of the application is changed ( Application moved from one monitor to another with different DPI settings). All changes made for this improvement are quirked under switch `DisableDpiChangedHighDpiImprovements`.
+
+__Improved scaling of of Toolstrip Menus/Buttons/Glyphs when the DPI of the application changed__
+- Improved the scaling of Toolstrip Menus/Buttons/Glyphs when the DPI of the application changed. All changes made for this improvement are quirked under switch `ToolStrip.DisableHighDpiImprovements` & `DisableDpiChangedHighDpiImprovements`.
+
+__Improved scaling of RadioButton and CheckBox when application DPI changed__
+- Improved the scaling of the RadioButton and CheckBox , when setting different styles on them and the DPI of the application changed. All changes made for this improvement are quirked under switch `DisableDpiChangedHighDpiImprovements`.
+
+__Improved scaling of Button control when application DPI changed__
+- Improved the scaling of the Button control when the DPI of the application changed. All changes made for this improvement are quirked under switch `DisableDpiChangedHighDpiImprovements`.
+
+__Improved scaling of Font based controls when application DPI changed__
+ Improved the scaling of Font based controls when the DPI of the application changed by scaling font on them. All changes made for this improvement are quirked under switch `DisableDpiChangedHighDpiImprovements`.
+ 
+### Affected APIs 
+
+
+
+### Category
+Windows Forms
+
+<!--
+    ### Original Bug
+616661
+378542
+519500
+597091
+645041
+656271
+664147
+671791
+-->
+
+<!-- breaking change id:  -->
+

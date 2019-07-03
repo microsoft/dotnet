@@ -4,6 +4,7 @@ The following documents provide information on .NET Framework application compat
 
 Please help us improve the [.NET Framework Application Compatibility documents](https://github.com/Microsoft/dotnet/tree/master/Documentation/compatibility). In particular, better titles will improve the index below, both in content and the sort.
 
+- [.NET Framework 4.8](#net-framework-48)
 - [.NET Framework 4.7.2](#net-framework-472)
 - [.NET Framework 4.7.1](#net-framework-471)
 - [.NET Framework 4.7](#net-framework-47)
@@ -13,6 +14,33 @@ Please help us improve the [.NET Framework Application Compatibility documents](
 - [.NET Framework 4.5.2](#net-framework-452)
 - [.NET Framework 4.5.1](#net-framework-451)
 - [.NET Framework 4.5](#net-framework-45)
+
+## .NET Framework 4.8
+
+- [.NET COM successfully marshals ByRef SafeArray parameters on events](interop-event-handlers-safearray.md)
+- [.NET Interop will now QueryInterface for IAgileObject (a WinRT interface)](interop-enable-winrt-iagileobject.md)
+- [Accessibility improvements in Windows Forms controls for .NET 4.8](winforms-accessibility-changes-48.md)
+- [Accessibility improvements in Windows Workflow Foundation (WF) workflow designer](workflow-designer-accessibility-4-8.md)
+- [Accessibility improvements in WPF](wpf-accessibility-improvements-48.md)
+- [Add SelectionTextBrush public property to TextBox/PasswordBox non-adorner selection](wpf-SelectionTextBrush-property-for-non-adorner-selection.md)
+- [ASP.NET Fix handling of InputAttributes and LabelAttributes for WebForms CheckBox control](aspnet-fix-handling-input-and-label-attributes-for-webforms-checkbox-control.md)
+- [ASP.NET Incorrect multipart handling may result in lost form data.](aspnet-invalid-results-from-httprequest.getattributefromheader.md)
+- [ASP.NET ValidationContext.MemberName is not NULL when using custom DataAnnotations.ValidationAttribute](aspnet-asp.net-validationcontext.membername-is-null-sometimes.md)
+- [CLR critical section spin-wait removal](clr_critical_section_spin_wait_removal.md)
+- [Data Binding improvement for KeyedCollection](wpf-databinding-should-use-key-not-indexer.md)
+- [ECDsaCertificateExtensions.GetECDsaPublicKey correctly handles Brainpool curves](GetECDsaPublicKey-correctly-handles-brainpool-curves.md)
+- [Fixed a hang when ListBox contains duplicate value-types](wpf-hang-listbox-duplicate-valuetypes.md)
+- [HwndHost now correctly resizes child-HWND during DPI changes](wpf-HwndHost-child-hwnd-correct-size-during-DPI-changes.md)
+- [Improvements to Grid star-rows space allocating algorithm](wpf-grid-row-size-allocation-with-collapsed-element.md)
+- [Keyboard navigation improvement in ListBox with Hyperlinks](wpf-keyboard-navigation-listbox-hyperlink.md)
+- [Managed cryptography classes do not throw a CryptographyException in FIPS mode](cryptographicexception-not-thrown-in-fips-mode.md)
+- [Performance improvement in Automation tree for grouping ItemsControls](wpf-performace-improvement-grouping-automation.md)
+- [svcTraceViewer ComboBox high contrast change](wcf-accessbility-combobox-high-contrast-issue-in-svcTraceViewer-tool.md)
+- [System.Threading.Monitor lock acquision scalability improvement](system_threading_monitor_lock_acquisition_scalability_improvement.md)
+- [System.Threading.Timer lock contention improvement](system_threading_timer_lock_contention_improvement.md)
+- [Workflow XAML checksums for symbols changed from SHA1 to SHA256](workflow-xaml-checksums-for-symbols-changed-from-sha1-to-sha256.md)
+- [Workflow XOML definition and SqlTrackingService cache keys changed from MD5 to SHA256](workflow-xoml-definition-and-sqltrackingservice-caches-changed-from-md5-to-sha256.md)
+- [Workflow XOML file checksums changed from MD5 to SHA256](workflow-xoml-file-checksums-changed-from-md5-to-sha256.md)
 
 ## .NET Framework 4.7.2
 
@@ -28,6 +56,7 @@ Please help us improve the [.NET Framework Application Compatibility documents](
 - [Keyboard focus now moves correctly across multiple layers of WinForms/WPF hosting ](wpf-KB-focus-now-moves-correctly-across-hosting-scenarios.md)
 - [Keytips behavior improved in WPF](keytips-behavior-improved-in-wpf.md)
 - [PrivateFontCollection.AddFontFile method releases Font resources](winforms-PrivateFontCollection-Font-handle-leak-fix.md)
+- [Resgen refuses to load content from the web](resgen-block-mark-of-the-web-content.md)
 - [Stack traces obtained when using portable PDBs now include source file and line information if requested](Stack-traces-obtained-when-using-portable-PDBs-now-include-source-file-and-line-information-if-requested.md)
 - [Support special relative URI notation when Unicode is present](uri-unicode-scheme-only-relative.md)
 - [The default hash algorithm for WPF's Markup Compiler is now SHA256](wpf-MarkupCompiler-default-hash-algorithm-is-now-SHA256.md)
@@ -62,7 +91,7 @@ Please help us improve the [.NET Framework Application Compatibility documents](
 - [Default value of ServicePointManager.SecurityProtocol is SecurityProtocolType.System.Default](servicepointmanager.securityprotocol-defaults-to-securityprotocoltype.systemdefault.md)
 - [Incorrect code generation when passing and comparing UInt16 values](incorrect-code-generation-when-passing-and-comparing-uint16-values.md)
 - [NullReferenceException in exception handling code from ImageSourceConverter.ConvertFrom](wpf-nullreferenceexception-in-exception-handling-code-from-imagesourceconverter_convertfrom.md)
-- [Resizing a Grid can hang](wpf-hang-when-resizing-a-grid.md)
+- [Resizing a Grid can cause an application to become unresponsive](wpf-hang-when-resizing-a-grid.md)
 - [Serialization of control characters with DataContractJsonSerializer is now compatible with ECMAScript V6 and V8](serialization-of-control-characters-with-datacontractjsonserializer-is-now-compatible-with-ecmascript-v6-and-v8.md)
 - [SslStream supports TLS Alerts](sslstream-support-for-tls-alerts.md)
 - [Throttle concurrent requests per session](throttle-concurrent-requests-per-session.md)
@@ -104,7 +133,7 @@ Please help us improve the [.NET Framework Application Compatibility documents](
 - [Application.FilterMessage no longer throws for re-entrant implementations of IMessageFilter.PreFilterMessage](application_filtermessage-no-longer-throws-for-re-entrant-implementations-of-imessagefilter_prefiltermessage.md)
 - [Calls to System.Windows.Input.PenContext.Disable on touch-enabled systems may throw an ArgumentException](wpf-pencontext-disable-method-calls-on-touch-enabled-systems-may-throw-argumentexception.md)
 - [Change in path separator character in FullName property of ZipArchiveEntry objects](change-in-path-separator-character-in-zip-files.md)
-- [Contract.Invariant or Contract.Requires<TException> do not consider String.IsNullOrEmpty to be pure](code-contracts-and-string-isnullorempty-compiler-warning.md)
+- [Contract.Invariant or Contract.Requires\<TException> do not consider String.IsNullOrEmpty to be pure](code-contracts-and-string-isnullorempty-compiler-warning.md)
 - [Item-scrolling a flat list with items of different pixel-height](item-scrolling-a-flat-list-with-items-of-different-pixel-height.md)
 - [ObjectDisposedException thrown by WPF spellchecker](objectdisposedexception-thrown-by-wpf-spellchecker.md)
 - [WCF binding with the TransportWithMessageCredential security mode](wcf-binding-with-the-transportwithmessagecredential-security-mode.md)
@@ -227,7 +256,7 @@ Please help us improve the [.NET Framework Application Compatibility documents](
 - [PreviewLostKeyboardFocus is called repeatedly if its handler shows a Windows Forms message box](previewlostkeyboardfocus-is-called-repeatedly-if-its-handler-shows-a-message-box.md)
 - [Profiling ASP.Net MVC4 apps can lead to Fatal Execution Engine Error](profiling-asp_net-mvc4-apps-can-lead-to-fatal-execution-engine-error.md)
 - [Right clicking on a WPF DataGrid row header changes the DataGrid selection](right-clicking-on-a-wpf-datagrid-row-header-changes-the-datagrid-selection.md)
-- [Scrolling a WPF TreeView or grouped ListBox in a VirtualizingStackPanel can cause a hang](scrolling-a-wpf-treeview-or-grouped-listbox-in-a-virtualizingstackpanel-can-cause-a-hang.md)
+- [Scrolling a WPF TreeView or grouped ListBox in a VirtualizingStackPanel can result in an unresponsive application](scrolling-a-wpf-treeview-or-grouped-listbox-in-a-virtualizingstackpanel-can-cause-a-hang.md)
 - [Sharing session state with Asp.Net StateServer requires all servers in the web farm to use the same .NET Framework version](sharing-session-state-with-asp_net-stateserver-requires-all-servers-in-the-web-farm-to-use-the-same-_net-framework-version.md)
 - [SoapFormatter cannot deserialize Hashtable and similar ordered collection objects](soapformatter-cannot-deserialize-hashtable-and-similar-ordered-collection-objects.md)
 - [Some .NET APIs cause first chance (handled) EntryPointNotFoundExceptions](some-_net-apis-cause-first-chance-(handled)-entrypointnotfoundexceptions.md)

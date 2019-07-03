@@ -38,6 +38,6 @@ There are a number of possible work-arounds for this issue:
 ### Category
 Serialization
 
-[More information](http://stackoverflow.com/questions/19585791/net-4-5-1-wcf-serialization-exception)
+[More information](https://stackoverflow.com/questions/19585791/net-4-5-1-wcf-serialization-exception)
 
 <!-- breaking change id: 110 -->

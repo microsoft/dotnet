@@ -20,7 +20,7 @@ Current Known Issues With optional WM_POINTER based touch/stylus stack:
     - Drag/Drop will not show appropriate feedback for touch input
         - This does not affect stylus input
     - Drag/Drop can no longer be initiated on touch/stylus events
-        - This can potentially hang the application until mouse input is detected.
+        - This can potentially cause the application to stop responding until mouse input is detected.
             - Instead, developers should initiate drag and drop from mouse events.
 
 - [X] Quirked

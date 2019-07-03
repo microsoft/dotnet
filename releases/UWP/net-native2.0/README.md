@@ -4,6 +4,9 @@ You can see what was included in each .NET Native 2.0 ([Microsoft.NETCore.Univer
 
 When using Visual Studio these packages require Visual Studio 2017 Version 15.4 or later.
 
+### UWP 6.0.15 (.NET native tools 2.0.3) (March 13th, 2019)
+- Fix for a domain spoofing vulnerability which causes the meaning of a URI to change when International Domain Name encoding is applied. An attacker who successfully exploited the vulnerability could redirect a URI. (https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2019-0657)
+
 ### UWP 6.0.12 (.NET native tools 2.0.3) (October 9th, 2018)
 - Fixed CVE-2018-8292:.NET Information Disclosure Vulnerability: https://github.com/dotnet/announcements/issues/88
 

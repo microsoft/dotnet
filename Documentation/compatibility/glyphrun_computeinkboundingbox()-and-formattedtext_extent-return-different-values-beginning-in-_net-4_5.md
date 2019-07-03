@@ -43,6 +43,6 @@ the app.config file:
 ### Category
 Windows Presentation Foundation (WPF)
 
-[More information](http://support.microsoft.com/kb/3009678)
+[More information](https://support.microsoft.com/kb/3009678)
 
 <!-- breaking change id: 114 -->

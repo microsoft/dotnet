@@ -25,9 +25,9 @@ Normalization typically involves:
 Starting with apps that target the .NET Framework 4.6.2, the following changes
 in path normalization are enabled by default:
 
-- The runtime defers to the operating system's [GetFullPathName](https://msdn.microsoft.com/library/windows/desktop/aa364963(v=vs.85).aspx) function to normalize paths.
+- The runtime defers to the operating system's [GetFullPathName](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfullpathnamew) function to normalize paths.
 - Normalization no longer involves trimming the end of directory segments (such as a space at the end of a directory name).
-- Support for device path syntax in full trust, including <code>\\.\</code> and, for file I/O APIs in mscorlib.dll, <code>\\?\</code>.
+- Support for device path syntax in full trust, including `\\.\` and, for file I/O APIs in mscorlib.dll, `\\?\`.
 - The runtime does not validate device syntax paths.
 - The use of device syntax to access alternate data streams is supported.
 

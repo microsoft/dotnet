@@ -65,13 +65,14 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [WebSharper](https://bitbucket.org/IntelliFactory/websharper) - Web programming platform including a compiler from F# code to JavaScript.
 
 ## Web Marketplace
-  * [BeYourMarket](https://github.com/beyourmarket/beyourmarket) - BeYourMarket is a peer-to-peer marketplace framework http://beyourmarket.com 
+  * [BeYourMarket](https://github.com/beyourmarket/beyourmarket) - BeYourMarket is a peer-to-peer marketplace framework.
 
 ## Web Frameworks
   * [ASP.NET Boilerplate](https://github.com/aspnetboilerplate/aspnetboilerplate) - ASP.NET Boilerplate is a general-purpose application framework specially designed for new modern web applications. It uses already familiar tools and implements best practices around them to provide you a solid development experience.
   * [DotVVM](https://github.com/riganti/dotvvm) - MVVM framework for people who don't like to write JavaScript, with OWIN and ASP.NET Core support and a free extension for Visual Studio 2015 and 2017.
   * [Nancy](https://github.com/NancyFx/Nancy) - A lightweight, low-ceremony, framework for building HTTP based services on .NET and Mono.
   * [NemerleWeb](https://github.com/NemerleWeb/NemerleWeb) - Web MVVM library for .Net. It uses reactive data model which allows creating rich internet applications.
+  * [RedHttpServer](https://github.com/rosenbjerg/Red) -  HTTP web server framework built on ASP.NET Core and Kestrel, but with an API inspired by the simplicity of express.js.
   * [ServiceStack](https://servicestack.net) - Comprehensive and lightning fast message-based framework including ORM, caching, authentication, templating, SPA integrations, etc.
 
 ## Static Site Generators
@@ -153,6 +154,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [Kentor.AuthServices](https://github.com/KentorIT/authservices) - A SAML2 Service Provider for .NET.
   * [Language-ext](https://github.com/louthy/language-ext) - C# 6.0+ functional language extensions. Make C# more like F# and other functional languages
   * [leveldb-sharp](https://github.com/meebey/leveldb-sharp) - cross-platform C# binding for LevelDB
+  * [Lexical.Localization](http://lexical.fi/Localization/index.html) - Localization class library for .NET.
   * [LibGit2Sharp](https://github.com/libgit2/libgit2sharp) - C# language bindings for the [LibGit2](https://github.com/libgit2/libgit2) implementation of Git.
   * [LINQ Extensions](https://github.com/TommasoScalici/LINQExtensions) - LINQ extensions for .NET is a collection of useful extensions methods that extends LINQ's capability. There are methods for combinatorics and sequence analysis, generation and manipulation.
   * [Localization.SqlLocalizer]( https://github.com/damienbod/AspNet5Localization) - SQL Localizer for ASP.NET Core, dotnet
@@ -348,10 +350,11 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [Duality](https://github.com/AdamsLair/duality) - An Open Source 2D Game Engine + Visual Editor written entirely in C#.
   * [MonoGame](https://github.com/mono/MonoGame) - One framework for creating powerful cross-platform games.
   * [OpenRA](https://github.com/OpenRA/OpenRA) - An open-source implementation of the Command & Conquer: Red Alert engine using .NET/Mono and OpenGL.
-  * [Paradox](https://github.com/SiliconStudio/paradox) - Paradox is a versatile and engaging game engine.
   * [WaveEngine](https://github.com/waveengine) - A powerful component based game engine for desktop and mobile platforms using C#.
+  * [Xenko](https://github.com/xenko3d/xenko) - Xenko is a versatile and engaging game engine.
  
 ## UI and Control libraries
+  * [AdonisUI](https://github.com/benruehl/adonis-ui) - Lightweight UI toolkit for WPF applications offering classic but enhanced Windows visuals.
   * [Callisto](https://github.com/timheuer/callisto) - UI Control Toolkit for WinRT apps.
   * [Dragablz](http://github.com/ButchersBoy/Dragablz) - A tearable TabControl for WPF which also provides easy-to-use and implement docking features.
   * [Eto](https://github.com/picoe/Eto) - Cross platform GUI Toolkit for desktop and mobile apps
@@ -398,6 +401,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
 ## Project Templates
   * [ASP.NET Core & Mvc/Angular5 Startup Template](https://github.com/aspnetboilerplate/module-zero-core-template) - This is a template to create ASP.NET Core MVC / Angular based startup projects for [ASP.NET Boilerplate](https://github.com/aspnetboilerplate/aspnetboilerplate). This project also supports multi-tenancy.
   * [ASP.NET MVC Boilerplate](https://github.com/ASP-NET-MVC-Boilerplate/Templates) - Professional ASP.NET MVC templates for building secure, fast, robust and adaptable web applications or sites. It provides the minimum amount of code required on top of the default MVC template provided by Microsoft.
+  * [EISK](https://github.com/eisk) - .NET Core project templates with simple use cases and framework for building scalable web applications, following architectural [best practices](https://docs.microsoft.com/en-us/dotnet/standard/modern-web-apps-azure-architecture/common-web-application-architectures) (DDD, Onion Architecture etc). [Project site](https://eisk.github.io).  
  
 This list is just a starting point - also take a look at all the projects on [GitHub Trending C#](https://github.com/trending?l=csharp).
 

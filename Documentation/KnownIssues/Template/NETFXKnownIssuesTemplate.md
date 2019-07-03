@@ -1,6 +1,6 @@
 # [|Known Issue Title|]
 // There is no built-in way to do comments in Markdown, so this template uses a C#-style comment to mark comments. Please REMOVE ALL COMMENTS before submission.
-// Please use proper markdown syntax for code snippets. See http://daringfireball.net/projects/markdown/syntax for examples.
+// Please use proper markdown syntax for code snippets. See <https://github.com/dotnet/docs/blob/master/styleguide/template.md#inline-code-blocks-with-language-identifier> for examples.
 // Entries with [| ... |] are fields that must be updated.
 
 ## Symptoms

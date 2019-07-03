@@ -17,8 +17,8 @@ After a failed TLS handshake, an
 be thrown by the first I/O Read/Write operation. The
 <xref:System.ComponentModel.Win32Exception.NativeErrorCode?displayProperty=name>
 code for the <xref:System.ComponentModel.Win32Exception?displayProperty=name>
-can be mapped to the TLS Alert from the remote party using this
-[Schannel documentation](https://msdn.microsoft.com/library/windows/desktop/dd721886%28v=vs.85%29.aspx). 
+can be mapped to the TLS Alert from the remote party using the
+[Schannel error codes for TLS and SSL alerts](https://docs.microsoft.com/windows/desktop/SecAuthN/schannel-error-codes-for-tls-and-ssl-alerts). 
 
 For more information, see
 [RFC 2246: Section 7.2.2 Error alerts](https://tools.ietf.org/html/rfc2246#section-7.2.2). <br/>

@@ -30,7 +30,7 @@ automatically apply a
 A <xref:System.Runtime.Versioning.TargetFrameworkAttribute?displayProperty=name>
 should be supplied, either through adding the attribute directly to the assembly
 or by specifying a target framework in the
-[project file or through Visual Studio's project properties GUI](http://blogs.msdn.com/b/visualstudio/archive/2010/05/19/visual-studio- managed-multi-targeting-part-1-concepts-target-framework-moniker-target-framework.aspx).
+[project file or through Visual Studio's project properties GUI](https://devblogs.microsoft.com/visualstudio/visual-studio-managed-multi-targeting-part-1-concepts-target-framework-moniker-target-framework/).
 
 ### Affected APIs
 * Not detectable via API analysis

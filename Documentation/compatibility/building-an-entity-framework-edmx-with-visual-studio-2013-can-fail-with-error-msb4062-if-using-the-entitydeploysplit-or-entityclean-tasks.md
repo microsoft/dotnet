@@ -25,7 +25,7 @@ upgrading the .NET Framework.
 - [x] Build-time break
 
 ### Recommended Action
-Entity Framework targets files are fixed to work with the new MSBuild layout beginning in the .NET Framework 4.6. Upgrading to that version of the Framework will fix this issue. Alternatively, [this](http://stackoverflow.com/a/24249247/131944) workaround can be used to patch the targets files directly.
+Entity Framework targets files are fixed to work with the new MSBuild layout beginning in the .NET Framework 4.6. Upgrading to that version of the Framework will fix this issue. Alternatively, [this workaround](https://stackoverflow.com/a/24249247/131944) can be used to patch the targets files directly.
 
 ### Affected APIs
 * Not detectable via API analysis
@@ -33,6 +33,6 @@ Entity Framework targets files are fixed to work with the new MSBuild layout beg
 ### Category
 Entity Framework
 
-[More information](http://stackoverflow.com/questions/20400054/entitydeploysplit-error-microsoft-data-entity-build-tasks-dll-missing/24249247#24249247)
+[More information](https://stackoverflow.com/questions/20400054/entitydeploysplit-error-microsoft-data-entity-build-tasks-dll-missing/24249247#24249247)
 
 <!-- breaking change id: 109 -->

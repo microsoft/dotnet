@@ -1,4 +1,4 @@
-## Contract.Invariant or Contract.Requires<TException> do not consider String.IsNullOrEmpty to be pure
+## Contract.Invariant or Contract.Requires\<TException> do not consider String.IsNullOrEmpty to be pure
 
 ### Scope
 Minor

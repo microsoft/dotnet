@@ -8,6 +8,7 @@ To get up-to-date with the latest versions of .NET Framework and Visual Studio, 
 
 You can see what was included in each .NET Framework release. Some releases are now unsupported, as called out.
 
+- [.NET Framework 4.8](net48/README.md)
 - [.NET Framework 4.7.2](net472/README.md)
 - [.NET Framework 4.7.1](net471/README.md)
 - [.NET Framework 4.7](net47/README.md)

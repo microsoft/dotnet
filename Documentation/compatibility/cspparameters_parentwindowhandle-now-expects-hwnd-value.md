@@ -26,7 +26,7 @@ cspParameters.ParentWindowHandle = form.Handle;
 
 In previous versions of the .NET Framework, the value was expected to be an <xref:System.IntPtr?displayProperty=name>
 representing a location in memory where the
-[HWND](https://msdn.microsoft.com/library/windows/desktop/aa383751.aspx#HWND) value resided.
+[HWND](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types#HWND) value resided.
 Setting the property to form.Handle on Windows 7 and earlier versions had no
 effect, but on Windows 8 and later versions, it results in a
 "<xref:System.Security.Cryptography.CryptographicException?displayProperty=name>: The parameter is incorrect."
@@ -42,9 +42,9 @@ cspParameters.ParentWindowHandle = form.Handle;
 ```
 
 Users who had identified that the correct value to pass was the address of a memory location which held the value `form.Handle` can opt out of the
-behavior change by setting the AppContext switch `Switch.System.Security.Cryptography.DoNotAddrOfCspParentWindowHandle` to `true`.
+behavior change by setting the AppContext switch `Switch.System.Security.Cryptography.DoNotAddrOfCspParentWindowHandle` to `true`:
 
-1. By programmatically setting compat switches on the AppContext, as explained [here](http://blogs.msdn.com/b/dotnet/archive/2015/04/29/net-announcements-at-build-2015.aspx#dotnet46)
+1. By programmatically setting compat switches on the AppContext, as explained [here](https://devblogs.microsoft.com/dotnet/net-announcements-at-build-2015/#dotnet46).
 2. By adding the following line to the `<runtime>` section of the app.config file:
 
 ```xml

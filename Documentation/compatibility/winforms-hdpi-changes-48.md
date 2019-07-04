@@ -52,7 +52,7 @@ __Improved PropertyGrid scaling when DPI changes.__
 __Improved scaling of Toolstrip Menus/Buttons/Glyphs when the DPI of the application changed__
 All changes in this area are controlled by the `ToolStrip.DisableHighDpiImprovements` & `DisableDpiChangedHighDpiImprovements` switches.
 
-__Improved scaling of RadioButton and CheckBox when application DPI changed__
+__Improved scaling of RadioButton and CheckBox when application DPI changes__
 - Improved the scaling of the RadioButton and CheckBox, when setting different styles on them and the DPI of the application changed. All changes made for this improvement are quirked under switch `DisableDpiChangedHighDpiImprovements`.
 
 __Improved scaling of Button control when application DPI changed__

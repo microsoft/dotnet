@@ -58,7 +58,7 @@ __Improved scaling of RadioButton and CheckBox when application DPI changed__
 __Improved scaling of Button control when application DPI changed__
 - Improved the scaling of the Button control when the DPI of the application changed. All changes made for this improvement are quirked under switch `DisableDpiChangedHighDpiImprovements`.
 
-__Improved scaling of Font based controls when application DPI changed__
+__Improved scaling of Font based controls when application DPI changes__
 All changes made in this area are controlled by the `DisableDpiChangedHighDpiImprovements` switch.
  
 ### Affected APIs 

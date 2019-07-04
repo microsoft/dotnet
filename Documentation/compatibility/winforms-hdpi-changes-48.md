@@ -47,7 +47,7 @@ Note that many of these improvements are enabled only on windows 10 and your app
 Applications that target the .NET Framework 4.8 and want to preserve the legacy high dpi behavior can do so by explicitly setting to `true` the switches that will be described bellow.
 
 __Improved PropertyGrid scaling when DPI changed.__
-- Improved scaling of PropertyGrid and its child controls when the DPI of of the application is changed ( Application moved from one monitor to another with different DPI settings). All changes made for this improvement are quirked under switch `DisableDpiChangedHighDpiImprovements`.
+- Improved scaling of PropertyGrid and its child controls when the DPI of the application is changed (application moved from one monitor to another with different DPI settings). All changes made for this improvement are quirked under switch `DisableDpiChangedHighDpiImprovements`.
 
 __Improved scaling of Toolstrip Menus/Buttons/Glyphs when the DPI of the application changed__
 - Improved the scaling of Toolstrip Menus/Buttons/Glyphs when the DPI of the application changed. All changes made for this improvement are quirked under switch `ToolStrip.DisableHighDpiImprovements` & `DisableDpiChangedHighDpiImprovements`.

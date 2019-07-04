@@ -59,7 +59,7 @@ __Improved scaling of Button control when application DPI changed__
 - Improved the scaling of the Button control when the DPI of the application changed. All changes made for this improvement are quirked under switch `DisableDpiChangedHighDpiImprovements`.
 
 __Improved scaling of Font based controls when application DPI changed__
- Improved the scaling of Font based controls when the DPI of the application changed by scaling font on them. All changes made for this improvement are quirked under switch `DisableDpiChangedHighDpiImprovements`.
+All changes made in this area are controlled by the `DisableDpiChangedHighDpiImprovements` switch.
  
 ### Affected APIs 
 - Not detectable via API analysis.

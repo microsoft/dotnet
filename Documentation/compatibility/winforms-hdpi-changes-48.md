@@ -13,7 +13,7 @@ NotPlanned
 The Windows Forms Framework is continuing to improve the scaling and rendering of its controls to better support Windows Forms customers on high resolution devices. As a result of these improvemeents, Windows Forms application are able to better handle DPI changes that occur, for example, when moving the application from one monitor to another monitor that has different DPI settings. These include the following changes:
 - Changes to improve the scaling of <xref:System.Windows.Forms.PropertyGrid> when the DPI of the application changes.
 - Changes to improve the scaling of Toolstrip Menus/Buttons/Glyphs when the DPI of the application changed.
-- Changes to improve the scaling of RadioButton and CheckBox, when setting different styles on them and the DPI of the application changed.
+- Changes to improve the scaling of <xref:System.Windows.Forms.RadioButton> and <xref:System.Windows.Forms.CheckBox> controls when setting different styles on them and the DPI of the application changes.
 - Changes to improve the scaling of font-based controls when the DPI of the application changes.
 - Changes to improve the scaling of the <xref:System.Windows.Forms.Button> control when the DPI of the application changes.
 

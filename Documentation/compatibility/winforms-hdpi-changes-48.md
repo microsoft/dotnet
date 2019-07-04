@@ -15,7 +15,7 @@ The Windows Forms Framework is continuing to improve the scaling and rendering o
 - Changes to improve the scaling of Toolstrip Menus/Buttons/Glyphs when the DPI of the application changed.
 - Changes to improve the scaling of RadioButton and CheckBox, when setting different styles on them and the DPI of the application changed.
 - Changes to improve the scaling of Font based controls when the DPI of the application changed.
-- Changes to improve the scaling of Button control when the DPI of the application changed.
+- Changes to improve the scaling of the <xref:System.Windows.Forms.Button> control when the DPI of the application changes.
 
 - [x] Quirked
 - [ ] Build-time break

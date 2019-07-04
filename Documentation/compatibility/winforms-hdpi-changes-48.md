@@ -40,7 +40,7 @@ In order for the application to benefit from these changes, it must run on the .
       </configuration>
     </configuration>
 ```    
--  High DPI improvements in each major category has its own setting to opt in. Applications can set the required setting by following instructions explained at [High DPI support in Windows Forms](https://docs.microsoft.com/en-us/dotnet/framework/winforms/high-dpi-support-in-windows-forms).
+-  High DPI improvements in each major category has its own opt-in setting. Applications can set the required setting by following instructions explained at [High DPI support in Windows Forms](~/docs/framework/winforms/high-dpi-support-in-windows-forms.md) and the [Windows Forms add configuration element](~/docs/framework/configure-apps/file-schema/winforms/windows-forms-add-configuration-element.md) .
 
 Note that many of these improvements are enabled only on windows 10 and your application must be enabled to run in Windows 10 compatible mode. You can set this in the application manifest file as defined in [High DPI support in Windows Forms](https://docs.microsoft.com/en-us/dotnet/framework/winforms/high-dpi-support-in-windows-forms)
 

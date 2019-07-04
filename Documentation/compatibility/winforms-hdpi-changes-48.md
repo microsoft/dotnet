@@ -49,7 +49,7 @@ Applications that target the .NET Framework 4.8 and want to preserve the legacy 
 __Improved PropertyGrid scaling when DPI changed.__
 - Improved scaling of PropertyGrid and its child controls when the DPI of of the application is changed ( Application moved from one monitor to another with different DPI settings). All changes made for this improvement are quirked under switch `DisableDpiChangedHighDpiImprovements`.
 
-__Improved scaling of of Toolstrip Menus/Buttons/Glyphs when the DPI of the application changed__
+__Improved scaling of Toolstrip Menus/Buttons/Glyphs when the DPI of the application changed__
 - Improved the scaling of Toolstrip Menus/Buttons/Glyphs when the DPI of the application changed. All changes made for this improvement are quirked under switch `ToolStrip.DisableHighDpiImprovements` & `DisableDpiChangedHighDpiImprovements`.
 
 __Improved scaling of RadioButton and CheckBox when application DPI changed__

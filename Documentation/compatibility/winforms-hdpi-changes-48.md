@@ -53,7 +53,7 @@ __Improved scaling of of Toolstrip Menus/Buttons/Glyphs when the DPI of the appl
 - Improved the scaling of Toolstrip Menus/Buttons/Glyphs when the DPI of the application changed. All changes made for this improvement are quirked under switch `ToolStrip.DisableHighDpiImprovements` & `DisableDpiChangedHighDpiImprovements`.
 
 __Improved scaling of RadioButton and CheckBox when application DPI changed__
-- Improved the scaling of the RadioButton and CheckBox , when setting different styles on them and the DPI of the application changed. All changes made for this improvement are quirked under switch `DisableDpiChangedHighDpiImprovements`.
+- Improved the scaling of the RadioButton and CheckBox, when setting different styles on them and the DPI of the application changed. All changes made for this improvement are quirked under switch `DisableDpiChangedHighDpiImprovements`.
 
 __Improved scaling of Button control when application DPI changed__
 All changes made in this area are controlled by the  `DisableDpiChangedHighDpiImprovements` switch.

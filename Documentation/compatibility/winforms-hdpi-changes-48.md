@@ -62,7 +62,7 @@ __Improved scaling of Font based controls when application DPI changed__
  Improved the scaling of Font based controls when the DPI of the application changed by scaling font on them. All changes made for this improvement are quirked under switch `DisableDpiChangedHighDpiImprovements`.
  
 ### Affected APIs 
-
+- Not detectable via API analysis.
 
 
 ### Category

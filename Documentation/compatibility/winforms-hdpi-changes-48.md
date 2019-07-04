@@ -44,6 +44,7 @@ In order for the application to benefit from these changes, it must run on the .
 
 Note that many of these improvements are enabled only on Windows 10, and your application must be enabled to run in Windows 10 compatible mode. You can set this in the application manifest file as defined in [High DPI support in Windows Forms](~/docs/framework/winforms/high-dpi-support-in-windows-forms.md)
 
+__Opting out
 Applications that target the .NET Framework 4.8 and want to preserve the legacy high dpi behavior can do so by explicitly setting to `true` the switches that will be described bellow.
 
 __Improved PropertyGrid scaling when DPI changes.__

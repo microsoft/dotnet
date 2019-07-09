@@ -170,7 +170,7 @@ Please help us improve the [.NET Framework Application Compatibility documents](
 - [WPF layout rounding of margins has changed](wpf-layout-rounding-of-margins-has-changed.md)
 - [WPF spell checking in text-enabled controls will not work in Windows 10 for languages not in the OS's input language list](wpf-spell-checking-in-text-enabled-controls-will-not-work-in-windows-10-for-languages-not-in-the-input-language-list.md)
 - [WPF windows are rendered without clipping when extending outside a single monitor](wpf-windows-are-rendered-without-clipping-when-extending-outside-a-single-monitor.md)
-- [X509Certificate2.ToString(Boolean) does not throw now when .NET cannot handle the certificate](x509certificate2_tostring(bool)-does-not-throw-now-when-_net-cannot-handle-the-certificate.md)
+- [X509Certificate2.ToString(Boolean) does not throw now when .NET cannot handle the certificate](x509certificate2_tostring(bool)-does-not-throw-now-when-dotnet-cannot-handle-the-certificate.md)
 - [XmlWriter throws on invalid surrogate pairs](xmlwriter-throws-on-invalid-surrogate-pairs.md)
 - [XSD Schema validation now correctly detects violations of unique constraints if compound keys are used and one key is empty](xsd-schema-validation-now-correctly-detects-violations-of-unique-constraints-if-compound-keys-are-used-and-one-key-is-empty.md)
 

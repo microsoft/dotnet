@@ -228,7 +228,7 @@ Please help us improve the [.NET Framework Application Compatibility documents](
 - [Exceptions during unobserved processing in System.Threading.Tasks.Task no longer propagate on finalizer thread](exceptions-during-unobserved-processing-in-system_threading_tasks_task-no-longer-propagate-on-finalizer-thread.md)
 - [FlowDocument may show an extra line of text](flowdocument-may-show-an-extra-line-of-text.md)
 - [Foreach iterator variable is now scoped within the iteration, so closure capturing semantics are different (in C#5)](foreach-iterator-variable-is-now-scoped-within-the-iteration.md)
-- [GlyphRun.ComputeInkBoundingBox() and FormattedText.Extent return different values beginning in .NET Framework 4.5](glyphrun_computeinkboundingbox()-and-formattedtext_extent-return-different-values-beginning-in-_net-4_5.md)
+- [GlyphRun.ComputeInkBoundingBox() and FormattedText.Extent return different values beginning in .NET Framework 4.5](glyphrun-computeinkboundingbox-and-formattedtext-extent-return-different-values-beginning-in-dotnet-4-5.md)
 - [GridViews with AllowCustomPaging set to true may fire the PageIndexChanging event when leaving the final page of the view](gridviews-with-allowcustompaging-set-to-true-may-fire-the-pageindexchanging-event-when-leaving-the-final-page-of-the-view.md)
 - [HttpRequest.ContentEncoding property prohibits UTF7](httprequest_contentencoding-property-prohibits-utf7.md)
 - [HttpUtility.JavaScriptStringEncode escapes ampersand](httputility_javascriptstringencode-escapes-ampersand.md)

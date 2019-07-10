@@ -25,6 +25,7 @@ This behavior can also be explicitly controlled with an `appSetting`:
 ```
 
 ### Affected APIs
+
 * `P:System.Web.HttpRequest.Form`
 * `P:System.Web.HttpRequest.Files`
 * `P:System.Web.HttpRequest.ContentEncoding`

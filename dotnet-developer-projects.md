@@ -50,7 +50,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [IdentityManager](https://github.com/IdentityManager/IdentityManager) - (No Longer Maintained) IdentityManager is a tool for developers and/or administrators to manage the identity information for users of their applications.
   * [IdentityServer](https://github.com/IdentityServer/IdentityServer3)
   * [NWebsec](https://github.com/NWebsec/NWebsec) - Security headers for ASP.NET applications.
-  * [SKGL - Serial Key Generating Library](https://github.com/SerialKeyManager/SKGL)
+  * [SKGL - Serial Key Generating Library](https://github.com/SerialKeyManager/SKGL) - A very simple licensing system that can be used to protect .NET Applications.
 
 ## Web CMS
   * [Composite C1](https://github.com/Orckestra/C1-CMS) - Web content management platform (CMS).
@@ -119,7 +119,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [Cimbalino Toolkit](https://github.com/Cimbalino/Cimbalino-Toolkit) - A set of useful and powerful tools that will help you build your Windows Platform applications.
   * [Cinchoo ETL](https://github.com/Cinchoo/ChoETL) - ETL Framework for .NET (Parser / Writer for CSV, Flat, Xml, JSON, Key-Value formatted files).  
   * [CodeJam](https://github.com/rsdn/CodeJam) - Set of handy reusable .NET components that can simplify your daily work and save your time when you copy and paste your favorite helper methods and classes from one project to another. 
-  * [Coding4Fun Toolkit](https://github.com/Coding4FunProjects/Coding4FunToolkit)
+  * [Coding4Fun Toolkit](https://github.com/Coding4FunProjects/Coding4FunToolkit) - A set of controls, converters, and helper classes for Windows Runtime XAML applications.
   * [ColoredConsole](https://github.com/colored-console/colored-console) - Add some color to your console.
   * [ColorSharp](https://github.com/Litipk/ColorSharp) - Library to handle color spaces and light spectrums.
   * [ComparerExtensions](https://github.com/jehugaleahsa/comparerextensions) - Build IComparer and IEqualityComparer objects using natural language syntax.
@@ -141,7 +141,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [ExtraLINQ](https://github.com/mariusschulz/ExtraLINQ) - Various extension methods for working with .NET collections.
   * [FeatureToggle](https://github.com/jason-roberts/FeatureToggle) - Simple, reliable feature toggles in .NET.
   * [FlatMapper](https://github.com/kappy/FlatMapper) - A library to import and export data from and to plain text files in a Linq compatible way.
-  * [FluentBootstrap](https://github.com/somedave/FluentBootstrap)
+  * [FluentBootstrap](https://github.com/somedave/FluentBootstrap) - Provides extensions, helper classes, model binding, and other goodies to help you use the Bootstrap CSS framework from .NET code.
   * [FluentConsole](https://github.com/ashmind/FluentConsole) - Alternative approach to colored console (`FluentConsole.Red.Text().Green.Text()`).
   * [FluentValidation](https://github.com/JeremySkinner/FluentValidation) - A small validation library for .NET that uses a fluent interface and lambda expressions for building validation rules.
   * [Flurl](https://github.com/tmenier/Flurl) - A fluent, portable, testable URL builder and HTTP client library.
@@ -158,7 +158,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [LibGit2Sharp](https://github.com/libgit2/libgit2sharp) - C# language bindings for the [LibGit2](https://github.com/libgit2/libgit2) implementation of Git.
   * [LINQ Extensions](https://github.com/TommasoScalici/LINQExtensions) - LINQ extensions for .NET is a collection of useful extensions methods that extends LINQ's capability. There are methods for combinatorics and sequence analysis, generation and manipulation.
   * [Localization.SqlLocalizer]( https://github.com/damienbod/AspNet5Localization) - SQL Localizer for ASP.NET Core, dotnet
-  * [Lucene.Net](https://github.com/apache/lucene.net)
+  * [Lucene.Net](https://github.com/apache/lucene.net) - A .NET full-text search engine framework that is a C# port of the popular Apache Lucene project.
   * [MahApps.Metro.IconPacks](https://github.com/MahApps/MahApps.Metro.IconPacks) - Some awesome icons for `WPF` and `UWP` all together. The library contains controls to use icons from [Material Design](https://materialdesignicons.com/), [Material Design Icons Light](https://github.com/Templarian/MaterialDesignLight), [Font Awesome](http://fontawesome.io/icons/), [GitHub Octicons](https://octicons.github.com/), [Modern](http://modernuiicons.com/), [Entypo+](http://www.entypo.com/) and [Simple Icons](https://simpleicons.org/).
   * [Math.NET Numerics](https://github.com/mathnet/mathnet-numerics) - Provides methods and algorithms for numerical computations in science, engineering and every day use.
   * [Mathos Core Libary](https://github.com/MathosProject/Mathos-Project) - A library with algorithms for numerical calcultations in finance, statistics, pattern recognition, and more.
@@ -271,7 +271,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [Quick Diagram Tool for C#](https://github.com/realvizu/QuickDiagram) - Code visualization tool for C#.
   * [scriptcs](https://github.com/scriptcs/scriptcs) - scriptcs makes it easy to write and execute C# with a simple text editor.
   * [Snoop WPF](https://github.com/cplotts/snoopwpf) - Snoop - The WPF Spy Utility
-  * [Sql Bulk Copy Sync](https://github.com/WCOMAB/SqlBulkSync)
+  * [Sql Bulk Copy Sync](https://github.com/WCOMAB/SqlBulkSync) - A lightweight, performant non-intrusive SQL Server data sync tool.
   * [Vagabond](https://github.com/nessos/Vagabond) - Automated dependency resolution and dynamic assembly compilation framework.
   * [Waf DotNetPad](https://jbe2277.github.io/dotnetpad) - The Waf DotNetPad is a simple and fast code editor that makes fun program with C# or Visual Basic.
   * [Weighted Selector](https://github.com/kinetiq/Ether.WeightedSelector/) - Easy to use (but high performance!) weighted selection implementation.
@@ -344,7 +344,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [NMEA Parser](https://github.com/dotMorten/NmeaParser) - Library for handling NMEA message in Windows Desktop, Store, Phone and Xamarin (Android + iOS), coming from files, Bluetooth, serial port or any stream.
   * [Neyro.Data](https://github.com/neyromant/Neyro.Data) - Tiny, simple and fast ORM.
   * [SQL LocalDB Wrapper](https://github.com/martincostello/sqllocaldb) - SQL LocalDB Wrapper is an assembly providing interop with the SQL LocalDB native API from managed code using .NET APIs.
-  * [StackExchange.Redis](https://github.com/StackExchange/StackExchange.Redis)  
+  * [StackExchange.Redis](https://github.com/StackExchange/StackExchange.Redis) -  A high performance, general purpose redis client for .NET languages (C#, etc.).
 
 ## Games
   * [Duality](https://github.com/AdamsLair/duality) - An Open Source 2D Game Engine + Visual Editor written entirely in C#.

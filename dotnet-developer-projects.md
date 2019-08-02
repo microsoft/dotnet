@@ -256,7 +256,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [FsEye](https://github.com/swensensoftware/fseye) - A visual object tree inspector for the F# Interactive.
   * [FsharpLint](https://github.com/fsprojects/FSharpLint) - Lint tool for F#.
   * [FsPickler](https://github.com/nessos/FsPickler) - Serialization library that facilitates the distribution of .NET objects.
-  * [Fusion++](https://github.com/awaescher/Fusion) - A modern alternative to the Microsoft Assembly Binding Log Viewer (FUSLOGVW.exe)
+  * [Fusion++](https://github.com/awaescher/Fusion) - A modern alternative to the Microsoft Assembly Binding Log Viewer (FUSLOGVW.exe).
   * [GitLink](https://github.com/GitTools/GitLink) - Command-line tool to make .NET open source accessible without the need for a symbols server
   * [GitVersion](https://github.com/GitTools/GitVersion) - Use convention to derive a SemVer product version from a GitFlow based repository.
   * [Glimpse](https://github.com/Glimpse/Glimpse) - Providing real time diagnostics & insights to the fingertips of hundreds of thousands of developers daily.

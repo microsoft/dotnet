@@ -4,6 +4,7 @@ You can learn about the changes made in the .NET Framework 4.8.
 
 - [Download](http://go.microsoft.com/fwlink/?LinkId=2085155)
 - [.NET Framework 4.8 RTM Announcement blog post](https://go.microsoft.com/fwlink/?linkid=2054306)
+- [.NET Framework 4.8 Windows Update Release Blog Post](https://go.microsoft.com/fwlink/?linkid=2100817)
 - [Release notes](dotnet48-changes.md)
 - [Application compatibility](https://go.microsoft.com/fwlink/?linkid=2053971)
 - [API changes](dotnet48-api-changes.md)

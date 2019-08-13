@@ -353,7 +353,7 @@ On .NET Framework Versions 4.7.2 and older, applications must opt in to enable t
 * Fixed an issue involving bindings with DataContext explicitly on the binding path.  When DataContext changes to {DisconnectedItem}, the binding should not pass that value to user code like converters, property-change handlers, etc. [801039, PresentationFramework.dll, Bug, Build:3761]
 * Fixed a handle leak during creation of a Window in WPF applications that are manifested for Per Monitor DPI V2 Awareness.  This leak could lead to extraneous GC.Collect calls that can impact performance in Window creation scenarios. [845699, PresentationFramework.dll, Bug, Build 3928]
 * Fixed a regression caused by the bug fix involving bindings with DataContext explicitly on the binding path. [850536, PresentationFramework.dll, Bug, Build 3928]
-* Fixed crash due to ArgumentNullException when loading a DataGrid containing a ComboBox while automation is active.  For example, when navigating Visual Studio to the Text Editor\C#\Code Style\Naming page in Tools\Options. [801039, PresentationFramework.dll, Bug, Build 3928]
+* Fixed a crash due to an ArgumentNullException when loading a DataGrid containing a ComboBox while automation is active.  This might occur, for example, when navigating Visual Studio to the Text Editor\C#\Code Style\Naming page in Tools\Options. [801039, PresentationFramework.dll, Bug, Build 3928]
 
 
 ## WorkFlow

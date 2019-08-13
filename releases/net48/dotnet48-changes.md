@@ -269,7 +269,7 @@ In order for the application to benefit from these changes, the application shou
 In order for the application to benefit from these changes, the application should be recompiled to target .NET framework 4.8 or the application should explicitly opt-in into all accessibility app context switches in the app.config file. [827003, System.Windows.Forms.dll, Bug, Build:3761]
 * Grid error dialog in the property browser (of VS) doesn't support PMA mode yet. Hence, Fixed it to show up as “SystemAware” only dialog when the process is in PMV2 mode. This behavior may change in the future release. [827142, System.Windows.Forms.dll, Bug, Build:3761]
 * Fixed the ability to select ComboBox edit field text using mouse down + move. [853381, System.Windows.Forms.dll, Bug, Build 3928]
-* Fixed the issue with interaction between WPF user control and hosting WinForms app when processing keyboard input. [899206, WindowsFormsIntegration.dll, Bug, Build 3928]
+* Fixed the issue with interaction between a WPF user control and the hosting WinForms app when processing keyboard input. [899206, WindowsFormsIntegration.dll, Bug, Build 3928]
 * Fixed the issue with Narrator/NVDA announcing of PropertyGrid’s ComboBox expanding and collapsing action. [792617, System.Windows.Forms.dll, Bug, Build 3928]
 * Fixed the issue with rendering “…” button of PropertyGrid control in HC mode to draw button background and dots contrasted. [792780, System.Windows.Forms.dll, Bug, Build 3928]
 

@@ -23,5 +23,5 @@ You can learn about the changes made in the .NET Framework 4.8.
 - [WPF](dotnet48-changes.md#wpf)
 - [Workflow](dotnet48-changes.md#workflow)
 
-NOTE: .NET Framework 4.8 will be available on Windows Update, Windows Server Update Services (WSUS) and Microsoft Update Catalog soon. However, if you have a business requirement to temporarily block the automatic installation through Windows Update in your managed environment, you can refer to [KB4516563](https://support.microsoft.com/en-us/help/4516563) for guidance.
+NOTE: .NET Framework 4.8 will be available on Windows Update, Windows Server Update Services (WSUS), and Microsoft Update Catalog soon. However, if you have a business requirement to temporarily block the automatic installation through Windows Update in your managed environment, you can refer to [KB4516563](https://support.microsoft.com/en-us/help/4516563) for guidance.
 

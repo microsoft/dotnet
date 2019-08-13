@@ -8,6 +8,6 @@ This document lists the known issues that you may experience after you install t
 
 - [780675 - WPF - Per-Monitor DPI-aware WPF applications position mouse cursor incorrectly when dragging between monitors](https://github.com/Microsoft/dotnet/blob/master/releases/net48/KnownIssues/wpf-pma-window-drag.md)
 
-- [850536 - WPF - Binding stops working after an item container leaves the visual tree](https://github.com/Microsoft/dotnet/blob/master/releases/net48/KnownIssues/wpf-binding-issue.md)
+
 
 

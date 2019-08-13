@@ -14,6 +14,7 @@
 * Fixed handling of multi-value HTTP headers that may affect multipart data processing. [726155, System.Web.dll, Bug, Build:3734]
 * For client applications (winforms, WPF, or console apps, etc) the ASP.NET Client Application Services API’s have been hardened against potentially malicious JSON payloads. [727703, System.Web.dll, Bug, Build:3734]
 * Fixed an issue introduced in ASP.NET 4.7, where the unexpected removal of a particular type of cache item can result in an orphaned *.delete file that prevents web applications from running. [750653, System.Web.dll, Bug, Build:3734]
+* Fixed System.Web.Caching initialization bug when using ASP.NET cache on machines without IIS. [889110, System.Web.dll, Bug, Build 3928]
 
 ## BCL
 
@@ -267,6 +268,10 @@ In order for the application to benefit from these changes, the application shou
 * With the fix applied, Chart control shows the focus indicator and can be focused using mouse. User is able to access information from Chart control more effectively using assistive technologies.
 In order for the application to benefit from these changes, the application should be recompiled to target .NET framework 4.8 or the application should explicitly opt-in into all accessibility app context switches in the app.config file. [827003, System.Windows.Forms.dll, Bug, Build:3761]
 * Grid error dialog in the property browser (of VS) doesn't support PMA mode yet. Hence, Fixed it to show up as “SystemAware” only dialog when the process is in PMV2 mode. This behavior may change in the future release. [827142, System.Windows.Forms.dll, Bug, Build:3761]
+* Fixed the ability to select ComboBox edit field text using mouse down + move. [853381, System.Windows.Forms.dll, Bug, Build 3928]
+* Fixed the issue with interaction between a WPF user control and the hosting WinForms app when processing keyboard input. [899206, WindowsFormsIntegration.dll, Bug, Build 3928]
+* Fixed the issue with Narrator/NVDA announcing of PropertyGrid’s ComboBox expanding and collapsing action. [792617, System.Windows.Forms.dll, Bug, Build 3928]
+* Fixed the issue with rendering “…” button of PropertyGrid control in HC mode to draw button background and dots contrasted. [792780, System.Windows.Forms.dll, Bug, Build 3928]
 
 
 ## WPF
@@ -346,6 +351,9 @@ On .NET Framework Versions 4.7.2 and older, applications must opt in to enable t
 * Fixed an accessibility issue when replacing an item in a collection with another item that compares as equal. [774503, PresentationFramework.dll, Bug, Build:3761]
 * Added an AppContext switch Switch.System.Windows.Automation.Peers.ItemAutomationPeerKeepsItsItemAlive that opts-out of part of an earlier memory leak fix (172291) by changing ItemAutomationPeer's reference to its item from weak to strong. This re-introduces some of the leaks, but can fix problems in custom automation implementations that tactically assume a strong reference. For example, a custom automation peer (for an ItemsControl) that implements its own logic for re-using its item peers is likely to have a problem when an item X in the underlying collection is replaced by a "separate-but-equal" item X' - a different object where Object.Equals(X, X') is true. [801226, PresentationFramework.dll, Bug, Build:3761] 
 * Fixed an issue involving bindings with DataContext explicitly on the binding path.  When DataContext changes to {DisconnectedItem}, the binding should not pass that value to user code like converters, property-change handlers, etc. [801039, PresentationFramework.dll, Bug, Build:3761]
+* Fixed a handle leak during creation of a Window in WPF applications that are manifested for Per Monitor DPI V2 Awareness.  This leak could lead to extraneous GC.Collect calls that can impact performance in Window creation scenarios. [845699, PresentationFramework.dll, Bug, Build 3928]
+* Fixed a regression caused by the bug fix involving bindings with DataContext explicitly on the binding path. [850536, PresentationFramework.dll, Bug, Build 3928]
+* Fixed a crash due to an ArgumentNullException when loading a DataGrid containing a ComboBox while automation is active.  This might occur, for example, when navigating Visual Studio to the Text Editor\C#\Code Style\Naming page in Tools\Options. [801039, PresentationFramework.dll, Bug, Build 3928]
 
 
 ## WorkFlow

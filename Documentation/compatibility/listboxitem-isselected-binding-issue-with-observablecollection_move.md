@@ -43,6 +43,6 @@ Framework.
 ### Category
 Windows Presentation Foundation (WPF)
 
-[More information](https://social.msdn.microsoft.com/Forums/en-US/afcbc8b3-a2f2-41e4-b402-2efc9eab1ffe/listboxitem-isselected-binding-issue-with-observablecollectionlttgtmove?forum=wpf)
+[More information](https://social.msdn.microsoft.com/Forums/afcbc8b3-a2f2-41e4-b402-2efc9eab1ffe/listboxitem-isselected-binding-issue-with-observablecollectionlttgtmove?forum=wpf)
 
 <!-- breaking change id: 102 -->

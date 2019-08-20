@@ -22,7 +22,7 @@ For apps that run under .NET Framework 4.8, an opt-in configuration section may 
 
 ### Recommended Action
 
-Applications running on .NET Framework 4.8 can opt into this change by setting the following [`AppContext` switch](https://docs.microsoft.com/en-us/dotnet/api/system.appcontext?view=netframework-4.7.2#appcontext-for-library-consumers):
+Applications running on .NET Framework 4.8 can opt into this change by setting the following [`AppContext` switch](https://docs.microsoft.com/dotnet/api/system.appcontext?view=netframework-4.7.2#appcontext-for-library-consumers):
   `Switch.System.Threading.UseNetCoreTimer=true`
 
 ### Affected APIs

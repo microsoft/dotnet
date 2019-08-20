@@ -25,7 +25,7 @@ __How to opt in or out of these changes__
   
 In order for the application to benefit from these changes, it must run on the .NET Framework 4.8. The application can opt in to these changes in either of the following ways:
 - It is recompiled to target the .NET Framework 4.8. These high DPI improvement changes are enabled by default on Windows Forms applications that target the .NET Framework 4.8.
-- It targets the .NET Framework 4.7.2 or earlier versions and opts in to this new behaviour by adding the following [Windows Forms Configuration Section](https://docs.microsoft.com/en-us/dotnet/framework/configure-apps/file-schema/winforms/) to the app config file and then adding the required flag to opt-in specific feature improvements.
+- It targets the .NET Framework 4.7.2 or earlier versions and opts in to this new behaviour by adding the following [Windows Forms Configuration Section](https://docs.microsoft.com/dotnet/framework/configure-apps/file-schema/winforms/) to the app config file and then adding the required flag to opt-in specific feature improvements.
 
 ```xml
     <?xml version="1.0" encoding="utf-8"?>

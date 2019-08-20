@@ -21,6 +21,7 @@ For the correct behavior for restoring attributes on postback, set the `targetFr
 Setting it lower, or not at all, preserves the old incorrect behavior.
 
 ### Affected APIs
+
 * `T:System.Web.UI.WebControls.CheckBox`
 
 ### Category

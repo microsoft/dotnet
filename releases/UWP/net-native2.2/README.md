@@ -4,6 +4,21 @@ You can see what was included in each .NET Native 2.2 ([Microsoft.NETCore.Univer
 
 When using Visual Studio, these packages require Visual Studio 2019 or Visual Studio 2017 Version 15.9.
 
+### UWP 6.2.9 (August 23rd, 2019)
+
+- Reduce optimizer maximum thread count for Store compilations to increase ingestion reliability
+- Fix issue in the analysis engine related to unsafe patterns that could lead to NullReferenceException (https://github.com/dotnet/core/issues/2614)
+- Fix gatekeeper errors due to bad System.Private.Uri AssemblyVersion
+- Fix "Invalid IL" warning from some unsafe code patterns
+- Fix type system issue regarding parameter constraints on methods (https://github.com/SixLabors/ImageSharp/issues/828)
+- Fix interop compilation failure for gRPC Authentication package (https://github.com/grpc/grpc/issues/18188)
+- Fix intop code generation failure for System.IO.ISoreafeItemHandleAccess.Create (https://developercommunity.visualstudio.com/content/problem/310750/release-compile-fails-due-to-errors-in-mcg-generat.html)
+- Adjust garbage collection timing during interop to eliminate memory increase in UWP app when navigating between pages
+- Fix issue leading to Access Violation in the garbage collector caused by ARM32 volatile registers not being populated correctly
+- Fix reference assemblies for WCF so they have the expected public key (https://github.com/dotnet/wcf/issues/3743)
+- Fix signing issue leading to ARM64 debugging failures on ARM64 WCOS
+- Fix issue causing Visual Studio 2017 hangs during debugging sessions
+
 ### UWP 6.2.8 (March 13th, 2019)
 - Fixes package publishing issues
 

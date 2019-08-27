@@ -16,7 +16,6 @@ When using Visual Studio, these packages require Visual Studio 2019 or Visual St
 - Adjust garbage collection timing during interop to eliminate memory increase in UWP app when navigating between pages
 - Fix issue leading to Access Violation in the garbage collector caused by ARM32 volatile registers not being populated correctly
 - Fix reference assemblies for WCF so they have the expected public key (https://github.com/dotnet/wcf/issues/3743)
-- Fix signing issue leading to ARM64 debugging failures on ARM64 WCOS
 - Fix issue causing Visual Studio 2017 hangs during debugging sessions
 
 ### UWP 6.2.8 (March 13th, 2019)

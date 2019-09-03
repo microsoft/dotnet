@@ -113,6 +113,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [Automatonymous](https://github.com/MassTransit/Automatonymous) - An asynchronous state machine engine with messaging support. 
   * [Bing.RestClient](https://github.com/AdvancedREI/Bing.RestClient) - Access the Bing REST APIs from a unified client.
   * [BoxKite.Twitter](https://github.com/NickHodge/BoxKite.Twitter/) - Twitter .NET Client Library for the 1.1 Twitter API, incorporating REST API, User streaming and Search Streaming. Uses Reactive Extensions (Rx).
+  * [CarbonIntensityUK](https://github.com/jordansrowles/CarbonIntensityUK) - Asynchronous wrapper around the [Carbon Intensity API](https://api.carbonintensity.org.uk/) provided by the National Grid ESO.
   * [Castle.LoggingFacility.MsLogging](https://github.com/volosoft/castle-logging-ms-adapter) - An adapter library for Castle logging facility to support Microsoft.Extensions.Logging integration.
   * [Castle Windsor ASP.NET Core / Microsoft.Extensions.DependencyInjection Adapter](https://github.com/volosoft/castle-windsor-ms-adapter) - This library is a Castle Windsor adapter for the Microsoft.Extensions.DependencyInjection NuGet package.
   * [Cecil](https://github.com/jbevain/cecil) - A popular library to read, modify and write .NET binaries.

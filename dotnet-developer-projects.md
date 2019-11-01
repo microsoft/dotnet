@@ -223,6 +223,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [MonoGame](http://www.monogame.net/) - MonoGame is a cross-platform, open-source implementation of the XNA Game Framework.
   * [numl](http://numl.net) - numl is a general purpose machine learning framework meant to simplify the data analysis process
   * [OpenTK](https://github.com/opentk/opentk) - OpenTK is a low-level, cross-platform binding to OpenGL, OpenGL ES, OpenCL and OpenAL, available for Windows, Linux, Mac OS X, BSD, Android and iOS.
+  * [ScreenToGif](https://github.com/NickeManarin/ScreenToGif) - Open source .NET tool allows you to record a selected area of your screen, live feed from your webcam or live drawings from a sketchboard.
   * [SharpDX](https://github.com/sharpdx/SharpDX) - SharpDX is a project delivering the full DirectX API for .NET on all Windows platforms.
 
 ## Logging

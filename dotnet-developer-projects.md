@@ -135,6 +135,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [DnsClient](https://github.com/MichaCo/DnsClient.NET) - A high performant DNS query/lookup library - [Home](http://dnsclient.michaco.net)
   * [DotNetOpenAuth](https://github.com/DotNetOpenAuth) - Library that adds support for your site visitors to login with their OpenIDs by just dropping an ASP.NET control onto your page.
   * [DropboxRestAPI](https://github.com/saguiitay/DropboxRestAPI) - DropBox .Net Client Library.
+  * [DryWetMIDI](https://github.com/melanchall/drywetmidi) - .NET library to read, write, process MIDI files and to work with MIDI devices.
   * [DynamicData](https://github.com/RolandPheasant/DynamicData) - Brings the power of Rx to collections.
   * [Enums.NET](https://github.com/TylerBrinkley/Enums.NET) - High-performance type-safe .NET enum utility library.
   * [Excel-DNA](https://github.com/Excel-DNA/ExcelDna) - Create high-performance, easy to deploy Excel add-ins with .NET - [Home](http://excel-dna.net)

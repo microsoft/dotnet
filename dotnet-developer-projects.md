@@ -205,6 +205,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [WpfToolkit](https://github.com/dotnetprojects/wpftoolkit) - Fork of the MS WPF Toolkit.
   * [XamlEssentials](https://github.com/AdvancedREI/XamlEssentials) - Collection of helpers for Microsoft's XAML platforms. (Not Updated in 4 Years - 4/2018)
   * [Zlib.Portable](https://github.com/AdvancedREI/Zlib.Portable) - A Portable Class Library port of the Zlib library from http://dotnetzip.codeplex.com. (Not Updated in 3 Years - 4/2018)
+  * [Parquet.Net](https://github.com/aloneguid/parquet-dotnet) - Fully managed implementation of [Apache Parquet Format](https://parquet.apache.org/). Used by [ML.NET](https://github.com/dotnet/machinelearning).
 
 ## Data Mine/Data Extraction/Machine Learning/AI
   * [AForge.NET](http://www.aforgenet.com/) - a C# framework designed for developers and researchers in the fields of Computer Vision and Artificial Intelligence - image processing, neural networks, genetic algorithms, machine learning, robotics.

@@ -23,8 +23,8 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  
 ## Languages
   * [Boo](https://github.com/bamboo/boo) - A .NET language similar to Python but with static typing, and many meta-programming capabilities.
-  * [ClojureCLR](https://github.com/clojure/clojure-clr) - A .NET implemention of the [Clojure](http://clojure.org) programming language, built on the DLR. 
-  * [Cobra](http://cobra-language.com/source/) - Clean, high-level syntax (Boo/Python-like). Static and dynamic binding. First class support for unit tests and contracts. Compiled performance with scripting conveniences. Lambdas and closures. Extensions and mixins
+  * [ClojureCLR](https://github.com/clojure/clojure-clr) - A .NET implementation of the [Clojure](http://clojure.org) programming language, built on the DLR. 
+  * [Cobra](http://cobra-language.com/source/) - Clean, high-level syntax (Boo/Python-like). Static and dynamic binding. First class support for unit tests and contracts. Compiled performance with scripting conveniences. Lambdas and closures. Extensions and mixins.
   * [Dynamic Language Runtime](http://www.github.com/IronLanguages/main) - A toolkit for building dynamic languages for .NET.
   * [Eagle](https://eagle.to) - A .NET implementation of the [Tcl](https://www.tcl.tk) programming language, built on the CLR.
   * [Essence#](https://github.com/EssenceSharp/cSharp) - Essence# is a fully dynamic and highly polymorphic programming language which features pervasive message passing, pervasive dynamic and strong typing, pervasive and deep reflection and pervasive object orientation.
@@ -164,14 +164,14 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [Lucene.Net](https://github.com/apache/lucene.net) - A .NET full-text search engine framework that is a C# port of the popular Apache Lucene project.
   * [MahApps.Metro.IconPacks](https://github.com/MahApps/MahApps.Metro.IconPacks) - Some awesome icons for `WPF` and `UWP` all together. The library contains controls to use icons from [Material Design](https://materialdesignicons.com/), [Material Design Icons Light](https://github.com/Templarian/MaterialDesignLight), [Font Awesome](http://fontawesome.io/icons/), [GitHub Octicons](https://octicons.github.com/), [Modern](http://modernuiicons.com/), [Entypo+](http://www.entypo.com/) and [Simple Icons](https://simpleicons.org/).
   * [Math.NET Numerics](https://github.com/mathnet/mathnet-numerics) - Provides methods and algorithms for numerical computations in science, engineering and every day use.
-  * [Mathos Core Libary](https://github.com/MathosProject/Mathos-Project) - A library with algorithms for numerical calcultations in finance, statistics, pattern recognition, and more.
+  * [Mathos Core Libary](https://github.com/MathosProject/Mathos-Project) - A library with algorithms for numerical calculations in finance, statistics, pattern recognition, and more.
   * [Mathos Parser](https://github.com/MathosProject/Mathos-Project) - A simple parser for mathematical expressions before and at runtime.
   * [Mjolnir](https://github.com/hudl/Mjolnir) - [Hystrix](https://github.com/Netflix/Hystrix)-inspired fault tolerance with circuit breakers and thread pools.
   * [MoreLINQ](https://morelinq.github.io/) - LINQ to Objects is missing a few desirable features. This project will enhance LINQ to Objects with extra methods, in a manner which keeps to the spirit of LINQ.
   * [NAudio](https://github.com/naudio/NAudio) - An open source .NET audio and MIDI library.
   * [NEST](https://github.com/elastic/elasticsearch-net) - The official .NET client library for Elasticsearch.
   * [NetTopologySuite](https://github.com/NetTopologySuite) - A .NET port of the JTS Topology Suite.
-  * [NHunspell](http://sourceforge.net/projects/nhunspell/) - Spell Checker, Hyphenation an Theasaurus.
+  * [NHunspell](http://sourceforge.net/projects/nhunspell/) - Spell Checker, Hyphenation and Thesaurus.
   * [NModbus4](https://github.com/NModbus4/NModbus4) - Implementation of the Modbus protocol.
   * [NodaTime](https://nodatime.org/) - A better date and time API for .NET.
   * [NPOI](https://github.com/tonyqus/npoi) - An Office file formats (xls, xlsx, docx) read/write library for .NET.
@@ -252,7 +252,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [Cake](https://github.com/cake-build/cake) (C# Make) - A build automation system with C#/Roslyn driven build scripts.
   * [CInject](https://github.com/punitganshani/CodeInject) - A tool to inject your C#/VB.NET code into existing .NET assemblies and executables
   * [CppSharp](https://github.com/mono/CppSharp) - C/C++ bindings generation for .NET.
-  * [Crawler-Lib Build Tools](http://download.crawler-lib.net/BuildTools/) -  [A PowerShell based toolbox](http://www.crawler-lib.net/build-tools) for automating the software build process, autmated testing and integration.
+  * [Crawler-Lib Build Tools](http://download.crawler-lib.net/BuildTools/) -  [A PowerShell based toolbox](http://www.crawler-lib.net/build-tools) for automating the software build process, automated testing and integration.
   * [dnSpy](https://github.com/0xd4d/dnSpy) - A .NET decompiler, debugger, and assembly editor that lets you edit and debug assemblies even if you don't have their source code.
   * [FAKE](http://fsharp.github.io/FAKE/) - Build automation system with capabilities which are similar to make and rake.
   * [FlubuCore](https://github.com/flubu-core/flubu.core) - A cross platform build and deployment automation system for building projects and executing deployment scripts using C# code.
@@ -313,14 +313,14 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
 ## Dependency Injection
   * [Autofac](https://github.com/autofac/Autofac) - Autofac is an addictive Inversion of Control container for .NET 4.5, Silverlight 5, Windows Store apps, and Windows Phone 8 apps.
   * [Castle Windsor](https://github.com/castleproject/Windsor) - A mature Inversion of Control container available for .NET and Silverlight
-  * [DI Feature Tests](https://github.com/ashmind/net-feature-tests) - Tests that track commmon DI features among multiple containers
+  * [DI Feature Tests](https://github.com/ashmind/net-feature-tests) - Tests that track common DI features among multiple containers
   * [dI.Hook](https://github.com/punitganshani/dI.Hook) - DI container that allows invocation using AOP
   * [DryIoc](https://bitbucket.org/dadhi/dryioc) - DryIoc is small, fast, capable IoC Container for .NET
   * [fFastInjector](https://github.com/Grax32/fFastInjector/) - fFastInjector is a high-performing dependency injector, service locator, and/or IOC (inversion of control) container.
   * [Funq](https://funq.codeplex.com/) - A fast DI container you can understand. (No Recent Updates - Still on CodePlex - 4/2018)
   * [Grace](https://github.com/ipjohnson/Grace) - Grace is a feature rich Dependency Injection container in a portable class library 
   * [Griffin](https://github.com/jgauffin/griffin.container) - Inversion of control container with (almost) zero configuration
-  * [HaveBox](https://bitbucket.org/Have/havebox/wiki/Home) - HaveBox is a very fast and lightweight IoC containter. The goal is to keep it fast and light, and at the same time easy to use.
+  * [HaveBox](https://bitbucket.org/Have/havebox/wiki/Home) - HaveBox is a very fast and lightweight IoC container. The goal is to keep it fast and light, and at the same time easy to use.
   * [Hiro](https://github.com/philiplaureano/Hiro) - An ultra-lightweight, inversion of control container compiler framework 
   * [IfInjector](https://github.com/iamahern/IfInjector) - High performance mobile micro-IoC container.
   * [LightCore](https://peterbucher.kilnhg.com/Code/LightCore/Group/Default?nr=) - [A lightweight dependency injection container](http://lightcore.ch/en/default.aspx) that can be used as a service locator and despite its simplicity and ease boasts numerous features.

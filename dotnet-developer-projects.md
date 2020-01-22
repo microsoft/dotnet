@@ -94,6 +94,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [Brighter](https://github.com/iancooper/Paramore) - A Command Dispatcher and Command Processor library with support for Work or Task Queues over different MoM implementations such as RabbitMQ.
   * [CAP](https://github.com/dotnetcore/CAP) - An EventBus with local persistent message functionality for RabbitMQ or Kafka.
   * [EasyNetQ](https://github.com/mikehadlow/EasyNetQ) - An easy to use .NET API for RabbitMQ.
+  * [FasterLog](https://github.com/microsoft/FASTER/blob/master/docs/cs/FasterLog.md): A high-performance concurrent persistent log (messaging queue) library for .NET, supporting group commit, scans, and random reads over tiered/sharded local and cloud storage.
   * [Lime](https://github.com/takenet/lime-csharp) - A lightweight messaging library. 
   * [MassTransit](https://github.com/MassTransit/MassTransit) - A distributed application framework for RabbitMQ and Azure Service Bus.
   * [NServiceBus](https://github.com/Particular/NServiceBus) - The most popular service bus for .NET.
@@ -141,6 +142,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [Excel-DNA](https://github.com/Excel-DNA/ExcelDna) - Create high-performance, easy to deploy Excel add-ins with .NET - [Home](http://excel-dna.net)
   * [ExtCore](https://github.com/ExtCore/ExtCore) - Free, open source and cross-platform framework for creating modular and extendable web applications based on ASP.NET Core 1.1.
   * [ExtraLINQ](https://github.com/mariusschulz/ExtraLINQ) - Various extension methods for working with .NET collections.
+  * [FASTER](https://github.com/microsoft/FASTER): A high-performance concurrent, latch-free, persistent hash key-value store and caching library (over a record log) for .NET.
   * [FeatureToggle](https://github.com/jason-roberts/FeatureToggle) - Simple, reliable feature toggles in .NET.
   * [FlatMapper](https://github.com/kappy/FlatMapper) - A library to import and export data from and to plain text files in a Linq compatible way.
   * [FluentBootstrap](https://github.com/somedave/FluentBootstrap) - Provides extensions, helper classes, model binding, and other goodies to help you use the Bootstrap CSS framework from .NET code.

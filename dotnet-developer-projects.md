@@ -181,6 +181,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [NPOI](https://github.com/tonyqus/npoi) - An Office file formats (xls, xlsx, docx) read/write library for .NET.
   * [OneDriveRestAPI](https://github.com/saguiitay/OneDriveRestAPI) - (No Updates in 3 Years) OneDrive .Net Client Library using the REST API.
   * [OsmSharp](https://github.com/OsmSharp) - Mapping & Routing library.
+  * [Parquet.Net](https://github.com/aloneguid/parquet-dotnet) - Fully managed implementation of [Apache Parquet Format](https://parquet.apache.org/). Used by [ML.NET](https://github.com/dotnet/machinelearning).
   * [PocketSharp](https://github.com/ceee/PocketSharp) - Library for the Pocket API.
   * [PortableRest](https://github.com/AdvancedREI/PortableRest) - Portable library for building cross-platform REST API Clients for .NET and Xamarin.
   * [RestSharp](https://github.com/restsharp/RestSharp) - Simple REST and HTTP API Client for .NET

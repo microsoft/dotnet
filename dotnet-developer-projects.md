@@ -177,6 +177,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [NPOI](https://github.com/tonyqus/npoi) - An Office file formats (xls, xlsx, docx) read/write library for .NET.
   * [OneDriveRestAPI](https://github.com/saguiitay/OneDriveRestAPI) - (No Updates in 3 Years) OneDrive .Net Client Library using the REST API.
   * [OsmSharp](https://github.com/OsmSharp) - Mapping & Routing library.
+  * [Parquet.Net](https://github.com/aloneguid/parquet-dotnet) - Fully managed implementation of [Apache Parquet Format](https://parquet.apache.org/). Used by [ML.NET](https://github.com/dotnet/machinelearning).
   * [PocketSharp](https://github.com/ceee/PocketSharp) - Library for the Pocket API.
   * [PortableRest](https://github.com/AdvancedREI/PortableRest) - Portable library for building cross-platform REST API Clients for .NET and Xamarin.
   * [RestSharp](https://github.com/restsharp/RestSharp) - Simple REST and HTTP API Client for .NET
@@ -205,7 +206,6 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [WpfToolkit](https://github.com/dotnetprojects/wpftoolkit) - Fork of the MS WPF Toolkit.
   * [XamlEssentials](https://github.com/AdvancedREI/XamlEssentials) - Collection of helpers for Microsoft's XAML platforms. (Not Updated in 4 Years - 4/2018)
   * [Zlib.Portable](https://github.com/AdvancedREI/Zlib.Portable) - A Portable Class Library port of the Zlib library from http://dotnetzip.codeplex.com. (Not Updated in 3 Years - 4/2018)
-  * [Parquet.Net](https://github.com/aloneguid/parquet-dotnet) - Fully managed implementation of [Apache Parquet Format](https://parquet.apache.org/). Used by [ML.NET](https://github.com/dotnet/machinelearning).
 
 ## Data Mine/Data Extraction/Machine Learning/AI
   * [AForge.NET](http://www.aforgenet.com/) - a C# framework designed for developers and researchers in the fields of Computer Vision and Artificial Intelligence - image processing, neural networks, genetic algorithms, machine learning, robotics.

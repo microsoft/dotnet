@@ -29,10 +29,10 @@ There are many projects that you can use and contribute to, some of which are li
 
 - [.NET Core (dotnet/core)](https://github.com/dotnet/core)
 - [.NET Core docs (dotnet/docs)](https://github.com/dotnet/docs)
-- [ASP.NET Core (aspnet/home)](https://github.com/aspnet/home)
-- [ASP.NET Core docs (aspnet/Docs)](https://github.com/aspnet/Docs)
+- [ASP.NET Core (dotnet/aspnetcore)](https://github.com/dotnet/aspnetcore)
+- [ASP.NET Core docs (aspnet/AspNetCore.Docs)](https://github.com/aspnet/AspNetCore.Docs)
 - [Roslyn Compiler Platform (dotnet/roslyn)](https://github.com/dotnet/roslyn)
-- [EntityFramework (aspnet/entityframework)](https://github.com/aspnet/EntityFramework)
+- [EntityFramework (dotnet/efcore)](https://github.com/dotnet/efcore)
 - [WPF (dotnet/wpf)](https://github.com/dotnet/wpf)
 - [Windows Forms (dotnet/winforms)](https://github.com/dotnet/winforms)
 

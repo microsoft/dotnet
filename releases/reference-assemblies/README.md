@@ -1,4 +1,4 @@
-# .NET Framework Targeting Pack Nuget Packages (Preview)
+# .NET Framework Targeting Pack Nuget Packages
 
 These packages enable building .NET Framework projects on any machine with at least MSBuild or the .NET Core SDK installed. 
 
@@ -7,10 +7,6 @@ The following scenarios and benefits are enabled for .NET Framework projects:
 - Build without requiring admin operations to install pre-requisites such as [Visual Studio](https://visualstudio.microsoft.com/vs/) or [.NET Framework targeting packs](https://dotnet.microsoft.com/download/visual-studio-sdks).
 - Build libraries on any operating system supported by the .NET Core SDK.
 - Build Mono-based projects.
-
-## Status
-
-Early preview.
 
 ## Usage
 
@@ -28,7 +24,7 @@ Add Package reference:
 
 ```xml
 <ItemGroup>
-  <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.0-preview.1" PrivateAssets="All" />
+  <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.0" PrivateAssets="All" />
 </ItemGroup>
 ```
 
@@ -50,7 +46,7 @@ Add the `TargetFramework` property and a `PackageReference` like in the followin
     <TargetFramework>net472</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.0-alpha-5" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.0" PrivateAssets="All" />
   </ItemGroup>
 
 </Project>
@@ -86,6 +82,6 @@ https://www.nuget.org/packages/Microsoft.NETFramework.ReferenceAssemblies
 
 ## Latest release
 
-Version:  1.0.0-preview.1
+Version:  1.0.0
 
 Date:  Sun, 05 May 2019 23:37:33 GMT

@@ -1,4 +1,4 @@
-# .NET Framework Targeting Pack Nuget Packages (Preview)
+# .NET Framework Targeting Pack Nuget Packages
 
 These packages enable building .NET Framework projects on any machine with at least MSBuild or the .NET Core SDK installed. 
 
@@ -8,34 +8,11 @@ The following scenarios and benefits are enabled for .NET Framework projects:
 - Build libraries on any operating system supported by the .NET Core SDK.
 - Build Mono-based projects.
 
-## Status
-
-Early preview.
-
 ## Usage
-
-At the moment, packages are located on a non-default package feed. Until packages are moved to the default package feed, a change in your project's `NuGet.Config` file is needed. Add the following line to `<packageSources>` section:
-
-```xml
-<add key="roslyn-tools" value="https://dotnet.myget.org/f/roslyn-tools/api/v3/index.json" />
-```
-
-Sample `NuGet.Config` file:
-
-```xml
-<?xml version="1.0" encoding="utf-8"?>
-<configuration>
-<packageSources>
-    <add key="roslyn-tools" value="https://dotnet.myget.org/f/roslyn-tools/api/v3/index.json" />
-</packageSources>
-</configuration>
-```
-
-Make the following changes based on the type of project you are using.
 
 ### .NET Core project
 
-This sample uses a multi-targeting ClassLibrary project, that can be created using `dotnet new classlib`. Add or modify NuGet.config file as described above.
+This sample uses a multi-targeting ClassLibrary project, that can be created using `dotnet new classlib`.
 
 Change `TargetFramework` property to `TargetFrameworks` and add a new .NET Framework target, like in the following example:
 
@@ -46,8 +23,8 @@ Change `TargetFramework` property to `TargetFrameworks` and add a new .NET Frame
 Add Package reference:
 
 ```xml
-<ItemGroup Condition=" '$(TargetFramework)' == 'net472' ">
-  <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.0-alpha-5" />
+<ItemGroup>
+  <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.0" PrivateAssets="All" />
 </ItemGroup>
 ```
 
@@ -69,7 +46,7 @@ Add the `TargetFramework` property and a `PackageReference` like in the followin
     <TargetFramework>net472</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.0-alpha-5" />
+    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.0" PrivateAssets="All" />
   </ItemGroup>
 
 </Project>
@@ -101,10 +78,10 @@ msbuild
 
 ## Package location
 
-https://dotnet.myget.org/feed/roslyn-tools/package/nuget/Microsoft.NETFramework.ReferenceAssemblies
+https://www.nuget.org/packages/Microsoft.NETFramework.ReferenceAssemblies
 
 ## Latest release
 
-Version:  1.0.0-alpha-5
+Version:  1.0.0
 
-Date:  Tue, 04 Dec 2018 00:13:27 GMT
+Date:  Sun, 05 May 2019 23:37:33 GMT

@@ -4,6 +4,16 @@ You can see what was included in each .NET Native 2.2 ([Microsoft.NETCore.Univer
 
 When using Visual Studio, these packages require Visual Studio 2019 or Visual Studio 2017 Version 15.9.
 
+### UWP 6.2.10 (March 18th, 2020)
+- Fix for RhpCallFilterFunclet stack misalignment on ARM causing runtime failures
+(https://github.com/dotnet/corert/pull/7744)
+- Fix for compiler crashes seen for SixLabors.ImageSharp API when targeting x86 and trying to generate mixed floating point/vector code
+- Fix for crashes seen when using System.IO.Directory.GetFiles and System.IO.DirectoryInfo.GetDirectories on ARM32 with UWP apps 
+(https://github.com/dotnet/runtime/issues/27943#issuecomment-529400749)
+- Fix for crashes seen in rhbind.exe for some Unity apps
+- Fix to avoid incorrectly leaking COM thread state when returning threads to the OS thread pool
+-	Fix for app crashes seen during garbage collection on ARM 32 due to heap corruption
+
 ### UWP 6.2.9 (August 23rd, 2019)
 
 - Reduce optimizer maximum thread count for Store compilations to increase ingestion reliability

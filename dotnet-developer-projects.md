@@ -202,6 +202,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [TimeZoneConverter](https://github.com/mj1856/TimeZoneConverter) - Lightweight library to convert quickly between IANA, Windows, and Rails time zone names.
   * [TimeZoneNames](https://github.com/mj1856/TimeZoneNames) - Provides a complete source of localized time zone names and abbreviations.
   * [TomP2P.NET](https://github.com/tomp2p/TomP2P.NET) - A P2P-based high performance key-value pair storage library for .NET. (Not Updated in 3 Years - 4/2018)
+  * [ToolGood.Words](https://github.com/toolgood/ToolGood.Words) - A high-performance string-matching library, with traditional and simplified Chinese interchangeable, Chinese characters to pinyin, and other functions. String detection is 88,000 times faster than Regex.IsMatch.
   * [Unchase.FluentPerformanceMeter](https://github.com/unchase/Unchase.FluentPerformanceMeter) - An open-source and cross-platform .Net Standard 2.0 library that is designed for the method's performance measurement.
   * [VkSharp](https://github.com/kasthack/vksharp) - VK client library.
   * [WampSharp](https://github.com/Code-Sharp/WampSharp) - A C# implementation of [The Web Application Messaging Protocol](http://wamp.ws) - a protocol that provides messaging patterns of Remote Procedure Calls and Publish/Subscribe over WebSockets.

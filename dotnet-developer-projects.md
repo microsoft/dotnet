@@ -118,6 +118,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [Castle.LoggingFacility.MsLogging](https://github.com/volosoft/castle-logging-ms-adapter) - An adapter library for Castle logging facility to support Microsoft.Extensions.Logging integration.
   * [Castle Windsor ASP.NET Core / Microsoft.Extensions.DependencyInjection Adapter](https://github.com/volosoft/castle-windsor-ms-adapter) - This library is a Castle Windsor adapter for the Microsoft.Extensions.DependencyInjection NuGet package.
   * [Cecil](https://github.com/jbevain/cecil) - A popular library to read, modify and write .NET binaries.
+  * [Charming](https://github.com/tzkhan/Charming) - A small, lightweight library that lets you generate ARM templates using C#.
   * [Cimbalino Toolkit](https://github.com/Cimbalino/Cimbalino-Toolkit) - A set of useful and powerful tools that will help you build your Windows Platform applications.
   * [Cinchoo ETL](https://github.com/Cinchoo/ChoETL) - ETL Framework for .NET (Parser / Writer for CSV, Flat, Xml, JSON, Key-Value formatted files).  
   * [CodeJam](https://github.com/rsdn/CodeJam) - Set of handy reusable .NET components that can simplify your daily work and save your time when you copy and paste your favorite helper methods and classes from one project to another. 

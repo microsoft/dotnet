@@ -416,7 +416,12 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [ASP.NET Core & Mvc/Angular5 Startup Template](https://github.com/aspnetboilerplate/module-zero-core-template) - This is a template to create ASP.NET Core MVC / Angular based startup projects for [ASP.NET Boilerplate](https://github.com/aspnetboilerplate/aspnetboilerplate). This project also supports multi-tenancy.
   * [ASP.NET MVC Boilerplate](https://github.com/ASP-NET-MVC-Boilerplate/Templates) - Professional ASP.NET MVC templates for building secure, fast, robust and adaptable web applications or sites. It provides the minimum amount of code required on top of the default MVC template provided by Microsoft.
   * [EISK](https://github.com/eisk) - .NET Core project templates with simple use cases and framework for building scalable web applications, following architectural [best practices](https://docs.microsoft.com/en-us/dotnet/standard/modern-web-apps-azure-architecture/common-web-application-architectures) (DDD, Onion Architecture etc). [Project site](https://eisk.github.io).  
- 
+
+## Connected Services
+  * [Unchase.Dynamics365.Connectedservice](https://github.com/unchase/Unchase.Dynamics365.Connectedservice) - A Visual Studio Connected Service for generating early-bound .NET Framework (or C++) classes that represent the entity data model used by Dynamics 365 for Customer Engagement.
+  * [Unchase.Odata.Connectedservice](https://github.com/unchase/Unchase.Odata.Connectedservice) - A Visual Studio Connected Service for generating API client code in C# or VB for OData web service.
+  * [Unchase.OpenAPI.Connectedservice](https://github.com/unchase/Unchase.OpenAPI.Connectedservice) - A Visual Studio Connected Service for generating API client code in C# or TypeScript. Also generates C# controllers for [OpenAPI](https://swagger.io/docs/specification/about/) services with [NSwag](https://github.com/RSuter/NSwag).
+
 This list is just a starting point - also take a look at all the projects on [GitHub Trending C#](https://github.com/trending?l=csharp).
 
 [@quozd](http://twitter.com/quozd "@quozd on Twitter") hosts an [Awesome .NET!](https://github.com/quozd/awesome-dotnet) list. Also worth checking out.

@@ -11,9 +11,7 @@ When using Visual Studio, these packages require Visual Studio 2019 or Visual St
 - Fix to avoid incorrectly leaking thread COM state to default thread pool by turning on AppContext switch by default. 6.2.10 had shipped the original fix but with this release the switch is enabled by default
 - Fix for crashes seen in WireUpCoreRuntime on duplicate executables
 - Fix ILT0005 error when building InMobiSDk. This Fix addresses an access violation in complier when building InMobiSDK resulting in ILT0005 error
-- This build provides a workaround that resolves OOM issues for ARM64 compilation scenarios which has been validated by liquidtext.
-
-
+- This build provides a workaround that resolves OOM issues for ARM64 compilation scenarios
 
 ### UWP 6.2.10 (March 18th, 2020)
 - Fix for RhpCallFilterFunclet stack misalignment on ARM causing runtime failures

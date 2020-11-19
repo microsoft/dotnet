@@ -4,6 +4,17 @@ You can see what was included in each .NET Native 2.2 ([Microsoft.NETCore.Univer
 
 When using Visual Studio, these packages require Visual Studio 2019 or Visual Studio 2017 Version 15.9.
 
+### UWP 6.2.11 (November 19th, 2020)
+-	.NET Native fix for call to `string.Replace` does not terminate and goes into an infinite loop 
+-	Fix is to consume updated Telemetry files which is shipped in UWP 6.2.11
+- Fix denial of service (DoS) by cap the maximum length passed to the StringBuilder(int capacity) ctor
+- Fix to avoid incorrectly leaking thread COM state to default thread pool by turning on AppContext switch by default. 6.2.10 had shipped the original fix but with this release the switch is enabled by default
+- Fix for crashes seen in WireUpCoreRuntime on duplicate executables
+- Fix ILT0005 error when building InMobiSDk. This Fix addresses an access violation in complier when building InMobiSDK resulting in ILT0005 error
+- This build provides a workaround that resolves OOM issues for ARM64 compilation scenarios which has been validated by liquidtext.
+
+
+
 ### UWP 6.2.10 (March 18th, 2020)
 - Fix for RhpCallFilterFunclet stack misalignment on ARM causing runtime failures
 (https://github.com/dotnet/corert/pull/7744)

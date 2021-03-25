@@ -5,8 +5,8 @@ You can see what was included in each .NET Native 2.2 ([Microsoft.NETCore.Univer
 When using Visual Studio, these packages require Visual Studio 2019 or Visual Studio 2017 Version 15.9.
 
 ### UWP 6.2.12 (February 9th, 2021)
-- Error code RHBIND : error RHB0002: Failed to write PDB. Fix for build failures with RHBIN error when building Xamarian and SyncFusion UWP projects. This is an opt-in fix and requires customer to setting the msbuild property NoLinkerSymbols.
-- Fix to execution engine exception when loading InAppUI in Xamarian.
+- Error code RHBIND : error RHB0002: Failed to write PDB. Fix for build failures with RHBIN error when building Xamarin and SyncFusion UWP projects. This is an opt-in fix and requires customer to setting the msbuild property NoLinkerSymbols.
+- Fix to execution engine exception when loading InAppUI in Xamarin.
 
 ### UWP 6.2.11 (November 19th, 2020)
 -	.NET Native fix for call to `string.Replace` does not terminate and goes into an infinite loop 

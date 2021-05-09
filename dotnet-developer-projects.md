@@ -170,6 +170,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [Math.NET Numerics](https://github.com/mathnet/mathnet-numerics) - Provides methods and algorithms for numerical computations in science, engineering and every day use.
   * [Mathos Core Libary](https://github.com/MathosProject/Mathos-Project) - A library with algorithms for numerical calculations in finance, statistics, pattern recognition, and more.
   * [Mathos Parser](https://github.com/MathosProject/Mathos-Project) - A simple parser for mathematical expressions before and at runtime.
+  * [MicroBootstrap](https://github.com/mehdihadeli/MicroBootstrap) - A framework with many features for quickly and conveniently creating microservices on .NET Core.
   * [Mjolnir](https://github.com/hudl/Mjolnir) - [Hystrix](https://github.com/Netflix/Hystrix)-inspired fault tolerance with circuit breakers and thread pools.
   * [MoreLINQ](https://morelinq.github.io/) - LINQ to Objects is missing a few desirable features. This project will enhance LINQ to Objects with extra methods, in a manner which keeps to the spirit of LINQ.
   * [NAudio](https://github.com/naudio/NAudio) - An open source .NET audio and MIDI library.

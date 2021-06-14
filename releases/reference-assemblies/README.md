@@ -94,7 +94,7 @@ Fixes naming issue with System.Configuration.dll in 2.0 and 3.5 packages. Incorr
 
 ### 1.0.1
 
-Adds .NET 3.5 package.
+Adds .NET Framework 3.5 package.
 
 ### 1.0.0
 

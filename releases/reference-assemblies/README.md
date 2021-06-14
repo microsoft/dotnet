@@ -82,6 +82,20 @@ https://www.nuget.org/packages/Microsoft.NETFramework.ReferenceAssemblies
 
 ## Latest release
 
-Version:  1.0.0
+Version:  1.0.2
 
-Date:  Sun, 05 May 2019 23:37:33 GMT
+Date:  May 6th, 2021
+
+## Changelog
+
+### 1.0.2
+
+Fixes naming issue with System.Configuration.dll in 2.0 and 3.5 packages. Incorrect capitalization (System.configuration.dll) was causing build issues on Linux.
+
+### 1.0.1
+
+Adds .NET 3.5 package.
+
+### 1.0.0
+
+Initial release

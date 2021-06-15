@@ -25,7 +25,7 @@ this experience and pick this idea up again.
 
 The overall goal is to enable .NET consumers to make trust decisions and to
 encourage customers (external as well as internal) to trust libraries that
-aren't built by Microsoft. This work will comprise of an user experience when
+aren't built by Microsoft. This work will comprise of a user experience when
 consuming libraries (such as when adding packages using the NuGet UI), a defined
 set of practices (such as making source code and symbols available for debugging
 as well as allowing to patch the code), a defined development process (how to

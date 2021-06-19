@@ -303,6 +303,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [Http.ClientHelpers](https://github.com/PureKrome/HttpClient.Helpers) - library to help mock & test `System.Net.Http.HttpClient`.
   * [moq](https://github.com/Moq/moq4) - The most popular and friendly mocking framework for .NET
   * [NBuilder](https://github.com/nbuilder/nbuilder) - A rapid test object generator.
+  * [NFluent](https://github.com/tpierrain/NFluent) - The most fluent .NET assertion lib ever.
   * [NSpec](https://github.com/nspec/NSpec) - .NET BDD testing framework of the xSpec (context/specification) flavor, heavily inspired by RSpec and Mocha.
   * [NSubstitute](https://github.com/nsubstitute/NSubstitute) - A friendly substitute for .NET mocking frameworks.
   * [NUnit](https://github.com/nunit/nunit) - NUnit is a unit-testing framework for all .NET languages.

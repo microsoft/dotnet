@@ -1,9 +1,5 @@
-Please do not file any issues here.
+DO NOT FILE ISSUES IN THIS REPO.
 
-For .NET Core related issue, please check this file to file the issue in the appropriate repo:
+Check the following document to find the appropriate repo or location to file a new issue:
 
-https://github.com/dotnet/core/blob/master/Documentation/core-repos.md
-
-For .NET Framework issues, please use the developer community:
-
-https://developercommunity.visualstudio.com/spaces/61/index.html
+https://github.com/dotnet/core/blob/main/Documentation/core-repos.md

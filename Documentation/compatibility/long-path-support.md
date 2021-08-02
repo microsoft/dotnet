@@ -21,7 +21,7 @@ because a path exceeded 260 characters will now throw a
 <xref:System.IO.PathTooLongException?displayProperty=name> only under the
 following conditions:
 
-- The length of the path is greater than <xref:System.Int16.MaxValue> (32,767) characters.
+- The length of the path is greater than <xref:System.Int16.MaxValue?displayProperty=nameWithType> (32,767) characters.
 - The operating system returns `COR_E_PATHTOOLONG` or its equivalent.
 
 For apps that target the .NET Framework 4.6.1 and earlier versions, the runtime

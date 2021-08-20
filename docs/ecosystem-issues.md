@@ -460,7 +460,7 @@ with the OSS ecosystem:
   Sandbox](https://aaronstannard.com/new-rules-dotnet-oss/), by Aaron Stannard
 
 * [How to Build Sustainable Open Source Software
-Projects](https://aaronstannard.com/next-decade-dotnet/), by Aaron Stannard
+Projects](https://aaronstannard.com/sustainable-open-source-software/), by Aaron Stannard
 
 * [The Next Decade of .NET Open
   Source](https://aaronstannard.com/next-decade-dotnet/), by Aaron Stannard

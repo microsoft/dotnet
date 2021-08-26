@@ -20,7 +20,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [Enterprise Web Library (EWL)](https://github.com/enduracode/enterprise-web-library) - An extremely opinionated platform for web applications that trades off performance, scalability, and development flexibility for an ease of maintenance you won't find anywhere else. [Enterprise Web Library site](http://www.enterpriseweblibrary.org/).
   * [KonfDB](https://github.com/punitganshani/konfdb) - Configuration Management as a Service for cross-platform, multi-tenant enterprise/hobby applications.
   * [Orleans](http://dotnet.github.io/orleans/) - Orleans is a framework that provides a straightforward approach to building distributed high-scale computing applications, without the need to learn and apply complex concurrency or other scaling patterns. It was created by Microsoft Research and designed for use in the cloud. Orleans is a mature but fast evolving platform that has been battle tested since 2011 by several Microsoft product groups, such as Halo, Gears of War, Skype, Azure, Xbox, as well as by a growing number of other companies using it in Azure, AWS, GCP, and on premises.
- 
+
 ## Languages
   * [Boo](https://github.com/bamboo/boo) - A .NET language similar to Python but with static typing, and many meta-programming capabilities.
   * [ClojureCLR](https://github.com/clojure/clojure-clr) - A .NET implementation of the [Clojure](http://clojure.org) programming language, built on the DLR. 
@@ -42,7 +42,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
 
 ## Tutorials
   * [Docker with .NET Core](https://github.com/mindems/Docker.NET) - A tutorial trilogy designed to get you up and running quickly.
- 
+
 ## Quality Assurance
   * [C# Coding Guidelines](https://github.com/dennisdoomen/CSharpGuidelines) - A set of coding guidelines for C# 3.0, 4.0 and 5.0 that extend StyleCop and can be forked and adapted for internal use. 
 
@@ -100,7 +100,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [NServiceBus](https://github.com/Particular/NServiceBus) - The most popular service bus for .NET.
   * [RestBus](https://github.com/tenor/RestBus) - Easy Asynchronous Messaging and Queueing for .NET.
   * [Rebus](https://github.com/rebus-org/Rebus) - Rebus is a lean service bus implementation for .NET. 
-  
+
 ## Libraries
   * [Albedo](https://github.com/ploeh/Albedo) - A .NET library targeted at making Reflection programming more consistent, using a common set of abstractions and utilities.
   * [Algorithmia](https://github.com/SolutionsDesign/Algorithmia) - Algorithms and Data structures
@@ -218,7 +218,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [Nepy](https://github.com/tonyqus/nepy) - A collection of NLP parsers for .NET. (Not Updated in 3 Years - 4/2018)
   * [SharpNLP](http://sharpnlp.codeplex.com) - SharpNLP is a collection of natural language processing tools written in C#. (No Recent Updates - Still On Codeplex - 4/2018)
   * [Toxy](https://github.com/tonyqus/toxy) - An data/text extraction framework for .NET, similar to Tika in Java. (Not Updated in 2 Years - 4/2018)
- 
+
 ## Graphics & Server-side Image Processing
   * [.NET Image Processor](https://github.com/elkdanger/image-processor) - Extensible, chainable image processing library (GDI+ based).
   * [DynamicImage](https://github.com/tgjones/dynamic-image) - WPF-based server-side image rendering system - lots of visual effects implemented as high-performance shaders. Has URL api, several plugins available.
@@ -238,7 +238,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [log4net](http://logging.apache.org/log4net/) - A tool to help the programmer output log statements to a variety of output targets.
   * [LogMaster4Net](https://github.com/kerryjiang/LogMaster4Net) - It is a central log server which can organize your logs in different applications in the same place but have same log behaviors (loggers, appenders, levels and rules) like in the independent applications before.
   * [NLog](https://github.com/NLog/NLog) - NLog is a free logging platform for .NET with rich log routing and management capabilities.
- 
+
 ## Model-View-ViewModel (MVVM) Frameworks
   * [Caliburn Micro](https://github.com/Caliburn-Micro/Caliburn.Micro) - A small, yet powerful framework, designed for building applications across all XAML platforms.
   * [Catel.MVVM](https://github.com/catel/catel) - Catel is an application development platform with the focus on MVVM.
@@ -366,7 +366,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [OpenRA](https://github.com/OpenRA/OpenRA) - An open-source implementation of the Command & Conquer: Red Alert engine using .NET/Mono and OpenGL.
   * [WaveEngine](https://github.com/waveengine) - A powerful component based game engine for desktop and mobile platforms using C#.
   * [Xenko](https://github.com/xenko3d/xenko) - Xenko is a versatile and engaging game engine.
- 
+
 ## UI and Control libraries
   * [AdonisUI](https://github.com/benruehl/adonis-ui) - Lightweight UI toolkit for WPF applications offering classic but enhanced Windows visuals.
   * [Callisto](https://github.com/timheuer/callisto) - UI Control Toolkit for WinRT apps.
@@ -377,7 +377,8 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [Mono XWT](https://github.com/mono/xwt) - A cross-platform UI toolkit for creating desktop apps
   * [Neutronium](https://github.com/NeutroniumCore/Neutronium) - Neutronium is a library to create .NET desktop applications using HTML, CSS and javascript. It uses the MVVM pattern exactly the same way as WPF applications.
   * [UWP Community Toolkit](https://github.com/Microsoft/UWPCommunityToolkit) - The UWP Community Toolkit is a collection of helper functions, custom controls, and app services. It simplifies and demonstrates common developer tasks building UWP apps for Windows 10.
- 
+  * [Windows Ribbon](https://github.com/harborsiem/WindowsRibbon) - Windows Ribbon for WinForms is a .NET wrapper for Microsoft Windows Ribbon  and a toolkit for design and preview.
+
 ## Windows Services
   * [King.Service](https://github.com/jefking/King.Service) - Task scheduling for Azure and Windows
   * [TopShelf](https://github.com/Topshelf/Topshelf) - An easy service hosting framework for building Windows services using .NET.
@@ -390,7 +391,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
 ## Deployment
   * [DropkicK](https://github.com/chucknorris/dropkick/) - A fluent deployment library for Windows applications
   * [RoundHouse](https://github.com/chucknorris/roundhouse) - RoundhousE is a Database Migration Utility for .NET using sql files and versioning based on source control
- 
+
 ## Service Bus
   * [King.Service.ServiceBus](https://github.com/jefking/King.Service.ServiceBus) - Task scheduling for Azure and Windows Servers: Service Bus.
   * [Warewolf Easy Service Bus](https://github.com/Warewolf-ESB/Warewolf-ESB) - An open source easy to use service bus, built on numerous .Net technologies including WF (Windows Workflow Foundation), SignalR and WPF.
@@ -400,7 +401,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [CacheManager](https://github.com/MichaCo/CacheManager) - A configurable abstraction layer for caching. It supports various caches, like redis and memcached, and provides many advanced features, like layered cache, synchronization, serialization etc.
   * [Dache](https://github.com/ironyx/dache) - An open source distributed caching service, built on .NET 4.0 and using TCP sockets for communication.
   * [Orleans](https://github.com/dotnet/orleans) - Framework that provides a straight-forward approach to building distributed high-scale computing applications using virtual actor model.
-  
+
 ## Windows Workflow
   * [Core WF](https://github.com/dmetzgar/corewf) - WF runtime ported to work on .NET Core.
   * [Orleans.Activities](https://github.com/OrleansContrib/Orleans.Activities) - WF over [Microsoft Orleans](https://github.com/dotnet/orleans) framework.
@@ -411,7 +412,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
 
 ## Remote Desktop
   * [Myrtille](https://github.com/cedrozor/myrtille) - A native HTML4/5 Remote Desktop Protocol client, HTTP gateway written in C# for .NET
- 
+
 ## Project Templates
   * [ASP.NET Core & Mvc/Angular5 Startup Template](https://github.com/aspnetboilerplate/module-zero-core-template) - This is a template to create ASP.NET Core MVC / Angular based startup projects for [ASP.NET Boilerplate](https://github.com/aspnetboilerplate/aspnetboilerplate). This project also supports multi-tenancy.
   * [ASP.NET MVC Boilerplate](https://github.com/ASP-NET-MVC-Boilerplate/Templates) - Professional ASP.NET MVC templates for building secure, fast, robust and adaptable web applications or sites. It provides the minimum amount of code required on top of the default MVC template provided by Microsoft.

@@ -1,0 +1,17 @@
+# Issue Title
+
+Provide a descriptive title.
+
+# Version info 
+
+Provide the .NET Framework Release key value and your Windows version (output of `winver`).
+
+HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\NET Framework Setup\NDP\v4\Full, Release 
+
+# General
+
+Provide details on the problem you are experiencing, including step by step instructions to reproduce the issue.
+
+Please provide a code sample for your issue if it is relevant, either inline, link to a gist (or similar) or as a zipped attachment.
+
+For UI problems please provide screenshots inline or as a zipped attachment.

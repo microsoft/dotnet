@@ -6,7 +6,7 @@ When using Visual Studio, these packages require Visual Studio 2019 or Visual St
 
 ### UWP 6.2.13 (October 13th, 2021)
 - Fix data serialization on .NET Native
-- Update clrcompression zlib from 1.2 to 1.2.11
+- Update clrcompression zlib from 1.2.8 to 1.2.11
 - Fix F5 inner dev-loop performance issue by generating System.Private.Corelib Ready-To-Run image
 
 ### UWP 6.2.12 (February 9th, 2021)

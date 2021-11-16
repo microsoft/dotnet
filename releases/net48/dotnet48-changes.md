@@ -14,6 +14,7 @@
 * Fixed handling of multi-value HTTP headers that may affect multipart data processing. [726155, System.Web.dll, Bug, Build:3734]
 * For client applications (winforms, WPF, or console apps, etc) the ASP.NET Client Application Services API’s have been hardened against potentially malicious JSON payloads. [727703, System.Web.dll, Bug, Build:3734]
 * Fixed an issue introduced in ASP.NET 4.7, where the unexpected removal of a particular type of cache item can result in an orphaned *.delete file that prevents web applications from running. [750653, System.Web.dll, Bug, Build:3734]
+* Fixed System.Web.Caching initialization bug when using ASP.NET cache on machines without IIS. [889110, System.Web.dll, Bug, Build 3928]
 
 ## BCL
 
@@ -40,7 +41,7 @@ DateTime and DateTimeOffset operations will continue to work as it used to work,
 * Fixed an IndexOutOfRangeException thrown when asynchronously reading a process output with less than a character's worth of bytes is read at the beginning of a line. [724219, System.dll, Bug, Build:3707]
 * Mitigate compatibility breaks seen in some System.Data.SqlClient usage scenarios. [727701, System.Configuration.dll, Bug, Build:3707]
 * Fixed a serialization exception that occurred when a huge amount of objects were serialized with BinaryFormatter. [761576, mscorlib.dll, Bug, Build:3734]
-Added support for formatting the Japanese first year of era using Gannen 元 when the date pattern not having single quotes around 年. e.g. y年. [777279, mscorlib.dll, Bug, Build:3745]
+* Added support for formatting the Japanese first year of era using Gannen 元 when the date pattern does not have single quotes around 年 (e.g., y年). [777279, mscorlib.dll, Bug, Build:3745]
 * Changed the name of "Former Yugoslav Republic of Macedonia" to "North Macedonia" [802482, mscorlib.dll, Bug, Build:3761]
 
 
@@ -143,7 +144,7 @@ Added support for formatting the Japanese first year of era using Gannen 元 whe
   </appSettings> [695709, System.Servicemodel.dll, Bug, Build:3694]
 * Fixed a race condition with IIS hosted net.tcp services when the portsharing service is restarted which resulted in the service being unavailable. [695877, System.ServiceModel.WasHosting.dll, Bug, Build:3694]
 * Fixed broken WCF document links in the tracing log that were broken due to MSDN doc location change. [712450, System.ServiceModel.dll, Bug, Build:3707]
-* Fixed a security vulnerability in  SvcTraceViewer.exe associated with .stvproj file. [728568, System.ServiceModel.dll, Bug, Build:3707]
+* Fixed a security vulnerability in  SvcTraceViewer.exe associated with .stvproj file. *Microsoft would like to thank 9sg Security Team for their responsible disclosure of a remote information vulnerability in the .NET Framework. [728568, System.ServiceModel.dll, Bug, Build:3707]
 * Made some format changes and added lang attribute to WCF service Health page (like http://localhost:83/Service1?health) and WCF service metadata page (like http://localhost:83/Service1) to improve accessibility. [777308, System.ServiceModel.dll, Bug, Build:3745]
 
 
@@ -177,7 +178,6 @@ Added support for formatting the Japanese first year of era using Gannen 元 whe
 <AppContextSwitchOverrides value=""Switch.UseLegacyAccessibilityFeatures=false;Switch.UseLegacyAccessibilityFeatures.2=false;Switch.UseLegacyAccessibilityFeatures.3=true""/>. [574309, System.Windows.Forms.dll, Bug, Build:3621]
 * Fixed and improved the stability of Live Regions feature by adding LiveSetting property setter check. This feature is available starting with Windows 10, version 1709.
 In order for the application to benefit from these changes, the application should be recompiled to target .NET Framework 4.8 or the application should explicitly opt-in into all accessibility app context switches in the app.config file as seen in the example for Bug 574309. [583863, System.Windows.Forms.dll, Bug, Build:3621]
-* Fixed Winforms application and controls, when enable for ""per-Monitor"" Dpi aware, they are not scaled according to the dpi of the monitor ( or device). Winforms app by default behave like ""System"" Dpi aware. This is causing Winforms applications/controls to be displayed ""blur"" as a result of windows scaling them and in some cases, controls are either not scaled or scaled out of proportionate. Made changes on control level to respond to DPI change event (assuming  windows raise this event whenever there is a DPI change) and rescale controls according to the new DPI. [597091, System.Windows.Forms.dll, Bug, Build:3621]
 * Fixed by adding support for UIA notification event to Label and GroupBox classes. This feature is available starting with Windows 10, version 1709. In order for the application to benefit from these changes, the application should be recompiled to target .NET Framework 4.8 or the application should explicitly opt-in into all accessibility app context switches in the app.config file as seen in the example for Bug 574309. [563596, Windows.UI.Xaml.Automation.Peers.dll, Windows.dll, Bug, Build:3621]
 * Fixed by adding support for the live region feature to the ToolStripStatusLabel class. In order for the application to benefit from these changes, the application should be recompiled to target .NET Framework 4.8 or the application should explicitly opt-in into all accessibility app context switches in the app.config file as seen in the example for Bug 574309. [564300,Windows.UI.Xaml.Automation.Peers.dll, Windows.dll, Bug, Build:3621]
 * Fixed by improving the accessibility of DataGridView and ListView to make sort direction available via UIA: added exposing sort order and sort column via ItemStatus property and column name. This change is effective in applications that were recompiled to target .NET Framework 4.8. [549288, System.Windows.Forms.dll, Bug, Build:3621]
@@ -196,7 +196,7 @@ In order for the application to benefit from these changes, the application shou
 * Fixed the WinForms control tooltip's issue where it does not appear when moving keyboard focus to the control
 A control's tooltip is displayed now when a user uses a keyboard to focus the control.
 This change is effective in applications that have Switch.System.Windows.Forms.UseLegacyToolTipDisplay value and either Switch.UseLegacyAccessibilityFeatures.3 value is set to false or application is built to target .NET version 4.8.  App.config file content is shown below (in 642548). [548792, System.Windows.Forms.dll, Bug, Build:3646]
-* Fixed font scaling issue when DPI changes. Winforms application and controls, when enabled for """"per-Monitor"""" Dpi aware, they are not scaled according to the dpi of the monitor (or device). Winforms app by default behave like """"System"""" Dpi aware.  This was causing Winforms applications/controls to be displayed """"blur"""" as a result of windows scaling them and in some cases, controls are either not scaled or scaled out of proportionate.
+* Fixed font scaling issue when DPI changes. Winforms applications and controls, when enabled for "per-Monitor" Dpi awareness, are not scaled according to the DPI of the monitor (or device). Winforms apps, by default, behave like "System" DPI aware. This was causing Winforms applications/controls to be displayed blurry as a result of windows scaling them, and in some cases controls are either not scaled or scaled out of proportion.
 Made changes on control level to respond to DPI change event (assuming  windows raise this event whenever there is a DPI change) and rescale controls according to the new DPI [597091, System.Windows.Forms.dll, Bug, Build:3646]
 * Added support of Accessibility Invoke pattern to DataGridView Image cell with ability to invoke cell's default action. (in case Image cell is actually an image of a button)
 In order for the application to benefit from these changes, the application should be recompiled to target .NET framework 4.8 or the application should explicitly opt-in into all accessibility app context switches in the app.config file. App.config file content is shown below (in 642548). [615721, System.Windows.Forms.dll, Bug, Build:3646]
@@ -253,13 +253,7 @@ App.config file content example with enabled keyboard tooltips for apps targetin
 * Fixed accessibility information about ComboBox DataGridView cell, including expanded/collapsed state of this cell. [657355, System.Windows.Forms.dll, Bug, Build:3707]
 * Fixed providing accessibility information about ComboBox selected item: item selection is announced and accessible info is presented even the DropDownList is not opened and user selects the items using arrow keys. In ordr=er for the application to benefit from these changes, the application should explicitly opt-in into all accessibility app context switches in the app.config file as seen in the example for Bug 549360. [703373, System.Windows.Forms.dll, Bug, Build:3707] 
 * Added per monitor DPI awareness support to the PropertyGrid. [719232, System.Windows.Forms.dll, Bug, Build:3707]
-* Fixed a vulnerability in System.Windows.Froms.Clipboard APIs. This is a breaking change and is controlled by the following switch                      
-   ```<?xml version=""1.0"" encoding=""utf-8""?>
-   <runtime>
-    <AppContextSwitchOverrides value = "Switch.System.Windows.Forms.EnableLegacyClipboardDeserialization=true" />
-   </ runtime>
-
-[655431, System.Windows.Forms.dll, Bug, Build:3707]
+* Fixed a vulnerability in System.Windows.Forms.Clipboard APIs. [655431, System.Windows.Forms.dll, Bug, Build:3707] 
 * Added Scroll UIA pattern to ListBox items in order to make the control accessible. [742319, System.Windows.Forms.dll, Bug, Build:3734]
 * Fixed ColorEditor, ContentAlignmentEditor, CursporEditor to respond to DPI changed messages and made changes in FontEditor to always open in the 'SystemAware' mode even when the application is in "per-monitor" mode. [746634, System.Windows.Forms.dll, System.Drawing.Design.dll, Bug, Build:3734]
 * Fixed providing correct accessibility information and correct accessible hierarchy of PropertyGrid control. [526702, system.windows.forms.dll, Bug, Build:3734]
@@ -274,6 +268,10 @@ In order for the application to benefit from these changes, the application shou
 * With the fix applied, Chart control shows the focus indicator and can be focused using mouse. User is able to access information from Chart control more effectively using assistive technologies.
 In order for the application to benefit from these changes, the application should be recompiled to target .NET framework 4.8 or the application should explicitly opt-in into all accessibility app context switches in the app.config file. [827003, System.Windows.Forms.dll, Bug, Build:3761]
 * Grid error dialog in the property browser (of VS) doesn't support PMA mode yet. Hence, Fixed it to show up as “SystemAware” only dialog when the process is in PMV2 mode. This behavior may change in the future release. [827142, System.Windows.Forms.dll, Bug, Build:3761]
+* Fixed the ability to select ComboBox edit field text using mouse down + move. [853381, System.Windows.Forms.dll, Bug, Build 3928]
+* Fixed the issue with interaction between a WPF user control and the hosting WinForms app when processing keyboard input. [899206, WindowsFormsIntegration.dll, Bug, Build 3928]
+* Fixed the issue with Narrator/NVDA announcing of PropertyGrid’s ComboBox expanding and collapsing action. [792617, System.Windows.Forms.dll, Bug, Build 3928]
+* Fixed the issue with rendering “…” button of PropertyGrid control in HC mode to draw button background and dots contrasted. [792780, System.Windows.Forms.dll, Bug, Build 3928]
 
 
 ## WPF
@@ -353,6 +351,9 @@ On .NET Framework Versions 4.7.2 and older, applications must opt in to enable t
 * Fixed an accessibility issue when replacing an item in a collection with another item that compares as equal. [774503, PresentationFramework.dll, Bug, Build:3761]
 * Added an AppContext switch Switch.System.Windows.Automation.Peers.ItemAutomationPeerKeepsItsItemAlive that opts-out of part of an earlier memory leak fix (172291) by changing ItemAutomationPeer's reference to its item from weak to strong. This re-introduces some of the leaks, but can fix problems in custom automation implementations that tactically assume a strong reference. For example, a custom automation peer (for an ItemsControl) that implements its own logic for re-using its item peers is likely to have a problem when an item X in the underlying collection is replaced by a "separate-but-equal" item X' - a different object where Object.Equals(X, X') is true. [801226, PresentationFramework.dll, Bug, Build:3761] 
 * Fixed an issue involving bindings with DataContext explicitly on the binding path.  When DataContext changes to {DisconnectedItem}, the binding should not pass that value to user code like converters, property-change handlers, etc. [801039, PresentationFramework.dll, Bug, Build:3761]
+* Fixed a handle leak during creation of a Window in WPF applications that are manifested for Per Monitor DPI V2 Awareness.  This leak could lead to extraneous GC.Collect calls that can impact performance in Window creation scenarios. [845699, PresentationFramework.dll, Bug, Build 3928]
+* Fixed a regression caused by the bug fix involving bindings with DataContext explicitly on the binding path. [850536, PresentationFramework.dll, Bug, Build 3928]
+* Fixed a crash due to an ArgumentNullException when loading a DataGrid containing a ComboBox while automation is active.  This might occur, for example, when navigating Visual Studio to the Text Editor\C#\Code Style\Naming page in Tools\Options. [801039, PresentationFramework.dll, Bug, Build 3928]
 
 
 ## WorkFlow

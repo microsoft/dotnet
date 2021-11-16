@@ -43,7 +43,7 @@ property of a connection string (or
 ADO.NET
 Data
 
-[More information](http://blogs.msdn.com/b/dotnet/archive/2013/10/17/net-framework-4-5-1-rtm-gt-start-coding.aspx)
+[More information](https://blogs.msdn.com/b/dotnet/archive/2013/10/17/net-framework-4-5-1-rtm-gt-start-coding.aspx)
 
 <!--
     ### Notes

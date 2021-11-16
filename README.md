@@ -2,7 +2,7 @@
 
 This repository is a starting point to learn about and engage in .NET and .NET open source projects.
 
-This repo is not an official .NET Framework support location, however, we will respond to issues filed here as best we can. Please file .NET Core product issues at [dotnet/core](https://github.com/dotnet/core/issues) and ASP.NET Core product issues at [aspnet/home](https://github.com/aspnet/home/issues).
+This repository is not an official .NET Framework support location, however, we will respond to issues filed here as best we can. Please file .NET Core product issues at [dotnet/core](https://github.com/dotnet/core/issues) and ASP.NET Core product issues at [aspnet/home](https://github.com/aspnet/home/issues).
 
 You can try out an early access release of the .NET Framework at the [.NET Framework Early Access](https://github.com/microsoft/dotnet-framework-early-access) website.
 
@@ -29,10 +29,12 @@ There are many projects that you can use and contribute to, some of which are li
 
 - [.NET Core (dotnet/core)](https://github.com/dotnet/core)
 - [.NET Core docs (dotnet/docs)](https://github.com/dotnet/docs)
-- [ASP.NET Core (aspnet/home)](https://github.com/aspnet/home)
-- [ASP.NET Core docs (aspnet/Docs)](https://github.com/aspnet/Docs)
+- [ASP.NET Core (dotnet/aspnetcore)](https://github.com/dotnet/aspnetcore)
+- [ASP.NET Core docs (dotnet/AspNetCore.Docs)](https://github.com/dotnet/AspNetCore.Docs)
 - [Roslyn Compiler Platform (dotnet/roslyn)](https://github.com/dotnet/roslyn)
-- [EntityFramework (aspnet/entityframework)](https://github.com/aspnet/EntityFramework)
+- [EntityFramework (dotnet/efcore)](https://github.com/dotnet/efcore)
+- [WPF (dotnet/wpf)](https://github.com/dotnet/wpf)
+- [Windows Forms (dotnet/winforms)](https://github.com/dotnet/winforms)
 
 ### .NET Framework
 
@@ -50,11 +52,11 @@ There are many projects that you can use and contribute to, some of which are li
 
 Here is a short list of projects to check out:
 
+* [.NET for Apache Spark](https://github.com/dotnet/spark)
 * [Orleans](https://github.com/dotnet/orleans)
 * [Exceptionless](https://github.com/exceptionless/Exceptionless)
 * [Glimpse](https://github.com/Glimpse/Glimpse)
 * [JSON.NET](https://github.com/JamesNK/Newtonsoft.Json)
-* [Mobius: C# API for Apache Spark](https://github.com/Microsoft/Mobius)
 * [MonoGame](https://github.com/MonoGame/MonoGame)
 * [MVVM Cross](https://github.com/MvvmCross/MvvmCross)
 * [ReactiveUI](https://github.com/reactiveui/ReactiveUI)
@@ -64,10 +66,10 @@ There are additional templates available for `dotnet new`. For more information,
 ## .NET Foundation
 
 Many .NET open source projects are part of the
-[.NET Foundation](http://www.dotnetfoundation.org/projects). Microsoft has contributed many projects, including ASP.NET Core and
-.NET Core. You may want to consider [joining the .NET Foundation](https://dotnetfoundation.org/get-involved).
+[.NET Foundation](https://www.dotnetfoundation.org/projects). Microsoft has contributed many projects, including ASP.NET Core and
+.NET Core. You may want to consider [joining the .NET Foundation](https://dotnetfoundation.org/community/).
 
-Check out the [.NET Foundation Forums](http://forums.dotnetfoundation.org/) to see what others are talking about, or start a new discussion to ask a question or make a point. 
+Check out the [.NET Foundation Forums](https://forums.dotnetfoundation.org/) to see what others are talking about, or start a new discussion to ask a question or make a point. 
 
 ## License
 

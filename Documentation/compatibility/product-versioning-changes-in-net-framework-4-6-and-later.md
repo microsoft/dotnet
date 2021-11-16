@@ -15,14 +15,14 @@ Product versioning has changed from the previous releases of the .NET Framework,
 
 The following are the detailed changes:
 
-- The value of the `Version` entry in the `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full` key has changed to `4.6.xxxxx` for the .NET Framework 4.6 and its point releases, and to `4.7.xxxxx` for the .NET Framework 4.7 and 4.7.1. In the .NET Framework 4.5, 4.5.1, and 4.5.2, it had the format `4.5.xxxxx`.
+- The value of the `Version` entry in the `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full` key has changed to `4.6.xxxxx` for the .NET Framework 4.6 and its point releases, to `4.7.xxxxx` for the .NET Framework 4.7 and its point releases, and to `4.8.xxxxx` for .NET Framework 4.8. In the .NET Framework 4.5, 4.5.1, and 4.5.2, it had the format `4.5.xxxxx`.
 
-- The file and product versioning for .NET Framework files has changed from the earlier versioning scheme of 4.0.30319.x to 4.6.X.0 for the .NET Framework 4.6 and its point releases, and to 4.7.X.0 for the .NET Framework 4.7 and 4.7.1. You can see these new values when you view the file's Properties after right-clicking on a file.
+- The file and product versioning for .NET Framework files has changed from the earlier versioning scheme of 4.0.30319.x to 4.6.X.0 for the .NET Framework 4.6 and its point releases, and to 4.7.X.0 for the .NET Framework 4.7 and its point releases, and to 4.8.X.0 for .NET Framework 4.8. You can see these new values when you view the file's Properties after right-clicking on a file.
 
-- The <xref:System.Reflection.AssemblyFileVersionAttribute> and <xref:System.Reflection.AssemblyInformationalVersionAttribute> attributes for managed assemblies have Version values in the form 4.6.X.0 for the .NET Framework 4.6 and its point releases, and 4.7.X.0 for the .NET Framework 4.7 and 4.7.1.
+- The <xref:System.Reflection.AssemblyFileVersionAttribute> and <xref:System.Reflection.AssemblyInformationalVersionAttribute> attributes for managed assemblies have Version values in the form 4.6.X.0 for the .NET Framework 4.6 and its point releases, 4.7.X.0 for the .NET Framework 4.7 and its point releases, and 4.8.X.0 for .NET Framework 4.8.
 
 
-- In the .NET Framework 4.6, 4.6.1, 4.6.2, 4.7, and 4.7.1, the <xref:System.Environment.Version?displayProperty=nameWithType> property returns the fixed version string `4.0.30319.42000`. In the .NET Framework 4, 4.5, 4.5.1, and 4.5.2, it returns version strings in the format `4.0.30319.xxxxx` (for example, "4.0.30319.18010"). Note that we do not recommend application code taking any new dependency on the Environment.Version property.
+- In the .NET Framework 4.6 and later versions, the <xref:System.Environment.Version?displayProperty=nameWithType> property returns the fixed version string `4.0.30319.42000`. In the .NET Framework 4, 4.5, 4.5.1, and 4.5.2, it returns version strings in the format `4.0.30319.xxxxx`, where `xxxxx` is less than 42000 (for example, "4.0.30319.18010"). Note that we do not recommend application code taking any new dependency on the Environment.Version property.
 
 For more information, see [How to: Determine which .NET Framework Versions Are Installed](~/docs/framework/migration-guide/how-to-determine-which-versions-are-installed.md).
 

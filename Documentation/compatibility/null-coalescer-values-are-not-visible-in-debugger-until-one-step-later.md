@@ -27,6 +27,6 @@ Stepping one additional time in the debugger will cause the local/field's value 
 ### Category
 Debugger
 
-[More information](http://stackoverflow.com/questions/19352130/why-doesnt-the-null-coalescing-operator-work-in-this-situation)
+[More information](https://stackoverflow.com/questions/19352130/why-doesnt-the-null-coalescing-operator-work-in-this-situation)
 
 <!-- breaking change id: 123 -->

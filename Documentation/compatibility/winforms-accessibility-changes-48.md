@@ -71,7 +71,7 @@ __Improved LinkLabel Accessibility support__
 __Improved ProgressBar Accessibility support__
 - Enabled UI Automation support for the <xref:System.Windows.Forms.ProgressBar> control with the ability to use UI Automation notifications and other UI Automation features. Developers are now able to use UI Automation notifications which Narrator can announce to indicate progress.
 
-For an overview of UI automation events overview, including UI automation notification events, see the [UI Automation Events Overview](https://docs.microsoft.com/en-us/windows/desktop/WinAuto/uiauto-eventsoverview).
+For an overview of UI automation events overview, including UI automation notification events, see the [UI Automation Events Overview](https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-eventsoverview).
 
 __Improved PropertyGrid Accessibility support__
 - Enabled UI Automation support for the <xref:System.Windows.Forms.PropertyGrid> control, with the ability to use UI Automation notifications and other UI Automation features.
@@ -91,6 +91,10 @@ For an overview of UI automation, see the [UI Automation Overview](https://docs.
 
 __Invoking controls' ToolTips with a keyboard__
 - Control tooltip can now be invoked by focusing the control with keyboard. This feature needs to be enabled explicitly for the application (see section __"How to opt in or out of these changes"__)
+
+__Showing controls' ToolTips in multiple monitors__
+- ToolTip appearance in multi-monitor environments with different DPI scales is correct now and adapted to not truncate the begginnig of text in case the ToolTip text is too long.
+
  
 ### Affected APIs 
 
@@ -114,6 +118,9 @@ Windows Forms
 497307
 548792
 686499
+
+763329
+
 
 -->
 

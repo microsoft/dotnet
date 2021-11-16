@@ -36,7 +36,7 @@ There are two options to work around this issue:
 Windows Forms
 Windows Presentation Foundation (WPF)
 
-[More information](http://stackoverflow.com/questions/17988219/system-windows-forms-messagebox-in-netversion-4-0-4-5-behaves-differently-in-wi)
+[More information](https://stackoverflow.com/questions/17988219/system-windows-forms-messagebox-in-netversion-4-0-4-5-behaves-differently-in-wi)
 
 <!--
     ### Notes

@@ -5,3 +5,6 @@ A user running a WPF application that enables the Per-Monitor DPI awareness feat
 
 ## Cause
 This issue is caused by a calculation error when resizing and placing the window after switching DPI.
+
+## Resolution
+This issue is being tracked at https://github.com/dotnet/wpf/issues/967.

@@ -50,6 +50,6 @@ which will fix the problem:
 ### Category
 Serialization
 
-[More information](http://stackoverflow.com/questions/14689305/serialization-breaks-in-net-4-5)
+[More information](https://stackoverflow.com/questions/14689305/serialization-breaks-in-net-4-5)
 
 <!-- breaking change id: 140 -->

@@ -42,7 +42,7 @@ paging), as that scenario does not demonstrate the problem.
 ### Category
 ASP.NET
 
-[More information](http://stackoverflow.com/questions/18793795/asp-net-4-5-gridview-postback-of-last-page)
+[More information](https://stackoverflow.com/questions/18793795/asp-net-4-5-gridview-postback-of-last-page)
 
 <!--
     ### Notes

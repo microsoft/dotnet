@@ -28,7 +28,7 @@ This issue was fixed in a servicing update. Update the .NET Framework 4.5, or up
 ### Category
 Windows Presentation Foundation (WPF)
 
-[More information](http://stackoverflow.com/questions/12450751/togglebutton-doesnt-show-any-state)
+[More information](https://stackoverflow.com/questions/12450751/togglebutton-doesnt-show-any-state)
 
 <!--
     ### Notes

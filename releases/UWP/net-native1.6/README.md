@@ -4,6 +4,9 @@ You can see what was included in each .NET Native 1.6 ([Microsoft.NETCore.Univer
 
 When using Visual Studio these packages require Visual Studio 2017 or later.
 
+### UWP 5.3.10 (March 13th, 2019)
+- Fix for a domain spoofing vulnerability which causes the meaning of a URI to change when International Domain Name encoding is applied. An attacker who successfully exploited the vulnerability could redirect a URI. (https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2019-0657)
+
 ### UWP 5.3.7 (July 27th, 2018)
 - Fixed CVE-2018-8356: Security Feature Bypass in X509 Certificate Validation: https://github.com/dotnet/announcements/issues/73
 

@@ -27,8 +27,12 @@ or Tls1.2. If this is not feasible, or if client apps are broken, the
 <xref:System.AppContext?displayProperty=name> class can be used to opt out of
 this feature in either of two ways:
 
-1. By programmatically setting compat switches on the <xref:System.AppContext?displayProperty=name>, as explained [here](http://blogs.msdn.com/b/dotnet/archive/2015/04/29/net-announcements-at-build-2015.aspx#dotnet46)
-2. By adding the following line to the `<runtime>` section of the app.config file: `<AppContextSwitchOverrides value="Switch.System.Net.DontEnableSchUseStrongCrypto=true"/>`;
+1. By programmatically setting compat switches on the <xref:System.AppContext?displayProperty=name>, as explained [here](https://devblogs.microsoft.com/dotnet/net-announcements-at-build-2015/#dotnet46).
+2. By adding the following line to the `<runtime>` section of the app.config file: 
+
+   ```xml
+   <AppContextSwitchOverrides value="Switch.System.Net.DontEnableSchUseStrongCrypto=true"/>
+   ```
 
 ### Affected APIs
 * `F:System.Net.SecurityProtocolType.Ssl3`

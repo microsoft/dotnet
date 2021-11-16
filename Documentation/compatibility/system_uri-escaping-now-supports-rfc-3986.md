@@ -12,7 +12,7 @@ Available
 ### Change Description
 
 URI escaping has changed in .NET Framework 4.5 to support
-[RFC 3986](http://tools.ietf.org/html/rfc3986). Specific changes include:
+[RFC 3986](https://tools.ietf.org/html/rfc3986). Specific changes include:
 
 - <xref:System.Uri.EscapeDataString(System.String)?displayProperty=name> escapes reserved characters based on RFC 3986.
 - <xref:System.Uri.EscapeUriString(System.String)?displayProperty=name> does not escape reserved characters.

@@ -17,4 +17,4 @@ web app domain lifetimes tend to last the entire length of the process lifetime,
 extremely minimal. More private bytes consumption and/or more AppDomain recycling increases the odds of hitting this exception condition.
 
 ## Resolution
-A hotfix for this issue is planned for .Net 4.8. This page will be updated with a link to the hotfix when it becomes available.
+A hotfix for this issue is available for .Net 4.8. https://support.microsoft.com/en-us/help/4502560/cumulative-update-for-net-framework-june-18-2019

@@ -24,6 +24,6 @@ Ideally, code should be updated to expect the new compiler behavior. If the old 
 ### Categories
 Core
 
-[More information](http://blogs.msdn.com/b/ericlippert/archive/2009/11/12/closing-over-the-loop-variable-considered-harmful.aspx)
+[More information](https://blogs.msdn.com/b/ericlippert/archive/2009/11/12/closing-over-the-loop-variable-considered-harmful.aspx)
 
 <!-- breaking change id: 100 -->

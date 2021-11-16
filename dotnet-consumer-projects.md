@@ -24,6 +24,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [Waf Stopwatch](http://wafstopwatch.codeplex.com) - An advanced stopwatch with a lap recording feature. Additionally, it provides a Countdown with alert sound.
  * [Waf File Hash Generator](http://fhg.codeplex.com) - A simple tool to generate the hash values of one or more files. It supports: SHA512, SHA256, SHA1 and MD5 in hexadecimal or Base64 format.
  * [Zero Install](https://github.com/0install/0install-win) - [0install.de](http://0install.de/) - A decentralized cross-platform software-installation system. Run apps with a single click or control every detail.
+ * [ScreenToGif](https://github.com/NickeManarin/ScreenToGif) - Open source .NET tool allows you to record a selected area of your screen, live feed from your webcam or live drawings from a sketchboard.
 
 ## Administration
  * [OpenPetra](https://github.com/openpetra/openpetra) - [www.openpetra.org](https://www.openpetra.org) - An administration software for charities that can be used to manage personnel, supporters, book keeping, gift receipting, accounts payable, conferences etc.

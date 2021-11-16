@@ -24,6 +24,6 @@ Code should be updated to refer to `System.Windows` APIs either with simple name
 ### Category
 Visual Basic .NET
 
-[More information](http://stackoverflow.com/questions/23573659/forms-is-not-a-member-of-windows)
+[More information](https://stackoverflow.com/questions/23573659/forms-is-not-a-member-of-windows)
 
 <!-- breaking change id: 127 -->

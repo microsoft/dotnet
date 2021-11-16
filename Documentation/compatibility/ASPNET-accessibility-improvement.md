@@ -27,7 +27,7 @@ Starting with the .NET Framework 4.7.1, ASP.NET has improved how ASP.NET Web Con
 
 ### Recommended Action
 
-**How to opt in or out of these changes** 
+**How to opt in or out of these changes**  
   
 In order for the Visual Studio Designer to benefit from these changes, it must run on the .NET Framework 4.7.1 or later. The web application can benefit from these changes in either of the following ways:
 

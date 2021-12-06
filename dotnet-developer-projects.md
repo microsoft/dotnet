@@ -112,6 +112,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [ASP.NET MVC Boilerplate Framework](https://github.com/ASP-NET-MVC-Boilerplate/Framework) - ASP.NET MVC Extensions and Helper NuGet packages.
   * [AsyncCollections](https://github.com/HellBrick/AsyncCollections) - A set of lock-free thread-safe collections designed to be used asynchronously.
   * [Automatonymous](https://github.com/MassTransit/Automatonymous) - An asynchronous state machine engine with messaging support. 
+  * [Barcodes](https://github.com/gehtsoft-usa/Gehtsoft.Barcodes) - Cross-platform C# library for generation of different types of barcodes and QR codes.
   * [Bing.RestClient](https://github.com/AdvancedREI/Bing.RestClient) - Access the Bing REST APIs from a unified client.
   * [BoxKite.Twitter](https://github.com/NickHodge/BoxKite.Twitter/) - Twitter .NET Client Library for the 1.1 Twitter API, incorporating REST API, User streaming and Search Streaming. Uses Reactive Extensions (Rx).
   * [CarbonIntensityUK](https://github.com/jordansrowles/CarbonIntensityUK) - Asynchronous wrapper around the [Carbon Intensity API](https://api.carbonintensity.org.uk/) provided by the National Grid ESO.

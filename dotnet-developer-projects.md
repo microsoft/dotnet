@@ -22,7 +22,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [Orleans](http://dotnet.github.io/orleans/) - Orleans is a framework that provides a straightforward approach to building distributed high-scale computing applications, without the need to learn and apply complex concurrency or other scaling patterns. It was created by Microsoft Research and designed for use in the cloud. Orleans is a mature but fast evolving platform that has been battle tested since 2011 by several Microsoft product groups, such as Halo, Gears of War, Skype, Azure, Xbox, as well as by a growing number of other companies using it in Azure, AWS, GCP, and on premises.
  
 ## Languages
-  * [Boo](https://github.com/bamboo/boo) - A .NET language similar to Python but with static typing, and many meta-programming capabilities.
+  * [Boo](https://github.com/boo-lang/boo) - A .NET language similar to Python but with static typing, and many meta-programming capabilities.
   * [ClojureCLR](https://github.com/clojure/clojure-clr) - A .NET implementation of the [Clojure](http://clojure.org) programming language, built on the DLR. 
   * [Cobra](http://cobra-language.com/source/) - Clean, high-level syntax (Boo/Python-like). Static and dynamic binding. First class support for unit tests and contracts. Compiled performance with scripting conveniences. Lambdas and closures. Extensions and mixins.
   * [Dynamic Language Runtime](http://www.github.com/IronLanguages/main) - A toolkit for building dynamic languages for .NET.

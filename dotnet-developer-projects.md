@@ -34,9 +34,12 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [IronRuby](https://github.com/IronLanguages/main/tree/master/Languages/Ruby) - A .NET implementation of the [Ruby](https://www.ruby-lang.org) programming language, built on the DLR. [IronRuby Site](http://ironruby.net).
   * [IronScheme](https://github.com/leppie/IronScheme) - A R6RS conforming Scheme-like implementation based on the Microsoft DLR.
   * [Irony](https://github.com/IronyProject/) - a development kit for implementing languages on .NET platform
+  * [Jint](https://github.com/sebastienros/jint) - a Javascript interpreter for .NET which can run on any modern .NET platform as it supports .NET Standard 2.0 and .NET 4.6.1 targets (and up).
+  * [Mond](https://github.com/Rohansi/Mond) - A scripting language for .NET Core
   * [MoonSharp](https://github.com/xanathar/moonsharp/) - A Lua interpreter and remote debugger, written entirely in C#, easily embeddable in any application running on .NET 3.5+ and Mono.
   * [Nemerle](https://github.com/rsdn/nemerle) - A high-level statically-typed programming language which offers functional, object-oriented and imperative features and has a simple C# like syntax and a powerful meta-programming system.
   * [NiL.JS](https://github.com/nilproject/NiL.JS) - A .NET implementation of the ECMAScript language and runtime.
+  * [P](https://github.com/p-org/P) - a state machine based programming language for modeling and specifying complex distributed systems.
   * [Phalanger](https://github.com/DEVSENSE/Phalanger) - full-featured PHP runtime & compiler for .NET/Mono frameworks. Phalanger is modern open-source implementation of PHP, compatible with the vast array of existing PHP code.
   * [Roslyn (.NET Compiler Platform)](https://github.com/dotnet/roslyn) - Open-source C# and Visual Basic compilers with rich code analysis APIs.
 
@@ -165,6 +168,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [Lexical.Localization](http://lexical.fi/Localization/index.html) - Localization class library for .NET.
   * [LibGit2Sharp](https://github.com/libgit2/libgit2sharp) - C# language bindings for the [LibGit2](https://github.com/libgit2/libgit2) implementation of Git.
   * [LINQ Extensions](https://github.com/TommasoScalici/LINQExtensions) - LINQ extensions for .NET is a collection of useful extensions methods that extends LINQ's capability. There are methods for combinatorics and sequence analysis, generation and manipulation.
+  * [LiteDB](https://github.com/mbdavid/LiteDB) - a small, fast and lightweight .NET NoSQL embedded document database.
   * [Localization.SqlLocalizer]( https://github.com/damienbod/AspNet5Localization) - SQL Localizer for ASP.NET Core, dotnet
   * [Lucene.Net](https://github.com/apache/lucene.net) - A .NET full-text search engine framework that is a C# port of the popular Apache Lucene project.
   * [MahApps.Metro.IconPacks](https://github.com/MahApps/MahApps.Metro.IconPacks) - Some awesome icons for `WPF` and `UWP` all together. The library contains controls to use icons from [Material Design](https://materialdesignicons.com/), [Material Design Icons Light](https://github.com/Templarian/MaterialDesignLight), [Font Awesome](http://fontawesome.io/icons/), [GitHub Octicons](https://octicons.github.com/), [Modern](http://modernuiicons.com/), [Entypo+](http://www.entypo.com/) and [Simple Icons](https://simpleicons.org/).

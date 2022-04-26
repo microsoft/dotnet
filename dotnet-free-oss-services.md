@@ -42,8 +42,8 @@ Please sort projects alphabetically and provide a one-line description. Where po
 
 ## Analytics and Error Reporting
 
-* [elmah.io](https://elmah.io/sponsorship/opensource/) - Error logging and uptime monitoring for .NET.
 * [Bugsnag](https://bugsnag.com/blog/bugsnag-loves-open-source) - Cross platform error reporting.
+* [elmah.io](https://elmah.io/sponsorship/opensource/) - Error logging and uptime monitoring for .NET.
 * [Sentry](https://sentry.io/for/open-source/) - Cross platform error reporting.
 
 ## Cloud Resources and Services

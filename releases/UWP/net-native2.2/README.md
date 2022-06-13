@@ -4,6 +4,13 @@ You can see what was included in each .NET Native 2.2 ([Microsoft.NETCore.Univer
 
 When using Visual Studio, these packages require Visual Studio 2019 or Visual Studio 2017 Version 15.9.
 
+### UWP 6.2.14 (June 13th, 2022)
+- Address Brotli Library Buffer Overflow Vulnerability (https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2020-8927)
+- Opt-in fix to generate PDB's out of process.  This is an alternate to `NoLinkerSymbols` which generates .NET native symbols and addresses the error `Error code RHBIND : error RHB0002: Failed to write PDB. Fix for build failures with RHBIN error when building Xamarin and SyncFusion UWP projects.` To enable the change, add `<OutOfProcPDB>true</OutOfProcPDB>` to the appropriate property groups in the application csproj file.
+- Fix `ILT0014: Failed to compile interop source code. See the build log for error details.`
+- Fix ARM64 application crash when calling methods with more than 8 arguments in finally block
+- Fix ARM64 compilation issues when targeting latest Windows SDK breaks 
+
 ### UWP 6.2.13 (October 13th, 2021)
 - Fix data serialization on .NET Native
 - Update clrcompression zlib from 1.2.8 to 1.2.11

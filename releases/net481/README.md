@@ -2,7 +2,7 @@
 
 You can learn about the changes made in the .NET Framework 4.8.1.
 
-- [Download](http://go.microsoft.com/fwlink/?LinkId=2203304)
+- [Download](https://go.microsoft.com/fwlink/?LinkId=2203304)
 - [.NET Framework 4.8 RTM Announcement blog post](https://devblogs.microsoft.com/dotnet/announcing-dotnet-framework-481)
 - [Release Notes](dotnet481-changes.md)
 - [Application compatibility](https://github.com/Microsoft/dotnet/blob/master/Documentation/compatibility/README.md#net-framework-481)

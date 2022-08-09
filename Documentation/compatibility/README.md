@@ -4,6 +4,7 @@ The following documents provide information on .NET Framework application compat
 
 Please help us improve the [.NET Framework Application Compatibility documents](https://github.com/Microsoft/dotnet/tree/master/Documentation/compatibility). In particular, better titles will improve the index below, both in content and the sort.
 
+- [.NET Framework 4.8.1](#net-framework-481)
 - [.NET Framework 4.8](#net-framework-48)
 - [.NET Framework 4.7.2](#net-framework-472)
 - [.NET Framework 4.7.1](#net-framework-471)
@@ -14,6 +15,10 @@ Please help us improve the [.NET Framework Application Compatibility documents](
 - [.NET Framework 4.5.2](#net-framework-452)
 - [.NET Framework 4.5.1](#net-framework-451)
 - [.NET Framework 4.5](#net-framework-45)
+
+## .NET Framework 4.8.1
+
+No breaking changes or other changes in behavior which is expected to impact application compatibility are included as a part of .NET Framework 4.8.1
 
 ## .NET Framework 4.8
 

@@ -11,6 +11,6 @@ You can learn about the changes made in the .NET Framework 4.8.1.
 ## Release Notes by Product Area
 
 - [Native support for Arm64](dotnet481-changes.md#native-support-for-Arm64)
-- [Accessible Tooltips](dotnet481-changes.md#windows-forms)
+- [Accessible Tooltips](dotnet481-changes.md#accessible-tooltips)
 - [Windows Forms – Accessibility Improvements](dotnet481-changes.md#windows-forms)
 

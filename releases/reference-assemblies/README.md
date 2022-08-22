@@ -88,6 +88,10 @@ Date:  May 6th, 2021
 
 ## Changelog
 
+### 1.0.3
+
+Adds .NET Framework 4.8.1 package.
+
 ### 1.0.2
 
 Fixes naming issue with System.Configuration.dll in 2.0 and 3.5 packages. Incorrect capitalization (System.configuration.dll) was causing build issues on Linux.

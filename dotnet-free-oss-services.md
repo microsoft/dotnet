@@ -44,6 +44,9 @@ Please sort projects alphabetically and provide a one-line description. Where po
 
 * [Bugsnag](https://bugsnag.com/blog/bugsnag-loves-open-source) - Cross platform error reporting.
 * [Sentry](https://sentry.io/for/open-source/) - Cross platform error reporting.
+* [Raygun](https://raygun.com/blog/tags/open-source/) - Cross platform error reporting and Application Performance Monitoring
+
+
 
 ## Cloud Resources and Services
 

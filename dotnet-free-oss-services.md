@@ -35,6 +35,7 @@ Please sort projects alphabetically and provide a one-line description. Where po
 * [Coverity Scan](https://scan.coverity.com) - Static analysis service to identify defects in C# code.
 * [dotCover](https://www.jetbrains.com/buy/opensource/?product=dotCover) - Code coverage tool integrated with Visual Studio.
 * [.Net Reflector](http://reflectorblog.red-gate.com/2013/07/open-source) - Browse, analyse and decompile IL code.
+* [Sonarqube](https://www.sonarsource.com/open-source-editions/)-static code analysis tools out there. It is an open-source platform for continuous inspection of code quality and performs automatic reviews via static code analysis
 
 ## Package Management
 
@@ -43,6 +44,7 @@ Please sort projects alphabetically and provide a one-line description. Where po
 ## Analytics and Error Reporting
 
 * [Bugsnag](https://bugsnag.com/blog/bugsnag-loves-open-source) - Cross platform error reporting.
+* [Countly](https://count.ly/
 * [Raygun](https://raygun.com/blog/tags/open-source/) - Cross platform error reporting and Application Performance Monitoring.
 * [Sentry](https://sentry.io/for/open-source/) - Cross platform error reporting.
 

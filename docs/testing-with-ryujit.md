@@ -1,1 +1,0 @@
-This document has been moved to [.NET Framework 4.6 - Troubleshooting RyuJIT](../Documentation/testing-with-ryujit.md)

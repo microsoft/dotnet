@@ -48,8 +48,6 @@ Please sort projects alphabetically and provide a one-line description. Where po
 * [Raygun](https://raygun.com/blog/tags/open-source/) - Cross-platform error reporting and application performance monitoring.
 * [Sentry](https://sentry.io/for/open-source/) - Cross platform error reporting.
 
-
-
 ## Cloud Resources and Services
 
 * [Azure SDK for .NET](https://www.visualstudio.com/features/azure-tools-vs) - Easily build, manage, and deploy cloud-scale apps with Visual Studio and Azure.

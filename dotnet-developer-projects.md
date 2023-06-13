@@ -129,6 +129,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [Comparers](https://github.com/StephenCleary/Comparers) - Fluent syntax for building comparers (and equality comparers) and implementing object comparison.
   * [CoordinateSharp](https://github.com/Tronald/CoordinateSharp) - Parse or convert geographic coordinate formats and calculate location based solar/lunar information.
   * [CoreIpc](https://github.com/UiPath/coreipc) - WCF-like service model API for communication over named pipes. .NET standard and node.js clients. 
+  * [CustomLibrary.EFCore](https://github.com/AngeloDotNet/CustomLibrary.EFCore) - Library of generic and transactional CRUD operations with Entity Framework Core 6.x for SQL Server, MySQL, Postgres, SQLite databases
   * [Cricket](https://github.com/fsprojects/Cricket) - Actor library.
   * [DalSoft.RestClient](https://restclient.dalsoft.io/) - An extensible, dynamic and fluent Rest Client. Create frictionless code whilst still using the HttpClient you already know.
   * [DateTimeExtensions](https://github.com/kappy/DateTimeExtensions) - Common Date Time operations on the form of extensions to System.DateTime, including holidays and working days calculations on several culture locales.

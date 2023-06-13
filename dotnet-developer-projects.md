@@ -397,7 +397,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [Warewolf Easy Service Bus](https://github.com/Warewolf-ESB/Warewolf-ESB) - An open source easy to use service bus, built on numerous .Net technologies including WF (Windows Workflow Foundation), SignalR and WPF.
 
 ## Distributed Caching and Computing
-  * [.NEXT Raft](https://github.com/sakno/dotNext/tree/master/src/cluster) - Raft implementation for .NET and ASP.NET Core that allows to build clustered microservices powered by distributed consensus and replication
+  * [.NEXT Raft](https://github.com/dotnet/dotNext/tree/master/src/cluster) - Raft implementation for .NET and ASP.NET Core that allows to build clustered microservices powered by distributed consensus and replication
   * [CacheAdapter](https://bitbucket.org/glav/cacheadapter) - a .Net library allows developers to use unified-implemented cahce provider
   * [CacheManager](https://github.com/MichaCo/CacheManager) - A configurable abstraction layer for caching. It supports various caches, like redis and memcached, and provides many advanced features, like layered cache, synchronization, serialization etc.
   * [Dache](https://github.com/ironyx/dache) - An open source distributed caching service, built on .NET 4.0 and using TCP sockets for communication.

@@ -274,6 +274,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [GitLink](https://github.com/GitTools/GitLink) - Command-line tool to make .NET open source accessible without the need for a symbols server
   * [GitVersion](https://github.com/GitTools/GitVersion) - Use convention to derive a SemVer product version from a GitFlow based repository.
   * [Glimpse](https://github.com/Glimpse/Glimpse) - Providing real time diagnostics & insights to the fingertips of hundreds of thousands of developers daily.
+  * [Grace Version Control System](https://github.com/scottarbeit/grace) - A new, modern, cloud-native version control system written using F# and Dapr
   * [ILSpy](https://github.com/icsharpcode/ILSpy) - ILSpy is the open-source .NET assembly browser and decompiler.
   * [Mini Profiler](https://github.com/MiniProfiler/dotnet) - A simple but effective mini-profiler for .NET.
   * [Node.js Tools For Visual Studio](https://github.com/Microsoft/nodejstools) -  Plugin that turns Visual Studio into a Node.js IDE

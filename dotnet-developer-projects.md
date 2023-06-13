@@ -102,7 +102,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [Rebus](https://github.com/rebus-org/Rebus) - Rebus is a lean service bus implementation for .NET. 
   
 ## Libraries
-  * [.NEXT](https://github.com/dotnet/dotNext) - A set of libraries providing async-friend synchronization primitives, atomic operations, value delegates, metaprogramming, fast reflection.
+  * [.NEXT](https://github.com/dotnet/dotNext) - A set of libraries providing async-friendly synchronization primitives, metaprogramming, specialized buffer types, I/O extension for writing high-performance code.
   * [Albedo](https://github.com/ploeh/Albedo) - A .NET library targeted at making Reflection programming more consistent, using a common set of abstractions and utilities.
   * [Algorithmia](https://github.com/SolutionsDesign/Algorithmia) - Algorithms and Data structures
   * [AngleSharp](https://github.com/FlorianRappl/AngleSharp) - Ultimate angle brackets parser library. It parses HTML5, MathML, SVG and CSS to construct a DOM based on the official W3C specification.

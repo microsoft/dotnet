@@ -417,6 +417,10 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [Dache](https://github.com/ironyx/dache) - An open source distributed caching service, built on .NET 4.0 and using TCP sockets for communication.
   * [Orleans](https://github.com/dotnet/orleans) - Framework that provides a straight-forward approach to building distributed high-scale computing applications using virtual actor model.
 
+## Workflow-as-code
+  * [Azure Durable Functions](https://github.com/Azure/azure-functions-durable-extension) - An Azure service which allows stateful functions in a serverless compute environment.
+  * [Cleipnir.Flows](https://github.com/stidsborg/Cleipnir.Flows) - An open-source workflow-as-code framework tailored for ASP.NET.
+
 ## Windows Workflow
   * [Core WF](https://github.com/dmetzgar/corewf) - WF runtime ported to work on .NET Core.
   * [Orleans.Activities](https://github.com/OrleansContrib/Orleans.Activities) - WF over [Microsoft Orleans](https://github.com/dotnet/orleans) framework.

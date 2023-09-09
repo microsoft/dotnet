@@ -1,10 +1,8 @@
 # .NET Home
 
-This repository is a starting point to learn about and engage in .NET and .NET open source projects.
+This repository is a starting point to learn about and engage in [.NET](https://dot.net) and .NET open source projects.
 
-This repository is not an official .NET Framework support location, however, we will respond to issues filed here as best we can. Please file .NET Core product issues at [dotnet/core](https://github.com/dotnet/core/issues) and ASP.NET Core product issues at [aspnet/home](https://github.com/aspnet/home/issues).
-
-You can try out an early access release of the .NET Framework at the [.NET Framework Early Access](https://github.com/microsoft/dotnet-framework-early-access) website.
+This repository is not an official .NET or .NET Framework support location, however, we will respond to issues filed here as best we can. Please file .NET product issues at main project repos below.
 
 ## In this repository
 
@@ -18,23 +16,32 @@ Please contribute to this repository via [pull requests](https://github.com/Micr
 
 ## Finding .NET Open Source Projects
 
-Here are some excellent community-maintained lists of projects:
+Here are some excellent community-maintained lists of projects & libraries:
 
-- [Awesome .NET!](https://github.com/quozd/awesome-dotnet)
-- [ASP.NET Core Library and Framework Support](https://github.com/jpsingleton/ANCLAFS)
+- [Awesome .NET](https://github.com/quozd/awesome-dotnet)
+- [Awesome .NET MAUI](https://github.com/jsuarezruiz/awesome-dotnet-maui)
+- [Awesome Blazor](https://github.com/AdrienTorris/awesome-blazor)
 
 There are many projects that you can use and contribute to, some of which are listed below. Please do contribute to these projects!
 
-### .NET Core
+### .NET
 
-- [.NET Core (dotnet/core)](https://github.com/dotnet/core)
-- [.NET Core docs (dotnet/docs)](https://github.com/dotnet/docs)
+- [.NET (dotnet/core)](https://github.com/dotnet/core)
+- [.NET MAUI (dotnet/maui)](https://github.com/dotnet/maui)
 - [ASP.NET Core (dotnet/aspnetcore)](https://github.com/dotnet/aspnetcore)
-- [ASP.NET Core docs (dotnet/AspNetCore.Docs)](https://github.com/dotnet/AspNetCore.Docs)
+- [C# (dotnet/csharplang)](https://github.com/dotnet/csharplang)
+- [Entity Framework Core (dotnet/efcore)](https://github.com/dotnet/efcore)
+- [F# (dotnet/fsharp)](https://github.com/dotnet/fsharp)
+- [ML.NET dotnet/machinelearning)](https://github.com/dotnet/machinelearning)
 - [Roslyn Compiler Platform (dotnet/roslyn)](https://github.com/dotnet/roslyn)
-- [EntityFramework (dotnet/efcore)](https://github.com/dotnet/efcore)
-- [WPF (dotnet/wpf)](https://github.com/dotnet/wpf)
 - [Windows Forms (dotnet/winforms)](https://github.com/dotnet/winforms)
+- [WPF (dotnet/wpf)](https://github.com/dotnet/wpf)
+
+### .NET Docs
+- [.NET docs (dotnet/docs)](https://github.com/dotnet/docs)
+- [.NET MAUI docs (dotnet/docs-maui)](https://github.com/dotnet/docs-maui)
+- [ASP.NET Core docs (dotnet/AspNetCore.Docs)](https://github.com/dotnet/AspNetCore.Docs)
+- [Entity Framework docs (dotnet/EntityFramework.Docs)](https://github.com/dotnet/EntityFramework.Docs)
 
 ### .NET Framework
 
@@ -43,9 +50,9 @@ There are many projects that you can use and contribute to, some of which are li
 
 ### Xamarin
 
-- [Xamarin iOS + macOS (xamarin-macios)](https://github.com/xamarin/xamarin-macios)
+- [Xamarin iOS + macOS (xamarin/xamarin-macios)](https://github.com/xamarin/xamarin-macios)
 - [Xamarin Android (xamarin/xamarin-android)](https://github.com/xamarin/xamarin-android)
-- [Xamarin Forms (xamarin/Xamarin.Forms)](https://github.com/xamarin/Xamarin.Forms)
+- [Xamarin.Forms (xamarin/Xamarin.Forms)](https://github.com/xamarin/Xamarin.Forms)
 - [Mono Project](https://github.com/mono/)
 
 ### Community

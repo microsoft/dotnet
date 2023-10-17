@@ -15,6 +15,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
 
 ## Platforms
   * [Akka.NET](http://github.com/akkadotnet) - Akka.NET is a toolkit and runtime for building highly concurrent, distributed, and fault tolerant event-driven applications on .NET & Mono. This community-driven port brings C# & F# developers the capabilities of the original Akka framework in Java/Scala. [[Project Site]](http://getakka.net/)
+  * [Avalonia](https://github.com/AvaloniaUI/Avalonia) - A cross-platform UI framework that supports XAML and .NET for building desktop applications.  
   * [Castle Project](https://github.com/castleproject) - Umbrella project for ActiveRecord, DynamicProxy, MonoRail, Windsor
   * [Catel](https://github.com/catel/catel) - Application platform with IoC, logging, reflection and much more that serves as a base for applications that must be ready for future growth.
   * [Enterprise Web Library (EWL)](https://github.com/enduracode/enterprise-web-library) - An extremely opinionated platform for web applications that trades off performance, scalability, and development flexibility for an ease of maintenance you won't find anywhere else. [Enterprise Web Library site](http://www.enterpriseweblibrary.org/).

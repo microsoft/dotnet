@@ -43,6 +43,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [P](https://github.com/p-org/P) - a state machine based programming language for modeling and specifying complex distributed systems.
   * [Phalanger](https://github.com/DEVSENSE/Phalanger) - full-featured PHP runtime & compiler for .NET/Mono frameworks. Phalanger is modern open-source implementation of PHP, compatible with the vast array of existing PHP code.
   * [Roslyn (.NET Compiler Platform)](https://github.com/dotnet/roslyn) - Open-source C# and Visual Basic compilers with rich code analysis APIs.
+  * [SharpRISCV](https://github.com/rizwan3d/SharpRISCV) - An implementation of RISC-V assembly in C#. First RISC V Assembly that build windows executable file.
 
 ## Tutorials
   * [Docker with .NET Core](https://github.com/mindems/Docker.NET) - A tutorial trilogy designed to get you up and running quickly.

@@ -47,6 +47,7 @@ Please sort projects alphabetically and provide a one-line description. Where po
 * [countly](https://countly.com) - comprehensive product analytics platform needed to build outstanding and innovative products and the most privacy-conscious solution for mobile, 
    desktop, and web applications for all users.
 * [elmah](https://elmah.io) - Error logging and uptime monitoring for .NET.
+* [raygun.com](https://raygun.com/platform/crash-reporting)-Error Monitoring & Crash Reporting for .NET.
 * [Sentry](https://sentry.io/welcome/) - Cross platform error reporting.
 
 

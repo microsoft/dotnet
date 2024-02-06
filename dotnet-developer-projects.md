@@ -206,14 +206,15 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [Spartacus](https://github.com/wind39/spartacus) - Multi-purpose C# library, containing: 1) classes to access many types of databases in a fast, generic way; 2) classes to work with XLSX, CSV and DBF files; 3) PDF report engine.
   * [Splat](https://github.com/paulcbetts/splat) - A library to make things cross-platform that should be.
   * [SSH.NET](https://github.com/sshnet/SSH.NET) - A client-side library for SSH, SCP and SFTP.
-  * [Strongly Typed Client API Generators for ASP.NET Web API](https://github.com/zijianhuang/webapiclientgen) - Strongly Typed Client API Generators generate strongly typed client API in TypeScript and C# codes supporting desktop, Universal Windows, Android and iOS.
+  * [Strongly Typed Client API Generators for ASP.NET Web API](https://github.com/zijianhuang/webapiclientgen) - They generate strongly typed client API in TypeScript and C# codes supporting desktop, Xamarin/MAUI, Android and iOS.
+  * [Strongly Typed OpenAPI Client Generators](https://github.com/zijianhuang/openapiclientgen) - Reading an OpenAPI / Swagger definition file, they generate client API codes in C# and in TypeScript for Angular, Aurelia, Axios, Fetch API and jQuery, as well as Angular strictly typed forms.
   * [Stuntman](https://github.com/ritterim/stuntman) - OWIN middleware for quickly mocking authentication/authorization use case scenarios locally. Supports Cookie Authentication and Bearer Token Authentication.
   * [SuperSocket](https://github.com/kerryjiang/SuperSocket) - An extensible socket server engine which supports .NET and Mono.
   * [surging](https://github.com/dotnetcore/surging) - The distributed micro service framework based on .NET Core provides high-performance RPC Communications.
   * [Sweet.Jayson](https://github.com/ocdogan/Sweet.Jayson) - Fast, reliable, easy to use, fully json.org compliant, thread safe C# JSON library for server side and desktop operations.
   * [TimeZoneConverter](https://github.com/mj1856/TimeZoneConverter) - Lightweight library to convert quickly between IANA, Windows, and Rails time zone names.
   * [TimeZoneNames](https://github.com/mj1856/TimeZoneNames) - Provides a complete source of localized time zone names and abbreviations.
-  * [TomP2P.NET](https://github.com/tomp2p/TomP2P.NET) - A P2P-based high performance key-value pair storage library for .NET. (Not Updated in 3 Years - 4/2018)
+  * [TomP2P.NET](https://github.com/tomp2p/TomP2P.NET) - A P2P-based high performance key-value pair storage library for .NET. (Not Updated in 9 Years - 02/2024)
   * [Unchase.FluentPerformanceMeter](https://github.com/unchase/Unchase.FluentPerformanceMeter) - An open-source and cross-platform .Net Standard 2.0 library that is designed for the method's performance measurement.
   * [VkSharp](https://github.com/kasthack/vksharp) - VK client library.
   * [WampSharp](https://github.com/Code-Sharp/WampSharp) - A C# implementation of [The Web Application Messaging Protocol](http://wamp.ws) - a protocol that provides messaging patterns of Remote Procedure Calls and Publish/Subscribe over WebSockets.

@@ -216,6 +216,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [TomP2P.NET](https://github.com/tomp2p/TomP2P.NET) - A P2P-based high performance key-value pair storage library for .NET. (Not Updated in 3 Years - 4/2018)
   * [Unchase.FluentPerformanceMeter](https://github.com/unchase/Unchase.FluentPerformanceMeter) - An open-source and cross-platform .Net Standard 2.0 library that is designed for the method's performance measurement.
   * [VkSharp](https://github.com/kasthack/vksharp) - VK client library.
+  * [VSOP2013](https://github.com/kingsznhone/VSOP2013.NET) - The planetary solution VSOP2013. Rewritten in C# and highly optimized on performance. Used to calculate the positions of planets in the solar system.
   * [WampSharp](https://github.com/Code-Sharp/WampSharp) - A C# implementation of [The Web Application Messaging Protocol](http://wamp.ws) - a protocol that provides messaging patterns of Remote Procedure Calls and Publish/Subscribe over WebSockets.
   * [WebApiProxy](https://github.com/faniereynders/WebApiProxy) - An automatic proxy provider for RESTful services built on ASP.NET Web API. Includes JavaScript & C# client generation.
   * [WebSocket4Net](https://github.com/kerryjiang/WebSocket4Net) - A C# websocket client for .NET, Mono and Xamarin.

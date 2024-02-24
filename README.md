@@ -32,7 +32,7 @@ There are many projects that you can use and contribute to, some of which are li
 - [C# (dotnet/csharplang)](https://github.com/dotnet/csharplang)
 - [Entity Framework Core (dotnet/efcore)](https://github.com/dotnet/efcore)
 - [F# (dotnet/fsharp)](https://github.com/dotnet/fsharp)
-- [ML.NET dotnet/machinelearning)](https://github.com/dotnet/machinelearning)
+- [ML.NET (dotnet/machinelearning)](https://github.com/dotnet/machinelearning)
 - [Roslyn Compiler Platform (dotnet/roslyn)](https://github.com/dotnet/roslyn)
 - [Windows Forms (dotnet/winforms)](https://github.com/dotnet/winforms)
 - [WPF (dotnet/wpf)](https://github.com/dotnet/wpf)

@@ -29,6 +29,7 @@ There are many projects that you can use and contribute to, some of which are li
 - [.NET (dotnet/core)](https://github.com/dotnet/core)
 - [.NET MAUI (dotnet/maui)](https://github.com/dotnet/maui)
 - [ASP.NET Core (dotnet/aspnetcore)](https://github.com/dotnet/aspnetcore)
+- [Aspire (dotnet/aspire)](https://github.com/dotnet/aspire)
 - [C# (dotnet/csharplang)](https://github.com/dotnet/csharplang)
 - [Entity Framework Core (dotnet/efcore)](https://github.com/dotnet/efcore)
 - [F# (dotnet/fsharp)](https://github.com/dotnet/fsharp)
@@ -41,6 +42,7 @@ There are many projects that you can use and contribute to, some of which are li
 - [.NET docs (dotnet/docs)](https://github.com/dotnet/docs)
 - [.NET MAUI docs (dotnet/docs-maui)](https://github.com/dotnet/docs-maui)
 - [ASP.NET Core docs (dotnet/AspNetCore.Docs)](https://github.com/dotnet/AspNetCore.Docs)
+- [Aspire docs (dotnet/docs-aspire)](https://github.com/dotnet/docs-aspire)
 - [Entity Framework docs (dotnet/EntityFramework.Docs)](https://github.com/dotnet/EntityFramework.Docs)
 
 ### .NET Framework

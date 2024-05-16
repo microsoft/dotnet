@@ -39,8 +39,8 @@ There are many projects that you can use and contribute to, some of which are li
 - [WPF (dotnet/wpf)](https://github.com/dotnet/wpf)
 
 ### .NET Docs
-- [.NET Aspire docs (dotnet/docs-aspire)](https://github.com/dotnet/docs-aspire)
 - [.NET docs (dotnet/docs)](https://github.com/dotnet/docs)
+- [.NET Aspire docs (dotnet/docs-aspire)](https://github.com/dotnet/docs-aspire)
 - [.NET MAUI docs (dotnet/docs-maui)](https://github.com/dotnet/docs-maui)
 - [ASP.NET Core docs (dotnet/AspNetCore.Docs)](https://github.com/dotnet/AspNetCore.Docs)
 - [Entity Framework docs (dotnet/EntityFramework.Docs)](https://github.com/dotnet/EntityFramework.Docs)

@@ -27,8 +27,8 @@ There are many projects that you can use and contribute to, some of which are li
 ### .NET
 
 - [.NET (dotnet/core)](https://github.com/dotnet/core)
-- [.NET MAUI (dotnet/maui)](https://github.com/dotnet/maui)
 - [.NET Aspire (dotnet/aspire)](https://github.com/dotnet/aspire)
+- [.NET MAUI (dotnet/maui)](https://github.com/dotnet/maui)
 - [ASP.NET Core (dotnet/aspnetcore)](https://github.com/dotnet/aspnetcore)
 - [C# (dotnet/csharplang)](https://github.com/dotnet/csharplang)
 - [Entity Framework Core (dotnet/efcore)](https://github.com/dotnet/efcore)

@@ -386,6 +386,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
 ## UI and Control libraries
   * [AdonisUI](https://github.com/benruehl/adonis-ui) - Lightweight UI toolkit for WPF applications offering classic but enhanced Windows visuals.
   * [Callisto](https://github.com/timheuer/callisto) - UI Control Toolkit for WinRT apps.
+  * [DeftSharp.Windows.Input](https://github.com/Empiree/DeftSharp.Windows.Input) - A simple keyboard/mouse event listener for WPF applications. 
   * [Dragablz](http://github.com/ButchersBoy/Dragablz) - A tearable TabControl for WPF which also provides easy-to-use and implement docking features.
   * [Eto](https://github.com/picoe/Eto) - Cross platform GUI Toolkit for desktop and mobile apps
   * [MahApps.Metro](https://github.com/MahApps/MahApps.Metro) - A toolkit for creating Metro / Modern UI styled WPF apps. [mahapps.com](http://mahapps.com)

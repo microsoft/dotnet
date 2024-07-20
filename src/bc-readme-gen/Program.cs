@@ -7,6 +7,17 @@ namespace bc_readme_gen
 {
     class Program
     {
+
+        static IList<String> GetFileNamesExcludedFromBreakingChangeDocuments() 
+        {
+            return new List<String>()
+            {
+                "! Template.md",
+                "README.md",
+                "!categories.md"
+            };
+        }
+
         static void Main(string[] args)
         {
             if (args == null || args.Length == 0)
@@ -24,10 +35,11 @@ namespace bc_readme_gen
             var bcdir = new DirectoryInfo(bcpath);
             const string versionIntroduced = "### Version Introduced";
 
+            IList<String> fileNamesExcludedFromBreakingChangeDocuments = GetFileNamesExcludedFromBreakingChangeDocuments();
 
             foreach(var changeFile in bcdir.GetFiles("*.md"))
             {
-                if (changeFile.Name == "! Template.md" || changeFile.Name == "README.md" || changeFile.Name == "!categories.md")
+                if(fileNamesExcludedFromBreakingChangeDocuments.Contains(changeFile.Name))
                 {
                     continue;
                 }

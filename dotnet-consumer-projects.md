@@ -14,6 +14,10 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [Simple Music Player](https://github.com/punker76/simple-music-player) SimpleMP or Simple Music Player - A simple and easy to use music player for free. It plays the most common music files (mp3, ogg, wma, wav) in a simple way.
  * [Waf Music Manager](https://jbe2277.github.io/musicmanager) – A simple and fast application that makes it fun to manage the local music collection.
 
+## Games
+ * [Nazdar](https://github.com/MichalSkoula/nazdar-the-game) - [skoula.cz/nazdar](https://skoula.cz/nazdar/) - Nazdar is a platformer with strategic elements, available on Windows, Linux, Xbox and Android.
+
+   
 ## Internet/Chat Applications
  * [Smuxi IM](https://github.com/meebey/smuxi) - Free, distributed, and user-friendly IRC / Twitter / XMPP / Campfire / JabbR client for Linux, Windows and Mac OS X 
 

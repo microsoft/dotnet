@@ -37,8 +37,10 @@ There are many projects that you can use and contribute to, some of which are li
 - [Roslyn Compiler Platform (dotnet/roslyn)](https://github.com/dotnet/roslyn)
 - [Windows Forms (dotnet/winforms)](https://github.com/dotnet/winforms)
 - [WPF (dotnet/wpf)](https://github.com/dotnet/wpf)
+- [.NET testing, includes Microsoft.Testing.Platform and MSTest (microsoft/testfx)](https://github.com/microsoft/testfx)
 
 ### .NET Docs
+
 - [.NET docs (dotnet/docs)](https://github.com/dotnet/docs)
 - [.NET Aspire docs (dotnet/docs-aspire)](https://github.com/dotnet/docs-aspire)
 - [.NET MAUI docs (dotnet/docs-maui)](https://github.com/dotnet/docs-maui)

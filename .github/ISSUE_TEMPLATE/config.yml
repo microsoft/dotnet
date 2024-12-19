@@ -27,6 +27,12 @@ contact_links:
   - name: Issue with WPF
     url:  https://github.com/dotnet/wpf/issues/new/choose
     about: Please open issues relating to WPF in dotnet/wpf.
+  - name: Issue with release notes or package deprecation
+    url:  https://github.com/dotnet/core/issues/new/choose
+    about: Please open issues relating to WPF in dotnet/wpf.
+  - name: Issue with .NET website
+    url:  https://github.com/dotnet/website-feedback/issues/new/choose
+    about: Please open issues relating to WPF in dotnet/wpf.
   - name: Issue with .NET Framework
     url:  https://developercommunity.visualstudio.com/dotnet
     about: Please open issues relating to the .NET Framework (rather than .NET Core or .NET 5+) in Developer Community

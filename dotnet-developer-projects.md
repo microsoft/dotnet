@@ -91,6 +91,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [System.Data.SQLite](https://system.data.sqlite.org) - SQLite
 
 ## Messaging
+  * [AsyncMonolith](https://github.com/Timmoth/AsyncMonolith) - Facilitates simple asynchronous messaging in .NET apps.
   * [Azure Event Hubs](https://github.com/azure/azure-event-hubs-dotnet) - .NET Standard client library for [Azure Event Hubs](https://docs.microsoft.com/en-us/azure/event-hubs/).
   * [Azure Relay](https://github.com/azure/azure-relay-dotnet) - .NET Standard client library for [Azure Relay](https://docs.microsoft.com/en-us/azure/service-bus-relay/relay-what-is-it).
   * [Azure Service Bus](https://github.com/azure/azure-service-bus-dotnet) - .NET Standard client library for [Azure Service Bus](https://docs.microsoft.com/en-us/azure/service-bus/).

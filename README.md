@@ -1,8 +1,6 @@
 # .NET Home
 
-This repository is a starting point to learn about and engage in [.NET](https://dot.net) and .NET open source projects.
-
-This repository is not an official .NET or .NET Framework support location, however, we will respond to issues filed here as best we can. Please file .NET product issues at main project repos below.
+This repository is fork by luanvo
 
 ## In this repository
 

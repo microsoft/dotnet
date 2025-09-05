@@ -297,7 +297,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [Protobuf-net](https://github.com/mgravell/protobuf-net) - A .NET implementation of protobuf, allowing you to serialize your .NET objects efficiently and easily.
   * [Quick Diagram Tool for C#](https://github.com/realvizu/QuickDiagram) - Code visualization tool for C#.
   * [RepoZ](https://github.com/awaescher/RepoZ) - A zero-conf git repository hub for Windows and macOS with Windows Explorer and CLI enhancements.
-  * [RobiniaDocs](https://github.com/NeuroXiq/RobiniaDocs) - RobiniaDocs is a simple documentation hosting platform for .NET Core projects.
+  * [DNDocs](https://github.com/NeuroXiq/DNDocs) - DNDocs - Online NuGet package documentation generator for .NET Core projects.
   * [scriptcs](https://github.com/scriptcs/scriptcs) - scriptcs makes it easy to write and execute C# with a simple text editor.
   * [Snoop WPF](https://github.com/cplotts/snoopwpf) - Snoop - The WPF Spy Utility
   * [Sql Bulk Copy Sync](https://github.com/WCOMAB/SqlBulkSync) - A lightweight, performant non-intrusive SQL Server data sync tool.

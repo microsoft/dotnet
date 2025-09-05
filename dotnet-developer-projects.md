@@ -215,6 +215,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [TimeZoneNames](https://github.com/mj1856/TimeZoneNames) - Provides a complete source of localized time zone names and abbreviations.
   * [TomP2P.NET](https://github.com/tomp2p/TomP2P.NET) - A P2P-based high performance key-value pair storage library for .NET. (Not Updated in 3 Years - 4/2018)
   * [Unchase.FluentPerformanceMeter](https://github.com/unchase/Unchase.FluentPerformanceMeter) - An open-source and cross-platform .Net Standard 2.0 library that is designed for the method's performance measurement.
+  * [UUID](https://github.com/Taiizor/UUID) - UUID is a modern and efficient unique identifier generator for .NET ecosystem. This high-performance library is designed for modern distributed systems, providing thread-safe operations and time-ordered identifiers with enhanced security features.
   * [VkSharp](https://github.com/kasthack/vksharp) - VK client library.
   * [WampSharp](https://github.com/Code-Sharp/WampSharp) - A C# implementation of [The Web Application Messaging Protocol](http://wamp.ws) - a protocol that provides messaging patterns of Remote Procedure Calls and Publish/Subscribe over WebSockets.
   * [WebApiProxy](https://github.com/faniereynders/WebApiProxy) - An automatic proxy provider for RESTful services built on ASP.NET Web API. Includes JavaScript & C# client generation.

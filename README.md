@@ -80,7 +80,7 @@ Many .NET open source projects are part of the
 [.NET Foundation](https://www.dotnetfoundation.org/projects). Microsoft has contributed many projects, including ASP.NET Core and
 .NET Core. You may want to consider [joining the .NET Foundation](https://dotnetfoundation.org/community/).
 
-Check out the [.NET Foundation Forums](https://forums.dotnetfoundation.org/) to see what others are talking about, or start a new discussion to ask a question or make a point. 
+Check out the [.NET Foundation Discord Server](https://dotnetfoundation.org/socialize/discord) to see what others are talking about, or start a new discussion to ask a question or make a point.
 
 ## License
 

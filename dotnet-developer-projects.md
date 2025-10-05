@@ -217,6 +217,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [Unchase.FluentPerformanceMeter](https://github.com/unchase/Unchase.FluentPerformanceMeter) - An open-source and cross-platform .Net Standard 2.0 library that is designed for the method's performance measurement.
   * [UUID](https://github.com/Taiizor/UUID) - UUID is a modern and efficient unique identifier generator for .NET ecosystem. This high-performance library is designed for modern distributed systems, providing thread-safe operations and time-ordered identifiers with enhanced security features.
   * [VkSharp](https://github.com/kasthack/vksharp) - VK client library.
+  * [VSOP2013](https://github.com/kingsznhone/VSOP2013.NET) - The planetary solution VSOP2013. Rewritten in C# and highly optimized on performance. Used to calculate the positions of planets in the solar system.
   * [WampSharp](https://github.com/Code-Sharp/WampSharp) - A C# implementation of [The Web Application Messaging Protocol](http://wamp.ws) - a protocol that provides messaging patterns of Remote Procedure Calls and Publish/Subscribe over WebSockets.
   * [WebApiProxy](https://github.com/faniereynders/WebApiProxy) - An automatic proxy provider for RESTful services built on ASP.NET Web API. Includes JavaScript & C# client generation.
   * [WebSocket4Net](https://github.com/kerryjiang/WebSocket4Net) - A C# websocket client for .NET, Mono and Xamarin.

@@ -1,0 +1,32 @@
+name: Smoke — Welcome NewFile
+
+on:
+  pull_request:
+    types: [ opened, synchronize, reopened ]
+
+jobs:
+  smoke-welcome:
+    name: Run Welcome NewFile smoke test (Windows)
+    runs-on: windows-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Build solution
+        run: dotnet build "EnhancedOracleCodeEditor.sln" -c Debug
+
+      - name: Start app (background) with diagnostics
+        shell: powershell
+        run: |
+          $env:ORACLE_DEBUG_FEATURES = 'true'
+          Start-Process -FilePath powershell -ArgumentList '-NoProfile','-Command', "dotnet run --project './EnhancedOracleCodeEditor/EnhancedOracleCodeEditor.csproj' -c Debug *> app_run.log 2>&1" -NoNewWindow
+          Start-Sleep -Seconds 5
+
+      - name: Run smoke script
+        shell: powershell
+        run: .\EnhancedOracleCodeEditor\Tools\ci\smoke_welcome_newfile.ps1

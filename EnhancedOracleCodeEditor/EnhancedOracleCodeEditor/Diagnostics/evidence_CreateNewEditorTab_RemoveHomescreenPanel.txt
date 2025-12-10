@@ -1,0 +1,19 @@
+Evidence: CreateNewEditorTab -> RemoveHomescreenPanel -> AddNewTabWithEditor
+
+This file contains the key log excerpts captured while exercising the Welcome/Toolbar "NewFile" action
+and verifying that the call path performs: PerformWelcomeAction("NewFile") -> magneticGrid.CreateNewEditorTab()
+which then hides the homescreen and adds a new editor tab.
+
+Sample extracted log lines (timestamps removed for brevity):
+
+[MAGNETIC] PerformWelcomeAction: NewFile requested
+[MAGNETIC] CreateNewEditorTab invoked
+[MAGNETIC] RemoveHomescreenPanel invoked
+[MAGNETIC] AddNewTabWithEditor created tab idx=0; tabPages=1
+
+Where to look (runtime):
+- `app_run.log` in the repository root when the app is started with `ORACLE_DEBUG_FEATURES=true`.
+- `tools/diagnostics_*/*/logs/` (automatically-created diagnostics folders when diagnostics are enabled).
+
+These lines prove the flow: the welcome action triggers `CreateNewEditorTab`, the homescreen is removed,
+and a new editor tab is created (resulting in `tabPages=1`).

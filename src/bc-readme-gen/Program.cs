@@ -19,7 +19,7 @@ namespace bc_readme_gen
 
             var bcList = new Dictionary<string,List<BreakingChange>>();
             var template = "README-template.md";
-            string templateText = null;
+            string templateText = one;
             string bcpathREADME = Path.Combine(bcpath, "README.md");
             var bcdir = new DirectoryInfo(bcpath);
             const string versionIntroduced = "### Version Introduced";

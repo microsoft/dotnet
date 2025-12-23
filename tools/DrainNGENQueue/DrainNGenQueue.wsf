@@ -1,0 +1,117 @@
+<package><job id="DrainNGenQueue.wsf">
+<script language="JScript">    
+    var wsh = WScript.CreateObject("WScript.Shell");
+    var fso = WScript.CreateObject("Scripting.FileSystemObject");
+    var is64bit = function () {
+        if (wsh.ExpandEnvironmentStrings("%PROCESSOR_ARCHITECTURE%").indexOf("64") > 0)
+            return true;
+        return (wsh.ExpandEnvironmentStrings("%PROCESSOR_ARCHITEW6432%").indexOf("64") > 0);
+    }();
+    var isV4Installed = function () {
+        var v4NgenLoc = wsh.ExpandEnvironmentStrings("%windir%\\Microsoft.NET\\Framework\\v4.0.30319\\ngen.exe");
+        return fso.FileExists(v4NgenLoc);
+    }();
+    // Run an exe, collecting its exit code, stdout & stderr, optionally echoing the results to the window
+    var runToCompletion = function (exe, arguments, echo) {
+        var makeResult = function (exitCode, stdOut, stdErr) {
+            return { ExitCode: exitCode, StdOut: stdOut, StdErr: stdErr };
+        }
+        var getStream = function (strm) {
+            var line = "";
+            if (!strm.AtEndOfStream) {
+                line = strm.ReadAll();
+                if (echo)
+                    WScript.Echo(line);
+            }
+            return line;
+        }
+        var process = wsh.Exec(exe + " " + arguments);
+        var output = "";
+        var error = "";
+        while (process.Status == 0) {
+            WScript.Sleep(50);
+            output += getStream(process.StdOut);
+            error += getStream(process.StdErr);
+        }
+        output += getStream(process.StdOut);
+        error += getStream(process.StdErr);
+        return makeResult(process.ExitCode, output, error);
+    }
+    var ver = function () {
+        var ver = runToCompletion(wsh.ExpandEnvironmentStrings("%windir%\\system32\\cmd.exe"), "/C ver");
+        var rgx = / ([0-9]+)\.([0-9]+)\.[0-9]+/;
+        var res = rgx.exec(ver.StdOut);
+        return {major: res[1], minor :res[2]};
+    }();
+    // true if the OS version is 6.2 or later
+    var isOSWin8OrLater = (ver.major == 6 && ver.minor >= 2) || (ver.major > 6);
+    var preVista = (ver.major < 6);
+
+    // This re-launches the script under an elevated cscript window if it's either
+    // not already running as elevated, or it's running under wscript.exe instead.
+    // Note that is doesn't pass any arguments, because this particular script doesn't have any
+    var validateElevatedCScript = function () {
+
+        // Return "Elevated", "Not elevated", "Unknown", or "Error" regarding elevation status
+        var elevatedStatus = function () {
+            if (preVista)
+                return "Unknown";
+            // From technet, translated from VBScript & munged
+            var whoami = runToCompletion("whoami", "/groups", false);
+            if (whoami.ExitCode == 0) {
+                if (whoami.StdOut.indexOf("S-1-16-12288") >= 0) {
+                    return "Elevated";
+                } else if (whoami.StdOut.indexOf("S-1-16-8192") >= 0) {
+                    return "Not elevated";
+                } else {
+                    return "Unknown";
+                }
+            } else if (whoami.StdErr.length != 0) {
+                WScript.Echo(whoami.StdErr.ReadAll());
+            }
+            return "Error";
+        }();
+
+        var shell = WScript.CreateObject("Shell.Application");
+        var scriptHost = WScript.FullName; // This is the path to cscript.exe or wscript.exe
+        var wsfPath = WScript.ScriptFullName; // This is the full path to the .wsf file being run
+        var isCScript = scriptHost.toLowerCase().indexOf("\\cscript.exe") >= 0;
+
+        if (isCScript && elevatedStatus != "Not elevated")
+            return;
+        if (!isCScript)
+            scriptHost = fso.GetParentFolderName(scriptHost) + "\\cscript.exe";
+        if (preVista)
+            shell.ShellExecute(scriptHost, "\"" + wsfPath + "\"");
+        else
+            shell.ShellExecute(scriptHost, "\"" + wsfPath + "\"", "", "runas", 1);
+        WScript.Quit(0);
+    }();
+
+    var drainNGenQueue = function (ver) {
+        var dotNetRoot = wsh.ExpandEnvironmentStrings("%windir%\\Microsoft.NET\\Framework");
+        var getNGenBinary = function (is64Bit, ver) {
+            return dotNetRoot + (is64Bit ? "64" : "") + "\\" + ver + "\\ngen.exe";
+        }
+        var ngen32 = getNGenBinary(false, ver);
+        var ngen64 = getNGenBinary(true, ver);
+        var argument = "executeQueuedItems";
+
+        runToCompletion(ngen32, argument, true);
+        if (is64bit)
+            runToCompletion(ngen64, argument, true);
+    }
+    var drainAppStoreQueue = function () {
+        var schTasks = wsh.ExpandEnvironmentStrings("%windir%\\System32\\schtasks.exe");
+        var arguments = "/run /Tn \"\\Microsoft\\Windows\\.NET Framework\\.NET Framework NGEN v4.0.30319";
+        runToCompletion(schTasks, arguments + "\"", true);
+        if (is64bit)
+            runToCompletion(schTasks, arguments + " 64\"", true);
+    }
+
+    drainNGenQueue(isV4Installed ? "v4.0.30319" : "v2.0.50727");
+    if (isOSWin8OrLater) {
+        drainAppStoreQueue();
+    }
+</script>
+</job></package>

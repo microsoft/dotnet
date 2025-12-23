@@ -1,0 +1,493 @@
+{
+  "vsversions": [
+    {
+      "alias": "VS2013",
+      "name": "Visual Studio 2013",
+      "download": "http://www.visualstudio.com/downloads"
+    },
+    {
+      "alias": "VS2015",
+      "name": "Visual Studio 2015",
+      "download": "http://www.visualstudio.com/downloads"
+    },
+    {
+      "alias": "VS2017",
+      "name": "Visual Studio 2017",
+      "download": "http://www.visualstudio.com/downloads"
+    }
+  ],
+  "platformcategories": [
+    {
+      "alias": "netcore",
+      "name": ".NET Core"
+    },
+    {
+      "alias": "netfx",
+      "name": ".NET Framework"
+    },
+    {
+      "alias": "services",
+      "name": "Services"
+    },
+    {
+      "alias": "devices",
+      "name": "Devices"
+    },
+    {
+      "alias": "gaming",
+      "name": "Gaming"
+    }
+  ],
+  "platforms": [
+    {
+      "platform": ".NET Core 2.0",
+      "category": "netcore",
+      "supportInfo": {
+        "support": "Supported",
+        "link": ""
+      },
+      "popular": true,
+      "info": "https://blogs.msdn.microsoft.com/dotnet/2017/08/14/announcing-net-core-2-0/",
+      "includedIn": [],
+      "supportedBy": [
+        "VS2017"
+      ],
+      "runtime": [
+        {
+          "name": ".NET Core 2.0",
+          "link": "https://github.com/dotnet/core/blob/master/release-notes/download-archives/2.0.3.md"
+        }
+      ]
+    },    
+    {
+      "platform": ".NET Core 1.0 and 1.1",
+      "category": "netcore",
+      "supportInfo": {
+        "support": "Supported",
+        "link": ""
+      },
+      "popular": true,
+      "info": "https://blogs.msdn.microsoft.com/dotnet/2017/03/07/announcing-net-core-tools-1-0/",
+      "includedIn": [
+        "VS2017"
+      ],
+      "runtime": [
+        {
+          "name": ".NET Core 1.0",
+          "link": "https://github.com/dotnet/core/releases/tag/1.0.8"
+        },
+        {
+          "name": ".NET Core 1.1",
+          "link": "https://github.com/dotnet/core/releases/tag/1.1.5"
+        }
+      ]
+    },
+    {
+      "platform": ".NET Framework 4.8",
+      "alias": "net48",
+      "category": "netfx",
+      "supportInfo": {
+        "support": "Supported",
+        "link": ""
+      },
+      "popular": true,
+      "info": "http://go.microsoft.com/fwlink/?LinkId=2054306",
+      "supportedBy": [
+        "VS2019",
+        "VS2017"
+      ],
+      "runtime": [
+        {
+          "name": ".NET Framework 4.8",
+          "link": "http://go.microsoft.com/fwlink/?LinkId=2085155",
+          "directLink": "http://go.microsoft.com/fwlink/?LinkId=2085155&source=getdotnet&desc=dotnet48"
+        }
+      ],
+      "tools": [
+        {
+          "name": ".NET Framework 4.8 Developer Pack",
+          "link": "http://go.microsoft.com/fwlink/?LinkId=2085167",
+          "description": "The .NET 4.8 Developer pack includes 4.8 reference assemblies needed by Visual Studio and msbuild."
+        }
+      ]
+    },
+    {
+      "platform": ".NET Framework 4.7.2",
+      "alias": "net472",
+      "category": "netfx",
+      "supportInfo": {
+        "support": "Supported",
+        "link": ""
+      },
+      "popular": true,
+      "info": "http://go.microsoft.com/fwlink/?LinkId=863281",
+      "includedIn": [
+        "VS2019"
+      ],
+      "supportedBy": [
+        "VS2017",
+        "VS2015"
+      ],
+      "runtime": [
+        {
+          "name": ".NET Framework 4.7.2",
+          "link": "http://go.microsoft.com/fwlink/?LinkId=863262",
+          "directLink": "http://go.microsoft.com/fwlink/?LinkId=863262&source=getdotnet&desc=dotnet472"
+        }
+      ],
+      "tools": [
+        {
+          "name": ".NET Framework 4.7.2 Developer Pack",
+          "link": "http://go.microsoft.com/fwlink/?LinkId=863261",
+          "description": "The .NET 4.7.2 Developer pack includes 4.7.2 reference assemblies needed by Visual Studio and msbuild."
+        }
+      ]
+    },
+     {
+      "platform": ".NET Framework 4.7.1",
+      "alias": "net471",
+      "category": "netfx",
+      "supportInfo": {
+        "support": "Supported",
+        "link": ""
+      },
+      "popular": true,
+      "info": "http://go.microsoft.com/fwlink/?LinkId=852091",
+      "includedIn": [
+        "VS2017"
+      ],
+      "supportedBy": [
+        "VS2015"
+      ],
+      "runtime": [
+        {
+          "name": ".NET Framework 4.7.1",
+          "link": "http://go.microsoft.com/fwlink/?LinkId=852095",
+          "directLink": "http://go.microsoft.com/fwlink/?LinkId=852092&source=getdotnet&desc=dotnet471"
+        }
+      ],
+      "tools": [
+        {
+          "name": ".NET Framework 4.7.1 Developer Pack",
+          "link": "http://go.microsoft.com/fwlink/?LinkId=852105",
+          "description": "The .NET 4.7.1 Developer pack includes 4.7.1 reference assemblies needed by Visual Studio and msbuild."
+        }
+      ]
+    },
+    {
+      "platform": ".NET Framework 4.7",
+      "alias": "net47",
+      "category": "netfx",
+      "supportInfo": {
+        "support": "Supported",
+        "link": ""
+      },
+      "popular": true,
+      "info": "http://go.microsoft.com/fwlink/?LinkID=825321",
+      "includedIn": [
+        "VS2017"
+      ],
+      "supportedBy": [
+        "VS2015"
+      ],
+      "runtime": [
+        {
+          "name": ".NET Framework 4.7",
+          "link": "http://go.microsoft.com/fwlink/?LinkId=825299",
+          "directLink": "http://go.microsoft.com/fwlink/?LinkId=825302&source=getdotnet&desc=dotnet47"
+        }
+      ],
+      "tools": [
+        {
+          "name": ".NET Framework 4.7 Developer Pack",
+          "link": "http://go.microsoft.com/fwlink/?LinkId=825319",
+          "description": "The .NET 4.7 Developer pack includes 4.7 reference assemblies needed by Visual Studio and msbuild."
+        }
+      ]
+    },
+    {
+      "platform": ".NET Framework 4.6.2",
+      "alias": "net462",
+      "category": "netfx",
+      "supportInfo": {
+        "support": "Supported",
+        "link": ""
+      },
+      "popular": true,
+      "info": "http://go.microsoft.com/fwlink/?LinkID=708776",
+      "includedIn": [
+        "VS2017"
+      ],
+      "supportedBy": [
+        "VS2015",
+        "VS2013"
+      ],
+      "runtime": [
+        {
+          "name": ".NET Framework 4.6.2",
+          "link": "http://go.microsoft.com/fwlink/?LinkId=780597",
+          "directLink": "http://go.microsoft.com/fwlink/?LinkID=780596&source=getdotnet&desc=dotnet462"
+        }
+      ],
+      "tools": [
+        {
+          "name": ".NET Framework 4.6.2 Developer Pack",
+          "link": "http://go.microsoft.com/fwlink/?LinkId=780617",
+          "description": "The .NET 4.6.2 Developer pack includes 4.6.2 reference assemblies needed by Visual Studio and msbuild."
+        }
+      ]
+    },
+    {
+      "platform": ".NET Framework 4.6.1",
+      "alias": "net461",
+      "category": "netfx",
+      "supportInfo": {
+        "support": "Supported",
+        "link": ""
+      },
+      "info": "http://blogs.msdn.com/b/dotnet/archive/2015/11/30/net-framework-4-6-1-is-now-available.aspx",
+      "includedIn": [
+        "VS2017",
+        "VS2015"
+      ],
+      "supportedBy": [
+        "VS2013"
+      ],
+      "runtime": [
+        {
+          "name": ".NET Framework 4.6.1",
+          "link": "http://go.microsoft.com/fwlink/?LinkId=671729"
+        }
+      ],
+      "tools": [
+        {
+          "name": ".NET Framework 4.6.1 Targeting Pack",
+          "link": "http://go.microsoft.com/fwlink/?LinkId=690706",
+          "description": "The .NET 4.6.1 Developer pack includes the 4.6.1 reference assemblies needed by Visual Studio and msbuild."
+        }
+      ]
+    },
+    {
+      "platform": ".NET Framework 4.6",
+      "alias": "net46",
+      "category": "netfx",
+      "supportInfo": {
+        "support": "Supported",
+        "link": ""
+      },
+      "info": "http://blogs.msdn.com/b/dotnet/archive/2015/07/20/announcing-net-framework-4-6.aspx",
+      "includedIn": [
+        "VS2017",
+        "VS2015"
+      ],
+      "supportedBy": [
+        "VS2013"
+      ],
+      "runtime": [
+        {
+          "name": ".NET Framework 4.6",
+          "link": "http://go.microsoft.com/fwlink/?LinkId=528259"
+        }
+      ],
+      "tools": [
+        {
+          "name": ".NET Framework 4.6 Targeting Pack",
+          "link": "http://go.microsoft.com/fwlink/?LinkId=528261",
+          "description": "The .NET 4.6 Developer pack includes the 4.6 reference assemblies needed by Visual Studio and msbuild."
+        }
+      ]
+    },
+    {
+      "platform": ".NET Framework 4.5.2",
+      "alias": "net452",
+      "category": "netfx",
+      "supportInfo": {
+        "support": "Supported",
+        "link": ""
+      },
+      "popular": true,
+      "info": "http://go.microsoft.com/fwlink/?LinkID=309958",
+      "includedIn": [
+        "VS2017",
+        "VS2015"
+      ],
+      "supportedBy": [
+        "VS2013"
+      ],
+      "runtime": [
+        {
+          "name": ".NET Framework 4.5.2",
+          "link": "http://go.microsoft.com/fwlink/?LinkId=397674",
+          "directLink": "http://go.microsoft.com/fwlink/?LinkId=328855&source=getdotnet&desc=dotnet452"
+        }
+      ],
+      "tools": [
+        {
+          "name": ".NET Framework 4.5.2 Developer Pack",
+          "link": "http://go.microsoft.com/fwlink/?LinkId=328857",
+          "description": "The .NET 4.5.2 Developer pack includes the .NET framework 4.5.2 runtime and targeting pack."
+        },
+        {
+          "name": ".NET Framework 4.5.2 Language Packs",
+          "link": "http://go.microsoft.com/fwlink/?LinkId=328858",
+          "description": "Resources to support languages other than English."
+        }
+      ]
+    },
+    {
+      "platform": ".NET Framework 2.0 + 3.5 SP1",
+      "alias": "net2",
+      "category": "netfx",
+      "supportInfo": {
+        "support": "Supported",
+        "link": ""
+      },
+      "popular": true,
+      "info": "http://msdn.microsoft.com/library/w0x726c2(VS.90).aspx",
+      "includedIn": [],
+      "supportedBy": [
+        "VS2019",
+        "VS2017",
+        "VS2015",
+        "VS2013"
+      ],
+      "runtime": [
+        {
+          "name": ".NET Framework 3.5 SP1",
+          "link": "http://go.microsoft.com/fwlink/?LinkID=229190",
+          "directLink": "http://download.microsoft.com/download/2/0/E/20E90413-712F-438C-988E-FDAA79A8AC3D/dotnetfx35.exe?source=getdotnet&desc=dotnet35"
+        },
+        {
+          "name": ".NET Framework 3.5 SP1 (Windows 8+)",
+          "link": "https://docs.microsoft.com/dotnet/framework/install/dotnet-35-windows-10"
+        }
+      ],
+      "tools": []
+    },
+    {
+      "platform": "Microsoft Azure",
+      "category": "services",
+      "info": "http://msdn.microsoft.com/library/azure",
+      "includedIn": [
+        "VS2017"
+      ],
+      "supportedBy": [
+        "VS2015",
+        "VS2013"
+      ],
+      "tools": [
+        {
+          "name": "Azure SDK for .NET",
+          "link": "http://go.microsoft.com/fwlink/?LinkID=254336"
+        }
+      ]
+    },
+    {
+      "platform": "Team Foundation Server",
+      "category": "services",
+      "info": "http://go.microsoft.com/fwlink/?LinkID=308920",
+      "includedIn": [
+        "VS2015",
+        "VS2013",
+        "VS2012"
+      ],
+      "supportedBy": []
+    },
+    {
+      "platform": "Office 365, Office and SharePoint",
+      "category": "services",
+      "info": "http://go.microsoft.com/fwlink/?LinkID=308921",
+      "includedIn": [
+        "VS2017",
+        "VS2015",
+        "VS2013"
+      ],
+      "supportedBy": []
+    },
+    {
+      "platform": "OneDrive",
+      "category": "services",
+      "info": "http://go.microsoft.com/fwlink/?LinkID=306598",
+      "includedIn": [],
+      "supportedBy": [
+        "VS2017",
+        "VS2015",
+        "VS2013",
+        "VS2012"
+      ],
+      "tools": [
+        {
+          "name": "Live SDK",
+          "link": "http://go.microsoft.com/fwlink/?LinkID=306598"
+        }
+      ]
+    },
+    {
+      "platform": "Bing",
+      "category": "services",
+      "info": "http://www.bing.com/dev",
+      "includedIn": [],
+      "supportedBy": [
+        "VS2017",
+        "VS2015",
+        "VS2013"
+      ]
+    },
+    {
+      "platform": "Windows Store",
+      "category": "devices",
+      "info": "http://msdn.microsoft.com/windows/apps",
+      "includedIn": [
+        "VS2013"
+      ],
+      "supportedBy": [],
+      "tools": [
+        {
+          "name": "Visual Studio Express 2013 for Windows with Update 2 RC ",
+          "link": "http://www.microsoft.com/download/details.aspx?id=42305"
+        },
+        {
+          "name": "Microsoft .NET Native",
+          "link": "http://msdn.microsoft.com/vstudio/dotnetnative"
+        }
+      ]
+    },
+    {
+      "platform": "Xamarin",
+      "category": "devices",
+      "info": "http://xamarin.com",
+      "includedIn": [
+        "VS2017"
+      ],
+      "supportedBy": [
+        "VS2015",
+        "VS2013"
+      ],
+      "runtime": [],
+      "tools": [
+        {
+          "name": "Xamarin Tools for iOS and Android",
+          "link": "http://go.microsoft.com/fwlink/?LinkID=398052"
+        }
+      ]
+    },
+    {
+      "platform": "Unity",
+      "category": "gaming",
+      "info": "https://blogs.msdn.microsoft.com/visualstudio/2016/07/14/visual-studio-tools-for-unity-2-3/",
+      "includedIn": [
+        "VS2017"
+      ],
+      "supportedBy": [
+        "VS2015"
+      ],
+      "runtime": [],
+      "tools": [
+        {
+          "name": "Visual Studio 2015 Tools for Unity",
+          "link": "https://visualstudiogallery.msdn.microsoft.com/8d26236e-4a64-4d64-8486-7df95156aba9"
+        }
+      ]
+    }
+  ]
+}

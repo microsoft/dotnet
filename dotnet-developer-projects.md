@@ -393,6 +393,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [Material Design in XAML Toolkit](https://github.com/ButchersBoy/MaterialDesignInXamlToolkit) - WPF/XAML resources, styles & templates for creating applications using Material Design
   * [Mono XWT](https://github.com/mono/xwt) - A cross-platform UI toolkit for creating desktop apps
   * [Neutronium](https://github.com/NeutroniumCore/Neutronium) - Neutronium is a library to create .NET desktop applications using HTML, CSS and javascript. It uses the MVVM pattern exactly the same way as WPF applications.
+  * [SharpConsoleUI](https://github.com/nickprotop/ConsoleEx) - Console windowing system for .NET with overlapping windows, drag/resize/minimize/maximize, 30+ controls, embedded terminal emulator, and async per-window threads.
   * [UWP Community Toolkit](https://github.com/Microsoft/UWPCommunityToolkit) - The UWP Community Toolkit is a collection of helper functions, custom controls, and app services. It simplifies and demonstrates common developer tasks building UWP apps for Windows 10.
   * [Windows Ribbon](https://github.com/harborsiem/WindowsRibbon) - Windows Ribbon for WinForms is a .NET wrapper for Microsoft Windows Ribbon  and a toolkit for design and preview.
 

@@ -32,6 +32,9 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
 ## Crypto Currency
  * [CoiniumServ](https://github.com/CoiniumServ/CoiniumServ) - A high performance, extremely efficient, platform-agnostic, easy to setup bitcoin & alt-coin pool server implementation. It features stratum services, reward, payment, share processors, vardiff & ban managers, user-friendly embedded web-server & front-end and a full-stack API.
 
+## Health and Fitness
+ * [Longevity World Cup](https://github.com/nopara73/LongevityWorldCup) - [longevityworldcup.com](https://longevityworldcup.com/) - An open source longevity sport platform for biological-age competitions, athlete profiles, leaderboards, and public longevity data.
+
 ## Online Algorithm Competitions
  * [OpenJudgeSystem](https://github.com/NikolayIT/OpenJudgeSystem) - An open source system for online algorithm competitions. The algorithm competitions (currently available in C#, C++, JavaScript, Java and PHP programming languages) are timed contests where all contestants compete online and are given the same algorithmic problems to solve under the same time and memory constraints.
 

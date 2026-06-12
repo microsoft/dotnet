@@ -206,6 +206,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [Spartacus](https://github.com/wind39/spartacus) - Multi-purpose C# library, containing: 1) classes to access many types of databases in a fast, generic way; 2) classes to work with XLSX, CSV and DBF files; 3) PDF report engine.
   * [Splat](https://github.com/paulcbetts/splat) - A library to make things cross-platform that should be.
   * [SSH.NET](https://github.com/sshnet/SSH.NET) - A client-side library for SSH, SCP and SFTP.
+  * [StoryCADLib](https://github.com/storybuilder-org/StoryCAD) - Story outlining library for fiction writing tools; reads and writes StoryCAD outlines, validates story structure, and applies narrative craft frameworks. [Docs and samples](https://api.storybuilder.org).
   * [Strongly Typed Client API Generators for ASP.NET Web API](https://github.com/zijianhuang/webapiclientgen) - Strongly Typed Client API Generators generate strongly typed client API in TypeScript and C# codes supporting desktop, Universal Windows, Android and iOS.
   * [Stuntman](https://github.com/ritterim/stuntman) - OWIN middleware for quickly mocking authentication/authorization use case scenarios locally. Supports Cookie Authentication and Bearer Token Authentication.
   * [SuperSocket](https://github.com/kerryjiang/SuperSocket) - An extensible socket server engine which supports .NET and Mono.

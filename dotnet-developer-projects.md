@@ -274,6 +274,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [CppSharp](https://github.com/mono/CppSharp) - C/C++ bindings generation for .NET.
   * [Crawler-Lib Build Tools](http://download.crawler-lib.net/BuildTools/) -  [A PowerShell based toolbox](http://www.crawler-lib.net/build-tools) for automating the software build process, automated testing and integration.
   * [dnSpy](https://github.com/0xd4d/dnSpy) - A .NET decompiler, debugger, and assembly editor that lets you edit and debug assemblies even if you don't have their source code.
+  * [DotNetOpenApiExtract](https://github.com/rebaseandpanic/dotnet-openapi-extract) - Generates OpenAPI descriptions from compiled ASP.NET Core assemblies by static analysis, without starting the application; validates them in CI.
   * [FAKE](http://fsharp.github.io/FAKE/) - Build automation system with capabilities which are similar to make and rake.
   * [FlubuCore](https://github.com/flubu-core/flubu.core) - A cross platform build and deployment automation system for building projects and executing deployment scripts using C# code.
   * [Fody](https://github.com/Fody/Fody) - Extensible tool for weaving .NET assemblies.

@@ -292,6 +292,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [NsDepCop](https://github.com/realvizu/NsDepCop) - Static code analysis tool to enforce namespace dependency rules in C# projects.
   * [Obfuscar](https://www.obfuscar.com/) - MSIL obfuscation utility for .NET assemblies.
   * [OmniDB](https://github.com/OmniDB/OmniDB) - Web tool for database management and conversion. [Site](http://omnidb.com.br)
+  * [OpenDevelop](https://github.com/lextudio/OpenDevelop) - A modern, open-source, cross-platform IDE for C# and .NET, built from the best ideas and technologies across the .NET development tools ecosystem.
   * [Outcomes.Net](https://github.com/kinetiq/Ether.Outcomes/) - Fluent wrapper that eliminates plumbing code around failure-prone functions.
   * [Paket](https://github.com/fsprojects/Paket) - Dependency manager for .NET and Mono projects, which is designed to work well with NuGet packages and also enables referencing files directly from GitHub repositories.
   * [Polly](https://github.com/App-vNext/Polly) - A resilience and transient-fault-handling library that allows developers to express policies such as Retry, Circuit Breaker, Timeout, Bulkhead Isolation, and Fallback in a fluent and thread-safe manner.

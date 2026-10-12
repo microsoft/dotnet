@@ -55,6 +55,8 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [IdentityServer](https://github.com/IdentityServer/IdentityServer4) - OpenID Connect and OAuth 2.0 Framework for ASP.NET Core.
   * [NWebsec](https://github.com/NWebsec/NWebsec) - Security headers for ASP.NET applications.
   * [SKGL - Serial Key Generating Library](https://github.com/SerialKeyManager/SKGL) - A very simple licensing system that can be used to protect .NET Applications.
+  * [NWebsec](https://github.com/NWebsec/NWebsec) - Security headers for ASP.NET applications.
+  * [KeyVaultSigning](https://github.com/CompositionalIT/KeyVaultSigning) - Use digital signatures and signing with Azure KeyVault
 
 ## Web CMS
   * [Composite C1](https://github.com/Orckestra/C1-CMS) - Web content management platform (CMS).
@@ -81,6 +83,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
 
 ## Static Site Generators
   * [FsBlog](https://github.com/fsprojects/FsBlog/) - Blog aware, static site generation using F#.
+  * [Fornax](https://github.com/ionide/Fornax) - Scriptable static site generator
   * [Pretzel](https://github.com/Code52/pretzel) - A site generation tool (and then some) for .NET platforms.
   * [Sandra.Snow](https://github.com/Sandra/Sandra.Snow) - Jekyll inspired static site generation for .NET.
   * [Wyam](http://wyam.io) - A simple to use, highly modular, and extremely configurable static content generator.
@@ -160,6 +163,8 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [FluentValidation](https://github.com/JeremySkinner/FluentValidation) - A small validation library for .NET that uses a fluent interface and lambda expressions for building validation rules.
   * [Flurl](https://github.com/tmenier/Flurl) - A fluent, portable, testable URL builder and HTTP client library.
   * [Font-Awesome-WPF](https://github.com/charri/Font-Awesome-WPF) - WPF controls for the iconic font and CSS toolkit [Font Awesome](http://fortawesome.github.io/Font-Awesome/).
+  * [FSharp.Azure.Quantum](https://github.com/Thorium/fsharp.azure.quantum) - Quantum computing for .NET
+  * [FSharp.Finance.Personal](https://github.com/simontreanor/FSharp.Finance.Personal) - Personal finance interest calculation library for .NET
   * [GeckoFX](https://bitbucket.org/geckofx) - Mozilla's Gecko layout engine wrapper in .NET.
   * [GeoTimeZone](https://github.com/mj1856/GeoTimeZone) - Provides an IANA time zone identifier from latitude and longitude coordinates. 
   * [GongSolutions.Wpf.DragDrop](https://github.com/punker76/gong-wpf-dragdrop) - A drag'n'drop framework for WPF.
@@ -173,6 +178,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [Lexical.Localization](http://lexical.fi/Localization/index.html) - Localization class library for .NET.
   * [LibGit2Sharp](https://github.com/libgit2/libgit2sharp) - C# language bindings for the [LibGit2](https://github.com/libgit2/libgit2) implementation of Git.
   * [LINQ Extensions](https://github.com/TommasoScalici/LINQExtensions) - LINQ extensions for .NET is a collection of useful extensions methods that extends LINQ's capability. There are methods for combinatorics and sequence analysis, generation and manipulation.
+  * [Linq.Expression.Optimizer](https://thorium.github.io/Linq.Expression.Optimizer/) - Optimize LINQ queries that are translated to SQL
   * [LiteDB](https://github.com/mbdavid/LiteDB) - a small, fast and lightweight .NET NoSQL embedded document database.
   * [Localization.SqlLocalizer]( https://github.com/damienbod/AspNet5Localization) - SQL Localizer for ASP.NET Core, dotnet
   * [Lucene.Net](https://github.com/apache/lucene.net) - A .NET full-text search engine framework that is a C# port of the popular Apache Lucene project.
@@ -229,6 +235,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [AForge.NET](http://www.aforgenet.com/) - a C# framework designed for developers and researchers in the fields of Computer Vision and Artificial Intelligence - image processing, neural networks, genetic algorithms, machine learning, robotics.
   * [Accord.NET Framework](https://github.com/accord-net/framework) - The Accord.NET Framework is a .NET machine learning framework combined with audio and image processing libraries completely written in C#.
   * [Catalyst](https://github.com/curiosity-ai/catalyst) - pure C# Natural Language Processing library built for speed. Inspired by spaCy's design, it brings pre-trained models, out-of-the box support for training word and document embeddings, and flexible entity recognition models.
+  * [Fuuga](https://bitbucket.org/Thorium/fuuga) - LLM model generator for .NET
   * [Nepy](https://github.com/tonyqus/nepy) - A collection of NLP parsers for .NET. (Not Updated in 3 Years - 4/2018)
   * [SharpNLP](http://sharpnlp.codeplex.com) - SharpNLP is a collection of natural language processing tools written in C#. (No Recent Updates - Still On Codeplex - 4/2018)
   * [Toxy](https://github.com/tonyqus/toxy) - An data/text extraction framework for .NET, similar to Tika in Java. (Not Updated in 2 Years - 4/2018)
@@ -273,6 +280,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [CInject](https://github.com/punitganshani/CodeInject) - A tool to inject your C#/VB.NET code into existing .NET assemblies and executables
   * [CppSharp](https://github.com/mono/CppSharp) - C/C++ bindings generation for .NET.
   * [Crawler-Lib Build Tools](http://download.crawler-lib.net/BuildTools/) -  [A PowerShell based toolbox](http://www.crawler-lib.net/build-tools) for automating the software build process, automated testing and integration.
+  * [csharp-refactor](https://github.com/Thorium/csharp-refactor) - A tool to clean-up (agent-generated or old) C# code.
   * [dnSpy](https://github.com/0xd4d/dnSpy) - A .NET decompiler, debugger, and assembly editor that lets you edit and debug assemblies even if you don't have their source code.
   * [FAKE](http://fsharp.github.io/FAKE/) - Build automation system with capabilities which are similar to make and rake.
   * [FlubuCore](https://github.com/flubu-core/flubu.core) - A cross platform build and deployment automation system for building projects and executing deployment scripts using C# code.
@@ -407,6 +415,8 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
 
 ## Deployment
   * [DropkicK](https://github.com/chucknorris/dropkick/) - A fluent deployment library for Windows applications
+  * [Farmer](https://compositionalit.github.io/farmer/) - Infrastructure as code for Windows Azure
+  * [FsCDK](https://totallymoney.github.io/FsCDK/) - Infrastructure as code for AWS
   * [RoundHouse](https://github.com/chucknorris/roundhouse) - RoundhousE is a Database Migration Utility for .NET using sql files and versioning based on source control
 
 ## Service Bus

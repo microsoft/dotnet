@@ -6,6 +6,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
 
 ## Media Streaming/Media file Editor
  * [Media Browser](https://github.com/mediabrowser/) - [www.mediabrowser.tv](http://www.mediabrowser.tv) - A client/server application that allows you to easily manage your own media content and present it in an eye catching way. Server runs on Windows, Linux and Mac. Clients are for WP, Android, iOS, Media Centre, Windows, Roku, etc.
+ * [Nostos](https://github.com/Christian-Gennari/Nostos) - [nostos.page](https://nostos.page) - A local-first reading environment and digital study for books and audiobooks, with OPDS catalog support, EPUB/PDF reader, marginalia, and connected notes.
  * [Pinta](https://github.com/PintaProject/Pinta) - A simple drawing/editing program modeled after Paint.NET
 
 ## Audio players
